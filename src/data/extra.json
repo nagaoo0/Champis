@@ -1,22 +1,390 @@
 {
   "glossary": [
-    { "term": "Anneau", "def": "Reste du voile partiel, resté autour du pied après l'ouverture du chapeau.", "img": "picto-anneau-descendant" },
-    { "term": "Lames", "def": "Feuillets disposés sous le chapeau, qui portent les spores.", "img": "picto-lames-libres" },
-    { "term": "Volve", "def": "Reste du voile général, en forme de sac ou de bourrelet à la base du pied.", "img": "picto-volve-sac" }
+    {
+      "term": "Hyménium",
+      "def": "Surface fertile où se forment les spores (lamelles, tubes, aiguillons)."
+    },
+    {
+      "term": "Mycélium",
+      "def": "Réseau souterrain de filaments (hyphes) constituant le corps principal du champignon."
+    },
+    {
+      "term": "Sporée",
+      "def": "Poudre colorée résultant de la chute des spores, utilisée pour l'identification. Sa couleur conditionne la couleur des lames mûres.",
+      "img": "picto-sporee"
+    },
+    {
+      "term": "Lamelles",
+      "def": "Structures en forme de lames sous le chapeau, contenant les spores."
+    },
+    {
+      "term": "Pied",
+      "def": "Partie allongée du champignon qui soutient le chapeau (aussi appelé stipe).",
+      "img": "picto-anatomie"
+    },
+    {
+      "term": "Anneau",
+      "def": "Membrane résiduelle autour du pied, vestige du voile partiel. Membraneux en haut du pied, parfois pendant à la marge du chapeau.",
+      "img": "picto-anneau-descendant"
+    },
+    {
+      "term": "Volve",
+      "def": "Enveloppe à la base du pied, vestige du voile universel (voile général).",
+      "img": "picto-volve-sac"
+    },
+    {
+      "term": "Chapeau",
+      "def": "Partie supérieure du champignon protégeant l'hyménium."
+    },
+    {
+      "term": "Cuticule",
+      "def": "Peau du chapeau, parfois pelucheuse, visqueuse ou craquelée."
+    },
+    {
+      "term": "Exemplaire mature",
+      "def": "Champignon développé, idéal pour l'observation et l'identification."
+    },
+    {
+      "term": "Saprotrophe",
+      "def": "Champignon qui se nourrit de matière organique morte."
+    },
+    {
+      "term": "Symbiotique (mycorhizien)",
+      "def": "Champignon associé aux racines des plantes, échangeant nutriments."
+    },
+    {
+      "term": "Parasite",
+      "def": "Champignon vivant au détriment d'un organisme hôte vivant."
+    },
+    {
+      "term": "Hyménophore",
+      "def": "Partie fertile du champignon, porteuse de l'hyménium. On examine son orientation (infère, supère, amphigène, interne) et sa structure (lisse, aculéolé, tubulé-poré, plissé, lamellé)."
+    },
+    {
+      "term": "Infère",
+      "def": "Se dit d'un hyménophore dirigé vers le bas."
+    },
+    {
+      "term": "Supère",
+      "def": "Se dit d'un hyménophore dirigé vers le haut."
+    },
+    {
+      "term": "Amphigène",
+      "def": "Se dit d'un hyménophore qui recouvre toute la surface du champignon, sans orientation unique (le livret cite le terme sans le définir)."
+    },
+    {
+      "term": "Interne",
+      "def": "Se dit d'un hyménophore enfermé à l'intérieur du champignon (vesses-de-loup et apparentés, Gasteromycetidae)."
+    },
+    {
+      "term": "Aculéolé",
+      "def": "Se dit d'un hyménophore à aiguillons."
+    },
+    {
+      "term": "Tubulé-poré",
+      "def": "Se dit d'un hyménophore formé de tubes qui s'ouvrent par des pores (tubes, pores)."
+    },
+    {
+      "term": "Lamelle / lamellule",
+      "def": "Les lamelles sont les lames sous le chapeau (p. 43). Le livret parle aussi de lamellules (« toujours avec lamellules », « la plupart des russules n'ont pas de lamellules », « lamellules toujours absentes » chez les chanterelles) sans les définir : ce sont les petites lames intercalées entre les lames principales."
+    },
+    {
+      "term": "Lames libres",
+      "def": "Lames qui ne touchent pas le pied (d'après le dessin p. 1).",
+      "img": "picto-lames-libres"
+    },
+    {
+      "term": "Lames adnées",
+      "def": "Lames attachées au pied sur toute leur largeur (d'après le dessin p. 1).",
+      "img": "picto-lames-adnees"
+    },
+    {
+      "term": "Lames échancrées",
+      "def": "Lames présentant une échancrure près du pied (d'après le dessin p. 1).",
+      "img": "picto-lames-echancrees"
+    },
+    {
+      "term": "Lames décurrentes",
+      "def": "Lames qui descendent sur le pied (d'après le dessin p. 1).",
+      "img": "picto-lames-decurrentes"
+    },
+    {
+      "term": "Chair fibreuse",
+      "def": "Chair se cassant en fibres, à la manière des asperges ; texture filamenteuse.",
+      "img": "picto-chair-fibreuse"
+    },
+    {
+      "term": "Chair grenue",
+      "def": "Chair à cassure nette, s'émiettant facilement sans direction ; le pied se brise comme un bâton de craie (texture granuleuse).",
+      "img": "picto-chair-grenue"
+    },
+    {
+      "term": "Voile général",
+      "def": "Voile qui enveloppe le champignon jeune. Il laisse une volve (à la base du pied) ou des flocons labiles (sur le chapeau)."
+    },
+    {
+      "term": "Voile partiel",
+      "def": "Voile qui laisse un anneau, une cortine ou une armille."
+    },
+    {
+      "term": "Flocons",
+      "def": "Restes labiles du voile général sur le chapeau (voile général friable : flocons sur chapeau).",
+      "img": "picto-voile-friable"
+    },
+    {
+      "term": "Volve en sac",
+      "def": "Volve en forme de sac enveloppant la base du pied.",
+      "img": "picto-volve-sac"
+    },
+    {
+      "term": "Volve circoncise",
+      "def": "Volve limitée à un bourrelet à la base du pied (accompagnée de plaques sur le chapeau).",
+      "img": "picto-volve-circoncise"
+    },
+    {
+      "term": "Cortine",
+      "def": "Voile partiel semblable à l'anneau mais filamenteux. Souvent fugace.",
+      "img": "picto-cortine"
+    },
+    {
+      "term": "Armille",
+      "def": "Voile partiel enveloppant la base du pied comme une « chaussette »."
+    },
+    {
+      "term": "Anneau descendant",
+      "def": "Anneau dont la membrane pend vers le bas sur le pied.",
+      "img": "picto-anneau-descendant"
+    },
+    {
+      "term": "Anneau ascendant",
+      "def": "Anneau dont la membrane est relevée vers le chapeau.",
+      "img": "picto-anneau-ascendant"
+    },
+    {
+      "term": "Anneau double",
+      "def": "Anneau formé de deux bords superposés.",
+      "img": "picto-anneau-double"
+    },
+    {
+      "term": "Anneau coulissant",
+      "def": "Anneau mobile le long du pied.",
+      "img": "picto-anneau-coulissant"
+    },
+    {
+      "term": "Pied radicant",
+      "def": "Pied dont l'extrémité s'allonge en racine.",
+      "img": "picto-pied-radicant"
+    },
+    {
+      "term": "Pied bulbeux",
+      "def": "Pied dont l'extrémité est renflée en bulbe.",
+      "img": "picto-pied-bulbeux"
+    },
+    {
+      "term": "Pied clavé",
+      "def": "Pied dont l'extrémité est renflée en massue.",
+      "img": "picto-pied-clave"
+    },
+    {
+      "term": "Pied fusiforme",
+      "def": "Pied en forme de fuseau.",
+      "img": "picto-pied-fusiforme"
+    },
+    {
+      "term": "Pied ventru",
+      "def": "Pied renflé en son milieu.",
+      "img": "picto-pied-ventru"
+    },
+    {
+      "term": "Pied obèse",
+      "def": "Pied très épais, ramassé.",
+      "img": "picto-pied-obese"
+    },
+    {
+      "term": "Silhouette clitocyboïde",
+      "def": "Silhouette de type clitocybe (dessin p. 2).",
+      "img": "silhouette-clitocyboide"
+    },
+    {
+      "term": "Silhouette collybioïde",
+      "def": "Silhouette de type collybie : pied long et grêle sous un petit chapeau (dessin p. 2).",
+      "img": "silhouette-collybioide"
+    },
+    {
+      "term": "Silhouette mycénoïde",
+      "def": "Silhouette de type mycène (dessin p. 2).",
+      "img": "silhouette-mycenoide"
+    },
+    {
+      "term": "Silhouette marasmioïde",
+      "def": "Silhouette de type marasme, ici en touffes (dessin p. 2).",
+      "img": "silhouette-marasmioide"
+    },
+    {
+      "term": "Silhouette tricholomoïde",
+      "def": "Silhouette de type tricholome : champignon robuste, à pied épais et chapeau charnu (dessin p. 2).",
+      "img": "silhouette-tricholomoide"
+    }
   ],
   "guide": [
     {
-      "title": "Bien observer le chapeau",
-      "text": "Notez la forme, la couleur, la surface (lisse, visqueuse, écailleuse) et le bord du chapeau.\n\nObservez aussi des exemplaires jeunes et âgés.",
-      "images": ["picto-chapeau-convexe", "picto-chapeau-plat"]
+      "title": "1) Forme générale",
+      "text": "Distinction d'un pied et d'un chapeau, ou autres formes (coupes, éponges, boules, coraux...).",
+      "images": [
+        "p02-c"
+      ]
     },
     {
-      "title": "Le pied et sa base",
-      "text": "Déterrez le champignon entier pour voir la base du pied : une volve peut y être cachée.",
-      "images": ["picto-pied-bulbeux"]
+      "title": "2) Examen de la partie fertile (hyménophore)",
+      "text": "Orientation : infère (dirigé vers le bas), supère (vers le haut), amphigène, ou interne. Structure : lisse, aculéolé (à aiguillons), tubulé-poré, plissé, lamellé...",
+      "images": []
+    },
+    {
+      "title": "3) Chair",
+      "text": "Fibreuse (se cassant en fibres à la manière des asperges) ou grenue (cassure nette, s'émiettant facilement sans direction) ; parfois tenace, élastique, coriace, gélatineuse, friable, etc. Odeurs et saveurs jouent souvent un rôle important pour la reconnaissance des espèces.",
+      "images": [
+        "picto-chair-fibreuse",
+        "picto-chair-grenue"
+      ]
+    },
+    {
+      "title": "4) Voiles",
+      "text": "Voile général et voile partiel, à rechercher sur le pied ou le chapeau. Présence de voile général : volve (à la base du pied) ou flocons labiles (sur le chapeau). Présence de voile partiel : anneau (membraneux en haut du pied, parfois pendant à la marge du chapeau), cortine (idem, filamenteux), ou armille (enveloppant la base du pied comme une « chaussette »).",
+      "images": [
+        "picto-volve-sac",
+        "picto-anneau-descendant",
+        "picto-cortine"
+      ]
+    },
+    {
+      "title": "5) Insertion des lames",
+      "text": "Chez les champignons à lames.",
+      "images": [
+        "picto-lames-libres",
+        "picto-lames-adnees",
+        "picto-lames-echancrees",
+        "picto-lames-decurrentes"
+      ]
+    },
+    {
+      "title": "6) Couleur de la sporée",
+      "text": "Elle conditionne la couleur des lames mûres. Attention aux lames naturellement colorées ! (« pièges »).",
+      "images": [
+        "picto-sporee"
+      ]
+    },
+    {
+      "title": "7) Silhouettes",
+      "text": "Clitocyboïde, collybioïde, mycénoïde, marasmioïde, tricholomoïde.",
+      "images": [
+        "silhouette-clitocyboide",
+        "silhouette-collybioide",
+        "silhouette-mycenoide",
+        "silhouette-marasmioide",
+        "silhouette-tricholomoide"
+      ]
+    },
+    {
+      "title": "Sporée, méthode a) « de laboratoire »",
+      "text": "Déposer un chapeau coupé au ras du pied sur un papier en chambre humide. Après quelques heures : dépôt de sporée (amas de spores, disposés selon les reliefs de l'hyménophore).",
+      "images": [
+        "picto-sporee"
+      ]
+    },
+    {
+      "title": "Sporée, méthode b) observation approximative sur le terrain",
+      "text": "Sporophores bien mûrs, se méfier des exemplaires trop jeunes. Champignons en touffes : spores déposées sur les chapeaux inférieurs. Champignons à pied courbé : souvent déposées sur le pied (A). Sur les reliefs du pied (anneau, cortine, squames) (B) ; parfois sur la terre ou les débris situés sous les lames.",
+      "images": [
+        "p02-a",
+        "p02-b"
+      ]
+    },
+    {
+      "title": "Sporée, méthode c) déduction",
+      "text": "En comparant les couleurs des lames de spécimens jeunes et mûrs. Si la sporée est colorée, elle colore les lames adultes.",
+      "images": []
+    },
+    {
+      "title": "Planche : lames",
+      "text": "Lames libres, adnées, échancrées, décurrentes.",
+      "images": [
+        "picto-lames-libres",
+        "picto-lames-adnees",
+        "picto-lames-echancrees",
+        "picto-lames-decurrentes"
+      ]
+    },
+    {
+      "title": "Planche : formes du chapeau",
+      "text": "Plat, campanulé, conique, convexe, infundibuliforme.",
+      "images": [
+        "picto-chapeau-plat",
+        "picto-chapeau-campanule",
+        "picto-chapeau-conique",
+        "picto-chapeau-convexe",
+        "picto-chapeau-infundibuliforme"
+      ]
+    },
+    {
+      "title": "Planche : anatomie d'un champignon",
+      "text": "Trois groupes d'hyménophore : lamelles, tubes, aiguillons. Chapeau : écailles, verrues, cuticule, pores. Pied (ou stipe) : anneau ascendant, anneau descendant, réseau, stries longitudinales, volve.",
+      "images": [
+        "picto-anatomie"
+      ]
+    },
+    {
+      "title": "Planche : présence ou non d'un anneau",
+      "text": "Descendant, ascendant, cortine, anneau double, anneau coulissant.",
+      "images": [
+        "picto-anneau-descendant",
+        "picto-anneau-ascendant",
+        "picto-cortine",
+        "picto-anneau-double",
+        "picto-anneau-coulissant"
+      ]
+    },
+    {
+      "title": "Planche : texture de la chair",
+      "text": "Fibreuse, grenue.",
+      "images": [
+        "picto-chair-fibreuse",
+        "picto-chair-grenue"
+      ]
+    },
+    {
+      "title": "Planche : forme du pied",
+      "text": "Forme : fusiforme, ventru, obèse. Si le pied est dépourvu de volve, l'extrémité peut être radicante, bulbeuse ou clavée.",
+      "images": [
+        "picto-pied-fusiforme",
+        "picto-pied-ventru",
+        "picto-pied-obese",
+        "picto-pied-radicant",
+        "picto-pied-bulbeux",
+        "picto-pied-clave"
+      ]
+    },
+    {
+      "title": "Planche : présence d'un voile général",
+      "text": "Volve en sac. Volve circoncise (+ plaques sur chapeau). Voile général friable (+ flocons sur chapeau).",
+      "images": [
+        "picto-volve-sac",
+        "picto-volve-circoncise",
+        "picto-voile-friable"
+      ]
+    },
+    {
+      "title": "Règle de Moreau",
+      "text": "Les espèces à sporée blanche et silhouette collybioïde ont un pied résistant à la torsion. Cette résistance est exceptionnelle dans les autres groupes. Par conséquent, une espèce collybioïde à pied résistant à la torsion devra être recherchée dans les sporées blanches, quelle que soit la couleur des lames.",
+      "images": [
+        "silhouette-collybioide"
+      ]
     }
   ],
   "bibliography": [
-    "Livret de détermination de terrain (source des données de cette application)."
+    "BON M. - 2004 - Champignons de France et d'Europe occidentale. Flammarion.",
+    "BORGARINO D., HURTADO C. - 2011 - Le guide des champignons. Edisud.",
+    "COURTECUISSE R. - 1986 - Clé de détermination macroscopique des champignons supérieurs des régions du Nord de la France. Société Mycologique du Nord.",
+    "COURTECUISSE R., DUHEM B. - 1994 (rééd. 2012) - Guide des champignons de France et d'Europe. Delachaux et Niestlé.",
+    "EYSSARTIER G., ROUX P. 2009. Le guide des champignons, France et Europe. Belin."
   ]
 }

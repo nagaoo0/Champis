@@ -1,1409 +1,1409 @@
 {
-  "nodes": {
-    "p10": {
-      "page": 10,
-      "title": "Bolets",
-      "question": "Comment est le pied du bolet ?",
-      "choices": [
-        {
-          "label": "Pied « raboteux », couvert de petites écailles",
-          "hint": "souvent cylindrique ; pores blancs, jaunes ou gris, à insertion profondément échancrée : genre Leccinum (comestibles médiocres)",
-          "next": "p10-leccinum",
-          "img": "p10-1"
-        },
-        {
-          "label": "Pied sans écailles : lisse, guttulé ou réticulé",
-          "next": "p10-pied-lisse",
-          "img": "p10-2"
-        }
-      ]
+ "nodes": {
+  "p10": {
+   "page": 10,
+   "title": "Bolets",
+   "question": "Comment est le pied du bolet ?",
+   "choices": [
+    {
+     "label": "Pied « raboteux », couvert de petites écailles",
+     "hint": "souvent cylindrique ; pores blancs, jaunes ou gris, à insertion profondément échancrée : genre Leccinum (comestibles médiocres)",
+     "next": "p10-leccinum",
+     "img": "p10-1"
     },
-    "p10-leccinum": {
-      "page": 10,
-      "title": "Bolets : pied raboteux (Leccinum)",
-      "question": "De quelle couleur sont les pores ?",
-      "choices": [
-        {
-          "label": "Pores jaunes",
-          "species": "leccinum-crocopodium"
-        },
-        {
-          "label": "Pores blancs à gris",
-          "next": "p10-leccinum-gris"
-        }
-      ]
-    },
-    "p10-leccinum-gris": {
-      "page": 10,
-      "title": "Bolets : pied raboteux, pores blancs à gris",
-      "question": "Quelle est la couleur dominante du chapeau ?",
-      "choices": [
-        {
-          "label": "Chapeau de couleur dominante brune ou grise",
-          "next": "p10-leccinum-brun"
-        },
-        {
-          "label": "Chapeau de couleur orangée ou fauve",
-          "species": "leccinum-aurantiacum"
-        }
-      ]
-    },
-    "p10-leccinum-brun": {
-      "page": 10,
-      "title": "Bolets : Leccinum à chapeau brun ou gris",
-      "question": "Quel est l'aspect du chapeau et de la chair ?",
-      "choices": [
-        {
-          "label": "Chapeau lisse ; chair restant blanche au grattage",
-          "species": "leccinum-scabrum",
-          "img": "p10-1"
-        },
-        {
-          "label": "Chapeau bosselé ou craquelé, chair noircissante",
-          "species": "leccinum-carpini"
-        }
-      ]
-    },
-    "p10-pied-lisse": {
-      "page": 10,
-      "title": "Bolets : pied sans écailles",
-      "question": "Le chapeau est-il visqueux ou collant ?",
-      "choices": [
-        {
-          "label": "Chapeau visqueux ou collant",
-          "hint": "jamais de réseau sur le pied ; genre Suillus et ressemblants",
-          "next": "p10-suillus",
-          "img": "p10-4"
-        },
-        {
-          "label": "Chapeau sec ou seulement gras",
-          "next": "p10-chapeau-sec"
-        }
-      ]
-    },
-    "p10-suillus": {
-      "page": 10,
-      "title": "Bolets visqueux (Suillus et ressemblants)",
-      "question": "Y a-t-il un anneau sur le pied ?",
-      "choices": [
-        {
-          "label": "Présence d'un anneau",
-          "hint": "parfois lambeaux accrochés à la marge du chapeau",
-          "next": "p10-suillus-anneau"
-        },
-        {
-          "label": "Pas d'anneau",
-          "next": "p10-suillus-sans"
-        }
-      ]
-    },
-    "p10-suillus-anneau": {
-      "page": 10,
-      "title": "Bolets visqueux avec anneau",
-      "question": "Quelle est la couleur du chapeau et sous quels arbres pousse-t-il ?",
-      "choices": [
-        {
-          "label": "Chapeau brun châtain ; sous pins",
-          "species": "suillus-luteus",
-          "img": "p10-3"
-        },
-        {
-          "label": "Chapeau jaune ou orangé ; sous mélèzes",
-          "species": "suillus-grevillei"
-        }
-      ]
-    },
-    "p10-suillus-sans": {
-      "page": 10,
-      "title": "Bolets visqueux sans anneau",
-      "question": "Le pied est-il ponctué de granulations ?",
-      "choices": [
-        {
-          "label": "Pied ponctué de granulations ; chapeau roux orangé",
-          "species": "suillus-granulatus",
-          "img": "p10-4"
-        },
-        {
-          "label": "Pied lisse",
-          "next": "p10-pied-uni"
-        }
-      ]
-    },
-    "p10-pied-uni": {
-      "page": 10,
-      "title": "Bolets visqueux, pied lisse",
-      "question": "La chair est-elle jaune vif à la base du pied ?",
-      "choices": [
-        {
-          "label": "Chair jaune vif à la base du pied",
-          "species": "chalciporus-piperatus"
-        },
-        {
-          "label": "Chair non spécialement jaune à la base",
-          "next": "p10-pores"
-        }
-      ]
-    },
-    "p10-pores": {
-      "page": 10,
-      "title": "Bolets visqueux, chair non jaune à la base",
-      "question": "Les pores sont-ils décurrents ?",
-      "choices": [
-        {
-          "label": "Pores très décurrents, bleuissants",
-          "species": "gyrodon-lividus",
-          "img": "p10-6"
-        },
-        {
-          "label": "Pores non ou à peine décurrents",
-          "next": "p10-pied-aspect"
-        }
-      ]
-    },
-    "p10-pied-aspect": {
-      "page": 10,
-      "title": "Bolets visqueux, pores non décurrents",
-      "question": "Quel est l'aspect du pied ?",
-      "choices": [
-        {
-          "label": "Pied rayé de brun (aspect de bois poli)",
-          "species": "imleria-badia"
-        },
-        {
-          "label": "Pied jaunâtre comme le chapeau, uni",
-          "species": "suillus-bovinus"
-        }
-      ]
-    },
-    "p10-chapeau-sec": {
-      "page": 10,
-      "title": "Bolets : chapeau sec ou seulement gras",
-      "question": "Le chapeau est-il couvert d'écailles ?",
-      "choices": [
-        {
-          "label": "Chapeau couvert d'écailles remarquables, bistre-noirâtre",
-          "hint": "pores anguleux grisâtres",
-          "species": "strobilomyces-strobilaceus",
-          "img": "p10-5"
-        },
-        {
-          "label": "Chapeau non écailleux",
-          "hint": "page suivante",
-          "next": "p11-bleuissement"
-        }
-      ]
-    },
-    "p11-bleuissement": {
-      "page": 11,
-      "title": "Bolets : chapeau non écailleux",
-      "question": "Les pores bleuissent-ils au toucher ?",
-      "choices": [
-        {
-          "label": "Pores non bleuissants au toucher",
-          "next": "p11-non-bleuissants"
-        },
-        {
-          "label": "Pores bleuissants au toucher",
-          "next": "p11-bleuissants"
-        }
-      ]
-    },
-    "p11-non-bleuissants": {
-      "page": 11,
-      "title": "Bolets : pores non bleuissants",
-      "question": "Quels sont les pores et le pied ?",
-      "choices": [
-        {
-          "label": "Pores blancs ou verdâtres ; pied à réseau blanc",
-          "species": "boletus-edulis",
-          "img": "p11-4"
-        },
-        {
-          "label": "Pores blancs ou roses ; pied à réseau brun ; saveur amère",
-          "hint": "inconsommable !",
-          "species": "tylopilus-felleus",
-          "img": "p11-7"
-        },
-        {
-          "label": "Pores blancs brunissants au toucher ; pied lisse creux",
-          "species": "gyroporus-castaneus"
-        },
-        {
-          "label": "Pores jaune vif ou verdâtres, terminés en filet sur le pied ; pied sans réseau",
-          "next": "p11-jaune-filet"
-        }
-      ]
-    },
-    "p11-jaune-filet": {
-      "page": 11,
-      "title": "Bolets : pores jaunes terminés en filet",
-      "question": "Où pousse-t-il ?",
-      "choices": [
-        {
-          "label": "À terre, à chapeau velouté ou craquelé",
-          "next": "p11-a-terre"
-        },
-        {
-          "label": "Parasite sur scléroderme, chapeau lisse",
-          "species": "pseudoboletus-parasiticus"
-        }
-      ]
-    },
-    "p11-a-terre": {
-      "page": 11,
-      "title": "Bolets : à terre, chapeau velouté ou craquelé",
-      "question": "Quel est l'aspect du pied ?",
-      "choices": [
-        {
-          "label": "Pied rayé de rouge",
-          "species": "xerocomellus-chrysenteron",
-          "img": "p11-1"
-        },
-        {
-          "label": "Pied jaunâtre",
-          "species": "xerocomus-subtomentosus"
-        }
-      ]
-    },
-    "p11-bleuissants": {
-      "page": 11,
-      "title": "Bolets : pores bleuissants au toucher",
-      "question": "De quelle couleur sont les pores ?",
-      "choices": [
-        {
-          "label": "Pores jaunes (puis verts avec l'âge)",
-          "next": "p11-pores-jaunes"
-        },
-        {
-          "label": "Pores rouges à orangés",
-          "next": "p11-pores-rouges"
-        },
-        {
-          "label": "Pores blancs, très petits, bleuissants ; pied creux",
-          "species": "gyroporus-cyanescens"
-        },
-        {
-          "label": "Pores gris verdâtre ; chapeau méchuleux",
-          "species": "suillus-variegatus"
-        },
-        {
-          "label": "Pores à tubes décurrents",
-          "species": "gyrodon-lividus",
-          "img": "p10-6",
-          "note": "NB du livret : voir Gyrodon lividus p. 10 (6)"
-        }
-      ]
-    },
-    "p11-pores-jaunes": {
-      "page": 11,
-      "title": "Bolets : pores jaunes bleuissants",
-      "question": "Le pied est-il robuste ou grêle ?",
-      "choices": [
-        {
-          "label": "Pied robuste, > 1,5 cm de diamètre au sommet",
-          "next": "p11-robuste"
-        },
-        {
-          "label": "Pied grêle, < 1,5 cm au sommet",
-          "next": "p11-grele"
-        }
-      ]
-    },
-    "p11-robuste": {
-      "page": 11,
-      "title": "Bolets : pores jaunes, pied robuste",
-      "question": "Quels sont la couleur du chapeau et le réseau du pied ?",
-      "choices": [
-        {
-          "label": "Chapeau blanc ou gris, pied à réseau net sur fond rouge, chair très amère",
-          "species": "boletus-calopus"
-        },
-        {
-          "label": "Chapeau gris de plomb, pied à réseau discret sur fond jaune, chair douce",
-          "species": "boletus-appendiculatus"
-        }
-      ]
-    },
-    "p11-grele": {
-      "page": 11,
-      "title": "Bolets : pores jaunes, pied grêle",
-      "question": "Le chapeau est-il craquelé ?",
-      "choices": [
-        {
-          "label": "Chapeau craquelé ; pied teinté de rouge, non renflé",
-          "species": "xerocomellus-chrysenteron",
-          "img": "p11-1"
-        },
-        {
-          "label": "Chapeau non craquelé, pied teinté de rouge, renflé à la base",
-          "next": "p11-grele-renfle"
-        },
-        {
-          "label": "Chapeau non craquelé, pied brun veiné",
-          "species": "imleria-badia"
-        }
-      ]
-    },
-    "p11-grele-renfle": {
-      "page": 11,
-      "title": "Bolets : pied grêle teinté de rouge, renflé à la base",
-      "question": "Le chapeau est-il rouge en surface ?",
-      "choices": [
-        {
-          "label": "Chapeau sans rouge en surface",
-          "species": "xerocomellus-pruinatus"
-        },
-        {
-          "label": "Chapeau rouge, au moins sur le bord",
-          "species": "hortiboletus-rubellus"
-        }
-      ]
-    },
-    "p11-pores-rouges": {
-      "page": 11,
-      "title": "Bolets : pores rouges à orangés",
-      "question": "Quels sont la couleur du chapeau et l'aspect du pied ?",
-      "choices": [
-        {
-          "label": "Chapeau brun, pied sans réseau mais à fines ponctuations rouges",
-          "species": "neoboletus-erythropus",
-          "img": "p11-5"
-        },
-        {
-          "label": "Chapeau brun jaunâtre à verdâtre, pied à réseau",
-          "species": "suillellus-luridus"
-        },
-        {
-          "label": "Chapeau blanc mastic, pied à réseau",
-          "species": "rubroboletus-satanas",
-          "img": "p11-6"
-        }
-      ]
-    },
-    "p12": {
-      "page": 12,
-      "title": "Lames décurrentes, sans voiles (chapeau en forme d'entonnoir)",
-      "question": "Quelle est la couleur des spores ?",
-      "choices": [
-        {
-          "label": "Spores blanches",
-          "next": "p12-blanches"
-        },
-        {
-          "label": "Spores roses, brunes ou noires",
-          "hint": "voir page suivante",
-          "next": "p13-sporees"
-        },
-        {
-          "label": "Pied excentrique ou latéral",
-          "hint": "espèces « pleurotoïdes »",
-          "next": "p20",
-          "note": "NB du livret : penser aux espèces « pleurotoïdes » p. 20"
-        }
-      ]
-    },
-    "p12-blanches": {
-      "page": 12,
-      "title": "Lames décurrentes, spores blanches",
-      "question": "Comment sont les lames ?",
-      "choices": [
-        {
-          "label": "Lames fourchues, fines, sans lamellules (couleur orangée de girolle)",
-          "species": "hygrophoropsis-aurantiaca",
-          "img": "p12-1"
-        },
-        {
-          "label": "Lames épaisses, particulièrement espacées",
-          "next": "p12-epaisses"
-        },
-        {
-          "label": "Lames fines, normalement serrées ; chair fibreuse",
-          "next": "p12-fines"
-        },
-        {
-          "label": "Forme accidentellement décurrente d'une espèce collybioïde",
-          "next": "p21",
-          "note": "Le livret conseille d'y penser aussi (voir p. 21)"
-        }
-      ]
-    },
-    "p12-epaisses": {
-      "page": 12,
-      "title": "Lames épaisses et espacées",
-      "question": "Quelle est la consistance de la chair ?",
-      "choices": [
-        {
-          "label": "Chair à consistance aqueuse : hygrophores",
-          "hint": "voir p. 34",
-          "next": "p34"
-        },
-        {
-          "label": "Chair très fibreuse : Laccaria",
-          "hint": "voir Laccaria, p. 21",
-          "next": "p21"
-        }
-      ]
-    },
-    "p12-fines": {
-      "page": 12,
-      "title": "Lames fines et serrées, chair fibreuse",
-      "question": "Quelle est la taille de l'espèce ?",
-      "choices": [
-        {
-          "label": "Espèces petites et grêles (pied de 2-3 mm de diamètre), fragiles : omphales",
-          "hint": "entièrement orangé, dans les mousses",
-          "species": "rickenella-fibula"
-        },
-        {
-          "label": "Espèces robustes ou moyennes, > 3 mm de diamètre, plus ou moins élastiques ou résistantes : clitocybes",
-          "next": "p12-clitocybes"
-        }
-      ]
-    },
-    "p12-clitocybes": {
-      "page": 12,
-      "title": "Clitocybes (genre Clitocybe)",
-      "question": "Le chapeau est-il en entonnoir très creusé ?",
-      "choices": [
-        {
-          "label": "Chapeau en entonnoir très creusé",
-          "next": "p12-entonnoir"
-        },
-        {
-          "label": "Charnu, non en entonnoir",
-          "next": "p12-charnu"
-        }
-      ]
-    },
-    "p12-entonnoir": {
-      "page": 12,
-      "title": "Clitocybes : chapeau en entonnoir très creusé",
-      "question": "Quels sont la couleur, le pied et la chair ?",
-      "choices": [
-        {
-          "label": "Couleur jaune paille à jaune orangé ; pied plus court que le diamètre du chapeau ; chair élastique dans le chapeau",
-          "species": "lepista-inversa",
-          "img": "p12-2"
-        },
-        {
-          "label": "Couleur pâle, blanche à café au lait ; pied plus long que le diamètre du chapeau ; chair molle, mamelon fréquent au centre du chapeau",
-          "species": "clitocybe-gibba",
-          "img": "p12-3"
-        },
-        {
-          "label": "À centre et base du pied gris-noir",
-          "hint": "clitocybe d'hiver",
-          "species": "clitocybe-decembris",
-          "note": "Variante de C. gibba, voir C. decembris"
-        },
-        {
-          "label": "Chapeau blanc moucheté de gris, sur bois ; pied très coriace",
-          "hint": "voir p. 19",
-          "species": "lentinus-tigrinus"
-        }
-      ]
-    },
-    "p12-charnu": {
-      "page": 12,
-      "title": "Clitocybes : charnus, non en entonnoir",
-      "question": "De quelle couleur est le chapeau ?",
-      "choices": [
-        {
-          "label": "Chapeau gris",
-          "next": "p12-gris"
-        },
-        {
-          "label": "Chapeau bleu-vert, forte odeur d'anis",
-          "species": "clitocybe-odora"
-        },
-        {
-          "label": "Chapeau blanc",
-          "species": "clitocybe-phyllophila",
-          "img": "p12-5",
-          "note": "Si chapeau mamelonné beige, voir jeunes spécimens de C. gibba, à lames très décurrentes (3)"
-        }
-      ]
-    },
-    "p12-gris": {
-      "page": 12,
-      "title": "Clitocybes à chapeau gris",
-      "question": "Le chapeau et le pied sont-ils fermes ou mous ?",
-      "choices": [
-        {
-          "label": "Centre du chapeau et pied fermes au toucher",
-          "species": "clitocybe-nebularis"
-        },
-        {
-          "label": "Chapeau et pied mous, cotonneux",
-          "species": "clitocybe-clavipes",
-          "img": "p12-4"
-        }
-      ]
-    },
-    "p13-sporees": {
-      "page": 13,
-      "title": "Lames décurrentes : spores roses ou sombres",
-      "question": "Quelle est la couleur des spores ?",
-      "choices": [
-        {
-          "label": "Spores roses",
-          "next": "p13-roses"
-        },
-        {
-          "label": "Spores ocre, brun foncé ou noires",
-          "next": "p13-sombres"
-        }
-      ]
-    },
-    "p13-roses": {
-      "page": 13,
-      "title": "Lames décurrentes, spores roses",
-      "question": "Quel est l'aspect de l'espèce ?",
-      "choices": [
-        {
-          "label": "Espèce blanche ou gris pâle, à chair blanche épaisse mais très fragile, forte odeur de farine : genre Clitopilus",
-          "hint": "une seule espèce courante",
-          "species": "clitopilus-prunulus",
-          "img": "p13-1",
-          "note": "Ne pas confondre avec les clitocybes blancs (p. 12)"
-        },
-        {
-          "label": "Chapeau gris-brun, à chair très mince",
-          "next": "p13-entolomes"
-        }
-      ]
-    },
-    "p13-entolomes": {
-      "page": 13,
-      "title": "Spores roses : chapeau gris-brun, chair très mince",
-      "question": "Le chapeau est-il strié ?",
-      "choices": [
-        {
-          "label": "Chapeau non strié ; pied < 3 mm de diamètre",
-          "species": "entoloma-undatum"
-        },
-        {
-          "label": "Chapeau strié ; pied > 3 mm de diamètre",
-          "hint": "et espèces voisines (voir bas de la p. 24)",
-          "species": "entoloma-rhodopolium"
-        }
-      ]
-    },
-    "p13-sombres": {
-      "page": 13,
-      "title": "Lames décurrentes, spores ocre, brun foncé ou noires",
-      "question": "Les lames sont-elles molles et déliquescentes ?",
-      "choices": [
-        {
-          "label": "Lames serrées, molles, se liquéfiant et brunissant au toucher ; chapeau brun-jaune à châtain",
-          "species": "paxillus-involutus",
-          "img": "p13-2"
-        },
-        {
-          "label": "Lames épaisses, non déliquescentes (gomphides)",
-          "hint": "ces espèces présentent une cortine, mais parfois à peine visible",
-          "next": "p13-gomphides"
-        }
-      ]
-    },
-    "p13-gomphides": {
-      "page": 13,
-      "title": "Gomphides",
-      "question": "De quelle couleur est la chair ?",
-      "choices": [
-        {
-          "label": "Chair brun-jaune",
-          "species": "chroogomphus-rutilus",
-          "img": "p13-3"
-        },
-        {
-          "label": "Chair blanche, ou jaune citrin à la base du pied",
-          "next": "p13-gomphidius"
-        }
-      ]
-    },
-    "p13-gomphidius": {
-      "page": 13,
-      "title": "Gomphides à chair blanche",
-      "question": "Quels sont la couleur du chapeau et l'état du pied ?",
-      "choices": [
-        {
-          "label": "Chapeau gris ; pied visqueux",
-          "species": "gomphidius-glutinosus"
-        },
-        {
-          "label": "Chapeau rose bonbon ; pied sec",
-          "species": "gomphidius-roseus"
-        }
-      ]
+    {
+     "label": "Pied sans écailles : lisse, guttulé ou réticulé",
+     "next": "p10-pied-lisse",
+     "img": "p10-2"
     }
+   ]
   },
-  "species": {
-    "leccinum-crocopodium": {
-      "latin": "Leccinum crocopodium",
-      "fr": "Bolet à pied jaune",
-      "group": "Bolets",
-      "edibility": "comestible",
-      "note": "Genre Leccinum, pied raboteux ; pores jaunes. Comestible médiocre.",
-      "images": [],
-      "pages": [
-        10
-      ]
+  "p10-leccinum": {
+   "page": 10,
+   "title": "Bolets : pied raboteux (Leccinum)",
+   "question": "De quelle couleur sont les pores ?",
+   "choices": [
+    {
+     "label": "Pores jaunes",
+     "species": "leccinum-crocopodium"
     },
-    "leccinum-scabrum": {
-      "latin": "Leccinum scabrum",
-      "fr": "Bolet rude",
-      "group": "Bolets",
-      "edibility": "comestible",
-      "note": "Pied raboteux ; pores blancs à gris ; chapeau lisse, chair restant blanche au grattage. Comestible médiocre.",
-      "images": [
-        "p10-1"
-      ],
-      "pages": [
-        10
-      ]
-    },
-    "leccinum-carpini": {
-      "latin": "Leccinum carpini",
-      "fr": "Bolet des charmes",
-      "group": "Bolets",
-      "edibility": "comestible",
-      "note": "Pied raboteux ; chapeau bosselé ou craquelé, chair noircissante. Comestible médiocre.",
-      "images": [],
-      "pages": [
-        10
-      ]
-    },
-    "leccinum-aurantiacum": {
-      "latin": "Leccinum aurantiacum",
-      "fr": "Bolet orangé",
-      "group": "Bolets",
-      "edibility": "comestible",
-      "note": "Pied raboteux ; chapeau de couleur orangée ou fauve. Comestible médiocre.",
-      "images": [],
-      "pages": [
-        10
-      ]
-    },
-    "suillus-luteus": {
-      "latin": "Suillus luteus",
-      "fr": "Bolet jaune",
-      "group": "Bolets",
-      "edibility": "comestible",
-      "note": "Chapeau visqueux brun châtain, anneau ; sous pins.",
-      "images": [
-        "p10-3"
-      ],
-      "pages": [
-        10
-      ]
-    },
-    "suillus-grevillei": {
-      "latin": "Suillus grevillei",
-      "fr": "Bolet élégant",
-      "group": "Bolets",
-      "edibility": "comestible",
-      "note": "Chapeau visqueux jaune ou orangé, anneau ; sous mélèzes.",
-      "images": [],
-      "pages": [
-        10
-      ]
-    },
-    "suillus-granulatus": {
-      "latin": "Suillus granulatus",
-      "fr": "Bolet granulé",
-      "group": "Bolets",
-      "edibility": "comestible",
-      "note": "Chapeau visqueux roux orangé ; pied ponctué de granulations, sans anneau.",
-      "images": [
-        "p10-4"
-      ],
-      "pages": [
-        10
-      ]
-    },
-    "chalciporus-piperatus": {
-      "latin": "Chalciporus piperatus",
-      "fr": "Bolet poivré",
-      "group": "Bolets",
-      "edibility": "inconnu",
-      "note": "Pied lisse ; chair jaune vif à la base du pied.",
-      "images": [],
-      "pages": [
-        10
-      ]
-    },
-    "gyrodon-lividus": {
-      "latin": "Gyrodon lividus",
-      "fr": "Bolet livide",
-      "group": "Bolets",
-      "edibility": "inconnu",
-      "note": "Pores très décurrents, bleuissants ; chapeau visqueux, sans anneau.",
-      "images": [
-        "p10-6"
-      ],
-      "pages": [
-        10,
-        11
-      ]
-    },
-    "imleria-badia": {
-      "latin": "Imleria badia",
-      "fr": "Bolet bai",
-      "group": "Bolets",
-      "edibility": "comestible",
-      "note": "Pied rayé de brun (aspect de bois poli), pores non décurrents ; aussi : chapeau non craquelé, pied brun veiné, pores jaunes bleuissants.",
-      "images": [],
-      "pages": [
-        10,
-        11
-      ]
-    },
-    "suillus-bovinus": {
-      "latin": "Suillus bovinus",
-      "fr": "Bolet des bouviers",
-      "group": "Bolets",
-      "edibility": "inconnu",
-      "note": "Chapeau visqueux ; pied jaunâtre comme le chapeau, uni.",
-      "images": [],
-      "pages": [
-        10
-      ]
-    },
-    "strobilomyces-strobilaceus": {
-      "latin": "Strobilomyces strobilaceus",
-      "fr": "Bolet pomme de pin",
-      "group": "Bolets",
-      "edibility": "inconnu",
-      "note": "Chapeau couvert d'écailles bistre-noirâtre ; pores anguleux grisâtres.",
-      "images": [
-        "p10-5"
-      ],
-      "pages": [
-        10
-      ]
-    },
-    "boletus-edulis": {
-      "latin": "Boletus edulis",
-      "fr": "Cèpe de Bordeaux",
-      "group": "Bolets",
-      "edibility": "comestible",
-      "note": "Pores blancs ou verdâtres, non bleuissants ; pied à réseau blanc.",
-      "confusions": [
-        "tylopilus-felleus"
-      ],
-      "images": [
-        "p11-4"
-      ],
-      "pages": [
-        11
-      ]
-    },
-    "tylopilus-felleus": {
-      "latin": "Tylopilus felleus",
-      "fr": "Bolet de fiel",
-      "group": "Bolets",
-      "edibility": "inconnu",
-      "note": "Pores blancs ou roses ; pied à réseau brun ; saveur amère ; inconsommable !",
-      "confusions": [
-        "boletus-edulis"
-      ],
-      "images": [
-        "p11-7"
-      ],
-      "pages": [
-        11
-      ]
-    },
-    "gyroporus-castaneus": {
-      "latin": "Gyroporus castaneus",
-      "fr": "Bolet châtain",
-      "group": "Bolets",
-      "edibility": "inconnu",
-      "note": "Pores blancs brunissants au toucher ; pied lisse creux.",
-      "images": [],
-      "pages": [
-        11
-      ]
-    },
-    "xerocomellus-chrysenteron": {
-      "latin": "Xerocomellus chrysenteron",
-      "fr": "Bolet à chair jaune",
-      "group": "Bolets",
-      "edibility": "comestible",
-      "note": "Pores jaunes ; pied rayé ou teinté de rouge ; chapeau velouté ou craquelé. Cité deux fois dans la clé (☺ présent à la seconde mention).",
-      "images": [
-        "p11-1"
-      ],
-      "pages": [
-        11
-      ]
-    },
-    "xerocomus-subtomentosus": {
-      "latin": "Xerocomus subtomentosus",
-      "fr": "Bolet tomenteux",
-      "group": "Bolets",
-      "edibility": "inconnu",
-      "note": "Pores jaunes terminés en filet ; pied jaunâtre, sans réseau ; chapeau velouté ou craquelé.",
-      "images": [],
-      "pages": [
-        11
-      ]
-    },
-    "pseudoboletus-parasiticus": {
-      "latin": "Pseudoboletus parasiticus",
-      "fr": "Bolet parasite",
-      "group": "Bolets",
-      "edibility": "inconnu",
-      "note": "Parasite sur scléroderme ; chapeau lisse.",
-      "images": [],
-      "pages": [
-        11
-      ]
-    },
-    "boletus-calopus": {
-      "latin": "Boletus calopus",
-      "fr": "Bolet à beau pied",
-      "group": "Bolets",
-      "edibility": "inconnu",
-      "note": "Pores jaunes bleuissants ; pied robuste à réseau net sur fond rouge ; chair très amère.",
-      "images": [],
-      "pages": [
-        11
-      ]
-    },
-    "boletus-appendiculatus": {
-      "latin": "Boletus appendiculatus",
-      "fr": "Bolet appendiculé",
-      "group": "Bolets",
-      "edibility": "comestible",
-      "note": "Pores jaunes bleuissants ; chapeau gris de plomb ; pied à réseau discret sur fond jaune ; chair douce.",
-      "images": [],
-      "pages": [
-        11
-      ]
-    },
-    "xerocomellus-pruinatus": {
-      "latin": "Xerocomellus pruinatus",
-      "fr": "Bolet pruineux",
-      "group": "Bolets",
-      "edibility": "comestible",
-      "note": "Chapeau non craquelé, sans rouge en surface ; pied teinté de rouge, renflé à la base.",
-      "images": [],
-      "pages": [
-        11
-      ]
-    },
-    "hortiboletus-rubellus": {
-      "latin": "Hortiboletus rubellus",
-      "fr": "Bolet rougeâtre",
-      "group": "Bolets",
-      "edibility": "comestible",
-      "note": "Chapeau non craquelé, rouge au moins sur le bord ; pied teinté de rouge, renflé à la base.",
-      "images": [],
-      "pages": [
-        11
-      ]
-    },
-    "neoboletus-erythropus": {
-      "latin": "Neoboletus erythropus",
-      "fr": "Bolet à pied rouge",
-      "group": "Bolets",
-      "edibility": "comestible",
-      "note": "Pores rouges à orangés ; chapeau brun ; pied sans réseau, à fines ponctuations rouges.",
-      "images": [
-        "p11-5"
-      ],
-      "pages": [
-        11
-      ]
-    },
-    "suillellus-luridus": {
-      "latin": "Suillellus luridus",
-      "fr": "Bolet blafard",
-      "group": "Bolets",
-      "edibility": "inconnu",
-      "note": "Pores rouges à orangés ; chapeau brun jaunâtre à verdâtre ; pied à réseau.",
-      "images": [],
-      "pages": [
-        11
-      ]
-    },
-    "rubroboletus-satanas": {
-      "latin": "Rubroboletus satanas",
-      "fr": "Bolet satan",
-      "group": "Bolets",
-      "edibility": "toxique",
-      "note": "Pores rouges à orangés ; chapeau blanc mastic ; pied à réseau.",
-      "images": [
-        "p11-6"
-      ],
-      "pages": [
-        11
-      ]
-    },
-    "gyroporus-cyanescens": {
-      "latin": "Gyroporus cyanescens",
-      "fr": "Bolet bleuissant",
-      "group": "Bolets",
-      "edibility": "inconnu",
-      "note": "Pores blancs, très petits, bleuissants ; pied creux.",
-      "images": [],
-      "pages": [
-        11
-      ]
-    },
-    "suillus-variegatus": {
-      "latin": "Suillus variegatus",
-      "fr": "Bolet vergeté",
-      "group": "Bolets",
-      "edibility": "inconnu",
-      "note": "Pores gris verdâtre ; chapeau méchuleux.",
-      "images": [],
-      "pages": [
-        11
-      ]
-    },
-    "hygrophoropsis-aurantiaca": {
-      "latin": "Hygrophoropsis aurantiaca",
-      "fr": "Fausse girolle",
-      "group": "Lames décurrentes",
-      "edibility": "comestible",
-      "note": "Lames fourchues, fines, sans lamellules, de couleur orangée de girolle.",
-      "images": [
-        "p12-1"
-      ],
-      "pages": [
-        12
-      ]
-    },
-    "rickenella-fibula": {
-      "latin": "Rickenella fibula",
-      "fr": "Omphale tête-d'épingle",
-      "group": "Lames décurrentes",
-      "edibility": "inconnu",
-      "note": "Petite espèce grêle (pied de 2-3 mm), fragile, entièrement orangée, dans les mousses.",
-      "images": [],
-      "pages": [
-        12
-      ]
-    },
-    "lepista-inversa": {
-      "latin": "Lepista inversa",
-      "fr": "Clitocybe renversé",
-      "group": "Lames décurrentes",
-      "edibility": "comestible",
-      "note": "Chapeau en entonnoir très creusé, jaune paille à jaune orangé ; pied plus court que le diamètre du chapeau ; chair élastique.",
-      "images": [
-        "p12-2"
-      ],
-      "pages": [
-        12
-      ]
-    },
-    "clitocybe-gibba": {
-      "latin": "Clitocybe gibba",
-      "fr": "Clitocybe en entonnoir",
-      "group": "Lames décurrentes",
-      "edibility": "comestible",
-      "note": "Entonnoir très creusé, pâle ; pied plus long que le diamètre du chapeau ; chair molle, mamelon fréquent. Jeunes spécimens à lames très décurrentes.",
-      "confusions": [
-        "clitocybe-decembris"
-      ],
-      "images": [
-        "p12-3"
-      ],
-      "pages": [
-        12
-      ]
-    },
-    "clitocybe-decembris": {
-      "latin": "Clitocybe decembris",
-      "fr": "Clitocybe d'hiver",
-      "group": "Lames décurrentes",
-      "edibility": "inconnu",
-      "note": "Mentionné pour pied gris-noir au centre et à la base, voisin de C. gibba.",
-      "images": [],
-      "pages": [
-        12
-      ]
-    },
-    "lentinus-tigrinus": {
-      "latin": "Lentinus tigrinus",
-      "fr": "Lentin tigré",
-      "group": "Lames décurrentes",
-      "edibility": "inconnu",
-      "note": "Chapeau blanc moucheté de gris, sur bois ; pied très coriace. Voir p. 19.",
-      "images": [],
-      "pages": [
-        12
-      ]
-    },
-    "clitocybe-nebularis": {
-      "latin": "Clitocybe nebularis",
-      "fr": "Clitocybe nébuleux",
-      "group": "Lames décurrentes",
-      "edibility": "toxique",
-      "note": "Chapeau gris ; centre du chapeau et pied fermes au toucher.",
-      "images": [],
-      "pages": [
-        12
-      ]
-    },
-    "clitocybe-clavipes": {
-      "latin": "Clitocybe clavipes",
-      "fr": "Clitocybe à pied clavé",
-      "group": "Lames décurrentes",
-      "edibility": "toxique",
-      "note": "Chapeau gris ; chapeau et pied mous, cotonneux ; pied clavé.",
-      "images": [
-        "p12-4"
-      ],
-      "pages": [
-        12
-      ]
-    },
-    "clitocybe-odora": {
-      "latin": "Clitocybe odora",
-      "fr": "Clitocybe anisé",
-      "group": "Lames décurrentes",
-      "edibility": "inconnu",
-      "note": "Chapeau bleu-vert, forte odeur d'anis.",
-      "images": [],
-      "pages": [
-        12
-      ]
-    },
-    "clitocybe-phyllophila": {
-      "latin": "Clitocybe phyllophila",
-      "fr": "Clitocybe des feuilles",
-      "group": "Lames décurrentes",
-      "edibility": "toxique",
-      "note": "Chapeau blanc. Si chapeau mamelonné beige, voir jeunes C. gibba.",
-      "confusions": [
-        "clitocybe-gibba"
-      ],
-      "images": [
-        "p12-5"
-      ],
-      "pages": [
-        12
-      ]
-    },
-    "clitopilus-prunulus": {
-      "latin": "Clitopilus prunulus",
-      "fr": "Meunier",
-      "group": "Lames décurrentes",
-      "edibility": "comestible",
-      "note": "Blanc ou gris pâle, chair blanche épaisse mais très fragile, forte odeur de farine ; lames décurrentes blanches puis rosées ; spores roses.",
-      "confusions": [
-        "clitocybe-phyllophila"
-      ],
-      "images": [
-        "p13-1"
-      ],
-      "pages": [
-        13
-      ]
-    },
-    "entoloma-undatum": {
-      "latin": "Entoloma undatum",
-      "fr": "",
-      "group": "Lames décurrentes",
-      "edibility": "inconnu",
-      "note": "Spores roses ; chapeau gris-brun non strié, chair très mince ; pied < 3 mm de diamètre.",
-      "images": [],
-      "pages": [
-        13
-      ]
-    },
-    "entoloma-rhodopolium": {
-      "latin": "Entoloma rhodopolium",
-      "fr": "Entolome gris-rose",
-      "group": "Lames décurrentes",
-      "edibility": "toxique",
-      "note": "Spores roses ; chapeau gris-brun strié, chair très mince ; pied > 3 mm de diamètre. Et espèces voisines (voir bas de la p. 24).",
-      "images": [],
-      "pages": [
-        13
-      ]
-    },
-    "paxillus-involutus": {
-      "latin": "Paxillus involutus",
-      "fr": "Paxille enroulé",
-      "group": "Lames décurrentes",
-      "edibility": "mortel",
-      "note": "Lames serrées, molles, se liquéfiant et brunissant au toucher ; chapeau brun-jaune à châtain.",
-      "images": [
-        "p13-2"
-      ],
-      "pages": [
-        13
-      ]
-    },
-    "chroogomphus-rutilus": {
-      "latin": "Chroogomphus rutilus",
-      "fr": "Gomphide visqueux",
-      "group": "Lames décurrentes",
-      "edibility": "inconnu",
-      "note": "Gomphide à lames épaisses non déliquescentes ; chair brun-jaune.",
-      "images": [
-        "p13-3"
-      ],
-      "pages": [
-        13
-      ]
-    },
-    "gomphidius-glutinosus": {
-      "latin": "Gomphidius glutinosus",
-      "fr": "Gomphide glutineux",
-      "group": "Lames décurrentes",
-      "edibility": "comestible",
-      "note": "Gomphide à chair blanche ; chapeau gris, pied visqueux.",
-      "images": [],
-      "pages": [
-        13
-      ]
-    },
-    "gomphidius-roseus": {
-      "latin": "Gomphidius roseus",
-      "fr": "Gomphide rose",
-      "group": "Lames décurrentes",
-      "edibility": "inconnu",
-      "note": "Gomphide à chair blanche ; chapeau rose bonbon, pied sec.",
-      "images": [],
-      "pages": [
-        13
-      ]
+    {
+     "label": "Pores blancs à gris",
+     "next": "p10-leccinum-gris"
     }
+   ]
   },
-  "figures": [
+  "p10-leccinum-gris": {
+   "page": 10,
+   "title": "Bolets : pied raboteux, pores blancs à gris",
+   "question": "Quelle est la couleur dominante du chapeau ?",
+   "choices": [
     {
-      "name": "p10-1",
-      "page": 10,
-      "box": [
-        0.19,
-        0.25,
-        0.4,
-        0.38
-      ],
-      "species": "leccinum-scabrum",
-      "caption": "Bolet à pied raboteux (Leccinum)"
+     "label": "Chapeau de couleur dominante brune ou grise",
+     "next": "p10-leccinum-brun"
     },
     {
-      "name": "p10-2",
-      "page": 10,
-      "box": [
-        0.54,
-        0.25,
-        0.78,
-        0.38
-      ],
-      "caption": "Bolet à pied couvert d'écailles ou de mèches (pied sans écailles : lisse, guttulé ou réticulé)"
-    },
-    {
-      "name": "p10-3",
-      "page": 10,
-      "box": [
-        0.12,
-        0.67,
-        0.29,
-        0.81
-      ],
-      "species": "suillus-luteus",
-      "caption": "Bolet jaune"
-    },
-    {
-      "name": "p10-4",
-      "page": 10,
-      "box": [
-        0.34,
-        0.655,
-        0.57,
-        0.81
-      ],
-      "species": "suillus-granulatus",
-      "caption": "Bolet granulé : chapeau visqueux, pores fins pleurant des gouttes laiteuses, pied ponctué de granulations surtout dans le haut"
-    },
-    {
-      "name": "p10-6",
-      "page": 10,
-      "box": [
-        0.58,
-        0.655,
-        0.73,
-        0.77
-      ],
-      "species": "gyrodon-lividus",
-      "caption": "Bolet livide"
-    },
-    {
-      "name": "p10-5",
-      "page": 10,
-      "box": [
-        0.72,
-        0.675,
-        0.9,
-        0.82
-      ],
-      "species": "strobilomyces-strobilaceus",
-      "caption": "Bolet pomme de pin (légende illisible)"
-    },
-    {
-      "name": "p11-4",
-      "page": 11,
-      "box": [
-        0.12,
-        0.62,
-        0.31,
-        0.755
-      ],
-      "species": "boletus-edulis",
-      "caption": "Cèpe de Bordeaux : marge claire presque blanche, pores blancs puis jaune verdâtre, réseau blanchâtre plus net vers le haut, pied obèse chez les jeunes"
-    },
-    {
-      "name": "p11-5",
-      "page": 11,
-      "box": [
-        0.45,
-        0.625,
-        0.63,
-        0.755
-      ],
-      "species": "neoboletus-erythropus",
-      "caption": "Bolet à pied rouge : chapeau bistre sombre, pores fins rouge orangé, chair jaune bleuissant à la cassure, peluches rouges, pied robuste renflé à la base"
-    },
-    {
-      "name": "p11-6",
-      "page": 11,
-      "box": [
-        0.3,
-        0.72,
-        0.46,
-        0.86
-      ],
-      "species": "rubroboletus-satanas",
-      "caption": "Bolet satan"
-    },
-    {
-      "name": "p11-7",
-      "page": 11,
-      "box": [
-        0.63,
-        0.71,
-        0.83,
-        0.86
-      ],
-      "species": "tylopilus-felleus",
-      "caption": "Bolet de fiel : pores jaunes bleuissant au toucher, réseau légèrement plus foncé, pied ventru radicant à la base"
-    },
-    {
-      "name": "p11-1",
-      "page": 11,
-      "box": [
-        0.16,
-        0.82,
-        0.36,
-        0.96
-      ],
-      "species": "xerocomellus-chrysenteron",
-      "caption": "Chapeau sec à revêtement craquelé, sous-cuticule rouge, pores anguleux jaune verdâtre bleuissant au toucher, pied fibrillé de rouge (numéro imprimé à côté de Xerocomus subtomentosus : doute)"
-    },
-    {
-      "name": "p12-1",
-      "page": 12,
-      "box": [
-        0.14,
-        0.165,
-        0.31,
-        0.3
-      ],
-      "species": "hygrophoropsis-aurantiaca",
-      "caption": "Fausse girolle"
-    },
-    {
-      "name": "p12-2",
-      "page": 12,
-      "box": [
-        0.06,
-        0.405,
-        0.27,
-        0.515
-      ],
-      "species": "lepista-inversa",
-      "caption": "Clitocybe renversé : chapeau creusé en coupe jaune roussâtre, marge enroulée, pied court fibreux"
-    },
-    {
-      "name": "p12-3",
-      "page": 12,
-      "box": [
-        0.12,
-        0.67,
-        0.33,
-        0.79
-      ],
-      "species": "clitocybe-gibba",
-      "caption": "Clitocybe en entonnoir (légende numérotée illisible)"
-    },
-    {
-      "name": "p12-4",
-      "page": 12,
-      "box": [
-        0.15,
-        0.86,
-        0.27,
-        0.97
-      ],
-      "species": "clitocybe-clavipes",
-      "caption": "Clitocybe à pied clavé"
-    },
-    {
-      "name": "p12-5",
-      "page": 12,
-      "box": [
-        0.63,
-        0.855,
-        0.8,
-        0.965
-      ],
-      "species": "clitocybe-phyllophila",
-      "caption": "Clitocybe des feuilles (légende numérotée illisible)"
-    },
-    {
-      "name": "p13-1",
-      "page": 13,
-      "box": [
-        0.33,
-        0.17,
-        0.6,
-        0.3
-      ],
-      "species": "clitopilus-prunulus",
-      "caption": "Meunier : chapeau blanc mat en entonnoir, chapeau d'abord bombé, lames décurrentes blanches puis rosées, pied plus ou moins excentrique"
-    },
-    {
-      "name": "p13-2",
-      "page": 13,
-      "box": [
-        0.36,
-        0.48,
-        0.58,
-        0.62
-      ],
-      "species": "paxillus-involutus",
-      "caption": "Paxille enroulé"
-    },
-    {
-      "name": "p13-3",
-      "page": 13,
-      "box": [
-        0.1,
-        0.675,
-        0.27,
-        0.82
-      ],
-      "species": "chroogomphus-rutilus",
-      "caption": "Gomphide visqueux"
+     "label": "Chapeau de couleur orangée ou fauve",
+     "species": "leccinum-aurantiacum"
     }
-  ]
+   ]
+  },
+  "p10-leccinum-brun": {
+   "page": 10,
+   "title": "Bolets : Leccinum à chapeau brun ou gris",
+   "question": "Quel est l'aspect du chapeau et de la chair ?",
+   "choices": [
+    {
+     "label": "Chapeau lisse ; chair restant blanche au grattage",
+     "species": "leccinum-scabrum",
+     "img": "p10-1"
+    },
+    {
+     "label": "Chapeau bosselé ou craquelé, chair noircissante",
+     "species": "leccinum-carpini"
+    }
+   ]
+  },
+  "p10-pied-lisse": {
+   "page": 10,
+   "title": "Bolets : pied sans écailles",
+   "question": "Le chapeau est-il visqueux ou collant ?",
+   "choices": [
+    {
+     "label": "Chapeau visqueux ou collant",
+     "hint": "jamais de réseau sur le pied ; genre Suillus et ressemblants",
+     "next": "p10-suillus",
+     "img": "p10-4"
+    },
+    {
+     "label": "Chapeau sec ou seulement gras",
+     "next": "p10-chapeau-sec"
+    }
+   ]
+  },
+  "p10-suillus": {
+   "page": 10,
+   "title": "Bolets visqueux (Suillus et ressemblants)",
+   "question": "Y a-t-il un anneau sur le pied ?",
+   "choices": [
+    {
+     "label": "Présence d'un anneau",
+     "hint": "parfois lambeaux accrochés à la marge du chapeau",
+     "next": "p10-suillus-anneau"
+    },
+    {
+     "label": "Pas d'anneau",
+     "next": "p10-suillus-sans"
+    }
+   ]
+  },
+  "p10-suillus-anneau": {
+   "page": 10,
+   "title": "Bolets visqueux avec anneau",
+   "question": "Quelle est la couleur du chapeau et sous quels arbres pousse-t-il ?",
+   "choices": [
+    {
+     "label": "Chapeau brun châtain ; sous pins",
+     "species": "suillus-luteus",
+     "img": "p10-3"
+    },
+    {
+     "label": "Chapeau jaune ou orangé ; sous mélèzes",
+     "species": "suillus-grevillei"
+    }
+   ]
+  },
+  "p10-suillus-sans": {
+   "page": 10,
+   "title": "Bolets visqueux sans anneau",
+   "question": "Le pied est-il ponctué de granulations ?",
+   "choices": [
+    {
+     "label": "Pied ponctué de granulations ; chapeau roux orangé",
+     "species": "suillus-granulatus",
+     "img": "p10-4"
+    },
+    {
+     "label": "Pied lisse",
+     "next": "p10-pied-uni"
+    }
+   ]
+  },
+  "p10-pied-uni": {
+   "page": 10,
+   "title": "Bolets visqueux, pied lisse",
+   "question": "La chair est-elle jaune vif à la base du pied ?",
+   "choices": [
+    {
+     "label": "Chair jaune vif à la base du pied",
+     "species": "chalciporus-piperatus"
+    },
+    {
+     "label": "Chair non spécialement jaune à la base",
+     "next": "p10-pores"
+    }
+   ]
+  },
+  "p10-pores": {
+   "page": 10,
+   "title": "Bolets visqueux, chair non jaune à la base",
+   "question": "Les pores sont-ils décurrents ?",
+   "choices": [
+    {
+     "label": "Pores très décurrents, bleuissants",
+     "species": "gyrodon-lividus",
+     "img": "p10-6"
+    },
+    {
+     "label": "Pores non ou à peine décurrents",
+     "next": "p10-pied-aspect"
+    }
+   ]
+  },
+  "p10-pied-aspect": {
+   "page": 10,
+   "title": "Bolets visqueux, pores non décurrents",
+   "question": "Quel est l'aspect du pied ?",
+   "choices": [
+    {
+     "label": "Pied rayé de brun (aspect de bois poli)",
+     "species": "imleria-badia"
+    },
+    {
+     "label": "Pied jaunâtre comme le chapeau, uni",
+     "species": "suillus-bovinus"
+    }
+   ]
+  },
+  "p10-chapeau-sec": {
+   "page": 10,
+   "title": "Bolets : chapeau sec ou seulement gras",
+   "question": "Le chapeau est-il couvert d'écailles ?",
+   "choices": [
+    {
+     "label": "Chapeau couvert d'écailles remarquables, bistre-noirâtre",
+     "hint": "pores anguleux grisâtres",
+     "species": "strobilomyces-strobilaceus",
+     "img": "p10-5"
+    },
+    {
+     "label": "Chapeau non écailleux",
+     "hint": "page suivante",
+     "next": "p11-bleuissement"
+    }
+   ]
+  },
+  "p11-bleuissement": {
+   "page": 11,
+   "title": "Bolets : chapeau non écailleux",
+   "question": "Les pores bleuissent-ils au toucher ?",
+   "choices": [
+    {
+     "label": "Pores non bleuissants au toucher",
+     "next": "p11-non-bleuissants"
+    },
+    {
+     "label": "Pores bleuissants au toucher",
+     "next": "p11-bleuissants"
+    }
+   ]
+  },
+  "p11-non-bleuissants": {
+   "page": 11,
+   "title": "Bolets : pores non bleuissants",
+   "question": "Quels sont les pores et le pied ?",
+   "choices": [
+    {
+     "label": "Pores blancs ou verdâtres ; pied à réseau blanc",
+     "species": "boletus-edulis",
+     "img": "p11-4"
+    },
+    {
+     "label": "Pores blancs ou roses ; pied à réseau brun ; saveur amère",
+     "hint": "inconsommable !",
+     "species": "tylopilus-felleus",
+     "img": "p11-7"
+    },
+    {
+     "label": "Pores blancs brunissants au toucher ; pied lisse creux",
+     "species": "gyroporus-castaneus"
+    },
+    {
+     "label": "Pores jaune vif ou verdâtres, terminés en filet sur le pied ; pied sans réseau",
+     "next": "p11-jaune-filet"
+    }
+   ]
+  },
+  "p11-jaune-filet": {
+   "page": 11,
+   "title": "Bolets : pores jaunes terminés en filet",
+   "question": "Où pousse-t-il ?",
+   "choices": [
+    {
+     "label": "À terre, à chapeau velouté ou craquelé",
+     "next": "p11-a-terre"
+    },
+    {
+     "label": "Parasite sur scléroderme, chapeau lisse",
+     "species": "pseudoboletus-parasiticus"
+    }
+   ]
+  },
+  "p11-a-terre": {
+   "page": 11,
+   "title": "Bolets : à terre, chapeau velouté ou craquelé",
+   "question": "Quel est l'aspect du pied ?",
+   "choices": [
+    {
+     "label": "Pied rayé de rouge",
+     "species": "xerocomellus-chrysenteron",
+     "img": "p11-1"
+    },
+    {
+     "label": "Pied jaunâtre",
+     "species": "xerocomus-subtomentosus"
+    }
+   ]
+  },
+  "p11-bleuissants": {
+   "page": 11,
+   "title": "Bolets : pores bleuissants au toucher",
+   "question": "De quelle couleur sont les pores ?",
+   "choices": [
+    {
+     "label": "Pores jaunes (puis verts avec l'âge)",
+     "next": "p11-pores-jaunes"
+    },
+    {
+     "label": "Pores rouges à orangés",
+     "next": "p11-pores-rouges"
+    },
+    {
+     "label": "Pores blancs, très petits, bleuissants ; pied creux",
+     "species": "gyroporus-cyanescens"
+    },
+    {
+     "label": "Pores gris verdâtre ; chapeau méchuleux",
+     "species": "suillus-variegatus"
+    },
+    {
+     "label": "Pores à tubes décurrents",
+     "species": "gyrodon-lividus",
+     "img": "p10-6",
+     "note": "NB du livret : voir Gyrodon lividus p. 10 (6)"
+    }
+   ]
+  },
+  "p11-pores-jaunes": {
+   "page": 11,
+   "title": "Bolets : pores jaunes bleuissants",
+   "question": "Le pied est-il robuste ou grêle ?",
+   "choices": [
+    {
+     "label": "Pied robuste, > 1,5 cm de diamètre au sommet",
+     "next": "p11-robuste"
+    },
+    {
+     "label": "Pied grêle, < 1,5 cm au sommet",
+     "next": "p11-grele"
+    }
+   ]
+  },
+  "p11-robuste": {
+   "page": 11,
+   "title": "Bolets : pores jaunes, pied robuste",
+   "question": "Quels sont la couleur du chapeau et le réseau du pied ?",
+   "choices": [
+    {
+     "label": "Chapeau blanc ou gris, pied à réseau net sur fond rouge, chair très amère",
+     "species": "boletus-calopus"
+    },
+    {
+     "label": "Chapeau gris de plomb, pied à réseau discret sur fond jaune, chair douce",
+     "species": "boletus-appendiculatus"
+    }
+   ]
+  },
+  "p11-grele": {
+   "page": 11,
+   "title": "Bolets : pores jaunes, pied grêle",
+   "question": "Le chapeau est-il craquelé ?",
+   "choices": [
+    {
+     "label": "Chapeau craquelé ; pied teinté de rouge, non renflé",
+     "species": "xerocomellus-chrysenteron",
+     "img": "p11-1"
+    },
+    {
+     "label": "Chapeau non craquelé, pied teinté de rouge, renflé à la base",
+     "next": "p11-grele-renfle"
+    },
+    {
+     "label": "Chapeau non craquelé, pied brun veiné",
+     "species": "imleria-badia"
+    }
+   ]
+  },
+  "p11-grele-renfle": {
+   "page": 11,
+   "title": "Bolets : pied grêle teinté de rouge, renflé à la base",
+   "question": "Le chapeau est-il rouge en surface ?",
+   "choices": [
+    {
+     "label": "Chapeau sans rouge en surface",
+     "species": "xerocomellus-pruinatus"
+    },
+    {
+     "label": "Chapeau rouge, au moins sur le bord",
+     "species": "hortiboletus-rubellus"
+    }
+   ]
+  },
+  "p11-pores-rouges": {
+   "page": 11,
+   "title": "Bolets : pores rouges à orangés",
+   "question": "Quels sont la couleur du chapeau et l'aspect du pied ?",
+   "choices": [
+    {
+     "label": "Chapeau brun, pied sans réseau mais à fines ponctuations rouges",
+     "species": "neoboletus-erythropus",
+     "img": "p11-5"
+    },
+    {
+     "label": "Chapeau brun jaunâtre à verdâtre, pied à réseau",
+     "species": "suillellus-luridus"
+    },
+    {
+     "label": "Chapeau blanc mastic, pied à réseau",
+     "species": "rubroboletus-satanas",
+     "img": "p11-6"
+    }
+   ]
+  },
+  "p12": {
+   "page": 12,
+   "title": "Lames décurrentes, sans voiles (chapeau en forme d'entonnoir)",
+   "question": "Quelle est la couleur des spores ?",
+   "choices": [
+    {
+     "label": "Spores blanches",
+     "next": "p12-blanches"
+    },
+    {
+     "label": "Spores roses, brunes ou noires",
+     "hint": "voir page suivante",
+     "next": "p13-sporees"
+    },
+    {
+     "label": "Pied excentrique ou latéral",
+     "hint": "espèces « pleurotoïdes »",
+     "next": "p20",
+     "note": "NB du livret : penser aux espèces « pleurotoïdes » p. 20"
+    }
+   ]
+  },
+  "p12-blanches": {
+   "page": 12,
+   "title": "Lames décurrentes, spores blanches",
+   "question": "Comment sont les lames ?",
+   "choices": [
+    {
+     "label": "Lames fourchues, fines, sans lamellules (couleur orangée de girolle)",
+     "species": "hygrophoropsis-aurantiaca",
+     "img": "p12-1"
+    },
+    {
+     "label": "Lames épaisses, particulièrement espacées",
+     "next": "p12-epaisses"
+    },
+    {
+     "label": "Lames fines, normalement serrées ; chair fibreuse",
+     "next": "p12-fines"
+    },
+    {
+     "label": "Forme accidentellement décurrente d'une espèce collybioïde",
+     "next": "p21",
+     "note": "Le livret conseille d'y penser aussi (voir p. 21)"
+    }
+   ]
+  },
+  "p12-epaisses": {
+   "page": 12,
+   "title": "Lames épaisses et espacées",
+   "question": "Quelle est la consistance de la chair ?",
+   "choices": [
+    {
+     "label": "Chair à consistance aqueuse : hygrophores",
+     "hint": "voir p. 34",
+     "next": "p34"
+    },
+    {
+     "label": "Chair très fibreuse : Laccaria",
+     "hint": "voir Laccaria, p. 21",
+     "next": "p21"
+    }
+   ]
+  },
+  "p12-fines": {
+   "page": 12,
+   "title": "Lames fines et serrées, chair fibreuse",
+   "question": "Quelle est la taille de l'espèce ?",
+   "choices": [
+    {
+     "label": "Espèces petites et grêles (pied de 2-3 mm de diamètre), fragiles : omphales",
+     "hint": "entièrement orangé, dans les mousses",
+     "species": "rickenella-fibula"
+    },
+    {
+     "label": "Espèces robustes ou moyennes, > 3 mm de diamètre, plus ou moins élastiques ou résistantes : clitocybes",
+     "next": "p12-clitocybes"
+    }
+   ]
+  },
+  "p12-clitocybes": {
+   "page": 12,
+   "title": "Clitocybes (genre Clitocybe)",
+   "question": "Le chapeau est-il en entonnoir très creusé ?",
+   "choices": [
+    {
+     "label": "Chapeau en entonnoir très creusé",
+     "next": "p12-entonnoir"
+    },
+    {
+     "label": "Charnu, non en entonnoir",
+     "next": "p12-charnu"
+    }
+   ]
+  },
+  "p12-entonnoir": {
+   "page": 12,
+   "title": "Clitocybes : chapeau en entonnoir très creusé",
+   "question": "Quels sont la couleur, le pied et la chair ?",
+   "choices": [
+    {
+     "label": "Couleur jaune paille à jaune orangé ; pied plus court que le diamètre du chapeau ; chair élastique dans le chapeau",
+     "species": "lepista-inversa",
+     "img": "p12-2"
+    },
+    {
+     "label": "Couleur pâle, blanche à café au lait ; pied plus long que le diamètre du chapeau ; chair molle, mamelon fréquent au centre du chapeau",
+     "species": "clitocybe-gibba",
+     "img": "p12-3"
+    },
+    {
+     "label": "À centre et base du pied gris-noir",
+     "hint": "clitocybe d'hiver",
+     "species": "clitocybe-decembris",
+     "note": "Variante de C. gibba, voir C. decembris"
+    },
+    {
+     "label": "Chapeau blanc moucheté de gris, sur bois ; pied très coriace",
+     "hint": "voir p. 19",
+     "species": "lentinus-tigrinus"
+    }
+   ]
+  },
+  "p12-charnu": {
+   "page": 12,
+   "title": "Clitocybes : charnus, non en entonnoir",
+   "question": "De quelle couleur est le chapeau ?",
+   "choices": [
+    {
+     "label": "Chapeau gris",
+     "next": "p12-gris"
+    },
+    {
+     "label": "Chapeau bleu-vert, forte odeur d'anis",
+     "species": "clitocybe-odora"
+    },
+    {
+     "label": "Chapeau blanc",
+     "species": "clitocybe-phyllophila",
+     "img": "p12-5",
+     "note": "Si chapeau mamelonné beige, voir jeunes spécimens de C. gibba, à lames très décurrentes (3)"
+    }
+   ]
+  },
+  "p12-gris": {
+   "page": 12,
+   "title": "Clitocybes à chapeau gris",
+   "question": "Le chapeau et le pied sont-ils fermes ou mous ?",
+   "choices": [
+    {
+     "label": "Centre du chapeau et pied fermes au toucher",
+     "species": "clitocybe-nebularis"
+    },
+    {
+     "label": "Chapeau et pied mous, cotonneux",
+     "species": "clitocybe-clavipes",
+     "img": "p12-4"
+    }
+   ]
+  },
+  "p13-sporees": {
+   "page": 13,
+   "title": "Lames décurrentes : spores roses ou sombres",
+   "question": "Quelle est la couleur des spores ?",
+   "choices": [
+    {
+     "label": "Spores roses",
+     "next": "p13-roses"
+    },
+    {
+     "label": "Spores ocre, brun foncé ou noires",
+     "next": "p13-sombres"
+    }
+   ]
+  },
+  "p13-roses": {
+   "page": 13,
+   "title": "Lames décurrentes, spores roses",
+   "question": "Quel est l'aspect de l'espèce ?",
+   "choices": [
+    {
+     "label": "Espèce blanche ou gris pâle, à chair blanche épaisse mais très fragile, forte odeur de farine : genre Clitopilus",
+     "hint": "une seule espèce courante",
+     "species": "clitopilus-prunulus",
+     "img": "p13-1",
+     "note": "Ne pas confondre avec les clitocybes blancs (p. 12)"
+    },
+    {
+     "label": "Chapeau gris-brun, à chair très mince",
+     "next": "p13-entolomes"
+    }
+   ]
+  },
+  "p13-entolomes": {
+   "page": 13,
+   "title": "Spores roses : chapeau gris-brun, chair très mince",
+   "question": "Le chapeau est-il strié ?",
+   "choices": [
+    {
+     "label": "Chapeau non strié ; pied < 3 mm de diamètre",
+     "species": "entoloma-undatum"
+    },
+    {
+     "label": "Chapeau strié ; pied > 3 mm de diamètre",
+     "hint": "et espèces voisines (voir bas de la p. 24)",
+     "species": "entoloma-rhodopolium"
+    }
+   ]
+  },
+  "p13-sombres": {
+   "page": 13,
+   "title": "Lames décurrentes, spores ocre, brun foncé ou noires",
+   "question": "Les lames sont-elles molles et déliquescentes ?",
+   "choices": [
+    {
+     "label": "Lames serrées, molles, se liquéfiant et brunissant au toucher ; chapeau brun-jaune à châtain",
+     "species": "paxillus-involutus",
+     "img": "p13-2"
+    },
+    {
+     "label": "Lames épaisses, non déliquescentes (gomphides)",
+     "hint": "ces espèces présentent une cortine, mais parfois à peine visible",
+     "next": "p13-gomphides"
+    }
+   ]
+  },
+  "p13-gomphides": {
+   "page": 13,
+   "title": "Gomphides",
+   "question": "De quelle couleur est la chair ?",
+   "choices": [
+    {
+     "label": "Chair brun-jaune",
+     "species": "chroogomphus-rutilus",
+     "img": "p13-3"
+    },
+    {
+     "label": "Chair blanche, ou jaune citrin à la base du pied",
+     "next": "p13-gomphidius"
+    }
+   ]
+  },
+  "p13-gomphidius": {
+   "page": 13,
+   "title": "Gomphides à chair blanche",
+   "question": "Quels sont la couleur du chapeau et l'état du pied ?",
+   "choices": [
+    {
+     "label": "Chapeau gris ; pied visqueux",
+     "species": "gomphidius-glutinosus"
+    },
+    {
+     "label": "Chapeau rose bonbon ; pied sec",
+     "species": "gomphidius-roseus"
+    }
+   ]
+  }
+ },
+ "species": {
+  "leccinum-crocopodium": {
+   "latin": "Leccinum crocopodium",
+   "fr": "Bolet à pied jaune",
+   "group": "Bolets",
+   "edibility": "comestible",
+   "note": "Genre Leccinum, pied raboteux ; pores jaunes. Comestible médiocre.",
+   "images": [],
+   "pages": [
+    10
+   ]
+  },
+  "leccinum-scabrum": {
+   "latin": "Leccinum scabrum",
+   "fr": "Bolet rude",
+   "group": "Bolets",
+   "edibility": "comestible",
+   "note": "Pied raboteux ; pores blancs à gris ; chapeau lisse, chair restant blanche au grattage. Comestible médiocre.",
+   "images": [
+    "p10-1"
+   ],
+   "pages": [
+    10
+   ]
+  },
+  "leccinum-carpini": {
+   "latin": "Leccinum carpini",
+   "fr": "Bolet des charmes",
+   "group": "Bolets",
+   "edibility": "comestible",
+   "note": "Pied raboteux ; chapeau bosselé ou craquelé, chair noircissante. Comestible médiocre.",
+   "images": [],
+   "pages": [
+    10
+   ]
+  },
+  "leccinum-aurantiacum": {
+   "latin": "Leccinum aurantiacum",
+   "fr": "Bolet orangé",
+   "group": "Bolets",
+   "edibility": "comestible",
+   "note": "Pied raboteux ; chapeau de couleur orangée ou fauve. Comestible médiocre.",
+   "images": [],
+   "pages": [
+    10
+   ]
+  },
+  "suillus-luteus": {
+   "latin": "Suillus luteus",
+   "fr": "Bolet jaune",
+   "group": "Bolets",
+   "edibility": "comestible",
+   "note": "Chapeau visqueux brun châtain, anneau ; sous pins.",
+   "images": [
+    "p10-3"
+   ],
+   "pages": [
+    10
+   ]
+  },
+  "suillus-grevillei": {
+   "latin": "Suillus grevillei",
+   "fr": "Bolet élégant",
+   "group": "Bolets",
+   "edibility": "comestible",
+   "note": "Chapeau visqueux jaune ou orangé, anneau ; sous mélèzes.",
+   "images": [],
+   "pages": [
+    10
+   ]
+  },
+  "suillus-granulatus": {
+   "latin": "Suillus granulatus",
+   "fr": "Bolet granulé",
+   "group": "Bolets",
+   "edibility": "comestible",
+   "note": "Chapeau visqueux roux orangé ; pied ponctué de granulations, sans anneau.",
+   "images": [
+    "p10-4"
+   ],
+   "pages": [
+    10
+   ]
+  },
+  "chalciporus-piperatus": {
+   "latin": "Chalciporus piperatus",
+   "fr": "Bolet poivré",
+   "group": "Bolets",
+   "edibility": "inconnu",
+   "note": "Pied lisse ; chair jaune vif à la base du pied.",
+   "images": [],
+   "pages": [
+    10
+   ]
+  },
+  "gyrodon-lividus": {
+   "latin": "Gyrodon lividus",
+   "fr": "Bolet livide",
+   "group": "Bolets",
+   "edibility": "inconnu",
+   "note": "Pores très décurrents, bleuissants ; chapeau visqueux, sans anneau.",
+   "images": [
+    "p10-6"
+   ],
+   "pages": [
+    10,
+    11
+   ]
+  },
+  "imleria-badia": {
+   "latin": "Imleria badia",
+   "fr": "Bolet bai",
+   "group": "Bolets",
+   "edibility": "comestible",
+   "note": "Pied rayé de brun (aspect de bois poli), pores non décurrents ; aussi : chapeau non craquelé, pied brun veiné, pores jaunes bleuissants.",
+   "images": [],
+   "pages": [
+    10,
+    11
+   ]
+  },
+  "suillus-bovinus": {
+   "latin": "Suillus bovinus",
+   "fr": "Bolet des bouviers",
+   "group": "Bolets",
+   "edibility": "inconnu",
+   "note": "Chapeau visqueux ; pied jaunâtre comme le chapeau, uni.",
+   "images": [],
+   "pages": [
+    10
+   ]
+  },
+  "strobilomyces-strobilaceus": {
+   "latin": "Strobilomyces strobilaceus",
+   "fr": "Bolet pomme de pin",
+   "group": "Bolets",
+   "edibility": "inconnu",
+   "note": "Chapeau couvert d'écailles bistre-noirâtre ; pores anguleux grisâtres.",
+   "images": [
+    "p10-5"
+   ],
+   "pages": [
+    10
+   ]
+  },
+  "boletus-edulis": {
+   "latin": "Boletus edulis",
+   "fr": "Cèpe de Bordeaux",
+   "group": "Bolets",
+   "edibility": "comestible",
+   "note": "Pores blancs ou verdâtres, non bleuissants ; pied à réseau blanc.",
+   "confusions": [
+    "tylopilus-felleus"
+   ],
+   "images": [
+    "p11-4"
+   ],
+   "pages": [
+    11
+   ]
+  },
+  "tylopilus-felleus": {
+   "latin": "Tylopilus felleus",
+   "fr": "Bolet de fiel",
+   "group": "Bolets",
+   "edibility": "inconnu",
+   "note": "Pores blancs ou roses ; pied à réseau brun ; saveur amère ; inconsommable !",
+   "confusions": [
+    "boletus-edulis"
+   ],
+   "images": [
+    "p11-7"
+   ],
+   "pages": [
+    11
+   ]
+  },
+  "gyroporus-castaneus": {
+   "latin": "Gyroporus castaneus",
+   "fr": "Bolet châtain",
+   "group": "Bolets",
+   "edibility": "inconnu",
+   "note": "Pores blancs brunissants au toucher ; pied lisse creux.",
+   "images": [],
+   "pages": [
+    11
+   ]
+  },
+  "xerocomellus-chrysenteron": {
+   "latin": "Xerocomellus chrysenteron",
+   "fr": "Bolet à chair jaune",
+   "group": "Bolets",
+   "edibility": "comestible",
+   "note": "Pores jaunes ; pied rayé ou teinté de rouge ; chapeau velouté ou craquelé. Cité deux fois dans la clé (☺ présent à la seconde mention).",
+   "images": [
+    "p11-1"
+   ],
+   "pages": [
+    11
+   ]
+  },
+  "xerocomus-subtomentosus": {
+   "latin": "Xerocomus subtomentosus",
+   "fr": "Bolet tomenteux",
+   "group": "Bolets",
+   "edibility": "inconnu",
+   "note": "Pores jaunes terminés en filet ; pied jaunâtre, sans réseau ; chapeau velouté ou craquelé.",
+   "images": [],
+   "pages": [
+    11
+   ]
+  },
+  "pseudoboletus-parasiticus": {
+   "latin": "Pseudoboletus parasiticus",
+   "fr": "Bolet parasite",
+   "group": "Bolets",
+   "edibility": "inconnu",
+   "note": "Parasite sur scléroderme ; chapeau lisse.",
+   "images": [],
+   "pages": [
+    11
+   ]
+  },
+  "boletus-calopus": {
+   "latin": "Boletus calopus",
+   "fr": "Bolet à beau pied",
+   "group": "Bolets",
+   "edibility": "inconnu",
+   "note": "Pores jaunes bleuissants ; pied robuste à réseau net sur fond rouge ; chair très amère.",
+   "images": [],
+   "pages": [
+    11
+   ]
+  },
+  "boletus-appendiculatus": {
+   "latin": "Boletus appendiculatus",
+   "fr": "Bolet appendiculé",
+   "group": "Bolets",
+   "edibility": "comestible",
+   "note": "Pores jaunes bleuissants ; chapeau gris de plomb ; pied à réseau discret sur fond jaune ; chair douce.",
+   "images": [],
+   "pages": [
+    11
+   ]
+  },
+  "xerocomellus-pruinatus": {
+   "latin": "Xerocomellus pruinatus",
+   "fr": "Bolet pruineux",
+   "group": "Bolets",
+   "edibility": "comestible",
+   "note": "Chapeau non craquelé, sans rouge en surface ; pied teinté de rouge, renflé à la base.",
+   "images": [],
+   "pages": [
+    11
+   ]
+  },
+  "hortiboletus-rubellus": {
+   "latin": "Hortiboletus rubellus",
+   "fr": "Bolet rougeâtre",
+   "group": "Bolets",
+   "edibility": "comestible",
+   "note": "Chapeau non craquelé, rouge au moins sur le bord ; pied teinté de rouge, renflé à la base.",
+   "images": [],
+   "pages": [
+    11
+   ]
+  },
+  "neoboletus-erythropus": {
+   "latin": "Neoboletus erythropus",
+   "fr": "Bolet à pied rouge",
+   "group": "Bolets",
+   "edibility": "comestible",
+   "note": "Pores rouges à orangés ; chapeau brun ; pied sans réseau, à fines ponctuations rouges.",
+   "images": [
+    "p11-5"
+   ],
+   "pages": [
+    11
+   ]
+  },
+  "suillellus-luridus": {
+   "latin": "Suillellus luridus",
+   "fr": "Bolet blafard",
+   "group": "Bolets",
+   "edibility": "inconnu",
+   "note": "Pores rouges à orangés ; chapeau brun jaunâtre à verdâtre ; pied à réseau.",
+   "images": [],
+   "pages": [
+    11
+   ]
+  },
+  "rubroboletus-satanas": {
+   "latin": "Rubroboletus satanas",
+   "fr": "Bolet satan",
+   "group": "Bolets",
+   "edibility": "toxique",
+   "note": "Pores rouges à orangés ; chapeau blanc mastic ; pied à réseau.",
+   "images": [
+    "p11-6"
+   ],
+   "pages": [
+    11
+   ]
+  },
+  "gyroporus-cyanescens": {
+   "latin": "Gyroporus cyanescens",
+   "fr": "Bolet bleuissant",
+   "group": "Bolets",
+   "edibility": "inconnu",
+   "note": "Pores blancs, très petits, bleuissants ; pied creux.",
+   "images": [],
+   "pages": [
+    11
+   ]
+  },
+  "suillus-variegatus": {
+   "latin": "Suillus variegatus",
+   "fr": "Bolet vergeté",
+   "group": "Bolets",
+   "edibility": "inconnu",
+   "note": "Pores gris verdâtre ; chapeau méchuleux.",
+   "images": [],
+   "pages": [
+    11
+   ]
+  },
+  "hygrophoropsis-aurantiaca": {
+   "latin": "Hygrophoropsis aurantiaca",
+   "fr": "Fausse girolle",
+   "group": "Lames décurrentes",
+   "edibility": "comestible",
+   "note": "Lames fourchues, fines, sans lamellules, de couleur orangée de girolle.",
+   "images": [
+    "p12-1"
+   ],
+   "pages": [
+    12
+   ]
+  },
+  "rickenella-fibula": {
+   "latin": "Rickenella fibula",
+   "fr": "Omphale tête-d'épingle",
+   "group": "Lames décurrentes",
+   "edibility": "inconnu",
+   "note": "Petite espèce grêle (pied de 2-3 mm), fragile, entièrement orangée, dans les mousses.",
+   "images": [],
+   "pages": [
+    12
+   ]
+  },
+  "lepista-inversa": {
+   "latin": "Lepista inversa",
+   "fr": "Clitocybe renversé",
+   "group": "Lames décurrentes",
+   "edibility": "comestible",
+   "note": "Chapeau en entonnoir très creusé, jaune paille à jaune orangé ; pied plus court que le diamètre du chapeau ; chair élastique.",
+   "images": [
+    "p12-2"
+   ],
+   "pages": [
+    12
+   ]
+  },
+  "clitocybe-gibba": {
+   "latin": "Clitocybe gibba",
+   "fr": "Clitocybe en entonnoir",
+   "group": "Lames décurrentes",
+   "edibility": "comestible",
+   "note": "Entonnoir très creusé, pâle ; pied plus long que le diamètre du chapeau ; chair molle, mamelon fréquent. Jeunes spécimens à lames très décurrentes.",
+   "confusions": [
+    "clitocybe-decembris"
+   ],
+   "images": [
+    "p12-3"
+   ],
+   "pages": [
+    12
+   ]
+  },
+  "clitocybe-decembris": {
+   "latin": "Clitocybe decembris",
+   "fr": "Clitocybe d'hiver",
+   "group": "Lames décurrentes",
+   "edibility": "inconnu",
+   "note": "Mentionné pour pied gris-noir au centre et à la base, voisin de C. gibba.",
+   "images": [],
+   "pages": [
+    12
+   ]
+  },
+  "lentinus-tigrinus": {
+   "latin": "Lentinus tigrinus",
+   "fr": "Lentin tigré",
+   "group": "Lames décurrentes",
+   "edibility": "inconnu",
+   "note": "Chapeau blanc moucheté de gris, sur bois ; pied très coriace. Voir p. 19.",
+   "images": [],
+   "pages": [
+    12
+   ]
+  },
+  "clitocybe-nebularis": {
+   "latin": "Clitocybe nebularis",
+   "fr": "Clitocybe nébuleux",
+   "group": "Lames décurrentes",
+   "edibility": "toxique",
+   "note": "Chapeau gris ; centre du chapeau et pied fermes au toucher.",
+   "images": [],
+   "pages": [
+    12
+   ]
+  },
+  "clitocybe-clavipes": {
+   "latin": "Clitocybe clavipes",
+   "fr": "Clitocybe à pied clavé",
+   "group": "Lames décurrentes",
+   "edibility": "toxique",
+   "note": "Chapeau gris ; chapeau et pied mous, cotonneux ; pied clavé.",
+   "images": [
+    "p12-4"
+   ],
+   "pages": [
+    12
+   ]
+  },
+  "clitocybe-odora": {
+   "latin": "Clitocybe odora",
+   "fr": "Clitocybe anisé",
+   "group": "Lames décurrentes",
+   "edibility": "inconnu",
+   "note": "Chapeau bleu-vert, forte odeur d'anis.",
+   "images": [],
+   "pages": [
+    12
+   ]
+  },
+  "clitocybe-phyllophila": {
+   "latin": "Clitocybe phyllophila",
+   "fr": "Clitocybe des feuilles",
+   "group": "Lames décurrentes",
+   "edibility": "toxique",
+   "note": "Chapeau blanc. Si chapeau mamelonné beige, voir jeunes C. gibba.",
+   "confusions": [
+    "clitocybe-gibba"
+   ],
+   "images": [
+    "p12-5"
+   ],
+   "pages": [
+    12
+   ]
+  },
+  "clitopilus-prunulus": {
+   "latin": "Clitopilus prunulus",
+   "fr": "Meunier",
+   "group": "Lames décurrentes",
+   "edibility": "comestible",
+   "note": "Blanc ou gris pâle, chair blanche épaisse mais très fragile, forte odeur de farine ; lames décurrentes blanches puis rosées ; spores roses.",
+   "confusions": [
+    "clitocybe-phyllophila"
+   ],
+   "images": [
+    "p13-1"
+   ],
+   "pages": [
+    13
+   ]
+  },
+  "entoloma-undatum": {
+   "latin": "Entoloma undatum",
+   "fr": "",
+   "group": "Lames décurrentes",
+   "edibility": "inconnu",
+   "note": "Spores roses ; chapeau gris-brun non strié, chair très mince ; pied < 3 mm de diamètre.",
+   "images": [],
+   "pages": [
+    13
+   ]
+  },
+  "entoloma-rhodopolium": {
+   "latin": "Entoloma rhodopolium",
+   "fr": "Entolome gris-rose",
+   "group": "Lames décurrentes",
+   "edibility": "toxique",
+   "note": "Spores roses ; chapeau gris-brun strié, chair très mince ; pied > 3 mm de diamètre. Et espèces voisines (voir bas de la p. 24).",
+   "images": [],
+   "pages": [
+    13
+   ]
+  },
+  "paxillus-involutus": {
+   "latin": "Paxillus involutus",
+   "fr": "Paxille enroulé",
+   "group": "Lames décurrentes",
+   "edibility": "mortel",
+   "note": "Lames serrées, molles, se liquéfiant et brunissant au toucher ; chapeau brun-jaune à châtain.",
+   "images": [
+    "p13-2"
+   ],
+   "pages": [
+    13
+   ]
+  },
+  "chroogomphus-rutilus": {
+   "latin": "Chroogomphus rutilus",
+   "fr": "Gomphide visqueux",
+   "group": "Lames décurrentes",
+   "edibility": "inconnu",
+   "note": "Gomphide à lames épaisses non déliquescentes ; chair brun-jaune.",
+   "images": [
+    "p13-3"
+   ],
+   "pages": [
+    13
+   ]
+  },
+  "gomphidius-glutinosus": {
+   "latin": "Gomphidius glutinosus",
+   "fr": "Gomphide glutineux",
+   "group": "Lames décurrentes",
+   "edibility": "comestible",
+   "note": "Gomphide à chair blanche ; chapeau gris, pied visqueux.",
+   "images": [],
+   "pages": [
+    13
+   ]
+  },
+  "gomphidius-roseus": {
+   "latin": "Gomphidius roseus",
+   "fr": "Gomphide rose",
+   "group": "Lames décurrentes",
+   "edibility": "inconnu",
+   "note": "Gomphide à chair blanche ; chapeau rose bonbon, pied sec.",
+   "images": [],
+   "pages": [
+    13
+   ]
+  }
+ },
+ "figures": [
+  {
+   "name": "p10-1",
+   "page": 10,
+   "box": [
+    0.19,
+    0.25,
+    0.4,
+    0.38
+   ],
+   "species": "leccinum-scabrum",
+   "caption": "Bolet à pied raboteux (Leccinum)"
+  },
+  {
+   "name": "p10-2",
+   "page": 10,
+   "box": [
+    0.54,
+    0.25,
+    0.78,
+    0.38
+   ],
+   "caption": "Bolet à pied couvert d'écailles ou de mèches (pied sans écailles : lisse, guttulé ou réticulé)"
+  },
+  {
+   "name": "p10-3",
+   "page": 10,
+   "box": [
+    0.12,
+    0.67,
+    0.29,
+    0.81
+   ],
+   "species": "suillus-luteus",
+   "caption": "Bolet jaune"
+  },
+  {
+   "name": "p10-4",
+   "page": 10,
+   "box": [
+    0.34,
+    0.655,
+    0.57,
+    0.81
+   ],
+   "species": "suillus-granulatus",
+   "caption": "Bolet granulé : chapeau visqueux, pores fins pleurant des gouttes laiteuses, pied ponctué de granulations surtout dans le haut"
+  },
+  {
+   "name": "p10-6",
+   "page": 10,
+   "box": [
+    0.58,
+    0.655,
+    0.73,
+    0.77
+   ],
+   "species": "gyrodon-lividus",
+   "caption": "Bolet livide"
+  },
+  {
+   "name": "p10-5",
+   "page": 10,
+   "box": [
+    0.72,
+    0.675,
+    0.9,
+    0.82
+   ],
+   "species": "strobilomyces-strobilaceus",
+   "caption": "Bolet pomme de pin (légende illisible)"
+  },
+  {
+   "name": "p11-4",
+   "page": 11,
+   "box": [
+    0.12,
+    0.62,
+    0.31,
+    0.755
+   ],
+   "species": "boletus-edulis",
+   "caption": "Cèpe de Bordeaux : marge claire presque blanche, pores blancs puis jaune verdâtre, réseau blanchâtre plus net vers le haut, pied obèse chez les jeunes"
+  },
+  {
+   "name": "p11-5",
+   "page": 11,
+   "box": [
+    0.45,
+    0.625,
+    0.63,
+    0.755
+   ],
+   "species": "neoboletus-erythropus",
+   "caption": "Bolet à pied rouge : chapeau bistre sombre, pores fins rouge orangé, chair jaune bleuissant à la cassure, peluches rouges, pied robuste renflé à la base"
+  },
+  {
+   "name": "p11-6",
+   "page": 11,
+   "box": [
+    0.3,
+    0.72,
+    0.46,
+    0.86
+   ],
+   "species": "rubroboletus-satanas",
+   "caption": "Bolet satan"
+  },
+  {
+   "name": "p11-7",
+   "page": 11,
+   "box": [
+    0.63,
+    0.71,
+    0.83,
+    0.86
+   ],
+   "species": "tylopilus-felleus",
+   "caption": "Bolet de fiel : pores jaunes bleuissant au toucher, réseau légèrement plus foncé, pied ventru radicant à la base"
+  },
+  {
+   "name": "p11-1",
+   "page": 11,
+   "box": [
+    0.16,
+    0.82,
+    0.36,
+    0.96
+   ],
+   "species": "xerocomellus-chrysenteron",
+   "caption": "Chapeau sec à revêtement craquelé, sous-cuticule rouge, pores anguleux jaune verdâtre bleuissant au toucher, pied fibrillé de rouge (numéro imprimé à côté de Xerocomus subtomentosus : doute)"
+  },
+  {
+   "name": "p12-1",
+   "page": 12,
+   "box": [
+    0.14,
+    0.165,
+    0.31,
+    0.3
+   ],
+   "species": "hygrophoropsis-aurantiaca",
+   "caption": "Fausse girolle"
+  },
+  {
+   "name": "p12-2",
+   "page": 12,
+   "box": [
+    0.06,
+    0.405,
+    0.27,
+    0.515
+   ],
+   "species": "lepista-inversa",
+   "caption": "Clitocybe renversé : chapeau creusé en coupe jaune roussâtre, marge enroulée, pied court fibreux"
+  },
+  {
+   "name": "p12-3",
+   "page": 12,
+   "box": [
+    0.12,
+    0.67,
+    0.33,
+    0.79
+   ],
+   "species": "clitocybe-gibba",
+   "caption": "Clitocybe en entonnoir (légende numérotée illisible)"
+  },
+  {
+   "name": "p12-4",
+   "page": 12,
+   "box": [
+    0.15,
+    0.86,
+    0.27,
+    0.97
+   ],
+   "species": "clitocybe-clavipes",
+   "caption": "Clitocybe à pied clavé"
+  },
+  {
+   "name": "p12-5",
+   "page": 12,
+   "box": [
+    0.63,
+    0.855,
+    0.8,
+    0.965
+   ],
+   "species": "clitocybe-phyllophila",
+   "caption": "Clitocybe des feuilles (légende numérotée illisible)"
+  },
+  {
+   "name": "p13-1",
+   "page": 13,
+   "box": [
+    0.33,
+    0.17,
+    0.6,
+    0.3
+   ],
+   "species": "clitopilus-prunulus",
+   "caption": "Meunier : chapeau blanc mat en entonnoir, chapeau d'abord bombé, lames décurrentes blanches puis rosées, pied plus ou moins excentrique"
+  },
+  {
+   "name": "p13-2",
+   "page": 13,
+   "box": [
+    0.36,
+    0.48,
+    0.58,
+    0.62
+   ],
+   "species": "paxillus-involutus",
+   "caption": "Paxille enroulé"
+  },
+  {
+   "name": "p13-3",
+   "page": 13,
+   "box": [
+    0.1,
+    0.675,
+    0.27,
+    0.82
+   ],
+   "species": "chroogomphus-rutilus",
+   "caption": "Gomphide visqueux"
+  }
+ ]
 }

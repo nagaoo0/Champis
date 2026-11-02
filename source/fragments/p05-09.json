@@ -1,2042 +1,2042 @@
 {
-  "nodes": {
-    "p05": {
-      "page": 5,
-      "title": "Hyménophore lisse infère ou amphigène",
-      "question": "Quelle est la forme du champignon à hyménophore lisse ?",
-      "intro": "Formes diverses. Hyménophore infère : croûtes, chapeaux réfléchis. Hyménophore amphigène : rameaux dressés, chapeaux en entonnoir (page suivante).",
-      "choices": [
-        {
-          "label": "En croûtes",
-          "hint": "formes étalées (résupinées) sans chapeau, parfois une simple pellicule sans chair, souvent sur le bois",
-          "next": "p05-croutes",
-          "img": "p05-a"
-        },
-        {
-          "label": "Chapeaux réfléchis",
-          "hint": "surface supérieure distincte, stérile",
-          "next": "p05-reflechis"
-        },
-        {
-          "label": "Dressés (massues, rameaux) ou en entonnoir",
-          "hint": "hyménophore infère ou amphigène, page suivante",
-          "next": "p06-dresses"
-        }
-      ]
+ "nodes": {
+  "p05": {
+   "page": 5,
+   "title": "Hyménophore lisse infère ou amphigène",
+   "question": "Quelle est la forme du champignon à hyménophore lisse ?",
+   "intro": "Formes diverses. Hyménophore infère : croûtes, chapeaux réfléchis. Hyménophore amphigène : rameaux dressés, chapeaux en entonnoir (page suivante).",
+   "choices": [
+    {
+     "label": "En croûtes",
+     "hint": "formes étalées (résupinées) sans chapeau, parfois une simple pellicule sans chair, souvent sur le bois",
+     "next": "p05-croutes",
+     "img": "p05-a"
     },
-    "p05-croutes": {
-      "page": 5,
-      "title": "Hyménophore lisse infère ou amphigène : en croûtes",
-      "question": "De quelle couleur est la croûte ?",
-      "intro": "Formes étalées (résupinées) sans chapeau, parfois une simple pellicule sans chair, souvent sur le bois. Quelques exemples seulement.",
-      "choices": [
-        {
-          "label": "Orange vif, surface veinée radialement",
-          "species": "phlebia-merismoides",
-          "img": "p05-1"
-        },
-        {
-          "label": "Bleu vif, surface lisse",
-          "species": "terana-caerulea"
-        }
-      ]
+    {
+     "label": "Chapeaux réfléchis",
+     "hint": "surface supérieure distincte, stérile",
+     "next": "p05-reflechis"
     },
-    "p05-reflechis": {
-      "page": 5,
-      "title": "Hyménophore lisse infère ou amphigène : chapeaux réfléchis",
-      "question": "La chair est-elle mince et coriace ou épaisse et gélatineuse ?",
-      "choices": [
-        {
-          "label": "Coriaces, minces (moins de 1 mm)",
-          "next": "p05-coriaces"
-        },
-        {
-          "label": "Gélatineux, épais (plus de 1 mm)",
-          "next": "p05-gelatineux"
-        }
-      ]
-    },
-    "p05-coriaces": {
-      "page": 5,
-      "title": "Hyménophore lisse infère ou amphigène : chapeaux réfléchis coriaces",
-      "question": "Le champignon est-il en partie étalé sur bois ou en pétales à terre ?",
-      "choices": [
-        {
-          "label": "En partie étalé, sur bois, à marge arrondie",
-          "hint": "Stéréés",
-          "next": "p05-sterees"
-        },
-        {
-          "label": "En pétales bruns à extrémités blanchâtres, à terre, à marges frangées",
-          "species": "thelephora-terrestris",
-          "img": "p05-4"
-        }
-      ]
-    },
-    "p05-sterees": {
-      "page": 5,
-      "title": "Hyménophore lisse infère ou amphigène : stéréés",
-      "question": "Comment est l'hyménophore ?",
-      "choices": [
-        {
-          "label": "Hyménophore jaune, surface supérieure hirsute",
-          "species": "stereum-hirsutum",
-          "img": "p05-3"
-        },
-        {
-          "label": "Hyménophore rosé à violacé, surface supérieure velue",
-          "species": "chondrostereum-purpureum"
-        }
-      ]
-    },
-    "p05-gelatineux": {
-      "page": 5,
-      "title": "Hyménophore lisse infère ou amphigène : chapeaux réfléchis gélatineux",
-      "question": "Quelle est la forme du champignon gélatineux ?",
-      "choices": [
-        {
-          "label": "En coupes pendantes, brun-rouge",
-          "hint": "surface externe feutrée",
-          "species": "auricularia-auricula-judae",
-          "img": "p05-5"
-        },
-        {
-          "label": "En toupie, noirâtre",
-          "hint": "surface externe papillée",
-          "species": "exidia-truncata"
-        },
-        {
-          "label": "En partie étalés, formant des chapeaux hirsutes",
-          "next": "p05-gelatineux-hirsutes"
-        }
-      ]
-    },
-    "p05-gelatineux-hirsutes": {
-      "page": 5,
-      "title": "Hyménophore lisse infère ou amphigène : gélatineux en chapeaux hirsutes",
-      "question": "Comment est la surface inférieure ?",
-      "choices": [
-        {
-          "label": "Gris-brun, grossièrement veinée",
-          "species": "auricularia-mesenterica"
-        },
-        {
-          "label": "Rose-orangé, gaufrée",
-          "species": "phlebia-tremellosa",
-          "img": "p05-2"
-        }
-      ]
-    },
-    "p06-dresses": {
-      "page": 6,
-      "title": "Hyménophore lisse infère ou amphigène : dressés et entonnoirs",
-      "question": "Le champignon est-il en arbuscule, en masse foliacée ou en entonnoir ?",
-      "intro": "Dressés : souvent terrestres, à hyménophore infère ou amphigène (sur toute la surface des rameaux).",
-      "choices": [
-        {
-          "label": "Arbuscules ou massues (Clavariacées)",
-          "next": "p06-clavariacees"
-        },
-        {
-          "label": "Masses foliacées plus ou moins serrées",
-          "species": "sparassis-crispa",
-          "img": "p06-6"
-        },
-        {
-          "label": "Entonnoirs ou \"cônes renversés\" (Cantharellacées)",
-          "next": "p06-entonnoirs"
-        }
-      ]
-    },
-    "p06-clavariacees": {
-      "page": 6,
-      "title": "Hyménophore lisse infère ou amphigène : clavaires",
-      "question": "Les arbuscules sont-ils simples ou ramifiés ?",
-      "choices": [
-        {
-          "label": "Simples",
-          "next": "p06-simples"
-        },
-        {
-          "label": "Ramifiés",
-          "next": "p06-ramifies"
-        }
-      ]
-    },
-    "p06-simples": {
-      "page": 6,
-      "title": "Hyménophore lisse infère ou amphigène : clavaires simples",
-      "question": "Le champignon est-il épais en massue ou en fuseaux ?",
-      "intro": "Si les fuseaux sont noirs ou verts, lisses et fragiles, voir Geoglossum ; s'ils sont durs et granuleux, voir Xylaria (pas de page indiquée).",
-      "choices": [
-        {
-          "label": "Épais en massue (roussâtre)",
-          "species": "clavariadelphus-pistillaris",
-          "img": "p06-1"
-        },
-        {
-          "label": "En fuseaux, en touffes (jaune)",
-          "species": "clavulinopsis-fusiformis"
-        }
-      ]
-    },
-    "p06-ramifies": {
-      "page": 6,
-      "title": "Hyménophore lisse infère ou amphigène : clavaires ramifiées",
-      "question": "La base est-elle grêle ou épaissie ?",
-      "choices": [
-        {
-          "label": "Base grêle, atténuée",
-          "next": "p06-ramifies-grele"
-        },
-        {
-          "label": "Base épaissie, arrondie",
-          "next": "p06-ramifies-epaisse"
-        }
-      ]
-    },
-    "p06-ramifies-grele": {
-      "page": 6,
-      "title": "Hyménophore lisse infère ou amphigène : ramifiées à base grêle",
-      "question": "Quelle est la couleur et le milieu ?",
-      "choices": [
-        {
-          "label": "Blanc, à terre",
-          "species": "clavulina-cristata",
-          "img": "p06-3"
-        },
-        {
-          "label": "Gris, à terre",
-          "species": "clavulina-cinerea",
-          "img": "p06-2"
-        },
-        {
-          "label": "Jaunâtre, sur bois, avec rhizomorphes",
-          "species": "ramaria-stricta"
-        },
-        {
-          "label": "Orangé vif, gélatineux, sur bois",
-          "species": "calocera-viscosa"
-        }
-      ]
-    },
-    "p06-ramifies-epaisse": {
-      "page": 6,
-      "title": "Hyménophore lisse infère ou amphigène : ramifiées à base épaissie",
-      "question": "De quelle couleur est la clavaire ?",
-      "choices": [
-        {
-          "label": "Rose à extrémités jaunes",
-          "species": "ramaria-formosa",
-          "img": "p06-4"
-        },
-        {
-          "label": "Blanche à la base, à rameaux roses",
-          "species": "ramaria-botrytis",
-          "img": "p06-5"
-        }
-      ]
-    },
-    "p06-entonnoirs": {
-      "page": 6,
-      "title": "Hyménophore lisse infère ou amphigène : entonnoirs",
-      "question": "Les plis sont-ils à peine marqués ou bien marqués ?",
-      "choices": [
-        {
-          "label": "Plis à peine marqués ou veines diffuses",
-          "hint": "couleurs ternes ou sombres (craterelles)",
-          "next": "p06-craterelles"
-        },
-        {
-          "label": "Plis bien marqués évoquant des lames",
-          "hint": "chanterelles",
-          "next": "p06-chanterelles"
-        }
-      ]
-    },
-    "p06-craterelles": {
-      "page": 6,
-      "title": "Hyménophore lisse infère ou amphigène : craterelles",
-      "question": "Quelle est la couleur et la hauteur du chapeau ?",
-      "choices": [
-        {
-          "label": "Chapeau gris-noir, hauteur supérieure à 5 cm",
-          "species": "craterellus-cornucopioides",
-          "img": "p06-6bis"
-        },
-        {
-          "label": "Chapeau gris pâle à blanchâtre, hauteur inférieure à 5 cm",
-          "species": "craterellus-sinuosus",
-          "img": "p06-a"
-        }
-      ]
-    },
-    "p06-chanterelles": {
-      "page": 6,
-      "title": "Hyménophore lisse infère ou amphigène : chanterelles",
-      "question": "Le pied est-il plein ou creux ?",
-      "choices": [
-        {
-          "label": "Pied plein, plis jaune orangé",
-          "species": "cantharellus-cibarius",
-          "img": "p06-7"
-        },
-        {
-          "label": "Pied creux, jaune, chapeau gris jaunâtre",
-          "species": "craterellus-tubaeformis"
-        }
-      ]
-    },
-    "p07": {
-      "page": 7,
-      "title": "Hyménophore lisse supère",
-      "question": "L'espèce est-elle gélatineuse ?",
-      "choices": [
-        {
-          "label": "Espèces non gélatineuses",
-          "next": "p07-non-gelatineuses"
-        },
-        {
-          "label": "Espèces gélatineuses",
-          "next": "p07-gelatineuses"
-        }
-      ]
-    },
-    "p07-non-gelatineuses": {
-      "page": 7,
-      "title": "Hyménophore lisse supère : non gélatineuses",
-      "question": "Quelle est la forme de l'hyménophore ?",
-      "choices": [
-        {
-          "label": "Hyménophore dirigé vers le haut",
-          "hint": "coupes avec ou sans pied",
-          "next": "p07-vers-le-haut"
-        },
-        {
-          "label": "Hyménophore plutôt latéral, en \"oreilles\"",
-          "next": "p07-oreilles"
-        },
-        {
-          "label": "En éponges (à alvéoles), au printemps",
-          "species": "morchella-spp",
-          "img": "p07-3",
-          "note": "À pied caverneux et odeur repoussante, penser à Phallus impudicus (satyre puant)."
-        },
-        {
-          "label": "Chapeau en selles, en lobes, plus ou moins tortueux",
-          "hint": "Helvelles",
-          "next": "p07-helvelles"
-        }
-      ]
-    },
-    "p07-vers-le-haut": {
-      "page": 7,
-      "title": "Hyménophore lisse supère : hyménophore dirigé vers le haut",
-      "question": "Le champignon a-t-il un pied et de quelle couleur est-il ?",
-      "choices": [
-        {
-          "label": "Sans pied, orangé vif",
-          "hint": "pézizes proprement dites",
-          "species": "aleuria-aurantia",
-          "img": "p07-2"
-        },
-        {
-          "label": "Sans pied, rouge vif, très petit, à marge poilue",
-          "species": "scutellinia-crinita"
-        },
-        {
-          "label": "Sans pied, brune ou jaune",
-          "hint": "nombreuses espèces",
-          "species": "peziza-spp"
-        },
-        {
-          "label": "Avec pied net, long",
-          "species": "helvella-macropus"
-        }
-      ]
-    },
-    "p07-oreilles": {
-      "page": 7,
-      "title": "Hyménophore lisse supère : en oreilles",
-      "question": "Quelle est la couleur et la hauteur ?",
-      "choices": [
-        {
-          "label": "Jaune doré, plus de 5 cm de haut",
-          "species": "otidea-onotica",
-          "img": "p07-1"
-        },
-        {
-          "label": "Brune à jaune terne, moins de 5 cm",
-          "species": "otidea-alutacea"
-        }
-      ]
-    },
-    "p07-helvelles": {
-      "page": 7,
-      "title": "Hyménophore lisse supère : helvelles",
-      "question": "Le pied est-il veiné ou lisse ?",
-      "choices": [
-        {
-          "label": "Pied veiné, blanc ou crème",
-          "species": "helvella-crispa",
-          "img": "p07-4"
-        },
-        {
-          "label": "Pied veiné, gris à noirâtre",
-          "species": "helvella-lacunosa"
-        },
-        {
-          "label": "Pied lisse",
-          "species": "helvella-elastica"
-        }
-      ]
-    },
-    "p07-gelatineuses": {
-      "page": 7,
-      "title": "Hyménophore lisse supère : gélatineuses",
-      "question": "Le champignon gélatineux est-il en bouton ou en cervelle ?",
-      "choices": [
-        {
-          "label": "En boutons ou toupies, noirâtre, salissant",
-          "species": "bulgaria-inquinans"
-        },
-        {
-          "label": "Autres espèces gélatineuses en boutons",
-          "hint": "voir Champignons gélatineux à hyménophore infère",
-          "next": "p05"
-        },
-        {
-          "label": "En \"cervelles\" (trémelles), sans pied, sur bois",
-          "species": "tremella-mesenterica"
-        },
-        {
-          "label": "En \"cervelles\" (trémelles), à pied, sur terre",
-          "species": "leotia-lubrica"
-        }
-      ]
-    },
-    "p08": {
-      "page": 8,
-      "title": "Hyménophore interne",
-      "question": "Quelle est la forme du champignon à hyménophore interne ?",
-      "choices": [
-        {
-          "label": "Sphériques",
-          "hint": "hyménium interne = gléba, d'abord pâle et ferme, devenant pulvérulent à maturité",
-          "next": "p08-spheriques"
-        },
-        {
-          "label": "En étoiles (géastres, \"étoiles de terre\")",
-          "next": "p08-geastres"
-        },
-        {
-          "label": "En nids (cupules avec des \"oeufs\" = péridioles), cyathes",
-          "next": "p08-cyathes"
-        }
-      ]
-    },
-    "p08-spheriques": {
-      "page": 8,
-      "title": "Hyménophore interne : sphériques",
-      "question": "L'enveloppe est-elle coriace, molle ou gélatineuse ?",
-      "choices": [
-        {
-          "label": "Coriaces",
-          "hint": "enveloppe épaisse, lisse ou écailleuse (sclérodermes)",
-          "next": "p08-sclerodermes"
-        },
-        {
-          "label": "Mous ou fragiles",
-          "hint": "enveloppe mince ; surface couverte de poussière, épines, verrues ; gléba cotonneuse puis pulvérulente (vesses-de-loup)",
-          "next": "p08-lycoperdons"
-        },
-        {
-          "label": "Avec couche gélatineuse sous la surface",
-          "hint": "odeur de radis",
-          "species": "phallus-impudicus",
-          "note": "Il s'agit des oeufs de Phallus impudicus (cf.)."
-        }
-      ]
-    },
-    "p08-sclerodermes": {
-      "page": 8,
-      "title": "Hyménophore interne : sclérodermes",
-      "question": "Quelle est la taille et le pied ?",
-      "choices": [
-        {
-          "label": "3 à 10 cm, grossièrement craquelé, sans pied",
-          "species": "scleroderma-citrinum",
-          "img": "p08-2"
-        },
-        {
-          "label": "1 à 4 cm, pied différencié à rhizomorphes nombreux",
-          "species": "scleroderma-verrucosum",
-          "img": "p08-1"
-        }
-      ]
-    },
-    "p08-lycoperdons": {
-      "page": 8,
-      "title": "Hyménophore interne : vesses-de-loup",
-      "question": "Le champignon a-t-il un pied distinct ?",
-      "choices": [
-        {
-          "label": "Pied distinct, en touffes sur bois, presque lisses, avec rhizomorphes",
-          "species": "lycoperdon-pyriforme",
-          "img": "p08-4"
-        },
-        {
-          "label": "Pied distinct, à terre, verrues coniques tombant facilement, surface blanche",
-          "species": "lycoperdon-perlatum",
-          "img": "p08-5"
-        },
-        {
-          "label": "Pied distinct, à terre, verrues coniques tombant facilement, surface brune",
-          "species": "lycoperdon-nigrescens"
-        },
-        {
-          "label": "Pied absent (sphérique), diamètre de 1 à 5 cm",
-          "species": "bovista-plumbea"
-        },
-        {
-          "label": "Pied absent (sphérique), diamètre de 10 à 60 cm",
-          "species": "langermannia-gigantea"
-        }
-      ]
-    },
-    "p08-geastres": {
-      "page": 8,
-      "title": "Hyménophore interne : géastres",
-      "question": "Y a-t-il une collerette sous la gléba ?",
-      "choices": [
-        {
-          "label": "Sans collerette sous la gléba, orifice non délimité",
-          "species": "geastrum-sessile",
-          "img": "p08-9"
-        },
-        {
-          "label": "Avec collerette sous la gléba, orifice délimité",
-          "species": "geastrum-triplex",
-          "img": "p08-8"
-        }
-      ]
-    },
-    "p08-cyathes": {
-      "page": 8,
-      "title": "Hyménophore interne : cyathes",
-      "question": "Comment est l'extérieur du nid ?",
-      "choices": [
-        {
-          "label": "Extérieur hirsute, brun",
-          "species": "cyathus-striatus",
-          "img": "p08-10"
-        },
-        {
-          "label": "Extérieur lisse, jaunâtre",
-          "species": "crucibulum-laeve"
-        }
-      ]
-    },
-    "p09": {
-      "page": 9,
-      "title": "Polypores",
-      "question": "Le polypore a-t-il un pied ?",
-      "choices": [
-        {
-          "label": "Stipités",
-          "hint": "à pied distinct ou issus d'une base unique nettement atténuée",
-          "next": "p09-stipites"
-        },
-        {
-          "label": "Dimidiés",
-          "hint": "chapeaux fixés latéralement par une large surface, sans pied",
-          "next": "p09-dimidies"
-        }
-      ]
-    },
-    "p09-stipites": {
-      "page": 9,
-      "title": "Polypores : stipités",
-      "question": "Le chapeau a-t-il un pied nettement distinct ?",
-      "choices": [
-        {
-          "label": "Chapeaux sans pied distinct, en pétales",
-          "next": "p09-petales"
-        },
-        {
-          "label": "Chapeaux circulaires ou semi-circulaires, à pied nettement distinct",
-          "next": "p09-pied-distinct"
-        }
-      ]
-    },
-    "p09-petales": {
-      "page": 9,
-      "title": "Polypores : en pétales",
-      "question": "Le chapeau noircit-il au toucher ?",
-      "choices": [
-        {
-          "label": "Chapeaux brun-jaune à roux, zonés concentriquement",
-          "hint": "noircissant au toucher et en séchant",
-          "species": "meripilus-giganteus"
-        },
-        {
-          "label": "Chapeau gris, sans noircissement au toucher",
-          "species": "grifola-frondosa"
-        }
-      ]
-    },
-    "p09-pied-distinct": {
-      "page": 9,
-      "title": "Polypores : à pied distinct",
-      "question": "Le pied est-il central ou latéral, ou excentrique ?",
-      "choices": [
-        {
-          "label": "Pied central ou latéral",
-          "hint": "genre Polyporus",
-          "next": "p09-polyporus"
-        },
-        {
-          "label": "Pied excentrique, coriace, vernissé, rouge purpurin",
-          "species": "ganoderma-lucidum",
-          "img": "p09-2"
-        }
-      ]
-    },
-    "p09-polyporus": {
-      "page": 9,
-      "title": "Polypores : genre Polyporus",
-      "question": "La surface du chapeau est-elle écailleuse ou lisse, et comment est le pied ?",
-      "choices": [
-        {
-          "label": "Chapeau écailleux, odeur de concombre, pied noir à la base",
-          "species": "polyporus-squamosus",
-          "img": "p09-1"
-        },
-        {
-          "label": "Chapeau écailleux, sans odeur, pied blanchâtre peu différencié",
-          "species": "polyporus-tuberaster"
-        },
-        {
-          "label": "Chapeau lisse, pied noir à la base",
-          "species": "polyporus-durus"
-        },
-        {
-          "label": "Chapeau lisse, pied non noir, souvent chiné",
-          "species": "polyporus-ciliatus"
-        }
-      ]
-    },
-    "p09-dimidies": {
-      "page": 9,
-      "title": "Polypores : dimidiés",
-      "question": "Quelle est la consistance et l'épaisseur ?",
-      "choices": [
-        {
-          "label": "A) Chair molle ou cassante, non fibreuse",
-          "next": "p09-molle"
-        },
-        {
-          "label": "B) Coriaces et minces",
-          "hint": "moins de 1 cm d'épaisseur à mi-rayon",
-          "next": "p09-minces"
-        },
-        {
-          "label": "C) Coriaces, spongieux, épaisseur moyenne (3 à 5 cm)",
-          "hint": "chapeau café-au-lait, lisse, pores blancs minuscules, sur bouleau",
-          "species": "piptoporus-betulinus"
-        },
-        {
-          "label": "D) Épaisses à chair dure",
-          "hint": "pores bruns au grattage",
-          "next": "p09-dures"
-        }
-      ]
-    },
-    "p09-molle": {
-      "page": 9,
-      "title": "Polypores : à chair molle",
-      "question": "De quelle couleur est le polypore ?",
-      "choices": [
-        {
-          "label": "Entièrement blanche",
-          "species": "postia-stiptica"
-        },
-        {
-          "label": "Blanche tachée de bleu",
-          "species": "postia-caesia"
-        },
-        {
-          "label": "Jaune à orangé, tubes jaune vif",
-          "species": "laetiporus-sulfureus"
-        }
-      ]
-    },
-    "p09-minces": {
-      "page": 9,
-      "title": "Polypores : coriaces et minces",
-      "question": "Les pores sont-ils ronds ou étirés radialement ?",
-      "choices": [
-        {
-          "label": "Pores ronds",
-          "next": "p09-pores-ronds"
-        },
-        {
-          "label": "Pores en partie étirés radialement",
-          "next": "p09-pores-etires"
-        }
-      ]
-    },
-    "p09-pores-ronds": {
-      "page": 9,
-      "title": "Polypores : pores ronds",
-      "question": "Comment est la surface supérieure ?",
-      "choices": [
-        {
-          "label": "Surface supérieure veloutée, à zones colorées",
-          "species": "trametes-versicolor",
-          "img": "p09-3"
-        },
-        {
-          "label": "Surface supérieure franchement poilue, blanche",
-          "species": "trametes-hirsuta"
-        },
-        {
-          "label": "Surface supérieure brune non zonée, irrégulièrement bosselée, à marge blanche",
-          "species": "heterobasidion-annosum"
-        }
-      ]
-    },
-    "p09-pores-etires": {
-      "page": 9,
-      "title": "Polypores : pores étirés",
-      "question": "Les pores rougissent-ils au grattage ?",
-      "choices": [
-        {
-          "label": "Pores blancs non rougissants",
-          "species": "trametes-gibbosa"
-        },
-        {
-          "label": "Pores rougissants au grattage",
-          "species": "daedaleopsis-confragosa",
-          "img": "p09-4"
-        }
-      ]
-    },
-    "p09-dures": {
-      "page": 9,
-      "title": "Polypores : à chair dure",
-      "question": "Quelle est la forme du chapeau ?",
-      "choices": [
-        {
-          "label": "Forme de sabot à marge obtuse, blanc à gris-noir",
-          "species": "fomes-fomentarius",
-          "img": "p09-5"
-        },
-        {
-          "label": "Chapeaux plus minces, couleur chocolat à marge blanche",
-          "species": "ganoderma-applanatum"
-        }
-      ]
+    {
+     "label": "Dressés (massues, rameaux) ou en entonnoir",
+     "hint": "hyménophore infère ou amphigène, page suivante",
+     "next": "p06-dresses"
     }
+   ]
   },
-  "species": {
-    "phlebia-merismoides": {
-      "latin": "Phlebia merismoides",
-      "group": "Hyménophore lisse infère ou amphigène",
-      "edibility": "inconnu",
-      "note": "Croûte orange vif, surface veinée radialement.",
-      "confusions": [],
-      "images": [
-        "p05-1"
-      ],
-      "pages": [
-        5
-      ]
-    },
-    "terana-caerulea": {
-      "latin": "Terana caerulea",
-      "group": "Hyménophore lisse infère ou amphigène",
-      "edibility": "inconnu",
-      "note": "Croûte bleu vif, surface lisse.",
-      "confusions": [],
-      "images": [],
-      "pages": [
-        5
-      ]
-    },
-    "stereum-hirsutum": {
-      "latin": "Stereum hirsutum",
-      "group": "Hyménophore lisse infère ou amphigène",
-      "edibility": "inconnu",
-      "note": "Coriace, mince ; hyménophore jaune, surface supérieure hirsute.",
-      "confusions": [],
-      "images": [
-        "p05-3"
-      ],
-      "pages": [
-        5
-      ]
-    },
-    "chondrostereum-purpureum": {
-      "latin": "Chondrostereum purpureum",
-      "group": "Hyménophore lisse infère ou amphigène",
-      "edibility": "inconnu",
-      "note": "Coriace, mince ; hyménophore rosé à violacé, surface supérieure velue.",
-      "confusions": [],
-      "images": [],
-      "pages": [
-        5
-      ]
-    },
-    "thelephora-terrestris": {
-      "latin": "Thelephora terrestris",
-      "group": "Hyménophore lisse infère ou amphigène",
-      "edibility": "inconnu",
-      "note": "En pétales bruns à extrémités blanchâtres, à terre, marges frangées.",
-      "confusions": [],
-      "images": [
-        "p05-4"
-      ],
-      "pages": [
-        5
-      ]
-    },
-    "auricularia-auricula-judae": {
-      "latin": "Auricularia auricula-judae",
-      "group": "Hyménophore lisse infère ou amphigène",
-      "edibility": "comestible",
-      "fr": "Oreille-de-Judas",
-      "note": "Gélatineux, en coupes pendantes, brun-rouge, surface externe feutrée.",
-      "confusions": [],
-      "images": [
-        "p05-5"
-      ],
-      "pages": [
-        5
-      ]
-    },
-    "exidia-truncata": {
-      "latin": "Exidia truncata",
-      "group": "Hyménophore lisse infère ou amphigène",
-      "edibility": "inconnu",
-      "fr": "Exidie tronquée",
-      "note": "Gélatineux, en toupie, noirâtre, surface externe papillée.",
-      "confusions": [],
-      "images": [],
-      "pages": [
-        5
-      ]
-    },
-    "auricularia-mesenterica": {
-      "latin": "Auricularia mesenterica",
-      "group": "Hyménophore lisse infère ou amphigène",
-      "edibility": "inconnu",
-      "fr": "Oreille mésentérique",
-      "note": "Gélatineux, chapeaux hirsutes ; surface inférieure gris-brun grossièrement veinée.",
-      "confusions": [],
-      "images": [],
-      "pages": [
-        5
-      ]
-    },
-    "phlebia-tremellosa": {
-      "latin": "Phlebia tremellosa",
-      "group": "Hyménophore lisse infère ou amphigène",
-      "edibility": "inconnu",
-      "fr": "Mérule tremblante",
-      "note": "Gélatineux, chapeaux hirsutes ; surface inférieure rose-orangé, gaufrée.",
-      "confusions": [],
-      "images": [
-        "p05-2"
-      ],
-      "pages": [
-        5
-      ]
-    },
-    "clavariadelphus-pistillaris": {
-      "latin": "Clavariadelphus pistillaris",
-      "group": "Hyménophore lisse infère ou amphigène",
-      "edibility": "inconnu",
-      "fr": "Clavaire en pilon",
-      "note": "Simple, épaisse en massue, roussâtre.",
-      "confusions": [],
-      "images": [
-        "p06-1"
-      ],
-      "pages": [
-        6
-      ]
-    },
-    "clavulinopsis-fusiformis": {
-      "latin": "Clavulinopsis fusiformis",
-      "group": "Hyménophore lisse infère ou amphigène",
-      "edibility": "inconnu",
-      "fr": "Clavaire en fuseau",
-      "note": "En fuseaux, en touffes, jaune.",
-      "confusions": [],
-      "images": [],
-      "pages": [
-        6
-      ]
-    },
-    "clavulina-cristata": {
-      "latin": "Clavulina cristata",
-      "group": "Hyménophore lisse infère ou amphigène",
-      "edibility": "inconnu",
-      "fr": "Clavaire crêtée",
-      "note": "Ramifiée, base grêle ; blanc, à terre.",
-      "confusions": [
-        "clavulina-cinerea"
-      ],
-      "images": [
-        "p06-3"
-      ],
-      "pages": [
-        6
-      ]
-    },
-    "clavulina-cinerea": {
-      "latin": "Clavulina cinerea",
-      "group": "Hyménophore lisse infère ou amphigène",
-      "edibility": "inconnu",
-      "fr": "Clavaire cendrée",
-      "note": "Ramifiée, base grêle ; gris, à terre.",
-      "confusions": [
-        "clavulina-cristata"
-      ],
-      "images": [
-        "p06-2"
-      ],
-      "pages": [
-        6
-      ]
-    },
-    "ramaria-stricta": {
-      "latin": "Ramaria stricta",
-      "group": "Hyménophore lisse infère ou amphigène",
-      "edibility": "toxique",
-      "fr": "Clavaire étroite",
-      "note": "Jaunâtre, sur bois, avec rhizomorphes.",
-      "confusions": [],
-      "images": [],
-      "pages": [
-        6
-      ]
-    },
-    "calocera-viscosa": {
-      "latin": "Calocera viscosa",
-      "group": "Hyménophore lisse infère ou amphigène",
-      "edibility": "inconnu",
-      "fr": "Calocère visqueuse",
-      "note": "Orangé vif, gélatineux, sur bois.",
-      "confusions": [],
-      "images": [],
-      "pages": [
-        6
-      ]
-    },
-    "ramaria-formosa": {
-      "latin": "Ramaria formosa",
-      "group": "Hyménophore lisse infère ou amphigène",
-      "edibility": "toxique",
-      "fr": "Clavaire jolie",
-      "note": "Base épaissie, arrondie ; rose à extrémités jaunes.",
-      "confusions": [
-        "ramaria-botrytis"
-      ],
-      "images": [
-        "p06-4"
-      ],
-      "pages": [
-        6
-      ]
-    },
-    "ramaria-botrytis": {
-      "latin": "Ramaria botrytis",
-      "group": "Hyménophore lisse infère ou amphigène",
-      "edibility": "comestible",
-      "fr": "Clavaire chou-fleur",
-      "note": "Base épaissie, blanche, à rameaux roses.",
-      "confusions": [
-        "ramaria-formosa"
-      ],
-      "images": [
-        "p06-5"
-      ],
-      "pages": [
-        6
-      ]
-    },
-    "sparassis-crispa": {
-      "latin": "Sparassis crispa",
-      "group": "Hyménophore lisse infère ou amphigène",
-      "edibility": "comestible",
-      "fr": "Clavaire crêpue",
-      "note": "Masse foliacée plus ou moins serrée.",
-      "confusions": [],
-      "images": [
-        "p06-6"
-      ],
-      "pages": [
-        6
-      ]
-    },
-    "craterellus-cornucopioides": {
-      "latin": "Craterellus cornucopioides",
-      "group": "Hyménophore lisse infère ou amphigène",
-      "edibility": "comestible",
-      "fr": "Trompette des morts",
-      "note": "Entonnoir à plis à peine marqués ; chapeau gris-noir, hauteur supérieure à 5 cm.",
-      "confusions": [
-        "craterellus-sinuosus"
-      ],
-      "images": [
-        "p06-6bis"
-      ],
-      "pages": [
-        6
-      ]
-    },
-    "craterellus-sinuosus": {
-      "latin": "Craterellus sinuosus",
-      "group": "Hyménophore lisse infère ou amphigène",
-      "edibility": "comestible",
-      "fr": "Chanterelle sinuée",
-      "note": "Entonnoir à plis à peine marqués ; chapeau gris pâle à blanchâtre, hauteur inférieure à 5 cm.",
-      "confusions": [
-        "craterellus-cornucopioides"
-      ],
-      "images": [
-        "p06-a"
-      ],
-      "pages": [
-        6
-      ]
-    },
-    "cantharellus-cibarius": {
-      "latin": "Cantharellus cibarius",
-      "group": "Hyménophore lisse infère ou amphigène",
-      "edibility": "comestible",
-      "fr": "Girolle",
-      "note": "Pied plein, plis jaune orangé ; chapeau d'abord bombé, marge festonnée, plis décurrents ramifiés.",
-      "confusions": [
-        "craterellus-tubaeformis"
-      ],
-      "images": [
-        "p06-7"
-      ],
-      "pages": [
-        6
-      ]
-    },
-    "craterellus-tubaeformis": {
-      "latin": "Craterellus tubaeformis",
-      "group": "Hyménophore lisse infère ou amphigène",
-      "edibility": "comestible",
-      "fr": "Chanterelle en tube",
-      "note": "Pied creux, jaune ; chapeau gris jaunâtre.",
-      "confusions": [
-        "cantharellus-cibarius"
-      ],
-      "images": [],
-      "pages": [
-        6
-      ]
-    },
-    "aleuria-aurantia": {
-      "latin": "Aleuria aurantia",
-      "group": "Hyménophore lisse supère",
-      "edibility": "comestible",
-      "fr": "Pézize orangée",
-      "note": "Sans pied, orangé vif.",
-      "confusions": [],
-      "images": [
-        "p07-2"
-      ],
-      "pages": [
-        7
-      ]
-    },
-    "scutellinia-crinita": {
-      "latin": "Scutellinia crinita",
-      "group": "Hyménophore lisse supère",
-      "edibility": "inconnu",
-      "fr": "Pézize en bouclier",
-      "note": "Rouge vif, très petite, à marge poilue.",
-      "confusions": [],
-      "images": [],
-      "pages": [
-        7
-      ]
-    },
-    "peziza-spp": {
-      "latin": "Peziza spp.",
-      "group": "Hyménophore lisse supère",
-      "edibility": "inconnu",
-      "fr": "Pézizes",
-      "note": "Brunes ou jaunes, sans pied ; nombreuses espèces.",
-      "confusions": [],
-      "images": [],
-      "pages": [
-        7
-      ]
-    },
-    "helvella-macropus": {
-      "latin": "Helvella macropus",
-      "group": "Hyménophore lisse supère",
-      "edibility": "inconnu",
-      "fr": "Helvelle à grand pied",
-      "note": "Avec pied net, long.",
-      "confusions": [],
-      "images": [],
-      "pages": [
-        7
-      ]
-    },
-    "otidea-onotica": {
-      "latin": "Otidea onotica",
-      "group": "Hyménophore lisse supère",
-      "edibility": "inconnu",
-      "fr": "Oreille-de-lièvre",
-      "note": "Hyménophore plutôt latéral, en oreilles ; jaune doré, plus de 5 cm de haut.",
-      "confusions": [
-        "otidea-alutacea"
-      ],
-      "images": [
-        "p07-1"
-      ],
-      "pages": [
-        7
-      ]
-    },
-    "otidea-alutacea": {
-      "latin": "Otidea alutacea",
-      "group": "Hyménophore lisse supère",
-      "edibility": "inconnu",
-      "note": "En oreilles ; brune à jaune terne, moins de 5 cm.",
-      "confusions": [
-        "otidea-onotica"
-      ],
-      "images": [],
-      "pages": [
-        7
-      ]
-    },
-    "morchella-spp": {
-      "latin": "Morchella spp.",
-      "group": "Hyménophore lisse supère",
-      "edibility": "comestible",
-      "fr": "Morilles",
-      "note": "En éponges (à alvéoles), au printemps. À pied caverneux et odeur repoussante, penser à Phallus impudicus.",
-      "confusions": [
-        "phallus-impudicus"
-      ],
-      "images": [
-        "p07-3"
-      ],
-      "pages": [
-        7
-      ]
-    },
-    "helvella-crispa": {
-      "latin": "Helvella crispa",
-      "group": "Hyménophore lisse supère",
-      "edibility": "inconnu",
-      "fr": "Helvelle crépue",
-      "note": "Chapeau en selles ; pied veiné ; blanc, crème.",
-      "confusions": [
-        "helvella-lacunosa"
-      ],
-      "images": [
-        "p07-4"
-      ],
-      "pages": [
-        7
-      ]
-    },
-    "helvella-lacunosa": {
-      "latin": "Helvella lacunosa",
-      "group": "Hyménophore lisse supère",
-      "edibility": "inconnu",
-      "fr": "Helvelle lacuneuse",
-      "note": "Chapeau en selles ; pied veiné ; gris à noirâtre.",
-      "confusions": [
-        "helvella-crispa"
-      ],
-      "images": [],
-      "pages": [
-        7
-      ]
-    },
-    "helvella-elastica": {
-      "latin": "Helvella elastica",
-      "group": "Hyménophore lisse supère",
-      "edibility": "inconnu",
-      "fr": "Helvelle élastique",
-      "note": "Chapeau en selles ; pied lisse.",
-      "confusions": [],
-      "images": [],
-      "pages": [
-        7
-      ]
-    },
-    "bulgaria-inquinans": {
-      "latin": "Bulgaria inquinans",
-      "group": "Hyménophore lisse supère",
-      "edibility": "inconnu",
-      "note": "Gélatineuse, en boutons ou toupies, noirâtre, salissante.",
-      "confusions": [],
-      "images": [],
-      "pages": [
-        7
-      ]
-    },
-    "tremella-mesenterica": {
-      "latin": "Tremella mesenterica",
-      "group": "Hyménophore lisse supère",
-      "edibility": "inconnu",
-      "fr": "Trémelle mésentérique",
-      "note": "Gélatineuse, en cervelle, sans pied, sur bois.",
-      "confusions": [],
-      "images": [],
-      "pages": [
-        7
-      ]
-    },
-    "leotia-lubrica": {
-      "latin": "Leotia lubrica",
-      "group": "Hyménophore lisse supère",
-      "edibility": "inconnu",
-      "fr": "Léotie visqueuse",
-      "note": "Gélatineuse, à pied, sur terre.",
-      "confusions": [],
-      "images": [],
-      "pages": [
-        7
-      ]
-    },
-    "phallus-impudicus": {
-      "latin": "Phallus impudicus",
-      "group": "Hyménophore interne",
-      "edibility": "inconnu",
-      "fr": "Satyre puant",
-      "note": "Cité sans fiche propre sur ces pages : à pied caverneux et odeur repoussante (voir morilles) ; ses oeufs ont une couche gélatineuse sous la surface et une odeur de radis.",
-      "confusions": [
-        "morchella-spp"
-      ],
-      "images": [],
-      "pages": [
-        7,
-        8
-      ]
-    },
-    "scleroderma-citrinum": {
-      "latin": "Scleroderma citrinum",
-      "group": "Hyménophore interne",
-      "edibility": "toxique",
-      "fr": "Scléroderme commun",
-      "note": "Coriace ; 3 à 10 cm, grossièrement craquelé, sans pied.",
-      "confusions": [
-        "scleroderma-verrucosum"
-      ],
-      "images": [
-        "p08-2"
-      ],
-      "pages": [
-        8
-      ]
-    },
-    "scleroderma-verrucosum": {
-      "latin": "Scleroderma verrucosum",
-      "group": "Hyménophore interne",
-      "edibility": "toxique",
-      "fr": "Scléroderme verruqueux",
-      "note": "Coriace ; 1 à 4 cm, pied différencié à rhizomorphes nombreux ; gléba noir violacé, enveloppe épaisse.",
-      "confusions": [
-        "scleroderma-citrinum"
-      ],
-      "images": [
-        "p08-1",
-        "p08-3"
-      ],
-      "pages": [
-        8
-      ]
-    },
-    "lycoperdon-pyriforme": {
-      "latin": "Lycoperdon pyriforme",
-      "group": "Hyménophore interne",
-      "edibility": "inconnu",
-      "fr": "Vesse-de-loup en poire",
-      "note": "En touffes sur bois, presque lisse, avec rhizomorphes.",
-      "confusions": [],
-      "images": [
-        "p08-4"
-      ],
-      "pages": [
-        8
-      ]
-    },
-    "lycoperdon-perlatum": {
-      "latin": "Lycoperdon perlatum",
-      "group": "Hyménophore interne",
-      "edibility": "inconnu",
-      "fr": "Vesse-de-loup perlée",
-      "note": "À terre, ornée de verrues coniques tombant facilement ; surface blanche.",
-      "confusions": [
-        "lycoperdon-nigrescens"
-      ],
-      "images": [
-        "p08-5",
-        "p08-6"
-      ],
-      "pages": [
-        8
-      ]
-    },
-    "lycoperdon-nigrescens": {
-      "latin": "Lycoperdon nigrescens",
-      "group": "Hyménophore interne",
-      "edibility": "inconnu",
-      "fr": "Vesse-de-loup fétide",
-      "note": "À terre, ornée de verrues coniques tombant facilement ; surface brune.",
-      "confusions": [
-        "lycoperdon-perlatum"
-      ],
-      "images": [],
-      "pages": [
-        8
-      ]
-    },
-    "bovista-plumbea": {
-      "latin": "Bovista plumbea",
-      "group": "Hyménophore interne",
-      "edibility": "inconnu",
-      "fr": "Vesse-de-loup couleur de plomb",
-      "note": "Sans pied, sphérique, diamètre de 1 à 5 cm.",
-      "confusions": [],
-      "images": [],
-      "pages": [
-        8
-      ]
-    },
-    "langermannia-gigantea": {
-      "latin": "Langermannia gigantea",
-      "group": "Hyménophore interne",
-      "edibility": "inconnu",
-      "fr": "Vesse-de-loup géante",
-      "note": "Sans pied, sphérique, diamètre de 10 à 60 cm.",
-      "confusions": [],
-      "images": [],
-      "pages": [
-        8
-      ]
-    },
-    "geastrum-sessile": {
-      "latin": "Geastrum sessile",
-      "group": "Hyménophore interne",
-      "edibility": "inconnu",
-      "note": "Sans collerette sous la gléba, orifice non délimité.",
-      "confusions": [
-        "geastrum-triplex"
-      ],
-      "images": [
-        "p08-9"
-      ],
-      "pages": [
-        8
-      ]
-    },
-    "geastrum-triplex": {
-      "latin": "Geastrum triplex",
-      "group": "Hyménophore interne",
-      "edibility": "inconnu",
-      "note": "Avec collerette sous la gléba, orifice délimité.",
-      "confusions": [
-        "geastrum-sessile"
-      ],
-      "images": [
-        "p08-8"
-      ],
-      "pages": [
-        8
-      ]
-    },
-    "cyathus-striatus": {
-      "latin": "Cyathus striatus",
-      "group": "Hyménophore interne",
-      "edibility": "inconnu",
-      "note": "En nid ; extérieur hirsute, brun.",
-      "confusions": [
-        "crucibulum-laeve"
-      ],
-      "images": [
-        "p08-10"
-      ],
-      "pages": [
-        8,
-        9
-      ]
-    },
-    "crucibulum-laeve": {
-      "latin": "Crucibulum laeve",
-      "group": "Hyménophore interne",
-      "edibility": "inconnu",
-      "note": "En nid ; extérieur lisse, jaunâtre.",
-      "confusions": [
-        "cyathus-striatus"
-      ],
-      "images": [],
-      "pages": [
-        8
-      ]
-    },
-    "meripilus-giganteus": {
-      "latin": "Meripilus giganteus",
-      "group": "Polypores",
-      "edibility": "inconnu",
-      "fr": "Polypore géant",
-      "note": "Chapeaux brun-jaune à roux, zonés concentriquement, noircissant au toucher et en séchant.",
-      "confusions": [
-        "grifola-frondosa"
-      ],
-      "images": [],
-      "pages": [
-        9
-      ]
-    },
-    "grifola-frondosa": {
-      "latin": "Grifola frondosa",
-      "group": "Polypores",
-      "edibility": "comestible",
-      "fr": "Poule-de-bois",
-      "note": "Chapeau gris, sans noircissement au toucher.",
-      "confusions": [
-        "meripilus-giganteus"
-      ],
-      "images": [],
-      "pages": [
-        9
-      ]
-    },
-    "polyporus-squamosus": {
-      "latin": "Polyporus squamosus",
-      "group": "Polypores",
-      "edibility": "inconnu",
-      "fr": "Polypore écailleux",
-      "note": "Chapeau écailleux ; odeur de concombre, pied noir à la base.",
-      "confusions": [
-        "polyporus-tuberaster"
-      ],
-      "images": [
-        "p09-1"
-      ],
-      "pages": [
-        9
-      ]
-    },
-    "polyporus-tuberaster": {
-      "latin": "Polyporus tuberaster",
-      "group": "Polypores",
-      "edibility": "inconnu",
-      "note": "Chapeau écailleux ; sans odeur, pied blanchâtre peu différencié.",
-      "confusions": [
-        "polyporus-squamosus"
-      ],
-      "images": [],
-      "pages": [
-        9
-      ]
-    },
-    "polyporus-durus": {
-      "latin": "Polyporus durus",
-      "group": "Polypores",
-      "edibility": "inconnu",
-      "fr": "Polypore à pied noir",
-      "note": "Chapeau lisse ; pied noir à la base.",
-      "confusions": [
-        "polyporus-ciliatus"
-      ],
-      "images": [],
-      "pages": [
-        9
-      ]
-    },
-    "polyporus-ciliatus": {
-      "latin": "Polyporus ciliatus",
-      "group": "Polypores",
-      "edibility": "inconnu",
-      "fr": "Polypore cilié",
-      "note": "Chapeau lisse ; pied non noir, souvent chiné.",
-      "confusions": [
-        "polyporus-durus"
-      ],
-      "images": [],
-      "pages": [
-        9
-      ]
-    },
-    "ganoderma-lucidum": {
-      "latin": "Ganoderma lucidum",
-      "group": "Polypores",
-      "edibility": "inconnu",
-      "note": "Pied excentrique, coriace, vernissé, rouge purpurin.",
-      "confusions": [
-        "ganoderma-applanatum"
-      ],
-      "images": [
-        "p09-2"
-      ],
-      "pages": [
-        9
-      ]
-    },
-    "postia-stiptica": {
-      "latin": "Postia stiptica",
-      "group": "Polypores",
-      "edibility": "inconnu",
-      "fr": "Polypore amer",
-      "note": "Dimidié à chair molle ; entièrement blanc.",
-      "confusions": [],
-      "images": [],
-      "pages": [
-        9
-      ]
-    },
-    "postia-caesia": {
-      "latin": "Postia caesia",
-      "group": "Polypores",
-      "edibility": "inconnu",
-      "fr": "Polypore bleu",
-      "note": "Dimidié à chair molle ; blanc taché de bleu.",
-      "confusions": [],
-      "images": [],
-      "pages": [
-        9
-      ]
-    },
-    "laetiporus-sulfureus": {
-      "latin": "Laetiporus sulfureus",
-      "group": "Polypores",
-      "edibility": "inconnu",
-      "fr": "Polypore soufré",
-      "note": "Dimidié à chair molle ; jaune à orangé, tubes jaune vif.",
-      "confusions": [],
-      "images": [],
-      "pages": [
-        9
-      ]
-    },
-    "trametes-versicolor": {
-      "latin": "Trametes versicolor",
-      "group": "Polypores",
-      "edibility": "inconnu",
-      "fr": "Tramète versicolore",
-      "note": "Coriace et mince, pores ronds ; surface supérieure veloutée, à zones colorées.",
-      "confusions": [
-        "trametes-hirsuta"
-      ],
-      "images": [
-        "p09-3"
-      ],
-      "pages": [
-        9
-      ]
-    },
-    "trametes-hirsuta": {
-      "latin": "Trametes hirsuta",
-      "group": "Polypores",
-      "edibility": "inconnu",
-      "fr": "Tramète hirsute",
-      "note": "Coriace et mince, pores ronds ; surface supérieure franchement poilue, blanche.",
-      "confusions": [
-        "trametes-versicolor"
-      ],
-      "images": [],
-      "pages": [
-        9
-      ]
-    },
-    "heterobasidion-annosum": {
-      "latin": "Heterobasidion annosum",
-      "group": "Polypores",
-      "edibility": "inconnu",
-      "fr": "Polypore annuel",
-      "note": "Coriace et mince, pores ronds ; surface supérieure brune non zonée, irrégulièrement bosselée, à marge blanche.",
-      "confusions": [],
-      "images": [],
-      "pages": [
-        9
-      ]
-    },
-    "trametes-gibbosa": {
-      "latin": "Trametes gibbosa",
-      "group": "Polypores",
-      "edibility": "inconnu",
-      "fr": "Tramète bossu",
-      "note": "Coriace et mince, pores en partie étirés ; pores blancs non rougissants.",
-      "confusions": [
-        "daedaleopsis-confragosa"
-      ],
-      "images": [],
-      "pages": [
-        9
-      ]
-    },
-    "daedaleopsis-confragosa": {
-      "latin": "Daedaleopsis confragosa",
-      "group": "Polypores",
-      "edibility": "inconnu",
-      "fr": "Tramète rougissante",
-      "note": "Coriace et mince, pores en partie étirés ; pores rougissants au grattage.",
-      "confusions": [
-        "trametes-gibbosa"
-      ],
-      "images": [
-        "p09-4"
-      ],
-      "pages": [
-        9
-      ]
-    },
-    "piptoporus-betulinus": {
-      "latin": "Piptoporus betulinus",
-      "group": "Polypores",
-      "edibility": "inconnu",
-      "fr": "Polypore du bouleau",
-      "note": "Coriace, spongieux, 3 à 5 cm ; chapeau café-au-lait, lisse, pores blancs minuscules, sur bouleau.",
-      "confusions": [],
-      "images": [],
-      "pages": [
-        9
-      ]
-    },
-    "fomes-fomentarius": {
-      "latin": "Fomes fomentarius",
-      "group": "Polypores",
-      "edibility": "inconnu",
-      "fr": "Amadouvier",
-      "note": "Épais, chair dure ; forme de sabot à marge obtuse, blanc à gris-noir.",
-      "confusions": [
-        "ganoderma-applanatum"
-      ],
-      "images": [
-        "p09-5"
-      ],
-      "pages": [
-        9
-      ]
-    },
-    "ganoderma-applanatum": {
-      "latin": "Ganoderma applanatum",
-      "group": "Polypores",
-      "edibility": "inconnu",
-      "fr": "Ganoderme aplani",
-      "note": "Épais, chair dure ; chapeaux plus minces, couleur chocolat à marge blanche.",
-      "confusions": [
-        "fomes-fomentarius"
-      ],
-      "images": [],
-      "pages": [
-        9
-      ]
+  "p05-croutes": {
+   "page": 5,
+   "title": "Hyménophore lisse infère ou amphigène : en croûtes",
+   "question": "De quelle couleur est la croûte ?",
+   "intro": "Formes étalées (résupinées) sans chapeau, parfois une simple pellicule sans chair, souvent sur le bois. Quelques exemples seulement.",
+   "choices": [
+    {
+     "label": "Orange vif, surface veinée radialement",
+     "species": "phlebia-merismoides",
+     "img": "p05-1"
+    },
+    {
+     "label": "Bleu vif, surface lisse",
+     "species": "terana-caerulea"
     }
+   ]
   },
-  "figures": [
+  "p05-reflechis": {
+   "page": 5,
+   "title": "Hyménophore lisse infère ou amphigène : chapeaux réfléchis",
+   "question": "La chair est-elle mince et coriace ou épaisse et gélatineuse ?",
+   "choices": [
     {
-      "name": "p05-a",
-      "page": 5,
-      "box": [
-        0.14,
-        0.285,
-        0.42,
-        0.43
-      ],
-      "caption": "Croûtes sur bûches (*)"
+     "label": "Coriaces, minces (moins de 1 mm)",
+     "next": "p05-coriaces"
     },
     {
-      "name": "p05-1",
-      "page": 5,
-      "box": [
-        0.69,
-        0.28,
-        0.86,
-        0.48
-      ],
-      "species": "phlebia-merismoides",
-      "caption": "Phlebia merismoides"
-    },
-    {
-      "name": "p05-2",
-      "page": 5,
-      "box": [
-        0.54,
-        0.28,
-        0.72,
-        0.48
-      ],
-      "species": "phlebia-tremellosa",
-      "caption": "Mérule tremblante"
-    },
-    {
-      "name": "p05-3",
-      "page": 5,
-      "box": [
-        0.12,
-        0.735,
-        0.33,
-        0.9
-      ],
-      "species": "stereum-hirsutum",
-      "caption": "Stereum hirsutum"
-    },
-    {
-      "name": "p05-4",
-      "page": 5,
-      "box": [
-        0.4,
-        0.76,
-        0.55,
-        0.9
-      ],
-      "species": "thelephora-terrestris",
-      "caption": "Thelephora terrestris"
-    },
-    {
-      "name": "p05-5",
-      "page": 5,
-      "box": [
-        0.66,
-        0.74,
-        0.83,
-        0.91
-      ],
-      "species": "auricularia-auricula-judae",
-      "caption": "Oreille-de-Judas"
-    },
-    {
-      "name": "p06-1",
-      "page": 6,
-      "box": [
-        0.84,
-        0.18,
-        0.94,
-        0.37
-      ],
-      "species": "clavariadelphus-pistillaris",
-      "caption": "Clavaire en pilon"
-    },
-    {
-      "name": "p06-2",
-      "page": 6,
-      "box": [
-        0.13,
-        0.375,
-        0.25,
-        0.51
-      ],
-      "species": "clavulina-cinerea",
-      "caption": "Clavaire cendrée"
-    },
-    {
-      "name": "p06-3",
-      "page": 6,
-      "box": [
-        0.235,
-        0.375,
-        0.36,
-        0.51
-      ],
-      "species": "clavulina-cristata",
-      "caption": "Clavaire crêtée"
-    },
-    {
-      "name": "p06-4",
-      "page": 6,
-      "box": [
-        0.46,
-        0.375,
-        0.6,
-        0.51
-      ],
-      "species": "ramaria-formosa",
-      "caption": "Clavaire jolie"
-    },
-    {
-      "name": "p06-5",
-      "page": 6,
-      "box": [
-        0.7,
-        0.375,
-        0.92,
-        0.52
-      ],
-      "species": "ramaria-botrytis",
-      "caption": "Clavaire chou-fleur"
-    },
-    {
-      "name": "p06-6",
-      "page": 6,
-      "box": [
-        0.5,
-        0.52,
-        0.62,
-        0.585
-      ],
-      "species": "sparassis-crispa",
-      "caption": "Clavaire crêpue"
-    },
-    {
-      "name": "p06-6bis",
-      "page": 6,
-      "box": [
-        0.09,
-        0.76,
-        0.33,
-        0.925
-      ],
-      "species": "craterellus-cornucopioides",
-      "caption": "Trompette des morts (légendée (6) dans le livret)"
-    },
-    {
-      "name": "p06-a",
-      "page": 6,
-      "box": [
-        0.41,
-        0.765,
-        0.6,
-        0.9
-      ],
-      "species": "craterellus-sinuosus",
-      "caption": "Entonnoir gris pâle sans numéro"
-    },
-    {
-      "name": "p06-7",
-      "page": 6,
-      "box": [
-        0.63,
-        0.76,
-        0.88,
-        0.915
-      ],
-      "species": "cantharellus-cibarius",
-      "caption": "Girolle (légendée (7) dans le livret)"
-    },
-    {
-      "name": "p07-1",
-      "page": 7,
-      "box": [
-        0.62,
-        0.283,
-        0.74,
-        0.405
-      ],
-      "species": "otidea-onotica",
-      "caption": "Oreille-de-lièvre"
-    },
-    {
-      "name": "p07-2",
-      "page": 7,
-      "box": [
-        0.76,
-        0.245,
-        0.91,
-        0.355
-      ],
-      "species": "aleuria-aurantia",
-      "caption": "Pézize orangée"
-    },
-    {
-      "name": "p07-3",
-      "page": 7,
-      "box": [
-        0.46,
-        0.435,
-        0.78,
-        0.55
-      ],
-      "species": "morchella-spp",
-      "caption": "Morilles"
-    },
-    {
-      "name": "p07-4",
-      "page": 7,
-      "box": [
-        0.69,
-        0.585,
-        0.94,
-        0.71
-      ],
-      "species": "helvella-crispa",
-      "caption": "Helvelle crépue"
-    },
-    {
-      "name": "p08-1",
-      "page": 8,
-      "box": [
-        0.12,
-        0.205,
-        0.26,
-        0.32
-      ],
-      "species": "scleroderma-verrucosum",
-      "caption": "Scléroderme verruqueux"
-    },
-    {
-      "name": "p08-2",
-      "page": 8,
-      "box": [
-        0.33,
-        0.195,
-        0.56,
-        0.32
-      ],
-      "species": "scleroderma-citrinum",
-      "caption": "Scléroderme commun"
-    },
-    {
-      "name": "p08-3",
-      "page": 8,
-      "box": [
-        0.67,
-        0.205,
-        0.87,
-        0.31
-      ],
-      "species": "scleroderma-verrucosum",
-      "caption": "Coupe d'un scléroderme"
-    },
-    {
-      "name": "p08-4",
-      "page": 8,
-      "box": [
-        0.08,
-        0.5,
-        0.26,
-        0.655
-      ],
-      "species": "lycoperdon-pyriforme",
-      "caption": "Vesse-de-loup en poire"
-    },
-    {
-      "name": "p08-5",
-      "page": 8,
-      "box": [
-        0.31,
-        0.505,
-        0.42,
-        0.655
-      ],
-      "species": "lycoperdon-perlatum",
-      "caption": "Vesse-de-loup perlée"
-    },
-    {
-      "name": "p08-6",
-      "page": 8,
-      "box": [
-        0.51,
-        0.505,
-        0.69,
-        0.655
-      ],
-      "species": "lycoperdon-perlatum",
-      "caption": "Vesse-de-loup perlée"
-    },
-    {
-      "name": "p08-8",
-      "page": 8,
-      "box": [
-        0.19,
-        0.76,
-        0.4,
-        0.855
-      ],
-      "species": "geastrum-triplex",
-      "caption": "Geastrum triplex"
-    },
-    {
-      "name": "p08-9",
-      "page": 8,
-      "box": [
-        0.7,
-        0.725,
-        0.92,
-        0.835
-      ],
-      "species": "geastrum-sessile",
-      "caption": "Geastrum sessile"
-    },
-    {
-      "name": "p08-10",
-      "page": 8,
-      "box": [
-        0.71,
-        0.865,
-        0.93,
-        0.97
-      ],
-      "species": "cyathus-striatus",
-      "caption": "Cyathus striatus"
-    },
-    {
-      "name": "p09-1",
-      "page": 9,
-      "box": [
-        0.79,
-        0.17,
-        0.97,
-        0.27
-      ],
-      "species": "polyporus-squamosus",
-      "caption": "Polypore écailleux"
-    },
-    {
-      "name": "p09-2",
-      "page": 9,
-      "box": [
-        0.82,
-        0.405,
-        0.95,
-        0.5
-      ],
-      "species": "ganoderma-lucidum",
-      "caption": "Ganoderma lucidum"
-    },
-    {
-      "name": "p09-3",
-      "page": 9,
-      "box": [
-        0.8,
-        0.785,
-        0.95,
-        0.945
-      ],
-      "species": "trametes-versicolor",
-      "caption": "Tramète versicolore"
-    },
-    {
-      "name": "p09-4",
-      "page": 9,
-      "box": [
-        0.21,
-        0.79,
-        0.42,
-        0.91
-      ],
-      "species": "daedaleopsis-confragosa",
-      "caption": "Tramète rougissante"
-    },
-    {
-      "name": "p09-5",
-      "page": 9,
-      "box": [
-        0.46,
-        0.78,
-        0.74,
-        0.89
-      ],
-      "species": "fomes-fomentarius",
-      "caption": "Amadouvier"
+     "label": "Gélatineux, épais (plus de 1 mm)",
+     "next": "p05-gelatineux"
     }
-  ]
+   ]
+  },
+  "p05-coriaces": {
+   "page": 5,
+   "title": "Hyménophore lisse infère ou amphigène : chapeaux réfléchis coriaces",
+   "question": "Le champignon est-il en partie étalé sur bois ou en pétales à terre ?",
+   "choices": [
+    {
+     "label": "En partie étalé, sur bois, à marge arrondie",
+     "hint": "Stéréés",
+     "next": "p05-sterees"
+    },
+    {
+     "label": "En pétales bruns à extrémités blanchâtres, à terre, à marges frangées",
+     "species": "thelephora-terrestris",
+     "img": "p05-4"
+    }
+   ]
+  },
+  "p05-sterees": {
+   "page": 5,
+   "title": "Hyménophore lisse infère ou amphigène : stéréés",
+   "question": "Comment est l'hyménophore ?",
+   "choices": [
+    {
+     "label": "Hyménophore jaune, surface supérieure hirsute",
+     "species": "stereum-hirsutum",
+     "img": "p05-3"
+    },
+    {
+     "label": "Hyménophore rosé à violacé, surface supérieure velue",
+     "species": "chondrostereum-purpureum"
+    }
+   ]
+  },
+  "p05-gelatineux": {
+   "page": 5,
+   "title": "Hyménophore lisse infère ou amphigène : chapeaux réfléchis gélatineux",
+   "question": "Quelle est la forme du champignon gélatineux ?",
+   "choices": [
+    {
+     "label": "En coupes pendantes, brun-rouge",
+     "hint": "surface externe feutrée",
+     "species": "auricularia-auricula-judae",
+     "img": "p05-5"
+    },
+    {
+     "label": "En toupie, noirâtre",
+     "hint": "surface externe papillée",
+     "species": "exidia-truncata"
+    },
+    {
+     "label": "En partie étalés, formant des chapeaux hirsutes",
+     "next": "p05-gelatineux-hirsutes"
+    }
+   ]
+  },
+  "p05-gelatineux-hirsutes": {
+   "page": 5,
+   "title": "Hyménophore lisse infère ou amphigène : gélatineux en chapeaux hirsutes",
+   "question": "Comment est la surface inférieure ?",
+   "choices": [
+    {
+     "label": "Gris-brun, grossièrement veinée",
+     "species": "auricularia-mesenterica"
+    },
+    {
+     "label": "Rose-orangé, gaufrée",
+     "species": "phlebia-tremellosa",
+     "img": "p05-2"
+    }
+   ]
+  },
+  "p06-dresses": {
+   "page": 6,
+   "title": "Hyménophore lisse infère ou amphigène : dressés et entonnoirs",
+   "question": "Le champignon est-il en arbuscule, en masse foliacée ou en entonnoir ?",
+   "intro": "Dressés : souvent terrestres, à hyménophore infère ou amphigène (sur toute la surface des rameaux).",
+   "choices": [
+    {
+     "label": "Arbuscules ou massues (Clavariacées)",
+     "next": "p06-clavariacees"
+    },
+    {
+     "label": "Masses foliacées plus ou moins serrées",
+     "species": "sparassis-crispa",
+     "img": "p06-6"
+    },
+    {
+     "label": "Entonnoirs ou \"cônes renversés\" (Cantharellacées)",
+     "next": "p06-entonnoirs"
+    }
+   ]
+  },
+  "p06-clavariacees": {
+   "page": 6,
+   "title": "Hyménophore lisse infère ou amphigène : clavaires",
+   "question": "Les arbuscules sont-ils simples ou ramifiés ?",
+   "choices": [
+    {
+     "label": "Simples",
+     "next": "p06-simples"
+    },
+    {
+     "label": "Ramifiés",
+     "next": "p06-ramifies"
+    }
+   ]
+  },
+  "p06-simples": {
+   "page": 6,
+   "title": "Hyménophore lisse infère ou amphigène : clavaires simples",
+   "question": "Le champignon est-il épais en massue ou en fuseaux ?",
+   "intro": "Si les fuseaux sont noirs ou verts, lisses et fragiles, voir Geoglossum ; s'ils sont durs et granuleux, voir Xylaria (pas de page indiquée).",
+   "choices": [
+    {
+     "label": "Épais en massue (roussâtre)",
+     "species": "clavariadelphus-pistillaris",
+     "img": "p06-1"
+    },
+    {
+     "label": "En fuseaux, en touffes (jaune)",
+     "species": "clavulinopsis-fusiformis"
+    }
+   ]
+  },
+  "p06-ramifies": {
+   "page": 6,
+   "title": "Hyménophore lisse infère ou amphigène : clavaires ramifiées",
+   "question": "La base est-elle grêle ou épaissie ?",
+   "choices": [
+    {
+     "label": "Base grêle, atténuée",
+     "next": "p06-ramifies-grele"
+    },
+    {
+     "label": "Base épaissie, arrondie",
+     "next": "p06-ramifies-epaisse"
+    }
+   ]
+  },
+  "p06-ramifies-grele": {
+   "page": 6,
+   "title": "Hyménophore lisse infère ou amphigène : ramifiées à base grêle",
+   "question": "Quelle est la couleur et le milieu ?",
+   "choices": [
+    {
+     "label": "Blanc, à terre",
+     "species": "clavulina-cristata",
+     "img": "p06-3"
+    },
+    {
+     "label": "Gris, à terre",
+     "species": "clavulina-cinerea",
+     "img": "p06-2"
+    },
+    {
+     "label": "Jaunâtre, sur bois, avec rhizomorphes",
+     "species": "ramaria-stricta"
+    },
+    {
+     "label": "Orangé vif, gélatineux, sur bois",
+     "species": "calocera-viscosa"
+    }
+   ]
+  },
+  "p06-ramifies-epaisse": {
+   "page": 6,
+   "title": "Hyménophore lisse infère ou amphigène : ramifiées à base épaissie",
+   "question": "De quelle couleur est la clavaire ?",
+   "choices": [
+    {
+     "label": "Rose à extrémités jaunes",
+     "species": "ramaria-formosa",
+     "img": "p06-4"
+    },
+    {
+     "label": "Blanche à la base, à rameaux roses",
+     "species": "ramaria-botrytis",
+     "img": "p06-5"
+    }
+   ]
+  },
+  "p06-entonnoirs": {
+   "page": 6,
+   "title": "Hyménophore lisse infère ou amphigène : entonnoirs",
+   "question": "Les plis sont-ils à peine marqués ou bien marqués ?",
+   "choices": [
+    {
+     "label": "Plis à peine marqués ou veines diffuses",
+     "hint": "couleurs ternes ou sombres (craterelles)",
+     "next": "p06-craterelles"
+    },
+    {
+     "label": "Plis bien marqués évoquant des lames",
+     "hint": "chanterelles",
+     "next": "p06-chanterelles"
+    }
+   ]
+  },
+  "p06-craterelles": {
+   "page": 6,
+   "title": "Hyménophore lisse infère ou amphigène : craterelles",
+   "question": "Quelle est la couleur et la hauteur du chapeau ?",
+   "choices": [
+    {
+     "label": "Chapeau gris-noir, hauteur supérieure à 5 cm",
+     "species": "craterellus-cornucopioides",
+     "img": "p06-6bis"
+    },
+    {
+     "label": "Chapeau gris pâle à blanchâtre, hauteur inférieure à 5 cm",
+     "species": "craterellus-sinuosus",
+     "img": "p06-a"
+    }
+   ]
+  },
+  "p06-chanterelles": {
+   "page": 6,
+   "title": "Hyménophore lisse infère ou amphigène : chanterelles",
+   "question": "Le pied est-il plein ou creux ?",
+   "choices": [
+    {
+     "label": "Pied plein, plis jaune orangé",
+     "species": "cantharellus-cibarius",
+     "img": "p06-7"
+    },
+    {
+     "label": "Pied creux, jaune, chapeau gris jaunâtre",
+     "species": "craterellus-tubaeformis"
+    }
+   ]
+  },
+  "p07": {
+   "page": 7,
+   "title": "Hyménophore lisse supère",
+   "question": "L'espèce est-elle gélatineuse ?",
+   "choices": [
+    {
+     "label": "Espèces non gélatineuses",
+     "next": "p07-non-gelatineuses"
+    },
+    {
+     "label": "Espèces gélatineuses",
+     "next": "p07-gelatineuses"
+    }
+   ]
+  },
+  "p07-non-gelatineuses": {
+   "page": 7,
+   "title": "Hyménophore lisse supère : non gélatineuses",
+   "question": "Quelle est la forme de l'hyménophore ?",
+   "choices": [
+    {
+     "label": "Hyménophore dirigé vers le haut",
+     "hint": "coupes avec ou sans pied",
+     "next": "p07-vers-le-haut"
+    },
+    {
+     "label": "Hyménophore plutôt latéral, en \"oreilles\"",
+     "next": "p07-oreilles"
+    },
+    {
+     "label": "En éponges (à alvéoles), au printemps",
+     "species": "morchella-spp",
+     "img": "p07-3",
+     "note": "À pied caverneux et odeur repoussante, penser à Phallus impudicus (satyre puant)."
+    },
+    {
+     "label": "Chapeau en selles, en lobes, plus ou moins tortueux",
+     "hint": "Helvelles",
+     "next": "p07-helvelles"
+    }
+   ]
+  },
+  "p07-vers-le-haut": {
+   "page": 7,
+   "title": "Hyménophore lisse supère : hyménophore dirigé vers le haut",
+   "question": "Le champignon a-t-il un pied et de quelle couleur est-il ?",
+   "choices": [
+    {
+     "label": "Sans pied, orangé vif",
+     "hint": "pézizes proprement dites",
+     "species": "aleuria-aurantia",
+     "img": "p07-2"
+    },
+    {
+     "label": "Sans pied, rouge vif, très petit, à marge poilue",
+     "species": "scutellinia-crinita"
+    },
+    {
+     "label": "Sans pied, brune ou jaune",
+     "hint": "nombreuses espèces",
+     "species": "peziza-spp"
+    },
+    {
+     "label": "Avec pied net, long",
+     "species": "helvella-macropus"
+    }
+   ]
+  },
+  "p07-oreilles": {
+   "page": 7,
+   "title": "Hyménophore lisse supère : en oreilles",
+   "question": "Quelle est la couleur et la hauteur ?",
+   "choices": [
+    {
+     "label": "Jaune doré, plus de 5 cm de haut",
+     "species": "otidea-onotica",
+     "img": "p07-1"
+    },
+    {
+     "label": "Brune à jaune terne, moins de 5 cm",
+     "species": "otidea-alutacea"
+    }
+   ]
+  },
+  "p07-helvelles": {
+   "page": 7,
+   "title": "Hyménophore lisse supère : helvelles",
+   "question": "Le pied est-il veiné ou lisse ?",
+   "choices": [
+    {
+     "label": "Pied veiné, blanc ou crème",
+     "species": "helvella-crispa",
+     "img": "p07-4"
+    },
+    {
+     "label": "Pied veiné, gris à noirâtre",
+     "species": "helvella-lacunosa"
+    },
+    {
+     "label": "Pied lisse",
+     "species": "helvella-elastica"
+    }
+   ]
+  },
+  "p07-gelatineuses": {
+   "page": 7,
+   "title": "Hyménophore lisse supère : gélatineuses",
+   "question": "Le champignon gélatineux est-il en bouton ou en cervelle ?",
+   "choices": [
+    {
+     "label": "En boutons ou toupies, noirâtre, salissant",
+     "species": "bulgaria-inquinans"
+    },
+    {
+     "label": "Autres espèces gélatineuses en boutons",
+     "hint": "voir Champignons gélatineux à hyménophore infère",
+     "next": "p05"
+    },
+    {
+     "label": "En \"cervelles\" (trémelles), sans pied, sur bois",
+     "species": "tremella-mesenterica"
+    },
+    {
+     "label": "En \"cervelles\" (trémelles), à pied, sur terre",
+     "species": "leotia-lubrica"
+    }
+   ]
+  },
+  "p08": {
+   "page": 8,
+   "title": "Hyménophore interne",
+   "question": "Quelle est la forme du champignon à hyménophore interne ?",
+   "choices": [
+    {
+     "label": "Sphériques",
+     "hint": "hyménium interne = gléba, d'abord pâle et ferme, devenant pulvérulent à maturité",
+     "next": "p08-spheriques"
+    },
+    {
+     "label": "En étoiles (géastres, \"étoiles de terre\")",
+     "next": "p08-geastres"
+    },
+    {
+     "label": "En nids (cupules avec des \"oeufs\" = péridioles), cyathes",
+     "next": "p08-cyathes"
+    }
+   ]
+  },
+  "p08-spheriques": {
+   "page": 8,
+   "title": "Hyménophore interne : sphériques",
+   "question": "L'enveloppe est-elle coriace, molle ou gélatineuse ?",
+   "choices": [
+    {
+     "label": "Coriaces",
+     "hint": "enveloppe épaisse, lisse ou écailleuse (sclérodermes)",
+     "next": "p08-sclerodermes"
+    },
+    {
+     "label": "Mous ou fragiles",
+     "hint": "enveloppe mince ; surface couverte de poussière, épines, verrues ; gléba cotonneuse puis pulvérulente (vesses-de-loup)",
+     "next": "p08-lycoperdons"
+    },
+    {
+     "label": "Avec couche gélatineuse sous la surface",
+     "hint": "odeur de radis",
+     "species": "phallus-impudicus",
+     "note": "Il s'agit des oeufs de Phallus impudicus (cf.)."
+    }
+   ]
+  },
+  "p08-sclerodermes": {
+   "page": 8,
+   "title": "Hyménophore interne : sclérodermes",
+   "question": "Quelle est la taille et le pied ?",
+   "choices": [
+    {
+     "label": "3 à 10 cm, grossièrement craquelé, sans pied",
+     "species": "scleroderma-citrinum",
+     "img": "p08-2"
+    },
+    {
+     "label": "1 à 4 cm, pied différencié à rhizomorphes nombreux",
+     "species": "scleroderma-verrucosum",
+     "img": "p08-1"
+    }
+   ]
+  },
+  "p08-lycoperdons": {
+   "page": 8,
+   "title": "Hyménophore interne : vesses-de-loup",
+   "question": "Le champignon a-t-il un pied distinct ?",
+   "choices": [
+    {
+     "label": "Pied distinct, en touffes sur bois, presque lisses, avec rhizomorphes",
+     "species": "lycoperdon-pyriforme",
+     "img": "p08-4"
+    },
+    {
+     "label": "Pied distinct, à terre, verrues coniques tombant facilement, surface blanche",
+     "species": "lycoperdon-perlatum",
+     "img": "p08-5"
+    },
+    {
+     "label": "Pied distinct, à terre, verrues coniques tombant facilement, surface brune",
+     "species": "lycoperdon-nigrescens"
+    },
+    {
+     "label": "Pied absent (sphérique), diamètre de 1 à 5 cm",
+     "species": "bovista-plumbea"
+    },
+    {
+     "label": "Pied absent (sphérique), diamètre de 10 à 60 cm",
+     "species": "langermannia-gigantea"
+    }
+   ]
+  },
+  "p08-geastres": {
+   "page": 8,
+   "title": "Hyménophore interne : géastres",
+   "question": "Y a-t-il une collerette sous la gléba ?",
+   "choices": [
+    {
+     "label": "Sans collerette sous la gléba, orifice non délimité",
+     "species": "geastrum-sessile",
+     "img": "p08-9"
+    },
+    {
+     "label": "Avec collerette sous la gléba, orifice délimité",
+     "species": "geastrum-triplex",
+     "img": "p08-8"
+    }
+   ]
+  },
+  "p08-cyathes": {
+   "page": 8,
+   "title": "Hyménophore interne : cyathes",
+   "question": "Comment est l'extérieur du nid ?",
+   "choices": [
+    {
+     "label": "Extérieur hirsute, brun",
+     "species": "cyathus-striatus",
+     "img": "p08-10"
+    },
+    {
+     "label": "Extérieur lisse, jaunâtre",
+     "species": "crucibulum-laeve"
+    }
+   ]
+  },
+  "p09": {
+   "page": 9,
+   "title": "Polypores",
+   "question": "Le polypore a-t-il un pied ?",
+   "choices": [
+    {
+     "label": "Stipités",
+     "hint": "à pied distinct ou issus d'une base unique nettement atténuée",
+     "next": "p09-stipites"
+    },
+    {
+     "label": "Dimidiés",
+     "hint": "chapeaux fixés latéralement par une large surface, sans pied",
+     "next": "p09-dimidies"
+    }
+   ]
+  },
+  "p09-stipites": {
+   "page": 9,
+   "title": "Polypores : stipités",
+   "question": "Le chapeau a-t-il un pied nettement distinct ?",
+   "choices": [
+    {
+     "label": "Chapeaux sans pied distinct, en pétales",
+     "next": "p09-petales"
+    },
+    {
+     "label": "Chapeaux circulaires ou semi-circulaires, à pied nettement distinct",
+     "next": "p09-pied-distinct"
+    }
+   ]
+  },
+  "p09-petales": {
+   "page": 9,
+   "title": "Polypores : en pétales",
+   "question": "Le chapeau noircit-il au toucher ?",
+   "choices": [
+    {
+     "label": "Chapeaux brun-jaune à roux, zonés concentriquement",
+     "hint": "noircissant au toucher et en séchant",
+     "species": "meripilus-giganteus"
+    },
+    {
+     "label": "Chapeau gris, sans noircissement au toucher",
+     "species": "grifola-frondosa"
+    }
+   ]
+  },
+  "p09-pied-distinct": {
+   "page": 9,
+   "title": "Polypores : à pied distinct",
+   "question": "Le pied est-il central ou latéral, ou excentrique ?",
+   "choices": [
+    {
+     "label": "Pied central ou latéral",
+     "hint": "genre Polyporus",
+     "next": "p09-polyporus"
+    },
+    {
+     "label": "Pied excentrique, coriace, vernissé, rouge purpurin",
+     "species": "ganoderma-lucidum",
+     "img": "p09-2"
+    }
+   ]
+  },
+  "p09-polyporus": {
+   "page": 9,
+   "title": "Polypores : genre Polyporus",
+   "question": "La surface du chapeau est-elle écailleuse ou lisse, et comment est le pied ?",
+   "choices": [
+    {
+     "label": "Chapeau écailleux, odeur de concombre, pied noir à la base",
+     "species": "polyporus-squamosus",
+     "img": "p09-1"
+    },
+    {
+     "label": "Chapeau écailleux, sans odeur, pied blanchâtre peu différencié",
+     "species": "polyporus-tuberaster"
+    },
+    {
+     "label": "Chapeau lisse, pied noir à la base",
+     "species": "polyporus-durus"
+    },
+    {
+     "label": "Chapeau lisse, pied non noir, souvent chiné",
+     "species": "polyporus-ciliatus"
+    }
+   ]
+  },
+  "p09-dimidies": {
+   "page": 9,
+   "title": "Polypores : dimidiés",
+   "question": "Quelle est la consistance et l'épaisseur ?",
+   "choices": [
+    {
+     "label": "A) Chair molle ou cassante, non fibreuse",
+     "next": "p09-molle"
+    },
+    {
+     "label": "B) Coriaces et minces",
+     "hint": "moins de 1 cm d'épaisseur à mi-rayon",
+     "next": "p09-minces"
+    },
+    {
+     "label": "C) Coriaces, spongieux, épaisseur moyenne (3 à 5 cm)",
+     "hint": "chapeau café-au-lait, lisse, pores blancs minuscules, sur bouleau",
+     "species": "piptoporus-betulinus"
+    },
+    {
+     "label": "D) Épaisses à chair dure",
+     "hint": "pores bruns au grattage",
+     "next": "p09-dures"
+    }
+   ]
+  },
+  "p09-molle": {
+   "page": 9,
+   "title": "Polypores : à chair molle",
+   "question": "De quelle couleur est le polypore ?",
+   "choices": [
+    {
+     "label": "Entièrement blanche",
+     "species": "postia-stiptica"
+    },
+    {
+     "label": "Blanche tachée de bleu",
+     "species": "postia-caesia"
+    },
+    {
+     "label": "Jaune à orangé, tubes jaune vif",
+     "species": "laetiporus-sulfureus"
+    }
+   ]
+  },
+  "p09-minces": {
+   "page": 9,
+   "title": "Polypores : coriaces et minces",
+   "question": "Les pores sont-ils ronds ou étirés radialement ?",
+   "choices": [
+    {
+     "label": "Pores ronds",
+     "next": "p09-pores-ronds"
+    },
+    {
+     "label": "Pores en partie étirés radialement",
+     "next": "p09-pores-etires"
+    }
+   ]
+  },
+  "p09-pores-ronds": {
+   "page": 9,
+   "title": "Polypores : pores ronds",
+   "question": "Comment est la surface supérieure ?",
+   "choices": [
+    {
+     "label": "Surface supérieure veloutée, à zones colorées",
+     "species": "trametes-versicolor",
+     "img": "p09-3"
+    },
+    {
+     "label": "Surface supérieure franchement poilue, blanche",
+     "species": "trametes-hirsuta"
+    },
+    {
+     "label": "Surface supérieure brune non zonée, irrégulièrement bosselée, à marge blanche",
+     "species": "heterobasidion-annosum"
+    }
+   ]
+  },
+  "p09-pores-etires": {
+   "page": 9,
+   "title": "Polypores : pores étirés",
+   "question": "Les pores rougissent-ils au grattage ?",
+   "choices": [
+    {
+     "label": "Pores blancs non rougissants",
+     "species": "trametes-gibbosa"
+    },
+    {
+     "label": "Pores rougissants au grattage",
+     "species": "daedaleopsis-confragosa",
+     "img": "p09-4"
+    }
+   ]
+  },
+  "p09-dures": {
+   "page": 9,
+   "title": "Polypores : à chair dure",
+   "question": "Quelle est la forme du chapeau ?",
+   "choices": [
+    {
+     "label": "Forme de sabot à marge obtuse, blanc à gris-noir",
+     "species": "fomes-fomentarius",
+     "img": "p09-5"
+    },
+    {
+     "label": "Chapeaux plus minces, couleur chocolat à marge blanche",
+     "species": "ganoderma-applanatum"
+    }
+   ]
+  }
+ },
+ "species": {
+  "phlebia-merismoides": {
+   "latin": "Phlebia merismoides",
+   "group": "Croûtes et clavaires",
+   "edibility": "inconnu",
+   "note": "Croûte orange vif, surface veinée radialement.",
+   "confusions": [],
+   "images": [
+    "p05-1"
+   ],
+   "pages": [
+    5
+   ]
+  },
+  "terana-caerulea": {
+   "latin": "Terana caerulea",
+   "group": "Croûtes et clavaires",
+   "edibility": "inconnu",
+   "note": "Croûte bleu vif, surface lisse.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    5
+   ]
+  },
+  "stereum-hirsutum": {
+   "latin": "Stereum hirsutum",
+   "group": "Croûtes et clavaires",
+   "edibility": "inconnu",
+   "note": "Coriace, mince ; hyménophore jaune, surface supérieure hirsute.",
+   "confusions": [],
+   "images": [
+    "p05-3"
+   ],
+   "pages": [
+    5
+   ]
+  },
+  "chondrostereum-purpureum": {
+   "latin": "Chondrostereum purpureum",
+   "group": "Croûtes et clavaires",
+   "edibility": "inconnu",
+   "note": "Coriace, mince ; hyménophore rosé à violacé, surface supérieure velue.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    5
+   ]
+  },
+  "thelephora-terrestris": {
+   "latin": "Thelephora terrestris",
+   "group": "Croûtes et clavaires",
+   "edibility": "inconnu",
+   "note": "En pétales bruns à extrémités blanchâtres, à terre, marges frangées.",
+   "confusions": [],
+   "images": [
+    "p05-4"
+   ],
+   "pages": [
+    5
+   ]
+  },
+  "auricularia-auricula-judae": {
+   "latin": "Auricularia auricula-judae",
+   "group": "Croûtes et clavaires",
+   "edibility": "comestible",
+   "fr": "Oreille-de-Judas",
+   "note": "Gélatineux, en coupes pendantes, brun-rouge, surface externe feutrée.",
+   "confusions": [],
+   "images": [
+    "p05-5"
+   ],
+   "pages": [
+    5
+   ]
+  },
+  "exidia-truncata": {
+   "latin": "Exidia truncata",
+   "group": "Croûtes et clavaires",
+   "edibility": "inconnu",
+   "fr": "Exidie tronquée",
+   "note": "Gélatineux, en toupie, noirâtre, surface externe papillée.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    5
+   ]
+  },
+  "auricularia-mesenterica": {
+   "latin": "Auricularia mesenterica",
+   "group": "Croûtes et clavaires",
+   "edibility": "inconnu",
+   "fr": "Oreille mésentérique",
+   "note": "Gélatineux, chapeaux hirsutes ; surface inférieure gris-brun grossièrement veinée.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    5
+   ]
+  },
+  "phlebia-tremellosa": {
+   "latin": "Phlebia tremellosa",
+   "group": "Croûtes et clavaires",
+   "edibility": "inconnu",
+   "fr": "Mérule tremblante",
+   "note": "Gélatineux, chapeaux hirsutes ; surface inférieure rose-orangé, gaufrée.",
+   "confusions": [],
+   "images": [
+    "p05-2"
+   ],
+   "pages": [
+    5
+   ]
+  },
+  "clavariadelphus-pistillaris": {
+   "latin": "Clavariadelphus pistillaris",
+   "group": "Croûtes et clavaires",
+   "edibility": "inconnu",
+   "fr": "Clavaire en pilon",
+   "note": "Simple, épaisse en massue, roussâtre.",
+   "confusions": [],
+   "images": [
+    "p06-1"
+   ],
+   "pages": [
+    6
+   ]
+  },
+  "clavulinopsis-fusiformis": {
+   "latin": "Clavulinopsis fusiformis",
+   "group": "Croûtes et clavaires",
+   "edibility": "inconnu",
+   "fr": "Clavaire en fuseau",
+   "note": "En fuseaux, en touffes, jaune.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    6
+   ]
+  },
+  "clavulina-cristata": {
+   "latin": "Clavulina cristata",
+   "group": "Croûtes et clavaires",
+   "edibility": "inconnu",
+   "fr": "Clavaire crêtée",
+   "note": "Ramifiée, base grêle ; blanc, à terre.",
+   "confusions": [
+    "clavulina-cinerea"
+   ],
+   "images": [
+    "p06-3"
+   ],
+   "pages": [
+    6
+   ]
+  },
+  "clavulina-cinerea": {
+   "latin": "Clavulina cinerea",
+   "group": "Croûtes et clavaires",
+   "edibility": "inconnu",
+   "fr": "Clavaire cendrée",
+   "note": "Ramifiée, base grêle ; gris, à terre.",
+   "confusions": [
+    "clavulina-cristata"
+   ],
+   "images": [
+    "p06-2"
+   ],
+   "pages": [
+    6
+   ]
+  },
+  "ramaria-stricta": {
+   "latin": "Ramaria stricta",
+   "group": "Croûtes et clavaires",
+   "edibility": "toxique",
+   "fr": "Clavaire étroite",
+   "note": "Jaunâtre, sur bois, avec rhizomorphes.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    6
+   ]
+  },
+  "calocera-viscosa": {
+   "latin": "Calocera viscosa",
+   "group": "Croûtes et clavaires",
+   "edibility": "inconnu",
+   "fr": "Calocère visqueuse",
+   "note": "Orangé vif, gélatineux, sur bois.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    6
+   ]
+  },
+  "ramaria-formosa": {
+   "latin": "Ramaria formosa",
+   "group": "Croûtes et clavaires",
+   "edibility": "toxique",
+   "fr": "Clavaire jolie",
+   "note": "Base épaissie, arrondie ; rose à extrémités jaunes.",
+   "confusions": [
+    "ramaria-botrytis"
+   ],
+   "images": [
+    "p06-4"
+   ],
+   "pages": [
+    6
+   ]
+  },
+  "ramaria-botrytis": {
+   "latin": "Ramaria botrytis",
+   "group": "Croûtes et clavaires",
+   "edibility": "comestible",
+   "fr": "Clavaire chou-fleur",
+   "note": "Base épaissie, blanche, à rameaux roses.",
+   "confusions": [
+    "ramaria-formosa"
+   ],
+   "images": [
+    "p06-5"
+   ],
+   "pages": [
+    6
+   ]
+  },
+  "sparassis-crispa": {
+   "latin": "Sparassis crispa",
+   "group": "Croûtes et clavaires",
+   "edibility": "comestible",
+   "fr": "Clavaire crêpue",
+   "note": "Masse foliacée plus ou moins serrée.",
+   "confusions": [],
+   "images": [
+    "p06-6"
+   ],
+   "pages": [
+    6
+   ]
+  },
+  "craterellus-cornucopioides": {
+   "latin": "Craterellus cornucopioides",
+   "group": "Croûtes et clavaires",
+   "edibility": "comestible",
+   "fr": "Trompette des morts",
+   "note": "Entonnoir à plis à peine marqués ; chapeau gris-noir, hauteur supérieure à 5 cm.",
+   "confusions": [
+    "craterellus-sinuosus"
+   ],
+   "images": [
+    "p06-6bis"
+   ],
+   "pages": [
+    6
+   ]
+  },
+  "craterellus-sinuosus": {
+   "latin": "Craterellus sinuosus",
+   "group": "Croûtes et clavaires",
+   "edibility": "comestible",
+   "fr": "Chanterelle sinuée",
+   "note": "Entonnoir à plis à peine marqués ; chapeau gris pâle à blanchâtre, hauteur inférieure à 5 cm.",
+   "confusions": [
+    "craterellus-cornucopioides"
+   ],
+   "images": [
+    "p06-a"
+   ],
+   "pages": [
+    6
+   ]
+  },
+  "cantharellus-cibarius": {
+   "latin": "Cantharellus cibarius",
+   "group": "Croûtes et clavaires",
+   "edibility": "comestible",
+   "fr": "Girolle",
+   "note": "Pied plein, plis jaune orangé ; chapeau d'abord bombé, marge festonnée, plis décurrents ramifiés.",
+   "confusions": [
+    "craterellus-tubaeformis"
+   ],
+   "images": [
+    "p06-7"
+   ],
+   "pages": [
+    6
+   ]
+  },
+  "craterellus-tubaeformis": {
+   "latin": "Craterellus tubaeformis",
+   "group": "Croûtes et clavaires",
+   "edibility": "comestible",
+   "fr": "Chanterelle en tube",
+   "note": "Pied creux, jaune ; chapeau gris jaunâtre.",
+   "confusions": [
+    "cantharellus-cibarius"
+   ],
+   "images": [],
+   "pages": [
+    6
+   ]
+  },
+  "aleuria-aurantia": {
+   "latin": "Aleuria aurantia",
+   "group": "Pézizes, morilles, helvelles",
+   "edibility": "comestible",
+   "fr": "Pézize orangée",
+   "note": "Sans pied, orangé vif.",
+   "confusions": [],
+   "images": [
+    "p07-2"
+   ],
+   "pages": [
+    7
+   ]
+  },
+  "scutellinia-crinita": {
+   "latin": "Scutellinia crinita",
+   "group": "Pézizes, morilles, helvelles",
+   "edibility": "inconnu",
+   "fr": "Pézize en bouclier",
+   "note": "Rouge vif, très petite, à marge poilue.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    7
+   ]
+  },
+  "peziza-spp": {
+   "latin": "Peziza spp.",
+   "group": "Pézizes, morilles, helvelles",
+   "edibility": "inconnu",
+   "fr": "Pézizes",
+   "note": "Brunes ou jaunes, sans pied ; nombreuses espèces.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    7
+   ]
+  },
+  "helvella-macropus": {
+   "latin": "Helvella macropus",
+   "group": "Pézizes, morilles, helvelles",
+   "edibility": "inconnu",
+   "fr": "Helvelle à grand pied",
+   "note": "Avec pied net, long.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    7
+   ]
+  },
+  "otidea-onotica": {
+   "latin": "Otidea onotica",
+   "group": "Pézizes, morilles, helvelles",
+   "edibility": "inconnu",
+   "fr": "Oreille-de-lièvre",
+   "note": "Hyménophore plutôt latéral, en oreilles ; jaune doré, plus de 5 cm de haut.",
+   "confusions": [
+    "otidea-alutacea"
+   ],
+   "images": [
+    "p07-1"
+   ],
+   "pages": [
+    7
+   ]
+  },
+  "otidea-alutacea": {
+   "latin": "Otidea alutacea",
+   "group": "Pézizes, morilles, helvelles",
+   "edibility": "inconnu",
+   "note": "En oreilles ; brune à jaune terne, moins de 5 cm.",
+   "confusions": [
+    "otidea-onotica"
+   ],
+   "images": [],
+   "pages": [
+    7
+   ]
+  },
+  "morchella-spp": {
+   "latin": "Morchella spp.",
+   "group": "Pézizes, morilles, helvelles",
+   "edibility": "comestible",
+   "fr": "Morilles",
+   "note": "En éponges (à alvéoles), au printemps. À pied caverneux et odeur repoussante, penser à Phallus impudicus.",
+   "confusions": [
+    "phallus-impudicus"
+   ],
+   "images": [
+    "p07-3"
+   ],
+   "pages": [
+    7
+   ]
+  },
+  "helvella-crispa": {
+   "latin": "Helvella crispa",
+   "group": "Pézizes, morilles, helvelles",
+   "edibility": "inconnu",
+   "fr": "Helvelle crépue",
+   "note": "Chapeau en selles ; pied veiné ; blanc, crème.",
+   "confusions": [
+    "helvella-lacunosa"
+   ],
+   "images": [
+    "p07-4"
+   ],
+   "pages": [
+    7
+   ]
+  },
+  "helvella-lacunosa": {
+   "latin": "Helvella lacunosa",
+   "group": "Pézizes, morilles, helvelles",
+   "edibility": "inconnu",
+   "fr": "Helvelle lacuneuse",
+   "note": "Chapeau en selles ; pied veiné ; gris à noirâtre.",
+   "confusions": [
+    "helvella-crispa"
+   ],
+   "images": [],
+   "pages": [
+    7
+   ]
+  },
+  "helvella-elastica": {
+   "latin": "Helvella elastica",
+   "group": "Pézizes, morilles, helvelles",
+   "edibility": "inconnu",
+   "fr": "Helvelle élastique",
+   "note": "Chapeau en selles ; pied lisse.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    7
+   ]
+  },
+  "bulgaria-inquinans": {
+   "latin": "Bulgaria inquinans",
+   "group": "Pézizes, morilles, helvelles",
+   "edibility": "inconnu",
+   "note": "Gélatineuse, en boutons ou toupies, noirâtre, salissante.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    7
+   ]
+  },
+  "tremella-mesenterica": {
+   "latin": "Tremella mesenterica",
+   "group": "Pézizes, morilles, helvelles",
+   "edibility": "inconnu",
+   "fr": "Trémelle mésentérique",
+   "note": "Gélatineuse, en cervelle, sans pied, sur bois.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    7
+   ]
+  },
+  "leotia-lubrica": {
+   "latin": "Leotia lubrica",
+   "group": "Pézizes, morilles, helvelles",
+   "edibility": "inconnu",
+   "fr": "Léotie visqueuse",
+   "note": "Gélatineuse, à pied, sur terre.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    7
+   ]
+  },
+  "phallus-impudicus": {
+   "latin": "Phallus impudicus",
+   "group": "Vesses-de-loup et apparentés",
+   "edibility": "inconnu",
+   "fr": "Satyre puant",
+   "note": "Cité sans fiche propre sur ces pages : à pied caverneux et odeur repoussante (voir morilles) ; ses oeufs ont une couche gélatineuse sous la surface et une odeur de radis.",
+   "confusions": [
+    "morchella-spp"
+   ],
+   "images": [],
+   "pages": [
+    7,
+    8
+   ]
+  },
+  "scleroderma-citrinum": {
+   "latin": "Scleroderma citrinum",
+   "group": "Vesses-de-loup et apparentés",
+   "edibility": "toxique",
+   "fr": "Scléroderme commun",
+   "note": "Coriace ; 3 à 10 cm, grossièrement craquelé, sans pied.",
+   "confusions": [
+    "scleroderma-verrucosum"
+   ],
+   "images": [
+    "p08-2"
+   ],
+   "pages": [
+    8
+   ]
+  },
+  "scleroderma-verrucosum": {
+   "latin": "Scleroderma verrucosum",
+   "group": "Vesses-de-loup et apparentés",
+   "edibility": "toxique",
+   "fr": "Scléroderme verruqueux",
+   "note": "Coriace ; 1 à 4 cm, pied différencié à rhizomorphes nombreux ; gléba noir violacé, enveloppe épaisse.",
+   "confusions": [
+    "scleroderma-citrinum"
+   ],
+   "images": [
+    "p08-1",
+    "p08-3"
+   ],
+   "pages": [
+    8
+   ]
+  },
+  "lycoperdon-pyriforme": {
+   "latin": "Lycoperdon pyriforme",
+   "group": "Vesses-de-loup et apparentés",
+   "edibility": "inconnu",
+   "fr": "Vesse-de-loup en poire",
+   "note": "En touffes sur bois, presque lisse, avec rhizomorphes.",
+   "confusions": [],
+   "images": [
+    "p08-4"
+   ],
+   "pages": [
+    8
+   ]
+  },
+  "lycoperdon-perlatum": {
+   "latin": "Lycoperdon perlatum",
+   "group": "Vesses-de-loup et apparentés",
+   "edibility": "inconnu",
+   "fr": "Vesse-de-loup perlée",
+   "note": "À terre, ornée de verrues coniques tombant facilement ; surface blanche.",
+   "confusions": [
+    "lycoperdon-nigrescens"
+   ],
+   "images": [
+    "p08-5",
+    "p08-6"
+   ],
+   "pages": [
+    8
+   ]
+  },
+  "lycoperdon-nigrescens": {
+   "latin": "Lycoperdon nigrescens",
+   "group": "Vesses-de-loup et apparentés",
+   "edibility": "inconnu",
+   "fr": "Vesse-de-loup fétide",
+   "note": "À terre, ornée de verrues coniques tombant facilement ; surface brune.",
+   "confusions": [
+    "lycoperdon-perlatum"
+   ],
+   "images": [],
+   "pages": [
+    8
+   ]
+  },
+  "bovista-plumbea": {
+   "latin": "Bovista plumbea",
+   "group": "Vesses-de-loup et apparentés",
+   "edibility": "inconnu",
+   "fr": "Vesse-de-loup couleur de plomb",
+   "note": "Sans pied, sphérique, diamètre de 1 à 5 cm.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    8
+   ]
+  },
+  "langermannia-gigantea": {
+   "latin": "Langermannia gigantea",
+   "group": "Vesses-de-loup et apparentés",
+   "edibility": "inconnu",
+   "fr": "Vesse-de-loup géante",
+   "note": "Sans pied, sphérique, diamètre de 10 à 60 cm.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    8
+   ]
+  },
+  "geastrum-sessile": {
+   "latin": "Geastrum sessile",
+   "group": "Vesses-de-loup et apparentés",
+   "edibility": "inconnu",
+   "note": "Sans collerette sous la gléba, orifice non délimité.",
+   "confusions": [
+    "geastrum-triplex"
+   ],
+   "images": [
+    "p08-9"
+   ],
+   "pages": [
+    8
+   ]
+  },
+  "geastrum-triplex": {
+   "latin": "Geastrum triplex",
+   "group": "Vesses-de-loup et apparentés",
+   "edibility": "inconnu",
+   "note": "Avec collerette sous la gléba, orifice délimité.",
+   "confusions": [
+    "geastrum-sessile"
+   ],
+   "images": [
+    "p08-8"
+   ],
+   "pages": [
+    8
+   ]
+  },
+  "cyathus-striatus": {
+   "latin": "Cyathus striatus",
+   "group": "Vesses-de-loup et apparentés",
+   "edibility": "inconnu",
+   "note": "En nid ; extérieur hirsute, brun.",
+   "confusions": [
+    "crucibulum-laeve"
+   ],
+   "images": [
+    "p08-10"
+   ],
+   "pages": [
+    8,
+    9
+   ]
+  },
+  "crucibulum-laeve": {
+   "latin": "Crucibulum laeve",
+   "group": "Vesses-de-loup et apparentés",
+   "edibility": "inconnu",
+   "note": "En nid ; extérieur lisse, jaunâtre.",
+   "confusions": [
+    "cyathus-striatus"
+   ],
+   "images": [],
+   "pages": [
+    8
+   ]
+  },
+  "meripilus-giganteus": {
+   "latin": "Meripilus giganteus",
+   "group": "Polypores",
+   "edibility": "inconnu",
+   "fr": "Polypore géant",
+   "note": "Chapeaux brun-jaune à roux, zonés concentriquement, noircissant au toucher et en séchant.",
+   "confusions": [
+    "grifola-frondosa"
+   ],
+   "images": [],
+   "pages": [
+    9
+   ]
+  },
+  "grifola-frondosa": {
+   "latin": "Grifola frondosa",
+   "group": "Polypores",
+   "edibility": "comestible",
+   "fr": "Poule-de-bois",
+   "note": "Chapeau gris, sans noircissement au toucher.",
+   "confusions": [
+    "meripilus-giganteus"
+   ],
+   "images": [],
+   "pages": [
+    9
+   ]
+  },
+  "polyporus-squamosus": {
+   "latin": "Polyporus squamosus",
+   "group": "Polypores",
+   "edibility": "inconnu",
+   "fr": "Polypore écailleux",
+   "note": "Chapeau écailleux ; odeur de concombre, pied noir à la base.",
+   "confusions": [
+    "polyporus-tuberaster"
+   ],
+   "images": [
+    "p09-1"
+   ],
+   "pages": [
+    9
+   ]
+  },
+  "polyporus-tuberaster": {
+   "latin": "Polyporus tuberaster",
+   "group": "Polypores",
+   "edibility": "inconnu",
+   "note": "Chapeau écailleux ; sans odeur, pied blanchâtre peu différencié.",
+   "confusions": [
+    "polyporus-squamosus"
+   ],
+   "images": [],
+   "pages": [
+    9
+   ]
+  },
+  "polyporus-durus": {
+   "latin": "Polyporus durus",
+   "group": "Polypores",
+   "edibility": "inconnu",
+   "fr": "Polypore à pied noir",
+   "note": "Chapeau lisse ; pied noir à la base.",
+   "confusions": [
+    "polyporus-ciliatus"
+   ],
+   "images": [],
+   "pages": [
+    9
+   ]
+  },
+  "polyporus-ciliatus": {
+   "latin": "Polyporus ciliatus",
+   "group": "Polypores",
+   "edibility": "inconnu",
+   "fr": "Polypore cilié",
+   "note": "Chapeau lisse ; pied non noir, souvent chiné.",
+   "confusions": [
+    "polyporus-durus"
+   ],
+   "images": [],
+   "pages": [
+    9
+   ]
+  },
+  "ganoderma-lucidum": {
+   "latin": "Ganoderma lucidum",
+   "group": "Polypores",
+   "edibility": "inconnu",
+   "note": "Pied excentrique, coriace, vernissé, rouge purpurin.",
+   "confusions": [
+    "ganoderma-applanatum"
+   ],
+   "images": [
+    "p09-2"
+   ],
+   "pages": [
+    9
+   ]
+  },
+  "postia-stiptica": {
+   "latin": "Postia stiptica",
+   "group": "Polypores",
+   "edibility": "inconnu",
+   "fr": "Polypore amer",
+   "note": "Dimidié à chair molle ; entièrement blanc.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    9
+   ]
+  },
+  "postia-caesia": {
+   "latin": "Postia caesia",
+   "group": "Polypores",
+   "edibility": "inconnu",
+   "fr": "Polypore bleu",
+   "note": "Dimidié à chair molle ; blanc taché de bleu.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    9
+   ]
+  },
+  "laetiporus-sulfureus": {
+   "latin": "Laetiporus sulfureus",
+   "group": "Polypores",
+   "edibility": "inconnu",
+   "fr": "Polypore soufré",
+   "note": "Dimidié à chair molle ; jaune à orangé, tubes jaune vif.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    9
+   ]
+  },
+  "trametes-versicolor": {
+   "latin": "Trametes versicolor",
+   "group": "Polypores",
+   "edibility": "inconnu",
+   "fr": "Tramète versicolore",
+   "note": "Coriace et mince, pores ronds ; surface supérieure veloutée, à zones colorées.",
+   "confusions": [
+    "trametes-hirsuta"
+   ],
+   "images": [
+    "p09-3"
+   ],
+   "pages": [
+    9
+   ]
+  },
+  "trametes-hirsuta": {
+   "latin": "Trametes hirsuta",
+   "group": "Polypores",
+   "edibility": "inconnu",
+   "fr": "Tramète hirsute",
+   "note": "Coriace et mince, pores ronds ; surface supérieure franchement poilue, blanche.",
+   "confusions": [
+    "trametes-versicolor"
+   ],
+   "images": [],
+   "pages": [
+    9
+   ]
+  },
+  "heterobasidion-annosum": {
+   "latin": "Heterobasidion annosum",
+   "group": "Polypores",
+   "edibility": "inconnu",
+   "fr": "Polypore annuel",
+   "note": "Coriace et mince, pores ronds ; surface supérieure brune non zonée, irrégulièrement bosselée, à marge blanche.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    9
+   ]
+  },
+  "trametes-gibbosa": {
+   "latin": "Trametes gibbosa",
+   "group": "Polypores",
+   "edibility": "inconnu",
+   "fr": "Tramète bossu",
+   "note": "Coriace et mince, pores en partie étirés ; pores blancs non rougissants.",
+   "confusions": [
+    "daedaleopsis-confragosa"
+   ],
+   "images": [],
+   "pages": [
+    9
+   ]
+  },
+  "daedaleopsis-confragosa": {
+   "latin": "Daedaleopsis confragosa",
+   "group": "Polypores",
+   "edibility": "inconnu",
+   "fr": "Tramète rougissante",
+   "note": "Coriace et mince, pores en partie étirés ; pores rougissants au grattage.",
+   "confusions": [
+    "trametes-gibbosa"
+   ],
+   "images": [
+    "p09-4"
+   ],
+   "pages": [
+    9
+   ]
+  },
+  "piptoporus-betulinus": {
+   "latin": "Piptoporus betulinus",
+   "group": "Polypores",
+   "edibility": "inconnu",
+   "fr": "Polypore du bouleau",
+   "note": "Coriace, spongieux, 3 à 5 cm ; chapeau café-au-lait, lisse, pores blancs minuscules, sur bouleau.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    9
+   ]
+  },
+  "fomes-fomentarius": {
+   "latin": "Fomes fomentarius",
+   "group": "Polypores",
+   "edibility": "inconnu",
+   "fr": "Amadouvier",
+   "note": "Épais, chair dure ; forme de sabot à marge obtuse, blanc à gris-noir.",
+   "confusions": [
+    "ganoderma-applanatum"
+   ],
+   "images": [
+    "p09-5"
+   ],
+   "pages": [
+    9
+   ]
+  },
+  "ganoderma-applanatum": {
+   "latin": "Ganoderma applanatum",
+   "group": "Polypores",
+   "edibility": "inconnu",
+   "fr": "Ganoderme aplani",
+   "note": "Épais, chair dure ; chapeaux plus minces, couleur chocolat à marge blanche.",
+   "confusions": [
+    "fomes-fomentarius"
+   ],
+   "images": [],
+   "pages": [
+    9
+   ]
+  }
+ },
+ "figures": [
+  {
+   "name": "p05-a",
+   "page": 5,
+   "box": [
+    0.14,
+    0.285,
+    0.42,
+    0.43
+   ],
+   "caption": "Croûtes sur bûches (*)"
+  },
+  {
+   "name": "p05-1",
+   "page": 5,
+   "box": [
+    0.69,
+    0.28,
+    0.86,
+    0.48
+   ],
+   "species": "phlebia-merismoides",
+   "caption": "Phlebia merismoides"
+  },
+  {
+   "name": "p05-2",
+   "page": 5,
+   "box": [
+    0.54,
+    0.28,
+    0.72,
+    0.48
+   ],
+   "species": "phlebia-tremellosa",
+   "caption": "Mérule tremblante"
+  },
+  {
+   "name": "p05-3",
+   "page": 5,
+   "box": [
+    0.12,
+    0.735,
+    0.33,
+    0.9
+   ],
+   "species": "stereum-hirsutum",
+   "caption": "Stereum hirsutum"
+  },
+  {
+   "name": "p05-4",
+   "page": 5,
+   "box": [
+    0.4,
+    0.76,
+    0.55,
+    0.9
+   ],
+   "species": "thelephora-terrestris",
+   "caption": "Thelephora terrestris"
+  },
+  {
+   "name": "p05-5",
+   "page": 5,
+   "box": [
+    0.66,
+    0.74,
+    0.83,
+    0.91
+   ],
+   "species": "auricularia-auricula-judae",
+   "caption": "Oreille-de-Judas"
+  },
+  {
+   "name": "p06-1",
+   "page": 6,
+   "box": [
+    0.84,
+    0.18,
+    0.94,
+    0.37
+   ],
+   "species": "clavariadelphus-pistillaris",
+   "caption": "Clavaire en pilon"
+  },
+  {
+   "name": "p06-2",
+   "page": 6,
+   "box": [
+    0.13,
+    0.375,
+    0.25,
+    0.51
+   ],
+   "species": "clavulina-cinerea",
+   "caption": "Clavaire cendrée"
+  },
+  {
+   "name": "p06-3",
+   "page": 6,
+   "box": [
+    0.235,
+    0.375,
+    0.36,
+    0.51
+   ],
+   "species": "clavulina-cristata",
+   "caption": "Clavaire crêtée"
+  },
+  {
+   "name": "p06-4",
+   "page": 6,
+   "box": [
+    0.46,
+    0.375,
+    0.6,
+    0.51
+   ],
+   "species": "ramaria-formosa",
+   "caption": "Clavaire jolie"
+  },
+  {
+   "name": "p06-5",
+   "page": 6,
+   "box": [
+    0.7,
+    0.375,
+    0.92,
+    0.52
+   ],
+   "species": "ramaria-botrytis",
+   "caption": "Clavaire chou-fleur"
+  },
+  {
+   "name": "p06-6",
+   "page": 6,
+   "box": [
+    0.5,
+    0.52,
+    0.62,
+    0.585
+   ],
+   "species": "sparassis-crispa",
+   "caption": "Clavaire crêpue"
+  },
+  {
+   "name": "p06-6bis",
+   "page": 6,
+   "box": [
+    0.09,
+    0.76,
+    0.33,
+    0.925
+   ],
+   "species": "craterellus-cornucopioides",
+   "caption": "Trompette des morts (légendée (6) dans le livret)"
+  },
+  {
+   "name": "p06-a",
+   "page": 6,
+   "box": [
+    0.41,
+    0.765,
+    0.6,
+    0.9
+   ],
+   "species": "craterellus-sinuosus",
+   "caption": "Entonnoir gris pâle sans numéro"
+  },
+  {
+   "name": "p06-7",
+   "page": 6,
+   "box": [
+    0.63,
+    0.76,
+    0.88,
+    0.915
+   ],
+   "species": "cantharellus-cibarius",
+   "caption": "Girolle (légendée (7) dans le livret)"
+  },
+  {
+   "name": "p07-1",
+   "page": 7,
+   "box": [
+    0.62,
+    0.283,
+    0.74,
+    0.405
+   ],
+   "species": "otidea-onotica",
+   "caption": "Oreille-de-lièvre"
+  },
+  {
+   "name": "p07-2",
+   "page": 7,
+   "box": [
+    0.76,
+    0.245,
+    0.91,
+    0.355
+   ],
+   "species": "aleuria-aurantia",
+   "caption": "Pézize orangée"
+  },
+  {
+   "name": "p07-3",
+   "page": 7,
+   "box": [
+    0.46,
+    0.435,
+    0.78,
+    0.55
+   ],
+   "species": "morchella-spp",
+   "caption": "Morilles"
+  },
+  {
+   "name": "p07-4",
+   "page": 7,
+   "box": [
+    0.69,
+    0.585,
+    0.94,
+    0.71
+   ],
+   "species": "helvella-crispa",
+   "caption": "Helvelle crépue"
+  },
+  {
+   "name": "p08-1",
+   "page": 8,
+   "box": [
+    0.12,
+    0.205,
+    0.26,
+    0.32
+   ],
+   "species": "scleroderma-verrucosum",
+   "caption": "Scléroderme verruqueux"
+  },
+  {
+   "name": "p08-2",
+   "page": 8,
+   "box": [
+    0.33,
+    0.195,
+    0.56,
+    0.32
+   ],
+   "species": "scleroderma-citrinum",
+   "caption": "Scléroderme commun"
+  },
+  {
+   "name": "p08-3",
+   "page": 8,
+   "box": [
+    0.67,
+    0.205,
+    0.87,
+    0.31
+   ],
+   "species": "scleroderma-verrucosum",
+   "caption": "Coupe d'un scléroderme"
+  },
+  {
+   "name": "p08-4",
+   "page": 8,
+   "box": [
+    0.08,
+    0.5,
+    0.26,
+    0.655
+   ],
+   "species": "lycoperdon-pyriforme",
+   "caption": "Vesse-de-loup en poire"
+  },
+  {
+   "name": "p08-5",
+   "page": 8,
+   "box": [
+    0.31,
+    0.505,
+    0.42,
+    0.655
+   ],
+   "species": "lycoperdon-perlatum",
+   "caption": "Vesse-de-loup perlée"
+  },
+  {
+   "name": "p08-6",
+   "page": 8,
+   "box": [
+    0.51,
+    0.505,
+    0.69,
+    0.655
+   ],
+   "species": "lycoperdon-perlatum",
+   "caption": "Vesse-de-loup perlée"
+  },
+  {
+   "name": "p08-8",
+   "page": 8,
+   "box": [
+    0.19,
+    0.76,
+    0.4,
+    0.855
+   ],
+   "species": "geastrum-triplex",
+   "caption": "Geastrum triplex"
+  },
+  {
+   "name": "p08-9",
+   "page": 8,
+   "box": [
+    0.7,
+    0.725,
+    0.92,
+    0.835
+   ],
+   "species": "geastrum-sessile",
+   "caption": "Geastrum sessile"
+  },
+  {
+   "name": "p08-10",
+   "page": 8,
+   "box": [
+    0.71,
+    0.865,
+    0.93,
+    0.97
+   ],
+   "species": "cyathus-striatus",
+   "caption": "Cyathus striatus"
+  },
+  {
+   "name": "p09-1",
+   "page": 9,
+   "box": [
+    0.79,
+    0.17,
+    0.97,
+    0.27
+   ],
+   "species": "polyporus-squamosus",
+   "caption": "Polypore écailleux"
+  },
+  {
+   "name": "p09-2",
+   "page": 9,
+   "box": [
+    0.82,
+    0.405,
+    0.95,
+    0.5
+   ],
+   "species": "ganoderma-lucidum",
+   "caption": "Ganoderma lucidum"
+  },
+  {
+   "name": "p09-3",
+   "page": 9,
+   "box": [
+    0.8,
+    0.785,
+    0.95,
+    0.945
+   ],
+   "species": "trametes-versicolor",
+   "caption": "Tramète versicolore"
+  },
+  {
+   "name": "p09-4",
+   "page": 9,
+   "box": [
+    0.21,
+    0.79,
+    0.42,
+    0.91
+   ],
+   "species": "daedaleopsis-confragosa",
+   "caption": "Tramète rougissante"
+  },
+  {
+   "name": "p09-5",
+   "page": 9,
+   "box": [
+    0.46,
+    0.78,
+    0.74,
+    0.89
+   ],
+   "species": "fomes-fomentarius",
+   "caption": "Amadouvier"
+  }
+ ]
 }

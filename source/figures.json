@@ -1,0 +1,2005 @@
+[
+ {
+  "name": "picto-lames-libres",
+  "page": 1,
+  "box": [
+   0.144,
+   0.148,
+   0.21,
+   0.214
+  ],
+  "caption": "Lames libres"
+ },
+ {
+  "name": "picto-lames-adnees",
+  "page": 1,
+  "box": [
+   0.354,
+   0.141,
+   0.417,
+   0.208
+  ],
+  "caption": "Lames adnées"
+ },
+ {
+  "name": "picto-lames-echancrees",
+  "page": 1,
+  "box": [
+   0.154,
+   0.22,
+   0.217,
+   0.279
+  ],
+  "caption": "Lames échancrées"
+ },
+ {
+  "name": "picto-lames-decurrentes",
+  "page": 1,
+  "box": [
+   0.375,
+   0.209,
+   0.438,
+   0.27
+  ],
+  "caption": "Lames décurrentes"
+ },
+ {
+  "name": "picto-chapeau-plat",
+  "page": 1,
+  "box": [
+   0.624,
+   0.175,
+   0.698,
+   0.206
+  ],
+  "caption": "Chapeau plat"
+ },
+ {
+  "name": "picto-chapeau-campanule",
+  "page": 1,
+  "box": [
+   0.701,
+   0.172,
+   0.759,
+   0.206
+  ],
+  "caption": "Chapeau campanulé"
+ },
+ {
+  "name": "picto-chapeau-conique",
+  "page": 1,
+  "box": [
+   0.805,
+   0.172,
+   0.856,
+   0.206
+  ],
+  "caption": "Chapeau conique"
+ },
+ {
+  "name": "picto-chapeau-convexe",
+  "page": 1,
+  "box": [
+   0.64,
+   0.246,
+   0.722,
+   0.279
+  ],
+  "caption": "Chapeau convexe"
+ },
+ {
+  "name": "picto-chapeau-infundibuliforme",
+  "page": 1,
+  "box": [
+   0.756,
+   0.245,
+   0.819,
+   0.278
+  ],
+  "caption": "Chapeau infundibuliforme"
+ },
+ {
+  "name": "picto-anneau-descendant",
+  "page": 1,
+  "box": [
+   0.112,
+   0.416,
+   0.154,
+   0.463
+  ],
+  "caption": "Anneau descendant"
+ },
+ {
+  "name": "picto-anneau-ascendant",
+  "page": 1,
+  "box": [
+   0.188,
+   0.415,
+   0.228,
+   0.463
+  ],
+  "caption": "Anneau ascendant"
+ },
+ {
+  "name": "picto-cortine",
+  "page": 1,
+  "box": [
+   0.084,
+   0.496,
+   0.119,
+   0.539
+  ],
+  "caption": "Cortine"
+ },
+ {
+  "name": "picto-anneau-double",
+  "page": 1,
+  "box": [
+   0.161,
+   0.493,
+   0.2,
+   0.541
+  ],
+  "caption": "Anneau double"
+ },
+ {
+  "name": "picto-anneau-coulissant",
+  "page": 1,
+  "box": [
+   0.23,
+   0.496,
+   0.289,
+   0.541
+  ],
+  "caption": "Anneau coulissant"
+ },
+ {
+  "name": "picto-chair-fibreuse",
+  "page": 1,
+  "box": [
+   0.754,
+   0.419,
+   0.794,
+   0.474
+  ],
+  "caption": "Chair fibreuse"
+ },
+ {
+  "name": "picto-chair-grenue",
+  "page": 1,
+  "box": [
+   0.813,
+   0.419,
+   0.85,
+   0.473
+  ],
+  "caption": "Chair grenue"
+ },
+ {
+  "name": "picto-pied-fusiforme",
+  "page": 1,
+  "box": [
+   0.088,
+   0.666,
+   0.118,
+   0.706
+  ],
+  "caption": "Pied fusiforme"
+ },
+ {
+  "name": "picto-pied-ventru",
+  "page": 1,
+  "box": [
+   0.132,
+   0.665,
+   0.179,
+   0.705
+  ],
+  "caption": "Pied ventru"
+ },
+ {
+  "name": "picto-pied-obese",
+  "page": 1,
+  "box": [
+   0.191,
+   0.663,
+   0.256,
+   0.708
+  ],
+  "caption": "Pied obèse"
+ },
+ {
+  "name": "picto-pied-radicant",
+  "page": 1,
+  "box": [
+   0.722,
+   0.634,
+   0.75,
+   0.69
+  ],
+  "caption": "Pied radicant"
+ },
+ {
+  "name": "picto-pied-bulbeux",
+  "page": 1,
+  "box": [
+   0.75,
+   0.638,
+   0.784,
+   0.684
+  ],
+  "caption": "Pied bulbeux"
+ },
+ {
+  "name": "picto-pied-clave",
+  "page": 1,
+  "box": [
+   0.794,
+   0.639,
+   0.826,
+   0.688
+  ],
+  "caption": "Pied clavé"
+ },
+ {
+  "name": "picto-volve-sac",
+  "page": 1,
+  "box": [
+   0.275,
+   0.773,
+   0.349,
+   0.848
+  ],
+  "caption": "Volve en sac"
+ },
+ {
+  "name": "picto-volve-circoncise",
+  "page": 1,
+  "box": [
+   0.398,
+   0.787,
+   0.452,
+   0.836
+  ],
+  "caption": "Volve circoncise (+ plaques sur chapeau)"
+ },
+ {
+  "name": "picto-voile-friable",
+  "page": 1,
+  "box": [
+   0.515,
+   0.77,
+   0.712,
+   0.853
+  ],
+  "caption": "Voile général friable (+ flocons sur chapeau)"
+ },
+ {
+  "name": "picto-anatomie",
+  "page": 1,
+  "box": [
+   0.231,
+   0.278,
+   0.673,
+   0.588
+  ],
+  "caption": "Anatomie d'un champignon : trois groupes d'hyménophore, chapeau, pied"
+ },
+ {
+  "name": "picto-sporee",
+  "page": 2,
+  "box": [
+   0.07,
+   0.518,
+   0.281,
+   0.64
+  ],
+  "caption": "Sporée : champignon dont le chapeau repose sur un papier (méthode de laboratoire)"
+ },
+ {
+  "name": "p02-a",
+  "page": 2,
+  "box": [
+   0.07,
+   0.665,
+   0.263,
+   0.78
+  ],
+  "caption": "Observation approximative de la sporée sur le terrain"
+ },
+ {
+  "name": "p02-b",
+  "page": 2,
+  "box": [
+   0.07,
+   0.795,
+   0.245,
+   0.905
+  ],
+  "caption": "Pied courbé (A) et pied à anneau (B) : dépôt de spores sur le pied"
+ },
+ {
+  "name": "p02-c",
+  "page": 2,
+  "box": [
+   0.091,
+   0.145,
+   0.273,
+   0.3
+  ],
+  "caption": "Forme générale : pied et chapeau, en coupe"
+ },
+ {
+  "name": "silhouette-clitocyboide",
+  "page": 2,
+  "box": [
+   0.4,
+   0.82,
+   0.491,
+   0.898
+  ],
+  "caption": "Silhouette clitocyboïde"
+ },
+ {
+  "name": "silhouette-collybioide",
+  "page": 2,
+  "box": [
+   0.501,
+   0.82,
+   0.582,
+   0.898
+  ],
+  "caption": "Silhouette collybioïde"
+ },
+ {
+  "name": "silhouette-mycenoide",
+  "page": 2,
+  "box": [
+   0.589,
+   0.82,
+   0.645,
+   0.895
+  ],
+  "caption": "Silhouette mycénoïde"
+ },
+ {
+  "name": "silhouette-marasmioide",
+  "page": 2,
+  "box": [
+   0.68,
+   0.818,
+   0.747,
+   0.893
+  ],
+  "caption": "Silhouette marasmioïde"
+ },
+ {
+  "name": "silhouette-tricholomoide",
+  "page": 2,
+  "box": [
+   0.761,
+   0.818,
+   0.866,
+   0.888
+  ],
+  "caption": "Silhouette tricholomoïde"
+ },
+ {
+  "name": "p41-a",
+  "page": 41,
+  "box": [
+   0.488,
+   0.45,
+   0.913,
+   0.793
+  ],
+  "caption": "Girolle : marge festonnée, chapeau jaune-orangé creusé en entonnoir, pied court atténué à la base, plis décurrents ramifiés",
+  "species": "cantharellus-cibarius"
+ },
+ {
+  "name": "p05-a",
+  "page": 5,
+  "box": [
+   0.14,
+   0.285,
+   0.42,
+   0.43
+  ],
+  "caption": "Croûtes sur bûches (*)"
+ },
+ {
+  "name": "p05-1",
+  "page": 5,
+  "box": [
+   0.69,
+   0.28,
+   0.86,
+   0.48
+  ],
+  "species": "phlebia-merismoides",
+  "caption": "Phlebia merismoides"
+ },
+ {
+  "name": "p05-2",
+  "page": 5,
+  "box": [
+   0.54,
+   0.28,
+   0.72,
+   0.48
+  ],
+  "species": "phlebia-tremellosa",
+  "caption": "Mérule tremblante"
+ },
+ {
+  "name": "p05-3",
+  "page": 5,
+  "box": [
+   0.12,
+   0.735,
+   0.33,
+   0.9
+  ],
+  "species": "stereum-hirsutum",
+  "caption": "Stereum hirsutum"
+ },
+ {
+  "name": "p05-4",
+  "page": 5,
+  "box": [
+   0.4,
+   0.76,
+   0.55,
+   0.9
+  ],
+  "species": "thelephora-terrestris",
+  "caption": "Thelephora terrestris"
+ },
+ {
+  "name": "p05-5",
+  "page": 5,
+  "box": [
+   0.66,
+   0.74,
+   0.83,
+   0.91
+  ],
+  "species": "auricularia-auricula-judae",
+  "caption": "Oreille-de-Judas"
+ },
+ {
+  "name": "p06-1",
+  "page": 6,
+  "box": [
+   0.84,
+   0.18,
+   0.94,
+   0.37
+  ],
+  "species": "clavariadelphus-pistillaris",
+  "caption": "Clavaire en pilon"
+ },
+ {
+  "name": "p06-2",
+  "page": 6,
+  "box": [
+   0.13,
+   0.375,
+   0.25,
+   0.51
+  ],
+  "species": "clavulina-cinerea",
+  "caption": "Clavaire cendrée"
+ },
+ {
+  "name": "p06-3",
+  "page": 6,
+  "box": [
+   0.235,
+   0.375,
+   0.36,
+   0.51
+  ],
+  "species": "clavulina-cristata",
+  "caption": "Clavaire crêtée"
+ },
+ {
+  "name": "p06-4",
+  "page": 6,
+  "box": [
+   0.46,
+   0.375,
+   0.6,
+   0.51
+  ],
+  "species": "ramaria-formosa",
+  "caption": "Clavaire jolie"
+ },
+ {
+  "name": "p06-5",
+  "page": 6,
+  "box": [
+   0.7,
+   0.375,
+   0.92,
+   0.52
+  ],
+  "species": "ramaria-botrytis",
+  "caption": "Clavaire chou-fleur"
+ },
+ {
+  "name": "p06-6",
+  "page": 6,
+  "box": [
+   0.5,
+   0.52,
+   0.62,
+   0.585
+  ],
+  "species": "sparassis-crispa",
+  "caption": "Clavaire crêpue"
+ },
+ {
+  "name": "p06-6bis",
+  "page": 6,
+  "box": [
+   0.09,
+   0.76,
+   0.33,
+   0.925
+  ],
+  "species": "craterellus-cornucopioides",
+  "caption": "Trompette des morts (légendée (6) dans le livret)"
+ },
+ {
+  "name": "p06-a",
+  "page": 6,
+  "box": [
+   0.41,
+   0.765,
+   0.6,
+   0.9
+  ],
+  "species": "craterellus-sinuosus",
+  "caption": "Entonnoir gris pâle sans numéro"
+ },
+ {
+  "name": "p06-7",
+  "page": 6,
+  "box": [
+   0.63,
+   0.76,
+   0.88,
+   0.915
+  ],
+  "species": "cantharellus-cibarius",
+  "caption": "Girolle (légendée (7) dans le livret)"
+ },
+ {
+  "name": "p07-1",
+  "page": 7,
+  "box": [
+   0.62,
+   0.283,
+   0.74,
+   0.405
+  ],
+  "species": "otidea-onotica",
+  "caption": "Oreille-de-lièvre"
+ },
+ {
+  "name": "p07-2",
+  "page": 7,
+  "box": [
+   0.76,
+   0.245,
+   0.91,
+   0.355
+  ],
+  "species": "aleuria-aurantia",
+  "caption": "Pézize orangée"
+ },
+ {
+  "name": "p07-3",
+  "page": 7,
+  "box": [
+   0.46,
+   0.435,
+   0.78,
+   0.55
+  ],
+  "species": "morchella-spp",
+  "caption": "Morilles"
+ },
+ {
+  "name": "p07-4",
+  "page": 7,
+  "box": [
+   0.69,
+   0.585,
+   0.94,
+   0.71
+  ],
+  "species": "helvella-crispa",
+  "caption": "Helvelle crépue"
+ },
+ {
+  "name": "p08-1",
+  "page": 8,
+  "box": [
+   0.12,
+   0.205,
+   0.26,
+   0.32
+  ],
+  "species": "scleroderma-verrucosum",
+  "caption": "Scléroderme verruqueux"
+ },
+ {
+  "name": "p08-2",
+  "page": 8,
+  "box": [
+   0.33,
+   0.195,
+   0.56,
+   0.32
+  ],
+  "species": "scleroderma-citrinum",
+  "caption": "Scléroderme commun"
+ },
+ {
+  "name": "p08-3",
+  "page": 8,
+  "box": [
+   0.67,
+   0.205,
+   0.87,
+   0.31
+  ],
+  "species": "scleroderma-verrucosum",
+  "caption": "Coupe d'un scléroderme"
+ },
+ {
+  "name": "p08-4",
+  "page": 8,
+  "box": [
+   0.08,
+   0.5,
+   0.26,
+   0.655
+  ],
+  "species": "lycoperdon-pyriforme",
+  "caption": "Vesse-de-loup en poire"
+ },
+ {
+  "name": "p08-5",
+  "page": 8,
+  "box": [
+   0.31,
+   0.505,
+   0.42,
+   0.655
+  ],
+  "species": "lycoperdon-perlatum",
+  "caption": "Vesse-de-loup perlée"
+ },
+ {
+  "name": "p08-6",
+  "page": 8,
+  "box": [
+   0.51,
+   0.505,
+   0.69,
+   0.655
+  ],
+  "species": "lycoperdon-perlatum",
+  "caption": "Vesse-de-loup perlée"
+ },
+ {
+  "name": "p08-8",
+  "page": 8,
+  "box": [
+   0.19,
+   0.76,
+   0.4,
+   0.855
+  ],
+  "species": "geastrum-triplex",
+  "caption": "Geastrum triplex"
+ },
+ {
+  "name": "p08-9",
+  "page": 8,
+  "box": [
+   0.7,
+   0.725,
+   0.92,
+   0.835
+  ],
+  "species": "geastrum-sessile",
+  "caption": "Geastrum sessile"
+ },
+ {
+  "name": "p08-10",
+  "page": 8,
+  "box": [
+   0.71,
+   0.865,
+   0.93,
+   0.97
+  ],
+  "species": "cyathus-striatus",
+  "caption": "Cyathus striatus"
+ },
+ {
+  "name": "p09-1",
+  "page": 9,
+  "box": [
+   0.79,
+   0.17,
+   0.97,
+   0.27
+  ],
+  "species": "polyporus-squamosus",
+  "caption": "Polypore écailleux"
+ },
+ {
+  "name": "p09-2",
+  "page": 9,
+  "box": [
+   0.82,
+   0.405,
+   0.95,
+   0.5
+  ],
+  "species": "ganoderma-lucidum",
+  "caption": "Ganoderma lucidum"
+ },
+ {
+  "name": "p09-3",
+  "page": 9,
+  "box": [
+   0.8,
+   0.785,
+   0.95,
+   0.945
+  ],
+  "species": "trametes-versicolor",
+  "caption": "Tramète versicolore"
+ },
+ {
+  "name": "p09-4",
+  "page": 9,
+  "box": [
+   0.21,
+   0.79,
+   0.42,
+   0.91
+  ],
+  "species": "daedaleopsis-confragosa",
+  "caption": "Tramète rougissante"
+ },
+ {
+  "name": "p09-5",
+  "page": 9,
+  "box": [
+   0.46,
+   0.78,
+   0.74,
+   0.89
+  ],
+  "species": "fomes-fomentarius",
+  "caption": "Amadouvier"
+ },
+ {
+  "name": "p10-1",
+  "page": 10,
+  "box": [
+   0.19,
+   0.25,
+   0.4,
+   0.38
+  ],
+  "species": "leccinum-scabrum",
+  "caption": "Bolet à pied raboteux (Leccinum)"
+ },
+ {
+  "name": "p10-2",
+  "page": 10,
+  "box": [
+   0.54,
+   0.25,
+   0.78,
+   0.38
+  ],
+  "caption": "Bolet à pied couvert d'écailles ou de mèches (pied sans écailles : lisse, guttulé ou réticulé)"
+ },
+ {
+  "name": "p10-3",
+  "page": 10,
+  "box": [
+   0.12,
+   0.67,
+   0.29,
+   0.81
+  ],
+  "species": "suillus-luteus",
+  "caption": "Bolet jaune"
+ },
+ {
+  "name": "p10-4",
+  "page": 10,
+  "box": [
+   0.34,
+   0.655,
+   0.57,
+   0.81
+  ],
+  "species": "suillus-granulatus",
+  "caption": "Bolet granulé : chapeau visqueux, pores fins pleurant des gouttes laiteuses, pied ponctué de granulations surtout dans le haut"
+ },
+ {
+  "name": "p10-6",
+  "page": 10,
+  "box": [
+   0.58,
+   0.655,
+   0.73,
+   0.77
+  ],
+  "species": "gyrodon-lividus",
+  "caption": "Bolet livide"
+ },
+ {
+  "name": "p10-5",
+  "page": 10,
+  "box": [
+   0.72,
+   0.675,
+   0.9,
+   0.82
+  ],
+  "species": "strobilomyces-strobilaceus",
+  "caption": "Bolet pomme de pin (légende illisible)"
+ },
+ {
+  "name": "p11-4",
+  "page": 11,
+  "box": [
+   0.12,
+   0.62,
+   0.31,
+   0.755
+  ],
+  "species": "boletus-edulis",
+  "caption": "Cèpe de Bordeaux : marge claire presque blanche, pores blancs puis jaune verdâtre, réseau blanchâtre plus net vers le haut, pied obèse chez les jeunes"
+ },
+ {
+  "name": "p11-5",
+  "page": 11,
+  "box": [
+   0.45,
+   0.625,
+   0.63,
+   0.755
+  ],
+  "species": "neoboletus-erythropus",
+  "caption": "Bolet à pied rouge : chapeau bistre sombre, pores fins rouge orangé, chair jaune bleuissant à la cassure, peluches rouges, pied robuste renflé à la base"
+ },
+ {
+  "name": "p11-6",
+  "page": 11,
+  "box": [
+   0.3,
+   0.72,
+   0.46,
+   0.86
+  ],
+  "species": "rubroboletus-satanas",
+  "caption": "Bolet satan"
+ },
+ {
+  "name": "p11-7",
+  "page": 11,
+  "box": [
+   0.63,
+   0.71,
+   0.83,
+   0.86
+  ],
+  "species": "tylopilus-felleus",
+  "caption": "Bolet de fiel : pores jaunes bleuissant au toucher, réseau légèrement plus foncé, pied ventru radicant à la base"
+ },
+ {
+  "name": "p11-1",
+  "page": 11,
+  "box": [
+   0.16,
+   0.82,
+   0.36,
+   0.96
+  ],
+  "species": "xerocomellus-chrysenteron",
+  "caption": "Chapeau sec à revêtement craquelé, sous-cuticule rouge, pores anguleux jaune verdâtre bleuissant au toucher, pied fibrillé de rouge (numéro imprimé à côté de Xerocomus subtomentosus : doute)"
+ },
+ {
+  "name": "p12-1",
+  "page": 12,
+  "box": [
+   0.14,
+   0.165,
+   0.31,
+   0.3
+  ],
+  "species": "hygrophoropsis-aurantiaca",
+  "caption": "Fausse girolle"
+ },
+ {
+  "name": "p12-2",
+  "page": 12,
+  "box": [
+   0.06,
+   0.405,
+   0.27,
+   0.515
+  ],
+  "species": "lepista-inversa",
+  "caption": "Clitocybe renversé : chapeau creusé en coupe jaune roussâtre, marge enroulée, pied court fibreux"
+ },
+ {
+  "name": "p12-3",
+  "page": 12,
+  "box": [
+   0.12,
+   0.67,
+   0.33,
+   0.79
+  ],
+  "species": "clitocybe-gibba",
+  "caption": "Clitocybe en entonnoir (légende numérotée illisible)"
+ },
+ {
+  "name": "p12-4",
+  "page": 12,
+  "box": [
+   0.15,
+   0.86,
+   0.27,
+   0.97
+  ],
+  "species": "clitocybe-clavipes",
+  "caption": "Clitocybe à pied clavé"
+ },
+ {
+  "name": "p12-5",
+  "page": 12,
+  "box": [
+   0.63,
+   0.855,
+   0.8,
+   0.965
+  ],
+  "species": "clitocybe-phyllophila",
+  "caption": "Clitocybe des feuilles (légende numérotée illisible)"
+ },
+ {
+  "name": "p13-1",
+  "page": 13,
+  "box": [
+   0.33,
+   0.17,
+   0.6,
+   0.3
+  ],
+  "species": "clitopilus-prunulus",
+  "caption": "Meunier : chapeau blanc mat en entonnoir, chapeau d'abord bombé, lames décurrentes blanches puis rosées, pied plus ou moins excentrique"
+ },
+ {
+  "name": "p13-2",
+  "page": 13,
+  "box": [
+   0.36,
+   0.48,
+   0.58,
+   0.62
+  ],
+  "species": "paxillus-involutus",
+  "caption": "Paxille enroulé"
+ },
+ {
+  "name": "p13-3",
+  "page": 13,
+  "box": [
+   0.1,
+   0.675,
+   0.27,
+   0.82
+  ],
+  "species": "chroogomphus-rutilus",
+  "caption": "Gomphide visqueux"
+ },
+ {
+  "name": "p14-1",
+  "page": 14,
+  "box": [
+   0.34,
+   0.34,
+   0.5,
+   0.57
+  ],
+  "species": "amanita-vaginata",
+  "caption": "Amanite vaginée"
+ },
+ {
+  "name": "p14-a",
+  "page": 14,
+  "box": [
+   0.4,
+   0.69,
+   0.54,
+   0.84
+  ],
+  "species": "volvopluteus-gloiocephalus",
+  "caption": "Volvaire (spores roses)"
+ },
+ {
+  "name": "p15-1",
+  "page": 15,
+  "box": [
+   0.7,
+   0.225,
+   0.87,
+   0.355
+  ],
+  "species": "armillaria-mellea",
+  "caption": "Armillaire à couleur de miel"
+ },
+ {
+  "name": "p15-2",
+  "page": 15,
+  "box": [
+   0.22,
+   0.225,
+   0.36,
+   0.335
+  ],
+  "species": "oudemansiella-mucida",
+  "caption": "Collybie muqueuse"
+ },
+ {
+  "name": "p15-3",
+  "page": 15,
+  "box": [
+   0.15,
+   0.615,
+   0.3,
+   0.74
+  ],
+  "species": "pholiota-squarrosa",
+  "caption": "Pholiote écailleuse"
+ },
+ {
+  "name": "p15-4",
+  "page": 15,
+  "box": [
+   0.39,
+   0.615,
+   0.56,
+   0.74
+  ],
+  "species": "pholiota-aurivella",
+  "caption": "Pholiote dorée"
+ },
+ {
+  "name": "p15-5",
+  "page": 15,
+  "box": [
+   0.69,
+   0.625,
+   0.88,
+   0.75
+  ],
+  "species": "gymnopilus-spectabilis",
+  "caption": "Pholiote remarquable"
+ },
+ {
+  "name": "p15-6",
+  "page": 15,
+  "box": [
+   0.27,
+   0.815,
+   0.5,
+   0.94
+  ],
+  "species": "kuehneromyces-mutabilis",
+  "caption": "Pholiote changeante"
+ },
+ {
+  "name": "p15-7",
+  "page": 15,
+  "box": [
+   0.76,
+   0.77,
+   0.92,
+   0.92
+  ],
+  "species": "galerina-marginata",
+  "caption": "Galérine marginée"
+ },
+ {
+  "name": "p16-1",
+  "page": 16,
+  "box": [
+   0.62,
+   0.775,
+   0.85,
+   0.955
+  ],
+  "species": "stropharia-aeruginosa",
+  "caption": "Strophaire vert-de-gris"
+ },
+ {
+  "name": "p16-2",
+  "page": 16,
+  "box": [
+   0.06,
+   0.78,
+   0.39,
+   0.955
+  ],
+  "species": "coprinus-comatus",
+  "caption": "Coprin chevelu"
+ },
+ {
+  "name": "p17-a",
+  "page": 17,
+  "box": [
+   0.78,
+   0.35,
+   0.95,
+   0.475
+  ],
+  "species": "hypholoma-fasciculare",
+  "caption": "Hypholome en touffes"
+ },
+ {
+  "name": "p17-2",
+  "page": 17,
+  "box": [
+   0.33,
+   0.525,
+   0.57,
+   0.665
+  ],
+  "species": "coprinus-micaceus",
+  "caption": "Coprin micacé"
+ },
+ {
+  "name": "p17-3",
+  "page": 17,
+  "box": [
+   0.68,
+   0.545,
+   0.91,
+   0.675
+  ],
+  "species": "pholiota-gummosa",
+  "caption": "Pholiote gommeuse"
+ },
+ {
+  "name": "p18-a",
+  "page": 18,
+  "box": [
+   0.79,
+   0.25,
+   0.96,
+   0.395
+  ],
+  "caption": "Dessin d'un sujet à chapeau pointu (rubrique Inocybe), non légendé"
+ },
+ {
+  "name": "p18-1",
+  "page": 18,
+  "box": [
+   0.37,
+   0.47,
+   0.58,
+   0.58
+  ],
+  "species": "inocybe-geophylla",
+  "caption": "Inocybe à lames terreuses"
+ },
+ {
+  "name": "p19-3",
+  "page": 19,
+  "box": [
+   0.44,
+   0.23,
+   0.61,
+   0.38
+  ],
+  "species": "chroogomphus-rutilus",
+  "caption": "Gomphide visqueux"
+ },
+ {
+  "name": "p20-1",
+  "page": 20,
+  "box": [
+   0.1,
+   0.41,
+   0.35,
+   0.53
+  ],
+  "species": "pleurotus-pulmonarius",
+  "caption": "Pleurote en poumon"
+ },
+ {
+  "name": "p20-2",
+  "page": 20,
+  "box": [
+   0.55,
+   0.42,
+   0.8,
+   0.54
+  ],
+  "species": "pleurotus-ostreatus",
+  "caption": "Pleurote en huître"
+ },
+ {
+  "name": "p20-3",
+  "page": 20,
+  "box": [
+   0.32,
+   0.48,
+   0.57,
+   0.63
+  ],
+  "species": "lentinellus-cochleatus",
+  "caption": "Lentin en colimaçon"
+ },
+ {
+  "name": "p21-1",
+  "page": 21,
+  "box": [
+   0.83,
+   0.215,
+   0.97,
+   0.36
+  ],
+  "species": "collybia-fusipes",
+  "caption": "Collybie à pied en fuseau"
+ },
+ {
+  "name": "p21-2",
+  "page": 21,
+  "box": [
+   0.06,
+   0.595,
+   0.22,
+   0.73
+  ],
+  "species": "laccaria-laccata",
+  "caption": "Laccaire laqué"
+ },
+ {
+  "name": "p21-3",
+  "page": 21,
+  "box": [
+   0.06,
+   0.78,
+   0.26,
+   0.915
+  ],
+  "species": "mycena-rosea",
+  "caption": "Mycène rose"
+ },
+ {
+  "name": "p22-2",
+  "page": 22,
+  "box": [
+   0.75,
+   0.51,
+   0.91,
+   0.625
+  ],
+  "species": "collybia-fusipes",
+  "caption": "Touffe de collybies"
+ },
+ {
+  "name": "p22-3",
+  "page": 22,
+  "box": [
+   0.54,
+   0.79,
+   0.73,
+   0.925
+  ],
+  "species": "mycena-inclinata",
+  "caption": "Mycène inclinée"
+ },
+ {
+  "name": "p23-1",
+  "page": 23,
+  "box": [
+   0.17,
+   0.52,
+   0.36,
+   0.69
+  ],
+  "species": "megacollybia-platyphylla",
+  "caption": "Collybie à lames larges"
+ },
+ {
+  "name": "p23-2",
+  "page": 23,
+  "box": [
+   0.37,
+   0.555,
+   0.49,
+   0.665
+  ],
+  "species": "collybia-butyracea",
+  "caption": "Collybie beurrée"
+ },
+ {
+  "name": "p23-3",
+  "page": 23,
+  "box": [
+   0.62,
+   0.545,
+   0.8,
+   0.67
+  ],
+  "species": "collybia-dryophila",
+  "caption": "Collybie du chêne"
+ },
+ {
+  "name": "p23-4",
+  "page": 23,
+  "box": [
+   0.86,
+   0.455,
+   0.93,
+   0.666
+  ],
+  "species": "oudemansiella-radicata",
+  "caption": "Collybie radicante"
+ },
+ {
+  "name": "p23-5",
+  "page": 23,
+  "box": [
+   0.15,
+   0.84,
+   0.35,
+   0.96
+  ],
+  "species": "marasmius-rotula",
+  "caption": "Marasme rotule"
+ },
+ {
+  "name": "p23-6",
+  "page": 23,
+  "box": [
+   0.83,
+   0.74,
+   0.93,
+   0.91
+  ],
+  "species": "marasmiellus-ramealis",
+  "caption": "Marasmiellus ramealis sur brindille"
+ },
+ {
+  "name": "p23-a",
+  "page": 23,
+  "box": [
+   0.35,
+   0.83,
+   0.52,
+   0.985
+  ],
+  "caption": "Touffe de petits champignons sur bois (sans numéro)"
+ },
+ {
+  "name": "p24-a",
+  "page": 24,
+  "box": [
+   0.78,
+   0.73,
+   0.97,
+   0.865
+  ],
+  "species": "entoloma-lividum",
+  "caption": "Entolome (sans numéro), flèche partant de la ligne d'Entoloma lividum"
+ },
+ {
+  "name": "p25-a",
+  "page": 25,
+  "box": [
+   0.83,
+   0.58,
+   0.93,
+   0.72
+  ],
+  "species": "conocybe-spp",
+  "caption": "Petit champignon grêle à chapeau conique (sans numéro), flèche partant de la ligne Conocybe"
+ },
+ {
+  "name": "p25-2",
+  "page": 25,
+  "box": [
+   0.79,
+   0.78,
+   0.94,
+   0.925
+  ],
+  "species": "hebeloma-crustuliniforme",
+  "caption": "Hébélome croûte-de-pain"
+ },
+ {
+  "name": "p26-1",
+  "page": 26,
+  "box": [
+   0.31,
+   0.285,
+   0.47,
+   0.405
+  ],
+  "species": "coprinus-atramentarius",
+  "caption": "Coprin noir d'encre (1)"
+ },
+ {
+  "name": "p26-2",
+  "page": 26,
+  "box": [
+   0.66,
+   0.265,
+   0.84,
+   0.405
+  ],
+  "species": "coprinus-comatus",
+  "caption": "Coprin chevelu (2)"
+ },
+ {
+  "name": "p26-1b",
+  "page": 26,
+  "box": [
+   0.58,
+   0.81,
+   0.73,
+   0.985
+  ],
+  "species": "stropharia-pseudocyanea",
+  "caption": "Strophaire bleue et blanche (numéroté (1) sur la page, comme le coprin noir d'encre)"
+ },
+ {
+  "name": "p27-a",
+  "page": 27,
+  "box": [
+   0.77,
+   0.04,
+   0.99,
+   0.18
+  ],
+  "species": "lactarius-piperatus",
+  "caption": "Lactaire en entonnoir à lames serrées (flèche vers L. piperatus)"
+ },
+ {
+  "name": "p27-2",
+  "page": 27,
+  "box": [
+   0.765,
+   0.22,
+   0.97,
+   0.35
+  ],
+  "species": "lactarius-pubescens",
+  "caption": "Lactaire à marge poilue (2)"
+ },
+ {
+  "name": "p27-3",
+  "page": 27,
+  "box": [
+   0.81,
+   0.43,
+   0.97,
+   0.535
+  ],
+  "species": "lactarius-quietus",
+  "caption": "Chapeau à zones concentriques, pied à base sombre (3)"
+ },
+ {
+  "name": "p27-b",
+  "page": 27,
+  "box": [
+   0.715,
+   0.495,
+   0.88,
+   0.6
+  ],
+  "caption": "Lactaire en entonnoir avec gouttes de lait, sans numéro"
+ },
+ {
+  "name": "p28-5",
+  "page": 28,
+  "box": [
+   0.08,
+   0.31,
+   0.27,
+   0.44
+  ],
+  "species": "lactarius-blennius",
+  "caption": "Lactaire muqueux, pied creux en coupe (5)"
+ },
+ {
+  "name": "p29-1",
+  "page": 29,
+  "box": [
+   0.77,
+   0.34,
+   0.99,
+   0.46
+  ],
+  "caption": "Russule à bord strié-cannelé (1)"
+ },
+ {
+  "name": "p29-a",
+  "page": 29,
+  "box": [
+   0.04,
+   0.51,
+   0.19,
+   0.65
+  ],
+  "caption": "Russule à pied robuste, court et blanc"
+ },
+ {
+  "name": "p31-a",
+  "page": 31,
+  "box": [
+   0.18,
+   0.39,
+   0.37,
+   0.52
+  ],
+  "caption": "Russule à chapeau squamuleux foncé, pied blanc"
+ },
+ {
+  "name": "p31-b",
+  "page": 31,
+  "box": [
+   0.47,
+   0.41,
+   0.66,
+   0.53
+  ],
+  "caption": "Russule à chapeau sombre, détail de la base du pied"
+ },
+ {
+  "name": "p31-c",
+  "page": 31,
+  "box": [
+   0.69,
+   0.41,
+   0.91,
+   0.54
+  ],
+  "caption": "Russule à chapeau sombre brillant, lames et coupe du pied"
+ },
+ {
+  "name": "p32-a",
+  "page": 32,
+  "box": [
+   0.818,
+   0.08,
+   0.89,
+   0.155
+  ],
+  "caption": "Volve en sac (pictogramme)"
+ },
+ {
+  "name": "p32-1",
+  "page": 32,
+  "box": [
+   0.3,
+   0.18,
+   0.58,
+   0.31
+  ],
+  "species": "amanita-phalloides",
+  "caption": "Amanite phalloïde"
+ },
+ {
+  "name": "p32-2",
+  "page": 32,
+  "box": [
+   0.25,
+   0.465,
+   0.42,
+   0.62
+  ],
+  "species": "amanita-virosa",
+  "caption": "Amanite vireuse"
+ },
+ {
+  "name": "p32-3",
+  "page": 32,
+  "box": [
+   0.55,
+   0.485,
+   0.78,
+   0.605
+  ],
+  "species": "amanita-caesarea",
+  "caption": "Amanite des Césars"
+ },
+ {
+  "name": "p32-b",
+  "page": 32,
+  "box": [
+   0.65,
+   0.66,
+   0.72,
+   0.725
+  ],
+  "caption": "Bulbe circoncis"
+ },
+ {
+  "name": "p32-6",
+  "page": 32,
+  "box": [
+   0.75,
+   0.66,
+   0.88,
+   0.79
+  ],
+  "species": "amanita-citrina",
+  "caption": "Amanite citrine"
+ },
+ {
+  "name": "p32-c",
+  "page": 32,
+  "box": [
+   0.57,
+   0.795,
+   0.66,
+   0.865
+  ],
+  "caption": "Bulbe garni de flocons"
+ },
+ {
+  "name": "p33-1",
+  "page": 33,
+  "box": [
+   0.27,
+   0.27,
+   0.49,
+   0.43
+  ],
+  "species": "amanita-muscaria",
+  "caption": "Amanite tue-mouches"
+ },
+ {
+  "name": "p33-a",
+  "page": 33,
+  "box": [
+   0.7,
+   0.27,
+   0.92,
+   0.43
+  ],
+  "species": "amanita-pantherina",
+  "caption": "Amanite panthère (dessin sans numéro, attribution probable)"
+ },
+ {
+  "name": "p33-3",
+  "page": 33,
+  "box": [
+   0.22,
+   0.665,
+   0.47,
+   0.885
+  ],
+  "species": "amanita-rubescens",
+  "caption": "Amanite rougissante"
+ },
+ {
+  "name": "p33-4",
+  "page": 33,
+  "box": [
+   0.63,
+   0.67,
+   0.87,
+   0.87
+  ],
+  "species": "amanita-spissa",
+  "caption": "Amanite épaisse"
+ },
+ {
+  "name": "p34-1",
+  "page": 34,
+  "box": [
+   0.19,
+   0.31,
+   0.32,
+   0.46
+  ],
+  "species": "hygrocybe-punicea",
+  "caption": "Hygrophore rouge ponceau"
+ },
+ {
+  "name": "p34-2",
+  "page": 34,
+  "box": [
+   0.58,
+   0.32,
+   0.73,
+   0.47
+  ],
+  "species": "hygrocybe-conica",
+  "caption": "Hygrophore conique"
+ },
+ {
+  "name": "p34-3",
+  "page": 34,
+  "box": [
+   0.78,
+   0.395,
+   0.92,
+   0.51
+  ],
+  "species": "cuphophyllus-pratensis",
+  "caption": "Hygrophore des prés"
+ },
+ {
+  "name": "p34-4",
+  "page": 34,
+  "box": [
+   0.79,
+   0.69,
+   0.93,
+   0.795
+  ],
+  "species": "hygrophorus-russula",
+  "caption": "Hygrophorus russula"
+ },
+ {
+  "name": "p34-5",
+  "page": 34,
+  "box": [
+   0.76,
+   0.845,
+   0.93,
+   0.97
+  ],
+  "species": "hygrophorus-glutinifer",
+  "caption": "Hygrophorus glutinifer"
+ },
+ {
+  "name": "p35-1",
+  "page": 35,
+  "box": [
+   0.16,
+   0.295,
+   0.43,
+   0.45
+  ],
+  "species": "macrolepiota-procera",
+  "caption": "Lépiote élevée, coulemelle"
+ },
+ {
+  "name": "p35-2",
+  "page": 35,
+  "box": [
+   0.54,
+   0.315,
+   0.67,
+   0.44
+  ],
+  "species": "chlorophyllum-rhacodes",
+  "caption": "Lépiote déguenillée"
+ },
+ {
+  "name": "p35-3",
+  "page": 35,
+  "box": [
+   0.72,
+   0.33,
+   0.87,
+   0.44
+  ],
+  "species": "leucoagaricus-leucothites",
+  "caption": "Lépiote pudique"
+ },
+ {
+  "name": "p35-4",
+  "page": 35,
+  "box": [
+   0.16,
+   0.885,
+   0.3,
+   0.98
+  ],
+  "species": "lepiota-cristata",
+  "caption": "Lépiote crêtée"
+ },
+ {
+  "name": "p35-5",
+  "page": 35,
+  "box": [
+   0.67,
+   0.88,
+   0.82,
+   0.975
+  ],
+  "species": "lepiota-brunneoincarnata",
+  "caption": "Lépiote brun incarnat"
+ },
+ {
+  "name": "p36-1",
+  "page": 36,
+  "box": [
+   0.25,
+   0.25,
+   0.5,
+   0.38
+  ],
+  "species": "agaricus-xanthodermus",
+  "caption": "Agaric jaunissant"
+ },
+ {
+  "name": "p36-2",
+  "page": 36,
+  "box": [
+   0.66,
+   0.255,
+   0.81,
+   0.36
+  ],
+  "species": "agaricus-silvicola",
+  "caption": "Agaric des bois"
+ },
+ {
+  "name": "p36-3",
+  "page": 36,
+  "box": [
+   0.09,
+   0.815,
+   0.3,
+   0.945
+  ],
+  "species": "agaricus-campestris",
+  "caption": "Rosé-des-prés"
+ },
+ {
+  "name": "p36-4",
+  "page": 36,
+  "box": [
+   0.41,
+   0.815,
+   0.55,
+   0.94
+  ],
+  "species": "agaricus-sylvaticus",
+  "caption": "Agaric des forêts"
+ },
+ {
+  "name": "p36-5",
+  "page": 36,
+  "box": [
+   0.7,
+   0.82,
+   0.84,
+   0.95
+  ],
+  "species": "agaricus-bresadolanus",
+  "caption": "Agaric radicant"
+ },
+ {
+  "name": "p37-1",
+  "page": 37,
+  "box": [
+   0.2,
+   0.24,
+   0.37,
+   0.345
+  ],
+  "species": "cortinarius-elatior",
+  "caption": "Cortinarius elatior"
+ },
+ {
+  "name": "p37-2",
+  "page": 37,
+  "box": [
+   0.61,
+   0.22,
+   0.77,
+   0.355
+  ],
+  "species": "cortinarius-trivialis",
+  "caption": "Cortinarius trivialis"
+ },
+ {
+  "name": "p37-3",
+  "page": 37,
+  "box": [
+   0.77,
+   0.36,
+   0.94,
+   0.47
+  ],
+  "caption": "Pied bulbeux-marginé à la base (Phlegmacium)"
+ },
+ {
+  "name": "p37-4",
+  "page": 37,
+  "box": [
+   0.71,
+   0.83,
+   0.87,
+   0.96
+  ],
+  "species": "cortinarius-orellanus",
+  "caption": "Groupe de Cortinarius orellanus"
+ },
+ {
+  "name": "p38-4",
+  "page": 38,
+  "box": [
+   0.19,
+   0.6,
+   0.43,
+   0.765
+  ],
+  "species": "cortinarius-torvus",
+  "caption": "Cortinarius torvus"
+ },
+ {
+  "name": "p38-5",
+  "page": 38,
+  "box": [
+   0.66,
+   0.615,
+   0.86,
+   0.765
+  ],
+  "species": "cortinarius-alboviolaceus",
+  "caption": "Cortinarius alboviolaceus"
+ },
+ {
+  "name": "p40-1",
+  "page": 40,
+  "box": [
+   0.07,
+   0.31,
+   0.345,
+   0.455
+  ],
+  "species": "tricholoma-terreum",
+  "caption": "Tricholoma terreum : chapeau gris méchuleux, lamelles grises, pied blanc"
+ },
+ {
+  "name": "p40-2",
+  "page": 40,
+  "box": [
+   0.385,
+   0.305,
+   0.62,
+   0.45
+  ],
+  "species": "tricholoma-sulfureum",
+  "caption": "Dessin (2) : légende décrivant Tricholoma sulfureum (chapeau, lamelles et pied jaune soufre, odeur de gaz)"
+ },
+ {
+  "name": "p40-3",
+  "page": 40,
+  "box": [
+   0.7,
+   0.305,
+   0.94,
+   0.455
+  ],
+  "species": "tricholoma-sejunctum",
+  "caption": "Tricholoma sejunctum"
+ }
+]

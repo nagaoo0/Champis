@@ -1,37 +1,5926 @@
 {
-  "start": "p03",
-  "nodes": {
-    "p03": {
-      "page": 3,
-      "title": "Clé générale",
-      "question": "Que voyez-vous sous le chapeau ?",
-      "intro": "Observez le champignon entier, de préférence plusieurs exemplaires à différents âges.",
-      "choices": [
-        { "label": "Des pores (petits trous) et un pied épais", "hint": "chair spongieuse sous le chapeau", "next": "p10", "img": "picto-pied-ventru" },
-        { "label": "Des lames, avec un anneau et une volve ou des verrues", "hint": "voile général présent", "next": "p32", "img": "picto-anneau-descendant" },
-        { "label": "Des plis épais, ramifiés, qui descendent sur le pied", "hint": "tout le champignon est jaune d'oeuf", "note": "voir aussi la fausse girolle, p. 12", "species": "cantharellus-cibarius", "img": "picto-lames-decurrentes" }
-      ]
+ "start": "p03",
+ "nodes": {
+  "p03": {
+   "page": 3,
+   "title": "Clé générale",
+   "question": "Quel est le type d'hyménophore (la partie fertile sous le chapeau) ?",
+   "choices": [
+    {
+     "label": "Hyménophore interne",
+     "hint": "Gasteromycetidae (vesses-de-loup et apparentés)",
+     "next": "p08"
     },
-    "p10": {
-      "page": 10,
-      "title": "Bolets",
-      "question": "Le pied porte-t-il un réseau en relief ?",
-      "choices": [
-        { "label": "Réseau blanc, pores blancs puis jaune verdâtre", "hint": "chair ferme, odeur agréable", "species": "boletus-edulis" },
-        { "label": "Réseau brun, pores rosés à maturité", "hint": "goût très amer", "species": "tylopilus-felleus" }
-      ]
+    {
+     "label": "Hyménophore lisse (ou mal individualisé)",
+     "hint": "croûtes, arbuscules, trompettes, éponges, coupes, sphères",
+     "next": "p03-lisse"
     },
-    "p32": {
-      "page": 32,
-      "title": "Amanites",
-      "question": "Quelle est la couleur du chapeau ?",
-      "intro": "Toutes les amanites à lames blanches et anneau sont à traiter avec une extrême prudence.",
-      "choices": [
-        { "label": "Vert olive ou jaunâtre, volve en sac", "hint": "anneau blanc, lames blanches", "species": "amanita-phalloides" },
-        { "label": "Jaune citron pâle, bulbe arrondi sans volve en sac", "hint": "odeur de pomme de terre crue", "species": "amanita-citrina" },
-        { "label": "Rouge avec des verrues blanches", "species": "amanita-muscaria" },
-        { "label": "Gris brun, bord strié, pas d'anneau", "species": "amanita-vaginata" }
-      ]
+    {
+     "label": "Hyménophore à aiguillons (acuéolé)",
+     "next": "p03-aiguillons"
+    },
+    {
+     "label": "Hyménophore à tubes (tubulé ou poré)",
+     "next": "p03-tubes"
+    },
+    {
+     "label": "Hyménophore à plis",
+     "hint": "Chanterelles",
+     "next": "p03-plis"
+    },
+    {
+     "label": "Hyménophore à lames",
+     "next": "p03-lames"
     }
+   ]
+  },
+  "p03-lisse": {
+   "page": 3,
+   "title": "Hyménophore lisse",
+   "question": "Dans quelle direction est orientée la partie fertile ?",
+   "choices": [
+    {
+     "label": "Orienté vers le bas (infère) ou amphigène",
+     "hint": "croûtes, arbuscules, trompettes...",
+     "next": "p05"
+    },
+    {
+     "label": "Orienté vers le haut (supère)",
+     "hint": "éponges, coupes, sphères, etc.",
+     "next": "p07"
+    }
+   ]
+  },
+  "p03-aiguillons": {
+   "page": 3,
+   "title": "Hyménophore à aiguillons",
+   "question": "Les aiguillons tombent-ils facilement et la chair est-elle charnue ?",
+   "choices": [
+    {
+     "label": "Espèce charnue, blanche à orangée, chair blanche, aiguillons caducs",
+     "species": "hydnum-repandum"
+    },
+    {
+     "label": "Espèces coriaces, aiguillons non caducs",
+     "next": "p03-coriaces"
+    }
+   ]
+  },
+  "p03-coriaces": {
+   "page": 3,
+   "title": "Aiguillons : espèces coriaces",
+   "question": "Quels sont la chair, l'odeur et le chapeau ?",
+   "choices": [
+    {
+     "label": "Petite espèce sur cônes de pin",
+     "hint": "pied et chapeau poilus",
+     "species": "auriscalpium-vulgare"
+    },
+    {
+     "label": "Chair zonée à la coupe, noire",
+     "hint": "odeur de céleri",
+     "species": "phellodon-niger"
+    },
+    {
+     "label": "Chair zonée, brune",
+     "hint": "odeur de concombre",
+     "species": "hydnellum-ferrugineum"
+    },
+    {
+     "label": "Chair non zonée",
+     "hint": "chapeau écailleux",
+     "species": "sarcodon-imbricatus"
+    }
+   ]
+  },
+  "p03-tubes": {
+   "page": 3,
+   "title": "Hyménophore à tubes",
+   "question": "Les tubes se détachent-ils de la chair du chapeau ?",
+   "choices": [
+    {
+     "label": "Tubes non détachables de la chair du chapeau",
+     "hint": "espèces coriaces, généralement sans pied ou à pied peu distinct ; sur bois : polypores",
+     "next": "p09"
+    },
+    {
+     "label": "Tubes séparables de la chair (sur adultes)",
+     "hint": "pied et chapeau bien différenciés, chair tendre ou cassante ; à terre : bolets",
+     "next": "p10"
+    }
+   ]
+  },
+  "p03-plis": {
+   "page": 3,
+   "title": "Hyménophore à plis : Chanterelles",
+   "question": "Le pied est-il plein ou creux ?",
+   "intro": "NB : les plis sont toujours fourchus, lamellules toujours absentes.",
+   "choices": [
+    {
+     "label": "Pied plein",
+     "hint": "plis fins rappelant les lames, jaune orangé",
+     "species": "cantharellus-cibarius",
+     "img": "p41-a"
+    },
+    {
+     "label": "Pied creux",
+     "hint": "plis anastomosés, grisâtres à jaune sale",
+     "species": "craterellus-tubaeformis"
+    }
+   ]
+  },
+  "p03-lames": {
+   "page": 3,
+   "title": "Hyménophore à lames",
+   "question": "Y a-t-il des traces de voile (général ou partiel) ?",
+   "choices": [
+    {
+     "label": "Présence de traces de voile (général ou partiel)",
+     "next": "p03-voile"
+    },
+    {
+     "label": "Ni voile général ni voile partiel",
+     "hint": "attention, la cortine est souvent fugace et l'anneau peut être labile",
+     "next": "p04"
+    }
+   ]
+  },
+  "p03-voile": {
+   "page": 3,
+   "title": "Lames : traces de voile",
+   "question": "Quel type de voile observe-t-on ?",
+   "choices": [
+    {
+     "label": "Voile général + anneau",
+     "hint": "spores blanches, lames libres : amanites",
+     "next": "p32",
+     "img": "picto-lames-libres"
+    },
+    {
+     "label": "Voile général seul, sans anneau",
+     "next": "p14",
+     "img": "picto-volve-sac"
+    },
+    {
+     "label": "Présence d'une cortine, pas de voile général",
+     "next": "p17",
+     "img": "picto-cortine"
+    },
+    {
+     "label": "Présence d'un anneau ou d'une armille (sans trace de cortine), pas de voile général",
+     "next": "p15",
+     "img": "picto-anneau-descendant"
+    }
+   ]
+  },
+  "p04": {
+   "page": 4,
+   "title": "Lames sans voile général ni partiel",
+   "question": "La chair est-elle cassante et grenue, ou fibreuse ?",
+   "intro": "NB : attention aux espèces fibreuses à chair compacte, pouvant casser facilement à l'état jeune (toujours avec lamellules) : en cas de doute, suivre aussi l'option fibreuse.",
+   "choices": [
+    {
+     "label": "Chair cassante, texture granuleuse ou grenue",
+     "hint": "le pied se brise facilement comme un bâton de craie, la chair s'émiette facilement : russules et lactaires",
+     "next": "p04-grenue",
+     "img": "picto-chair-grenue"
+    },
+    {
+     "label": "Chair fibreuse, texture filamenteuse",
+     "next": "p04-fibreuse",
+     "img": "picto-chair-fibreuse"
+    }
+   ]
+  },
+  "p04-grenue": {
+   "page": 4,
+   "title": "Russules et lactaires",
+   "question": "Y a-t-il du lait à la cassure ?",
+   "intro": "En règle générale. Lactaires : pas de couleurs vives, souvent chapeau, lames et pieds de même teinte, chapeau vite déprimé en entonnoir. Russules : couleurs vives du chapeau, contraste entre la couleur du chapeau et celles des lames et du pied (souvent blanc), chapeau convexe à plat puis déprimé. Rappel : la plupart des russules n'ont pas de lamellules !",
+   "choices": [
+    {
+     "label": "Présence de lait (incolore, blanc ou coloré) à la cassure",
+     "hint": "surtout visible en brisant les lames : lactaires",
+     "next": "p27"
+    },
+    {
+     "label": "Absence de lait à la cassure",
+     "next": "p04-sans-lait"
+    }
+   ]
+  },
+  "p04-sans-lait": {
+   "page": 4,
+   "title": "Sans lait à la cassure",
+   "question": "Comment sont les lames ?",
+   "choices": [
+    {
+     "label": "Lames non ou peu décurrentes, blanches à jaunes",
+     "hint": "russules",
+     "next": "p29"
+    },
+    {
+     "label": "Lames très décurrentes, déliquescentes et brunissant au toucher",
+     "species": "paxillus-involutus",
+     "note": "voir Paxillus, p. 13",
+     "img": "picto-lames-decurrentes"
+    }
+   ]
+  },
+  "p04-fibreuse": {
+   "page": 4,
+   "title": "Chair fibreuse",
+   "question": "Où est inséré le pied ?",
+   "choices": [
+    {
+     "label": "Pied absent, très peu développé, ou nettement latéral",
+     "hint": "espèces pleurotoïdes",
+     "next": "p20"
+    },
+    {
+     "label": "Pied normalement central, ou éventuellement excentré",
+     "next": "p04-central"
+    }
+   ]
+  },
+  "p04-central": {
+   "page": 4,
+   "title": "Pied central ou excentré",
+   "question": "Les lames sont-elles décurrentes ?",
+   "choices": [
+    {
+     "label": "Lames décurrentes",
+     "next": "p12",
+     "img": "picto-lames-decurrentes"
+    },
+    {
+     "label": "Lames non décurrentes",
+     "next": "p21"
+    }
+   ]
+  },
+  "p05": {
+   "page": 5,
+   "title": "Hyménophore lisse infère ou amphigène",
+   "question": "Quelle est la forme du champignon à hyménophore lisse ?",
+   "intro": "Formes diverses. Hyménophore infère : croûtes, chapeaux réfléchis. Hyménophore amphigène : rameaux dressés, chapeaux en entonnoir (page suivante).",
+   "choices": [
+    {
+     "label": "En croûtes",
+     "hint": "formes étalées (résupinées) sans chapeau, parfois une simple pellicule sans chair, souvent sur le bois",
+     "next": "p05-croutes",
+     "img": "p05-a"
+    },
+    {
+     "label": "Chapeaux réfléchis",
+     "hint": "surface supérieure distincte, stérile",
+     "next": "p05-reflechis"
+    },
+    {
+     "label": "Dressés (massues, rameaux) ou en entonnoir",
+     "hint": "hyménophore infère ou amphigène, page suivante",
+     "next": "p06-dresses"
+    }
+   ]
+  },
+  "p05-croutes": {
+   "page": 5,
+   "title": "Hyménophore lisse infère ou amphigène : en croûtes",
+   "question": "De quelle couleur est la croûte ?",
+   "intro": "Formes étalées (résupinées) sans chapeau, parfois une simple pellicule sans chair, souvent sur le bois. Quelques exemples seulement.",
+   "choices": [
+    {
+     "label": "Orange vif, surface veinée radialement",
+     "species": "phlebia-merismoides",
+     "img": "p05-1"
+    },
+    {
+     "label": "Bleu vif, surface lisse",
+     "species": "terana-caerulea"
+    }
+   ]
+  },
+  "p05-reflechis": {
+   "page": 5,
+   "title": "Hyménophore lisse infère ou amphigène : chapeaux réfléchis",
+   "question": "La chair est-elle mince et coriace ou épaisse et gélatineuse ?",
+   "choices": [
+    {
+     "label": "Coriaces, minces (moins de 1 mm)",
+     "next": "p05-coriaces"
+    },
+    {
+     "label": "Gélatineux, épais (plus de 1 mm)",
+     "next": "p05-gelatineux"
+    }
+   ]
+  },
+  "p05-coriaces": {
+   "page": 5,
+   "title": "Hyménophore lisse infère ou amphigène : chapeaux réfléchis coriaces",
+   "question": "Le champignon est-il en partie étalé sur bois ou en pétales à terre ?",
+   "choices": [
+    {
+     "label": "En partie étalé, sur bois, à marge arrondie",
+     "hint": "Stéréés",
+     "next": "p05-sterees"
+    },
+    {
+     "label": "En pétales bruns à extrémités blanchâtres, à terre, à marges frangées",
+     "species": "thelephora-terrestris",
+     "img": "p05-4"
+    }
+   ]
+  },
+  "p05-sterees": {
+   "page": 5,
+   "title": "Hyménophore lisse infère ou amphigène : stéréés",
+   "question": "Comment est l'hyménophore ?",
+   "choices": [
+    {
+     "label": "Hyménophore jaune, surface supérieure hirsute",
+     "species": "stereum-hirsutum",
+     "img": "p05-3"
+    },
+    {
+     "label": "Hyménophore rosé à violacé, surface supérieure velue",
+     "species": "chondrostereum-purpureum"
+    }
+   ]
+  },
+  "p05-gelatineux": {
+   "page": 5,
+   "title": "Hyménophore lisse infère ou amphigène : chapeaux réfléchis gélatineux",
+   "question": "Quelle est la forme du champignon gélatineux ?",
+   "choices": [
+    {
+     "label": "En coupes pendantes, brun-rouge",
+     "hint": "surface externe feutrée",
+     "species": "auricularia-auricula-judae",
+     "img": "p05-5"
+    },
+    {
+     "label": "En toupie, noirâtre",
+     "hint": "surface externe papillée",
+     "species": "exidia-truncata"
+    },
+    {
+     "label": "En partie étalés, formant des chapeaux hirsutes",
+     "next": "p05-gelatineux-hirsutes"
+    }
+   ]
+  },
+  "p05-gelatineux-hirsutes": {
+   "page": 5,
+   "title": "Hyménophore lisse infère ou amphigène : gélatineux en chapeaux hirsutes",
+   "question": "Comment est la surface inférieure ?",
+   "choices": [
+    {
+     "label": "Gris-brun, grossièrement veinée",
+     "species": "auricularia-mesenterica"
+    },
+    {
+     "label": "Rose-orangé, gaufrée",
+     "species": "phlebia-tremellosa",
+     "img": "p05-2"
+    }
+   ]
+  },
+  "p06-dresses": {
+   "page": 6,
+   "title": "Hyménophore lisse infère ou amphigène : dressés et entonnoirs",
+   "question": "Le champignon est-il en arbuscule, en masse foliacée ou en entonnoir ?",
+   "intro": "Dressés : souvent terrestres, à hyménophore infère ou amphigène (sur toute la surface des rameaux).",
+   "choices": [
+    {
+     "label": "Arbuscules ou massues (Clavariacées)",
+     "next": "p06-clavariacees"
+    },
+    {
+     "label": "Masses foliacées plus ou moins serrées",
+     "species": "sparassis-crispa",
+     "img": "p06-6"
+    },
+    {
+     "label": "Entonnoirs ou \"cônes renversés\" (Cantharellacées)",
+     "next": "p06-entonnoirs"
+    }
+   ]
+  },
+  "p06-clavariacees": {
+   "page": 6,
+   "title": "Hyménophore lisse infère ou amphigène : clavaires",
+   "question": "Les arbuscules sont-ils simples ou ramifiés ?",
+   "choices": [
+    {
+     "label": "Simples",
+     "next": "p06-simples"
+    },
+    {
+     "label": "Ramifiés",
+     "next": "p06-ramifies"
+    }
+   ]
+  },
+  "p06-simples": {
+   "page": 6,
+   "title": "Hyménophore lisse infère ou amphigène : clavaires simples",
+   "question": "Le champignon est-il épais en massue ou en fuseaux ?",
+   "intro": "Si les fuseaux sont noirs ou verts, lisses et fragiles, voir Geoglossum ; s'ils sont durs et granuleux, voir Xylaria (pas de page indiquée).",
+   "choices": [
+    {
+     "label": "Épais en massue (roussâtre)",
+     "species": "clavariadelphus-pistillaris",
+     "img": "p06-1"
+    },
+    {
+     "label": "En fuseaux, en touffes (jaune)",
+     "species": "clavulinopsis-fusiformis"
+    }
+   ]
+  },
+  "p06-ramifies": {
+   "page": 6,
+   "title": "Hyménophore lisse infère ou amphigène : clavaires ramifiées",
+   "question": "La base est-elle grêle ou épaissie ?",
+   "choices": [
+    {
+     "label": "Base grêle, atténuée",
+     "next": "p06-ramifies-grele"
+    },
+    {
+     "label": "Base épaissie, arrondie",
+     "next": "p06-ramifies-epaisse"
+    }
+   ]
+  },
+  "p06-ramifies-grele": {
+   "page": 6,
+   "title": "Hyménophore lisse infère ou amphigène : ramifiées à base grêle",
+   "question": "Quelle est la couleur et le milieu ?",
+   "choices": [
+    {
+     "label": "Blanc, à terre",
+     "species": "clavulina-cristata",
+     "img": "p06-3"
+    },
+    {
+     "label": "Gris, à terre",
+     "species": "clavulina-cinerea",
+     "img": "p06-2"
+    },
+    {
+     "label": "Jaunâtre, sur bois, avec rhizomorphes",
+     "species": "ramaria-stricta"
+    },
+    {
+     "label": "Orangé vif, gélatineux, sur bois",
+     "species": "calocera-viscosa"
+    }
+   ]
+  },
+  "p06-ramifies-epaisse": {
+   "page": 6,
+   "title": "Hyménophore lisse infère ou amphigène : ramifiées à base épaissie",
+   "question": "De quelle couleur est la clavaire ?",
+   "choices": [
+    {
+     "label": "Rose à extrémités jaunes",
+     "species": "ramaria-formosa",
+     "img": "p06-4"
+    },
+    {
+     "label": "Blanche à la base, à rameaux roses",
+     "species": "ramaria-botrytis",
+     "img": "p06-5"
+    }
+   ]
+  },
+  "p06-entonnoirs": {
+   "page": 6,
+   "title": "Hyménophore lisse infère ou amphigène : entonnoirs",
+   "question": "Les plis sont-ils à peine marqués ou bien marqués ?",
+   "choices": [
+    {
+     "label": "Plis à peine marqués ou veines diffuses",
+     "hint": "couleurs ternes ou sombres (craterelles)",
+     "next": "p06-craterelles"
+    },
+    {
+     "label": "Plis bien marqués évoquant des lames",
+     "hint": "chanterelles",
+     "next": "p06-chanterelles"
+    }
+   ]
+  },
+  "p06-craterelles": {
+   "page": 6,
+   "title": "Hyménophore lisse infère ou amphigène : craterelles",
+   "question": "Quelle est la couleur et la hauteur du chapeau ?",
+   "choices": [
+    {
+     "label": "Chapeau gris-noir, hauteur supérieure à 5 cm",
+     "species": "craterellus-cornucopioides",
+     "img": "p06-6bis"
+    },
+    {
+     "label": "Chapeau gris pâle à blanchâtre, hauteur inférieure à 5 cm",
+     "species": "craterellus-sinuosus",
+     "img": "p06-a"
+    }
+   ]
+  },
+  "p06-chanterelles": {
+   "page": 6,
+   "title": "Hyménophore lisse infère ou amphigène : chanterelles",
+   "question": "Le pied est-il plein ou creux ?",
+   "choices": [
+    {
+     "label": "Pied plein, plis jaune orangé",
+     "species": "cantharellus-cibarius",
+     "img": "p06-7"
+    },
+    {
+     "label": "Pied creux, jaune, chapeau gris jaunâtre",
+     "species": "craterellus-tubaeformis"
+    }
+   ]
+  },
+  "p07": {
+   "page": 7,
+   "title": "Hyménophore lisse supère",
+   "question": "L'espèce est-elle gélatineuse ?",
+   "choices": [
+    {
+     "label": "Espèces non gélatineuses",
+     "next": "p07-non-gelatineuses"
+    },
+    {
+     "label": "Espèces gélatineuses",
+     "next": "p07-gelatineuses"
+    }
+   ]
+  },
+  "p07-non-gelatineuses": {
+   "page": 7,
+   "title": "Hyménophore lisse supère : non gélatineuses",
+   "question": "Quelle est la forme de l'hyménophore ?",
+   "choices": [
+    {
+     "label": "Hyménophore dirigé vers le haut",
+     "hint": "coupes avec ou sans pied",
+     "next": "p07-vers-le-haut"
+    },
+    {
+     "label": "Hyménophore plutôt latéral, en \"oreilles\"",
+     "next": "p07-oreilles"
+    },
+    {
+     "label": "En éponges (à alvéoles), au printemps",
+     "species": "morchella-spp",
+     "img": "p07-3",
+     "note": "À pied caverneux et odeur repoussante, penser à Phallus impudicus (satyre puant)."
+    },
+    {
+     "label": "Chapeau en selles, en lobes, plus ou moins tortueux",
+     "hint": "Helvelles",
+     "next": "p07-helvelles"
+    }
+   ]
+  },
+  "p07-vers-le-haut": {
+   "page": 7,
+   "title": "Hyménophore lisse supère : hyménophore dirigé vers le haut",
+   "question": "Le champignon a-t-il un pied et de quelle couleur est-il ?",
+   "choices": [
+    {
+     "label": "Sans pied, orangé vif",
+     "hint": "pézizes proprement dites",
+     "species": "aleuria-aurantia",
+     "img": "p07-2"
+    },
+    {
+     "label": "Sans pied, rouge vif, très petit, à marge poilue",
+     "species": "scutellinia-crinita"
+    },
+    {
+     "label": "Sans pied, brune ou jaune",
+     "hint": "nombreuses espèces",
+     "species": "peziza-spp"
+    },
+    {
+     "label": "Avec pied net, long",
+     "species": "helvella-macropus"
+    }
+   ]
+  },
+  "p07-oreilles": {
+   "page": 7,
+   "title": "Hyménophore lisse supère : en oreilles",
+   "question": "Quelle est la couleur et la hauteur ?",
+   "choices": [
+    {
+     "label": "Jaune doré, plus de 5 cm de haut",
+     "species": "otidea-onotica",
+     "img": "p07-1"
+    },
+    {
+     "label": "Brune à jaune terne, moins de 5 cm",
+     "species": "otidea-alutacea"
+    }
+   ]
+  },
+  "p07-helvelles": {
+   "page": 7,
+   "title": "Hyménophore lisse supère : helvelles",
+   "question": "Le pied est-il veiné ou lisse ?",
+   "choices": [
+    {
+     "label": "Pied veiné, blanc ou crème",
+     "species": "helvella-crispa",
+     "img": "p07-4"
+    },
+    {
+     "label": "Pied veiné, gris à noirâtre",
+     "species": "helvella-lacunosa"
+    },
+    {
+     "label": "Pied lisse",
+     "species": "helvella-elastica"
+    }
+   ]
+  },
+  "p07-gelatineuses": {
+   "page": 7,
+   "title": "Hyménophore lisse supère : gélatineuses",
+   "question": "Le champignon gélatineux est-il en bouton ou en cervelle ?",
+   "choices": [
+    {
+     "label": "En boutons ou toupies, noirâtre, salissant",
+     "species": "bulgaria-inquinans"
+    },
+    {
+     "label": "Autres espèces gélatineuses en boutons",
+     "hint": "voir Champignons gélatineux à hyménophore infère",
+     "next": "p05"
+    },
+    {
+     "label": "En \"cervelles\" (trémelles), sans pied, sur bois",
+     "species": "tremella-mesenterica"
+    },
+    {
+     "label": "En \"cervelles\" (trémelles), à pied, sur terre",
+     "species": "leotia-lubrica"
+    }
+   ]
+  },
+  "p08": {
+   "page": 8,
+   "title": "Hyménophore interne",
+   "question": "Quelle est la forme du champignon à hyménophore interne ?",
+   "choices": [
+    {
+     "label": "Sphériques",
+     "hint": "hyménium interne = gléba, d'abord pâle et ferme, devenant pulvérulent à maturité",
+     "next": "p08-spheriques"
+    },
+    {
+     "label": "En étoiles (géastres, \"étoiles de terre\")",
+     "next": "p08-geastres"
+    },
+    {
+     "label": "En nids (cupules avec des \"oeufs\" = péridioles), cyathes",
+     "next": "p08-cyathes"
+    }
+   ]
+  },
+  "p08-spheriques": {
+   "page": 8,
+   "title": "Hyménophore interne : sphériques",
+   "question": "L'enveloppe est-elle coriace, molle ou gélatineuse ?",
+   "choices": [
+    {
+     "label": "Coriaces",
+     "hint": "enveloppe épaisse, lisse ou écailleuse (sclérodermes)",
+     "next": "p08-sclerodermes"
+    },
+    {
+     "label": "Mous ou fragiles",
+     "hint": "enveloppe mince ; surface couverte de poussière, épines, verrues ; gléba cotonneuse puis pulvérulente (vesses-de-loup)",
+     "next": "p08-lycoperdons"
+    },
+    {
+     "label": "Avec couche gélatineuse sous la surface",
+     "hint": "odeur de radis",
+     "species": "phallus-impudicus",
+     "note": "Il s'agit des oeufs de Phallus impudicus (cf.)."
+    }
+   ]
+  },
+  "p08-sclerodermes": {
+   "page": 8,
+   "title": "Hyménophore interne : sclérodermes",
+   "question": "Quelle est la taille et le pied ?",
+   "choices": [
+    {
+     "label": "3 à 10 cm, grossièrement craquelé, sans pied",
+     "species": "scleroderma-citrinum",
+     "img": "p08-2"
+    },
+    {
+     "label": "1 à 4 cm, pied différencié à rhizomorphes nombreux",
+     "species": "scleroderma-verrucosum",
+     "img": "p08-1"
+    }
+   ]
+  },
+  "p08-lycoperdons": {
+   "page": 8,
+   "title": "Hyménophore interne : vesses-de-loup",
+   "question": "Le champignon a-t-il un pied distinct ?",
+   "choices": [
+    {
+     "label": "Pied distinct, en touffes sur bois, presque lisses, avec rhizomorphes",
+     "species": "lycoperdon-pyriforme",
+     "img": "p08-4"
+    },
+    {
+     "label": "Pied distinct, à terre, verrues coniques tombant facilement, surface blanche",
+     "species": "lycoperdon-perlatum",
+     "img": "p08-5"
+    },
+    {
+     "label": "Pied distinct, à terre, verrues coniques tombant facilement, surface brune",
+     "species": "lycoperdon-nigrescens"
+    },
+    {
+     "label": "Pied absent (sphérique), diamètre de 1 à 5 cm",
+     "species": "bovista-plumbea"
+    },
+    {
+     "label": "Pied absent (sphérique), diamètre de 10 à 60 cm",
+     "species": "langermannia-gigantea"
+    }
+   ]
+  },
+  "p08-geastres": {
+   "page": 8,
+   "title": "Hyménophore interne : géastres",
+   "question": "Y a-t-il une collerette sous la gléba ?",
+   "choices": [
+    {
+     "label": "Sans collerette sous la gléba, orifice non délimité",
+     "species": "geastrum-sessile",
+     "img": "p08-9"
+    },
+    {
+     "label": "Avec collerette sous la gléba, orifice délimité",
+     "species": "geastrum-triplex",
+     "img": "p08-8"
+    }
+   ]
+  },
+  "p08-cyathes": {
+   "page": 8,
+   "title": "Hyménophore interne : cyathes",
+   "question": "Comment est l'extérieur du nid ?",
+   "choices": [
+    {
+     "label": "Extérieur hirsute, brun",
+     "species": "cyathus-striatus",
+     "img": "p08-10"
+    },
+    {
+     "label": "Extérieur lisse, jaunâtre",
+     "species": "crucibulum-laeve"
+    }
+   ]
+  },
+  "p09": {
+   "page": 9,
+   "title": "Polypores",
+   "question": "Le polypore a-t-il un pied ?",
+   "choices": [
+    {
+     "label": "Stipités",
+     "hint": "à pied distinct ou issus d'une base unique nettement atténuée",
+     "next": "p09-stipites"
+    },
+    {
+     "label": "Dimidiés",
+     "hint": "chapeaux fixés latéralement par une large surface, sans pied",
+     "next": "p09-dimidies"
+    }
+   ]
+  },
+  "p09-stipites": {
+   "page": 9,
+   "title": "Polypores : stipités",
+   "question": "Le chapeau a-t-il un pied nettement distinct ?",
+   "choices": [
+    {
+     "label": "Chapeaux sans pied distinct, en pétales",
+     "next": "p09-petales"
+    },
+    {
+     "label": "Chapeaux circulaires ou semi-circulaires, à pied nettement distinct",
+     "next": "p09-pied-distinct"
+    }
+   ]
+  },
+  "p09-petales": {
+   "page": 9,
+   "title": "Polypores : en pétales",
+   "question": "Le chapeau noircit-il au toucher ?",
+   "choices": [
+    {
+     "label": "Chapeaux brun-jaune à roux, zonés concentriquement",
+     "hint": "noircissant au toucher et en séchant",
+     "species": "meripilus-giganteus"
+    },
+    {
+     "label": "Chapeau gris, sans noircissement au toucher",
+     "species": "grifola-frondosa"
+    }
+   ]
+  },
+  "p09-pied-distinct": {
+   "page": 9,
+   "title": "Polypores : à pied distinct",
+   "question": "Le pied est-il central ou latéral, ou excentrique ?",
+   "choices": [
+    {
+     "label": "Pied central ou latéral",
+     "hint": "genre Polyporus",
+     "next": "p09-polyporus"
+    },
+    {
+     "label": "Pied excentrique, coriace, vernissé, rouge purpurin",
+     "species": "ganoderma-lucidum",
+     "img": "p09-2"
+    }
+   ]
+  },
+  "p09-polyporus": {
+   "page": 9,
+   "title": "Polypores : genre Polyporus",
+   "question": "La surface du chapeau est-elle écailleuse ou lisse, et comment est le pied ?",
+   "choices": [
+    {
+     "label": "Chapeau écailleux, odeur de concombre, pied noir à la base",
+     "species": "polyporus-squamosus",
+     "img": "p09-1"
+    },
+    {
+     "label": "Chapeau écailleux, sans odeur, pied blanchâtre peu différencié",
+     "species": "polyporus-tuberaster"
+    },
+    {
+     "label": "Chapeau lisse, pied noir à la base",
+     "species": "polyporus-durus"
+    },
+    {
+     "label": "Chapeau lisse, pied non noir, souvent chiné",
+     "species": "polyporus-ciliatus"
+    }
+   ]
+  },
+  "p09-dimidies": {
+   "page": 9,
+   "title": "Polypores : dimidiés",
+   "question": "Quelle est la consistance et l'épaisseur ?",
+   "choices": [
+    {
+     "label": "A) Chair molle ou cassante, non fibreuse",
+     "next": "p09-molle"
+    },
+    {
+     "label": "B) Coriaces et minces",
+     "hint": "moins de 1 cm d'épaisseur à mi-rayon",
+     "next": "p09-minces"
+    },
+    {
+     "label": "C) Coriaces, spongieux, épaisseur moyenne (3 à 5 cm)",
+     "hint": "chapeau café-au-lait, lisse, pores blancs minuscules, sur bouleau",
+     "species": "piptoporus-betulinus"
+    },
+    {
+     "label": "D) Épaisses à chair dure",
+     "hint": "pores bruns au grattage",
+     "next": "p09-dures"
+    }
+   ]
+  },
+  "p09-molle": {
+   "page": 9,
+   "title": "Polypores : à chair molle",
+   "question": "De quelle couleur est le polypore ?",
+   "choices": [
+    {
+     "label": "Entièrement blanche",
+     "species": "postia-stiptica"
+    },
+    {
+     "label": "Blanche tachée de bleu",
+     "species": "postia-caesia"
+    },
+    {
+     "label": "Jaune à orangé, tubes jaune vif",
+     "species": "laetiporus-sulfureus"
+    }
+   ]
+  },
+  "p09-minces": {
+   "page": 9,
+   "title": "Polypores : coriaces et minces",
+   "question": "Les pores sont-ils ronds ou étirés radialement ?",
+   "choices": [
+    {
+     "label": "Pores ronds",
+     "next": "p09-pores-ronds"
+    },
+    {
+     "label": "Pores en partie étirés radialement",
+     "next": "p09-pores-etires"
+    }
+   ]
+  },
+  "p09-pores-ronds": {
+   "page": 9,
+   "title": "Polypores : pores ronds",
+   "question": "Comment est la surface supérieure ?",
+   "choices": [
+    {
+     "label": "Surface supérieure veloutée, à zones colorées",
+     "species": "trametes-versicolor",
+     "img": "p09-3"
+    },
+    {
+     "label": "Surface supérieure franchement poilue, blanche",
+     "species": "trametes-hirsuta"
+    },
+    {
+     "label": "Surface supérieure brune non zonée, irrégulièrement bosselée, à marge blanche",
+     "species": "heterobasidion-annosum"
+    }
+   ]
+  },
+  "p09-pores-etires": {
+   "page": 9,
+   "title": "Polypores : pores étirés",
+   "question": "Les pores rougissent-ils au grattage ?",
+   "choices": [
+    {
+     "label": "Pores blancs non rougissants",
+     "species": "trametes-gibbosa"
+    },
+    {
+     "label": "Pores rougissants au grattage",
+     "species": "daedaleopsis-confragosa",
+     "img": "p09-4"
+    }
+   ]
+  },
+  "p09-dures": {
+   "page": 9,
+   "title": "Polypores : à chair dure",
+   "question": "Quelle est la forme du chapeau ?",
+   "choices": [
+    {
+     "label": "Forme de sabot à marge obtuse, blanc à gris-noir",
+     "species": "fomes-fomentarius",
+     "img": "p09-5"
+    },
+    {
+     "label": "Chapeaux plus minces, couleur chocolat à marge blanche",
+     "species": "ganoderma-applanatum"
+    }
+   ]
+  },
+  "p10": {
+   "page": 10,
+   "title": "Bolets",
+   "question": "Comment est le pied du bolet ?",
+   "choices": [
+    {
+     "label": "Pied « raboteux », couvert de petites écailles",
+     "hint": "souvent cylindrique ; pores blancs, jaunes ou gris, à insertion profondément échancrée : genre Leccinum (comestibles médiocres)",
+     "next": "p10-leccinum",
+     "img": "p10-1"
+    },
+    {
+     "label": "Pied sans écailles : lisse, guttulé ou réticulé",
+     "next": "p10-pied-lisse",
+     "img": "p10-2"
+    }
+   ]
+  },
+  "p10-leccinum": {
+   "page": 10,
+   "title": "Bolets : pied raboteux (Leccinum)",
+   "question": "De quelle couleur sont les pores ?",
+   "choices": [
+    {
+     "label": "Pores jaunes",
+     "species": "leccinum-crocopodium"
+    },
+    {
+     "label": "Pores blancs à gris",
+     "next": "p10-leccinum-gris"
+    }
+   ]
+  },
+  "p10-leccinum-gris": {
+   "page": 10,
+   "title": "Bolets : pied raboteux, pores blancs à gris",
+   "question": "Quelle est la couleur dominante du chapeau ?",
+   "choices": [
+    {
+     "label": "Chapeau de couleur dominante brune ou grise",
+     "next": "p10-leccinum-brun"
+    },
+    {
+     "label": "Chapeau de couleur orangée ou fauve",
+     "species": "leccinum-aurantiacum"
+    }
+   ]
+  },
+  "p10-leccinum-brun": {
+   "page": 10,
+   "title": "Bolets : Leccinum à chapeau brun ou gris",
+   "question": "Quel est l'aspect du chapeau et de la chair ?",
+   "choices": [
+    {
+     "label": "Chapeau lisse ; chair restant blanche au grattage",
+     "species": "leccinum-scabrum",
+     "img": "p10-1"
+    },
+    {
+     "label": "Chapeau bosselé ou craquelé, chair noircissante",
+     "species": "leccinum-carpini"
+    }
+   ]
+  },
+  "p10-pied-lisse": {
+   "page": 10,
+   "title": "Bolets : pied sans écailles",
+   "question": "Le chapeau est-il visqueux ou collant ?",
+   "choices": [
+    {
+     "label": "Chapeau visqueux ou collant",
+     "hint": "jamais de réseau sur le pied ; genre Suillus et ressemblants",
+     "next": "p10-suillus",
+     "img": "p10-4"
+    },
+    {
+     "label": "Chapeau sec ou seulement gras",
+     "next": "p10-chapeau-sec"
+    }
+   ]
+  },
+  "p10-suillus": {
+   "page": 10,
+   "title": "Bolets visqueux (Suillus et ressemblants)",
+   "question": "Y a-t-il un anneau sur le pied ?",
+   "choices": [
+    {
+     "label": "Présence d'un anneau",
+     "hint": "parfois lambeaux accrochés à la marge du chapeau",
+     "next": "p10-suillus-anneau"
+    },
+    {
+     "label": "Pas d'anneau",
+     "next": "p10-suillus-sans"
+    }
+   ]
+  },
+  "p10-suillus-anneau": {
+   "page": 10,
+   "title": "Bolets visqueux avec anneau",
+   "question": "Quelle est la couleur du chapeau et sous quels arbres pousse-t-il ?",
+   "choices": [
+    {
+     "label": "Chapeau brun châtain ; sous pins",
+     "species": "suillus-luteus",
+     "img": "p10-3"
+    },
+    {
+     "label": "Chapeau jaune ou orangé ; sous mélèzes",
+     "species": "suillus-grevillei"
+    }
+   ]
+  },
+  "p10-suillus-sans": {
+   "page": 10,
+   "title": "Bolets visqueux sans anneau",
+   "question": "Le pied est-il ponctué de granulations ?",
+   "choices": [
+    {
+     "label": "Pied ponctué de granulations ; chapeau roux orangé",
+     "species": "suillus-granulatus",
+     "img": "p10-4"
+    },
+    {
+     "label": "Pied lisse",
+     "next": "p10-pied-uni"
+    }
+   ]
+  },
+  "p10-pied-uni": {
+   "page": 10,
+   "title": "Bolets visqueux, pied lisse",
+   "question": "La chair est-elle jaune vif à la base du pied ?",
+   "choices": [
+    {
+     "label": "Chair jaune vif à la base du pied",
+     "species": "chalciporus-piperatus"
+    },
+    {
+     "label": "Chair non spécialement jaune à la base",
+     "next": "p10-pores"
+    }
+   ]
+  },
+  "p10-pores": {
+   "page": 10,
+   "title": "Bolets visqueux, chair non jaune à la base",
+   "question": "Les pores sont-ils décurrents ?",
+   "choices": [
+    {
+     "label": "Pores très décurrents, bleuissants",
+     "species": "gyrodon-lividus",
+     "img": "p10-6"
+    },
+    {
+     "label": "Pores non ou à peine décurrents",
+     "next": "p10-pied-aspect"
+    }
+   ]
+  },
+  "p10-pied-aspect": {
+   "page": 10,
+   "title": "Bolets visqueux, pores non décurrents",
+   "question": "Quel est l'aspect du pied ?",
+   "choices": [
+    {
+     "label": "Pied rayé de brun (aspect de bois poli)",
+     "species": "imleria-badia"
+    },
+    {
+     "label": "Pied jaunâtre comme le chapeau, uni",
+     "species": "suillus-bovinus"
+    }
+   ]
+  },
+  "p10-chapeau-sec": {
+   "page": 10,
+   "title": "Bolets : chapeau sec ou seulement gras",
+   "question": "Le chapeau est-il couvert d'écailles ?",
+   "choices": [
+    {
+     "label": "Chapeau couvert d'écailles remarquables, bistre-noirâtre",
+     "hint": "pores anguleux grisâtres",
+     "species": "strobilomyces-strobilaceus",
+     "img": "p10-5"
+    },
+    {
+     "label": "Chapeau non écailleux",
+     "hint": "page suivante",
+     "next": "p11-bleuissement"
+    }
+   ]
+  },
+  "p11-bleuissement": {
+   "page": 11,
+   "title": "Bolets : chapeau non écailleux",
+   "question": "Les pores bleuissent-ils au toucher ?",
+   "choices": [
+    {
+     "label": "Pores non bleuissants au toucher",
+     "next": "p11-non-bleuissants"
+    },
+    {
+     "label": "Pores bleuissants au toucher",
+     "next": "p11-bleuissants"
+    }
+   ]
+  },
+  "p11-non-bleuissants": {
+   "page": 11,
+   "title": "Bolets : pores non bleuissants",
+   "question": "Quels sont les pores et le pied ?",
+   "choices": [
+    {
+     "label": "Pores blancs ou verdâtres ; pied à réseau blanc",
+     "species": "boletus-edulis",
+     "img": "p11-4"
+    },
+    {
+     "label": "Pores blancs ou roses ; pied à réseau brun ; saveur amère",
+     "hint": "inconsommable !",
+     "species": "tylopilus-felleus",
+     "img": "p11-7"
+    },
+    {
+     "label": "Pores blancs brunissants au toucher ; pied lisse creux",
+     "species": "gyroporus-castaneus"
+    },
+    {
+     "label": "Pores jaune vif ou verdâtres, terminés en filet sur le pied ; pied sans réseau",
+     "next": "p11-jaune-filet"
+    }
+   ]
+  },
+  "p11-jaune-filet": {
+   "page": 11,
+   "title": "Bolets : pores jaunes terminés en filet",
+   "question": "Où pousse-t-il ?",
+   "choices": [
+    {
+     "label": "À terre, à chapeau velouté ou craquelé",
+     "next": "p11-a-terre"
+    },
+    {
+     "label": "Parasite sur scléroderme, chapeau lisse",
+     "species": "pseudoboletus-parasiticus"
+    }
+   ]
+  },
+  "p11-a-terre": {
+   "page": 11,
+   "title": "Bolets : à terre, chapeau velouté ou craquelé",
+   "question": "Quel est l'aspect du pied ?",
+   "choices": [
+    {
+     "label": "Pied rayé de rouge",
+     "species": "xerocomellus-chrysenteron",
+     "img": "p11-1"
+    },
+    {
+     "label": "Pied jaunâtre",
+     "species": "xerocomus-subtomentosus"
+    }
+   ]
+  },
+  "p11-bleuissants": {
+   "page": 11,
+   "title": "Bolets : pores bleuissants au toucher",
+   "question": "De quelle couleur sont les pores ?",
+   "choices": [
+    {
+     "label": "Pores jaunes (puis verts avec l'âge)",
+     "next": "p11-pores-jaunes"
+    },
+    {
+     "label": "Pores rouges à orangés",
+     "next": "p11-pores-rouges"
+    },
+    {
+     "label": "Pores blancs, très petits, bleuissants ; pied creux",
+     "species": "gyroporus-cyanescens"
+    },
+    {
+     "label": "Pores gris verdâtre ; chapeau méchuleux",
+     "species": "suillus-variegatus"
+    },
+    {
+     "label": "Pores à tubes décurrents",
+     "species": "gyrodon-lividus",
+     "img": "p10-6",
+     "note": "NB du livret : voir Gyrodon lividus p. 10 (6)"
+    }
+   ]
+  },
+  "p11-pores-jaunes": {
+   "page": 11,
+   "title": "Bolets : pores jaunes bleuissants",
+   "question": "Le pied est-il robuste ou grêle ?",
+   "choices": [
+    {
+     "label": "Pied robuste, > 1,5 cm de diamètre au sommet",
+     "next": "p11-robuste"
+    },
+    {
+     "label": "Pied grêle, < 1,5 cm au sommet",
+     "next": "p11-grele"
+    }
+   ]
+  },
+  "p11-robuste": {
+   "page": 11,
+   "title": "Bolets : pores jaunes, pied robuste",
+   "question": "Quels sont la couleur du chapeau et le réseau du pied ?",
+   "choices": [
+    {
+     "label": "Chapeau blanc ou gris, pied à réseau net sur fond rouge, chair très amère",
+     "species": "boletus-calopus"
+    },
+    {
+     "label": "Chapeau gris de plomb, pied à réseau discret sur fond jaune, chair douce",
+     "species": "boletus-appendiculatus"
+    }
+   ]
+  },
+  "p11-grele": {
+   "page": 11,
+   "title": "Bolets : pores jaunes, pied grêle",
+   "question": "Le chapeau est-il craquelé ?",
+   "choices": [
+    {
+     "label": "Chapeau craquelé ; pied teinté de rouge, non renflé",
+     "species": "xerocomellus-chrysenteron",
+     "img": "p11-1"
+    },
+    {
+     "label": "Chapeau non craquelé, pied teinté de rouge, renflé à la base",
+     "next": "p11-grele-renfle"
+    },
+    {
+     "label": "Chapeau non craquelé, pied brun veiné",
+     "species": "imleria-badia"
+    }
+   ]
+  },
+  "p11-grele-renfle": {
+   "page": 11,
+   "title": "Bolets : pied grêle teinté de rouge, renflé à la base",
+   "question": "Le chapeau est-il rouge en surface ?",
+   "choices": [
+    {
+     "label": "Chapeau sans rouge en surface",
+     "species": "xerocomellus-pruinatus"
+    },
+    {
+     "label": "Chapeau rouge, au moins sur le bord",
+     "species": "hortiboletus-rubellus"
+    }
+   ]
+  },
+  "p11-pores-rouges": {
+   "page": 11,
+   "title": "Bolets : pores rouges à orangés",
+   "question": "Quels sont la couleur du chapeau et l'aspect du pied ?",
+   "choices": [
+    {
+     "label": "Chapeau brun, pied sans réseau mais à fines ponctuations rouges",
+     "species": "neoboletus-erythropus",
+     "img": "p11-5"
+    },
+    {
+     "label": "Chapeau brun jaunâtre à verdâtre, pied à réseau",
+     "species": "suillellus-luridus"
+    },
+    {
+     "label": "Chapeau blanc mastic, pied à réseau",
+     "species": "rubroboletus-satanas",
+     "img": "p11-6"
+    }
+   ]
+  },
+  "p12": {
+   "page": 12,
+   "title": "Lames décurrentes, sans voiles (chapeau en forme d'entonnoir)",
+   "question": "Quelle est la couleur des spores ?",
+   "choices": [
+    {
+     "label": "Spores blanches",
+     "next": "p12-blanches"
+    },
+    {
+     "label": "Spores roses, brunes ou noires",
+     "hint": "voir page suivante",
+     "next": "p13-sporees"
+    },
+    {
+     "label": "Pied excentrique ou latéral",
+     "hint": "espèces « pleurotoïdes »",
+     "next": "p20",
+     "note": "NB du livret : penser aux espèces « pleurotoïdes » p. 20"
+    }
+   ]
+  },
+  "p12-blanches": {
+   "page": 12,
+   "title": "Lames décurrentes, spores blanches",
+   "question": "Comment sont les lames ?",
+   "choices": [
+    {
+     "label": "Lames fourchues, fines, sans lamellules (couleur orangée de girolle)",
+     "species": "hygrophoropsis-aurantiaca",
+     "img": "p12-1"
+    },
+    {
+     "label": "Lames épaisses, particulièrement espacées",
+     "next": "p12-epaisses"
+    },
+    {
+     "label": "Lames fines, normalement serrées ; chair fibreuse",
+     "next": "p12-fines"
+    },
+    {
+     "label": "Forme accidentellement décurrente d'une espèce collybioïde",
+     "next": "p21",
+     "note": "Le livret conseille d'y penser aussi (voir p. 21)"
+    }
+   ]
+  },
+  "p12-epaisses": {
+   "page": 12,
+   "title": "Lames épaisses et espacées",
+   "question": "Quelle est la consistance de la chair ?",
+   "choices": [
+    {
+     "label": "Chair à consistance aqueuse : hygrophores",
+     "hint": "voir p. 34",
+     "next": "p34"
+    },
+    {
+     "label": "Chair très fibreuse : Laccaria",
+     "hint": "voir Laccaria, p. 21",
+     "next": "p21"
+    }
+   ]
+  },
+  "p12-fines": {
+   "page": 12,
+   "title": "Lames fines et serrées, chair fibreuse",
+   "question": "Quelle est la taille de l'espèce ?",
+   "choices": [
+    {
+     "label": "Espèces petites et grêles (pied de 2-3 mm de diamètre), fragiles : omphales",
+     "hint": "entièrement orangé, dans les mousses",
+     "species": "rickenella-fibula"
+    },
+    {
+     "label": "Espèces robustes ou moyennes, > 3 mm de diamètre, plus ou moins élastiques ou résistantes : clitocybes",
+     "next": "p12-clitocybes"
+    }
+   ]
+  },
+  "p12-clitocybes": {
+   "page": 12,
+   "title": "Clitocybes (genre Clitocybe)",
+   "question": "Le chapeau est-il en entonnoir très creusé ?",
+   "choices": [
+    {
+     "label": "Chapeau en entonnoir très creusé",
+     "next": "p12-entonnoir"
+    },
+    {
+     "label": "Charnu, non en entonnoir",
+     "next": "p12-charnu"
+    }
+   ]
+  },
+  "p12-entonnoir": {
+   "page": 12,
+   "title": "Clitocybes : chapeau en entonnoir très creusé",
+   "question": "Quels sont la couleur, le pied et la chair ?",
+   "choices": [
+    {
+     "label": "Couleur jaune paille à jaune orangé ; pied plus court que le diamètre du chapeau ; chair élastique dans le chapeau",
+     "species": "lepista-inversa",
+     "img": "p12-2"
+    },
+    {
+     "label": "Couleur pâle, blanche à café au lait ; pied plus long que le diamètre du chapeau ; chair molle, mamelon fréquent au centre du chapeau",
+     "species": "clitocybe-gibba",
+     "img": "p12-3"
+    },
+    {
+     "label": "À centre et base du pied gris-noir",
+     "hint": "clitocybe d'hiver",
+     "species": "clitocybe-decembris",
+     "note": "Variante de C. gibba, voir C. decembris"
+    },
+    {
+     "label": "Chapeau blanc moucheté de gris, sur bois ; pied très coriace",
+     "hint": "voir p. 19",
+     "species": "lentinus-tigrinus"
+    }
+   ]
+  },
+  "p12-charnu": {
+   "page": 12,
+   "title": "Clitocybes : charnus, non en entonnoir",
+   "question": "De quelle couleur est le chapeau ?",
+   "choices": [
+    {
+     "label": "Chapeau gris",
+     "next": "p12-gris"
+    },
+    {
+     "label": "Chapeau bleu-vert, forte odeur d'anis",
+     "species": "clitocybe-odora"
+    },
+    {
+     "label": "Chapeau blanc",
+     "species": "clitocybe-phyllophila",
+     "img": "p12-5",
+     "note": "Si chapeau mamelonné beige, voir jeunes spécimens de C. gibba, à lames très décurrentes (3)"
+    }
+   ]
+  },
+  "p12-gris": {
+   "page": 12,
+   "title": "Clitocybes à chapeau gris",
+   "question": "Le chapeau et le pied sont-ils fermes ou mous ?",
+   "choices": [
+    {
+     "label": "Centre du chapeau et pied fermes au toucher",
+     "species": "clitocybe-nebularis"
+    },
+    {
+     "label": "Chapeau et pied mous, cotonneux",
+     "species": "clitocybe-clavipes",
+     "img": "p12-4"
+    }
+   ]
+  },
+  "p13-sporees": {
+   "page": 13,
+   "title": "Lames décurrentes : spores roses ou sombres",
+   "question": "Quelle est la couleur des spores ?",
+   "choices": [
+    {
+     "label": "Spores roses",
+     "next": "p13-roses"
+    },
+    {
+     "label": "Spores ocre, brun foncé ou noires",
+     "next": "p13-sombres"
+    }
+   ]
+  },
+  "p13-roses": {
+   "page": 13,
+   "title": "Lames décurrentes, spores roses",
+   "question": "Quel est l'aspect de l'espèce ?",
+   "choices": [
+    {
+     "label": "Espèce blanche ou gris pâle, à chair blanche épaisse mais très fragile, forte odeur de farine : genre Clitopilus",
+     "hint": "une seule espèce courante",
+     "species": "clitopilus-prunulus",
+     "img": "p13-1",
+     "note": "Ne pas confondre avec les clitocybes blancs (p. 12)"
+    },
+    {
+     "label": "Chapeau gris-brun, à chair très mince",
+     "next": "p13-entolomes"
+    }
+   ]
+  },
+  "p13-entolomes": {
+   "page": 13,
+   "title": "Spores roses : chapeau gris-brun, chair très mince",
+   "question": "Le chapeau est-il strié ?",
+   "choices": [
+    {
+     "label": "Chapeau non strié ; pied < 3 mm de diamètre",
+     "species": "entoloma-undatum"
+    },
+    {
+     "label": "Chapeau strié ; pied > 3 mm de diamètre",
+     "hint": "et espèces voisines (voir bas de la p. 24)",
+     "species": "entoloma-rhodopolium"
+    }
+   ]
+  },
+  "p13-sombres": {
+   "page": 13,
+   "title": "Lames décurrentes, spores ocre, brun foncé ou noires",
+   "question": "Les lames sont-elles molles et déliquescentes ?",
+   "choices": [
+    {
+     "label": "Lames serrées, molles, se liquéfiant et brunissant au toucher ; chapeau brun-jaune à châtain",
+     "species": "paxillus-involutus",
+     "img": "p13-2"
+    },
+    {
+     "label": "Lames épaisses, non déliquescentes (gomphides)",
+     "hint": "ces espèces présentent une cortine, mais parfois à peine visible",
+     "next": "p13-gomphides"
+    }
+   ]
+  },
+  "p13-gomphides": {
+   "page": 13,
+   "title": "Gomphides",
+   "question": "De quelle couleur est la chair ?",
+   "choices": [
+    {
+     "label": "Chair brun-jaune",
+     "species": "chroogomphus-rutilus",
+     "img": "p13-3"
+    },
+    {
+     "label": "Chair blanche, ou jaune citrin à la base du pied",
+     "next": "p13-gomphidius"
+    }
+   ]
+  },
+  "p13-gomphidius": {
+   "page": 13,
+   "title": "Gomphides à chair blanche",
+   "question": "Quels sont la couleur du chapeau et l'état du pied ?",
+   "choices": [
+    {
+     "label": "Chapeau gris ; pied visqueux",
+     "species": "gomphidius-glutinosus"
+    },
+    {
+     "label": "Chapeau rose bonbon ; pied sec",
+     "species": "gomphidius-roseus"
+    }
+   ]
+  },
+  "p14": {
+   "page": 14,
+   "title": "Voile général présent, pas de voile partiel",
+   "question": "Quelle est la couleur de la sporée ?",
+   "intro": "Voile général présent, pas de voile partiel.",
+   "choices": [
+    {
+     "label": "Spores blanches : espèces sans anneau du genre Amanita (Amanites vaginées)",
+     "hint": "lames libres, chapeau strié, volve en sac ; comestibles cuits, toxiques crus",
+     "next": "p14-amanites",
+     "img": "p14-1"
+    },
+    {
+     "label": "Spores roses : genre Volvariella (volvaires)",
+     "hint": "lames libres, volve en sac ; chapeau visqueux, blanc, beige pâle ou gris",
+     "species": "volvopluteus-gloiocephalus",
+     "img": "p14-a"
+    },
+    {
+     "label": "Spores brunes ou noires",
+     "hint": "aucune espèce à volve ! Certains Agaricus (sporée noire) ont un anneau assez bas pour être pris pour une volve",
+     "next": "p36",
+     "note": "voir p. 36"
+    }
+   ]
+  },
+  "p14-amanites": {
+   "page": 14,
+   "title": "Amanites vaginées : chapeau strié ou non",
+   "question": "Le chapeau est-il strié ?",
+   "intro": "Espèces sans anneau, lames libres, volve en sac.",
+   "choices": [
+    {
+     "label": "Chapeau strié",
+     "next": "p14-amanites-striees"
+    },
+    {
+     "label": "Chapeau non strié",
+     "hint": "attention aux autres amanites ayant pu perdre leur anneau !",
+     "next": "p32"
+    }
+   ]
+  },
+  "p14-amanites-striees": {
+   "page": 14,
+   "title": "Amanites vaginées : couleur du chapeau",
+   "question": "Quelle est la couleur du chapeau ?",
+   "choices": [
+    {
+     "label": "Chapeau jaune, roux, orangé, fauve",
+     "next": "p14-amanites-jaunes"
+    },
+    {
+     "label": "Chapeau gris de plomb",
+     "species": "amanita-vaginata",
+     "img": "p14-1"
+    },
+    {
+     "label": "Chapeau beige clair",
+     "species": "amanita-lividopallescens"
+    }
+   ]
+  },
+  "p14-amanites-jaunes": {
+   "page": 14,
+   "title": "Amanites vaginées jaunes ou fauves : volve",
+   "question": "Comment est la volve et l'espèce ?",
+   "choices": [
+    {
+     "label": "Espèce grêle, volve blanche tachée de roux",
+     "species": "amanita-fulva"
+    },
+    {
+     "label": "Espèce plus charnue, volve blanche unie",
+     "species": "amanita-crocea"
+    }
+   ]
+  },
+  "p15": {
+   "page": 15,
+   "title": "Pied muni d'un anneau ou d'une armille, sans voile général",
+   "question": "Le champignon pousse-t-il en touffes ou isolé ?",
+   "intro": "Pas de voile général. Pied muni d'un anneau ou d'une armille.",
+   "choices": [
+    {
+     "label": "En touffes",
+     "hint": "3 spécimens ou plus issus d'une même base",
+     "next": "p15-touffes"
+    },
+    {
+     "label": "Espèces isolées",
+     "next": "p16-isoles"
+    }
+   ]
+  },
+  "p15-touffes": {
+   "page": 15,
+   "title": "En touffes : sporée",
+   "question": "Quelle est la couleur de la sporée ?",
+   "choices": [
+    {
+     "label": "Spores blanches",
+     "next": "p15-t-blanches"
+    },
+    {
+     "label": "Spores brunes (lames jaunes à brun-rouille) : pholiotes",
+     "next": "p15-t-brunes"
+    },
+    {
+     "label": "Spores violacées à noires (lames vertes, grises à noires)",
+     "next": "p15-t-noires"
+    }
+   ]
+  },
+  "p15-t-blanches": {
+   "page": 15,
+   "title": "En touffes, spores blanches",
+   "question": "Comment est le chapeau ?",
+   "choices": [
+    {
+     "label": "Chapeau jaune brunâtre à rougeâtre, centre parsemé de petites mèches grises",
+     "species": "armillaria-mellea",
+     "img": "p15-1"
+    },
+    {
+     "label": "Chapeau blanc, lisse, visqueux (sur hêtre)",
+     "species": "oudemansiella-mucida",
+     "img": "p15-2"
+    }
+   ]
+  },
+  "p15-t-brunes": {
+   "page": 15,
+   "title": "En touffes, spores brunes : pholiotes",
+   "question": "Le chapeau est-il écailleux ou lisse ?",
+   "choices": [
+    {
+     "label": "Chapeau écailleux",
+     "hint": "espèces moyennes ± jaune-fauve",
+     "next": "p15-t-ecailleux"
+    },
+    {
+     "label": "Chapeau lisse ou fibrilleux",
+     "next": "p15-t-lisse"
+    }
+   ]
+  },
+  "p15-t-ecailleux": {
+   "page": 15,
+   "title": "En touffes, pholiotes à chapeau écailleux",
+   "question": "Le chapeau est-il sec ou visqueux ?",
+   "choices": [
+    {
+     "label": "Chapeau sec",
+     "species": "pholiota-squarrosa",
+     "img": "p15-3"
+    },
+    {
+     "label": "Chapeau visqueux ou lubrifié",
+     "species": "pholiota-aurivella",
+     "img": "p15-4"
+    }
+   ]
+  },
+  "p15-t-lisse": {
+   "page": 15,
+   "title": "En touffes, pholiotes à chapeau lisse ou fibrilleux",
+   "question": "Quelle est la taille et l'aspect de l'espèce ?",
+   "choices": [
+    {
+     "label": "Grosse espèce (8 - 25 cm) entièrement jaune-fauve",
+     "species": "gymnopilus-spectabilis",
+     "img": "p15-5"
+    },
+    {
+     "label": "Petite espèce (2-5 cm)",
+     "hint": "chapeau lisse, hygrophane, brun fauve humide, jaunâtre sec ; pied pelucheux sous l'anneau (armille)",
+     "species": "kuehneromyces-mutabilis",
+     "img": "p15-6",
+     "note": "Attention : ne pas confondre avec Galerina marginata (rarement en touffe), espèce mortelle."
+    },
+    {
+     "label": "Espèce moyenne (4-10 cm), sans jaune",
+     "hint": "chapeau lisse, ridé ou craquelé ; pied lisse sous l'anneau ; couleurs ternes ou pâles ; odeur de vieux tonneau",
+     "species": "cyclocybe-cylindracea"
+    }
+   ]
+  },
+  "p15-t-noires": {
+   "page": 15,
+   "title": "En touffes, spores violacées à noires",
+   "question": "Comment est le chapeau ?",
+   "choices": [
+    {
+     "label": "Chapeau sec, jaunâtre, à écailles ou fibrilles",
+     "species": "lacrymaria-lacrymabunda"
+    },
+    {
+     "label": "Chapeau lisse, jaune ou orangé",
+     "species": "hypholoma-fasciculare"
+    }
+   ]
+  },
+  "p16-isoles": {
+   "page": 16,
+   "title": "Espèces isolées : sporée",
+   "question": "Quelle est la couleur de la sporée ?",
+   "choices": [
+    {
+     "label": "Spores blanches",
+     "next": "p16-blanches"
+    },
+    {
+     "label": "Spores roses",
+     "hint": "aucune espèce annelée ou armillée",
+     "next": "p16-roses"
+    },
+    {
+     "label": "Spores ocres à brunes",
+     "next": "p16-ocres"
+    },
+    {
+     "label": "Spores noires ou violacées",
+     "next": "p16-noires"
+    }
+   ]
+  },
+  "p16-blanches": {
+   "page": 16,
+   "title": "Isolées, spores blanches",
+   "question": "Quelles sont les lames et le chapeau ?",
+   "choices": [
+    {
+     "label": "Lames libres, chapeau écailleux : lépiotes",
+     "hint": "à chapeau cylindrique, penser à Coprinus comatus à l'état jeune (dessin 2)",
+     "next": "p35",
+     "img": "p16-2"
+    },
+    {
+     "label": "Lames adnées-échancrées, chapeau granuleux jaune ou orangé, voile en armille (flocons sur le pied)",
+     "species": "cystoderma-amianthinum"
+    },
+    {
+     "label": "Lames adnées-échancrées, chapeau écailleux blanc ou gris",
+     "species": "tricholoma-cingulatum"
+    },
+    {
+     "label": "Lames subdécurrentes, chapeau brun jaunâtre à petites mèches jaunes ou grises",
+     "hint": "isolés ou en petites touffes",
+     "species": "armillaria-gallica"
+    }
+   ]
+  },
+  "p16-roses": {
+   "page": 16,
+   "title": "Isolées, spores roses",
+   "question": "Les lames sont-elles roses et libres ?",
+   "intro": "Aucune espèce annelée ou armillée à spores roses.",
+   "choices": [
+    {
+     "label": "Lames roses libres : jeunes Agarics n'ayant pas encore sporulé",
+     "next": "p36",
+     "note": "voir p. 36"
+    },
+    {
+     "label": "Lépiotes du groupe Leucoagaricus leucothites",
+     "hint": "sporée blanche mais lames roses",
+     "next": "p35",
+     "note": "voir p. 35"
+    }
+   ]
+  },
+  "p16-ocres": {
+   "page": 16,
+   "title": "Isolées, spores ocres à brunes",
+   "question": "De quel type d'espèce s'agit-il ?",
+   "choices": [
+    {
+     "label": "Espèces charnues, à chapeau non strié",
+     "next": "p16-ocres-charnues"
+    },
+    {
+     "label": "Petites espèces à chapeau strié hygrophane, lignicoles",
+     "hint": "voir p. 15 fig. 6 et 7",
+     "next": "p16-ocres-petites"
+    },
+    {
+     "label": "Cortinaires dont le pied est muni d'un anneau sous la cortine",
+     "hint": "Cortinarius hinnuleus par exemple",
+     "next": "p37",
+     "note": "voir Cortinaires, p. 37"
+    }
+   ]
+  },
+  "p16-ocres-charnues": {
+   "page": 16,
+   "title": "Isolées, spores ocres à brunes : espèces charnues",
+   "question": "Où pousse-t-il et quels sont ses caractères ?",
+   "choices": [
+    {
+     "label": "Sur bois, entièrement jaune doré",
+     "species": "gymnopilus-spectabilis"
+    },
+    {
+     "label": "À terre, lames beige clair d'aspect fripé",
+     "species": "rozites-caperatus"
+    },
+    {
+     "label": "Sur composts, chapeau ridé, pied à rhizomorphes blancs",
+     "species": "agrocybe-rivulosa"
+    },
+    {
+     "label": "À long pied radicant, forte odeur d'amandes amères",
+     "species": "hebeloma-radicosum"
+    }
+   ]
+  },
+  "p16-ocres-petites": {
+   "page": 16,
+   "title": "Isolées, petites espèces à chapeau strié hygrophane",
+   "question": "Quelle espèce ?",
+   "intro": "Le livret cite les deux espèces sans critère distinctif ; voir les figures 6 et 7 de la p. 15.",
+   "choices": [
+    {
+     "label": "Galerina marginata (mortel)",
+     "hint": "voir p. 15 fig. 7",
+     "species": "galerina-marginata",
+     "img": "p15-7",
+     "note": "Ne pas confondre avec Kuehneromyces mutabilis."
+    },
+    {
+     "label": "Kuehneromyces mutabilis (pholiote changeante)",
+     "hint": "voir p. 15 fig. 6",
+     "species": "kuehneromyces-mutabilis",
+     "img": "p15-6",
+     "note": "Ne pas confondre avec Galerina marginata, mortelle."
+    }
+   ]
+  },
+  "p16-noires": {
+   "page": 16,
+   "title": "Isolées, spores noires ou violacées",
+   "question": "Les lames sont-elles libres et le pied séparable du chapeau ?",
+   "choices": [
+    {
+     "label": "Lames libres, pied facilement déboîtable du chapeau",
+     "next": "p16-noires-libres"
+    },
+    {
+     "label": "Lames non libres, pied non séparable",
+     "next": "p16-stropharia"
+    }
+   ]
+  },
+  "p16-noires-libres": {
+   "page": 16,
+   "title": "Lames libres, pied déboîtable",
+   "question": "Quel est le chapeau ?",
+   "choices": [
+    {
+     "label": "Chapeau blanc ou gris, chair du pied jaunissant ou rougissant, lames roses au début : Agarics",
+     "next": "p36",
+     "note": "genre Agaricus, page 36"
+    },
+    {
+     "label": "Chapeau parabolique ou cylindrique, déliquescent à maturité : coprins",
+     "next": "p16-coprins"
+    }
+   ]
+  },
+  "p16-coprins": {
+   "page": 16,
+   "title": "Coprins",
+   "question": "Comment est le chapeau ?",
+   "choices": [
+    {
+     "label": "Chapeau blanc méchuleux",
+     "species": "coprinus-comatus",
+     "img": "p16-2"
+    },
+    {
+     "label": "Chapeau gris ridé-strié",
+     "species": "coprinus-atramentarius"
+    }
+   ]
+  },
+  "p16-stropharia": {
+   "page": 16,
+   "title": "Lames non libres : genre Stropharia",
+   "question": "Quelle est la couleur du chapeau ?",
+   "intro": "Chapeau ± coloré, convexe, souvent visqueux, lames à reflets pourpres ou violacés : genre Stropharia.",
+   "choices": [
+    {
+     "label": "Couleur vert de gris",
+     "next": "p16-stropharia-vert"
+    },
+    {
+     "label": "Chapeau jaune ocracé, hémisphérique, espèce venant dans l'herbe",
+     "species": "stropharia-coronilla"
+    }
+   ]
+  },
+  "p16-stropharia-vert": {
+   "page": 16,
+   "title": "Strophaires vert de gris",
+   "question": "Comment sont l'arête des lames et l'anneau ?",
+   "choices": [
+    {
+     "label": "Arête des lames blanche, anneau bien développé",
+     "species": "stropharia-aeruginosa",
+     "img": "p16-1"
+    },
+    {
+     "label": "Arête des lames non blanche, anneau peu viable",
+     "species": "stropharia-caerulea"
+    }
+   ]
+  },
+  "p17": {
+   "page": 17,
+   "title": "Pied muni d'une cortine",
+   "question": "Le champignon est-il en touffes (port cespiteux) ?",
+   "intro": "La cortine est surtout visible chez les jeunes exemplaires, elle est toujours colorée par les spores à maturité. Pour éviter toute confusion, les espèces à cortine fugace sont traitées dans cette rubrique et dans la rubrique « pied nu ».",
+   "choices": [
+    {
+     "label": "Port cespiteux (espèces en touffes)",
+     "next": "p17-cespiteux"
+    },
+    {
+     "label": "Espèces non en touffes",
+     "next": "p18-non-cespiteux",
+     "note": "voir page suivante"
+    }
+   ]
+  },
+  "p17-cespiteux": {
+   "page": 17,
+   "title": "Cortine, port cespiteux : habitat",
+   "question": "Quel est l'habitat ?",
+   "choices": [
+    {
+     "label": "Habitat lignicole",
+     "next": "p17-lignicole"
+    },
+    {
+     "label": "Habitat terricole",
+     "next": "p17-terricole"
+    }
+   ]
+  },
+  "p17-lignicole": {
+   "page": 17,
+   "title": "Cortine, en touffes, lignicole : sporée",
+   "question": "Quelle est la couleur de la sporée ?",
+   "choices": [
+    {
+     "label": "Spores blanches",
+     "hint": "armillaires, dont l'anneau cotonneux peut évoquer une cortine",
+     "species": "armillaria-gallica",
+     "note": "Voir les armillaires (Armillaria gallica, p. 16, et espèces voisines)."
+    },
+    {
+     "label": "Spores brunes",
+     "hint": "chapeau jaune verdâtre, à petites écailles vers le bord ; lames jaunâtres puis rouillées, jamais vertes",
+     "species": "pholiota-gummosa"
+    },
+    {
+     "label": "Spores noires ou violacées",
+     "hint": "lames grises, noires ou verdâtres",
+     "next": "p17-lig-noires"
+    }
+   ]
+  },
+  "p17-lig-noires": {
+   "page": 17,
+   "title": "Cortine, en touffes, lignicole, spores noires ou violacées",
+   "question": "Quelles sont les couleurs du sporophore ?",
+   "choices": [
+    {
+     "label": "Couleurs jaunes, orangées du sporophore : hypholomes (Hypholoma)",
+     "next": "p17-hypholomes"
+    },
+    {
+     "label": "Couleurs brunes ou fauves, sans jaune-vert",
+     "next": "p17-lig-brunes"
+    }
+   ]
+  },
+  "p17-hypholomes": {
+   "page": 17,
+   "title": "Hypholomes",
+   "question": "Quelle est la couleur du sporophore et des lames ?",
+   "choices": [
+    {
+     "label": "Sporophores jaunes à lames verdâtres",
+     "species": "hypholoma-fasciculare",
+     "img": "p17-a"
+    },
+    {
+     "label": "Sporophores rouge-orangé à lames grisâtres",
+     "species": "hypholoma-lateritium"
+    }
+   ]
+  },
+  "p17-lig-brunes": {
+   "page": 17,
+   "title": "Cortine, en touffes, lignicole, couleurs brunes ou fauves",
+   "question": "Le chapeau est-il hygrophane ?",
+   "choices": [
+    {
+     "label": "Hygrophanes, blanchissant en séchant, traces de voile partiel sur la marge du chapeau",
+     "hint": "rares débris d'anneau",
+     "species": "psathyrella-piluliformis"
+    },
+    {
+     "label": "Non hygrophanes, sommet du chapeau micacé (comme saupoudré de sucre)",
+     "hint": "groupe de Coprinus micaceus",
+     "species": "coprinus-micaceus",
+     "img": "p17-2"
+    }
+   ]
+  },
+  "p17-terricole": {
+   "page": 17,
+   "title": "Cortine, en touffes, terricole : sporée",
+   "question": "Quelle est la couleur de la sporée ?",
+   "choices": [
+    {
+     "label": "Spores brunes (pholiotes)",
+     "next": "p17-ter-brunes"
+    },
+    {
+     "label": "Spores noires ou violacées",
+     "next": "p17-ter-noires"
+    }
+   ]
+  },
+  "p17-ter-brunes": {
+   "page": 17,
+   "title": "Cortine, en touffes, terricole, pholiotes",
+   "question": "Comment est le chapeau ?",
+   "choices": [
+    {
+     "label": "Chapeau visqueux à flocons blancs, beige ocracé, cortine abondante",
+     "species": "pholiota-lenta"
+    },
+    {
+     "label": "Chapeau ± lubrifié, faiblement écailleux, couleurs verdâtres",
+     "species": "pholiota-gummosa",
+     "img": "p17-3"
+    },
+    {
+     "label": "Autres caractères : certains cortinaires, occasionnellement cespiteux",
+     "next": "p37",
+     "note": "voir Cortinaires, p. 37"
+    }
+   ]
+  },
+  "p17-ter-noires": {
+   "page": 17,
+   "title": "Cortine, en touffes, terricole, psathyrelles",
+   "question": "Quelle est la robustesse de l'espèce ?",
+   "intro": "Lames libres ou un peu adnées, serrées (psathyrelles).",
+   "choices": [
+    {
+     "label": "Espèce fragile, à cortine seulement visible chez les jeunes",
+     "hint": "lames très serrées, pied blanc lisse, lames gris pâle puis gris cendré avec l'âge",
+     "species": "psathyrella-candolleana"
+    },
+    {
+     "label": "Espèce +/- robuste, à cortine persistante",
+     "hint": "chapeau jaune sale à roux orangé, feutré ; lames noirâtres",
+     "species": "lacrymaria-lacrymabunda"
+    }
+   ]
+  },
+  "p18-non-cespiteux": {
+   "page": 18,
+   "title": "Cortine, port non cespiteux",
+   "question": "Quelle est la couleur de la sporée ?",
+   "intro": "Port non cespiteux (espèces isolées).",
+   "choices": [
+    {
+     "label": "Spores blanches",
+     "hint": "chapeau squameux ou feutré ± bistré, lames jaunissantes (parfois tardivement), odeur et saveur farineuse",
+     "species": "tricholoma-scalpturatum"
+    },
+    {
+     "label": "Spores ocre à brun rouillé, brun-gris",
+     "next": "p18-b"
+    },
+    {
+     "label": "Spores noires ou brun foncé (chocolat)",
+     "next": "p18-c"
+    }
+   ]
+  },
+  "p18-b": {
+   "page": 18,
+   "title": "Isolées, spores ocre à brun rouillé",
+   "question": "L'espèce est-elle lignicole ou terricole ?",
+   "choices": [
+    {
+     "label": "Lignicole",
+     "next": "p18-b-lignicole"
+    },
+    {
+     "label": "Terricole",
+     "next": "p18-b-terricole"
+    }
+   ]
+  },
+  "p18-b-lignicole": {
+   "page": 18,
+   "title": "Lignicole, spores ocre à brun rouillé",
+   "question": "Comment est le chapeau ?",
+   "choices": [
+    {
+     "label": "Chapeau sec ± fibrilleux, roux, sur conifères",
+     "species": "gymnopilus-penetrans"
+    },
+    {
+     "label": "Chapeau ± lubrifié, finement écailleux, couleurs verdâtres",
+     "hint": "sur débris ligneux souvent enterrés",
+     "species": "pholiota-gummosa"
+    }
+   ]
+  },
+  "p18-b-terricole": {
+   "page": 18,
+   "title": "Terricole, spores ocre à brun rouillé",
+   "question": "Le chapeau est-il pointu avec des lames de couleur terne ?",
+   "choices": [
+    {
+     "label": "Chapeau pointu (au moins une bosse ou un mamelon net), fibrilleux ou écailleux ; lames de couleur terne (olivâtre grisâtre) ; odeurs particulières (spermatique ou fruitée) : Inocybe (toxiques)",
+     "next": "p18-inocybe",
+     "img": "p18-a"
+    },
+    {
+     "label": "Caractères différents : chapeau non conique ou lames non grises",
+     "next": "p18-b-autres"
+    }
+   ]
+  },
+  "p18-inocybe": {
+   "page": 18,
+   "title": "Inocybes (toxiques)",
+   "question": "Quelle est l'odeur ?",
+   "choices": [
+    {
+     "label": "Forte odeur aromatique rappelant l'alcool de poire",
+     "species": "inocybe-bongardii"
+    },
+    {
+     "label": "Odeur spermatique +/- forte",
+     "next": "p18-inocybe-sperm"
+    }
+   ]
+  },
+  "p18-inocybe-sperm": {
+   "page": 18,
+   "title": "Inocybes à odeur spermatique",
+   "question": "Quelle est la couleur de l'espèce ?",
+   "choices": [
+    {
+     "label": "Espèce blanche immuable",
+     "species": "inocybe-geophylla",
+     "img": "p18-1"
+    },
+    {
+     "label": "Espèce entièrement violacée",
+     "species": "inocybe-geophylla-lilacina"
+    },
+    {
+     "label": "Espèce à chapeau gris-brun, très fibrilleux",
+     "species": "inocybe-flocculosa"
+    }
+   ]
+  },
+  "p18-b-autres": {
+   "page": 18,
+   "title": "Terricole, chapeau non conique ou lames non grises",
+   "question": "Quelle est l'odeur et la couleur des lames ?",
+   "choices": [
+    {
+     "label": "Odeur raphanoïde ; lames de couleur beige pâle, chapeau lisse brillant, bicolore",
+     "species": "hebeloma-mesophaeum"
+    },
+    {
+     "label": "Odeur nulle ou faible ; chapeau convexe pelucheux, brun-jaune ; lames gris sale",
+     "species": "inocybe-dulcamara"
+    },
+    {
+     "label": "Pas cette combinaison de caractères ; lames de couleur rouille à maturité : cortinaires (toxiques)",
+     "next": "p37",
+     "note": "genre Cortinarius, p. 37"
+    }
+   ]
+  },
+  "p18-c": {
+   "page": 18,
+   "title": "Isolées, spores noires ou brun foncé",
+   "question": "Les lames sont-elles décurrentes ?",
+   "choices": [
+    {
+     "label": "Lames non décurrentes, minces et serrées",
+     "next": "p18-c-non-decurrentes"
+    },
+    {
+     "label": "Lames décurrentes, épaisses et espacées (gomphides)",
+     "next": "p19-gomphides",
+     "note": "suite page 19"
+    }
+   ]
+  },
+  "p18-c-non-decurrentes": {
+   "page": 18,
+   "title": "Lames non décurrentes, minces et serrées",
+   "question": "Quelles sont les couleurs du chapeau ?",
+   "choices": [
+    {
+     "label": "Couleurs jaunes, orangées ou rougeâtres : hypholomes",
+     "hint": "espèces normalement en touffes",
+     "next": "p17-hypholomes",
+     "note": "voir Hypholomes, p. 17"
+    },
+    {
+     "label": "Chapeau bleu-vert décolorant, visqueux",
+     "species": "stropharia-pseudocyanea"
+    },
+    {
+     "label": "Couleurs ternes (blanches, grises, brunes) : psathyrelles",
+     "next": "p18-psathyrelles"
+    }
+   ]
+  },
+  "p18-psathyrelles": {
+   "page": 18,
+   "title": "Psathyrelles (couleurs ternes)",
+   "question": "Comment est le chapeau ?",
+   "choices": [
+    {
+     "label": "Chapeau brun-jaune à fauve, feutré",
+     "species": "lacrymaria-lacrymabunda"
+    },
+    {
+     "label": "Chapeau jaune pâle puis blanc comme le pied, très fragile, lisse",
+     "species": "psathyrella-candolleana"
+    }
+   ]
+  },
+  "p19-gomphides": {
+   "page": 19,
+   "title": "Gomphides : lames décurrentes, épaisses et espacées",
+   "question": "Quelle est la couleur de la chair ?",
+   "choices": [
+    {
+     "label": "Chair brun-jaune",
+     "species": "chroogomphus-rutilus",
+     "img": "p19-3"
+    },
+    {
+     "label": "Chair blanche, ou jaune citrin à la base du pied",
+     "next": "p19-gomphidius"
+    }
+   ]
+  },
+  "p19-gomphidius": {
+   "page": 19,
+   "title": "Gomphidius : chair blanche",
+   "question": "Quelle est la couleur du chapeau et l'aspect du pied ?",
+   "choices": [
+    {
+     "label": "Chapeau gris ; pied visqueux",
+     "species": "gomphidius-glutinosus"
+    },
+    {
+     "label": "Chapeau rose bonbon ; pied sec",
+     "species": "gomphidius-roseus"
+    }
+   ]
+  },
+  "p20": {
+   "page": 20,
+   "title": "Pied latéral ou absent",
+   "question": "Quelle est la couleur des spores, et le champignon pousse-t-il en touffes sur le bois ?",
+   "intro": "Pied latéral ou absent : champignons en forme de coquille, de spatule ou sans pied (pleurotoïdes).",
+   "choices": [
+    {
+     "label": "Spores blanches (ou lames pâles), espèces souvent en touffes, lignicoles",
+     "hint": "lames parfois à reflets ocracés ou lilacins",
+     "next": "p20-touffes"
+    },
+    {
+     "label": "Spores blanches, espèces solitaires, habitat terrestre",
+     "next": "p20-terrestre"
+    },
+    {
+     "label": "Spores ocracées (lames rosées, ocracées à brunes à maturité)",
+     "next": "p20-ocracees"
+    }
+   ]
+  },
+  "p20-touffes": {
+   "page": 20,
+   "title": "Pied latéral ou absent",
+   "question": "Quelle est la consistance de la chair et du pied ?",
+   "choices": [
+    {
+     "label": "Chair tendre ou putrescible, pied mou, lames non denticulées",
+     "hint": "pleurotes",
+     "next": "p20-pleurotes"
+    },
+    {
+     "label": "Chair élastique, pied dur, lames denticulées",
+     "hint": "lentins",
+     "next": "p20-lentins"
+    },
+    {
+     "label": "Pied complètement absent, chair très coriace",
+     "hint": "« polypores » lamellés",
+     "next": "p20-polypores"
+    }
+   ]
+  },
+  "p20-pleurotes": {
+   "page": 20,
+   "title": "Pied latéral ou absent",
+   "question": "Comment est la base du pied ?",
+   "choices": [
+    {
+     "label": "Base du pied lisse, couleurs gris pâle à blanchâtres",
+     "species": "pleurotus-pulmonarius",
+     "img": "p20-1"
+    },
+    {
+     "label": "Pied velu, couleurs gris bleuté",
+     "species": "pleurotus-ostreatus",
+     "img": "p20-2"
+    }
+   ]
+  },
+  "p20-lentins": {
+   "page": 20,
+   "title": "Pied latéral ou absent",
+   "question": "Quelle est la forme du chapeau ?",
+   "choices": [
+    {
+     "label": "Chapeau creusé au centre, blanc moucheté de gris-noir",
+     "species": "lentinus-tigrinus"
+    },
+    {
+     "label": "Chapeaux tordus en colimaçon, beige jaunâtre",
+     "hint": "odeur anisée, sauf pour la variété inolens",
+     "species": "lentinellus-cochleatus",
+     "img": "p20-3"
+    }
+   ]
+  },
+  "p20-polypores": {
+   "page": 20,
+   "title": "Pied latéral ou absent",
+   "question": "Comment sont les lames ?",
+   "choices": [
+    {
+     "label": "Lames régulières avec lamellules ; chapeau à surface velue",
+     "species": "lenzites-betulinus"
+    },
+    {
+     "label": "Lames irrégulières, très serrées, +/- fourchues ; surface glabre, rougeâtre",
+     "species": "daedaleopsis-tricolor"
+    },
+    {
+     "label": "Lames anastomosées en labyrinthe, sans lamellules ; surface bosselée, glabre, beige",
+     "species": "daedalea-quercina"
+    }
+   ]
+  },
+  "p20-terrestre": {
+   "page": 20,
+   "title": "Pied latéral ou absent",
+   "question": "La chair est-elle gélatineuse ?",
+   "choices": [
+    {
+     "label": "Forme en pétale, chair gélatineuse à odeur de farine",
+     "species": "hohenbuehelia-geogenia"
+    },
+    {
+     "label": "Chair non gélatineuse",
+     "hint": "penser aux spécimens anormaux d'espèces à pied central",
+     "next": "p12",
+     "note": "voir clé des espèces à lames décurrentes p. 12"
+    }
+   ]
+  },
+  "p20-ocracees": {
+   "page": 20,
+   "title": "Pied latéral ou absent",
+   "question": "Le pied est-il présent et de quelle couleur ?",
+   "choices": [
+    {
+     "label": "Pied développé, coudé, peu excentré ; lames jaunes vif",
+     "species": "pholiota-curvipes"
+    },
+    {
+     "label": "Pied noir, velouté ; grosse espèce (10 cm et +) sur souches de conifères",
+     "species": "tapinella-atrotomentosa"
+    },
+    {
+     "label": "Pied nul",
+     "next": "p20-crepidotes"
+    }
+   ]
+  },
+  "p20-crepidotes": {
+   "page": 20,
+   "title": "Pied latéral ou absent",
+   "question": "Où pousse-t-il et quelle est sa chair ?",
+   "choices": [
+    {
+     "label": "Sur brindilles ; chapeau blanc, chair fragile",
+     "species": "crepidotus-variabilis"
+    },
+    {
+     "label": "Sur écorces ou souches ; chair élastique, chapeau blanc-gris à pellicule gélatineuse facile à ôter",
+     "species": "crepidotus-mollis"
+    }
+   ]
+  },
+  "p21": {
+   "page": 21,
+   "title": "Pied nu, lames non décurrentes",
+   "question": "Quelles sont la couleur de la sporée et celle des lames ?",
+   "intro": "Pied nu, lames non décurrentes, insertion centrale (ni volve, ni anneau, ni cortine). Pour juger la couleur de la sporée, se référer à la « Règle de Moreau », p. 41.",
+   "choices": [
+    {
+     "label": "Sporée blanche avec lames de couleur particulière (beiges, jaunes, vertes, roses, violacées : « pièges »)",
+     "next": "p21-a",
+     "img": "picto-sporee"
+    },
+    {
+     "label": "Sporée blanche et lames pâles",
+     "next": "p22-b"
+    },
+    {
+     "label": "Sporée rose",
+     "next": "p24-c"
+    },
+    {
+     "label": "Sporée ocre à brune",
+     "next": "p25-d"
+    },
+    {
+     "label": "Sporée noire ou violacée",
+     "next": "p26-e"
+    }
+   ]
+  },
+  "p21-a": {
+   "page": 21,
+   "title": "Pied nu, lames non décurrentes",
+   "question": "Le champignon pousse-t-il en touffes ?",
+   "intro": "Sporée blanche avec lames de couleur particulière (beiges, jaunes, vertes, roses, violacées : « pièges »). Voir la « Règle de Moreau », p. 41.",
+   "choices": [
+    {
+     "label": "Espèces en touffes",
+     "next": "p21-touffes"
+    },
+    {
+     "label": "Espèces non en touffes",
+     "next": "p21-nontouffes"
+    }
+   ]
+  },
+  "p21-touffes": {
+   "page": 21,
+   "title": "Pied nu, lames non décurrentes",
+   "question": "Comment est le chapeau ?",
+   "choices": [
+    {
+     "label": "Chapeau lisse",
+     "next": "p21-lisse"
+    },
+    {
+     "label": "Chapeau écailleux ou méchuleux, au moins au centre",
+     "next": "p21-ecailleux"
+    }
+   ]
+  },
+  "p21-lisse": {
+   "page": 21,
+   "title": "Pied nu, lames non décurrentes",
+   "question": "Le pied est-il lisse ou velu ?",
+   "choices": [
+    {
+     "label": "Pied lisse, fusiforme, côtelé ; lames beige puis tachées de brun rougeâtre ; chapeau brun rouge",
+     "species": "collybia-fusipes",
+     "img": "p21-1"
+    },
+    {
+     "label": "Pied velu",
+     "next": "p21-velu"
+    }
+   ]
+  },
+  "p21-velu": {
+   "page": 21,
+   "title": "Pied nu, lames non décurrentes",
+   "question": "Quelle est la couleur du pied et du chapeau ?",
+   "choices": [
+    {
+     "label": "Pied brun noir à la base, chapeau visqueux/collant, jaune orangé ; sur bois",
+     "species": "flammulina-velutipes"
+    },
+    {
+     "label": "Pied gris ou lilas pâle, à duvet blanc ; chapeau gris ou blanchâtre, sec ; dans les feuilles, très commun",
+     "species": "collybia-confluens"
+    },
+    {
+     "label": "Pied rouge, lisse, luisant ; chapeau beige à blanchâtre, sec",
+     "species": "collybia-erythropus"
+    }
+   ]
+  },
+  "p21-ecailleux": {
+   "page": 21,
+   "title": "Pied nu, lames non décurrentes",
+   "question": "Quelle est la couleur du chapeau et des lames ?",
+   "choices": [
+    {
+     "label": "Chapeau jaune moucheté de pourpre, lames jaune vif, sur bois de conifères",
+     "species": "tricholomopsis-rutilans"
+    },
+    {
+     "label": "Chapeau brun-jaune à fines squamules brunes, lames subdécurrentes beige rosâtre, sur feuillus",
+     "species": "armillaria-tabescens"
+    }
+   ]
+  },
+  "p21-nontouffes": {
+   "page": 21,
+   "title": "Pied nu, lames non décurrentes",
+   "question": "Le pied est-il grêle ou robuste ?",
+   "choices": [
+    {
+     "label": "Espèces grêles ou élancées : diamètre du pied < 0,5 cm, pied au moins 5 fois plus long que large",
+     "hint": "silhouettes collybioïde à mycénoïde",
+     "next": "p21-greles",
+     "img": "silhouette-collybioide"
+    },
+    {
+     "label": "Espèces robustes : diamètre du pied > 0,5 cm, pied moins de 5 fois plus long que large",
+     "hint": "silhouette tricholomoïde",
+     "next": "p22-robustes",
+     "img": "silhouette-tricholomoide"
+    }
+   ]
+  },
+  "p21-greles": {
+   "page": 21,
+   "title": "Pied nu, lames non décurrentes",
+   "question": "Le pied résiste-t-il à la torsion ?",
+   "choices": [
+    {
+     "label": "Pied incassable, résistant à la torsion ; pas d'odeur de radis",
+     "hint": "sinon voir « pied cassant »",
+     "next": "p21-incassable",
+     "img": "silhouette-collybioide"
+    },
+    {
+     "label": "Pied cassant à la torsion ou ramollissant vite au toucher",
+     "next": "p21-cassant",
+     "img": "silhouette-mycenoide"
+    }
+   ]
+  },
+  "p21-incassable": {
+   "page": 21,
+   "title": "Pied nu, lames non décurrentes",
+   "question": "Le chapeau est-il conique ?",
+   "choices": [
+    {
+     "label": "Chapeau non conique",
+     "next": "p21-nonconique",
+     "img": "picto-chapeau-convexe"
+    },
+    {
+     "label": "Chapeau conique, gris ; lames rosées, veinées dans le fond ; sur souches",
+     "species": "mycena-galericulata",
+     "img": "picto-chapeau-conique"
+    }
+   ]
+  },
+  "p21-nonconique": {
+   "page": 21,
+   "title": "Pied nu, lames non décurrentes",
+   "question": "Quelle est la couleur des lames ?",
+   "choices": [
+    {
+     "label": "Lames brunâtres ou ocre-jaune, espacées, écartées du pied ; chapeau brunâtre, pied hérissé de poils à la base",
+     "species": "collybia-peronata"
+    },
+    {
+     "label": "Lames de couleur violacée (améthyste), très espacées ; chapeau et pied violets (décolorants en séchant)",
+     "species": "laccaria-amethystina",
+     "note": "Ne pas confondre avec Mycena pura (voir plus bas)."
+    },
+    {
+     "label": "Lames rosées, très espacées ; chapeau rose sur le frais, devenant jaune en séchant",
+     "species": "laccaria-laccata",
+     "note": "Ne pas confondre avec Mycena rosea (voir plus bas).",
+     "img": "p21-2"
+    }
+   ]
+  },
+  "p21-cassant": {
+   "page": 21,
+   "title": "Pied nu, lames non décurrentes",
+   "question": "Quelle est l'odeur ?",
+   "choices": [
+    {
+     "label": "Odeur de radis (de rave)",
+     "next": "p21-radis"
+    },
+    {
+     "label": "Inodore ; espèces fragiles, délicates, cassantes ou visqueuses, de couleurs vives (jaune, jaune-orangé, rouge) ; lames céracées (consistance de la cire d'abeille)",
+     "hint": "hygrophores",
+     "next": "p34"
+    },
+    {
+     "label": "Odeurs fortes mais pas de radis (désagréable de gaz ou de farine), consistance sèche",
+     "hint": "spécimens anormalement grêles de tricholomes",
+     "next": "p39"
+    }
+   ]
+  },
+  "p21-radis": {
+   "page": 21,
+   "title": "Pied nu, lames non décurrentes",
+   "question": "Quelle est la couleur des lames et du chapeau ?",
+   "choices": [
+    {
+     "label": "Lames violacées à liseré noirâtre sur l'arête",
+     "species": "mycena-pelianthina"
+    },
+    {
+     "label": "Lames lilas bleuté, arête non colorée",
+     "species": "mycena-pura"
+    },
+    {
+     "label": "Lames rosées, chapeau rose, pied blanc",
+     "species": "mycena-rosea",
+     "img": "p21-3"
+    }
+   ]
+  },
+  "p22-robustes": {
+   "page": 22,
+   "title": "Pied nu, lames non décurrentes",
+   "question": "De quelle couleur sont les lames ?",
+   "intro": "Espèces robustes (diamètre du pied > 0,5 cm, pied moins de 5 fois plus long que large), silhouette tricholomoïde.",
+   "choices": [
+    {
+     "label": "Lames de couleur violacée",
+     "next": "p22-violacees"
+    },
+    {
+     "label": "Lames bleu-vert comme le chapeau ; odeur anisée",
+     "species": "clitocybe-odora"
+    },
+    {
+     "label": "Lames de couleur jaune, verte, brune...",
+     "next": "p22-jaunes"
+    }
+   ]
+  },
+  "p22-violacees": {
+   "page": 22,
+   "title": "Pied nu, lames non décurrentes",
+   "question": "Quel est le diamètre du pied et l'aspect du chapeau ?",
+   "choices": [
+    {
+     "label": "Pied > 1 cm de diamètre, chapeau non hygrophane",
+     "species": "lepista-nuda"
+    },
+    {
+     "label": "Pied < 1 cm de diamètre, chapeau hygrophane, translucide",
+     "species": "lepista-sordida"
+    }
+   ]
+  },
+  "p22-jaunes": {
+   "page": 22,
+   "title": "Pied nu, lames non décurrentes",
+   "question": "Les lames sont-elles épaisses et cireuses ?",
+   "choices": [
+    {
+     "label": "Lames épaisses et cireuses, chapeau conique",
+     "hint": "hygrophores",
+     "next": "p34"
+    },
+    {
+     "label": "Lames sèches, chapeau non conique",
+     "hint": "tricholomes",
+     "next": "p39"
+    }
+   ]
+  },
+  "p22-b": {
+   "page": 22,
+   "title": "Sporée blanche et lames pâles",
+   "question": "Le champignon pousse-t-il en touffes ?",
+   "intro": "Sporée blanche et lames pâles.",
+   "choices": [
+    {
+     "label": "Espèces en touffes",
+     "next": "p22-touffes"
+    },
+    {
+     "label": "Espèces non en touffes",
+     "next": "p23-nontouffes"
+    }
+   ]
+  },
+  "p22-touffes": {
+   "page": 22,
+   "title": "Sporée blanche et lames pâles : espèces en touffes",
+   "question": "Quelle est la silhouette du champignon ?",
+   "choices": [
+    {
+     "label": "Silhouette tricholomoïde",
+     "next": "p22-tricho",
+     "img": "silhouette-tricholomoide"
+    },
+    {
+     "label": "Silhouette collybioïde, pied cartilagineux résistant à la torsion",
+     "next": "p22-colly",
+     "img": "silhouette-collybioide"
+    },
+    {
+     "label": "Silhouette mycénoïde, pied fibreux-fragile ne résistant pas à la torsion ; texture plus ou moins fragile, chapeau conique",
+     "next": "p22-myc",
+     "img": "silhouette-mycenoide"
+    }
+   ]
+  },
+  "p22-tricho": {
+   "page": 22,
+   "title": "Sporée blanche et lames pâles : espèces en touffes",
+   "question": "Quelle est l'odeur ?",
+   "choices": [
+    {
+     "label": "Odeur nulle ; lames adnées à subdécurrentes ; chapeau convexe, lisse, élastique, couleur café au lait",
+     "species": "lyophyllum-decastes"
+    },
+    {
+     "label": "Odeur de concombre ou de farine ; lames adnées-échancrées ; chapeau brun-rouge au centre, pâle à la marge, cassant",
+     "species": "tricholoma-populinum"
+    }
+   ]
+  },
+  "p22-colly": {
+   "page": 22,
+   "title": "Sporée blanche et lames pâles : espèces en touffes",
+   "question": "Comment sont les lames et le pied ?",
+   "choices": [
+    {
+     "label": "Lames très serrées, blanchâtres ; chapeau beige pâle ; pied grêle (< 3 mm) ; sur litière de feuilles",
+     "species": "collybia-confluens"
+    },
+    {
+     "label": "Lames très espacées, gris-beige pâle puis tachées de brun-rouge ; pied fusiforme côtelé ; chapeau brun-ocre à brun-rouge",
+     "species": "collybia-fusipes",
+     "img": "p22-2"
+    },
+    {
+     "label": "Lames moyennement serrées, blanc crème ; pied lisse, rouge en bas, luisant ; chapeau blanchâtre à beige",
+     "species": "collybia-erythropus",
+     "img": "p22-2"
+    }
+   ]
+  },
+  "p22-myc": {
+   "page": 22,
+   "title": "Sporée blanche et lames pâles : espèces en touffes",
+   "question": "Que montrent les lames, le pied, l'odeur ?",
+   "choices": [
+    {
+     "label": "Lames blanchâtres (parfois rosées) interveinées ; pied blanc ou gris clair, assez résistant ; sur souches",
+     "species": "mycena-galericulata"
+    },
+    {
+     "label": "Pied brun-jaune à brun-rouge à la base, blanc au sommet ; odeur de poivre ; sur souches",
+     "species": "mycena-inclinata",
+     "img": "p22-3"
+    },
+    {
+     "label": "Lait rouge sang à la cassure du pied, sur souches",
+     "species": "mycena-haematopus"
+    },
+    {
+     "label": "Lait rouge sang à la cassure du pied, au sol",
+     "species": "mycena-sanguinolenta"
+    }
+   ]
+  },
+  "p23-nontouffes": {
+   "page": 23,
+   "title": "Sporée blanche et lames pâles : espèces non en touffes",
+   "question": "Quelle est la silhouette du champignon ?",
+   "intro": "Espèces non en touffes. N.B. : si les lames sont libres, penser aux petites lépiotes ayant perdu leur anneau, p. 35.",
+   "choices": [
+    {
+     "label": "Silhouette tricholomoïde : pied assez robuste, > 8 mm de diamètre, ferme",
+     "next": "p23-tricho",
+     "img": "silhouette-tricholomoide"
+    },
+    {
+     "label": "Silhouette collybioïde : pied élancé, < 8 mm de diamètre, ou mou si la base est renflée",
+     "next": "p23-colly",
+     "img": "silhouette-collybioide"
+    },
+    {
+     "label": "Silhouette marasmioïde : pied fin, coriace, brun ou noir à la base",
+     "next": "p23-maras",
+     "img": "silhouette-marasmioide"
+    },
+    {
+     "label": "Silhouette mycénoïde : pied mou ou fragile",
+     "next": "p24-mycenoide",
+     "img": "silhouette-mycenoide"
+    }
+   ]
+  },
+  "p23-tricho": {
+   "page": 23,
+   "title": "Sporée blanche et lames pâles : silhouette tricholomoïde",
+   "question": "Quelle est l'épaisseur de la chair dans le chapeau ?",
+   "choices": [
+    {
+     "label": "Chair très mince dans le chapeau (< 2 mm à mi-rayon)",
+     "next": "p23-mince"
+    },
+    {
+     "label": "Chair épaisse (> 2 mm à mi-rayon)",
+     "hint": "tricholomes",
+     "next": "p39"
+    }
+   ]
+  },
+  "p23-mince": {
+   "page": 23,
+   "title": "Sporée blanche et lames pâles : silhouette tricholomoïde",
+   "question": "Comment est le pied ?",
+   "choices": [
+    {
+     "label": "Pied côtelé terminé en pointe, chapeau brun-rouge",
+     "species": "collybia-fusipes"
+    },
+    {
+     "label": "Pied lisse, terminé par des rhizoïdes blancs ramifiés ; chapeau gris ocracé vergeté radialement",
+     "species": "megacollybia-platyphylla",
+     "img": "p23-1"
+    }
+   ]
+  },
+  "p23-colly": {
+   "page": 23,
+   "title": "Sporée blanche et lames pâles : silhouette collybioïde",
+   "question": "Le pied est-il très fibreux et ferme, ou creux et mou ?",
+   "choices": [
+    {
+     "label": "Pied très fibreux, ferme au toucher",
+     "next": "p23-fibreux"
+    },
+    {
+     "label": "Pied creux ou mou au toucher",
+     "next": "p23-creux"
+    },
+    {
+     "label": "Pas de correspondance dans les deux groupes précédents : clitocybes à lames peu décurrentes et chapeau déprimé",
+     "next": "p23-clitocybes"
+    },
+    {
+     "label": "Pas de correspondance dans les deux groupes précédents : mycénoïdes",
+     "next": "p24-mycenoide",
+     "img": "silhouette-mycenoide"
+    }
+   ]
+  },
+  "p23-fibreux": {
+   "page": 23,
+   "title": "Sporée blanche et lames pâles : silhouette collybioïde",
+   "question": "Le pied se prolonge-t-il en longue racine ?",
+   "choices": [
+    {
+     "label": "Pied terminé par une sorte de longue racine ; chapeau ± ridé, gras",
+     "species": "oudemansiella-radicata",
+     "img": "p23-4"
+    },
+    {
+     "label": "Chapeau et pied blanc-beige ; lames beiges très espacées à lamellules visibles ; chapeau souvent mamelonné, pied dur très résistant, pubescent ; dans l'herbe (souvent en « ronds de sorcière »)",
+     "species": "marasmius-oreades",
+     "note": "Dans les feuilles, à base du pied poilue, voir Collybia peronata p. 21 ; à pied lisse, voir Collybia dryophila."
+    }
+   ]
+  },
+  "p23-creux": {
+   "page": 23,
+   "title": "Sporée blanche et lames pâles : silhouette collybioïde",
+   "question": "Le pied est-il épaissi à la base ?",
+   "choices": [
+    {
+     "label": "Pied progressivement épaissi et mou vers la base, mamelon gras au sommet du chapeau",
+     "species": "collybia-butyracea",
+     "img": "p23-2"
+    },
+    {
+     "label": "Pied jaune terne, non épaissi à la base ; chapeau blanc à jaune-beige, lames blanches ou crème",
+     "species": "collybia-dryophila",
+     "img": "p23-3"
+    }
+   ]
+  },
+  "p23-clitocybes": {
+   "page": 23,
+   "title": "Sporée blanche et lames pâles : clitocybes",
+   "question": "Quelle est la couleur du chapeau ?",
+   "intro": "Clitocybes à lames peu décurrentes et chapeau déprimé.",
+   "choices": [
+    {
+     "label": "Chapeau blanchâtre, sur feuilles mortes",
+     "species": "clitocybe-phyllophila"
+    },
+    {
+     "label": "Chapeau blanchâtre, dans l'herbe",
+     "species": "clitocybe-dealbata"
+    },
+    {
+     "label": "Chapeau verdâtre, à forte odeur d'anis",
+     "species": "clitocybe-odora"
+    }
+   ]
+  },
+  "p23-maras": {
+   "page": 23,
+   "title": "Sporée blanche et lames pâles : silhouette marasmioïde",
+   "question": "Quelle est la taille du pied ?",
+   "choices": [
+    {
+     "label": "Long pied noir, 6-15 cm de hauteur ; forte odeur d'ail ; dans les feuilles de hêtre",
+     "species": "marasmius-alliaceus"
+    },
+    {
+     "label": "Plus petit",
+     "next": "p23-maras-petit"
+    }
+   ]
+  },
+  "p23-maras-petit": {
+   "page": 23,
+   "title": "Sporée blanche et lames pâles : silhouette marasmioïde",
+   "question": "Où pousse-t-il ?",
+   "choices": [
+    {
+     "label": "Sur brindilles, base du pied brun-rouge",
+     "species": "marasmiellus-ramealis",
+     "img": "p23-6"
+    },
+    {
+     "label": "Sur autres débris, pied noir sur la plus grande longueur",
+     "next": "p23-maras-debris"
+    }
+   ]
+  },
+  "p23-maras-debris": {
+   "page": 23,
+   "title": "Sporée blanche et lames pâles : silhouette marasmioïde",
+   "question": "Les lames sont-elles insérées sur un collarium ?",
+   "choices": [
+    {
+     "label": "Lames insérées sur un collarium, pas de lamellules",
+     "species": "marasmius-rotula",
+     "img": "p23-5"
+    },
+    {
+     "label": "Pas de collarium, lamellules nombreuses",
+     "species": "marasmiellus-androsaceus"
+    }
+   ]
+  },
+  "p24-mycenoide": {
+   "page": 24,
+   "title": "Sporée blanche et lames pâles : silhouette mycénoïde",
+   "question": "Y a-t-il du lait à la cassure du pied ?",
+   "intro": "Silhouette mycénoïde (pied mou ou fragile).",
+   "choices": [
+    {
+     "label": "Présence de lait dans le pied, s'écoulant à la cassure (une seule goutte)",
+     "next": "p24-lait"
+    },
+    {
+     "label": "Absence de lait à la cassure",
+     "next": "p24-sanslait"
+    }
+   ]
+  },
+  "p24-lait": {
+   "page": 24,
+   "title": "Sporée blanche et lames pâles : silhouette mycénoïde",
+   "question": "De quelle couleur est le lait ?",
+   "choices": [
+    {
+     "label": "Lait blanc",
+     "species": "mycena-galopus"
+    },
+    {
+     "label": "Lait orangé",
+     "species": "mycena-crocata"
+    },
+    {
+     "label": "Lait rouge sang, sur bois",
+     "species": "mycena-haematopus"
+    }
+   ]
+  },
+  "p24-sanslait": {
+   "page": 24,
+   "title": "Sporée blanche et lames pâles : silhouette mycénoïde",
+   "question": "Quels sont les caractères du pied et du chapeau ?",
+   "choices": [
+    {
+     "label": "Pied fortement strié longitudinalement, gris",
+     "species": "mycena-polygramma"
+    },
+    {
+     "label": "Pied teinté de jaune vif ainsi que le chapeau",
+     "species": "mycena-epipterygia"
+    },
+    {
+     "label": "Pied blanc ou gris pâle comme le chapeau, assez coriace ; sur souches",
+     "species": "mycena-galericulata"
+    },
+    {
+     "label": "Pied blanc, chapeau rosé, forte odeur de radis",
+     "species": "mycena-rosea"
+    },
+    {
+     "label": "Pied rose ou violacé, forte odeur de radis",
+     "species": "mycena-pura"
+    }
+   ]
+  },
+  "p24-c": {
+   "page": 24,
+   "title": "Sporée rose",
+   "question": "Les lames sont-elles libres ?",
+   "intro": "C) Sporée rose.",
+   "choices": [
+    {
+     "label": "Lames libres ; généralement sur bois mort",
+     "hint": "plutées (genre Pluteus)",
+     "next": "p24-plutees"
+    },
+    {
+     "label": "Lames adnées à échancrées (pied et chapeau non séparables) ; généralement à terre",
+     "next": "p24-adnees"
+    }
+   ]
+  },
+  "p24-plutees": {
+   "page": 24,
+   "title": "Sporée rose : plutées",
+   "question": "Quelle est la couleur du chapeau ?",
+   "intro": "Attention aux jeunes agarics immatures (spores noires, présence d'un anneau, p. 36), voir aussi Leucoagaricus leucothites p. 35, à lames parfois roses et anneau caduc.",
+   "choices": [
+    {
+     "label": "Chapeau brun, odeur de radis",
+     "species": "pluteus-cervinus"
+    },
+    {
+     "label": "Chapeau avec teintes bleu-vert au centre",
+     "species": "pluteus-salicinus"
+    },
+    {
+     "label": "Chapeau jaune d'or",
+     "species": "pluteus-leoninus"
+    },
+    {
+     "label": "Jeunes agarics immatures (spores noires, présence d'un anneau)",
+     "next": "p36",
+     "note": "Attention : à ne pas prendre pour des plutées."
+    },
+    {
+     "label": "Lames parfois roses et anneau caduc",
+     "species": "leucoagaricus-leucothites",
+     "note": "Voir aussi Leucoagaricus leucothites p. 35."
+    }
+   ]
+  },
+  "p24-adnees": {
+   "page": 24,
+   "title": "Sporée rose : lames adnées à échancrées",
+   "question": "Y a-t-il une coloration bleu-violet sur le chapeau, le pied ou dans tout le sporophore ?",
+   "choices": [
+    {
+     "label": "Oui : coloration bleu-violet soit sur le chapeau, soit sur le pied, soit dans tout le sporophore",
+     "next": "p24-bleuviolet"
+    },
+    {
+     "label": "Non : pas de coloration violette",
+     "hint": "entolomes (toxiques)",
+     "next": "p24-entolomes"
+    }
+   ]
+  },
+  "p24-bleuviolet": {
+   "page": 24,
+   "title": "Sporée rose : coloration bleu-violet",
+   "question": "Quelle est la taille de l'espèce ?",
+   "choices": [
+    {
+     "label": "Grosses espèces, pied > 0,5 cm de diamètre : genre Lepista",
+     "next": "p24-lepista"
+    },
+    {
+     "label": "Petites espèces grêles, pied < 0,5 cm de diamètre, fragile : genre Entoloma (toxique)",
+     "next": "p24-entoloma-bleus"
+    }
+   ]
+  },
+  "p24-lepista": {
+   "page": 24,
+   "title": "Sporée rose : lépistes",
+   "question": "Où est la coloration violacée ?",
+   "choices": [
+    {
+     "label": "Coloration violacée uniquement sur le pied, chapeau beige",
+     "species": "lepista-personata"
+    },
+    {
+     "label": "Coloration violacée dans le pied et les lames ; pied cylindrique",
+     "species": "lepista-sordida"
+    },
+    {
+     "label": "Coloration violacée dans le pied et les lames ; pied renflé à la base",
+     "species": "lepista-nuda"
+    }
+   ]
+  },
+  "p24-entoloma-bleus": {
+   "page": 24,
+   "title": "Sporée rose : entolomes bleu-violet",
+   "question": "Quelle est la couleur du chapeau, du pied et des lames ?",
+   "choices": [
+    {
+     "label": "Chapeau, pied et lames bleu violet intense",
+     "species": "entoloma-euchroum"
+    },
+    {
+     "label": "Chapeau et pied bleus, lames blanches puis roses",
+     "species": "entoloma-nitidum"
+    },
+    {
+     "label": "Pied bleu, chapeau gris ou brun : nombreuses espèces du groupe Entoloma griseocyaneum",
+     "species": "entoloma-griseocyaneum",
+     "note": "Si pied coriace, voir Laccaria p. 21 ; si odeur de radis, voir Mycena pura et Mycena rosea p. 21."
+    }
+   ]
+  },
+  "p24-entolomes": {
+   "page": 24,
+   "title": "Sporée rose : entolomes",
+   "question": "Quelle est la forme du chapeau ?",
+   "intro": "Espèce ne présentant pas de coloration violette : genre Entoloma, toxique.",
+   "choices": [
+    {
+     "label": "Chapeau convexe ou plat, charnu",
+     "next": "p24-entolomes-charnus"
+    },
+    {
+     "label": "Chapeau conique papillé au centre, très mince ; odeur de poisson ou de farine",
+     "species": "entoloma-hebes"
+    }
+   ]
+  },
+  "p24-entolomes-charnus": {
+   "page": 24,
+   "title": "Sporée rose : entolomes",
+   "question": "Quelle est l'odeur ?",
+   "choices": [
+    {
+     "label": "Odeur de chlore (eau de Javel)",
+     "species": "entoloma-nidorosum"
+    },
+    {
+     "label": "Odeur de farine (à la coupe)",
+     "next": "p24-farine"
+    },
+    {
+     "label": "Odeur nulle",
+     "species": "entoloma-rhodopollum"
+    }
+   ]
+  },
+  "p24-farine": {
+   "page": 24,
+   "title": "Sporée rose : entolomes",
+   "question": "Quel est le diamètre du pied ?",
+   "choices": [
+    {
+     "label": "Pied > 1 cm de diamètre",
+     "species": "entoloma-lividum",
+     "img": "p24-a"
+    },
+    {
+     "label": "Pied < 1 cm de diamètre",
+     "species": "entoloma-lividoalbum"
+    }
+   ]
+  },
+  "p25-d": {
+   "page": 25,
+   "title": "Sporée ocre à brune",
+   "question": "Le chapeau est-il conique-pointu, avec des lames de couleur terne ?",
+   "choices": [
+    {
+     "label": "Chapeau conique-pointu, fibrilleux ou écailleux ; lames de couleur terne (olivâtre grisâtre) ; odeurs généralement nettes (spermatique ou fruitée)",
+     "hint": "genre Inocybe (toxique)",
+     "next": "p25-inocybe"
+    },
+    {
+     "label": "Caractères différents : chapeau non conique, ou odeur nulle ou différente, ou lames non grises",
+     "next": "p25-differents"
+    }
+   ]
+  },
+  "p25-inocybe": {
+   "page": 25,
+   "title": "Sporée ocre à brune : inocybes",
+   "question": "Quelle est l'odeur ?",
+   "intro": "Genre Inocybe : toxiques.",
+   "choices": [
+    {
+     "label": "Forte odeur aromatique (alcool de poire...)",
+     "next": "p25-inocybe-arom"
+    },
+    {
+     "label": "Odeur spermatique ou miellée, moins remarquable",
+     "next": "p25-inocybe-sperm"
+    }
+   ]
+  },
+  "p25-inocybe-arom": {
+   "page": 25,
+   "title": "Sporée ocre à brune : inocybes à odeur aromatique",
+   "question": "Comment est le chapeau ?",
+   "choices": [
+    {
+     "label": "Chapeau squamuleux",
+     "species": "inocybe-bongardii"
+    },
+    {
+     "label": "Chapeau fibrilleux, rayé ; teinte verte au sommet du chapeau",
+     "species": "inocybe-corydalina"
+    },
+    {
+     "label": "Chapeau fibrilleux, rayé ; pas de teinte verte",
+     "species": "inocybe-piriodora"
+    }
+   ]
+  },
+  "p25-inocybe-sperm": {
+   "page": 25,
+   "title": "Sporée ocre à brune : inocybes à odeur spermatique ou miellée",
+   "question": "Quelle est la couleur du chapeau ?",
+   "choices": [
+    {
+     "label": "Chapeau blanc, pointu",
+     "species": "inocybe-geophylla"
+    },
+    {
+     "label": "Chapeau violacé, pointu",
+     "species": "inocybe-geophylla-lilacina",
+     "note": "Attention à la confusion avec Laccaria amethystina, p. 21."
+    },
+    {
+     "label": "Chapeau brun, gris, jaune...",
+     "next": "p25-inocybe-brun"
+    },
+    {
+     "label": "Espèce printanière, robuste, blanche puis rougissante",
+     "species": "inocybe-patouillardii"
+    }
+   ]
+  },
+  "p25-inocybe-brun": {
+   "page": 25,
+   "title": "Sporée ocre à brune : inocybes à chapeau brun, gris, jaune",
+   "question": "Quelle est la couleur du pied ?",
+   "choices": [
+    {
+     "label": "Pied rouge vineux au moins à la base",
+     "species": "inocybe-jurana"
+    },
+    {
+     "label": "Pied blanc devenant brun-rouge vers mi-longueur",
+     "species": "inocybe-maculata"
+    },
+    {
+     "label": "Pied blanc ou jaune pâle, uniforme",
+     "next": "p25-inocybe-pale"
+    }
+   ]
+  },
+  "p25-inocybe-pale": {
+   "page": 25,
+   "title": "Sporée ocre à brune : inocybes à pied blanc ou jaune pâle",
+   "question": "Comment est le chapeau ?",
+   "choices": [
+    {
+     "label": "Chapeau jaune paille",
+     "next": "p25-inocybe-jaune"
+    },
+    {
+     "label": "Chapeau gris, feutré-laineux",
+     "species": "inocybe-flocculosa"
+    },
+    {
+     "label": "Chapeau gris ou brun, fibrilleux",
+     "species": "inocybe-rimosa"
+    }
+   ]
+  },
+  "p25-inocybe-jaune": {
+   "page": 25,
+   "title": "Sporée ocre à brune : inocybes à chapeau jaune paille",
+   "question": "Quelle est l'odeur ?",
+   "choices": [
+    {
+     "label": "Odeur d'amandes amères",
+     "species": "inocybe-hirtella"
+    },
+    {
+     "label": "Odeur de miel à la base du pied",
+     "species": "inocybe-cookei"
+    },
+    {
+     "label": "Sans odeur notable",
+     "species": "inocybe-xanthocephala"
+    }
+   ]
+  },
+  "p25-differents": {
+   "page": 25,
+   "title": "Sporée ocre à brune : caractères différents",
+   "question": "Quel est le diamètre du pied ?",
+   "intro": "Si le chapeau est conique, l'odeur est nulle ou différente et les lames ne sont pas grises.",
+   "choices": [
+    {
+     "label": "Petites espèces grêles, pied de diamètre < 3 mm (genres difficiles : voir ouvrages spécialisés)",
+     "next": "p25-greles"
+    },
+    {
+     "label": "Espèces moyennes à robustes, pied de diamètre > 3 mm",
+     "next": "p25-robustes"
+    }
+   ]
+  },
+  "p25-greles": {
+   "page": 25,
+   "title": "Sporée ocre à brune : petites espèces grêles",
+   "question": "Le chapeau est-il plat ou conique ?",
+   "choices": [
+    {
+     "label": "Chapeau ± plat ; lames adnées",
+     "species": "tubaria-furfuracea"
+    },
+    {
+     "label": "Chapeau ± conique ; lames libres ou presque",
+     "next": "p25-conique"
+    }
+   ]
+  },
+  "p25-conique": {
+   "page": 25,
+   "title": "Sporée ocre à brune : petites espèces grêles à chapeau conique",
+   "question": "Le chapeau est-il strié par transparence ?",
+   "choices": [
+    {
+     "label": "Strié par transparence, fauve, roux ou jaunâtre : genre Galerina (à rejeter)",
+     "species": "galerina-spp"
+    },
+    {
+     "label": "Non strié par transparence, pied grêle : genre Conocybe (à rejeter)",
+     "species": "conocybe-spp",
+     "img": "p25-a"
+    }
+   ]
+  },
+  "p25-robustes": {
+   "page": 25,
+   "title": "Sporée ocre à brune : espèces moyennes à robustes",
+   "question": "Quelle est l'odeur et la couleur des lames ?",
+   "choices": [
+    {
+     "label": "Odeur de radis ou de produit chimique ; lames de couleur pâle, chapeau brun-roux, sommet du pied ponctué de blanc",
+     "hint": "hébélomes, genre Hebeloma (toxique)",
+     "next": "p25-hebelomes"
+    },
+    {
+     "label": "Pas cette combinaison de caractères ; lames de couleur rouille à maturité",
+     "hint": "cortinaires, genre Cortinarius (toxiques ou suspects)",
+     "next": "p37"
+    }
+   ]
+  },
+  "p25-hebelomes": {
+   "page": 25,
+   "title": "Sporée ocre à brune : hébélomes",
+   "question": "Quelle est la taille et l'aspect de l'espèce ?",
+   "intro": "Genre Hebeloma : toxiques.",
+   "choices": [
+    {
+     "label": "Espèce robuste, chapeau brun-roux uniforme, pied écailleux",
+     "species": "hebeloma-sinapizans"
+    },
+    {
+     "label": "Espèce moyenne, chapeau ocre à marge blanche ; pied pruineux ou méchuleux",
+     "species": "hebeloma-crustuliniforme",
+     "img": "p25-2"
+    },
+    {
+     "label": "Espèce plutôt petite, forte odeur aromatique (« harpic »...)",
+     "species": "hebeloma-sacchariolens"
+    }
+   ]
+  },
+  "p26-e": {
+   "page": 26,
+   "title": "Sporée noire ou violacée",
+   "question": "Les lames se liquéfient-elles à maturité ?",
+   "intro": "E) Sporée noire ou violacée.",
+   "choices": [
+    {
+     "label": "Lames déliquescentes à maturité, d'abord blanches puis rosissant et noircissant à partir de la marge",
+     "hint": "coprins (genre Coprinus) ; les lames se liquéfient et salissent les doigts",
+     "next": "p26-coprins"
+    },
+    {
+     "label": "Lames non déliquescentes (sèches jusqu'à maturité complète)",
+     "next": "p26-nondeliq"
+    }
+   ]
+  },
+  "p26-coprins": {
+   "page": 26,
+   "title": "Sporée noire ou violacée : coprins",
+   "question": "Le chapeau est-il charnu et allongé, ou fragile et étalé en parasol ?",
+   "choices": [
+    {
+     "label": "Espèces charnues, à chapeau allongé",
+     "next": "p26-coprins-charnus"
+    },
+    {
+     "label": "Espèces fragiles, à chapeau vite étalé en parasol ; chapeau gris à centre brun, fortement plissé-sillonné",
+     "species": "coprinus-plicatilis"
+    }
+   ]
+  },
+  "p26-coprins-charnus": {
+   "page": 26,
+   "title": "Sporée noire ou violacée : coprins charnus",
+   "question": "Quel est l'aspect du chapeau ?",
+   "choices": [
+    {
+     "label": "Chapeau blanc, dilacéré en mèches",
+     "species": "coprinus-comatus",
+     "img": "p26-2"
+    },
+    {
+     "label": "Chapeau gris ardoisé, rugueux-ridé, gras au toucher",
+     "species": "coprinus-atramentarius",
+     "img": "p26-1"
+    },
+    {
+     "label": "Chapeau ocre orangé, strié-cannelé, généralement couvert de petits flocons blancs labiles",
+     "species": "coprinus-micaceus"
+    }
+   ]
+  },
+  "p26-nondeliq": {
+   "page": 26,
+   "title": "Sporée noire ou violacée : lames non déliquescentes",
+   "question": "Quel est l'aspect des lames et du chapeau ?",
+   "intro": "N.B. si les lames sont libres, voir le genre Agaricus (A. campestris) p. 36, à anneau souvent disparu chez l'adulte.",
+   "choices": [
+    {
+     "label": "Lames nuageuses (aspect pommelé en vue de profil), chapeau gris foncé à gris clair",
+     "hint": "panéoles, genre Panaeolus (toxique)",
+     "next": "p26-panaeoles"
+    },
+    {
+     "label": "Lames uniformes, noirâtres à maturité, chapeau sec",
+     "hint": "psathyrelles",
+     "next": "p26-psathyrelles"
+    },
+    {
+     "label": "Lames uniformes, verdâtres à maturité ; espèce en touffes, chapeau jaune +/- orangé",
+     "species": "hypholoma-fasciculare",
+     "note": "Spécimens à cortine fugace de Hypholoma fasciculare, voir p. 17."
+    },
+    {
+     "label": "Lames uniformes, gris-brun ; chapeau visqueux",
+     "hint": "strophaires",
+     "next": "p26-strophaires"
+    },
+    {
+     "label": "Lames libres",
+     "hint": "genre Agaricus (A. campestris), à anneau souvent disparu chez l'adulte",
+     "next": "p36"
+    }
+   ]
+  },
+  "p26-panaeoles": {
+   "page": 26,
+   "title": "Sporée noire ou violacée : panéoles",
+   "question": "Où pousse-t-il ?",
+   "intro": "Genre Panaeolus : toxiques.",
+   "choices": [
+    {
+     "label": "Dans les pâtures",
+     "species": "panaeolus-spp"
+    },
+    {
+     "label": "En pelouses urbaines",
+     "species": "panaeolus-foenisecii"
+    }
+   ]
+  },
+  "p26-psathyrelles": {
+   "page": 26,
+   "title": "Sporée noire ou violacée : psathyrelles",
+   "question": "Quelle est la couleur et la fragilité du chapeau ?",
+   "choices": [
+    {
+     "label": "Chapeau ocre à fauve, fibrilleux ou écailleux ; espèce souvent robuste",
+     "species": "lacrymaria-lacrymabunda"
+    },
+    {
+     "label": "Chapeau jaune sur le frais puis blanc comme le pied en séchant, lisse, très fragile",
+     "species": "psathyrella-candolleana"
+    },
+    {
+     "label": "Chapeau ocracé à brun chocolat, convexe, lisse ; peu fragile ; en touffes",
+     "species": "psathyrella-piluliformis"
+    },
+    {
+     "label": "Chapeau brun chocolat séchant en gris-rose pâle, conique ; très fragile",
+     "species": "psathyrella-conopilus"
+    }
+   ]
+  },
+  "p26-strophaires": {
+   "page": 26,
+   "title": "Sporée noire ou violacée : strophaires",
+   "question": "Quelle est la couleur du chapeau ?",
+   "choices": [
+    {
+     "label": "Chapeau et pied bleu-vert, décolorants",
+     "species": "stropharia-pseudocyanea",
+     "img": "p26-1b"
+    },
+    {
+     "label": "Chapeau gris mastic",
+     "species": "stropharia-inuncta"
+    }
+   ]
+  },
+  "p27": {
+   "page": 27,
+   "title": "Lactaires",
+   "question": "Quelle est la couleur du chapeau ?",
+   "choices": [
+    {
+     "label": "Chapeau et pied blancs, éventuellement tachés de jaune ou de rose",
+     "next": "p27-blancs"
+    },
+    {
+     "label": "Chapeau coloré, à zones concentriques",
+     "next": "p27-zones",
+     "img": "p27-3"
+    },
+    {
+     "label": "Chapeau coloré, de couleur uniforme (ou pâlissant vers la marge)",
+     "next": "p27-uniforme"
+    }
+   ]
+  },
+  "p27-blancs": {
+   "page": 27,
+   "title": "Lactaires : chapeau et pied blancs",
+   "question": "Comment sont les lames ?",
+   "choices": [
+    {
+     "label": "Lames blanches extrêmement serrées, chapeau non velouté",
+     "species": "lactarius-piperatus",
+     "img": "p27-a"
+    },
+    {
+     "label": "Lames blanches peu serrées, chapeau velouté",
+     "species": "lactarius-vellereus"
+    },
+    {
+     "label": "Lames crème rosé ou franchement roses",
+     "species": "lactarius-controversus"
+    }
+   ]
+  },
+  "p27-zones": {
+   "page": 27,
+   "title": "Lactaires : chapeau coloré à zones concentriques",
+   "question": "La marge du chapeau est-elle poilue ?",
+   "choices": [
+    {
+     "label": "Marge poilue",
+     "next": "p27-zones-poilue"
+    },
+    {
+     "label": "Marge lisse",
+     "next": "p27-zones-lisse"
+    }
+   ]
+  },
+  "p27-zones-poilue": {
+   "page": 27,
+   "title": "Lactaires zonés : marge poilue",
+   "question": "Quelle est la couleur du chapeau ?",
+   "choices": [
+    {
+     "label": "Rose jambon, rougeâtre ou fauve",
+     "species": "lactarius-torminosus"
+    },
+    {
+     "label": "Rose très pâle",
+     "hint": "sous bouleaux, souvent dans les pelouses",
+     "species": "lactarius-pubescens",
+     "img": "p27-2"
+    }
+   ]
+  },
+  "p27-zones-lisse": {
+   "page": 27,
+   "title": "Lactaires zonés : marge lisse",
+   "question": "Comment est le lait ?",
+   "choices": [
+    {
+     "label": "Lait orangé à vineux",
+     "species": "lactarius-deliciosus"
+    },
+    {
+     "label": "Lait blanc, immuable",
+     "next": "p27-zones-lait-blanc"
+    },
+    {
+     "label": "Lait blanc, jaunissant en 10 secondes",
+     "hint": "chapeau rosâtre",
+     "species": "lactarius-chrysorrheus"
+    },
+    {
+     "label": "Lait blanc, devenant violet en 1-2 minutes",
+     "species": "lactarius-uvidus"
+    }
+   ]
+  },
+  "p27-zones-lait-blanc": {
+   "page": 27,
+   "title": "Lactaires zonés à lait blanc immuable",
+   "question": "Quelle est la couleur du chapeau ?",
+   "choices": [
+    {
+     "label": "Chapeau gris cendré, visqueux sur le frais",
+     "species": "lactarius-blennius"
+    },
+    {
+     "label": "Chapeau bronze (gris-verdâtre sombre)",
+     "species": "lactarius-necator"
+    },
+    {
+     "label": "Chapeau jaune à orangé",
+     "species": "lactarius-zonarius"
+    },
+    {
+     "label": "Chapeau rougeâtre, odeur de punaise (ou de wassingue)",
+     "species": "lactarius-quietus",
+     "img": "p27-3"
+    }
+   ]
+  },
+  "p27-uniforme": {
+   "page": 27,
+   "title": "Lactaires : chapeau de couleur uniforme",
+   "question": "La marge du chapeau est-elle poilue ?",
+   "choices": [
+    {
+     "label": "Marge poilue",
+     "hint": "chapeau rose très pâle, lait rare ; sous bouleaux, souvent dans les pelouses",
+     "species": "lactarius-pubescens",
+     "img": "p27-2"
+    },
+    {
+     "label": "Marge lisse",
+     "next": "p27-lisse"
+    }
+   ]
+  },
+  "p27-lisse": {
+   "page": 27,
+   "title": "Lactaires uniformes : marge lisse",
+   "question": "Le chapeau est-il sec ou lisse au toucher ?",
+   "choices": [
+    {
+     "label": "Chapeau sec au toucher",
+     "hint": "feutré, rugueux, squamuleux ou mamelonné",
+     "next": "p27-sec"
+    },
+    {
+     "label": "Chapeau lisse au toucher, gras ou visqueux",
+     "hint": "plat ou déprimé (page 28)",
+     "next": "p28-lisse"
+    }
+   ]
+  },
+  "p27-sec": {
+   "page": 27,
+   "title": "Lactaires à chapeau sec au toucher",
+   "question": "Le chapeau est-il gris ou jaune à brun-rouge ?",
+   "choices": [
+    {
+     "label": "Chapeau gris",
+     "next": "p27-gris"
+    },
+    {
+     "label": "Chapeau jaune pâle, ocre clair à brun-rouge, sans gris",
+     "next": "p27-jaune"
+    }
+   ]
+  },
+  "p27-gris": {
+   "page": 27,
+   "title": "Lactaires secs à chapeau gris",
+   "question": "Quelle est l'odeur et le lait ?",
+   "choices": [
+    {
+     "label": "Odeur de noix de coco",
+     "hint": "lait peu abondant, ne laissant pas de trace en séchant",
+     "species": "lactarius-glyciosmus"
+    },
+    {
+     "label": "Odeur de bois de crayon",
+     "hint": "lait abondant, séchant en traces roses en 2-3 min (la chair rosit aussi)",
+     "species": "lactarius-azonites"
+    },
+    {
+     "label": "Sans odeur notable",
+     "hint": "lait séchant en dépôts gris sur les lames",
+     "species": "lactarius-vietus"
+    }
+   ]
+  },
+  "p27-jaune": {
+   "page": 27,
+   "title": "Lactaires secs jaune pâle à brun-rouge",
+   "question": "Comment est la base du pied ?",
+   "choices": [
+    {
+     "label": "Base du pied rouge vineux",
+     "next": "p27-pied-vineux"
+    },
+    {
+     "label": "Base du pied non spécialement colorée ou sans tons vineux",
+     "next": "p27-pied-non-vineux"
+    }
+   ]
+  },
+  "p27-pied-vineux": {
+   "page": 27,
+   "title": "Lactaires secs : base du pied rouge vineux",
+   "question": "Quelle est l'odeur ?",
+   "choices": [
+    {
+     "label": "Odeur de « viandox » (ou céleri)",
+     "hint": "chapeau rougeâtre",
+     "species": "lactarius-camphoratus"
+    },
+    {
+     "label": "Odeur de punaise (ou wassingue)",
+     "hint": "chapeau gris-ocre terne",
+     "species": "lactarius-quietus",
+     "img": "p27-3"
+    }
+   ]
+  },
+  "p27-pied-non-vineux": {
+   "page": 27,
+   "title": "Lactaires secs : base du pied non vineuse",
+   "question": "Comment est le mamelon du chapeau ?",
+   "choices": [
+    {
+     "label": "Chapeau à mamelon aigu, brun-rouge, rugueux au toucher",
+     "species": "lactarius-rufus"
+    },
+    {
+     "label": "Chapeau à mamelon bas ou à peine sensible, jaune pâle à orangé",
+     "next": "p27-mamelon-bas"
+    }
+   ]
+  },
+  "p27-mamelon-bas": {
+   "page": 27,
+   "title": "Lactaires secs à mamelon bas, jaune pâle à orangé",
+   "question": "Quelle est la taille de l'espèce ?",
+   "choices": [
+    {
+     "label": "Grosse espèce dépassant 5 cm de diamètre de chapeau",
+     "hint": "odeur forte de céleri ; lait incolore",
+     "species": "lactarius-helvus"
+    },
+    {
+     "label": "Espèce moyenne à chair et lames rosissantes à l'air",
+     "hint": "odeur de bois de crayon",
+     "species": "lactarius-pterosporus"
+    },
+    {
+     "label": "Espèces petites et grêles, à lait blanc non rosissant",
+     "hint": "groupe difficile ! (page suivante)",
+     "next": "p28-petites"
+    }
+   ]
+  },
+  "p28-petites": {
+   "page": 28,
+   "title": "Lactaires petits et grêles à lait blanc non rosissant",
+   "question": "Quelle est la couleur du chapeau ?",
+   "intro": "Groupe difficile !",
+   "choices": [
+    {
+     "label": "Chapeau jaune au bord, orangé à roux au centre",
+     "species": "lactarius-subsericatus"
+    },
+    {
+     "label": "Chapeau de couleur à peu près uniforme",
+     "next": "p28-uniforme"
+    }
+   ]
+  },
+  "p28-uniforme": {
+   "page": 28,
+   "title": "Lactaires petits : chapeau de couleur uniforme",
+   "question": "Quelle est la couleur du chapeau et du pied ?",
+   "choices": [
+    {
+     "label": "Chapeau gris terne à brun sombre",
+     "next": "p28-gris"
+    },
+    {
+     "label": "Chapeau jaune pâle à ocre clair, souvent ridé au centre",
+     "hint": "pied concolore ; petite espèce fragile",
+     "species": "lactarius-tabidus"
+    },
+    {
+     "label": "Chapeau jaune orangé ou brun-orangé terne uniforme",
+     "hint": "pied plus rouge vers la base",
+     "species": "lactarius-lacunarum"
+    },
+    {
+     "label": "Chapeau et pied orangé vif uniforme",
+     "species": "lactarius-aurantiacus"
+    }
+   ]
+  },
+  "p28-gris": {
+   "page": 28,
+   "title": "Lactaires petits à chapeau gris terne à brun sombre",
+   "question": "Comment est le lait ?",
+   "choices": [
+    {
+     "label": "Lait séreux (translucide)",
+     "hint": "odeur de punaise",
+     "species": "lactarius-cimicarius"
+    },
+    {
+     "label": "Lait blanc",
+     "hint": "odeur faible, de caoutchouc",
+     "species": "lactarius-subdulcis"
+    }
+   ]
+  },
+  "p28-lisse": {
+   "page": 28,
+   "title": "Lactaires à chapeau lisse au toucher",
+   "question": "Quelle est la couleur du chapeau ?",
+   "choices": [
+    {
+     "label": "Espèces grises, brunes ou violacées",
+     "next": "p28-gris-brun"
+    },
+    {
+     "label": "Espèces ocre, jaunes, orangées, fauves, brun-rouge",
+     "hint": "reprendre « Chapeau sec au toucher » p. 27",
+     "next": "p27-sec"
+    }
+   ]
+  },
+  "p28-gris-brun": {
+   "page": 28,
+   "title": "Lactaires lisses gris, bruns ou violacés",
+   "question": "Comment sont les lames ?",
+   "choices": [
+    {
+     "label": "Lames ocracées, espacées",
+     "hint": "chapeau gris pâle à verdâtre",
+     "species": "lactarius-pyrogalus"
+    },
+    {
+     "label": "Lames pâles, serrées",
+     "next": "p28-lames-serrees"
+    }
+   ]
+  },
+  "p28-lames-serrees": {
+   "page": 28,
+   "title": "Lactaires lisses à lames pâles serrées",
+   "question": "Comment est le pied ?",
+   "choices": [
+    {
+     "label": "Pied creux, mou",
+     "next": "p28-pied-creux"
+    },
+    {
+     "label": "Pied plein ou très ferme",
+     "hint": "chapeau couleur bronze, pied > 2 cm de diam. ; sous bouleaux",
+     "species": "lactarius-turpis"
+    }
+   ]
+  },
+  "p28-pied-creux": {
+   "page": 28,
+   "title": "Lactaires lisses à pied creux, mou",
+   "question": "Quelle est la couleur du chapeau ?",
+   "choices": [
+    {
+     "label": "Chapeau verdâtre, pied < 2 cm de diam.",
+     "hint": "sous hêtres",
+     "species": "lactarius-blennius",
+     "img": "p28-5"
+    },
+    {
+     "label": "Chapeau violacé au début, devenant gris livide avec l'âge",
+     "hint": "sous bouleaux",
+     "species": "lactarius-trivialis"
+    }
+   ]
+  },
+  "p29": {
+   "page": 29,
+   "title": "Russules",
+   "question": "Y a-t-il régulièrement des lamellules entre les lamelles ?",
+   "choices": [
+    {
+     "label": "Présence régulière de lamellules entre les lamelles",
+     "hint": "au moins 1 lamellule par lame",
+     "next": "p29-a"
+    },
+    {
+     "label": "Lamellules absentes ou rares",
+     "hint": "moins d'une par grande lame",
+     "next": "p29-b"
+    }
+   ]
+  },
+  "p29-a": {
+   "page": 29,
+   "title": "Russules à lamellules régulières",
+   "question": "Quelle est la couleur du chapeau et du pied ?",
+   "intro": "Note : ces espèces à chair dure sont courantes et faciles à reconnaître. Attention aux lactaires taris et aux champignons fibreux qui cassent trop facilement !",
+   "choices": [
+    {
+     "label": "Chapeau et pied blancs, chair blanche immuable",
+     "hint": "chapeau vite en entonnoir (lactarioïde), blanc ou sale",
+     "species": "russula-delica"
+    },
+    {
+     "label": "Chapeau et pied gris, brunâtres, noirâtres ; lames espacées, rougissement vif à la coupe (1-3 min)",
+     "hint": "chair rougissant ou noircissant au grattage",
+     "species": "russula-nigricans"
+    },
+    {
+     "label": "Chapeau et pied gris, brunâtres, noirâtres ; lames serrées, rougissement faible",
+     "hint": "chair rougissant ou noircissant au grattage",
+     "species": "russula-densifolia"
+    },
+    {
+     "label": "Chapeau cuivré, violacé ou verdâtre, pied blanc jaunissant",
+     "hint": "lamellules assez rares",
+     "species": "russula-artesiana"
+    }
+   ]
+  },
+  "p29-b": {
+   "page": 29,
+   "title": "Russules à lamellules absentes ou rares",
+   "question": "Quelle est la couleur de la sporée ?",
+   "choices": [
+    {
+     "label": "Sporée pâle",
+     "hint": "lames blanches ou crème pâle",
+     "next": "p29-sporee-pale"
+    },
+    {
+     "label": "Sporée ocre à jaune",
+     "hint": "contrastant avec la blancheur du pied ou de la chair",
+     "next": "p30-sporee-ocre"
+    }
+   ]
+  },
+  "p29-sporee-pale": {
+   "page": 29,
+   "title": "Russules à sporée pâle",
+   "question": "Comment est le bord du chapeau ?",
+   "choices": [
+    {
+     "label": "Bord du chapeau strié-cannelé sur au moins 5 mm de long ; une odeur nette",
+     "next": "p29-strie"
+    },
+    {
+     "label": "Bord du chapeau lisse, ou autres caractères non compatibles",
+     "next": "p29-lisse"
+    }
+   ]
+  },
+  "p29-strie": {
+   "page": 29,
+   "title": "Russules à sporée pâle : bord strié-cannelé",
+   "question": "Quelle est la couleur du chapeau et l'odeur ?",
+   "choices": [
+    {
+     "label": "Chapeau jaune ou paille, odeur désagréable de caoutchouc brûlé",
+     "species": "russula-foetens"
+    },
+    {
+     "label": "Chapeau jaune ou paille, odeur de laurier-cerise, d'amandes amères",
+     "species": "russula-laurocerasi",
+     "img": "p29-1"
+    },
+    {
+     "label": "Chapeau gris, odeur de plastique",
+     "hint": "base du pied tachée de rouge",
+     "species": "russula-pectinatoides"
+    },
+    {
+     "label": "Chapeau gris, odeur d'artichaut",
+     "hint": "pas de rouge à la base",
+     "species": "russula-amoenolens",
+     "img": "p29-1"
+    }
+   ]
+  },
+  "p29-lisse": {
+   "page": 29,
+   "title": "Russules à sporée pâle : bord lisse",
+   "question": "Le pied est-il ferme et robuste, ou tendre et fragile ?",
+   "choices": [
+    {
+     "label": "Pied ferme, blanc à la base, robuste (> 1,5 cm de diam.)",
+     "next": "p29-pied-ferme",
+     "img": "p29-a"
+    },
+    {
+     "label": "Pied tendre, mou ou fragile, < 1,5 (2) cm de diamètre",
+     "hint": "page 30",
+     "next": "p30-pied-tendre"
+    }
+   ]
+  },
+  "p29-pied-ferme": {
+   "page": 29,
+   "title": "Russules à pied ferme et robuste",
+   "question": "Y a-t-il du rouge ou du rose sur le chapeau ?",
+   "choices": [
+    {
+     "label": "Pas de couleur rouge (tout au plus lilacin)",
+     "hint": "espèces à saveur douce",
+     "next": "p29-pas-rouge"
+    },
+    {
+     "label": "Couleurs rouge ou rose présentes",
+     "next": "p29-rouge"
+    }
+   ]
+  },
+  "p29-pas-rouge": {
+   "page": 29,
+   "title": "Russules robustes sans rouge",
+   "question": "Quelle est la couleur du chapeau ?",
+   "choices": [
+    {
+     "label": "Chapeau jaune à jaune-vert uniforme",
+     "hint": "très commune",
+     "species": "russula-ochroleuca"
+    },
+    {
+     "label": "Chapeau brun-rosé, rose « jambon »",
+     "hint": "revêtement typiquement rétréci au niveau de la marge et laissant dépasser les lames",
+     "species": "russula-vesca"
+    },
+    {
+     "label": "Chapeau entièrement craquelé, verdâtre",
+     "species": "russula-virescens"
+    },
+    {
+     "label": "Chapeau vert, lisse ; pied court à base pointue",
+     "species": "russula-heterophylla"
+    },
+    {
+     "label": "Chapeau vert, lisse ; pied long (> au diamètre du chapeau)",
+     "species": "russula-aeruginea"
+    },
+    {
+     "label": "Chapeau mêlé de vert, violacé, rose etc. ; lames molles, non cassantes, à arête blanche",
+     "species": "russula-cyanoxantha"
+    },
+    {
+     "label": "Chapeau mêlé de vert, violacé, rose etc. ; lames cassantes sous les doigts, à arête rose vers la marge",
+     "species": "russula-grisea"
+    }
+   ]
+  },
+  "p29-rouge": {
+   "page": 29,
+   "title": "Russules robustes avec du rouge ou du rose",
+   "question": "Le revêtement du chapeau se sépare-t-il ?",
+   "choices": [
+    {
+     "label": "Revêtement du chapeau non séparable",
+     "next": "p29-non-separable"
+    },
+    {
+     "label": "Revêtement du chapeau séparable",
+     "next": "p29-separable"
+    }
+   ]
+  },
+  "p29-non-separable": {
+   "page": 29,
+   "title": "Russules robustes : revêtement non séparable",
+   "question": "Comment est la surface du chapeau ?",
+   "choices": [
+    {
+     "label": "Surface veloutée, chair compacte à saveur rappelant le bois de crayon",
+     "hint": "pied dur comme du plâtre",
+     "species": "russula-lepida"
+    },
+    {
+     "label": "Surface luisante, odeur fruitée",
+     "hint": "lames tachées de jaune dans les blessures (lent)",
+     "species": "russula-luteotacta"
+    }
+   ]
+  },
+  "p29-separable": {
+   "page": 29,
+   "title": "Russules robustes : revêtement séparable",
+   "question": "Comment est le pied et la couleur du chapeau ?",
+   "choices": [
+    {
+     "label": "Pied blanc, chapeau rouge sombre à noirâtre",
+     "hint": "parfois brouillé de vert",
+     "species": "russula-atropurpurea"
+    },
+    {
+     "label": "Pied blanc grisonnant, chapeau rose bonbon",
+     "hint": "souvent en partie (voire totalement) décoloré en gris pâle ou crème",
+     "species": "russula-exalbicans"
+    },
+    {
+     "label": "Pied teinté de rose, chapeau rose cuivré décolorant au centre",
+     "hint": "arête des lames rose",
+     "species": "russula-velenovskyi"
+    }
+   ]
+  },
+  "p30-pied-tendre": {
+   "page": 30,
+   "title": "Russules à sporée pâle : pied tendre, mou ou fragile",
+   "question": "Quelle est la couleur du chapeau ?",
+   "choices": [
+    {
+     "label": "Chapeau à jaune dominant ou uniforme",
+     "next": "p30-jaune"
+    },
+    {
+     "label": "Chapeau lilacin, violet, ± bariolé (polychrome)",
+     "next": "p30-polychrome"
+    },
+    {
+     "label": "Chapeau rouge vif à orangé",
+     "hint": "éventuellement décoloré au centre ; pied généralement blanc",
+     "next": "p30-rouge-vif"
+    },
+    {
+     "label": "Chapeau rouge-pourpre (souvent à centre noirâtre)",
+     "next": "p30-rouge-pourpre"
+    }
+   ]
+  },
+  "p30-jaune": {
+   "page": 30,
+   "title": "Russules à pied tendre : chapeau jaune",
+   "question": "Quelle est la taille et l'odeur ?",
+   "choices": [
+    {
+     "label": "Espèce grande ou moyenne (8-12 cm) à cuticule lisse d'un jaune ocracé",
+     "hint": "contrastant avec les lames et le pied blancs ; odeur faible ; très fréquente",
+     "species": "russula-ochroleuca"
+    },
+    {
+     "label": "Espèce petite ou moyenne (5-7 cm) entièrement ocre-fauve",
+     "hint": "odeur forte (compote de pomme)",
+     "species": "russula-fellea"
+    }
+   ]
+  },
+  "p30-polychrome": {
+   "page": 30,
+   "title": "Russules à pied tendre : chapeau lilacin, violet, bariolé",
+   "question": "Le centre du chapeau est-il vert ?",
+   "choices": [
+    {
+     "label": "Fragile, à centre vert, sous feuillus",
+     "species": "russula-fragilis"
+    },
+    {
+     "label": "Plus charnue, chapeau pourpré ou bariolé sans teinte verte",
+     "species": "russula-knauthii"
+    }
+   ]
+  },
+  "p30-rouge-vif": {
+   "page": 30,
+   "title": "Russules à pied tendre : chapeau rouge vif à orangé",
+   "question": "De quelle couleur est la chair sous le revêtement ?",
+   "intro": "Revêtement séparable.",
+   "choices": [
+    {
+     "label": "Chair blanche sous le revêtement",
+     "species": "russula-sylvestris"
+    },
+    {
+     "label": "Chair rose sous le revêtement ; pied lisse, odeur fruitée, saveur âcre",
+     "species": "russula-fageticola"
+    },
+    {
+     "label": "Chair rose sous le revêtement ; pied pruineux au sommet, odeur nulle, saveur douce",
+     "species": "russula-aurora"
+    }
+   ]
+  },
+  "p30-rouge-pourpre": {
+   "page": 30,
+   "title": "Russules à pied tendre : chapeau rouge-pourpre",
+   "question": "Comment se tache le pied ?",
+   "choices": [
+    {
+     "label": "Pied blanc taché de rouille vers la base, grisonnant, saveur peu âcre",
+     "hint": "espèce assez friable",
+     "species": "russula-atropurpurea"
+    },
+    {
+     "label": "Mêmes caractères mais pied se tachant uniformément de jaune",
+     "hint": "espèce très compacte",
+     "species": "russula-artesiana"
+    }
+   ]
+  },
+  "p30-sporee-ocre": {
+   "page": 30,
+   "title": "Russules à sporée ocre à jaune",
+   "question": "Quelle est la couleur du pied ?",
+   "choices": [
+    {
+     "label": "Pied coloré (rose, violacé), au moins à la base ou sous les lames",
+     "next": "p30-pied-colore"
+    },
+    {
+     "label": "Pied jaune vif uniforme, comme l'arête des lames",
+     "species": "russula-aurea"
+    },
+    {
+     "label": "Pied blanc, mais pouvant brunir ou jaunir depuis la base",
+     "next": "p30-pied-blanc"
+    }
+   ]
+  },
+  "p30-pied-colore": {
+   "page": 30,
+   "title": "Russules à sporée ocre : pied coloré",
+   "question": "Quelle est l'odeur ?",
+   "choices": [
+    {
+     "label": "Odeur fruitée, de pomme fraîche",
+     "next": "p30-pomme"
+    },
+    {
+     "label": "Odeur nulle",
+     "next": "p30-odeur-nulle"
+    }
+   ]
+  },
+  "p30-pomme": {
+   "page": 30,
+   "title": "Russules à pied coloré, odeur de pomme fraîche",
+   "question": "Quelle est la couleur du chapeau ?",
+   "choices": [
+    {
+     "label": "Chapeau violacé sombre (± verdâtre ou lilacin) ; pied violacé",
+     "next": "p30-pomme-violace"
+    },
+    {
+     "label": "Chapeau rouge-rose",
+     "hint": "lames ochracées assez pâles ; lames décurrentes, sous pins",
+     "species": "russula-sanguinaria"
+    }
+   ]
+  },
+  "p30-pomme-violace": {
+   "page": 30,
+   "title": "Russules à chapeau violacé sombre, odeur de pomme",
+   "question": "Quelles sont les lames et l'habitat ?",
+   "choices": [
+    {
+     "label": "Lames ocracé terne, sous épicéas",
+     "species": "russula-queletii"
+    },
+    {
+     "label": "Lames à net reflet jaune, sous les pins",
+     "species": "russula-drimeia"
+    }
+   ]
+  },
+  "p30-odeur-nulle": {
+   "page": 30,
+   "title": "Russules à pied coloré, sans odeur",
+   "question": "Le chapeau est-il strié ?",
+   "choices": [
+    {
+     "label": "Chapeau strié-cannelé au bord",
+     "hint": "pied fragile, rosé vers la base",
+     "species": "russula-nitida"
+    },
+    {
+     "label": "Chapeau non strié ; pied robuste, rose jusque sous les lames",
+     "next": "p30-non-strie"
+    }
+   ]
+  },
+  "p30-non-strie": {
+   "page": 30,
+   "title": "Russules à chapeau non strié, pied robuste rose",
+   "question": "Y a-t-il une odeur ou un brunissement ?",
+   "choices": [
+    {
+     "label": "Pas d'odeur, base du pied non brunissante",
+     "species": "russula-olivacea"
+    },
+    {
+     "label": "Odeur de crustacés et brunissement à la base du pied",
+     "species": "russula-xerampelina"
+    }
+   ]
+  },
+  "p30-pied-blanc": {
+   "page": 30,
+   "title": "Russules à sporée ocre : pied blanc",
+   "question": "Le pied est-il taché de jaune ?",
+   "choices": [
+    {
+     "label": "Pied taché ou sali de jaune à la base ou à mi-hauteur",
+     "next": "p30-pied-jaune-tache"
+    },
+    {
+     "label": "Pied blanc immuable",
+     "next": "p30-pied-immuable"
+    }
+   ]
+  },
+  "p30-pied-jaune-tache": {
+   "page": 30,
+   "title": "Russules à pied blanc taché de jaune",
+   "question": "Quelle est l'odeur ?",
+   "choices": [
+    {
+     "label": "Odeur forte de miel à la base",
+     "hint": "espèce assez charnue à pied dur",
+     "species": "russula-melliolens"
+    },
+    {
+     "label": "Odeur à peine fruitée",
+     "hint": "espèce fragile à pied mou",
+     "species": "russula-versicolor"
+    }
+   ]
+  },
+  "p30-pied-immuable": {
+   "page": 30,
+   "title": "Russules à pied blanc immuable",
+   "question": "Quelle est la couleur du chapeau ?",
+   "choices": [
+    {
+     "label": "Chapeau jaune, ou dominé par le jaune",
+     "next": "p30-chapeau-jaune"
+    },
+    {
+     "label": "Chapeau rouge carminé au bord, décoloré au centre",
+     "hint": "arête des lames roses vers la marge, pied ferme",
+     "species": "russula-velenovskyi",
+     "note": "À pied mou fragile, voir Russula risigallina."
+    },
+    {
+     "label": "Chapeau rose, décolorant en gris",
+     "hint": "pied blanc grisonnant avec l'âge ; sous bouleaux",
+     "species": "russula-exalbicans"
+    },
+    {
+     "label": "Chapeau lilas ou violacé",
+     "hint": "toujours sous pins",
+     "next": "p31-lilas"
+    },
+    {
+     "label": "Polychrome (couleurs mêlées ou panachées : violacé, rose, jaune, verdâtre)",
+     "hint": "toujours sous feuillus",
+     "next": "p31-polychrome"
+    }
+   ]
+  },
+  "p30-chapeau-jaune": {
+   "page": 30,
+   "title": "Russules à pied blanc immuable : chapeau jaune",
+   "question": "Le pied est-il ferme ou grêle ?",
+   "choices": [
+    {
+     "label": "Pied ferme, espèce moyenne à grande",
+     "hint": "sporée ocre ; espèce noircissante par altération",
+     "species": "russula-claroflava"
+    },
+    {
+     "label": "Pied grêle, mou, petites espèces à chapeau < 4 cm de diamètre",
+     "hint": "sporée jaune profond",
+     "next": "p30-grele"
+    }
+   ]
+  },
+  "p30-grele": {
+   "page": 30,
+   "title": "Russules jaunes à pied grêle et mou",
+   "question": "Quelle est la couleur du chapeau ?",
+   "choices": [
+    {
+     "label": "Chapeau rose au bord, jaune au centre",
+     "species": "russula-risigallina"
+    },
+    {
+     "label": "Chapeau jaune uni",
+     "species": "russula-acetolens"
+    }
+   ]
+  },
+  "p31-lilas": {
+   "page": 31,
+   "title": "Russules à chapeau lilas ou violacé (sous pins)",
+   "question": "Quelle est la couleur du chapeau ?",
+   "choices": [
+    {
+     "label": "Violet sombre, mamelon toujours présent au centre",
+     "species": "russula-amara"
+    },
+    {
+     "label": "Violet ou rosé, à marge pâle (cocarde)",
+     "hint": "chapeau visqueux au centre, pruineux à la marge, pied à odeur (faible) d'iodoforme à la base",
+     "species": "russula-turci"
+    }
+   ]
+  },
+  "p31-polychrome": {
+   "page": 31,
+   "title": "Russules polychromes (sous feuillus)",
+   "question": "Comment sont les lames ?",
+   "choices": [
+    {
+     "label": "Lames jaune clair très friables, saveur douce",
+     "species": "russula-romelii"
+    },
+    {
+     "label": "Lames jaunes vif peu friables, saveur âcre",
+     "next": "p31-polychrome-acre"
+    }
+   ]
+  },
+  "p31-polychrome-acre": {
+   "page": 31,
+   "title": "Russules polychromes à lames jaune vif, saveur âcre",
+   "question": "La marge du chapeau est-elle striée ?",
+   "choices": [
+    {
+     "label": "Chapeau non strié",
+     "species": "russula-decipiens"
+    },
+    {
+     "label": "Marge nettement striée",
+     "species": "russula-cuprea"
+    }
+   ]
+  },
+  "p32": {
+   "page": 32,
+   "title": "Amanites",
+   "question": "Quelle est la nature du voile général à la base du pied ?",
+   "intro": "Les espèces sans anneau sont traitées séparément p. 14.",
+   "choices": [
+    {
+     "label": "Sans anneau",
+     "hint": "espèces traitées séparément",
+     "next": "p14",
+     "note": "Voir p. 14 (voile général sans anneau)."
+    },
+    {
+     "label": "Volve en sac",
+     "hint": "chapeau nu ou avec de larges lambeaux ; jamais d'odeur de radis",
+     "next": "p32-volve",
+     "img": "picto-volve-sac"
+    },
+    {
+     "label": "Voile général différent, bulbe circoncis",
+     "hint": "bulbe tronqué + restes de voile sur le chapeau, marge non striée ; odeur constante de radis",
+     "next": "p32-circoncis",
+     "img": "picto-volve-circoncise"
+    },
+    {
+     "label": "Voile général différent, bulbe différent (nu ou garni de flocons) ou absent",
+     "hint": "en général des débris sur le chapeau ; voir page suivante",
+     "next": "p33-bulbe",
+     "img": "p32-c"
+    }
+   ]
+  },
+  "p32-volve": {
+   "page": 32,
+   "title": "Amanites : volve en sac",
+   "question": "Quelle est la couleur du chapeau ?",
+   "intro": "Chapeau nu ou avec de larges lambeaux. Jamais d'odeur de radis.",
+   "choices": [
+    {
+     "label": "Chapeau vert",
+     "hint": "avec vergetures radiales",
+     "species": "amanita-phalloides",
+     "img": "p32-1"
+    },
+    {
+     "label": "Chapeau blanc",
+     "next": "p32-blanc"
+    },
+    {
+     "label": "Chapeau orangé",
+     "hint": "lames et chair jaunes ; espèce méridionale",
+     "species": "amanita-caesarea",
+     "img": "p32-3"
+    }
+   ]
+  },
+  "p32-blanc": {
+   "page": 32,
+   "title": "Amanites à volve en sac : chapeau blanc",
+   "question": "Quelle forme de chapeau et de pied ?",
+   "intro": "Attention : les amanites blanches à volve comptent des espèces mortelles.",
+   "choices": [
+    {
+     "label": "Chapeau conique ou flexueux",
+     "hint": "pied pelucheux",
+     "species": "amanita-virosa",
+     "img": "p32-2"
+    },
+    {
+     "label": "Chapeau plat",
+     "hint": "pied lisse vaguement chiné",
+     "species": "amanita-phalloides-alba"
+    },
+    {
+     "label": "Anneau crémeux",
+     "hint": "très grosse espèce charnue",
+     "species": "amanita-ovoidea"
+    }
+   ]
+  },
+  "p32-circoncis": {
+   "page": 32,
+   "title": "Amanites : bulbe circoncis",
+   "question": "Quelle est la couleur du chapeau ?",
+   "intro": "Bulbe tronqué + restes de voile sur le chapeau, marge non striée. Odeur constante de radis.",
+   "choices": [
+    {
+     "label": "Chapeau jaune",
+     "species": "amanita-citrina",
+     "img": "p32-6"
+    },
+    {
+     "label": "Chapeau blanc",
+     "species": "amanita-citrina-alba"
+    },
+    {
+     "label": "Chapeau brun-gris",
+     "species": "amanita-porphyria"
+    }
+   ]
+  },
+  "p33-bulbe": {
+   "page": 33,
+   "title": "Amanites : bulbe différent ou absent",
+   "question": "L'anneau est-il strié sur sa face supérieure ?",
+   "intro": "Suite de la page 32 (B2) : bulbe nu ou garni de flocons, ou absent ; en général des débris de voile sur le chapeau.",
+   "choices": [
+    {
+     "label": "Anneau non strié sur la face supérieure",
+     "hint": "restes de voile général sous forme de bourrelets à la base du pied et de verrues piléiques",
+     "next": "p33-non-strie"
+    },
+    {
+     "label": "Anneau strié sur la face supérieure",
+     "hint": "restes de voile piléique importants, souvent en larges plaques ; marge du chapeau non striée",
+     "next": "p33-strie"
+    }
+   ]
+  },
+  "p33-non-strie": {
+   "page": 33,
+   "title": "Amanites : anneau non strié",
+   "question": "Quelle est la couleur du chapeau ?",
+   "intro": "Restes de voile général sous forme de bourrelets à la base du pied et de verrues piléiques.",
+   "choices": [
+    {
+     "label": "Chapeau rouge, strié",
+     "hint": "flocons blancs ou jaunes ; lames blanches",
+     "species": "amanita-muscaria",
+     "img": "p33-1"
+    },
+    {
+     "label": "Chapeau brun ou ocre, strié",
+     "hint": "flocons blancs",
+     "species": "amanita-pantherina",
+     "img": "p33-a"
+    },
+    {
+     "label": "Chapeau jaune, strié",
+     "hint": "anneau fugace et odeur nulle",
+     "species": "amanita-gemmata"
+    },
+    {
+     "label": "Chapeau blanc, non strié",
+     "hint": "flocons plats, anneau crémeux",
+     "species": "amanita-strobiliformis",
+     "note": "Attention aux grandes lépiotes (p. 35), à chapeau écailleux. Les écailles sont des excoriations de la surface ; les flocons de voile sont posés sur une surface lisse et peuvent se détacher sans cicatrice."
+    }
+   ]
+  },
+  "p33-strie": {
+   "page": 33,
+   "title": "Amanites : anneau strié",
+   "question": "Comment est la chair ?",
+   "intro": "Restes de voile piléique importants, souvent en larges plaques ; marge du chapeau non striée.",
+   "choices": [
+    {
+     "label": "Chair rosissante",
+     "hint": "aux blessures et à la base du pied ; pas d'odeur",
+     "species": "amanita-rubescens",
+     "img": "p33-3"
+    },
+    {
+     "label": "Chair immuable ou un peu brunissante",
+     "hint": "odeur de radis",
+     "species": "amanita-spissa",
+     "img": "p33-4",
+     "note": "Comestible cuite, mais attention aux confusions possibles avec l'amanite panthère !"
+    }
+   ]
+  },
+  "p34": {
+   "page": 34,
+   "title": "Hygrophores",
+   "question": "Où pousse le champignon ?",
+   "choices": [
+    {
+     "label": "Espèces des pelouses",
+     "next": "p34-pelouses"
+    },
+    {
+     "label": "Espèces forestières",
+     "hint": "genre Hygrophorus",
+     "next": "p34-foret"
+    }
+   ]
+  },
+  "p34-pelouses": {
+   "page": 34,
+   "title": "Hygrophores des pelouses",
+   "question": "Quelles sont les couleurs et la forme des lames ?",
+   "choices": [
+    {
+     "label": "Couleurs vives (jaune, orange, rouge)",
+     "hint": "lames adnées à presque libres ; genre Hygrocybe",
+     "next": "p34-hygrocybe"
+    },
+    {
+     "label": "Couleurs blanches ou ocres",
+     "hint": "lames décurrentes ; genre Cuphophyllus",
+     "next": "p34-cuphophyllus"
+    }
+   ]
+  },
+  "p34-hygrocybe": {
+   "page": 34,
+   "title": "Hygrocybe (couleurs vives)",
+   "question": "Quelle est la couleur et la forme du chapeau ?",
+   "choices": [
+    {
+     "label": "Espèce jaune",
+     "hint": "chapeau et pied visqueux",
+     "species": "hygrocybe-chlorophana"
+    },
+    {
+     "label": "Espèce rouge ou orangée, chair noircissante",
+     "hint": "chapeau conique, pointu",
+     "species": "hygrocybe-conica",
+     "img": "p34-2"
+    },
+    {
+     "label": "Espèce rouge ou orangée, chair non noircissante : grande espèce",
+     "hint": "chapeau conique",
+     "species": "hygrocybe-punicea",
+     "img": "p34-1"
+    },
+    {
+     "label": "Espèce rouge ou orangée, chair non noircissante : petite espèce",
+     "hint": "chapeau plat",
+     "species": "hygrocybe-coccinea"
+    },
+    {
+     "label": "Espèce très visqueuse",
+     "hint": "entièrement verte ou décolorant par endroits en jaune ou en rose",
+     "species": "hygrocybe-psittacina"
+    }
+   ]
+  },
+  "p34-cuphophyllus": {
+   "page": 34,
+   "title": "Cuphophyllus (blanc ou ocre, lames décurrentes)",
+   "question": "Quelle est la couleur du chapeau ?",
+   "choices": [
+    {
+     "label": "Entièrement blanc",
+     "species": "cuphophyllus-niveus"
+    },
+    {
+     "label": "Chapeau orangé",
+     "species": "cuphophyllus-pratensis",
+     "img": "p34-3"
+    }
+   ]
+  },
+  "p34-foret": {
+   "page": 34,
+   "title": "Hygrophores forestiers (Hygrophorus)",
+   "question": "Quelle est la couleur du chapeau ?",
+   "choices": [
+    {
+     "label": "Entièrement blanc",
+     "hint": "ou à peine rosé au centre",
+     "next": "p34-foret-blanc"
+    },
+    {
+     "label": "Chapeau rose à orangé, sec",
+     "next": "p34-foret-rose"
+    },
+    {
+     "label": "Chapeau brun, visqueux",
+     "next": "p34-foret-brun"
+    },
+    {
+     "label": "Chapeau gris",
+     "hint": "odeur d'amandes amères",
+     "species": "hygrophorus-agathosmus"
+    }
+   ]
+  },
+  "p34-foret-blanc": {
+   "page": 34,
+   "title": "Hygrophorus entièrement blancs",
+   "question": "Le chapeau est-il visqueux ou sec ?",
+   "choices": [
+    {
+     "label": "Espèce visqueuse",
+     "hint": "odeur fruitée ou écoeurante",
+     "species": "hygrophorus-eburneus"
+    },
+    {
+     "label": "Espèce sèche, charnue",
+     "species": "hygrophorus-penarius"
+    }
+   ]
+  },
+  "p34-foret-rose": {
+   "page": 34,
+   "title": "Hygrophorus à chapeau rose à orangé, sec",
+   "question": "Comment est le chapeau ?",
+   "choices": [
+    {
+     "label": "Chapeau lisse, orangé",
+     "species": "hygrophorus-nemoreus"
+    },
+    {
+     "label": "Chapeau moucheté de pourpre sur fond blanc",
+     "species": "hygrophorus-russula",
+     "img": "p34-4"
+    }
+   ]
+  },
+  "p34-foret-brun": {
+   "page": 34,
+   "title": "Hygrophorus à chapeau brun, visqueux",
+   "question": "Quelle est la couleur des lames ?",
+   "choices": [
+    {
+     "label": "Lames jaunes",
+     "hint": "sous les pins, en fin de saison",
+     "species": "hygrophorus-hypothejus"
+    },
+    {
+     "label": "Lames blanches",
+     "next": "p34-foret-brun-blanc"
+    }
+   ]
+  },
+  "p34-foret-brun-blanc": {
+   "page": 34,
+   "title": "Hygrophorus à chapeau brun et lames blanches",
+   "question": "Quelle est la taille de l'espèce et sous quel arbre pousse-t-elle ?",
+   "choices": [
+    {
+     "label": "Espèce charnue à pied chiné de brun",
+     "hint": "sous chênes",
+     "species": "hygrophorus-glutinifer",
+     "img": "p34-5"
+    },
+    {
+     "label": "Petite espèce à pied blanchâtre",
+     "hint": "sous noisetiers",
+     "species": "hygrophorus-lindtneri"
+    }
+   ]
+  },
+  "p35": {
+   "page": 35,
+   "title": "Lépiotes",
+   "question": "Quelle est la taille de la lépiote ?",
+   "choices": [
+    {
+     "label": "Grandes espèces",
+     "hint": "plus de 10 cm de hauteur et de diamètre ; genres Macrolepiota et Chlorophyllum",
+     "next": "p35-grandes"
+    },
+    {
+     "label": "Espèces petites, grêles ou fragiles",
+     "hint": "genre Lepiota au sens strict",
+     "next": "p35-petites"
+    }
+   ]
+  },
+  "p35-grandes": {
+   "page": 35,
+   "title": "Lépiotes : grandes espèces",
+   "question": "Comment est l'anneau ?",
+   "choices": [
+    {
+     "label": "Anneau charnu coulissant",
+     "hint": "chapeau à larges squames ; pied bulbeux",
+     "next": "p35-coulissant",
+     "img": "picto-anneau-coulissant"
+    },
+    {
+     "label": "Anneau plus fragile",
+     "next": "p35-fragile"
+    }
+   ]
+  },
+  "p35-coulissant": {
+   "page": 35,
+   "title": "Grandes lépiotes : anneau charnu coulissant",
+   "question": "Le pied est-il chiné ou lisse ?",
+   "choices": [
+    {
+     "label": "Pied chiné",
+     "hint": "chair blanche non ou peu brunissante au grattage",
+     "species": "macrolepiota-procera",
+     "img": "p35-1"
+    },
+    {
+     "label": "Pied lisse, chair rougissante : en forêt",
+     "hint": "squames concentriques sur le chapeau",
+     "species": "chlorophyllum-rhacodes",
+     "img": "p35-2"
+    },
+    {
+     "label": "Pied lisse, chair rougissante : dans les jardins, tas de compost, etc.",
+     "hint": "squames dilacérées radialement",
+     "species": "chlorophyllum-brunneum"
+    }
+   ]
+  },
+  "p35-fragile": {
+   "page": 35,
+   "title": "Grandes lépiotes : anneau plus fragile",
+   "question": "Quelle est la couleur du chapeau ?",
+   "choices": [
+    {
+     "label": "Chapeau blanc, excorié vers la marge",
+     "species": "macrolepiota-excoriata"
+    },
+    {
+     "label": "Chapeau blanc, entièrement lisse",
+     "hint": "lames parfois rosées",
+     "species": "leucoagaricus-leucothites",
+     "img": "p35-3"
+    },
+    {
+     "label": "Chapeau brun fauve, à écailles pyramidales assez aiguës, faciles à détacher",
+     "hint": "lames blanches très serrées ; odeur de caoutchouc",
+     "species": "echinoderma-asperum"
+    }
+   ]
+  },
+  "p35-petites": {
+   "page": 35,
+   "title": "Lépiotes : espèces petites, grêles ou fragiles",
+   "question": "Comment est l'anneau ?",
+   "choices": [
+    {
+     "label": "Anneau membraneux, formant une collerette nette ascendante",
+     "hint": "pied lisse en dessous ; chapeau à calotte centrale jaunâtre ; odeur forte de terre moisie",
+     "species": "lepiota-cristata",
+     "img": "p35-4"
+    },
+    {
+     "label": "Anneau non membraneux, parfois invisible",
+     "hint": "pied floconneux au moins sur la moitié inférieure",
+     "next": "p35-petites-b"
+    }
+   ]
+  },
+  "p35-petites-b": {
+   "page": 35,
+   "title": "Petites lépiotes : anneau non membraneux",
+   "question": "Comment est le chapeau ?",
+   "intro": "Attention : deux espèces de ce groupe sont mortelles.",
+   "choices": [
+    {
+     "label": "Chapeau pelucheux, blanc jaunâtre, à calotte centrale lisse",
+     "hint": "pied pelucheux blanc",
+     "species": "lepiota-clypeolaria"
+    },
+    {
+     "label": "Chapeau à squames brun purpurin",
+     "hint": "pied rosâtre avec des flocons pourpre-noir vers la base",
+     "species": "lepiota-brunneoincarnata",
+     "img": "p35-5"
+    },
+    {
+     "label": "Chapeau à squames peu marquées, rose clair sur fond blanc",
+     "hint": "pied rose pâle à flocons blancs",
+     "species": "lepiota-josserandii"
+    },
+    {
+     "label": "Chapeau brun-fauve, à écailles pyramidales aiguës, faciles à détacher",
+     "hint": "lames blanches très serrées ; odeur de caoutchouc",
+     "species": "echinoderma-asperum"
+    }
+   ]
+  },
+  "p36": {
+   "page": 36,
+   "title": "Agarics",
+   "question": "La chair jaunit-elle nettement à la base du pied, au grattage ?",
+   "choices": [
+    {
+     "label": "Chair nettement jaunissante à la base du pied (au grattage)",
+     "next": "p36-jaunissant"
+    },
+    {
+     "label": "Chair rougissante, brunissante ou immuable",
+     "next": "p36-autres"
+    }
+   ]
+  },
+  "p36-jaunissant": {
+   "page": 36,
+   "title": "Agarics à chair jaunissante",
+   "question": "Quelle est l'odeur à la base du pied ?",
+   "choices": [
+    {
+     "label": "Odeur d'amande amère ou d'anis",
+     "next": "p36-anis"
+    },
+    {
+     "label": "Odeur de phénol",
+     "hint": "jaunissement rapide (rayure de l'ongle, coupe à la base du pied) ; silhouette trapézoïdale, pied nettement bulbeux ; pelouses, pâtures",
+     "species": "agaricus-xanthodermus",
+     "img": "p36-1"
+    }
+   ]
+  },
+  "p36-anis": {
+   "page": 36,
+   "title": "Agarics jaunissants à odeur d'amande ou d'anis",
+   "question": "Comment est l'anneau ?",
+   "choices": [
+    {
+     "label": "Anneau ample, persistant",
+     "next": "p36-anis-ample"
+    },
+    {
+     "label": "Anneau simple, ténu",
+     "hint": "vite disparu chez les adultes ; petite espèce grêle à forte odeur d'amandes amères, dans les pelouses",
+     "species": "agaricus-comtulus"
+    }
+   ]
+  },
+  "p36-anis-ample": {
+   "page": 36,
+   "title": "Agarics à anneau ample et odeur d'amande ou d'anis",
+   "question": "Quel est le jaunissement et la forme du pied ?",
+   "choices": [
+    {
+     "label": "Jaunissement moyen",
+     "hint": "pied élancé bulbeux à la base ; odeur anisée (d'amandes amères en vieillissant) ; dans les bois",
+     "species": "agaricus-silvicola",
+     "img": "p36-2"
+    },
+    {
+     "label": "Jaunissement faible",
+     "hint": "pied robuste, non bulbeux à la base ; odeur anisée ; prairies et pâtures",
+     "species": "agaricus-arvensis"
+    }
+   ]
+  },
+  "p36-autres": {
+   "page": 36,
+   "title": "Agarics à chair rougissante, brunissante ou immuable",
+   "question": "Le rougissement est-il vif et rapide ?",
+   "choices": [
+    {
+     "label": "Chair à rougissement vif, rapide",
+     "species": "agaricus-sylvaticus",
+     "img": "p36-4"
+    },
+    {
+     "label": "Rougissement lent ou nul",
+     "next": "p36-lent"
+    }
+   ]
+  },
+  "p36-lent": {
+   "page": 36,
+   "title": "Agarics à rougissement lent ou nul",
+   "question": "Comment est l'anneau ?",
+   "choices": [
+    {
+     "label": "Anneau simple, ténu",
+     "hint": "vite disparu chez l'adulte",
+     "next": "p36-anneau-simple"
+    },
+    {
+     "label": "Anneau épais ou double, persistant chez les adultes",
+     "next": "p36-anneau-epais"
+    }
+   ]
+  },
+  "p36-anneau-simple": {
+   "page": 36,
+   "title": "Agarics à anneau simple, ténu",
+   "question": "Comment est la base du pied ?",
+   "choices": [
+    {
+     "label": "Base du pied arrondie ou atténuée, sans racine",
+     "hint": "dans les prés",
+     "species": "agaricus-campestris",
+     "img": "p36-3"
+    },
+    {
+     "label": "Base du pied légèrement renflée, prolongée par une racine blanche",
+     "hint": "parcs urbains, terre retournée",
+     "species": "agaricus-bresadolanus",
+     "img": "p36-5"
+    }
+   ]
+  },
+  "p36-anneau-epais": {
+   "page": 36,
+   "title": "Agarics à anneau épais ou double",
+   "question": "L'anneau est-il simple ou dissocié en deux étages ?",
+   "choices": [
+    {
+     "label": "Anneau simple",
+     "next": "p36-epais-simple"
+    },
+    {
+     "label": "Anneau nettement dissocié en deux étages",
+     "hint": "la partie inférieure peut évoquer une volve",
+     "next": "p36-epais-double",
+     "img": "picto-anneau-double"
+    }
+   ]
+  },
+  "p36-epais-simple": {
+   "page": 36,
+   "title": "Agarics à anneau épais simple",
+   "question": "Quelle est l'odeur et le comportement de la chair ?",
+   "choices": [
+    {
+     "label": "Odeur fongique, chair lentement rougissante",
+     "hint": "pelouses, prairies",
+     "species": "agaricus-bisporus"
+    },
+    {
+     "label": "Odeur terreuse désagréable, chair immuable",
+     "hint": "forêts, bords de sentiers, dunes",
+     "species": "agaricus-variegans"
+    }
+   ]
+  },
+  "p36-epais-double": {
+   "page": 36,
+   "title": "Agarics à anneau dissocié en deux étages",
+   "question": "Quelle est la couleur du chapeau ?",
+   "choices": [
+    {
+     "label": "Chapeau blanc",
+     "species": "agaricus-bitorquis"
+    },
+    {
+     "label": "Chapeau brun",
+     "species": "agaricus-subperonatus"
+    }
+   ]
+  },
+  "p37": {
+   "page": 37,
+   "title": "Cortinaires",
+   "question": "Le chapeau est-il visqueux ou sec ?",
+   "intro": "Genre très diversifié, seule une sélection de quelques espèces fréquentes est présentée. Aucune espèce comestible !",
+   "choices": [
+    {
+     "label": "Chapeau visqueux",
+     "next": "p37-visqueux"
+    },
+    {
+     "label": "Chapeau sec",
+     "next": "p37-sec"
+    }
+   ]
+  },
+  "p37-visqueux": {
+   "page": 37,
+   "title": "Cortinaires à chapeau visqueux",
+   "question": "Le pied est-il visqueux ou sec ?",
+   "choices": [
+    {
+     "label": "Pied visqueux (sur spécimens très frais)",
+     "hint": "sous-genre Mixacium",
+     "next": "p37-mixacium"
+    },
+    {
+     "label": "Pied sec",
+     "hint": "sous-genre Phlegmacium",
+     "next": "p37-phlegmacium"
+    }
+   ]
+  },
+  "p37-mixacium": {
+   "page": 37,
+   "title": "Cortinaires : chapeau et pied visqueux (Mixacium)",
+   "question": "Quelles sont les couleurs et l'ornementation du pied ?",
+   "choices": [
+    {
+     "label": "Pied bleuté, odeur de miel à la base",
+     "hint": "chapeau ridé-cannelé",
+     "species": "cortinarius-elatior",
+     "img": "p37-1"
+    },
+    {
+     "label": "Pied à guirlandes visqueuses en relief",
+     "hint": "chapeau brun-rouge",
+     "species": "cortinarius-trivialis",
+     "img": "p37-2"
+    },
+    {
+     "label": "Pied à guirlandes jaunes sans relief",
+     "hint": "chapeau jaune",
+     "species": "cortinarius-delibutus"
+    },
+    {
+     "label": "Pied et chapeau bleus",
+     "species": "cortinarius-salor"
+    }
+   ]
+  },
+  "p37-phlegmacium": {
+   "page": 37,
+   "title": "Cortinaires : chapeau visqueux, pied sec (Phlegmacium)",
+   "question": "Quelle est la forme de la base du pied ?",
+   "choices": [
+    {
+     "label": "Pied bulbeux-marginé à la base",
+     "next": "p37-bulbeux",
+     "img": "p37-3"
+    },
+    {
+     "label": "Pied cylindrique ou clavé",
+     "next": "p37-cylindrique"
+    }
+   ]
+  },
+  "p37-bulbeux": {
+   "page": 37,
+   "title": "Phlegmacium à pied bulbeux-marginé",
+   "question": "Quelles sont les couleurs des lames et du chapeau ?",
+   "intro": "NB : nombreuses autres espèces à couleurs différentes.",
+   "choices": [
+    {
+     "label": "Lames beige pâle, chapeau jaune à orangé",
+     "species": "cortinarius-multiformis",
+     "img": "p37-3"
+    },
+    {
+     "label": "Lames bleutées, chapeau jaune",
+     "species": "cortinarius-calochrous",
+     "img": "p37-3"
+    },
+    {
+     "label": "Lames et chapeau bleutés",
+     "species": "cortinarius-caerulescens",
+     "img": "p37-3"
+    },
+    {
+     "label": "Lames, chapeau et chair jaune vif",
+     "species": "cortinarius-splendens",
+     "img": "p37-3"
+    },
+    {
+     "label": "Lames verdâtres, chapeau cuivré",
+     "species": "cortinarius-rufoolivaceus",
+     "img": "p37-3"
+    }
+   ]
+  },
+  "p37-cylindrique": {
+   "page": 37,
+   "title": "Phlegmacium à pied cylindrique ou clavé",
+   "question": "Quelles sont les couleurs dominantes ?",
+   "choices": [
+    {
+     "label": "Couleurs ternes uniformes (gris verdâtre +/- sombre), saveur amère",
+     "species": "cortinarius-infractus"
+    },
+    {
+     "label": "Couleurs lilacines (chapeau et pied)",
+     "species": "cortinarius-largus"
+    },
+    {
+     "label": "Lames lilacines devenant violettes au froissement, chapeau brun",
+     "species": "cortinarius-purpurascens"
+    },
+    {
+     "label": "Couleurs jaunes, bandes jaunes sur le pied",
+     "species": "cortinarius-triumphans"
+    }
+   ]
+  },
+  "p37-sec": {
+   "page": 37,
+   "title": "Cortinaires à chapeau sec",
+   "question": "La surface du chapeau est-elle lisse ?",
+   "choices": [
+    {
+     "label": "Chapeau non lisse : velouté, méchuleux, squamuleux",
+     "next": "p37-non-lisse"
+    },
+    {
+     "label": "Chapeau lisse",
+     "next": "p38-lisse"
+    }
+   ]
+  },
+  "p37-non-lisse": {
+   "page": 37,
+   "title": "Cortinaires : chapeau sec non lisse",
+   "question": "Quelles sont les couleurs ?",
+   "choices": [
+    {
+     "label": "Chapeau, lames et pied d'un bleu-violet profond",
+     "hint": "odeur d'encre",
+     "species": "cortinarius-violaceus"
+    },
+    {
+     "label": "Couleurs vives : jaune, fauve, rougeâtres dominantes",
+     "hint": "sous-genre Leprocybe",
+     "next": "p37-leprocybe"
+    },
+    {
+     "label": "Couleurs plus ternes, souvent bleutées au sommet du pied",
+     "hint": "sous-genre Telamonia",
+     "next": "p37-telamonia"
+    }
+   ]
+  },
+  "p37-leprocybe": {
+   "page": 37,
+   "title": "Leprocybe : couleurs vives",
+   "question": "Quelle est la couleur et l'aspect du chapeau ?",
+   "choices": [
+    {
+     "label": "Chapeau jaune-vert",
+     "species": "cortinarius-venetus"
+    },
+    {
+     "label": "Chapeau à écailles rouge brique sur fond jaune",
+     "hint": "cortinaire briqueté",
+     "species": "cortinarius-bolaris"
+    },
+    {
+     "label": "Chapeau orangé vif, fauve rougeâtre ; lames particulièrement espacées",
+     "hint": "groupe de Cortinarius orellanus (cortinaire couleur de rocou) : MORTEL",
+     "species": "cortinarius-orellanus",
+     "img": "p37-4"
+    }
+   ]
+  },
+  "p37-telamonia": {
+   "page": 37,
+   "title": "Telamonia : couleurs plus ternes",
+   "question": "Quelle est la forme du chapeau et l'odeur ?",
+   "choices": [
+    {
+     "label": "Chapeau pointu, gris ; odeur forte de feuilles de Pelargonium",
+     "species": "cortinarius-paleaceus"
+    },
+    {
+     "label": "Chapeau mamelonné mais non aigu, brun ; odeur nulle",
+     "species": "cortinarius-pholideus"
+    },
+    {
+     "label": "Autres caractères (spécimens défraîchis)",
+     "next": "p38-autres",
+     "note": "Le livret dit « voir groupe suivant (spécimens défraîchis) » : renvoi vers les cortinaires à chapeau lisse, autres couleurs (ocre, brun, bleuté), page 38."
+    }
+   ]
+  },
+  "p38-lisse": {
+   "page": 38,
+   "title": "Cortinaires : chapeau lisse",
+   "question": "Les couleurs sont-elles vives ?",
+   "choices": [
+    {
+     "label": "Couleurs vives : jaune, orangé, rouge dominantes ; espèces grêles",
+     "hint": "sous-genre Dermocybe",
+     "next": "p38-dermocybe"
+    },
+    {
+     "label": "Autres couleurs (ocre, brun, bleuté...)",
+     "next": "p38-autres"
+    }
+   ]
+  },
+  "p38-dermocybe": {
+   "page": 38,
+   "title": "Dermocybe : couleurs vives, espèces grêles",
+   "question": "Quelles sont les couleurs des lames, du chapeau et du pied ?",
+   "intro": "Toutes ces espèces portent le marqueur toxique dans le livret.",
+   "choices": [
+    {
+     "label": "Lames, chapeau et pied jaunes",
+     "species": "cortinarius-cinnamomeoluteus"
+    },
+    {
+     "label": "Lames orangé-rouillé, pied et chapeau jaunes",
+     "species": "cortinarius-cinnamomeus"
+    },
+    {
+     "label": "Lames rouge pourpre, pied et chapeau jaunes",
+     "species": "cortinarius-semisanguineus"
+    },
+    {
+     "label": "Lames jaunes, chapeau et pied rouge-orangé vif",
+     "species": "cortinarius-uliginosus"
+    },
+    {
+     "label": "Lames, pied et chapeau rouges",
+     "species": "cortinarius-sanguineus"
+    }
+   ]
+  },
+  "p38-autres": {
+   "page": 38,
+   "title": "Cortinaires lisses : autres couleurs",
+   "question": "Y a-t-il un voile remarquable en plus de la cortine ?",
+   "choices": [
+    {
+     "label": "Cortine doublée d'un autre voile remarquable (armille ou anneau)",
+     "next": "p38-voile"
+    },
+    {
+     "label": "Cortine simple, parfois peu visible ; pied uniforme ou zébré de voile sans relief",
+     "next": "p38-simple"
+    }
+   ]
+  },
+  "p38-voile": {
+   "page": 38,
+   "title": "Cortine doublée d'une armille ou d'un anneau",
+   "question": "Quel est ce voile ?",
+   "choices": [
+    {
+     "label": "Pied à \"chaussette\" terminée par un anneau",
+     "hint": "chapeau gris, pied bleuté au sommet",
+     "species": "cortinarius-torvus",
+     "img": "p38-4"
+    },
+    {
+     "label": "Bracelets rouges étagés à la base du pied",
+     "hint": "chapeau roux",
+     "species": "cortinarius-armillatus",
+     "note": "Le livret renvoie au dessin (2), absent de cette page."
+    },
+    {
+     "label": "Un anneau net sous la cortine",
+     "hint": "chapeau jaune-fauve, odeur forte de terre moisie",
+     "species": "cortinarius-hinnuleus"
+    }
+   ]
+  },
+  "p38-simple": {
+   "page": 38,
+   "title": "Cortine simple",
+   "question": "Quel est le diamètre du pied ?",
+   "choices": [
+    {
+     "label": "Espèces assez robustes, pied > 8 mm de diamètre, avec zones de voile nettes",
+     "next": "p38-robustes"
+    },
+    {
+     "label": "Espèces grêles, élancées, pied < 5 (8) mm de diamètre",
+     "next": "p38-greles"
+    }
+   ]
+  },
+  "p38-robustes": {
+   "page": 38,
+   "title": "Cortinaires robustes à cortine simple",
+   "question": "Quelles sont les couleurs du chapeau et du pied ?",
+   "choices": [
+    {
+     "label": "Chapeau bleuté, lilas",
+     "species": "cortinarius-alboviolaceus",
+     "img": "p38-5"
+    },
+    {
+     "label": "Chapeau brun ou beige sans trace de bleu ; pied bleuté au sommet",
+     "species": "cortinarius-anomalus"
+    },
+    {
+     "label": "Chapeau brun-rouge, hygrophane ; pied sans trace de bleu",
+     "species": "cortinarius-saturninus"
+    },
+    {
+     "label": "Chapeau brun-gris, non hygrophane ; pied sans trace de bleu",
+     "species": "cortinarius-salicis"
+    }
+   ]
+  },
+  "p38-greles": {
+   "page": 38,
+   "title": "Cortinaires grêles à cortine simple",
+   "question": "Quelles sont les couleurs et l'odeur ?",
+   "choices": [
+    {
+     "label": "Chapeau gris bleuté, non strié ; pied bleuté au sommet",
+     "species": "cortinarius-decipiens"
+    },
+    {
+     "label": "Chapeau jaune à orangé, très strié ; odeur d'iode",
+     "species": "cortinarius-obtusus"
+    },
+    {
+     "label": "Chapeau ocre clair à blanchâtre ; pied blanc lisse, terminé en pointe, dur",
+     "species": "cortinarius-duracinus"
+    }
+   ]
+  },
+  "p39": {
+   "page": 39,
+   "title": "Tricholomes",
+   "question": "Quelle est la couleur du chapeau ?",
+   "intro": "Champignons robustes à lames adnées-échancrées et spores blanches. Les lames sont souvent colorées !",
+   "choices": [
+    {
+     "label": "Chapeau lisse et pâle : blanc, crème, gris clair, rose pâle",
+     "next": "p39-pale"
+    },
+    {
+     "label": "Chapeau gris",
+     "next": "p39-gris"
+    },
+    {
+     "label": "Chapeau brun, beige, rose violacé",
+     "next": "p39-brun"
+    },
+    {
+     "label": "Chapeau jaune, vert, gris à nuances verdâtres",
+     "next": "p40-jaune-vert"
+    }
+   ]
+  },
+  "p39-pale": {
+   "page": 39,
+   "title": "Tricholomes : chapeau lisse et pâle",
+   "question": "À quelle saison pousse-t-il ?",
+   "choices": [
+    {
+     "label": "Au printemps, dans les pelouses",
+     "hint": "odeur de concombre, lames très étroites et serrées ; comestible réputé",
+     "species": "calocybe-gambosa"
+    },
+    {
+     "label": "En été-automne : odeurs différentes, lames non particulièrement serrées",
+     "next": "p39-pale-ete"
+    }
+   ]
+  },
+  "p39-pale-ete": {
+   "page": 39,
+   "title": "Tricholomes pâles d'été-automne",
+   "question": "Quelle est l'odeur ?",
+   "choices": [
+    {
+     "label": "Odeur forte, de moisi ou de betterave",
+     "hint": "chapeau convexe ou plat, sans mamelon ; en forêt",
+     "species": "tricholoma-album"
+    },
+    {
+     "label": "Odeur nulle ou très faible",
+     "next": "p39-pale-inodore"
+    }
+   ]
+  },
+  "p39-pale-inodore": {
+   "page": 39,
+   "title": "Tricholomes pâles, odeur nulle ou très faible",
+   "question": "Quelle est la forme du chapeau ?",
+   "choices": [
+    {
+     "label": "Chapeau conique ou à mamelon net au centre ; dans les parcs près des arbres",
+     "hint": "tricholome faux-inocybe",
+     "species": "tricholoma-inocybeoides"
+    },
+    {
+     "label": "Chapeau convexe, charnu, à marge enroulée ; en forêt ; blanc pur tacheté de brun-rouge avec l'âge",
+     "hint": "collybie tachetée",
+     "species": "collybia-maculata"
+    },
+    {
+     "label": "Chapeau convexe, charnu, à marge enroulée ; en forêt ; jaune pâle se salissant de rose",
+     "hint": "tricholome âpre",
+     "species": "tricholoma-acerbum"
+    }
+   ]
+  },
+  "p39-gris": {
+   "page": 39,
+   "title": "Tricholomes : chapeau gris",
+   "question": "Le chapeau est-il feutré ou lisse ?",
+   "choices": [
+    {
+     "label": "Chapeau feutré, pelucheux, squamuleux",
+     "next": "p39-gris-feutre"
+    },
+    {
+     "label": "Chapeau lisse",
+     "next": "p39-gris-lisse"
+    }
+   ]
+  },
+  "p39-gris-feutre": {
+   "page": 39,
+   "title": "Tricholomes gris : chapeau feutré",
+   "question": "Quelle est la couleur des lames ?",
+   "choices": [
+    {
+     "label": "Lames grises ; pas d'odeur ; sous les pins",
+     "hint": "petit-gris",
+     "species": "tricholoma-terreum",
+     "img": "p40-1",
+     "note": "Le livret renvoie à (1) : dessin de la page 40."
+    },
+    {
+     "label": "Lames blanches, jaunissantes dans les endroits abîmés ; odeur farineuse",
+     "hint": "tricholome sculpté",
+     "species": "tricholoma-scalpturatum"
+    },
+    {
+     "label": "[En montagne] écailles larges et pied robuste",
+     "hint": "tricholome tigré : très toxique (cité entre crochets dans le livret)",
+     "species": "tricholoma-pardinum"
+    }
+   ]
+  },
+  "p39-gris-lisse": {
+   "page": 39,
+   "title": "Tricholomes gris : chapeau lisse",
+   "question": "Quelle est la forme du chapeau ?",
+   "choices": [
+    {
+     "label": "Chapeau conique ou à mamelon central net, fibrilleux (rayé) ; inodore",
+     "hint": "tricholome vergeté ; non comestible, amer",
+     "species": "tricholoma-virgatum"
+    },
+    {
+     "label": "Chapeau convexe ou plat, non fibrilleux",
+     "next": "p39-gris-convexe"
+    }
+   ]
+  },
+  "p39-gris-convexe": {
+   "page": 39,
+   "title": "Tricholomes gris : chapeau convexe ou plat",
+   "question": "Y a-t-il une odeur ?",
+   "choices": [
+    {
+     "label": "Odeur présente ; pied robuste, > 1 cm de diamètre",
+     "next": "p39-gris-odeur"
+    },
+    {
+     "label": "Odeur absente ; pied élancé, < 1 cm de diamètre",
+     "hint": "tricholome noir et blanc ; groupe difficile, nombreuses espèces semblables, comestibilité inconnue",
+     "species": "melanoleuca-melaleuca"
+    }
+   ]
+  },
+  "p39-gris-odeur": {
+   "page": 39,
+   "title": "Tricholomes gris à odeur et pied robuste",
+   "question": "Où pousse-t-il et quelle est l'odeur ?",
+   "choices": [
+    {
+     "label": "En forêt ; odeur de savonnette ; lames et pied blancs",
+     "hint": "tricholome à odeur de savon",
+     "species": "tricholoma-saponaceum"
+    },
+    {
+     "label": "Dans les prés ; odeur poivrée ; lames et pied gris comme le chapeau",
+     "hint": "argouane des prairies",
+     "species": "lepista-panaeola"
+    }
+   ]
+  },
+  "p39-brun": {
+   "page": 39,
+   "title": "Tricholomes : chapeau brun, beige, rose violacé",
+   "question": "Quelle est la couleur des lames et de la chair ?",
+   "choices": [
+    {
+     "label": "Lames et chair jaunes",
+     "next": "p39-brun-jaune"
+    },
+    {
+     "label": "Lames et chair blanches ou brun clair",
+     "next": "p39-brun-blanc"
+    }
+   ]
+  },
+  "p39-brun-jaune": {
+   "page": 39,
+   "title": "Tricholomes bruns à lames et chair jaunes",
+   "question": "Quel est l'aspect du chapeau ?",
+   "choices": [
+    {
+     "label": "Chapeau lisse, luisant, brun-jaune ; odeur farineuse",
+     "hint": "tricholome fauve",
+     "species": "tricholoma-fulvum"
+    },
+    {
+     "label": "Chapeau à mèches ou écailles rosées ou violacées sur fond jaune ; odeur acide",
+     "hint": "tricholome rutilant",
+     "species": "tricholomopsis-rutilans"
+    }
+   ]
+  },
+  "p39-brun-blanc": {
+   "page": 39,
+   "title": "Tricholomes bruns à lames et chair blanches ou brun clair",
+   "question": "Quelle est l'odeur ?",
+   "choices": [
+    {
+     "label": "Forte odeur de farine, de concombre ; grosse espèce massive, en troupes sous peupliers",
+     "hint": "tricholome des peupliers",
+     "species": "tricholoma-populinum"
+    },
+    {
+     "label": "Odeur nulle ou très faible ; espèces moins robustes, forestières",
+     "next": "p39-brun-forestier"
+    }
+   ]
+  },
+  "p39-brun-forestier": {
+   "page": 39,
+   "title": "Tricholomes bruns forestiers, odeur nulle ou faible",
+   "question": "Quel est l'aspect du chapeau ?",
+   "choices": [
+    {
+     "label": "Chapeau lisse, luisant ou visqueux",
+     "hint": "tricholome brûlé",
+     "species": "tricholoma-ustale"
+    },
+    {
+     "label": "Chapeau sec, +/- écailleux ou laineux",
+     "hint": "tricholome couleur de vache",
+     "species": "tricholoma-vaccinum"
+    }
+   ]
+  },
+  "p40-jaune-vert": {
+   "page": 40,
+   "title": "Tricholomes : chapeau jaune, vert, gris à nuances verdâtres",
+   "question": "Quelle est l'odeur et l'aspect du chapeau ?",
+   "choices": [
+    {
+     "label": "Odeur forte, désagréable (gaz, soufre) ; lames jaunes épaisses et espacées",
+     "hint": "tricholome soufré",
+     "species": "tricholoma-sulfureum",
+     "img": "p40-2"
+    },
+    {
+     "label": "Odeur de farine ou de concombre, souvent légère",
+     "next": "p40-farine"
+    },
+    {
+     "label": "Chapeau fibrilleux, verdâtre ; lames blanches à reflets jaunes",
+     "hint": "tricholome jaunet",
+     "species": "tricholoma-sejunctum",
+     "img": "p40-3",
+     "note": "Dans le livret, cette ligne est au même niveau que les deux premiers choix, pas sous « odeur de farine »."
+    }
+   ]
+  },
+  "p40-farine": {
+   "page": 40,
+   "title": "Tricholomes jaunes à odeur de farine ou de concombre",
+   "question": "Quelle est la chair et où pousse-t-il ?",
+   "choices": [
+    {
+     "label": "Chapeau non fibrilleux, jaune citrin à jaune doré, lames jaunes ; chair blanche, sous pins (littoral)",
+     "hint": "tricholome équestre : MORTEL",
+     "species": "tricholoma-auratum",
+     "note": "Le livret cite (2) ici, mais le dessin p40-2 représente en réalité T. sulfureum (voir Doutes)."
+    },
+    {
+     "label": "Chapeau non fibrilleux, jaune citrin à jaune doré, lames jaunes ; chair jaune, sous peupliers",
+     "hint": "tricholome équestre des peupliers",
+     "species": "tricholoma-frondosae"
+    }
+   ]
   }
+ }
 }

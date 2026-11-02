@@ -1,82 +1,5268 @@
 {
-  "amanita-phalloides": {
-    "latin": "Amanita phalloides",
-    "fr": "Amanite phalloïde",
-    "group": "Amanites",
-    "edibility": "mortel",
-    "note": "Chapeau vert olive, lames blanches, anneau, volve en sac. Responsable de la majorité des intoxications mortelles.",
-    "confusions": ["amanita-citrina", "amanita-vaginata"],
-    "images": ["p33-1", "p33-2"],
-    "pages": [33]
-  },
-  "amanita-citrina": {
-    "latin": "Amanita citrina",
-    "fr": "Amanite citrine",
-    "group": "Amanites",
-    "edibility": "toxique",
-    "note": "Odeur de pomme de terre crue. Peut être confondue avec la phalloïde pâle.",
-    "confusions": ["amanita-phalloides"],
-    "images": ["p33-3"],
-    "pages": [33]
-  },
-  "amanita-muscaria": {
-    "latin": "Amanita muscaria",
-    "fr": "Amanite tue-mouches",
-    "group": "Amanites",
-    "edibility": "toxique",
-    "note": "Chapeau rouge à verrues blanches.",
-    "confusions": [],
-    "images": ["p34-1"],
-    "pages": [34]
-  },
-  "amanita-vaginata": {
-    "latin": "Amanita vaginata",
-    "fr": "Amanite vaginée",
-    "group": "Amanites",
-    "edibility": "inconnu",
-    "note": "Sans anneau, volve en sac. Ne pas consommer sans contrôle.",
-    "confusions": ["amanita-phalloides"],
-    "images": ["p34-2"],
-    "pages": [34]
-  },
-  "boletus-edulis": {
-    "latin": "Boletus edulis",
-    "fr": "Cèpe de Bordeaux",
-    "group": "Bolets",
-    "edibility": "comestible",
-    "note": "Pores blancs puis jaune verdâtre, réseau blanc sur le pied.",
-    "confusions": ["tylopilus-felleus"],
-    "images": ["p11-4"],
-    "pages": [11]
-  },
-  "tylopilus-felleus": {
-    "latin": "Tylopilus felleus",
-    "fr": "Bolet amer",
-    "group": "Bolets",
-    "edibility": "inconnu",
-    "note": "Goût très amer, inconsommable.",
-    "confusions": ["boletus-edulis"],
-    "images": ["p11-5"],
-    "pages": [11]
-  },
-  "cantharellus-cibarius": {
-    "latin": "Cantharellus cibarius",
-    "fr": "Girolle",
-    "group": "Chanterelles",
-    "edibility": "comestible",
-    "note": "Jaune d'oeuf, plis épais et ramifiés, odeur d'abricot.",
-    "confusions": ["omphalotus-olearius"],
-    "images": ["p12-1"],
-    "pages": [12]
-  },
-  "omphalotus-olearius": {
-    "latin": "Omphalotus olearius",
-    "fr": "Clitocybe de l'olivier",
-    "group": "Clitocybes",
-    "edibility": "toxique",
-    "note": "Orangé vif, lames fines, pousse en touffes sur le bois.",
-    "confusions": ["cantharellus-cibarius"],
-    "images": ["p13-2"],
-    "pages": [13]
-  }
+ "hydnum-repandum": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   3
+  ],
+  "latin": "Hydnum repandum",
+  "fr": "Pied-de-mouton",
+  "group": "Hydnes",
+  "edibility": "comestible",
+  "note": "Espèce charnue, blanche à orangée, chair blanche, aiguillons caducs."
+ },
+ "auriscalpium-vulgare": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   3
+  ],
+  "latin": "Auriscalpium vulgare",
+  "fr": "Hydne cure-oreilles",
+  "group": "Hydnes",
+  "edibility": "inconnu",
+  "note": "Espèce coriace, petite, sur cônes de pin, pied et chapeau poilus, aiguillons non caducs."
+ },
+ "phellodon-niger": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   3
+  ],
+  "latin": "Phellodon niger",
+  "fr": "Hydne noir",
+  "group": "Hydnes",
+  "edibility": "inconnu",
+  "note": "Espèce coriace, chair zonée à la coupe, noire, odeur de céleri, aiguillons non caducs."
+ },
+ "hydnellum-ferrugineum": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   3
+  ],
+  "latin": "Hydnellum ferrugineum",
+  "fr": "Hydne ferrugineux",
+  "group": "Hydnes",
+  "edibility": "inconnu",
+  "note": "Espèce coriace, chair zonée, brune, odeur de concombre, aiguillons non caducs."
+ },
+ "sarcodon-imbricatus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   3
+  ],
+  "latin": "Sarcodon imbricatus",
+  "fr": "Hydne imbriqué",
+  "group": "Hydnes",
+  "edibility": "inconnu",
+  "note": "Espèce coriace, chair non zonée, chapeau écailleux, aiguillons non caducs."
+ },
+ "cantharellus-cibarius": {
+  "confusions": [
+   "craterellus-tubaeformis"
+  ],
+  "images": [
+   "p41-a",
+   "p06-7"
+  ],
+  "pages": [
+   3,
+   6,
+   41
+  ],
+  "latin": "Cantharellus cibarius",
+  "fr": "Girolle",
+  "group": "Chanterelles",
+  "edibility": "comestible",
+  "note": "Pied plein ; plis fins rappelant les lames, jaune orangé. Plis fourchus, lamellules absentes. Pied plein, plis jaune orangé ; chapeau d'abord bombé, marge festonnée, plis décurrents ramifiés."
+ },
+ "craterellus-tubaeformis": {
+  "confusions": [
+   "cantharellus-cibarius"
+  ],
+  "images": [],
+  "pages": [
+   3,
+   6
+  ],
+  "latin": "Craterellus tubaeformis",
+  "fr": "Chanterelle en tube",
+  "group": "Chanterelles",
+  "edibility": "comestible",
+  "note": "Pied creux ; plis anastomosés, grisâtres à jaune sale. Plis fourchus, lamellules absentes. Pied creux, jaune ; chapeau gris jaunâtre."
+ },
+ "phlebia-merismoides": {
+  "confusions": [],
+  "images": [
+   "p05-1"
+  ],
+  "pages": [
+   5
+  ],
+  "latin": "Phlebia merismoides",
+  "group": "Croûtes et clavaires",
+  "edibility": "inconnu",
+  "note": "Croûte orange vif, surface veinée radialement."
+ },
+ "terana-caerulea": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   5
+  ],
+  "latin": "Terana caerulea",
+  "group": "Croûtes et clavaires",
+  "edibility": "inconnu",
+  "note": "Croûte bleu vif, surface lisse."
+ },
+ "stereum-hirsutum": {
+  "confusions": [],
+  "images": [
+   "p05-3"
+  ],
+  "pages": [
+   5
+  ],
+  "latin": "Stereum hirsutum",
+  "group": "Croûtes et clavaires",
+  "edibility": "inconnu",
+  "note": "Coriace, mince ; hyménophore jaune, surface supérieure hirsute."
+ },
+ "chondrostereum-purpureum": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   5
+  ],
+  "latin": "Chondrostereum purpureum",
+  "group": "Croûtes et clavaires",
+  "edibility": "inconnu",
+  "note": "Coriace, mince ; hyménophore rosé à violacé, surface supérieure velue."
+ },
+ "thelephora-terrestris": {
+  "confusions": [],
+  "images": [
+   "p05-4"
+  ],
+  "pages": [
+   5
+  ],
+  "latin": "Thelephora terrestris",
+  "group": "Croûtes et clavaires",
+  "edibility": "inconnu",
+  "note": "En pétales bruns à extrémités blanchâtres, à terre, marges frangées."
+ },
+ "auricularia-auricula-judae": {
+  "confusions": [],
+  "images": [
+   "p05-5"
+  ],
+  "pages": [
+   5
+  ],
+  "latin": "Auricularia auricula-judae",
+  "group": "Croûtes et clavaires",
+  "edibility": "comestible",
+  "fr": "Oreille-de-Judas",
+  "note": "Gélatineux, en coupes pendantes, brun-rouge, surface externe feutrée."
+ },
+ "exidia-truncata": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   5
+  ],
+  "latin": "Exidia truncata",
+  "group": "Croûtes et clavaires",
+  "edibility": "inconnu",
+  "fr": "Exidie tronquée",
+  "note": "Gélatineux, en toupie, noirâtre, surface externe papillée."
+ },
+ "auricularia-mesenterica": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   5
+  ],
+  "latin": "Auricularia mesenterica",
+  "group": "Croûtes et clavaires",
+  "edibility": "inconnu",
+  "fr": "Oreille mésentérique",
+  "note": "Gélatineux, chapeaux hirsutes ; surface inférieure gris-brun grossièrement veinée."
+ },
+ "phlebia-tremellosa": {
+  "confusions": [],
+  "images": [
+   "p05-2"
+  ],
+  "pages": [
+   5
+  ],
+  "latin": "Phlebia tremellosa",
+  "group": "Croûtes et clavaires",
+  "edibility": "inconnu",
+  "fr": "Mérule tremblante",
+  "note": "Gélatineux, chapeaux hirsutes ; surface inférieure rose-orangé, gaufrée."
+ },
+ "clavariadelphus-pistillaris": {
+  "confusions": [],
+  "images": [
+   "p06-1"
+  ],
+  "pages": [
+   6
+  ],
+  "latin": "Clavariadelphus pistillaris",
+  "group": "Croûtes et clavaires",
+  "edibility": "inconnu",
+  "fr": "Clavaire en pilon",
+  "note": "Simple, épaisse en massue, roussâtre."
+ },
+ "clavulinopsis-fusiformis": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   6
+  ],
+  "latin": "Clavulinopsis fusiformis",
+  "group": "Croûtes et clavaires",
+  "edibility": "inconnu",
+  "fr": "Clavaire en fuseau",
+  "note": "En fuseaux, en touffes, jaune."
+ },
+ "clavulina-cristata": {
+  "confusions": [
+   "clavulina-cinerea"
+  ],
+  "images": [
+   "p06-3"
+  ],
+  "pages": [
+   6
+  ],
+  "latin": "Clavulina cristata",
+  "group": "Croûtes et clavaires",
+  "edibility": "inconnu",
+  "fr": "Clavaire crêtée",
+  "note": "Ramifiée, base grêle ; blanc, à terre."
+ },
+ "clavulina-cinerea": {
+  "confusions": [
+   "clavulina-cristata"
+  ],
+  "images": [
+   "p06-2"
+  ],
+  "pages": [
+   6
+  ],
+  "latin": "Clavulina cinerea",
+  "group": "Croûtes et clavaires",
+  "edibility": "inconnu",
+  "fr": "Clavaire cendrée",
+  "note": "Ramifiée, base grêle ; gris, à terre."
+ },
+ "ramaria-stricta": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   6
+  ],
+  "latin": "Ramaria stricta",
+  "group": "Croûtes et clavaires",
+  "edibility": "toxique",
+  "fr": "Clavaire étroite",
+  "note": "Jaunâtre, sur bois, avec rhizomorphes."
+ },
+ "calocera-viscosa": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   6
+  ],
+  "latin": "Calocera viscosa",
+  "group": "Croûtes et clavaires",
+  "edibility": "inconnu",
+  "fr": "Calocère visqueuse",
+  "note": "Orangé vif, gélatineux, sur bois."
+ },
+ "ramaria-formosa": {
+  "confusions": [
+   "ramaria-botrytis"
+  ],
+  "images": [
+   "p06-4"
+  ],
+  "pages": [
+   6
+  ],
+  "latin": "Ramaria formosa",
+  "group": "Croûtes et clavaires",
+  "edibility": "toxique",
+  "fr": "Clavaire jolie",
+  "note": "Base épaissie, arrondie ; rose à extrémités jaunes."
+ },
+ "ramaria-botrytis": {
+  "confusions": [
+   "ramaria-formosa"
+  ],
+  "images": [
+   "p06-5"
+  ],
+  "pages": [
+   6
+  ],
+  "latin": "Ramaria botrytis",
+  "group": "Croûtes et clavaires",
+  "edibility": "comestible",
+  "fr": "Clavaire chou-fleur",
+  "note": "Base épaissie, blanche, à rameaux roses."
+ },
+ "sparassis-crispa": {
+  "confusions": [],
+  "images": [
+   "p06-6"
+  ],
+  "pages": [
+   6
+  ],
+  "latin": "Sparassis crispa",
+  "group": "Croûtes et clavaires",
+  "edibility": "comestible",
+  "fr": "Clavaire crêpue",
+  "note": "Masse foliacée plus ou moins serrée."
+ },
+ "craterellus-cornucopioides": {
+  "confusions": [
+   "craterellus-sinuosus"
+  ],
+  "images": [
+   "p06-6bis"
+  ],
+  "pages": [
+   6
+  ],
+  "latin": "Craterellus cornucopioides",
+  "group": "Croûtes et clavaires",
+  "edibility": "comestible",
+  "fr": "Trompette des morts",
+  "note": "Entonnoir à plis à peine marqués ; chapeau gris-noir, hauteur supérieure à 5 cm."
+ },
+ "craterellus-sinuosus": {
+  "confusions": [
+   "craterellus-cornucopioides"
+  ],
+  "images": [
+   "p06-a"
+  ],
+  "pages": [
+   6
+  ],
+  "latin": "Craterellus sinuosus",
+  "group": "Croûtes et clavaires",
+  "edibility": "comestible",
+  "fr": "Chanterelle sinuée",
+  "note": "Entonnoir à plis à peine marqués ; chapeau gris pâle à blanchâtre, hauteur inférieure à 5 cm."
+ },
+ "aleuria-aurantia": {
+  "confusions": [],
+  "images": [
+   "p07-2"
+  ],
+  "pages": [
+   7
+  ],
+  "latin": "Aleuria aurantia",
+  "group": "Pézizes, morilles, helvelles",
+  "edibility": "comestible",
+  "fr": "Pézize orangée",
+  "note": "Sans pied, orangé vif."
+ },
+ "scutellinia-crinita": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   7
+  ],
+  "latin": "Scutellinia crinita",
+  "group": "Pézizes, morilles, helvelles",
+  "edibility": "inconnu",
+  "fr": "Pézize en bouclier",
+  "note": "Rouge vif, très petite, à marge poilue."
+ },
+ "peziza-spp": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   7
+  ],
+  "latin": "Peziza spp.",
+  "group": "Pézizes, morilles, helvelles",
+  "edibility": "inconnu",
+  "fr": "Pézizes",
+  "note": "Brunes ou jaunes, sans pied ; nombreuses espèces."
+ },
+ "helvella-macropus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   7
+  ],
+  "latin": "Helvella macropus",
+  "group": "Pézizes, morilles, helvelles",
+  "edibility": "inconnu",
+  "fr": "Helvelle à grand pied",
+  "note": "Avec pied net, long."
+ },
+ "otidea-onotica": {
+  "confusions": [
+   "otidea-alutacea"
+  ],
+  "images": [
+   "p07-1"
+  ],
+  "pages": [
+   7
+  ],
+  "latin": "Otidea onotica",
+  "group": "Pézizes, morilles, helvelles",
+  "edibility": "inconnu",
+  "fr": "Oreille-de-lièvre",
+  "note": "Hyménophore plutôt latéral, en oreilles ; jaune doré, plus de 5 cm de haut."
+ },
+ "otidea-alutacea": {
+  "confusions": [
+   "otidea-onotica"
+  ],
+  "images": [],
+  "pages": [
+   7
+  ],
+  "latin": "Otidea alutacea",
+  "group": "Pézizes, morilles, helvelles",
+  "edibility": "inconnu",
+  "note": "En oreilles ; brune à jaune terne, moins de 5 cm."
+ },
+ "morchella-spp": {
+  "confusions": [
+   "phallus-impudicus"
+  ],
+  "images": [
+   "p07-3"
+  ],
+  "pages": [
+   7
+  ],
+  "latin": "Morchella spp.",
+  "group": "Pézizes, morilles, helvelles",
+  "edibility": "comestible",
+  "fr": "Morilles",
+  "note": "En éponges (à alvéoles), au printemps. À pied caverneux et odeur repoussante, penser à Phallus impudicus."
+ },
+ "helvella-crispa": {
+  "confusions": [
+   "helvella-lacunosa"
+  ],
+  "images": [
+   "p07-4"
+  ],
+  "pages": [
+   7
+  ],
+  "latin": "Helvella crispa",
+  "group": "Pézizes, morilles, helvelles",
+  "edibility": "inconnu",
+  "fr": "Helvelle crépue",
+  "note": "Chapeau en selles ; pied veiné ; blanc, crème."
+ },
+ "helvella-lacunosa": {
+  "confusions": [
+   "helvella-crispa"
+  ],
+  "images": [],
+  "pages": [
+   7
+  ],
+  "latin": "Helvella lacunosa",
+  "group": "Pézizes, morilles, helvelles",
+  "edibility": "inconnu",
+  "fr": "Helvelle lacuneuse",
+  "note": "Chapeau en selles ; pied veiné ; gris à noirâtre."
+ },
+ "helvella-elastica": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   7
+  ],
+  "latin": "Helvella elastica",
+  "group": "Pézizes, morilles, helvelles",
+  "edibility": "inconnu",
+  "fr": "Helvelle élastique",
+  "note": "Chapeau en selles ; pied lisse."
+ },
+ "bulgaria-inquinans": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   7
+  ],
+  "latin": "Bulgaria inquinans",
+  "group": "Pézizes, morilles, helvelles",
+  "edibility": "inconnu",
+  "note": "Gélatineuse, en boutons ou toupies, noirâtre, salissante."
+ },
+ "tremella-mesenterica": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   7
+  ],
+  "latin": "Tremella mesenterica",
+  "group": "Pézizes, morilles, helvelles",
+  "edibility": "inconnu",
+  "fr": "Trémelle mésentérique",
+  "note": "Gélatineuse, en cervelle, sans pied, sur bois."
+ },
+ "leotia-lubrica": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   7
+  ],
+  "latin": "Leotia lubrica",
+  "group": "Pézizes, morilles, helvelles",
+  "edibility": "inconnu",
+  "fr": "Léotie visqueuse",
+  "note": "Gélatineuse, à pied, sur terre."
+ },
+ "phallus-impudicus": {
+  "confusions": [
+   "morchella-spp"
+  ],
+  "images": [],
+  "pages": [
+   7,
+   8
+  ],
+  "latin": "Phallus impudicus",
+  "group": "Vesses-de-loup et apparentés",
+  "edibility": "inconnu",
+  "fr": "Satyre puant",
+  "note": "Cité sans fiche propre sur ces pages : à pied caverneux et odeur repoussante (voir morilles) ; ses oeufs ont une couche gélatineuse sous la surface et une odeur de radis."
+ },
+ "scleroderma-citrinum": {
+  "confusions": [
+   "scleroderma-verrucosum"
+  ],
+  "images": [
+   "p08-2"
+  ],
+  "pages": [
+   8
+  ],
+  "latin": "Scleroderma citrinum",
+  "group": "Vesses-de-loup et apparentés",
+  "edibility": "toxique",
+  "fr": "Scléroderme commun",
+  "note": "Coriace ; 3 à 10 cm, grossièrement craquelé, sans pied."
+ },
+ "scleroderma-verrucosum": {
+  "confusions": [
+   "scleroderma-citrinum"
+  ],
+  "images": [
+   "p08-1",
+   "p08-3"
+  ],
+  "pages": [
+   8
+  ],
+  "latin": "Scleroderma verrucosum",
+  "group": "Vesses-de-loup et apparentés",
+  "edibility": "toxique",
+  "fr": "Scléroderme verruqueux",
+  "note": "Coriace ; 1 à 4 cm, pied différencié à rhizomorphes nombreux ; gléba noir violacé, enveloppe épaisse."
+ },
+ "lycoperdon-pyriforme": {
+  "confusions": [],
+  "images": [
+   "p08-4"
+  ],
+  "pages": [
+   8
+  ],
+  "latin": "Lycoperdon pyriforme",
+  "group": "Vesses-de-loup et apparentés",
+  "edibility": "inconnu",
+  "fr": "Vesse-de-loup en poire",
+  "note": "En touffes sur bois, presque lisse, avec rhizomorphes."
+ },
+ "lycoperdon-perlatum": {
+  "confusions": [
+   "lycoperdon-nigrescens"
+  ],
+  "images": [
+   "p08-5",
+   "p08-6"
+  ],
+  "pages": [
+   8
+  ],
+  "latin": "Lycoperdon perlatum",
+  "group": "Vesses-de-loup et apparentés",
+  "edibility": "inconnu",
+  "fr": "Vesse-de-loup perlée",
+  "note": "À terre, ornée de verrues coniques tombant facilement ; surface blanche."
+ },
+ "lycoperdon-nigrescens": {
+  "confusions": [
+   "lycoperdon-perlatum"
+  ],
+  "images": [],
+  "pages": [
+   8
+  ],
+  "latin": "Lycoperdon nigrescens",
+  "group": "Vesses-de-loup et apparentés",
+  "edibility": "inconnu",
+  "fr": "Vesse-de-loup fétide",
+  "note": "À terre, ornée de verrues coniques tombant facilement ; surface brune."
+ },
+ "bovista-plumbea": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   8
+  ],
+  "latin": "Bovista plumbea",
+  "group": "Vesses-de-loup et apparentés",
+  "edibility": "inconnu",
+  "fr": "Vesse-de-loup couleur de plomb",
+  "note": "Sans pied, sphérique, diamètre de 1 à 5 cm."
+ },
+ "langermannia-gigantea": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   8
+  ],
+  "latin": "Langermannia gigantea",
+  "group": "Vesses-de-loup et apparentés",
+  "edibility": "inconnu",
+  "fr": "Vesse-de-loup géante",
+  "note": "Sans pied, sphérique, diamètre de 10 à 60 cm."
+ },
+ "geastrum-sessile": {
+  "confusions": [
+   "geastrum-triplex"
+  ],
+  "images": [
+   "p08-9"
+  ],
+  "pages": [
+   8
+  ],
+  "latin": "Geastrum sessile",
+  "group": "Vesses-de-loup et apparentés",
+  "edibility": "inconnu",
+  "note": "Sans collerette sous la gléba, orifice non délimité."
+ },
+ "geastrum-triplex": {
+  "confusions": [
+   "geastrum-sessile"
+  ],
+  "images": [
+   "p08-8"
+  ],
+  "pages": [
+   8
+  ],
+  "latin": "Geastrum triplex",
+  "group": "Vesses-de-loup et apparentés",
+  "edibility": "inconnu",
+  "note": "Avec collerette sous la gléba, orifice délimité."
+ },
+ "cyathus-striatus": {
+  "confusions": [
+   "crucibulum-laeve"
+  ],
+  "images": [
+   "p08-10"
+  ],
+  "pages": [
+   8,
+   9
+  ],
+  "latin": "Cyathus striatus",
+  "group": "Vesses-de-loup et apparentés",
+  "edibility": "inconnu",
+  "note": "En nid ; extérieur hirsute, brun."
+ },
+ "crucibulum-laeve": {
+  "confusions": [
+   "cyathus-striatus"
+  ],
+  "images": [],
+  "pages": [
+   8
+  ],
+  "latin": "Crucibulum laeve",
+  "group": "Vesses-de-loup et apparentés",
+  "edibility": "inconnu",
+  "note": "En nid ; extérieur lisse, jaunâtre."
+ },
+ "meripilus-giganteus": {
+  "confusions": [
+   "grifola-frondosa"
+  ],
+  "images": [],
+  "pages": [
+   9
+  ],
+  "latin": "Meripilus giganteus",
+  "group": "Polypores",
+  "edibility": "inconnu",
+  "fr": "Polypore géant",
+  "note": "Chapeaux brun-jaune à roux, zonés concentriquement, noircissant au toucher et en séchant."
+ },
+ "grifola-frondosa": {
+  "confusions": [
+   "meripilus-giganteus"
+  ],
+  "images": [],
+  "pages": [
+   9
+  ],
+  "latin": "Grifola frondosa",
+  "group": "Polypores",
+  "edibility": "comestible",
+  "fr": "Poule-de-bois",
+  "note": "Chapeau gris, sans noircissement au toucher."
+ },
+ "polyporus-squamosus": {
+  "confusions": [
+   "polyporus-tuberaster"
+  ],
+  "images": [
+   "p09-1"
+  ],
+  "pages": [
+   9
+  ],
+  "latin": "Polyporus squamosus",
+  "group": "Polypores",
+  "edibility": "inconnu",
+  "fr": "Polypore écailleux",
+  "note": "Chapeau écailleux ; odeur de concombre, pied noir à la base."
+ },
+ "polyporus-tuberaster": {
+  "confusions": [
+   "polyporus-squamosus"
+  ],
+  "images": [],
+  "pages": [
+   9
+  ],
+  "latin": "Polyporus tuberaster",
+  "group": "Polypores",
+  "edibility": "inconnu",
+  "note": "Chapeau écailleux ; sans odeur, pied blanchâtre peu différencié."
+ },
+ "polyporus-durus": {
+  "confusions": [
+   "polyporus-ciliatus"
+  ],
+  "images": [],
+  "pages": [
+   9
+  ],
+  "latin": "Polyporus durus",
+  "group": "Polypores",
+  "edibility": "inconnu",
+  "fr": "Polypore à pied noir",
+  "note": "Chapeau lisse ; pied noir à la base."
+ },
+ "polyporus-ciliatus": {
+  "confusions": [
+   "polyporus-durus"
+  ],
+  "images": [],
+  "pages": [
+   9
+  ],
+  "latin": "Polyporus ciliatus",
+  "group": "Polypores",
+  "edibility": "inconnu",
+  "fr": "Polypore cilié",
+  "note": "Chapeau lisse ; pied non noir, souvent chiné."
+ },
+ "ganoderma-lucidum": {
+  "confusions": [
+   "ganoderma-applanatum"
+  ],
+  "images": [
+   "p09-2"
+  ],
+  "pages": [
+   9
+  ],
+  "latin": "Ganoderma lucidum",
+  "group": "Polypores",
+  "edibility": "inconnu",
+  "note": "Pied excentrique, coriace, vernissé, rouge purpurin."
+ },
+ "postia-stiptica": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   9
+  ],
+  "latin": "Postia stiptica",
+  "group": "Polypores",
+  "edibility": "inconnu",
+  "fr": "Polypore amer",
+  "note": "Dimidié à chair molle ; entièrement blanc."
+ },
+ "postia-caesia": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   9
+  ],
+  "latin": "Postia caesia",
+  "group": "Polypores",
+  "edibility": "inconnu",
+  "fr": "Polypore bleu",
+  "note": "Dimidié à chair molle ; blanc taché de bleu."
+ },
+ "laetiporus-sulfureus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   9
+  ],
+  "latin": "Laetiporus sulfureus",
+  "group": "Polypores",
+  "edibility": "inconnu",
+  "fr": "Polypore soufré",
+  "note": "Dimidié à chair molle ; jaune à orangé, tubes jaune vif."
+ },
+ "trametes-versicolor": {
+  "confusions": [
+   "trametes-hirsuta"
+  ],
+  "images": [
+   "p09-3"
+  ],
+  "pages": [
+   9
+  ],
+  "latin": "Trametes versicolor",
+  "group": "Polypores",
+  "edibility": "inconnu",
+  "fr": "Tramète versicolore",
+  "note": "Coriace et mince, pores ronds ; surface supérieure veloutée, à zones colorées."
+ },
+ "trametes-hirsuta": {
+  "confusions": [
+   "trametes-versicolor"
+  ],
+  "images": [],
+  "pages": [
+   9
+  ],
+  "latin": "Trametes hirsuta",
+  "group": "Polypores",
+  "edibility": "inconnu",
+  "fr": "Tramète hirsute",
+  "note": "Coriace et mince, pores ronds ; surface supérieure franchement poilue, blanche."
+ },
+ "heterobasidion-annosum": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   9
+  ],
+  "latin": "Heterobasidion annosum",
+  "group": "Polypores",
+  "edibility": "inconnu",
+  "fr": "Polypore annuel",
+  "note": "Coriace et mince, pores ronds ; surface supérieure brune non zonée, irrégulièrement bosselée, à marge blanche."
+ },
+ "trametes-gibbosa": {
+  "confusions": [
+   "daedaleopsis-confragosa"
+  ],
+  "images": [],
+  "pages": [
+   9
+  ],
+  "latin": "Trametes gibbosa",
+  "group": "Polypores",
+  "edibility": "inconnu",
+  "fr": "Tramète bossu",
+  "note": "Coriace et mince, pores en partie étirés ; pores blancs non rougissants."
+ },
+ "daedaleopsis-confragosa": {
+  "confusions": [
+   "trametes-gibbosa"
+  ],
+  "images": [
+   "p09-4"
+  ],
+  "pages": [
+   9
+  ],
+  "latin": "Daedaleopsis confragosa",
+  "group": "Polypores",
+  "edibility": "inconnu",
+  "fr": "Tramète rougissante",
+  "note": "Coriace et mince, pores en partie étirés ; pores rougissants au grattage."
+ },
+ "piptoporus-betulinus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   9
+  ],
+  "latin": "Piptoporus betulinus",
+  "group": "Polypores",
+  "edibility": "inconnu",
+  "fr": "Polypore du bouleau",
+  "note": "Coriace, spongieux, 3 à 5 cm ; chapeau café-au-lait, lisse, pores blancs minuscules, sur bouleau."
+ },
+ "fomes-fomentarius": {
+  "confusions": [
+   "ganoderma-applanatum"
+  ],
+  "images": [
+   "p09-5"
+  ],
+  "pages": [
+   9
+  ],
+  "latin": "Fomes fomentarius",
+  "group": "Polypores",
+  "edibility": "inconnu",
+  "fr": "Amadouvier",
+  "note": "Épais, chair dure ; forme de sabot à marge obtuse, blanc à gris-noir."
+ },
+ "ganoderma-applanatum": {
+  "confusions": [
+   "fomes-fomentarius"
+  ],
+  "images": [],
+  "pages": [
+   9
+  ],
+  "latin": "Ganoderma applanatum",
+  "group": "Polypores",
+  "edibility": "inconnu",
+  "fr": "Ganoderme aplani",
+  "note": "Épais, chair dure ; chapeaux plus minces, couleur chocolat à marge blanche."
+ },
+ "leccinum-crocopodium": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   10
+  ],
+  "latin": "Leccinum crocopodium",
+  "fr": "Bolet à pied jaune",
+  "group": "Bolets",
+  "edibility": "comestible",
+  "note": "Genre Leccinum, pied raboteux ; pores jaunes. Comestible médiocre."
+ },
+ "leccinum-scabrum": {
+  "confusions": [],
+  "images": [
+   "p10-1"
+  ],
+  "pages": [
+   10
+  ],
+  "latin": "Leccinum scabrum",
+  "fr": "Bolet rude",
+  "group": "Bolets",
+  "edibility": "comestible",
+  "note": "Pied raboteux ; pores blancs à gris ; chapeau lisse, chair restant blanche au grattage. Comestible médiocre."
+ },
+ "leccinum-carpini": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   10
+  ],
+  "latin": "Leccinum carpini",
+  "fr": "Bolet des charmes",
+  "group": "Bolets",
+  "edibility": "comestible",
+  "note": "Pied raboteux ; chapeau bosselé ou craquelé, chair noircissante. Comestible médiocre."
+ },
+ "leccinum-aurantiacum": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   10
+  ],
+  "latin": "Leccinum aurantiacum",
+  "fr": "Bolet orangé",
+  "group": "Bolets",
+  "edibility": "comestible",
+  "note": "Pied raboteux ; chapeau de couleur orangée ou fauve. Comestible médiocre."
+ },
+ "suillus-luteus": {
+  "confusions": [],
+  "images": [
+   "p10-3"
+  ],
+  "pages": [
+   10
+  ],
+  "latin": "Suillus luteus",
+  "fr": "Bolet jaune",
+  "group": "Bolets",
+  "edibility": "comestible",
+  "note": "Chapeau visqueux brun châtain, anneau ; sous pins."
+ },
+ "suillus-grevillei": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   10
+  ],
+  "latin": "Suillus grevillei",
+  "fr": "Bolet élégant",
+  "group": "Bolets",
+  "edibility": "comestible",
+  "note": "Chapeau visqueux jaune ou orangé, anneau ; sous mélèzes."
+ },
+ "suillus-granulatus": {
+  "confusions": [],
+  "images": [
+   "p10-4"
+  ],
+  "pages": [
+   10
+  ],
+  "latin": "Suillus granulatus",
+  "fr": "Bolet granulé",
+  "group": "Bolets",
+  "edibility": "comestible",
+  "note": "Chapeau visqueux roux orangé ; pied ponctué de granulations, sans anneau."
+ },
+ "chalciporus-piperatus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   10
+  ],
+  "latin": "Chalciporus piperatus",
+  "fr": "Bolet poivré",
+  "group": "Bolets",
+  "edibility": "inconnu",
+  "note": "Pied lisse ; chair jaune vif à la base du pied."
+ },
+ "gyrodon-lividus": {
+  "confusions": [],
+  "images": [
+   "p10-6"
+  ],
+  "pages": [
+   10,
+   11
+  ],
+  "latin": "Gyrodon lividus",
+  "fr": "Bolet livide",
+  "group": "Bolets",
+  "edibility": "inconnu",
+  "note": "Pores très décurrents, bleuissants ; chapeau visqueux, sans anneau."
+ },
+ "imleria-badia": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   10,
+   11
+  ],
+  "latin": "Imleria badia",
+  "fr": "Bolet bai",
+  "group": "Bolets",
+  "edibility": "comestible",
+  "note": "Pied rayé de brun (aspect de bois poli), pores non décurrents ; aussi : chapeau non craquelé, pied brun veiné, pores jaunes bleuissants."
+ },
+ "suillus-bovinus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   10
+  ],
+  "latin": "Suillus bovinus",
+  "fr": "Bolet des bouviers",
+  "group": "Bolets",
+  "edibility": "inconnu",
+  "note": "Chapeau visqueux ; pied jaunâtre comme le chapeau, uni."
+ },
+ "strobilomyces-strobilaceus": {
+  "confusions": [],
+  "images": [
+   "p10-5"
+  ],
+  "pages": [
+   10
+  ],
+  "latin": "Strobilomyces strobilaceus",
+  "fr": "Bolet pomme de pin",
+  "group": "Bolets",
+  "edibility": "inconnu",
+  "note": "Chapeau couvert d'écailles bistre-noirâtre ; pores anguleux grisâtres."
+ },
+ "boletus-edulis": {
+  "confusions": [
+   "tylopilus-felleus"
+  ],
+  "images": [
+   "p11-4"
+  ],
+  "pages": [
+   11
+  ],
+  "latin": "Boletus edulis",
+  "fr": "Cèpe de Bordeaux",
+  "group": "Bolets",
+  "edibility": "comestible",
+  "note": "Pores blancs ou verdâtres, non bleuissants ; pied à réseau blanc."
+ },
+ "tylopilus-felleus": {
+  "confusions": [
+   "boletus-edulis"
+  ],
+  "images": [
+   "p11-7"
+  ],
+  "pages": [
+   11
+  ],
+  "latin": "Tylopilus felleus",
+  "fr": "Bolet de fiel",
+  "group": "Bolets",
+  "edibility": "inconnu",
+  "note": "Pores blancs ou roses ; pied à réseau brun ; saveur amère ; inconsommable !"
+ },
+ "gyroporus-castaneus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   11
+  ],
+  "latin": "Gyroporus castaneus",
+  "fr": "Bolet châtain",
+  "group": "Bolets",
+  "edibility": "inconnu",
+  "note": "Pores blancs brunissants au toucher ; pied lisse creux."
+ },
+ "xerocomellus-chrysenteron": {
+  "confusions": [],
+  "images": [
+   "p11-1"
+  ],
+  "pages": [
+   11
+  ],
+  "latin": "Xerocomellus chrysenteron",
+  "fr": "Bolet à chair jaune",
+  "group": "Bolets",
+  "edibility": "comestible",
+  "note": "Pores jaunes ; pied rayé ou teinté de rouge ; chapeau velouté ou craquelé. Cité deux fois dans la clé (☺ présent à la seconde mention)."
+ },
+ "xerocomus-subtomentosus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   11
+  ],
+  "latin": "Xerocomus subtomentosus",
+  "fr": "Bolet tomenteux",
+  "group": "Bolets",
+  "edibility": "inconnu",
+  "note": "Pores jaunes terminés en filet ; pied jaunâtre, sans réseau ; chapeau velouté ou craquelé."
+ },
+ "pseudoboletus-parasiticus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   11
+  ],
+  "latin": "Pseudoboletus parasiticus",
+  "fr": "Bolet parasite",
+  "group": "Bolets",
+  "edibility": "inconnu",
+  "note": "Parasite sur scléroderme ; chapeau lisse."
+ },
+ "boletus-calopus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   11
+  ],
+  "latin": "Boletus calopus",
+  "fr": "Bolet à beau pied",
+  "group": "Bolets",
+  "edibility": "inconnu",
+  "note": "Pores jaunes bleuissants ; pied robuste à réseau net sur fond rouge ; chair très amère."
+ },
+ "boletus-appendiculatus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   11
+  ],
+  "latin": "Boletus appendiculatus",
+  "fr": "Bolet appendiculé",
+  "group": "Bolets",
+  "edibility": "comestible",
+  "note": "Pores jaunes bleuissants ; chapeau gris de plomb ; pied à réseau discret sur fond jaune ; chair douce."
+ },
+ "xerocomellus-pruinatus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   11
+  ],
+  "latin": "Xerocomellus pruinatus",
+  "fr": "Bolet pruineux",
+  "group": "Bolets",
+  "edibility": "comestible",
+  "note": "Chapeau non craquelé, sans rouge en surface ; pied teinté de rouge, renflé à la base."
+ },
+ "hortiboletus-rubellus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   11
+  ],
+  "latin": "Hortiboletus rubellus",
+  "fr": "Bolet rougeâtre",
+  "group": "Bolets",
+  "edibility": "comestible",
+  "note": "Chapeau non craquelé, rouge au moins sur le bord ; pied teinté de rouge, renflé à la base."
+ },
+ "neoboletus-erythropus": {
+  "confusions": [],
+  "images": [
+   "p11-5"
+  ],
+  "pages": [
+   11
+  ],
+  "latin": "Neoboletus erythropus",
+  "fr": "Bolet à pied rouge",
+  "group": "Bolets",
+  "edibility": "comestible",
+  "note": "Pores rouges à orangés ; chapeau brun ; pied sans réseau, à fines ponctuations rouges."
+ },
+ "suillellus-luridus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   11
+  ],
+  "latin": "Suillellus luridus",
+  "fr": "Bolet blafard",
+  "group": "Bolets",
+  "edibility": "inconnu",
+  "note": "Pores rouges à orangés ; chapeau brun jaunâtre à verdâtre ; pied à réseau."
+ },
+ "rubroboletus-satanas": {
+  "confusions": [],
+  "images": [
+   "p11-6"
+  ],
+  "pages": [
+   11
+  ],
+  "latin": "Rubroboletus satanas",
+  "fr": "Bolet satan",
+  "group": "Bolets",
+  "edibility": "toxique",
+  "note": "Pores rouges à orangés ; chapeau blanc mastic ; pied à réseau."
+ },
+ "gyroporus-cyanescens": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   11
+  ],
+  "latin": "Gyroporus cyanescens",
+  "fr": "Bolet bleuissant",
+  "group": "Bolets",
+  "edibility": "inconnu",
+  "note": "Pores blancs, très petits, bleuissants ; pied creux."
+ },
+ "suillus-variegatus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   11
+  ],
+  "latin": "Suillus variegatus",
+  "fr": "Bolet vergeté",
+  "group": "Bolets",
+  "edibility": "inconnu",
+  "note": "Pores gris verdâtre ; chapeau méchuleux."
+ },
+ "hygrophoropsis-aurantiaca": {
+  "confusions": [],
+  "images": [
+   "p12-1"
+  ],
+  "pages": [
+   12
+  ],
+  "latin": "Hygrophoropsis aurantiaca",
+  "fr": "Fausse girolle",
+  "group": "Lames décurrentes",
+  "edibility": "comestible",
+  "note": "Lames fourchues, fines, sans lamellules, de couleur orangée de girolle."
+ },
+ "rickenella-fibula": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   12
+  ],
+  "latin": "Rickenella fibula",
+  "fr": "Omphale tête-d'épingle",
+  "group": "Lames décurrentes",
+  "edibility": "inconnu",
+  "note": "Petite espèce grêle (pied de 2-3 mm), fragile, entièrement orangée, dans les mousses."
+ },
+ "lepista-inversa": {
+  "confusions": [],
+  "images": [
+   "p12-2"
+  ],
+  "pages": [
+   12
+  ],
+  "latin": "Lepista inversa",
+  "fr": "Clitocybe renversé",
+  "group": "Lames décurrentes",
+  "edibility": "comestible",
+  "note": "Chapeau en entonnoir très creusé, jaune paille à jaune orangé ; pied plus court que le diamètre du chapeau ; chair élastique."
+ },
+ "clitocybe-gibba": {
+  "confusions": [
+   "clitocybe-decembris"
+  ],
+  "images": [
+   "p12-3"
+  ],
+  "pages": [
+   12
+  ],
+  "latin": "Clitocybe gibba",
+  "fr": "Clitocybe en entonnoir",
+  "group": "Lames décurrentes",
+  "edibility": "comestible",
+  "note": "Entonnoir très creusé, pâle ; pied plus long que le diamètre du chapeau ; chair molle, mamelon fréquent. Jeunes spécimens à lames très décurrentes."
+ },
+ "clitocybe-decembris": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   12
+  ],
+  "latin": "Clitocybe decembris",
+  "fr": "Clitocybe d'hiver",
+  "group": "Lames décurrentes",
+  "edibility": "inconnu",
+  "note": "Mentionné pour pied gris-noir au centre et à la base, voisin de C. gibba."
+ },
+ "lentinus-tigrinus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   12,
+   20
+  ],
+  "latin": "Lentinus tigrinus",
+  "fr": "Lentin tigré",
+  "group": "Lames décurrentes",
+  "edibility": "inconnu",
+  "note": "Chapeau blanc moucheté de gris, sur bois ; pied très coriace. Voir p. 19. Chapeau creusé au centre, blanc moucheté de gris-noir. Lames denticulées."
+ },
+ "clitocybe-nebularis": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   12
+  ],
+  "latin": "Clitocybe nebularis",
+  "fr": "Clitocybe nébuleux",
+  "group": "Lames décurrentes",
+  "edibility": "toxique",
+  "note": "Chapeau gris ; centre du chapeau et pied fermes au toucher."
+ },
+ "clitocybe-clavipes": {
+  "confusions": [],
+  "images": [
+   "p12-4"
+  ],
+  "pages": [
+   12
+  ],
+  "latin": "Clitocybe clavipes",
+  "fr": "Clitocybe à pied clavé",
+  "group": "Lames décurrentes",
+  "edibility": "toxique",
+  "note": "Chapeau gris ; chapeau et pied mous, cotonneux ; pied clavé."
+ },
+ "clitocybe-odora": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   12,
+   22,
+   23
+  ],
+  "latin": "Clitocybe odora",
+  "fr": "Clitocybe anisé",
+  "group": "Lames décurrentes",
+  "edibility": "inconnu",
+  "note": "Chapeau bleu-vert, forte odeur d'anis. Lames bleu-vert comme le chapeau (chapeau verdâtre) ; forte odeur d'anis."
+ },
+ "clitocybe-phyllophila": {
+  "confusions": [
+   "clitocybe-gibba",
+   "clitocybe-dealbata"
+  ],
+  "images": [
+   "p12-5"
+  ],
+  "pages": [
+   12,
+   23
+  ],
+  "latin": "Clitocybe phyllophila",
+  "fr": "Clitocybe des feuilles",
+  "group": "Lames décurrentes",
+  "edibility": "toxique",
+  "note": "Chapeau blanc. Si chapeau mamelonné beige, voir jeunes C. gibba. Chapeau blanchâtre, sur feuilles mortes. Lames peu décurrentes, chapeau déprimé."
+ },
+ "clitopilus-prunulus": {
+  "confusions": [
+   "clitocybe-phyllophila"
+  ],
+  "images": [
+   "p13-1"
+  ],
+  "pages": [
+   13
+  ],
+  "latin": "Clitopilus prunulus",
+  "fr": "Meunier",
+  "group": "Lames décurrentes",
+  "edibility": "comestible",
+  "note": "Blanc ou gris pâle, chair blanche épaisse mais très fragile, forte odeur de farine ; lames décurrentes blanches puis rosées ; spores roses."
+ },
+ "entoloma-undatum": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   13
+  ],
+  "latin": "Entoloma undatum",
+  "fr": "",
+  "group": "Lames décurrentes",
+  "edibility": "inconnu",
+  "note": "Spores roses ; chapeau gris-brun non strié, chair très mince ; pied < 3 mm de diamètre."
+ },
+ "entoloma-rhodopolium": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   13
+  ],
+  "latin": "Entoloma rhodopolium",
+  "fr": "Entolome gris-rose",
+  "group": "Lames décurrentes",
+  "edibility": "toxique",
+  "note": "Spores roses ; chapeau gris-brun strié, chair très mince ; pied > 3 mm de diamètre. Et espèces voisines (voir bas de la p. 24)."
+ },
+ "paxillus-involutus": {
+  "confusions": [],
+  "images": [
+   "p13-2"
+  ],
+  "pages": [
+   13
+  ],
+  "latin": "Paxillus involutus",
+  "fr": "Paxille enroulé",
+  "group": "Lames décurrentes",
+  "edibility": "mortel",
+  "note": "Lames serrées, molles, se liquéfiant et brunissant au toucher ; chapeau brun-jaune à châtain."
+ },
+ "chroogomphus-rutilus": {
+  "confusions": [],
+  "images": [
+   "p13-3",
+   "p19-3"
+  ],
+  "pages": [
+   13,
+   19
+  ],
+  "latin": "Chroogomphus rutilus",
+  "fr": "Gomphide visqueux",
+  "group": "Lames décurrentes",
+  "edibility": "inconnu",
+  "note": "Gomphide à lames épaisses non déliquescentes ; chair brun-jaune. Lames décurrentes, épaisses et espacées ; chair brun-jaune."
+ },
+ "gomphidius-glutinosus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   13,
+   19
+  ],
+  "latin": "Gomphidius glutinosus",
+  "fr": "Gomphide glutineux",
+  "group": "Lames décurrentes",
+  "edibility": "comestible",
+  "note": "Gomphide à chair blanche ; chapeau gris, pied visqueux. Chair blanche, ou jaune citrin à la base du pied ; chapeau gris ; pied visqueux."
+ },
+ "gomphidius-roseus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   13,
+   19
+  ],
+  "latin": "Gomphidius roseus",
+  "fr": "Gomphide rose",
+  "group": "Lames décurrentes",
+  "edibility": "inconnu",
+  "note": "Gomphide à chair blanche ; chapeau rose bonbon, pied sec. Chair blanche, ou jaune citrin à la base du pied ; chapeau rose bonbon ; pied sec."
+ },
+ "amanita-fulva": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   14
+  ],
+  "latin": "Amanita fulva",
+  "fr": "Amanite fauve",
+  "group": "Amanites",
+  "edibility": "comestible",
+  "note": "Comestible cuit, toxique cru (Amanites vaginées). Espèce grêle, volve blanche tachée de roux ; chapeau strié."
+ },
+ "amanita-crocea": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   14
+  ],
+  "latin": "Amanita crocea",
+  "fr": "Amanite safran",
+  "group": "Amanites",
+  "edibility": "comestible",
+  "note": "Comestible cuit, toxique cru (Amanites vaginées). Espèce plus charnue, volve blanche unie ; chapeau strié."
+ },
+ "amanita-vaginata": {
+  "confusions": [],
+  "images": [
+   "p14-1"
+  ],
+  "pages": [
+   14
+  ],
+  "latin": "Amanita vaginata",
+  "fr": "Amanite vaginée",
+  "group": "Amanites",
+  "edibility": "comestible",
+  "note": "Comestible cuit, toxique cru (Amanites vaginées). Chapeau gris de plomb, strié."
+ },
+ "amanita-lividopallescens": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   14
+  ],
+  "latin": "Amanita lividopallescens",
+  "fr": "Amanite livide",
+  "group": "Amanites",
+  "edibility": "comestible",
+  "note": "Comestible cuit, toxique cru (Amanites vaginées). Chapeau beige clair, strié."
+ },
+ "volvopluteus-gloiocephalus": {
+  "confusions": [],
+  "images": [
+   "p14-a"
+  ],
+  "pages": [
+   14
+  ],
+  "latin": "Volvopluteus gloiocephalus",
+  "fr": "Volvaire gluante",
+  "group": "Volvaires",
+  "edibility": "comestible",
+  "note": "Spores roses, lames libres, volve en sac ; chapeau visqueux, blanc, beige pâle ou gris."
+ },
+ "armillaria-mellea": {
+  "confusions": [],
+  "images": [
+   "p15-1"
+  ],
+  "pages": [
+   15
+  ],
+  "latin": "Armillaria mellea",
+  "fr": "Armillaire à couleur de miel",
+  "group": "Espèces annelées",
+  "edibility": "toxique",
+  "note": "En touffes ; chapeau jaune brunâtre à rougeâtre, centre parsemé de petites mèches grises ; spores blanches."
+ },
+ "oudemansiella-mucida": {
+  "confusions": [],
+  "images": [
+   "p15-2"
+  ],
+  "pages": [
+   15
+  ],
+  "latin": "Oudemansiella mucida",
+  "fr": "Collybie muqueuse",
+  "group": "Espèces annelées",
+  "edibility": "inconnu",
+  "note": "En touffes sur hêtre ; chapeau blanc, lisse, visqueux ; spores blanches."
+ },
+ "pholiota-squarrosa": {
+  "confusions": [],
+  "images": [
+   "p15-3"
+  ],
+  "pages": [
+   15
+  ],
+  "latin": "Pholiota squarrosa",
+  "fr": "Pholiote écailleuse",
+  "group": "Espèces annelées",
+  "edibility": "inconnu",
+  "note": "Chapeau écailleux sec, espèce moyenne ± jaune-fauve ; spores brunes."
+ },
+ "pholiota-aurivella": {
+  "confusions": [],
+  "images": [
+   "p15-4"
+  ],
+  "pages": [
+   15
+  ],
+  "latin": "Pholiota aurivella",
+  "fr": "Pholiote dorée",
+  "group": "Espèces annelées",
+  "edibility": "inconnu",
+  "note": "Chapeau écailleux, visqueux ou lubrifié ; spores brunes."
+ },
+ "gymnopilus-spectabilis": {
+  "confusions": [],
+  "images": [
+   "p15-5"
+  ],
+  "pages": [
+   15,
+   16
+  ],
+  "latin": "Gymnopilus spectabilis",
+  "fr": "Pholiote remarquable",
+  "group": "Espèces annelées",
+  "edibility": "inconnu",
+  "note": "Grosse espèce (8 - 25 cm) entièrement jaune-fauve, en touffes ; isolé : sur bois, entièrement jaune doré, chair charnue."
+ },
+ "kuehneromyces-mutabilis": {
+  "confusions": [
+   "galerina-marginata"
+  ],
+  "images": [
+   "p15-6"
+  ],
+  "pages": [
+   15,
+   16
+  ],
+  "latin": "Kuehneromyces mutabilis",
+  "fr": "Pholiote changeante, agaric à soupe",
+  "group": "Espèces annelées",
+  "edibility": "comestible",
+  "note": "Petite espèce (2-5 cm), chapeau lisse hygrophane, brun fauve humide, jaunâtre sec ; pied pelucheux sous l'anneau. À ne pas confondre avec Galerina marginata, mortelle."
+ },
+ "galerina-marginata": {
+  "confusions": [
+   "kuehneromyces-mutabilis"
+  ],
+  "images": [
+   "p15-7"
+  ],
+  "pages": [
+   15,
+   16
+  ],
+  "latin": "Galerina marginata",
+  "fr": "Galérine marginée",
+  "group": "Espèces annelées",
+  "edibility": "mortel",
+  "note": "Espèce mortelle ; petite espèce lignicole à chapeau strié hygrophane, rarement en touffe. À ne pas confondre avec Kuehneromyces mutabilis."
+ },
+ "cyclocybe-cylindracea": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   15
+  ],
+  "latin": "Cyclocybe cylindracea",
+  "fr": "Pholiote du peuplier",
+  "group": "Espèces annelées",
+  "edibility": "comestible",
+  "note": "Espèce moyenne (4-10 cm), sans jaune ; chapeau lisse, ridé ou craquelé ; pied lisse sous l'anneau ; odeur de vieux tonneau."
+ },
+ "lacrymaria-lacrymabunda": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   15,
+   17,
+   18,
+   26
+  ],
+  "latin": "Lacrymaria lacrymabunda",
+  "fr": "Psathyrelle veloutée",
+  "group": "Espèces à cortine",
+  "edibility": "inconnu",
+  "note": "Chapeau jaune sale à roux orangé, feutré ; lames noirâtres ; cortine persistante. Appelé Psathyrella lacrymabunda p. 15. Chapeau ocre à fauve, fibrilleux ou écailleux ; espèce souvent robuste. Lames uniformes, noirâtres à maturité. Aussi nommée Lacrymaria lacrymabunda."
+ },
+ "hypholoma-fasciculare": {
+  "confusions": [],
+  "images": [
+   "p17-a"
+  ],
+  "pages": [
+   15,
+   17
+  ],
+  "latin": "Hypholoma fasciculare",
+  "fr": "Hypholome en touffes",
+  "group": "Espèces à cortine",
+  "edibility": "toxique",
+  "note": "Sporophores jaunes à lames verdâtres, en touffes, lignicole ; spores violacées à noires."
+ },
+ "cystoderma-amianthinum": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   16
+  ],
+  "latin": "Cystoderma amianthinum",
+  "fr": "Cystoderme couleur d'amiante",
+  "group": "Espèces annelées",
+  "edibility": "inconnu",
+  "note": "Lames adnées-échancrées, chapeau granuleux jaune ou orangé, voile en armille (flocons sur le pied)."
+ },
+ "tricholoma-cingulatum": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   16
+  ],
+  "latin": "Tricholoma cingulatum",
+  "fr": "Tricholome ceinturé",
+  "group": "Espèces annelées",
+  "edibility": "inconnu",
+  "note": "Lames adnées-échancrées, chapeau écailleux blanc ou gris."
+ },
+ "armillaria-gallica": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   16,
+   17
+  ],
+  "latin": "Armillaria gallica",
+  "fr": "Armillaire bulbeuse",
+  "group": "Espèces annelées",
+  "edibility": "inconnu",
+  "note": "Lames subdécurrentes, chapeau brun jaunâtre à petites mèches jaunes ou grises ; isolés ou en petites touffes ; anneau cotonneux pouvant évoquer une cortine."
+ },
+ "rozites-caperatus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   16
+  ],
+  "latin": "Rozites caperatus",
+  "fr": "Pholiote ridée",
+  "group": "Espèces annelées",
+  "edibility": "comestible",
+  "note": "À terre, lames beige clair d'aspect fripé."
+ },
+ "agrocybe-rivulosa": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   16
+  ],
+  "latin": "Agrocybe rivulosa",
+  "fr": "",
+  "group": "Espèces annelées",
+  "edibility": "inconnu",
+  "note": "Sur composts, chapeau ridé, pied à rhizomorphes blancs."
+ },
+ "hebeloma-radicosum": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   16
+  ],
+  "latin": "Hebeloma radicosum",
+  "fr": "",
+  "group": "Espèces annelées",
+  "edibility": "inconnu",
+  "note": "Long pied radicant, forte odeur d'amandes amères."
+ },
+ "coprinus-comatus": {
+  "confusions": [],
+  "images": [
+   "p16-2",
+   "p26-2"
+  ],
+  "pages": [
+   16,
+   26
+  ],
+  "latin": "Coprinus comatus",
+  "fr": "Coprin chevelu",
+  "group": "Espèces annelées",
+  "edibility": "comestible",
+  "note": "Chapeau blanc méchuleux, parabolique ou cylindrique, déliquescent à maturité ; jeune, peut évoquer une lépiote à chapeau cylindrique. Chapeau blanc, dilacéré en mèches ; chapeau allongé, charnu. Lames déliquescentes."
+ },
+ "coprinus-atramentarius": {
+  "confusions": [],
+  "images": [
+   "p26-1"
+  ],
+  "pages": [
+   16,
+   26
+  ],
+  "latin": "Coprinus atramentarius",
+  "fr": "Coprin noir d'encre",
+  "group": "Espèces annelées",
+  "edibility": "toxique",
+  "note": "Chapeau gris ridé-strié, déliquescent à maturité. Chapeau gris ardoisé, rugueux-ridé, gras au toucher ; chapeau allongé, charnu. Lames déliquescentes."
+ },
+ "stropharia-aeruginosa": {
+  "confusions": [
+   "stropharia-caerulea"
+  ],
+  "images": [
+   "p16-1"
+  ],
+  "pages": [
+   16
+  ],
+  "latin": "Stropharia aeruginosa",
+  "fr": "Strophaire vert-de-gris",
+  "group": "Espèces annelées",
+  "edibility": "inconnu",
+  "note": "Couleur vert de gris ; arête des lames blanche, anneau bien développé."
+ },
+ "stropharia-caerulea": {
+  "confusions": [
+   "stropharia-aeruginosa"
+  ],
+  "images": [],
+  "pages": [
+   16
+  ],
+  "latin": "Stropharia caerulea",
+  "fr": "Strophaire bleue",
+  "group": "Espèces annelées",
+  "edibility": "inconnu",
+  "note": "Couleur vert de gris ; arête des lames non blanche, anneau peu viable."
+ },
+ "stropharia-coronilla": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   16
+  ],
+  "latin": "Stropharia coronilla",
+  "fr": "Strophaire coronille",
+  "group": "Espèces annelées",
+  "edibility": "inconnu",
+  "note": "Chapeau jaune ocracé, hémisphérique, espèce venant dans l'herbe."
+ },
+ "pholiota-gummosa": {
+  "confusions": [],
+  "images": [
+   "p17-3"
+  ],
+  "pages": [
+   17,
+   18
+  ],
+  "latin": "Pholiota gummosa",
+  "fr": "Pholiote gommeuse",
+  "group": "Espèces à cortine",
+  "edibility": "inconnu",
+  "note": "Chapeau jaune verdâtre, à petites écailles vers le bord, ± lubrifié ; lames jaunâtres puis rouillées, jamais vertes ; sur bois ou débris ligneux."
+ },
+ "hypholoma-lateritium": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   17
+  ],
+  "latin": "Hypholoma lateritium",
+  "fr": "Hypholome briqueté",
+  "group": "Espèces à cortine",
+  "edibility": "inconnu",
+  "note": "Sporophores rouge-orangé à lames grisâtres, en touffes."
+ },
+ "psathyrella-piluliformis": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   17,
+   26
+  ],
+  "latin": "Psathyrella piluliformis",
+  "fr": "Psathyrelle hydrophile",
+  "group": "Espèces à cortine",
+  "edibility": "inconnu",
+  "note": "Hygrophane, blanchissant en séchant ; traces de voile partiel sur la marge du chapeau. Chapeau ocracé à brun chocolat, convexe, lisse ; peu fragile ; en touffes."
+ },
+ "coprinus-micaceus": {
+  "confusions": [],
+  "images": [
+   "p17-2"
+  ],
+  "pages": [
+   17,
+   26
+  ],
+  "latin": "Coprinus micaceus",
+  "fr": "Coprin micacé (groupe)",
+  "group": "Espèces à cortine",
+  "edibility": "inconnu",
+  "note": "Non hygrophane, sommet du chapeau micacé (comme saupoudré de sucre), en touffes. Chapeau ocre orangé, strié-cannelé, généralement couvert de petits flocons blancs labiles. Lames déliquescentes."
+ },
+ "pholiota-lenta": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   17
+  ],
+  "latin": "Pholiota lenta",
+  "fr": "",
+  "group": "Espèces à cortine",
+  "edibility": "inconnu",
+  "note": "Chapeau visqueux à flocons blancs, beige ocracé, cortine abondante ; terricole."
+ },
+ "psathyrella-candolleana": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   17,
+   18,
+   26
+  ],
+  "latin": "Psathyrella candolleana",
+  "fr": "Psathyrelle de Candolle",
+  "group": "Espèces à cortine",
+  "edibility": "inconnu",
+  "note": "Espèce fragile, cortine visible seulement chez les jeunes ; lames très serrées, pied blanc lisse, lames gris pâle puis gris cendré ; chapeau jaune pâle puis blanc. Chapeau jaune sur le frais puis blanc comme le pied en séchant, lisse, très fragile."
+ },
+ "tricholoma-scalpturatum": {
+  "confusions": [
+   "tricholoma-pardinum"
+  ],
+  "images": [],
+  "pages": [
+   18,
+   39
+  ],
+  "latin": "Tricholoma scalpturatum",
+  "fr": "Tricholome sculpté",
+  "group": "Espèces à cortine",
+  "edibility": "comestible",
+  "note": "Chapeau squameux ou feutré ± bistré, lames jaunissantes, odeur et saveur farineuse. Chapeau feutré, lames blanches jaunissantes dans les endroits abîmés, odeur farineuse."
+ },
+ "gymnopilus-penetrans": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   18
+  ],
+  "latin": "Gymnopilus penetrans",
+  "fr": "Pholiote remarquable",
+  "group": "Espèces à cortine",
+  "edibility": "inconnu",
+  "note": "Chapeau sec ± fibrilleux, roux, sur conifères."
+ },
+ "inocybe-bongardii": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   18,
+   25
+  ],
+  "latin": "Inocybe bongardii",
+  "fr": "inocybe de Bongard",
+  "group": "Espèces à cortine",
+  "edibility": "toxique",
+  "note": "Forte odeur aromatique rappelant l'alcool de poire ; chapeau pointu. Forte odeur aromatique (alcool de poire). Chapeau squamuleux."
+ },
+ "inocybe-geophylla": {
+  "confusions": [],
+  "images": [
+   "p18-1"
+  ],
+  "pages": [
+   18,
+   25
+  ],
+  "latin": "Inocybe geophylla",
+  "fr": "Inocybe à lames terreuses",
+  "group": "Espèces à cortine",
+  "edibility": "toxique",
+  "note": "Espèce blanche immuable, odeur spermatique. Odeur spermatique ou miellée. Chapeau blanc, pointu."
+ },
+ "inocybe-geophylla-lilacina": {
+  "confusions": [
+   "laccaria-amethystina"
+  ],
+  "images": [],
+  "pages": [
+   18,
+   25
+  ],
+  "latin": "Inocybe geophylla var. lilacina",
+  "fr": "Inocybe lilas",
+  "group": "Espèces à cortine",
+  "edibility": "toxique",
+  "note": "Espèce entièrement violacée, odeur spermatique. Odeur spermatique ou miellée. Chapeau violacé, pointu. Attention à la confusion avec Laccaria amethystina."
+ },
+ "inocybe-flocculosa": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   18,
+   25
+  ],
+  "latin": "Inocybe flocculosa",
+  "fr": "Inocybe floconneux",
+  "group": "Espèces à cortine",
+  "edibility": "toxique",
+  "note": "Chapeau gris-brun, très fibrilleux, odeur spermatique. Pied blanc ou jaune pâle ; chapeau gris, feutré-laineux."
+ },
+ "hebeloma-mesophaeum": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   18
+  ],
+  "latin": "Hebeloma mesophaeum",
+  "fr": "Hébélome à centre brun",
+  "group": "Espèces à cortine",
+  "edibility": "toxique",
+  "note": "Odeur raphanoïde ; lames beige pâle, chapeau lisse brillant, bicolore."
+ },
+ "inocybe-dulcamara": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   18
+  ],
+  "latin": "Inocybe dulcamara",
+  "fr": "Inocybe doux-amer",
+  "group": "Espèces à cortine",
+  "edibility": "toxique",
+  "note": "Odeur nulle ou faible ; chapeau convexe pelucheux, brun-jaune ; lames gris sale."
+ },
+ "stropharia-pseudocyanea": {
+  "confusions": [],
+  "images": [
+   "p26-1b"
+  ],
+  "pages": [
+   18,
+   26
+  ],
+  "latin": "Stropharia pseudocyanea",
+  "fr": "Strophaire bleue et blanche",
+  "group": "Espèces à cortine",
+  "edibility": "inconnu",
+  "note": "Chapeau bleu-vert décolorant, visqueux ; lames non décurrentes, minces et serrées. Lames uniformes gris-brun ; chapeau visqueux ; chapeau et pied bleu-vert décolorants."
+ },
+ "pleurotus-pulmonarius": {
+  "confusions": [],
+  "images": [
+   "p20-1"
+  ],
+  "pages": [
+   20
+  ],
+  "latin": "Pleurotus pulmonarius",
+  "fr": "pleurote en poumon",
+  "group": "Pleurotes et apparentés",
+  "edibility": "comestible",
+  "note": "Base du pied lisse. Couleurs gris pâle à blanchâtres."
+ },
+ "pleurotus-ostreatus": {
+  "confusions": [],
+  "images": [
+   "p20-2"
+  ],
+  "pages": [
+   20
+  ],
+  "latin": "Pleurotus ostreatus",
+  "fr": "pleurote en huître",
+  "group": "Pleurotes et apparentés",
+  "edibility": "comestible",
+  "note": "Pied velu. Couleurs gris bleuté."
+ },
+ "lentinellus-cochleatus": {
+  "confusions": [],
+  "images": [
+   "p20-3"
+  ],
+  "pages": [
+   20
+  ],
+  "latin": "Lentinellus cochleatus",
+  "fr": "lentin en colimaçon",
+  "group": "Pleurotes et apparentés",
+  "edibility": "inconnu",
+  "note": "Chapeaux tordus en colimaçon, beige jaunâtre. Odeur anisée, sauf pour la variété inolens."
+ },
+ "lenzites-betulinus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   20
+  ],
+  "latin": "Lenzites betulinus",
+  "fr": "lenzite du bouleau",
+  "group": "Pleurotes et apparentés",
+  "edibility": "inconnu",
+  "note": "Pied absent, chair très coriace. Lames régulières avec lamellules ; chapeau à surface velue."
+ },
+ "daedaleopsis-tricolor": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   20
+  ],
+  "latin": "Daedaleopsis tricolor",
+  "group": "Pleurotes et apparentés",
+  "edibility": "inconnu",
+  "note": "Pied absent, chair très coriace. Lames irrégulières, très serrées, +/- fourchues ; surface glabre, rougeâtre."
+ },
+ "daedalea-quercina": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   20
+  ],
+  "latin": "Daedalea quercina",
+  "fr": "lenzite du chêne",
+  "group": "Pleurotes et apparentés",
+  "edibility": "inconnu",
+  "note": "Pied absent, chair très coriace. Lames anastomosées en labyrinthe, sans lamellules ; surface bosselée, glabre, beige."
+ },
+ "hohenbuehelia-geogenia": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   20
+  ],
+  "latin": "Hohenbuehelia geogenia",
+  "fr": "pleurote terrestre",
+  "group": "Pleurotes et apparentés",
+  "edibility": "inconnu",
+  "note": "Forme en pétale, chair gélatineuse à odeur de farine. Solitaire, terrestre."
+ },
+ "pholiota-curvipes": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   20
+  ],
+  "latin": "Pholiota curvipes",
+  "fr": "pholiote à pied courbe",
+  "group": "Pleurotes et apparentés",
+  "edibility": "inconnu",
+  "note": "Pied développé, coudé, peu excentré ; lames jaunes vif."
+ },
+ "tapinella-atrotomentosa": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   20
+  ],
+  "latin": "Tapinella atrotomentosa",
+  "fr": "paxille à pied noir",
+  "group": "Pleurotes et apparentés",
+  "edibility": "inconnu",
+  "note": "Grosse espèce (10 cm et +) à pied noir, velouté, sur souches de conifères."
+ },
+ "crepidotus-variabilis": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   20
+  ],
+  "latin": "Crepidotus variabilis",
+  "fr": "crépidote variable",
+  "group": "Pleurotes et apparentés",
+  "edibility": "inconnu",
+  "note": "Sur brindilles. Chapeau blanc, chair fragile."
+ },
+ "crepidotus-mollis": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   20
+  ],
+  "latin": "Crepidotus mollis",
+  "fr": "crépidote mou",
+  "group": "Pleurotes et apparentés",
+  "edibility": "inconnu",
+  "note": "Sur écorces ou souches. Chair élastique, chapeau blanc-gris à pellicule gélatineuse facile à ôter."
+ },
+ "collybia-fusipes": {
+  "confusions": [],
+  "images": [
+   "p21-1",
+   "p22-2"
+  ],
+  "pages": [
+   21,
+   22,
+   23
+  ],
+  "latin": "Collybia fusipes",
+  "fr": "collybie à pied en fuseau",
+  "group": "Collybies et apparentés",
+  "edibility": "inconnu",
+  "note": "En touffes. Pied lisse, fusiforme, côtelé, terminé en pointe ; lames beige puis tachées de brun rouge (très espacées, gris-beige pâle) ; chapeau brun rouge à brun-ocre. Chair très mince dans le chapeau (< 2 mm)."
+ },
+ "flammulina-velutipes": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   21
+  ],
+  "latin": "Flammulina velutipes",
+  "fr": "collybie à pied velouté",
+  "group": "Collybies et apparentés",
+  "edibility": "inconnu",
+  "note": "En touffes sur bois. Pied velu, brun noir à la base ; chapeau visqueux/collant, jaune orangé."
+ },
+ "collybia-confluens": {
+  "confusions": [],
+  "images": [
+   "p22-2"
+  ],
+  "pages": [
+   21,
+   22
+  ],
+  "latin": "Collybia confluens",
+  "fr": "collybie en touffes",
+  "group": "Collybies et apparentés",
+  "edibility": "inconnu",
+  "note": "En touffes dans les feuilles, très commun. Pied gris ou lilas pâle à duvet blanc, grêle (< 3 mm) ; chapeau gris ou blanchâtre (beige pâle), sec ; lames très serrées, blanchâtres."
+ },
+ "collybia-erythropus": {
+  "confusions": [],
+  "images": [
+   "p22-2"
+  ],
+  "pages": [
+   21,
+   22
+  ],
+  "latin": "Collybia erythropus",
+  "fr": "collybie à pied rouge",
+  "group": "Collybies et apparentés",
+  "edibility": "inconnu",
+  "note": "En touffes. Pied rouge (en bas), lisse, luisant ; chapeau beige à blanchâtre, sec ; lames moyennement serrées, blanc crème."
+ },
+ "tricholomopsis-rutilans": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   21,
+   39
+  ],
+  "latin": "Tricholomopsis rutilans",
+  "fr": "tricholome rutilant",
+  "group": "Tricholomes",
+  "edibility": "inconnu",
+  "note": "Chapeau écailleux jaune moucheté de pourpre, lames jaune vif, sur bois de conifères. En touffes. Lames et chair jaunes ; chapeau à mèches ou écailles rosées ou violacées sur fond jaune ; odeur acide."
+ },
+ "armillaria-tabescens": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   21
+  ],
+  "latin": "Armillaria tabescens",
+  "fr": "armillaire sans anneau",
+  "group": "Tricholomes",
+  "edibility": "inconnu",
+  "note": "Chapeau brun-jaune à fines squamules brunes, lames subdécurrentes beige rosâtre, sur feuillus. En touffes."
+ },
+ "collybia-peronata": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   21
+  ],
+  "latin": "Collybia peronata",
+  "fr": "collybie guêtrée",
+  "group": "Collybies et apparentés",
+  "edibility": "inconnu",
+  "note": "Pied incassable, hérissé de poils à la base ; lames brunâtres ou ocre-jaune, espacées, écartées du pied ; chapeau brunâtre."
+ },
+ "laccaria-amethystina": {
+  "confusions": [
+   "mycena-pura"
+  ],
+  "images": [],
+  "pages": [
+   21
+  ],
+  "latin": "Laccaria amethystina",
+  "fr": "laccaire améthyste",
+  "group": "Laccaires",
+  "edibility": "comestible",
+  "note": "Lames violacées (améthyste) très espacées ; chapeau et pied violets, décolorants en séchant. Ne pas confondre avec Mycena pura."
+ },
+ "laccaria-laccata": {
+  "confusions": [
+   "mycena-rosea"
+  ],
+  "images": [
+   "p21-2"
+  ],
+  "pages": [
+   21
+  ],
+  "latin": "Laccaria laccata",
+  "fr": "laccaire laqué",
+  "group": "Laccaires",
+  "edibility": "comestible",
+  "note": "Lames rosées très espacées ; chapeau rose sur le frais, devenant jaune en séchant. Ne pas confondre avec Mycena rosea."
+ },
+ "mycena-galericulata": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   21,
+   22,
+   24
+  ],
+  "latin": "Mycena galericulata",
+  "fr": "mycène en casque",
+  "group": "Mycènes",
+  "edibility": "inconnu",
+  "note": "Chapeau conique, gris ; lames rosées (ou blanchâtres, parfois rosées), interveinées ; pied blanc ou gris pâle, assez coriace. Sur souches."
+ },
+ "mycena-pelianthina": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   21
+  ],
+  "latin": "Mycena pelianthina",
+  "fr": "mycène bordée",
+  "group": "Mycènes",
+  "edibility": "inconnu",
+  "note": "Odeur de radis. Lames violacées à liseré noirâtre sur l'arête."
+ },
+ "mycena-pura": {
+  "confusions": [
+   "laccaria-amethystina"
+  ],
+  "images": [],
+  "pages": [
+   21,
+   24
+  ],
+  "latin": "Mycena pura",
+  "fr": "mycène pure",
+  "group": "Mycènes",
+  "edibility": "toxique",
+  "note": "Forte odeur de radis. Lames lilas bleuté, arête non colorée ; pied rose ou violacé."
+ },
+ "mycena-rosea": {
+  "confusions": [
+   "laccaria-laccata"
+  ],
+  "images": [
+   "p21-3"
+  ],
+  "pages": [
+   21,
+   24
+  ],
+  "latin": "Mycena rosea",
+  "fr": "mycène rose",
+  "group": "Mycènes",
+  "edibility": "toxique",
+  "note": "Forte odeur de radis. Lames rosées, chapeau rose ou rosé, pied blanc."
+ },
+ "lepista-nuda": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   22,
+   24
+  ],
+  "latin": "Lepista nuda",
+  "fr": "pied-bleu",
+  "group": "Lépistes",
+  "edibility": "comestible",
+  "note": "Lames violacées ; pied > 1 cm de diamètre, renflé à la base ; chapeau non hygrophane."
+ },
+ "lepista-sordida": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   22,
+   24
+  ],
+  "latin": "Lepista sordida",
+  "group": "Lépistes",
+  "edibility": "comestible",
+  "note": "Lames violacées ; pied < 1 cm de diamètre, cylindrique ; chapeau hygrophane, translucide."
+ },
+ "lyophyllum-decastes": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   22
+  ],
+  "latin": "Lyophyllum decastes",
+  "fr": "tricholome agrégé",
+  "group": "Tricholomes",
+  "edibility": "inconnu",
+  "note": "En touffes. Odeur nulle ; lames adnées à subdécurrentes ; chapeau convexe, lisse, élastique, couleur café au lait."
+ },
+ "tricholoma-populinum": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   22,
+   39
+  ],
+  "latin": "Tricholoma populinum",
+  "fr": "tricholome des peupliers",
+  "group": "Tricholomes",
+  "edibility": "inconnu",
+  "note": "En touffes. Odeur de concombre ou de farine ; lames adnées-échancrées ; chapeau brun-rouge au centre, pâle à la marge, cassant. Grosse espèce massive, en troupes sous peupliers ; forte odeur de farine, de concombre."
+ },
+ "mycena-inclinata": {
+  "confusions": [],
+  "images": [
+   "p22-3"
+  ],
+  "pages": [
+   22
+  ],
+  "latin": "Mycena inclinata",
+  "fr": "mycène inclinée",
+  "group": "Mycènes",
+  "edibility": "inconnu",
+  "note": "En touffes sur souches. Pied brun-jaune à brun-rouge à la base, blanc au sommet ; odeur de poivre."
+ },
+ "mycena-haematopus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   22,
+   24
+  ],
+  "latin": "Mycena haematopus",
+  "fr": "mycène à pied saignant",
+  "group": "Mycènes",
+  "edibility": "inconnu",
+  "note": "Lait rouge sang à la cassure du pied, sur bois (souches)."
+ },
+ "mycena-sanguinolenta": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   22
+  ],
+  "latin": "Mycena sanguinolenta",
+  "group": "Mycènes",
+  "edibility": "inconnu",
+  "note": "Lait rouge sang à la cassure du pied, au sol."
+ },
+ "megacollybia-platyphylla": {
+  "confusions": [],
+  "images": [
+   "p23-1"
+  ],
+  "pages": [
+   23
+  ],
+  "latin": "Megacollybia platyphylla",
+  "fr": "collybie à lames larges",
+  "group": "Collybies et apparentés",
+  "edibility": "inconnu",
+  "note": "Chair très mince. Pied lisse terminé par des rhizoïdes blancs ramifiés ; chapeau gris ocracé vergeté radialement."
+ },
+ "oudemansiella-radicata": {
+  "confusions": [],
+  "images": [
+   "p23-4"
+  ],
+  "pages": [
+   23
+  ],
+  "latin": "Oudemansiella radicata",
+  "fr": "collybie radicante",
+  "group": "Collybies et apparentés",
+  "edibility": "inconnu",
+  "note": "Pied très fibreux terminé par une sorte de longue racine ; chapeau ± ridé, gras."
+ },
+ "marasmius-oreades": {
+  "confusions": [
+   "collybia-peronata",
+   "collybia-dryophila"
+  ],
+  "images": [],
+  "pages": [
+   23
+  ],
+  "latin": "Marasmius oreades",
+  "fr": "marasme des Oréades",
+  "group": "Marasmes",
+  "edibility": "comestible",
+  "note": "Dans l'herbe (souvent en ronds de sorcière). Chapeau et pied blanc-beige, souvent mamelonné ; lames beiges très espacées ; pied dur, très résistant, pubescent. Dans les feuilles à base du pied poilue : voir Collybia peronata ; à pied lisse : voir Collybia dryophila."
+ },
+ "collybia-butyracea": {
+  "confusions": [],
+  "images": [
+   "p23-2"
+  ],
+  "pages": [
+   23
+  ],
+  "latin": "Collybia butyracea",
+  "fr": "collybie beurrée",
+  "group": "Collybies et apparentés",
+  "edibility": "inconnu",
+  "note": "Pied creux ou mou, progressivement épaissi vers la base ; mamelon gras au sommet du chapeau."
+ },
+ "collybia-dryophila": {
+  "confusions": [],
+  "images": [
+   "p23-3"
+  ],
+  "pages": [
+   23
+  ],
+  "latin": "Collybia dryophila",
+  "fr": "collybie du chêne",
+  "group": "Collybies et apparentés",
+  "edibility": "inconnu",
+  "note": "Pied jaune terne, non épaissi à la base ; chapeau blanc à jaune-beige ; lames blanches ou crème."
+ },
+ "clitocybe-dealbata": {
+  "confusions": [
+   "clitocybe-phyllophila"
+  ],
+  "images": [],
+  "pages": [
+   23
+  ],
+  "latin": "Clitocybe dealbata",
+  "fr": "clitocybe blanc des pelouses",
+  "group": "Clitocybes",
+  "edibility": "toxique",
+  "note": "Chapeau blanchâtre, dans l'herbe. Lames peu décurrentes, chapeau déprimé."
+ },
+ "marasmius-alliaceus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   23
+  ],
+  "latin": "Marasmius alliaceus",
+  "fr": "marasme à odeur d'ail",
+  "group": "Marasmes",
+  "edibility": "inconnu",
+  "note": "Long pied noir, 6-15 cm. Forte odeur d'ail. Dans les feuilles de hêtre."
+ },
+ "marasmiellus-ramealis": {
+  "confusions": [],
+  "images": [
+   "p23-6"
+  ],
+  "pages": [
+   23
+  ],
+  "latin": "Marasmiellus ramealis",
+  "group": "Marasmes",
+  "edibility": "inconnu",
+  "note": "Petit. Sur brindilles, base du pied brun-rouge."
+ },
+ "marasmius-rotula": {
+  "confusions": [],
+  "images": [
+   "p23-5"
+  ],
+  "pages": [
+   23
+  ],
+  "latin": "Marasmius rotula",
+  "group": "Marasmes",
+  "edibility": "inconnu",
+  "note": "Petit, sur débris, pied noir. Lames insérées sur un collarium, pas de lamellules."
+ },
+ "marasmiellus-androsaceus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   23
+  ],
+  "latin": "Marasmiellus androsaceus",
+  "group": "Marasmes",
+  "edibility": "inconnu",
+  "note": "Petit, sur débris, pied noir. Pas de collarium, lamellules nombreuses."
+ },
+ "mycena-galopus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   24
+  ],
+  "latin": "Mycena galopus",
+  "fr": "mycène à pied laiteux",
+  "group": "Mycènes",
+  "edibility": "inconnu",
+  "note": "Silhouette mycénoïde. Lait blanc à la cassure du pied."
+ },
+ "mycena-crocata": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   24
+  ],
+  "latin": "Mycena crocata",
+  "fr": "mycène safran",
+  "group": "Mycènes",
+  "edibility": "inconnu",
+  "note": "Silhouette mycénoïde. Lait orangé à la cassure du pied."
+ },
+ "mycena-polygramma": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   24
+  ],
+  "latin": "Mycena polygramma",
+  "fr": "mycène à pied rayé",
+  "group": "Mycènes",
+  "edibility": "inconnu",
+  "note": "Pied fortement strié longitudinalement, gris. Pas de lait."
+ },
+ "mycena-epipterygia": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   24
+  ],
+  "latin": "Mycena epipterygia",
+  "fr": "mycène des fougères",
+  "group": "Mycènes",
+  "edibility": "inconnu",
+  "note": "Pied teinté de jaune vif ainsi que le chapeau. Pas de lait."
+ },
+ "pluteus-cervinus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   24
+  ],
+  "latin": "Pluteus cervinus",
+  "fr": "plutée couleur de cerf",
+  "group": "Plutées",
+  "edibility": "inconnu",
+  "note": "Lames libres, sur bois mort. Chapeau brun, odeur de radis."
+ },
+ "pluteus-salicinus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   24
+  ],
+  "latin": "Pluteus salicinus",
+  "fr": "plutée du saule",
+  "group": "Plutées",
+  "edibility": "toxique",
+  "note": "Lames libres, sur bois mort. Chapeau avec teintes bleu-vert au centre."
+ },
+ "pluteus-leoninus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   24
+  ],
+  "latin": "Pluteus leoninus",
+  "fr": "plutée couleur de lion",
+  "group": "Plutées",
+  "edibility": "inconnu",
+  "note": "Lames libres, sur bois mort. Chapeau jaune d'or."
+ },
+ "lepista-personata": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   24
+  ],
+  "latin": "Lepista personata",
+  "fr": "pied-violet",
+  "group": "Lépistes",
+  "edibility": "comestible",
+  "note": "Coloration violacée uniquement sur le pied, chapeau beige. Grosse espèce (pied > 0,5 cm)."
+ },
+ "entoloma-euchroum": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   24
+  ],
+  "latin": "Entoloma euchroum",
+  "group": "Entolomes",
+  "edibility": "toxique",
+  "note": "Chapeau, pied et lames bleu violet intense. Petite espèce grêle (pied < 0,5 cm)."
+ },
+ "entoloma-nitidum": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   24
+  ],
+  "latin": "Entoloma nitidum",
+  "group": "Entolomes",
+  "edibility": "toxique",
+  "note": "Chapeau et pied bleus, lames blanches puis roses. Petite espèce grêle."
+ },
+ "entoloma-griseocyaneum": {
+  "confusions": [
+   "mycena-pura",
+   "mycena-rosea"
+  ],
+  "images": [],
+  "pages": [
+   24
+  ],
+  "latin": "Entoloma griseocyaneum",
+  "group": "Entolomes",
+  "edibility": "toxique",
+  "note": "Groupe de nombreuses espèces : pied bleu, chapeau gris ou brun. Si pied coriace, voir Laccaria p. 21 ; si odeur de radis, voir Mycena pura et M. rosea."
+ },
+ "entoloma-nidorosum": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   24
+  ],
+  "latin": "Entoloma nidorosum",
+  "group": "Entolomes",
+  "edibility": "toxique",
+  "note": "Chapeau convexe ou plat, charnu. Odeur de chlore (eau de Javel)."
+ },
+ "entoloma-lividum": {
+  "confusions": [],
+  "images": [
+   "p24-a"
+  ],
+  "pages": [
+   24
+  ],
+  "latin": "Entoloma lividum",
+  "fr": "entolome livide",
+  "group": "Entolomes",
+  "edibility": "toxique",
+  "note": "Chapeau convexe ou plat, charnu. Odeur de farine ; pied > 1 cm de diamètre."
+ },
+ "entoloma-lividoalbum": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   24
+  ],
+  "latin": "Entoloma lividoalbum",
+  "fr": "entolome blanc-livide",
+  "group": "Entolomes",
+  "edibility": "toxique",
+  "note": "Chapeau convexe ou plat, charnu. Odeur de farine ; pied < 1 cm de diamètre."
+ },
+ "entoloma-rhodopollum": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   24
+  ],
+  "latin": "Entoloma rhodopollum",
+  "fr": "entolome gris-rose",
+  "group": "Entolomes",
+  "edibility": "toxique",
+  "note": "Chapeau convexe ou plat, charnu. Odeur nulle."
+ },
+ "entoloma-hebes": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   24
+  ],
+  "latin": "Entoloma hebes",
+  "fr": "entolome à mamelon",
+  "group": "Entolomes",
+  "edibility": "toxique",
+  "note": "Chapeau conique papillé au centre, très mince ; odeur de poisson ou de farine."
+ },
+ "inocybe-corydalina": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   25
+  ],
+  "latin": "Inocybe corydalina",
+  "fr": "inocybe à odeur de corydale",
+  "group": "Inocybes",
+  "edibility": "toxique",
+  "note": "Forte odeur aromatique. Chapeau fibrilleux, rayé, teinte verte au sommet."
+ },
+ "inocybe-piriodora": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   25
+  ],
+  "latin": "Inocybe piriodora",
+  "fr": "inocybe à odeur de poire",
+  "group": "Inocybes",
+  "edibility": "toxique",
+  "note": "Forte odeur aromatique. Chapeau fibrilleux, rayé, pas de teinte verte."
+ },
+ "inocybe-jurana": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   25
+  ],
+  "latin": "Inocybe jurana",
+  "fr": "inocybe du Jura",
+  "group": "Inocybes",
+  "edibility": "toxique",
+  "note": "Chapeau brun, gris, jaune. Pied rouge vineux au moins à la base."
+ },
+ "inocybe-maculata": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   25
+  ],
+  "latin": "Inocybe maculata",
+  "fr": "inocybe maculé",
+  "group": "Inocybes",
+  "edibility": "toxique",
+  "note": "Chapeau brun, gris, jaune. Pied blanc devenant brun-rouge vers mi-longueur."
+ },
+ "inocybe-hirtella": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   25
+  ],
+  "latin": "Inocybe hirtella",
+  "group": "Inocybes",
+  "edibility": "toxique",
+  "note": "Pied blanc ou jaune pâle ; chapeau jaune paille ; odeur d'amandes amères."
+ },
+ "inocybe-cookei": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   25
+  ],
+  "latin": "Inocybe cookei",
+  "fr": "inocybe de Cooke",
+  "group": "Inocybes",
+  "edibility": "toxique",
+  "note": "Pied blanc ou jaune pâle ; chapeau jaune paille ; odeur de miel à la base du pied."
+ },
+ "inocybe-xanthocephala": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   25
+  ],
+  "latin": "Inocybe xanthocephala",
+  "fr": "inocybe à chapeau jaune",
+  "group": "Inocybes",
+  "edibility": "toxique",
+  "note": "Pied blanc ou jaune pâle ; chapeau jaune paille ; sans odeur notable."
+ },
+ "inocybe-rimosa": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   25
+  ],
+  "latin": "Inocybe rimosa",
+  "fr": "inocybe fastigié",
+  "group": "Inocybes",
+  "edibility": "toxique",
+  "note": "Pied blanc ou jaune pâle ; chapeau gris ou brun, fibrilleux."
+ },
+ "inocybe-patouillardii": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   25
+  ],
+  "latin": "Inocybe patouillardii",
+  "group": "Inocybes",
+  "edibility": "toxique",
+  "note": "Espèce printanière, robuste, blanche puis rougissante."
+ },
+ "tubaria-furfuracea": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   25
+  ],
+  "latin": "Tubaria furfuracea",
+  "fr": "tubaire",
+  "group": "Galères et conocybes",
+  "edibility": "inconnu",
+  "note": "Petite espèce grêle (pied < 3 mm). Chapeau ± plat ; lames adnées. Genres difficiles : voir ouvrages spécialisés."
+ },
+ "galerina-spp": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   25
+  ],
+  "latin": "Galerina spp.",
+  "group": "Galères et conocybes",
+  "edibility": "toxique",
+  "note": "à rejeter. Genre Galerina : chapeau ± conique, strié par transparence, fauve, roux ou jaunâtre ; lames libres ou presque ; pied < 3 mm."
+ },
+ "conocybe-spp": {
+  "confusions": [],
+  "images": [
+   "p25-a"
+  ],
+  "pages": [
+   25
+  ],
+  "latin": "Conocybe spp.",
+  "group": "Galères et conocybes",
+  "edibility": "toxique",
+  "note": "à rejeter. Genre Conocybe : chapeau ± conique non strié par transparence ; lames libres ou presque ; pied grêle (< 3 mm)."
+ },
+ "hebeloma-sinapizans": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   25
+  ],
+  "latin": "Hebeloma sinapizans",
+  "fr": "hébélome moutarde",
+  "group": "Hébélomes",
+  "edibility": "toxique",
+  "note": "Espèce robuste, chapeau brun-roux uniforme, pied écailleux. Odeur de radis ou de produit chimique."
+ },
+ "hebeloma-crustuliniforme": {
+  "confusions": [],
+  "images": [
+   "p25-2"
+  ],
+  "pages": [
+   25
+  ],
+  "latin": "Hebeloma crustuliniforme",
+  "fr": "hébélome croûte-de-pain",
+  "group": "Hébélomes",
+  "edibility": "toxique",
+  "note": "Espèce moyenne, chapeau ocre à marge blanche ; pied pruineux ou méchuleux."
+ },
+ "hebeloma-sacchariolens": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   25
+  ],
+  "latin": "Hebeloma sacchariolens",
+  "fr": "hébélome à odeur de sucre",
+  "group": "Hébélomes",
+  "edibility": "toxique",
+  "note": "Espèce plutôt petite, forte odeur aromatique (« harpic »...). Toxique par le genre Hebeloma."
+ },
+ "coprinus-plicatilis": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   26
+  ],
+  "latin": "Coprinus plicatilis",
+  "fr": "coprin parasol",
+  "group": "Coprins",
+  "edibility": "inconnu",
+  "note": "Espèce fragile, chapeau vite étalé en parasol, gris à centre brun, fortement plissé-sillonné. Lames déliquescentes."
+ },
+ "panaeolus-spp": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   26
+  ],
+  "latin": "Panaeolus spp.",
+  "fr": "panéoles",
+  "group": "Panéoles",
+  "edibility": "toxique",
+  "note": "Genre Panaeolus : lames nuageuses (aspect pommelé en vue de profil), chapeau gris foncé à gris clair, dans les pâtures."
+ },
+ "panaeolus-foenisecii": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   26
+  ],
+  "latin": "Panaeolus foenisecii",
+  "fr": "panéole des pelouses",
+  "group": "Panéoles",
+  "edibility": "toxique",
+  "note": "En pelouses urbaines. Toxique par le genre Panaeolus."
+ },
+ "psathyrella-conopilus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   26
+  ],
+  "latin": "Psathyrella conopilus",
+  "fr": "psathyrelle en cône",
+  "group": "Psathyrelles",
+  "edibility": "inconnu",
+  "note": "Chapeau brun chocolat séchant en gris-rose pâle, conique ; très fragile."
+ },
+ "stropharia-inuncta": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   26
+  ],
+  "latin": "Stropharia inuncta",
+  "group": "Strophaires",
+  "edibility": "inconnu",
+  "note": "Lames uniformes gris-brun ; chapeau visqueux gris mastic."
+ },
+ "lactarius-piperatus": {
+  "confusions": [],
+  "images": [
+   "p27-a"
+  ],
+  "pages": [
+   27
+  ],
+  "latin": "Lactarius piperatus",
+  "fr": "lactaire poivré",
+  "group": "Lactaires",
+  "edibility": "inconnu",
+  "note": "Chapeau et pied blancs ; lames blanches extrêmement serrées ; chapeau non velouté."
+ },
+ "lactarius-vellereus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   27
+  ],
+  "latin": "Lactarius vellereus",
+  "fr": "lactaire velouté",
+  "group": "Lactaires",
+  "edibility": "inconnu",
+  "note": "Chapeau et pied blancs ; lames blanches peu serrées ; chapeau velouté."
+ },
+ "lactarius-controversus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   27
+  ],
+  "latin": "Lactarius controversus",
+  "fr": "lactaire des peupliers",
+  "group": "Lactaires",
+  "edibility": "inconnu",
+  "note": "Chapeau et pied blancs ; lames crème rosé ou franchement roses."
+ },
+ "lactarius-torminosus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   27
+  ],
+  "latin": "Lactarius torminosus",
+  "fr": "lactaire à toison",
+  "group": "Lactaires",
+  "edibility": "inconnu",
+  "note": "Chapeau à zones concentriques, marge poilue ; rose jambon, rougeâtre ou fauve."
+ },
+ "lactarius-pubescens": {
+  "confusions": [],
+  "images": [
+   "p27-2"
+  ],
+  "pages": [
+   27
+  ],
+  "latin": "Lactarius pubescens",
+  "fr": "lactaire pubescent",
+  "group": "Lactaires",
+  "edibility": "inconnu",
+  "note": "Chapeau rose très pâle, marge poilue, lait rare ; sous bouleaux, souvent dans les pelouses ; zoné ou non."
+ },
+ "lactarius-deliciosus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   27
+  ],
+  "latin": "Lactarius deliciosus",
+  "fr": "lactaire délicieux",
+  "group": "Lactaires",
+  "edibility": "comestible",
+  "note": "Chapeau à zones concentriques, marge lisse ; lait orangé à vineux."
+ },
+ "lactarius-blennius": {
+  "confusions": [],
+  "images": [
+   "p28-5"
+  ],
+  "pages": [
+   27,
+   28
+  ],
+  "latin": "Lactarius blennius",
+  "fr": "lactaire muqueux",
+  "group": "Lactaires",
+  "edibility": "inconnu",
+  "note": "Chapeau gris cendré, visqueux sur le frais ; lait blanc immuable ; chapeau verdâtre et pied creux, mou, < 2 cm de diam. sous hêtres."
+ },
+ "lactarius-necator": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   27
+  ],
+  "latin": "Lactarius necator",
+  "fr": "lactaire plombé",
+  "group": "Lactaires",
+  "edibility": "inconnu",
+  "note": "Chapeau bronze (gris-verdâtre sombre), zoné ; lait blanc immuable."
+ },
+ "lactarius-zonarius": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   27
+  ],
+  "latin": "Lactarius zonarius",
+  "fr": "lactaire zoné",
+  "group": "Lactaires",
+  "edibility": "inconnu",
+  "note": "Chapeau jaune à orangé, zoné ; lait blanc immuable."
+ },
+ "lactarius-quietus": {
+  "confusions": [],
+  "images": [
+   "p27-3"
+  ],
+  "pages": [
+   27
+  ],
+  "latin": "Lactarius quietus",
+  "fr": "lactaire punaise",
+  "group": "Lactaires",
+  "edibility": "inconnu",
+  "note": "Chapeau rougeâtre ou gris-ocre terne ; odeur de punaise (ou de wassingue) ; base du pied rouge vineux."
+ },
+ "lactarius-chrysorrheus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   27
+  ],
+  "latin": "Lactarius chrysorrheus",
+  "fr": "lactaire à lait jaune",
+  "group": "Lactaires",
+  "edibility": "inconnu",
+  "note": "Chapeau rosâtre zoné ; lait blanc jaunissant en 10 secondes."
+ },
+ "lactarius-uvidus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   27
+  ],
+  "latin": "Lactarius uvidus",
+  "fr": "lactaire humide",
+  "group": "Lactaires",
+  "edibility": "inconnu",
+  "note": "Chapeau zoné ; lait blanc devenant violet en 1-2 minutes."
+ },
+ "lactarius-glyciosmus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   27
+  ],
+  "latin": "Lactarius glyciosmus",
+  "fr": "lactaire à bonne odeur",
+  "group": "Lactaires",
+  "edibility": "inconnu",
+  "note": "Chapeau gris, sec ; odeur de noix de coco ; lait peu abondant, sans trace en séchant."
+ },
+ "lactarius-azonites": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   27
+  ],
+  "latin": "Lactarius azonites",
+  "fr": "lactaire fuligineux",
+  "group": "Lactaires",
+  "edibility": "inconnu",
+  "note": "Chapeau gris, sec ; odeur de bois de crayon ; lait abondant séchant en traces roses en 2-3 min ; la chair rosit."
+ },
+ "lactarius-vietus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   27
+  ],
+  "latin": "Lactarius vietus",
+  "fr": "lactaire ridé",
+  "group": "Lactaires",
+  "edibility": "inconnu",
+  "note": "Chapeau gris, sec ; sans odeur notable ; lait séchant en dépôts gris sur les lames."
+ },
+ "lactarius-camphoratus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   27
+  ],
+  "latin": "Lactarius camphoratus",
+  "fr": "lactaire camphré",
+  "group": "Lactaires",
+  "edibility": "inconnu",
+  "note": "Chapeau rougeâtre, sec ; base du pied rouge vineux ; odeur de « viandox » (ou céleri)."
+ },
+ "lactarius-rufus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   27
+  ],
+  "latin": "Lactarius rufus",
+  "fr": "lactaire roux",
+  "group": "Lactaires",
+  "edibility": "inconnu",
+  "note": "Chapeau à mamelon aigu, brun-rouge, rugueux au toucher."
+ },
+ "lactarius-helvus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   27
+  ],
+  "latin": "Lactarius helvus",
+  "fr": "",
+  "group": "Lactaires",
+  "edibility": "toxique",
+  "note": "Grosse espèce (chapeau > 5 cm) à mamelon bas, jaune pâle à orangé ; odeur forte de céleri ; lait incolore."
+ },
+ "lactarius-pterosporus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   27
+  ],
+  "latin": "Lactarius pterosporus",
+  "fr": "lactaire à spores ailées",
+  "group": "Lactaires",
+  "edibility": "inconnu",
+  "note": "Espèce moyenne à chair et lames rosissantes à l'air ; odeur de bois de crayon."
+ },
+ "lactarius-subsericatus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   28
+  ],
+  "latin": "Lactarius subsericatus",
+  "fr": "",
+  "group": "Lactaires",
+  "edibility": "inconnu",
+  "note": "Petite espèce grêle à lait blanc non rosissant ; chapeau jaune au bord, orangé à roux au centre."
+ },
+ "lactarius-cimicarius": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   28
+  ],
+  "latin": "Lactarius cimicarius",
+  "fr": "",
+  "group": "Lactaires",
+  "edibility": "inconnu",
+  "note": "Petite espèce ; chapeau gris terne à brun sombre ; lait séreux (translucide) ; odeur de punaise."
+ },
+ "lactarius-subdulcis": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   28
+  ],
+  "latin": "Lactarius subdulcis",
+  "fr": "",
+  "group": "Lactaires",
+  "edibility": "inconnu",
+  "note": "Petite espèce ; chapeau gris terne à brun sombre ; lait blanc ; odeur faible, de caoutchouc."
+ },
+ "lactarius-tabidus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   28
+  ],
+  "latin": "Lactarius tabidus",
+  "fr": "lactaire fané",
+  "group": "Lactaires",
+  "edibility": "inconnu",
+  "note": "Petite espèce fragile ; chapeau jaune pâle à ocre clair, souvent ridé au centre ; pied concolore."
+ },
+ "lactarius-lacunarum": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   28
+  ],
+  "latin": "Lactarius lacunarum",
+  "fr": "lactaire des mares",
+  "group": "Lactaires",
+  "edibility": "inconnu",
+  "note": "Chapeau jaune orangé ou brun-orangé terne uniforme ; pied plus rouge vers la base."
+ },
+ "lactarius-aurantiacus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   28
+  ],
+  "latin": "Lactarius aurantiacus",
+  "fr": "lactaire orangé",
+  "group": "Lactaires",
+  "edibility": "inconnu",
+  "note": "Chapeau et pied orangé vif uniforme."
+ },
+ "lactarius-pyrogalus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   28
+  ],
+  "latin": "Lactarius pyrogalus",
+  "fr": "lactaire brûlant",
+  "group": "Lactaires",
+  "edibility": "inconnu",
+  "note": "Chapeau lisse gris pâle à verdâtre ; lames ocracées, espacées."
+ },
+ "lactarius-trivialis": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   28
+  ],
+  "latin": "Lactarius trivialis",
+  "fr": "lactaire commun",
+  "group": "Lactaires",
+  "edibility": "inconnu",
+  "note": "Chapeau lisse violacé au début, devenant gris livide avec l'âge ; pied creux, mou ; sous bouleaux."
+ },
+ "lactarius-turpis": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   28
+  ],
+  "latin": "Lactarius turpis",
+  "fr": "lactaire plombé",
+  "group": "Lactaires",
+  "edibility": "inconnu",
+  "note": "Chapeau lisse couleur bronze ; pied plein ou très ferme, > 2 cm de diam. ; sous bouleaux."
+ },
+ "russula-delica": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   29
+  ],
+  "latin": "Russula delica",
+  "fr": "russule sans lait",
+  "group": "Russules",
+  "edibility": "inconnu",
+  "note": "Chapeau et pied blancs, chair blanche immuable ; chapeau vite en entonnoir (lactarioïde), blanc ou sale ; lamellules régulières."
+ },
+ "russula-nigricans": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   29
+  ],
+  "latin": "Russula nigricans",
+  "fr": "russule noircissante",
+  "group": "Russules",
+  "edibility": "inconnu",
+  "note": "Chapeau et pied gris, brunâtres, noirâtres ; lames espacées ; chair rougissant vivement à la coupe (1-3 min)."
+ },
+ "russula-densifolia": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   29
+  ],
+  "latin": "Russula densifolia",
+  "fr": "russule à lames serrées",
+  "group": "Russules",
+  "edibility": "inconnu",
+  "note": "Chapeau et pied gris, brunâtres, noirâtres ; lames serrées ; rougissement faible."
+ },
+ "russula-artesiana": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   29,
+   30
+  ],
+  "latin": "Russula artesiana",
+  "fr": "russule de l'Artois",
+  "group": "Russules",
+  "edibility": "inconnu",
+  "note": "Chapeau cuivré, violacé ou verdâtre ; pied blanc jaunissant (se tachant uniformément de jaune) ; lamellules assez rares ; espèce très compacte."
+ },
+ "russula-foetens": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   29
+  ],
+  "latin": "Russula foetens",
+  "fr": "Russule fétide",
+  "group": "Russules",
+  "edibility": "inconnu",
+  "note": "Chapeau jaune ou paille, bord strié-cannelé ; odeur désagréable de caoutchouc brûlé."
+ },
+ "russula-laurocerasi": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   29
+  ],
+  "latin": "Russula laurocerasi",
+  "fr": "",
+  "group": "Russules",
+  "edibility": "inconnu",
+  "note": "Chapeau jaune ou paille, bord strié-cannelé ; odeur de laurier-cerise, d'amandes amères."
+ },
+ "russula-pectinatoides": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   29
+  ],
+  "latin": "Russula pectinatoides",
+  "fr": "",
+  "group": "Russules",
+  "edibility": "inconnu",
+  "note": "Chapeau gris, bord strié-cannelé ; odeur de plastique ; base du pied tachée de rouge."
+ },
+ "russula-amoenolens": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   29
+  ],
+  "latin": "Russula amoenolens",
+  "fr": "",
+  "group": "Russules",
+  "edibility": "inconnu",
+  "note": "Chapeau gris, bord strié-cannelé ; odeur d'artichaut ; pas de rouge à la base."
+ },
+ "russula-ochroleuca": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   29,
+   30
+  ],
+  "latin": "Russula ochroleuca",
+  "fr": "russule blanc et ocre",
+  "group": "Russules",
+  "edibility": "inconnu",
+  "note": "Chapeau jaune à jaune-vert uniforme, lames et pied blancs ; très commune ; saveur douce."
+ },
+ "russula-vesca": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   29
+  ],
+  "latin": "Russula vesca",
+  "fr": "russule jambon",
+  "group": "Russules",
+  "edibility": "comestible",
+  "note": "Chapeau brun-rosé, rose « jambon », revêtement rétréci à la marge et laissant dépasser les lames."
+ },
+ "russula-virescens": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   29
+  ],
+  "latin": "Russula virescens",
+  "fr": "Palomet",
+  "group": "Russules",
+  "edibility": "comestible",
+  "note": "Chapeau entièrement craquelé, verdâtre."
+ },
+ "russula-heterophylla": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   29
+  ],
+  "latin": "Russula heterophylla",
+  "fr": "russule à lames fourchues",
+  "group": "Russules",
+  "edibility": "comestible",
+  "note": "Chapeau vert, lisse ; pied court à base pointue."
+ },
+ "russula-aeruginea": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   29
+  ],
+  "latin": "Russula aeruginea",
+  "fr": "russule vert-de-gris",
+  "group": "Russules",
+  "edibility": "inconnu",
+  "note": "Chapeau vert, lisse ; pied long (> au diamètre du chapeau)."
+ },
+ "russula-cyanoxantha": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   29
+  ],
+  "latin": "Russula cyanoxantha",
+  "fr": "russule charbonnière",
+  "group": "Russules",
+  "edibility": "comestible",
+  "note": "Chapeau mêlé de vert, violacé, rose ; lames molles, non cassantes, à arête blanche."
+ },
+ "russula-grisea": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   29
+  ],
+  "latin": "Russula grisea",
+  "fr": "russule grise",
+  "group": "Russules",
+  "edibility": "comestible",
+  "note": "Chapeau mêlé de vert, violacé, rose ; lames cassantes sous les doigts, à arête rose vers la marge."
+ },
+ "russula-lepida": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   29
+  ],
+  "latin": "Russula lepida",
+  "fr": "russule jolie",
+  "group": "Russules",
+  "edibility": "inconnu",
+  "note": "Revêtement non séparable, surface veloutée ; chair compacte à saveur de bois de crayon ; pied dur comme du plâtre."
+ },
+ "russula-luteotacta": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   29
+  ],
+  "latin": "Russula luteotacta",
+  "fr": "russule jaune au toucher",
+  "group": "Russules",
+  "edibility": "toxique",
+  "note": "Surface luisante, odeur fruitée ; lames tachées de jaune dans les blessures (lent)."
+ },
+ "russula-atropurpurea": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   29,
+   30
+  ],
+  "latin": "Russula atropurpurea",
+  "fr": "russule noire et pourpre",
+  "group": "Russules",
+  "edibility": "inconnu",
+  "note": "Chapeau rouge sombre à noirâtre (parfois brouillé de vert) ; pied blanc, grisonnant, taché de rouille vers la base ; saveur peu âcre ; espèce assez friable."
+ },
+ "russula-exalbicans": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   29,
+   30
+  ],
+  "latin": "Russula exalbicans",
+  "fr": "russule blanchissante",
+  "group": "Russules",
+  "edibility": "inconnu",
+  "note": "Chapeau rose bonbon, souvent en partie décoloré en gris pâle ou crème ; pied blanc grisonnant avec l'âge ; sous bouleaux."
+ },
+ "russula-velenovskyi": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   29,
+   30
+  ],
+  "latin": "Russula velenovskyi",
+  "fr": "russule de Velenovsky",
+  "group": "Russules",
+  "edibility": "inconnu",
+  "note": "Chapeau rose cuivré ou rouge carminé au bord, décoloré au centre ; arête des lames rose vers la marge ; pied teinté de rose, ferme."
+ },
+ "russula-fellea": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   30
+  ],
+  "latin": "Russula fellea",
+  "fr": "russule de fiel",
+  "group": "Russules",
+  "edibility": "inconnu",
+  "note": "Espèce petite ou moyenne (5-7 cm), entièrement ocre-fauve ; odeur forte de compote de pomme ; pied tendre."
+ },
+ "russula-fragilis": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   30
+  ],
+  "latin": "Russula fragilis",
+  "fr": "russule fragile",
+  "group": "Russules",
+  "edibility": "inconnu",
+  "note": "Chapeau lilacin, violet, bariolé ; fragile, à centre vert ; sous feuillus."
+ },
+ "russula-knauthii": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   30
+  ],
+  "latin": "Russula knauthii",
+  "fr": "",
+  "group": "Russules",
+  "edibility": "inconnu",
+  "note": "Chapeau pourpré ou bariolé sans teinte verte ; plus charnue que R. fragilis."
+ },
+ "russula-sylvestris": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   30
+  ],
+  "latin": "Russula sylvestris",
+  "fr": "russule émétique des chênes",
+  "group": "Russules",
+  "edibility": "toxique",
+  "note": "Chapeau rouge vif à orangé, revêtement séparable ; chair blanche sous le revêtement."
+ },
+ "russula-fageticola": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   30
+  ],
+  "latin": "Russula fageticola",
+  "fr": "russule émétique des hêtres",
+  "group": "Russules",
+  "edibility": "toxique",
+  "note": "Chapeau rouge vif à orangé, chair rose sous le revêtement ; pied lisse, odeur fruitée, saveur âcre."
+ },
+ "russula-aurora": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   30
+  ],
+  "latin": "Russula aurora",
+  "fr": "russule aurore",
+  "group": "Russules",
+  "edibility": "inconnu",
+  "note": "Chapeau rouge vif à orangé, chair rose sous le revêtement ; pied pruineux au sommet, odeur nulle, saveur douce."
+ },
+ "russula-queletii": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   30
+  ],
+  "latin": "Russula queletii",
+  "fr": "russule de Quélet",
+  "group": "Russules",
+  "edibility": "inconnu",
+  "note": "Sporée ocre à jaune ; chapeau violacé sombre, pied violacé, odeur de pomme fraîche ; lames ocracé terne ; sous épicéas."
+ },
+ "russula-drimeia": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   30
+  ],
+  "latin": "Russula drimeia",
+  "fr": "russule sardoine",
+  "group": "Russules",
+  "edibility": "inconnu",
+  "note": "Sporée ocre à jaune ; chapeau violacé sombre, pied violacé, odeur de pomme fraîche ; lames à net reflet jaune ; sous les pins."
+ },
+ "russula-sanguinaria": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   30
+  ],
+  "latin": "Russula sanguinaria",
+  "fr": "russule sanguine",
+  "group": "Russules",
+  "edibility": "inconnu",
+  "note": "Sporée ocre à jaune ; chapeau rouge-rose, pied coloré, odeur fruitée ; lames ochracées assez pâles, décurrentes ; sous pins."
+ },
+ "russula-nitida": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   30
+  ],
+  "latin": "Russula nitida",
+  "fr": "russule brillante",
+  "group": "Russules",
+  "edibility": "inconnu",
+  "note": "Sporée ocre à jaune ; chapeau strié-cannelé au bord ; pied fragile, rosé vers la base ; odeur nulle."
+ },
+ "russula-olivacea": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   30
+  ],
+  "latin": "Russula olivacea",
+  "fr": "russule olivacée",
+  "group": "Russules",
+  "edibility": "toxique",
+  "note": "Sporée ocre à jaune ; chapeau non strié ; pied robuste, rose jusque sous les lames ; pas d'odeur, base du pied non brunissante."
+ },
+ "russula-xerampelina": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   30
+  ],
+  "latin": "Russula xerampelina",
+  "fr": "russule feuille-morte",
+  "group": "Russules",
+  "edibility": "inconnu",
+  "note": "Sporée ocre à jaune ; pied robuste rose ; odeur de crustacés et brunissement à la base du pied."
+ },
+ "russula-aurea": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   30
+  ],
+  "latin": "Russula aurea",
+  "fr": "russule dorée",
+  "group": "Russules",
+  "edibility": "comestible",
+  "note": "Sporée ocre à jaune ; pied jaune vif uniforme, comme l'arête des lames."
+ },
+ "russula-melliolens": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   30
+  ],
+  "latin": "Russula melliolens",
+  "fr": "russule à odeur de miel",
+  "group": "Russules",
+  "edibility": "inconnu",
+  "note": "Sporée ocre à jaune ; pied blanc taché de jaune ; odeur forte de miel à la base ; espèce assez charnue à pied dur."
+ },
+ "russula-versicolor": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   30
+  ],
+  "latin": "Russula versicolor",
+  "fr": "russule versicolore",
+  "group": "Russules",
+  "edibility": "inconnu",
+  "note": "Sporée ocre à jaune ; pied blanc taché de jaune ; odeur à peine fruitée ; espèce fragile à pied mou."
+ },
+ "russula-claroflava": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   30
+  ],
+  "latin": "Russula claroflava",
+  "fr": "russule jaune clair",
+  "group": "Russules",
+  "edibility": "inconnu",
+  "note": "Chapeau jaune ; pied blanc immuable, ferme ; espèce moyenne à grande ; sporée ocre ; noircissante par altération."
+ },
+ "russula-risigallina": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   30
+  ],
+  "latin": "Russula risigallina",
+  "fr": "russule caméléon",
+  "group": "Russules",
+  "edibility": "inconnu",
+  "note": "Petite espèce (chapeau < 4 cm), pied grêle et mou ; chapeau rose au bord, jaune au centre ; sporée jaune profond."
+ },
+ "russula-acetolens": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   30
+  ],
+  "latin": "Russula acetolens",
+  "fr": "russule à odeur de vinaigre",
+  "group": "Russules",
+  "edibility": "inconnu",
+  "note": "Petite espèce (chapeau < 4 cm), pied grêle et mou ; chapeau jaune uni ; sporée jaune profond."
+ },
+ "russula-amara": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   31
+  ],
+  "latin": "Russula amara",
+  "fr": "russule amère",
+  "group": "Russules",
+  "edibility": "inconnu",
+  "note": "Chapeau violet sombre, mamelon toujours présent au centre ; toujours sous pins."
+ },
+ "russula-turci": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   31
+  ],
+  "latin": "Russula turci",
+  "fr": "russule à cocarde",
+  "group": "Russules",
+  "edibility": "inconnu",
+  "note": "Chapeau violet ou rosé à marge pâle (cocarde), visqueux au centre, pruineux à la marge ; odeur faible d'iodoforme à la base du pied ; sous pins."
+ },
+ "russula-romelii": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   31
+  ],
+  "latin": "Russula romelii",
+  "fr": "",
+  "group": "Russules",
+  "edibility": "inconnu",
+  "note": "Polychrome, sous feuillus ; lames jaune clair très friables ; saveur douce."
+ },
+ "russula-decipiens": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   31
+  ],
+  "latin": "Russula decipiens",
+  "fr": "russule trompeuse",
+  "group": "Russules",
+  "edibility": "inconnu",
+  "note": "Polychrome, sous feuillus ; lames jaunes vif peu friables, saveur âcre ; chapeau non strié."
+ },
+ "russula-cuprea": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   31
+  ],
+  "latin": "Russula cuprea",
+  "fr": "russule cuivrée",
+  "group": "Russules",
+  "edibility": "inconnu",
+  "note": "Polychrome, sous feuillus ; lames jaunes vif peu friables, saveur âcre ; marge nettement striée."
+ },
+ "amanita-phalloides": {
+  "confusions": [],
+  "images": [
+   "p32-1"
+  ],
+  "pages": [
+   32
+  ],
+  "latin": "Amanita phalloides",
+  "fr": "Amanite phalloïde",
+  "group": "Amanites",
+  "edibility": "mortel",
+  "note": "Volve en sac ; chapeau vert avec vergetures radiales. Mortelle."
+ },
+ "amanita-virosa": {
+  "confusions": [],
+  "images": [
+   "p32-2"
+  ],
+  "pages": [
+   32
+  ],
+  "latin": "Amanita virosa",
+  "fr": "Amanite vireuse",
+  "group": "Amanites",
+  "edibility": "mortel",
+  "note": "Volve en sac ; chapeau blanc conique ou flexueux, pied pelucheux. Mortelle."
+ },
+ "amanita-phalloides-alba": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   32
+  ],
+  "latin": "Amanita phalloides var. alba",
+  "fr": "Amanite phalloïde blanche",
+  "group": "Amanites",
+  "edibility": "mortel",
+  "note": "Volve en sac ; chapeau blanc plat, pied lisse vaguement chiné. Mortelle."
+ },
+ "amanita-ovoidea": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   32
+  ],
+  "latin": "Amanita ovoidea",
+  "fr": "Amanite ovoïde",
+  "group": "Amanites",
+  "edibility": "comestible",
+  "note": "Volve en sac ; chapeau blanc, anneau crémeux ; très grosse espèce charnue."
+ },
+ "amanita-caesarea": {
+  "confusions": [],
+  "images": [
+   "p32-3"
+  ],
+  "pages": [
+   32
+  ],
+  "latin": "Amanita caesarea",
+  "fr": "Amanite des Césars, oronge",
+  "group": "Amanites",
+  "edibility": "comestible",
+  "note": "Volve en sac ; chapeau orangé, lames et chair jaunes ; espèce méridionale."
+ },
+ "amanita-citrina": {
+  "confusions": [],
+  "images": [
+   "p32-6"
+  ],
+  "pages": [
+   32
+  ],
+  "latin": "Amanita citrina",
+  "fr": "Amanite citrine",
+  "group": "Amanites",
+  "edibility": "inconnu",
+  "note": "Bulbe circoncis, chapeau jaune, odeur constante de radis. Aucun marqueur dans le livret."
+ },
+ "amanita-citrina-alba": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   32
+  ],
+  "latin": "Amanita citrina var. alba",
+  "fr": "Amanite citrine blanche",
+  "group": "Amanites",
+  "edibility": "inconnu",
+  "note": "Bulbe circoncis, chapeau blanc, odeur constante de radis. Aucun marqueur dans le livret."
+ },
+ "amanita-porphyria": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   32
+  ],
+  "latin": "Amanita porphyria",
+  "fr": "Amanite porphyre",
+  "group": "Amanites",
+  "edibility": "inconnu",
+  "note": "Bulbe circoncis, chapeau brun-gris, odeur constante de radis. Aucun marqueur dans le livret."
+ },
+ "amanita-muscaria": {
+  "confusions": [],
+  "images": [
+   "p33-1"
+  ],
+  "pages": [
+   33
+  ],
+  "latin": "Amanita muscaria",
+  "fr": "Amanite tue-mouches",
+  "group": "Amanites",
+  "edibility": "toxique",
+  "note": "Chapeau rouge, strié ; flocons blancs ou jaunes ; lames blanches ; anneau non strié."
+ },
+ "amanita-pantherina": {
+  "confusions": [
+   "amanita-spissa"
+  ],
+  "images": [
+   "p33-a"
+  ],
+  "pages": [
+   33
+  ],
+  "latin": "Amanita pantherina",
+  "fr": "Amanite panthère",
+  "group": "Amanites",
+  "edibility": "toxique",
+  "note": "Chapeau brun ou ocre, strié ; flocons blancs ; anneau non strié."
+ },
+ "amanita-gemmata": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   33
+  ],
+  "latin": "Amanita gemmata",
+  "fr": "Amanite jonquille",
+  "group": "Amanites",
+  "edibility": "toxique",
+  "note": "Chapeau jaune, strié ; anneau fugace et odeur nulle."
+ },
+ "amanita-strobiliformis": {
+  "confusions": [
+   "macrolepiota-procera",
+   "chlorophyllum-rhacodes",
+   "chlorophyllum-brunneum"
+  ],
+  "images": [],
+  "pages": [
+   33
+  ],
+  "latin": "Amanita strobiliformis",
+  "fr": "Amanite pomme-de-pin",
+  "group": "Amanites",
+  "edibility": "comestible",
+  "note": "Chapeau blanc non strié ; flocons plats, anneau crémeux. Attention aux grandes lépiotes (p. 35) à chapeau écailleux : les écailles sont des excoriations de la surface, alors que les flocons de voile sont posés sur une surface lisse et se détachent sans cicatrice."
+ },
+ "amanita-rubescens": {
+  "confusions": [],
+  "images": [
+   "p33-3"
+  ],
+  "pages": [
+   33
+  ],
+  "latin": "Amanita rubescens",
+  "fr": "Amanite rougissante, golmotte",
+  "group": "Amanites",
+  "edibility": "comestible",
+  "note": "Comestible cuite. Chair rosissante (blessures et base du pied), pas d'odeur ; anneau strié."
+ },
+ "amanita-spissa": {
+  "confusions": [
+   "amanita-pantherina"
+  ],
+  "images": [
+   "p33-4"
+  ],
+  "pages": [
+   33
+  ],
+  "latin": "Amanita spissa",
+  "fr": "Amanite épaisse",
+  "group": "Amanites",
+  "edibility": "comestible",
+  "note": "Comestible cuite, mais attention aux confusions possibles avec l'amanite panthère ! Chair immuable ou un peu brunissante, odeur de radis ; anneau strié."
+ },
+ "hygrocybe-chlorophana": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   34
+  ],
+  "latin": "Hygrocybe chlorophana",
+  "fr": "",
+  "group": "Hygrophores",
+  "edibility": "inconnu",
+  "note": "Espèce jaune, chapeau et pied visqueux ; pelouses."
+ },
+ "hygrocybe-conica": {
+  "confusions": [],
+  "images": [
+   "p34-2"
+  ],
+  "pages": [
+   34
+  ],
+  "latin": "Hygrocybe conica",
+  "fr": "Hygrophore conique",
+  "group": "Hygrophores",
+  "edibility": "toxique",
+  "note": "Rouge ou orangé ; chair noircissante ; chapeau conique, pointu ; pelouses."
+ },
+ "hygrocybe-punicea": {
+  "confusions": [],
+  "images": [
+   "p34-1"
+  ],
+  "pages": [
+   34
+  ],
+  "latin": "Hygrocybe punicea",
+  "fr": "Hygrophore rouge ponceau",
+  "group": "Hygrophores",
+  "edibility": "comestible",
+  "note": "Grande espèce à chapeau conique, rouge ou orangée, chair non noircissante ; pelouses."
+ },
+ "hygrocybe-coccinea": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   34
+  ],
+  "latin": "Hygrocybe coccinea",
+  "fr": "Hygrophore écarlate",
+  "group": "Hygrophores",
+  "edibility": "inconnu",
+  "note": "Petite espèce à chapeau plat, rouge ou orangée, chair non noircissante ; pelouses."
+ },
+ "hygrocybe-psittacina": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   34
+  ],
+  "latin": "Hygrocybe psittacina",
+  "fr": "Hygrophore perroquet",
+  "group": "Hygrophores",
+  "edibility": "inconnu",
+  "note": "Très visqueuse, entièrement verte ou décolorant par endroits en jaune ou en rose ; pelouses."
+ },
+ "cuphophyllus-niveus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   34
+  ],
+  "latin": "Cuphophyllus niveus",
+  "fr": "Hygrophore blanc de neige",
+  "group": "Hygrophores",
+  "edibility": "comestible",
+  "note": "Entièrement blanc ; lames décurrentes ; pelouses."
+ },
+ "cuphophyllus-pratensis": {
+  "confusions": [],
+  "images": [
+   "p34-3"
+  ],
+  "pages": [
+   34
+  ],
+  "latin": "Cuphophyllus pratensis",
+  "fr": "Hygrophore des prés",
+  "group": "Hygrophores",
+  "edibility": "comestible",
+  "note": "Chapeau orangé ; lames décurrentes ; pelouses."
+ },
+ "hygrophorus-eburneus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   34
+  ],
+  "latin": "Hygrophorus eburneus",
+  "fr": "Hygrophore blanc d'ivoire",
+  "group": "Hygrophores",
+  "edibility": "inconnu",
+  "note": "Entièrement blanc, visqueux, odeur fruitée ou écoeurante ; forêt."
+ },
+ "hygrophorus-penarius": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   34
+  ],
+  "latin": "Hygrophorus penarius",
+  "fr": "Hygrophore de l'office",
+  "group": "Hygrophores",
+  "edibility": "comestible",
+  "note": "Entièrement blanc, sec, charnu ; forêt."
+ },
+ "hygrophorus-nemoreus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   34
+  ],
+  "latin": "Hygrophorus nemoreus",
+  "fr": "",
+  "group": "Hygrophores",
+  "edibility": "comestible",
+  "note": "Chapeau lisse, orangé, sec ; forêt."
+ },
+ "hygrophorus-russula": {
+  "confusions": [],
+  "images": [
+   "p34-4"
+  ],
+  "pages": [
+   34
+  ],
+  "latin": "Hygrophorus russula",
+  "fr": "",
+  "group": "Hygrophores",
+  "edibility": "comestible",
+  "note": "Chapeau moucheté de pourpre sur fond blanc, sec ; forêt."
+ },
+ "hygrophorus-hypothejus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   34
+  ],
+  "latin": "Hygrophorus hypothejus",
+  "fr": "",
+  "group": "Hygrophores",
+  "edibility": "inconnu",
+  "note": "Chapeau brun, visqueux ; lames jaunes ; sous les pins, en fin de saison."
+ },
+ "hygrophorus-glutinifer": {
+  "confusions": [],
+  "images": [
+   "p34-5"
+  ],
+  "pages": [
+   34
+  ],
+  "latin": "Hygrophorus glutinifer",
+  "fr": "",
+  "group": "Hygrophores",
+  "edibility": "comestible",
+  "note": "Chapeau brun, visqueux ; lames blanches ; espèce charnue à pied chiné de brun ; sous chênes."
+ },
+ "hygrophorus-lindtneri": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   34
+  ],
+  "latin": "Hygrophorus lindtneri",
+  "fr": "",
+  "group": "Hygrophores",
+  "edibility": "inconnu",
+  "note": "Chapeau brun, visqueux ; lames blanches ; petite espèce à pied blanchâtre ; sous noisetiers."
+ },
+ "hygrophorus-agathosmus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   34
+  ],
+  "latin": "Hygrophorus agathosmus",
+  "fr": "",
+  "group": "Hygrophores",
+  "edibility": "inconnu",
+  "note": "Chapeau gris ; odeur d'amandes amères."
+ },
+ "macrolepiota-procera": {
+  "confusions": [],
+  "images": [
+   "p35-1"
+  ],
+  "pages": [
+   35
+  ],
+  "latin": "Macrolepiota procera",
+  "fr": "Lépiote élevée, coulemelle",
+  "group": "Lépiotes",
+  "edibility": "comestible",
+  "note": "Pied chiné, chair blanche non ou peu brunissante au grattage ; anneau charnu coulissant."
+ },
+ "chlorophyllum-rhacodes": {
+  "confusions": [
+   "chlorophyllum-brunneum"
+  ],
+  "images": [
+   "p35-2"
+  ],
+  "pages": [
+   35
+  ],
+  "latin": "Chlorophyllum rhacodes",
+  "fr": "Lépiote déguenillée",
+  "group": "Lépiotes",
+  "edibility": "comestible",
+  "note": "Pied lisse, chair rougissante ; en forêt ; squames concentriques sur le chapeau."
+ },
+ "chlorophyllum-brunneum": {
+  "confusions": [
+   "chlorophyllum-rhacodes"
+  ],
+  "images": [],
+  "pages": [
+   35
+  ],
+  "latin": "Chlorophyllum brunneum",
+  "fr": "Lépiote vénéneuse",
+  "group": "Lépiotes",
+  "edibility": "toxique",
+  "note": "Indigeste. Pied lisse, chair rougissante ; jardins, tas de compost ; squames dilacérées radialement."
+ },
+ "macrolepiota-excoriata": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   35
+  ],
+  "latin": "Macrolepiota excoriata",
+  "fr": "Lépiote excoriée",
+  "group": "Lépiotes",
+  "edibility": "comestible",
+  "note": "Chapeau blanc excorié vers la marge ; anneau plus fragile."
+ },
+ "leucoagaricus-leucothites": {
+  "confusions": [],
+  "images": [
+   "p35-3"
+  ],
+  "pages": [
+   35
+  ],
+  "latin": "Leucoagaricus leucothites",
+  "fr": "Lépiote pudique",
+  "group": "Lépiotes",
+  "edibility": "comestible",
+  "note": "Chapeau blanc entièrement lisse ; lames parfois rosées ; anneau plus fragile."
+ },
+ "echinoderma-asperum": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   35
+  ],
+  "latin": "Echinoderma asperum",
+  "fr": "Lépiote épineuse",
+  "group": "Lépiotes",
+  "edibility": "inconnu",
+  "note": "Chapeau brun fauve à écailles pyramidales aiguës, faciles à détacher ; lames blanches très serrées ; odeur de caoutchouc. Citée deux fois (grandes espèces B et petites espèces B4). Aucun marqueur dans le livret."
+ },
+ "lepiota-cristata": {
+  "confusions": [],
+  "images": [
+   "p35-4"
+  ],
+  "pages": [
+   35
+  ],
+  "latin": "Lepiota cristata",
+  "fr": "Lépiote crêtée",
+  "group": "Lépiotes",
+  "edibility": "inconnu",
+  "note": "Anneau membraneux, collerette ascendante ; pied lisse en dessous ; calotte centrale jaunâtre ; odeur forte de terre moisie. Aucun marqueur dans le livret."
+ },
+ "lepiota-clypeolaria": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   35
+  ],
+  "latin": "Lepiota clypeolaria",
+  "fr": "Lépiote en bouclier",
+  "group": "Lépiotes",
+  "edibility": "inconnu",
+  "note": "Chapeau pelucheux, blanc jaunâtre, calotte centrale lisse ; pied pelucheux blanc. Aucun marqueur dans le livret."
+ },
+ "lepiota-brunneoincarnata": {
+  "confusions": [],
+  "images": [
+   "p35-5"
+  ],
+  "pages": [
+   35
+  ],
+  "latin": "Lepiota brunneoincarnata",
+  "fr": "Lépiote brun incarnat",
+  "group": "Lépiotes",
+  "edibility": "mortel",
+  "note": "Mortel. Squames brun purpurin ; pied rosâtre avec flocons pourpre-noir vers la base."
+ },
+ "lepiota-josserandii": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   35
+  ],
+  "latin": "Lepiota josserandii",
+  "fr": "Lépiote de Josserand",
+  "group": "Lépiotes",
+  "edibility": "mortel",
+  "note": "Mortel. Squames peu marquées, rose clair sur fond blanc ; pied rose pâle à flocons blancs."
+ },
+ "agaricus-silvicola": {
+  "confusions": [],
+  "images": [
+   "p36-2"
+  ],
+  "pages": [
+   36
+  ],
+  "latin": "Agaricus silvicola",
+  "fr": "Agaric des bois",
+  "group": "Agarics",
+  "edibility": "comestible",
+  "note": "Jaunissement moyen ; pied élancé bulbeux ; odeur anisée (amandes amères en vieillissant) ; anneau ample ; dans les bois."
+ },
+ "agaricus-arvensis": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   36
+  ],
+  "latin": "Agaricus arvensis",
+  "fr": "Boule-de-neige",
+  "group": "Agarics",
+  "edibility": "comestible",
+  "note": "Jaunissement faible ; pied robuste, non bulbeux ; odeur anisée ; prairies et pâtures."
+ },
+ "agaricus-comtulus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   36
+  ],
+  "latin": "Agaricus comtulus",
+  "fr": "",
+  "group": "Agarics",
+  "edibility": "inconnu",
+  "note": "Petite espèce grêle, anneau simple ténu, forte odeur d'amandes amères ; pelouses."
+ },
+ "agaricus-xanthodermus": {
+  "confusions": [],
+  "images": [
+   "p36-1"
+  ],
+  "pages": [
+   36
+  ],
+  "latin": "Agaricus xanthodermus",
+  "fr": "Agaric jaunissant",
+  "group": "Agarics",
+  "edibility": "toxique",
+  "note": "Indigeste. Odeur de phénol, jaunissement rapide, silhouette trapézoïdale, pied nettement bulbeux ; pelouses, pâtures."
+ },
+ "agaricus-sylvaticus": {
+  "confusions": [],
+  "images": [
+   "p36-4"
+  ],
+  "pages": [
+   36
+  ],
+  "latin": "Agaricus sylvaticus",
+  "fr": "Agaric des forêts",
+  "group": "Agarics",
+  "edibility": "comestible",
+  "note": "Chair à rougissement vif et rapide."
+ },
+ "agaricus-campestris": {
+  "confusions": [],
+  "images": [
+   "p36-3"
+  ],
+  "pages": [
+   36
+  ],
+  "latin": "Agaricus campestris",
+  "fr": "Rosé-des-prés",
+  "group": "Agarics",
+  "edibility": "comestible",
+  "note": "Anneau simple ténu ; base du pied arrondie ou atténuée, sans racine ; dans les prés."
+ },
+ "agaricus-bresadolanus": {
+  "confusions": [],
+  "images": [
+   "p36-5"
+  ],
+  "pages": [
+   36
+  ],
+  "latin": "Agaricus bresadolanus",
+  "fr": "Agaric radicant",
+  "group": "Agarics",
+  "edibility": "toxique",
+  "note": "Indigeste. Base du pied légèrement renflée, prolongée par une racine blanche ; parcs urbains, terre retournée."
+ },
+ "agaricus-bisporus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   36
+  ],
+  "latin": "Agaricus bisporus",
+  "fr": "Champignon de Paris",
+  "group": "Agarics",
+  "edibility": "comestible",
+  "note": "Anneau épais simple ; odeur fongique, chair lentement rougissante ; pelouses, prairies."
+ },
+ "agaricus-variegans": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   36
+  ],
+  "latin": "Agaricus variegans",
+  "fr": "Agaric vergeté",
+  "group": "Agarics",
+  "edibility": "inconnu",
+  "note": "Anneau épais simple ; odeur terreuse désagréable, chair immuable ; forêts, bords de sentiers, dunes."
+ },
+ "agaricus-bitorquis": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   36
+  ],
+  "latin": "Agaricus bitorquis",
+  "fr": "Agaric des trottoirs",
+  "group": "Agarics",
+  "edibility": "comestible",
+  "note": "Anneau dissocié en deux étages ; chapeau blanc."
+ },
+ "agaricus-subperonatus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   36
+  ],
+  "latin": "Agaricus subperonatus",
+  "fr": "Agaric des serres",
+  "group": "Agarics",
+  "edibility": "inconnu",
+  "note": "Anneau dissocié en deux étages ; chapeau brun."
+ },
+ "cortinarius-elatior": {
+  "confusions": [],
+  "images": [
+   "p37-1"
+  ],
+  "pages": [
+   37
+  ],
+  "latin": "Cortinarius elatior",
+  "fr": "",
+  "group": "Cortinaires",
+  "edibility": "inconnu",
+  "note": "Pied bleuté, odeur de miel à la base, chapeau ridé-cannelé, pied visqueux. Aucun cortinaire n'est comestible (livret)."
+ },
+ "cortinarius-trivialis": {
+  "confusions": [],
+  "images": [
+   "p37-2"
+  ],
+  "pages": [
+   37
+  ],
+  "latin": "Cortinarius trivialis",
+  "fr": "",
+  "group": "Cortinaires",
+  "edibility": "inconnu",
+  "note": "Pied à guirlandes visqueuses en relief, chapeau brun-rouge. Aucun cortinaire n'est comestible (livret)."
+ },
+ "cortinarius-delibutus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   37
+  ],
+  "latin": "Cortinarius delibutus",
+  "fr": "",
+  "group": "Cortinaires",
+  "edibility": "inconnu",
+  "note": "Pied à guirlandes jaunes sans relief, chapeau jaune. Aucun cortinaire n'est comestible (livret)."
+ },
+ "cortinarius-salor": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   37
+  ],
+  "latin": "Cortinarius salor",
+  "fr": "",
+  "group": "Cortinaires",
+  "edibility": "inconnu",
+  "note": "Pied et chapeau bleus. Aucun cortinaire n'est comestible (livret)."
+ },
+ "cortinarius-multiformis": {
+  "confusions": [],
+  "images": [
+   "p37-3"
+  ],
+  "pages": [
+   37
+  ],
+  "latin": "Cortinarius multiformis",
+  "fr": "",
+  "group": "Cortinaires",
+  "edibility": "inconnu",
+  "note": "Pied bulbeux-marginé, lames beige pâle, chapeau jaune à orangé. Aucun cortinaire n'est comestible (livret)."
+ },
+ "cortinarius-calochrous": {
+  "confusions": [],
+  "images": [
+   "p37-3"
+  ],
+  "pages": [
+   37
+  ],
+  "latin": "Cortinarius calochrous",
+  "fr": "",
+  "group": "Cortinaires",
+  "edibility": "inconnu",
+  "note": "Pied bulbeux-marginé, lames bleutées, chapeau jaune. Aucun cortinaire n'est comestible (livret)."
+ },
+ "cortinarius-caerulescens": {
+  "confusions": [],
+  "images": [
+   "p37-3"
+  ],
+  "pages": [
+   37
+  ],
+  "latin": "Cortinarius caerulescens",
+  "fr": "",
+  "group": "Cortinaires",
+  "edibility": "inconnu",
+  "note": "Pied bulbeux-marginé, lames et chapeau bleutés. Aucun cortinaire n'est comestible (livret)."
+ },
+ "cortinarius-splendens": {
+  "confusions": [],
+  "images": [
+   "p37-3"
+  ],
+  "pages": [
+   37
+  ],
+  "latin": "Cortinarius splendens",
+  "fr": "",
+  "group": "Cortinaires",
+  "edibility": "inconnu",
+  "note": "Pied bulbeux-marginé, lames, chapeau et chair jaune vif. Aucun cortinaire n'est comestible (livret)."
+ },
+ "cortinarius-rufoolivaceus": {
+  "confusions": [],
+  "images": [
+   "p37-3"
+  ],
+  "pages": [
+   37
+  ],
+  "latin": "Cortinarius rufoolivaceus",
+  "fr": "",
+  "group": "Cortinaires",
+  "edibility": "inconnu",
+  "note": "Pied bulbeux-marginé, lames verdâtres, chapeau cuivré. Aucun cortinaire n'est comestible (livret)."
+ },
+ "cortinarius-infractus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   37
+  ],
+  "latin": "Cortinarius infractus",
+  "fr": "",
+  "group": "Cortinaires",
+  "edibility": "inconnu",
+  "note": "Pied cylindrique ou clavé, couleurs ternes uniformes (gris verdâtre), saveur amère. Aucun cortinaire n'est comestible (livret)."
+ },
+ "cortinarius-largus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   37
+  ],
+  "latin": "Cortinarius largus",
+  "fr": "",
+  "group": "Cortinaires",
+  "edibility": "inconnu",
+  "note": "Pied cylindrique ou clavé, couleurs lilacines (chapeau et pied). Aucun cortinaire n'est comestible (livret)."
+ },
+ "cortinarius-purpurascens": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   37
+  ],
+  "latin": "Cortinarius purpurascens",
+  "fr": "",
+  "group": "Cortinaires",
+  "edibility": "inconnu",
+  "note": "Pied cylindrique ou clavé, lames lilacines devenant violettes au froissement, chapeau brun. Aucun cortinaire n'est comestible (livret)."
+ },
+ "cortinarius-triumphans": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   37
+  ],
+  "latin": "Cortinarius triumphans",
+  "fr": "",
+  "group": "Cortinaires",
+  "edibility": "inconnu",
+  "note": "Pied cylindrique ou clavé, couleurs jaunes, bandes jaunes sur le pied. Aucun cortinaire n'est comestible (livret)."
+ },
+ "cortinarius-violaceus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   37
+  ],
+  "latin": "Cortinarius violaceus",
+  "fr": "",
+  "group": "Cortinaires",
+  "edibility": "inconnu",
+  "note": "Chapeau, lames et pied d'un bleu-violet profond, odeur d'encre. Aucun cortinaire n'est comestible (livret)."
+ },
+ "cortinarius-venetus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   37
+  ],
+  "latin": "Cortinarius venetus",
+  "fr": "",
+  "group": "Cortinaires",
+  "edibility": "inconnu",
+  "note": "Chapeau jaune-vert (sous-genre Leprocybe). Aucun cortinaire n'est comestible (livret)."
+ },
+ "cortinarius-bolaris": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   37
+  ],
+  "latin": "Cortinarius bolaris",
+  "fr": "Cortinaire briqueté",
+  "group": "Cortinaires",
+  "edibility": "inconnu",
+  "note": "Chapeau à écailles rouge brique sur fond jaune (sous-genre Leprocybe). Aucun cortinaire n'est comestible (livret)."
+ },
+ "cortinarius-orellanus": {
+  "confusions": [],
+  "images": [
+   "p37-4"
+  ],
+  "pages": [
+   37
+  ],
+  "latin": "Cortinarius orellanus",
+  "fr": "Cortinaire couleur de rocou",
+  "group": "Cortinaires",
+  "edibility": "mortel",
+  "note": "Groupe de Cortinarius orellanus : chapeau orangé vif, fauve rougeâtre, lames particulièrement espacées. MORTEL. Aucun cortinaire n'est comestible (livret)."
+ },
+ "cortinarius-paleaceus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   37
+  ],
+  "latin": "Cortinarius paleaceus",
+  "fr": "",
+  "group": "Cortinaires",
+  "edibility": "inconnu",
+  "note": "Chapeau pointu, gris, odeur forte de feuilles de Pelargonium (sous-genre Telamonia). Aucun cortinaire n'est comestible (livret)."
+ },
+ "cortinarius-pholideus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   37
+  ],
+  "latin": "Cortinarius pholideus",
+  "fr": "",
+  "group": "Cortinaires",
+  "edibility": "inconnu",
+  "note": "Chapeau mamelonné mais non aigu, brun, odeur nulle (sous-genre Telamonia). Aucun cortinaire n'est comestible (livret)."
+ },
+ "cortinarius-cinnamomeoluteus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   38
+  ],
+  "latin": "Cortinarius cinnamomeoluteus",
+  "fr": "",
+  "group": "Cortinaires",
+  "edibility": "toxique",
+  "note": "Lames, chapeau et pied jaunes (sous-genre Dermocybe). Toxique. Aucun cortinaire n'est comestible (livret)."
+ },
+ "cortinarius-cinnamomeus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   38
+  ],
+  "latin": "Cortinarius cinnamomeus",
+  "fr": "",
+  "group": "Cortinaires",
+  "edibility": "toxique",
+  "note": "Lames orangé-rouillé, pied et chapeau jaunes (sous-genre Dermocybe). Toxique. Aucun cortinaire n'est comestible (livret)."
+ },
+ "cortinarius-semisanguineus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   38
+  ],
+  "latin": "Cortinarius semisanguineus",
+  "fr": "",
+  "group": "Cortinaires",
+  "edibility": "toxique",
+  "note": "Lames rouge pourpre, pied et chapeau jaunes (sous-genre Dermocybe). Toxique. Aucun cortinaire n'est comestible (livret)."
+ },
+ "cortinarius-uliginosus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   38
+  ],
+  "latin": "Cortinarius uliginosus",
+  "fr": "",
+  "group": "Cortinaires",
+  "edibility": "toxique",
+  "note": "Lames jaunes, chapeau et pied rouge-orangé vif (sous-genre Dermocybe). Toxique. Aucun cortinaire n'est comestible (livret)."
+ },
+ "cortinarius-sanguineus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   38
+  ],
+  "latin": "Cortinarius sanguineus",
+  "fr": "",
+  "group": "Cortinaires",
+  "edibility": "toxique",
+  "note": "Lames, pied et chapeau rouges (sous-genre Dermocybe). Toxique. Aucun cortinaire n'est comestible (livret)."
+ },
+ "cortinarius-torvus": {
+  "confusions": [],
+  "images": [
+   "p38-4"
+  ],
+  "pages": [
+   38
+  ],
+  "latin": "Cortinarius torvus",
+  "fr": "",
+  "group": "Cortinaires",
+  "edibility": "inconnu",
+  "note": "Pied à chaussette terminée par un anneau, chapeau gris, pied bleuté au sommet. Aucun cortinaire n'est comestible (livret)."
+ },
+ "cortinarius-armillatus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   38
+  ],
+  "latin": "Cortinarius armillatus",
+  "fr": "",
+  "group": "Cortinaires",
+  "edibility": "inconnu",
+  "note": "Bracelets rouges étagés à la base du pied, chapeau roux. Le livret cite (2) mais aucun dessin (2) sur la page. Aucun cortinaire n'est comestible (livret)."
+ },
+ "cortinarius-hinnuleus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   38
+  ],
+  "latin": "Cortinarius hinnuleus",
+  "fr": "",
+  "group": "Cortinaires",
+  "edibility": "inconnu",
+  "note": "Anneau net sous la cortine, chapeau jaune-fauve, odeur forte de terre moisie. Aucun cortinaire n'est comestible (livret)."
+ },
+ "cortinarius-alboviolaceus": {
+  "confusions": [],
+  "images": [
+   "p38-5"
+  ],
+  "pages": [
+   38
+  ],
+  "latin": "Cortinarius alboviolaceus",
+  "fr": "",
+  "group": "Cortinaires",
+  "edibility": "inconnu",
+  "note": "Espèce robuste, chapeau bleuté lilas. Aucun cortinaire n'est comestible (livret)."
+ },
+ "cortinarius-anomalus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   38
+  ],
+  "latin": "Cortinarius anomalus",
+  "fr": "",
+  "group": "Cortinaires",
+  "edibility": "inconnu",
+  "note": "Espèce robuste, chapeau brun ou beige sans bleu, pied bleuté au sommet. Aucun cortinaire n'est comestible (livret)."
+ },
+ "cortinarius-saturninus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   38
+  ],
+  "latin": "Cortinarius saturninus",
+  "fr": "",
+  "group": "Cortinaires",
+  "edibility": "inconnu",
+  "note": "Espèce robuste, chapeau brun-rouge hygrophane, pied sans bleu. Aucun cortinaire n'est comestible (livret)."
+ },
+ "cortinarius-salicis": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   38
+  ],
+  "latin": "Cortinarius salicis",
+  "fr": "",
+  "group": "Cortinaires",
+  "edibility": "inconnu",
+  "note": "Espèce robuste, chapeau brun-gris non hygrophane, pied sans bleu. Aucun cortinaire n'est comestible (livret)."
+ },
+ "cortinarius-decipiens": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   38
+  ],
+  "latin": "Cortinarius decipiens",
+  "fr": "",
+  "group": "Cortinaires",
+  "edibility": "inconnu",
+  "note": "Espèce grêle, chapeau gris bleuté non strié, pied bleuté au sommet. Aucun cortinaire n'est comestible (livret)."
+ },
+ "cortinarius-obtusus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   38
+  ],
+  "latin": "Cortinarius obtusus",
+  "fr": "",
+  "group": "Cortinaires",
+  "edibility": "inconnu",
+  "note": "Espèce grêle, chapeau jaune à orangé très strié, odeur d'iode. Aucun cortinaire n'est comestible (livret)."
+ },
+ "cortinarius-duracinus": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   38
+  ],
+  "latin": "Cortinarius duracinus",
+  "fr": "",
+  "group": "Cortinaires",
+  "edibility": "inconnu",
+  "note": "Espèce grêle, chapeau ocre clair à blanchâtre, pied blanc lisse terminé en pointe, dur. Aucun cortinaire n'est comestible (livret)."
+ },
+ "calocybe-gambosa": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   39
+  ],
+  "latin": "Calocybe gambosa",
+  "fr": "Tricholome de la Saint-Georges, mousseron vrai",
+  "group": "Tricholomes",
+  "edibility": "comestible",
+  "note": "Au printemps, dans les pelouses ; odeur de concombre, lames très étroites et serrées. Comestible réputé."
+ },
+ "tricholoma-album": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   39
+  ],
+  "latin": "Tricholoma album",
+  "fr": "Tricholome blanc",
+  "group": "Tricholomes",
+  "edibility": "inconnu",
+  "note": "Été-automne, en forêt ; odeur forte de moisi ou de betterave ; chapeau convexe ou plat, sans mamelon."
+ },
+ "tricholoma-inocybeoides": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   39
+  ],
+  "latin": "Tricholoma inocybeoides",
+  "fr": "Tricholome faux-inocybe",
+  "group": "Tricholomes",
+  "edibility": "comestible",
+  "note": "Dans les parcs près des arbres ; chapeau conique ou à mamelon net, odeur nulle ou très faible."
+ },
+ "collybia-maculata": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   39
+  ],
+  "latin": "Collybia maculata",
+  "fr": "Collybie tachetée",
+  "group": "Tricholomes",
+  "edibility": "inconnu",
+  "note": "En forêt ; chapeau convexe charnu, marge enroulée, blanc pur tacheté de brun-rouge avec l'âge."
+ },
+ "tricholoma-acerbum": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   39
+  ],
+  "latin": "Tricholoma acerbum",
+  "fr": "Tricholome âpre",
+  "group": "Tricholomes",
+  "edibility": "inconnu",
+  "note": "En forêt ; chapeau convexe charnu, marge enroulée, jaune pâle se salissant de rose."
+ },
+ "tricholoma-terreum": {
+  "confusions": [],
+  "images": [
+   "p40-1"
+  ],
+  "pages": [
+   39
+  ],
+  "latin": "Tricholoma terreum",
+  "fr": "Petit-gris",
+  "group": "Tricholomes",
+  "edibility": "comestible",
+  "note": "Chapeau feutré, pelucheux, squamuleux ; lames grises, pas d'odeur ; sous les pins."
+ },
+ "tricholoma-pardinum": {
+  "confusions": [
+   "tricholoma-scalpturatum"
+  ],
+  "images": [],
+  "pages": [
+   39
+  ],
+  "latin": "Tricholoma pardinum",
+  "fr": "Tricholome tigré",
+  "group": "Tricholomes",
+  "edibility": "toxique",
+  "note": "En montagne ; écailles larges, pied robuste. Très toxique (cité entre crochets)."
+ },
+ "tricholoma-virgatum": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   39
+  ],
+  "latin": "Tricholoma virgatum",
+  "fr": "Tricholome vergeté",
+  "group": "Tricholomes",
+  "edibility": "inconnu",
+  "note": "Chapeau conique ou à mamelon central net, fibrilleux (rayé), inodore. Non comestible, amer (livret)."
+ },
+ "tricholoma-saponaceum": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   39
+  ],
+  "latin": "Tricholoma saponaceum",
+  "fr": "Tricholome à odeur de savon",
+  "group": "Tricholomes",
+  "edibility": "inconnu",
+  "note": "En forêt ; odeur de savonnette, lames et pied blancs, pied robuste > 1 cm."
+ },
+ "lepista-panaeola": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   39
+  ],
+  "latin": "Lepista panaeola",
+  "fr": "Argouane des prairies",
+  "group": "Tricholomes",
+  "edibility": "comestible",
+  "note": "Dans les prés ; odeur poivrée, lames et pied gris comme le chapeau, pied robuste > 1 cm."
+ },
+ "melanoleuca-melaleuca": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   39
+  ],
+  "latin": "Melanoleuca melaleuca",
+  "fr": "Tricholome noir et blanc",
+  "group": "Tricholomes",
+  "edibility": "inconnu",
+  "note": "Odeur absente, pied élancé < 1 cm. Groupe difficile, nombreuses espèces semblables, comestibilité inconnue (livret)."
+ },
+ "tricholoma-fulvum": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   39
+  ],
+  "latin": "Tricholoma fulvum",
+  "fr": "Tricholome fauve",
+  "group": "Tricholomes",
+  "edibility": "inconnu",
+  "note": "Lames et chair jaunes ; chapeau lisse, luisant, brun-jaune ; odeur farineuse."
+ },
+ "tricholoma-ustale": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   39
+  ],
+  "latin": "Tricholoma ustale",
+  "fr": "Tricholome brûlé",
+  "group": "Tricholomes",
+  "edibility": "inconnu",
+  "note": "Odeur nulle ou très faible ; chapeau lisse, luisant ou visqueux ; forestier."
+ },
+ "tricholoma-vaccinum": {
+  "confusions": [],
+  "images": [],
+  "pages": [
+   39
+  ],
+  "latin": "Tricholoma vaccinum",
+  "fr": "Tricholome couleur de vache",
+  "group": "Tricholomes",
+  "edibility": "inconnu",
+  "note": "Odeur nulle ou très faible ; chapeau sec, +/- écailleux ou laineux ; forestier."
+ },
+ "tricholoma-sulfureum": {
+  "confusions": [],
+  "images": [
+   "p40-2"
+  ],
+  "pages": [
+   40
+  ],
+  "latin": "Tricholoma sulfureum",
+  "fr": "Tricholome soufré",
+  "group": "Tricholomes",
+  "edibility": "inconnu",
+  "note": "Odeur forte désagréable (gaz, soufre) ; lames jaunes épaisses et espacées."
+ },
+ "tricholoma-auratum": {
+  "confusions": [
+   "tricholoma-frondosae",
+   "tricholoma-sulfureum"
+  ],
+  "images": [],
+  "pages": [
+   40
+  ],
+  "latin": "Tricholoma auratum",
+  "fr": "Tricholome équestre",
+  "group": "Tricholomes",
+  "edibility": "mortel",
+  "note": "Chapeau jaune citrin à jaune doré, lames jaunes, chair blanche, sous pins (littoral). MORTEL (livret)."
+ },
+ "tricholoma-frondosae": {
+  "confusions": [
+   "tricholoma-auratum"
+  ],
+  "images": [],
+  "pages": [
+   40
+  ],
+  "latin": "Tricholoma frondosae",
+  "fr": "Tricholome équestre des peupliers",
+  "group": "Tricholomes",
+  "edibility": "inconnu",
+  "note": "Chapeau jaune citrin à jaune doré, lames jaunes, chair jaune, sous peupliers."
+ },
+ "tricholoma-sejunctum": {
+  "confusions": [],
+  "images": [
+   "p40-3"
+  ],
+  "pages": [
+   40
+  ],
+  "latin": "Tricholoma sejunctum",
+  "fr": "Tricholome jaunet",
+  "group": "Tricholomes",
+  "edibility": "inconnu",
+  "note": "Chapeau fibrilleux verdâtre, lames blanches à reflets jaunes."
+ }
 }

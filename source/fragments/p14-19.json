@@ -846,7 +846,7 @@
   "armillaria-mellea": {
    "latin": "Armillaria mellea",
    "fr": "Armillaire à couleur de miel",
-   "group": "Pied annelé ou armillé, en touffes",
+   "group": "Espèces annelées",
    "edibility": "toxique",
    "note": "En touffes ; chapeau jaune brunâtre à rougeâtre, centre parsemé de petites mèches grises ; spores blanches.",
    "images": [
@@ -859,7 +859,7 @@
   "oudemansiella-mucida": {
    "latin": "Oudemansiella mucida",
    "fr": "Collybie muqueuse",
-   "group": "Pied annelé ou armillé, en touffes",
+   "group": "Espèces annelées",
    "edibility": "inconnu",
    "note": "En touffes sur hêtre ; chapeau blanc, lisse, visqueux ; spores blanches.",
    "images": [
@@ -872,7 +872,7 @@
   "pholiota-squarrosa": {
    "latin": "Pholiota squarrosa",
    "fr": "Pholiote écailleuse",
-   "group": "Pied annelé ou armillé, en touffes",
+   "group": "Espèces annelées",
    "edibility": "inconnu",
    "note": "Chapeau écailleux sec, espèce moyenne ± jaune-fauve ; spores brunes.",
    "images": [
@@ -885,7 +885,7 @@
   "pholiota-aurivella": {
    "latin": "Pholiota aurivella",
    "fr": "Pholiote dorée",
-   "group": "Pied annelé ou armillé, en touffes",
+   "group": "Espèces annelées",
    "edibility": "inconnu",
    "note": "Chapeau écailleux, visqueux ou lubrifié ; spores brunes.",
    "images": [
@@ -898,7 +898,7 @@
   "gymnopilus-spectabilis": {
    "latin": "Gymnopilus spectabilis",
    "fr": "Pholiote remarquable",
-   "group": "Pied annelé ou armillé",
+   "group": "Espèces annelées",
    "edibility": "inconnu",
    "note": "Grosse espèce (8 - 25 cm) entièrement jaune-fauve, en touffes ; isolé : sur bois, entièrement jaune doré, chair charnue.",
    "images": [
@@ -912,7 +912,7 @@
   "kuehneromyces-mutabilis": {
    "latin": "Kuehneromyces mutabilis",
    "fr": "Pholiote changeante, agaric à soupe",
-   "group": "Pied annelé ou armillé",
+   "group": "Espèces annelées",
    "edibility": "comestible",
    "note": "Petite espèce (2-5 cm), chapeau lisse hygrophane, brun fauve humide, jaunâtre sec ; pied pelucheux sous l'anneau. À ne pas confondre avec Galerina marginata, mortelle.",
    "confusions": [
@@ -929,7 +929,7 @@
   "galerina-marginata": {
    "latin": "Galerina marginata",
    "fr": "Galérine marginée",
-   "group": "Pied annelé ou armillé",
+   "group": "Espèces annelées",
    "edibility": "mortel",
    "note": "Espèce mortelle ; petite espèce lignicole à chapeau strié hygrophane, rarement en touffe. À ne pas confondre avec Kuehneromyces mutabilis.",
    "confusions": [
@@ -946,7 +946,7 @@
   "cyclocybe-cylindracea": {
    "latin": "Cyclocybe cylindracea",
    "fr": "Pholiote du peuplier",
-   "group": "Pied annelé ou armillé, en touffes",
+   "group": "Espèces annelées",
    "edibility": "comestible",
    "note": "Espèce moyenne (4-10 cm), sans jaune ; chapeau lisse, ridé ou craquelé ; pied lisse sous l'anneau ; odeur de vieux tonneau.",
    "images": [],
@@ -957,7 +957,7 @@
   "lacrymaria-lacrymabunda": {
    "latin": "Lacrymaria lacrymabunda",
    "fr": "Psathyrelle veloutée",
-   "group": "Pied annelé ou armillé, cortine",
+   "group": "Espèces à cortine",
    "edibility": "inconnu",
    "note": "Chapeau jaune sale à roux orangé, feutré ; lames noirâtres ; cortine persistante. Appelé Psathyrella lacrymabunda p. 15.",
    "images": [],
@@ -970,7 +970,7 @@
   "hypholoma-fasciculare": {
    "latin": "Hypholoma fasciculare",
    "fr": "Hypholome en touffes",
-   "group": "Pied annelé ou armillé, cortine",
+   "group": "Espèces à cortine",
    "edibility": "toxique",
    "note": "Sporophores jaunes à lames verdâtres, en touffes, lignicole ; spores violacées à noires.",
    "images": [
@@ -984,7 +984,7 @@
   "cystoderma-amianthinum": {
    "latin": "Cystoderma amianthinum",
    "fr": "Cystoderme couleur d'amiante",
-   "group": "Pied annelé ou armillé, isolés",
+   "group": "Espèces annelées",
    "edibility": "inconnu",
    "note": "Lames adnées-échancrées, chapeau granuleux jaune ou orangé, voile en armille (flocons sur le pied).",
    "images": [],
@@ -995,7 +995,7 @@
   "tricholoma-cingulatum": {
    "latin": "Tricholoma cingulatum",
    "fr": "Tricholome ceinturé",
-   "group": "Pied annelé ou armillé, isolés",
+   "group": "Espèces annelées",
    "edibility": "inconnu",
    "note": "Lames adnées-échancrées, chapeau écailleux blanc ou gris.",
    "images": [],
@@ -1006,7 +1006,7 @@
   "armillaria-gallica": {
    "latin": "Armillaria gallica",
    "fr": "Armillaire bulbeuse",
-   "group": "Pied annelé ou armillé, isolés",
+   "group": "Espèces annelées",
    "edibility": "inconnu",
    "note": "Lames subdécurrentes, chapeau brun jaunâtre à petites mèches jaunes ou grises ; isolés ou en petites touffes ; anneau cotonneux pouvant évoquer une cortine.",
    "images": [],
@@ -1018,7 +1018,7 @@
   "rozites-caperatus": {
    "latin": "Rozites caperatus",
    "fr": "Pholiote ridée",
-   "group": "Pied annelé ou armillé, isolés",
+   "group": "Espèces annelées",
    "edibility": "comestible",
    "note": "À terre, lames beige clair d'aspect fripé.",
    "images": [],
@@ -1029,7 +1029,7 @@
   "agrocybe-rivulosa": {
    "latin": "Agrocybe rivulosa",
    "fr": "",
-   "group": "Pied annelé ou armillé, isolés",
+   "group": "Espèces annelées",
    "edibility": "inconnu",
    "note": "Sur composts, chapeau ridé, pied à rhizomorphes blancs.",
    "images": [],
@@ -1040,7 +1040,7 @@
   "hebeloma-radicosum": {
    "latin": "Hebeloma radicosum",
    "fr": "",
-   "group": "Pied annelé ou armillé, isolés",
+   "group": "Espèces annelées",
    "edibility": "inconnu",
    "note": "Long pied radicant, forte odeur d'amandes amères.",
    "images": [],
@@ -1051,7 +1051,7 @@
   "coprinus-comatus": {
    "latin": "Coprinus comatus",
    "fr": "Coprin chevelu",
-   "group": "Pied annelé ou armillé, isolés",
+   "group": "Espèces annelées",
    "edibility": "comestible",
    "note": "Chapeau blanc méchuleux, parabolique ou cylindrique, déliquescent à maturité ; jeune, peut évoquer une lépiote à chapeau cylindrique.",
    "images": [
@@ -1064,7 +1064,7 @@
   "coprinus-atramentarius": {
    "latin": "Coprinus atramentarius",
    "fr": "Coprin noir d'encre",
-   "group": "Pied annelé ou armillé, isolés",
+   "group": "Espèces annelées",
    "edibility": "toxique",
    "note": "Chapeau gris ridé-strié, déliquescent à maturité.",
    "images": [],
@@ -1075,7 +1075,7 @@
   "stropharia-aeruginosa": {
    "latin": "Stropharia aeruginosa",
    "fr": "Strophaire vert-de-gris",
-   "group": "Pied annelé ou armillé, isolés",
+   "group": "Espèces annelées",
    "edibility": "inconnu",
    "note": "Couleur vert de gris ; arête des lames blanche, anneau bien développé.",
    "confusions": [
@@ -1091,7 +1091,7 @@
   "stropharia-caerulea": {
    "latin": "Stropharia caerulea",
    "fr": "Strophaire bleue",
-   "group": "Pied annelé ou armillé, isolés",
+   "group": "Espèces annelées",
    "edibility": "inconnu",
    "note": "Couleur vert de gris ; arête des lames non blanche, anneau peu viable.",
    "confusions": [
@@ -1105,7 +1105,7 @@
   "stropharia-coronilla": {
    "latin": "Stropharia coronilla",
    "fr": "Strophaire coronille",
-   "group": "Pied annelé ou armillé, isolés",
+   "group": "Espèces annelées",
    "edibility": "inconnu",
    "note": "Chapeau jaune ocracé, hémisphérique, espèce venant dans l'herbe.",
    "images": [],
@@ -1116,7 +1116,7 @@
   "pholiota-gummosa": {
    "latin": "Pholiota gummosa",
    "fr": "Pholiote gommeuse",
-   "group": "Pied muni d'une cortine",
+   "group": "Espèces à cortine",
    "edibility": "inconnu",
    "note": "Chapeau jaune verdâtre, à petites écailles vers le bord, ± lubrifié ; lames jaunâtres puis rouillées, jamais vertes ; sur bois ou débris ligneux.",
    "images": [
@@ -1130,7 +1130,7 @@
   "hypholoma-lateritium": {
    "latin": "Hypholoma lateritium",
    "fr": "Hypholome briqueté",
-   "group": "Pied muni d'une cortine",
+   "group": "Espèces à cortine",
    "edibility": "inconnu",
    "note": "Sporophores rouge-orangé à lames grisâtres, en touffes.",
    "images": [],
@@ -1141,7 +1141,7 @@
   "psathyrella-piluliformis": {
    "latin": "Psathyrella piluliformis",
    "fr": "Psathyrelle hydrophile",
-   "group": "Pied muni d'une cortine",
+   "group": "Espèces à cortine",
    "edibility": "inconnu",
    "note": "Hygrophane, blanchissant en séchant ; traces de voile partiel sur la marge du chapeau.",
    "images": [],
@@ -1152,7 +1152,7 @@
   "coprinus-micaceus": {
    "latin": "Coprinus micaceus",
    "fr": "Coprin micacé (groupe)",
-   "group": "Pied muni d'une cortine",
+   "group": "Espèces à cortine",
    "edibility": "inconnu",
    "note": "Non hygrophane, sommet du chapeau micacé (comme saupoudré de sucre), en touffes.",
    "images": [
@@ -1165,7 +1165,7 @@
   "pholiota-lenta": {
    "latin": "Pholiota lenta",
    "fr": "",
-   "group": "Pied muni d'une cortine",
+   "group": "Espèces à cortine",
    "edibility": "inconnu",
    "note": "Chapeau visqueux à flocons blancs, beige ocracé, cortine abondante ; terricole.",
    "images": [],
@@ -1176,7 +1176,7 @@
   "psathyrella-candolleana": {
    "latin": "Psathyrella candolleana",
    "fr": "Psathyrelle de Candolle",
-   "group": "Pied muni d'une cortine",
+   "group": "Espèces à cortine",
    "edibility": "inconnu",
    "note": "Espèce fragile, cortine visible seulement chez les jeunes ; lames très serrées, pied blanc lisse, lames gris pâle puis gris cendré ; chapeau jaune pâle puis blanc.",
    "images": [],
@@ -1188,7 +1188,7 @@
   "tricholoma-scalpturatum": {
    "latin": "Tricholoma scalpturatum",
    "fr": "Tricholome sculpté",
-   "group": "Pied muni d'une cortine",
+   "group": "Espèces à cortine",
    "edibility": "comestible",
    "note": "Chapeau squameux ou feutré ± bistré, lames jaunissantes, odeur et saveur farineuse.",
    "images": [],
@@ -1199,7 +1199,7 @@
   "gymnopilus-penetrans": {
    "latin": "Gymnopilus penetrans",
    "fr": "Pholiote remarquable",
-   "group": "Pied muni d'une cortine",
+   "group": "Espèces à cortine",
    "edibility": "inconnu",
    "note": "Chapeau sec ± fibrilleux, roux, sur conifères.",
    "images": [],
@@ -1210,7 +1210,7 @@
   "inocybe-bongardii": {
    "latin": "Inocybe bongardii",
    "fr": "",
-   "group": "Pied muni d'une cortine",
+   "group": "Espèces à cortine",
    "edibility": "toxique",
    "note": "Forte odeur aromatique rappelant l'alcool de poire ; chapeau pointu.",
    "images": [],
@@ -1221,7 +1221,7 @@
   "inocybe-geophylla": {
    "latin": "Inocybe geophylla",
    "fr": "Inocybe à lames terreuses",
-   "group": "Pied muni d'une cortine",
+   "group": "Espèces à cortine",
    "edibility": "toxique",
    "note": "Espèce blanche immuable, odeur spermatique.",
    "images": [
@@ -1234,7 +1234,7 @@
   "inocybe-geophylla-lilacina": {
    "latin": "Inocybe geophylla var. lilacina",
    "fr": "Inocybe lilas",
-   "group": "Pied muni d'une cortine",
+   "group": "Espèces à cortine",
    "edibility": "toxique",
    "note": "Espèce entièrement violacée, odeur spermatique.",
    "images": [],
@@ -1245,7 +1245,7 @@
   "inocybe-flocculosa": {
    "latin": "Inocybe flocculosa",
    "fr": "Inocybe floconneux",
-   "group": "Pied muni d'une cortine",
+   "group": "Espèces à cortine",
    "edibility": "toxique",
    "note": "Chapeau gris-brun, très fibrilleux, odeur spermatique.",
    "images": [],
@@ -1256,7 +1256,7 @@
   "hebeloma-mesophaeum": {
    "latin": "Hebeloma mesophaeum",
    "fr": "Hébélome à centre brun",
-   "group": "Pied muni d'une cortine",
+   "group": "Espèces à cortine",
    "edibility": "toxique",
    "note": "Odeur raphanoïde ; lames beige pâle, chapeau lisse brillant, bicolore.",
    "images": [],
@@ -1267,7 +1267,7 @@
   "inocybe-dulcamara": {
    "latin": "Inocybe dulcamara",
    "fr": "Inocybe doux-amer",
-   "group": "Pied muni d'une cortine",
+   "group": "Espèces à cortine",
    "edibility": "toxique",
    "note": "Odeur nulle ou faible ; chapeau convexe pelucheux, brun-jaune ; lames gris sale.",
    "images": [],
@@ -1278,7 +1278,7 @@
   "stropharia-pseudocyanea": {
    "latin": "Stropharia pseudocyanea",
    "fr": "Strophaire bleue et blanche",
-   "group": "Pied muni d'une cortine",
+   "group": "Espèces à cortine",
    "edibility": "inconnu",
    "note": "Chapeau bleu-vert décolorant, visqueux ; lames non décurrentes, minces et serrées.",
    "images": [],

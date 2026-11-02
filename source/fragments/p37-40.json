@@ -1,1343 +1,1343 @@
 {
-  "nodes": {
-    "p37": {
-      "page": 37,
-      "title": "Cortinaires",
-      "question": "Le chapeau est-il visqueux ou sec ?",
-      "intro": "Genre très diversifié, seule une sélection de quelques espèces fréquentes est présentée. Aucune espèce comestible !",
-      "choices": [
-        {
-          "label": "Chapeau visqueux",
-          "next": "p37-visqueux"
-        },
-        {
-          "label": "Chapeau sec",
-          "next": "p37-sec"
-        }
-      ]
+ "nodes": {
+  "p37": {
+   "page": 37,
+   "title": "Cortinaires",
+   "question": "Le chapeau est-il visqueux ou sec ?",
+   "intro": "Genre très diversifié, seule une sélection de quelques espèces fréquentes est présentée. Aucune espèce comestible !",
+   "choices": [
+    {
+     "label": "Chapeau visqueux",
+     "next": "p37-visqueux"
     },
-    "p37-visqueux": {
-      "page": 37,
-      "title": "Cortinaires à chapeau visqueux",
-      "question": "Le pied est-il visqueux ou sec ?",
-      "choices": [
-        {
-          "label": "Pied visqueux (sur spécimens très frais)",
-          "hint": "sous-genre Mixacium",
-          "next": "p37-mixacium"
-        },
-        {
-          "label": "Pied sec",
-          "hint": "sous-genre Phlegmacium",
-          "next": "p37-phlegmacium"
-        }
-      ]
-    },
-    "p37-mixacium": {
-      "page": 37,
-      "title": "Cortinaires : chapeau et pied visqueux (Mixacium)",
-      "question": "Quelles sont les couleurs et l'ornementation du pied ?",
-      "choices": [
-        {
-          "label": "Pied bleuté, odeur de miel à la base",
-          "hint": "chapeau ridé-cannelé",
-          "species": "cortinarius-elatior",
-          "img": "p37-1"
-        },
-        {
-          "label": "Pied à guirlandes visqueuses en relief",
-          "hint": "chapeau brun-rouge",
-          "species": "cortinarius-trivialis",
-          "img": "p37-2"
-        },
-        {
-          "label": "Pied à guirlandes jaunes sans relief",
-          "hint": "chapeau jaune",
-          "species": "cortinarius-delibutus"
-        },
-        {
-          "label": "Pied et chapeau bleus",
-          "species": "cortinarius-salor"
-        }
-      ]
-    },
-    "p37-phlegmacium": {
-      "page": 37,
-      "title": "Cortinaires : chapeau visqueux, pied sec (Phlegmacium)",
-      "question": "Quelle est la forme de la base du pied ?",
-      "choices": [
-        {
-          "label": "Pied bulbeux-marginé à la base",
-          "next": "p37-bulbeux",
-          "img": "p37-3"
-        },
-        {
-          "label": "Pied cylindrique ou clavé",
-          "next": "p37-cylindrique"
-        }
-      ]
-    },
-    "p37-bulbeux": {
-      "page": 37,
-      "title": "Phlegmacium à pied bulbeux-marginé",
-      "question": "Quelles sont les couleurs des lames et du chapeau ?",
-      "intro": "NB : nombreuses autres espèces à couleurs différentes.",
-      "choices": [
-        {
-          "label": "Lames beige pâle, chapeau jaune à orangé",
-          "species": "cortinarius-multiformis",
-          "img": "p37-3"
-        },
-        {
-          "label": "Lames bleutées, chapeau jaune",
-          "species": "cortinarius-calochrous",
-          "img": "p37-3"
-        },
-        {
-          "label": "Lames et chapeau bleutés",
-          "species": "cortinarius-caerulescens",
-          "img": "p37-3"
-        },
-        {
-          "label": "Lames, chapeau et chair jaune vif",
-          "species": "cortinarius-splendens",
-          "img": "p37-3"
-        },
-        {
-          "label": "Lames verdâtres, chapeau cuivré",
-          "species": "cortinarius-rufoolivaceus",
-          "img": "p37-3"
-        }
-      ]
-    },
-    "p37-cylindrique": {
-      "page": 37,
-      "title": "Phlegmacium à pied cylindrique ou clavé",
-      "question": "Quelles sont les couleurs dominantes ?",
-      "choices": [
-        {
-          "label": "Couleurs ternes uniformes (gris verdâtre +/- sombre), saveur amère",
-          "species": "cortinarius-infractus"
-        },
-        {
-          "label": "Couleurs lilacines (chapeau et pied)",
-          "species": "cortinarius-largus"
-        },
-        {
-          "label": "Lames lilacines devenant violettes au froissement, chapeau brun",
-          "species": "cortinarius-purpurascens"
-        },
-        {
-          "label": "Couleurs jaunes, bandes jaunes sur le pied",
-          "species": "cortinarius-triumphans"
-        }
-      ]
-    },
-    "p37-sec": {
-      "page": 37,
-      "title": "Cortinaires à chapeau sec",
-      "question": "La surface du chapeau est-elle lisse ?",
-      "choices": [
-        {
-          "label": "Chapeau non lisse : velouté, méchuleux, squamuleux",
-          "next": "p37-non-lisse"
-        },
-        {
-          "label": "Chapeau lisse",
-          "next": "p38-lisse"
-        }
-      ]
-    },
-    "p37-non-lisse": {
-      "page": 37,
-      "title": "Cortinaires : chapeau sec non lisse",
-      "question": "Quelles sont les couleurs ?",
-      "choices": [
-        {
-          "label": "Chapeau, lames et pied d'un bleu-violet profond",
-          "hint": "odeur d'encre",
-          "species": "cortinarius-violaceus"
-        },
-        {
-          "label": "Couleurs vives : jaune, fauve, rougeâtres dominantes",
-          "hint": "sous-genre Leprocybe",
-          "next": "p37-leprocybe"
-        },
-        {
-          "label": "Couleurs plus ternes, souvent bleutées au sommet du pied",
-          "hint": "sous-genre Telamonia",
-          "next": "p37-telamonia"
-        }
-      ]
-    },
-    "p37-leprocybe": {
-      "page": 37,
-      "title": "Leprocybe : couleurs vives",
-      "question": "Quelle est la couleur et l'aspect du chapeau ?",
-      "choices": [
-        {
-          "label": "Chapeau jaune-vert",
-          "species": "cortinarius-venetus"
-        },
-        {
-          "label": "Chapeau à écailles rouge brique sur fond jaune",
-          "hint": "cortinaire briqueté",
-          "species": "cortinarius-bolaris"
-        },
-        {
-          "label": "Chapeau orangé vif, fauve rougeâtre ; lames particulièrement espacées",
-          "hint": "groupe de Cortinarius orellanus (cortinaire couleur de rocou) : MORTEL",
-          "species": "cortinarius-orellanus",
-          "img": "p37-4"
-        }
-      ]
-    },
-    "p37-telamonia": {
-      "page": 37,
-      "title": "Telamonia : couleurs plus ternes",
-      "question": "Quelle est la forme du chapeau et l'odeur ?",
-      "choices": [
-        {
-          "label": "Chapeau pointu, gris ; odeur forte de feuilles de Pelargonium",
-          "species": "cortinarius-paleaceus"
-        },
-        {
-          "label": "Chapeau mamelonné mais non aigu, brun ; odeur nulle",
-          "species": "cortinarius-pholideus"
-        },
-        {
-          "label": "Autres caractères (spécimens défraîchis)",
-          "next": "p38-autres",
-          "note": "Le livret dit « voir groupe suivant (spécimens défraîchis) » : renvoi vers les cortinaires à chapeau lisse, autres couleurs (ocre, brun, bleuté), page 38."
-        }
-      ]
-    },
-    "p38-lisse": {
-      "page": 38,
-      "title": "Cortinaires : chapeau lisse",
-      "question": "Les couleurs sont-elles vives ?",
-      "choices": [
-        {
-          "label": "Couleurs vives : jaune, orangé, rouge dominantes ; espèces grêles",
-          "hint": "sous-genre Dermocybe",
-          "next": "p38-dermocybe"
-        },
-        {
-          "label": "Autres couleurs (ocre, brun, bleuté...)",
-          "next": "p38-autres"
-        }
-      ]
-    },
-    "p38-dermocybe": {
-      "page": 38,
-      "title": "Dermocybe : couleurs vives, espèces grêles",
-      "question": "Quelles sont les couleurs des lames, du chapeau et du pied ?",
-      "intro": "Toutes ces espèces portent le marqueur toxique dans le livret.",
-      "choices": [
-        {
-          "label": "Lames, chapeau et pied jaunes",
-          "species": "cortinarius-cinnamomeoluteus"
-        },
-        {
-          "label": "Lames orangé-rouillé, pied et chapeau jaunes",
-          "species": "cortinarius-cinnamomeus"
-        },
-        {
-          "label": "Lames rouge pourpre, pied et chapeau jaunes",
-          "species": "cortinarius-semisanguineus"
-        },
-        {
-          "label": "Lames jaunes, chapeau et pied rouge-orangé vif",
-          "species": "cortinarius-uliginosus"
-        },
-        {
-          "label": "Lames, pied et chapeau rouges",
-          "species": "cortinarius-sanguineus"
-        }
-      ]
-    },
-    "p38-autres": {
-      "page": 38,
-      "title": "Cortinaires lisses : autres couleurs",
-      "question": "Y a-t-il un voile remarquable en plus de la cortine ?",
-      "choices": [
-        {
-          "label": "Cortine doublée d'un autre voile remarquable (armille ou anneau)",
-          "next": "p38-voile"
-        },
-        {
-          "label": "Cortine simple, parfois peu visible ; pied uniforme ou zébré de voile sans relief",
-          "next": "p38-simple"
-        }
-      ]
-    },
-    "p38-voile": {
-      "page": 38,
-      "title": "Cortine doublée d'une armille ou d'un anneau",
-      "question": "Quel est ce voile ?",
-      "choices": [
-        {
-          "label": "Pied à \"chaussette\" terminée par un anneau",
-          "hint": "chapeau gris, pied bleuté au sommet",
-          "species": "cortinarius-torvus",
-          "img": "p38-4"
-        },
-        {
-          "label": "Bracelets rouges étagés à la base du pied",
-          "hint": "chapeau roux",
-          "species": "cortinarius-armillatus",
-          "note": "Le livret renvoie au dessin (2), absent de cette page."
-        },
-        {
-          "label": "Un anneau net sous la cortine",
-          "hint": "chapeau jaune-fauve, odeur forte de terre moisie",
-          "species": "cortinarius-hinnuleus"
-        }
-      ]
-    },
-    "p38-simple": {
-      "page": 38,
-      "title": "Cortine simple",
-      "question": "Quel est le diamètre du pied ?",
-      "choices": [
-        {
-          "label": "Espèces assez robustes, pied > 8 mm de diamètre, avec zones de voile nettes",
-          "next": "p38-robustes"
-        },
-        {
-          "label": "Espèces grêles, élancées, pied < 5 (8) mm de diamètre",
-          "next": "p38-greles"
-        }
-      ]
-    },
-    "p38-robustes": {
-      "page": 38,
-      "title": "Cortinaires robustes à cortine simple",
-      "question": "Quelles sont les couleurs du chapeau et du pied ?",
-      "choices": [
-        {
-          "label": "Chapeau bleuté, lilas",
-          "species": "cortinarius-alboviolaceus",
-          "img": "p38-5"
-        },
-        {
-          "label": "Chapeau brun ou beige sans trace de bleu ; pied bleuté au sommet",
-          "species": "cortinarius-anomalus"
-        },
-        {
-          "label": "Chapeau brun-rouge, hygrophane ; pied sans trace de bleu",
-          "species": "cortinarius-saturninus"
-        },
-        {
-          "label": "Chapeau brun-gris, non hygrophane ; pied sans trace de bleu",
-          "species": "cortinarius-salicis"
-        }
-      ]
-    },
-    "p38-greles": {
-      "page": 38,
-      "title": "Cortinaires grêles à cortine simple",
-      "question": "Quelles sont les couleurs et l'odeur ?",
-      "choices": [
-        {
-          "label": "Chapeau gris bleuté, non strié ; pied bleuté au sommet",
-          "species": "cortinarius-decipiens"
-        },
-        {
-          "label": "Chapeau jaune à orangé, très strié ; odeur d'iode",
-          "species": "cortinarius-obtusus"
-        },
-        {
-          "label": "Chapeau ocre clair à blanchâtre ; pied blanc lisse, terminé en pointe, dur",
-          "species": "cortinarius-duracinus"
-        }
-      ]
-    },
-    "p39": {
-      "page": 39,
-      "title": "Tricholomes",
-      "question": "Quelle est la couleur du chapeau ?",
-      "intro": "Champignons robustes à lames adnées-échancrées et spores blanches. Les lames sont souvent colorées !",
-      "choices": [
-        {
-          "label": "Chapeau lisse et pâle : blanc, crème, gris clair, rose pâle",
-          "next": "p39-pale"
-        },
-        {
-          "label": "Chapeau gris",
-          "next": "p39-gris"
-        },
-        {
-          "label": "Chapeau brun, beige, rose violacé",
-          "next": "p39-brun"
-        },
-        {
-          "label": "Chapeau jaune, vert, gris à nuances verdâtres",
-          "next": "p40-jaune-vert"
-        }
-      ]
-    },
-    "p39-pale": {
-      "page": 39,
-      "title": "Tricholomes : chapeau lisse et pâle",
-      "question": "À quelle saison pousse-t-il ?",
-      "choices": [
-        {
-          "label": "Au printemps, dans les pelouses",
-          "hint": "odeur de concombre, lames très étroites et serrées ; comestible réputé",
-          "species": "calocybe-gambosa"
-        },
-        {
-          "label": "En été-automne : odeurs différentes, lames non particulièrement serrées",
-          "next": "p39-pale-ete"
-        }
-      ]
-    },
-    "p39-pale-ete": {
-      "page": 39,
-      "title": "Tricholomes pâles d'été-automne",
-      "question": "Quelle est l'odeur ?",
-      "choices": [
-        {
-          "label": "Odeur forte, de moisi ou de betterave",
-          "hint": "chapeau convexe ou plat, sans mamelon ; en forêt",
-          "species": "tricholoma-album"
-        },
-        {
-          "label": "Odeur nulle ou très faible",
-          "next": "p39-pale-inodore"
-        }
-      ]
-    },
-    "p39-pale-inodore": {
-      "page": 39,
-      "title": "Tricholomes pâles, odeur nulle ou très faible",
-      "question": "Quelle est la forme du chapeau ?",
-      "choices": [
-        {
-          "label": "Chapeau conique ou à mamelon net au centre ; dans les parcs près des arbres",
-          "hint": "tricholome faux-inocybe",
-          "species": "tricholoma-inocybeoides"
-        },
-        {
-          "label": "Chapeau convexe, charnu, à marge enroulée ; en forêt ; blanc pur tacheté de brun-rouge avec l'âge",
-          "hint": "collybie tachetée",
-          "species": "collybia-maculata"
-        },
-        {
-          "label": "Chapeau convexe, charnu, à marge enroulée ; en forêt ; jaune pâle se salissant de rose",
-          "hint": "tricholome âpre",
-          "species": "tricholoma-acerbum"
-        }
-      ]
-    },
-    "p39-gris": {
-      "page": 39,
-      "title": "Tricholomes : chapeau gris",
-      "question": "Le chapeau est-il feutré ou lisse ?",
-      "choices": [
-        {
-          "label": "Chapeau feutré, pelucheux, squamuleux",
-          "next": "p39-gris-feutre"
-        },
-        {
-          "label": "Chapeau lisse",
-          "next": "p39-gris-lisse"
-        }
-      ]
-    },
-    "p39-gris-feutre": {
-      "page": 39,
-      "title": "Tricholomes gris : chapeau feutré",
-      "question": "Quelle est la couleur des lames ?",
-      "choices": [
-        {
-          "label": "Lames grises ; pas d'odeur ; sous les pins",
-          "hint": "petit-gris",
-          "species": "tricholoma-terreum",
-          "img": "p40-1",
-          "note": "Le livret renvoie à (1) : dessin de la page 40."
-        },
-        {
-          "label": "Lames blanches, jaunissantes dans les endroits abîmés ; odeur farineuse",
-          "hint": "tricholome sculpté",
-          "species": "tricholoma-scalpturatum"
-        },
-        {
-          "label": "[En montagne] écailles larges et pied robuste",
-          "hint": "tricholome tigré : très toxique (cité entre crochets dans le livret)",
-          "species": "tricholoma-pardinum"
-        }
-      ]
-    },
-    "p39-gris-lisse": {
-      "page": 39,
-      "title": "Tricholomes gris : chapeau lisse",
-      "question": "Quelle est la forme du chapeau ?",
-      "choices": [
-        {
-          "label": "Chapeau conique ou à mamelon central net, fibrilleux (rayé) ; inodore",
-          "hint": "tricholome vergeté ; non comestible, amer",
-          "species": "tricholoma-virgatum"
-        },
-        {
-          "label": "Chapeau convexe ou plat, non fibrilleux",
-          "next": "p39-gris-convexe"
-        }
-      ]
-    },
-    "p39-gris-convexe": {
-      "page": 39,
-      "title": "Tricholomes gris : chapeau convexe ou plat",
-      "question": "Y a-t-il une odeur ?",
-      "choices": [
-        {
-          "label": "Odeur présente ; pied robuste, > 1 cm de diamètre",
-          "next": "p39-gris-odeur"
-        },
-        {
-          "label": "Odeur absente ; pied élancé, < 1 cm de diamètre",
-          "hint": "tricholome noir et blanc ; groupe difficile, nombreuses espèces semblables, comestibilité inconnue",
-          "species": "melanoleuca-melaleuca"
-        }
-      ]
-    },
-    "p39-gris-odeur": {
-      "page": 39,
-      "title": "Tricholomes gris à odeur et pied robuste",
-      "question": "Où pousse-t-il et quelle est l'odeur ?",
-      "choices": [
-        {
-          "label": "En forêt ; odeur de savonnette ; lames et pied blancs",
-          "hint": "tricholome à odeur de savon",
-          "species": "tricholoma-saponaceum"
-        },
-        {
-          "label": "Dans les prés ; odeur poivrée ; lames et pied gris comme le chapeau",
-          "hint": "argouane des prairies",
-          "species": "lepista-panaeola"
-        }
-      ]
-    },
-    "p39-brun": {
-      "page": 39,
-      "title": "Tricholomes : chapeau brun, beige, rose violacé",
-      "question": "Quelle est la couleur des lames et de la chair ?",
-      "choices": [
-        {
-          "label": "Lames et chair jaunes",
-          "next": "p39-brun-jaune"
-        },
-        {
-          "label": "Lames et chair blanches ou brun clair",
-          "next": "p39-brun-blanc"
-        }
-      ]
-    },
-    "p39-brun-jaune": {
-      "page": 39,
-      "title": "Tricholomes bruns à lames et chair jaunes",
-      "question": "Quel est l'aspect du chapeau ?",
-      "choices": [
-        {
-          "label": "Chapeau lisse, luisant, brun-jaune ; odeur farineuse",
-          "hint": "tricholome fauve",
-          "species": "tricholoma-fulvum"
-        },
-        {
-          "label": "Chapeau à mèches ou écailles rosées ou violacées sur fond jaune ; odeur acide",
-          "hint": "tricholome rutilant",
-          "species": "tricholomopsis-rutilans"
-        }
-      ]
-    },
-    "p39-brun-blanc": {
-      "page": 39,
-      "title": "Tricholomes bruns à lames et chair blanches ou brun clair",
-      "question": "Quelle est l'odeur ?",
-      "choices": [
-        {
-          "label": "Forte odeur de farine, de concombre ; grosse espèce massive, en troupes sous peupliers",
-          "hint": "tricholome des peupliers",
-          "species": "tricholoma-populinum"
-        },
-        {
-          "label": "Odeur nulle ou très faible ; espèces moins robustes, forestières",
-          "next": "p39-brun-forestier"
-        }
-      ]
-    },
-    "p39-brun-forestier": {
-      "page": 39,
-      "title": "Tricholomes bruns forestiers, odeur nulle ou faible",
-      "question": "Quel est l'aspect du chapeau ?",
-      "choices": [
-        {
-          "label": "Chapeau lisse, luisant ou visqueux",
-          "hint": "tricholome brûlé",
-          "species": "tricholoma-ustale"
-        },
-        {
-          "label": "Chapeau sec, +/- écailleux ou laineux",
-          "hint": "tricholome couleur de vache",
-          "species": "tricholoma-vaccinum"
-        }
-      ]
-    },
-    "p40-jaune-vert": {
-      "page": 40,
-      "title": "Tricholomes : chapeau jaune, vert, gris à nuances verdâtres",
-      "question": "Quelle est l'odeur et l'aspect du chapeau ?",
-      "choices": [
-        {
-          "label": "Odeur forte, désagréable (gaz, soufre) ; lames jaunes épaisses et espacées",
-          "hint": "tricholome soufré",
-          "species": "tricholoma-sulfureum",
-          "img": "p40-2"
-        },
-        {
-          "label": "Odeur de farine ou de concombre, souvent légère",
-          "next": "p40-farine"
-        },
-        {
-          "label": "Chapeau fibrilleux, verdâtre ; lames blanches à reflets jaunes",
-          "hint": "tricholome jaunet",
-          "species": "tricholoma-sejunctum",
-          "img": "p40-3",
-          "note": "Dans le livret, cette ligne est au même niveau que les deux premiers choix, pas sous « odeur de farine »."
-        }
-      ]
-    },
-    "p40-farine": {
-      "page": 40,
-      "title": "Tricholomes jaunes à odeur de farine ou de concombre",
-      "question": "Quelle est la chair et où pousse-t-il ?",
-      "choices": [
-        {
-          "label": "Chapeau non fibrilleux, jaune citrin à jaune doré, lames jaunes ; chair blanche, sous pins (littoral)",
-          "hint": "tricholome équestre : MORTEL",
-          "species": "tricholoma-auratum",
-          "note": "Le livret cite (2) ici, mais le dessin p40-2 représente en réalité T. sulfureum (voir Doutes)."
-        },
-        {
-          "label": "Chapeau non fibrilleux, jaune citrin à jaune doré, lames jaunes ; chair jaune, sous peupliers",
-          "hint": "tricholome équestre des peupliers",
-          "species": "tricholoma-frondosae"
-        }
-      ]
+    {
+     "label": "Chapeau sec",
+     "next": "p37-sec"
     }
+   ]
   },
-  "species": {
-    "cortinarius-elatior": {
-      "latin": "Cortinarius elatior",
-      "fr": "",
-      "group": "Cortinaires",
-      "edibility": "inconnu",
-      "note": "Pied bleuté, odeur de miel à la base, chapeau ridé-cannelé, pied visqueux. Aucun cortinaire n'est comestible (livret).",
-      "images": [
-        "p37-1"
-      ],
-      "pages": [
-        37
-      ]
+  "p37-visqueux": {
+   "page": 37,
+   "title": "Cortinaires à chapeau visqueux",
+   "question": "Le pied est-il visqueux ou sec ?",
+   "choices": [
+    {
+     "label": "Pied visqueux (sur spécimens très frais)",
+     "hint": "sous-genre Mixacium",
+     "next": "p37-mixacium"
     },
-    "cortinarius-trivialis": {
-      "latin": "Cortinarius trivialis",
-      "fr": "",
-      "group": "Cortinaires",
-      "edibility": "inconnu",
-      "note": "Pied à guirlandes visqueuses en relief, chapeau brun-rouge. Aucun cortinaire n'est comestible (livret).",
-      "images": [
-        "p37-2"
-      ],
-      "pages": [
-        37
-      ]
-    },
-    "cortinarius-delibutus": {
-      "latin": "Cortinarius delibutus",
-      "fr": "",
-      "group": "Cortinaires",
-      "edibility": "inconnu",
-      "note": "Pied à guirlandes jaunes sans relief, chapeau jaune. Aucun cortinaire n'est comestible (livret).",
-      "pages": [
-        37
-      ]
-    },
-    "cortinarius-salor": {
-      "latin": "Cortinarius salor",
-      "fr": "",
-      "group": "Cortinaires",
-      "edibility": "inconnu",
-      "note": "Pied et chapeau bleus. Aucun cortinaire n'est comestible (livret).",
-      "pages": [
-        37
-      ]
-    },
-    "cortinarius-multiformis": {
-      "latin": "Cortinarius multiformis",
-      "fr": "",
-      "group": "Cortinaires",
-      "edibility": "inconnu",
-      "note": "Pied bulbeux-marginé, lames beige pâle, chapeau jaune à orangé. Aucun cortinaire n'est comestible (livret).",
-      "images": [
-        "p37-3"
-      ],
-      "pages": [
-        37
-      ]
-    },
-    "cortinarius-calochrous": {
-      "latin": "Cortinarius calochrous",
-      "fr": "",
-      "group": "Cortinaires",
-      "edibility": "inconnu",
-      "note": "Pied bulbeux-marginé, lames bleutées, chapeau jaune. Aucun cortinaire n'est comestible (livret).",
-      "images": [
-        "p37-3"
-      ],
-      "pages": [
-        37
-      ]
-    },
-    "cortinarius-caerulescens": {
-      "latin": "Cortinarius caerulescens",
-      "fr": "",
-      "group": "Cortinaires",
-      "edibility": "inconnu",
-      "note": "Pied bulbeux-marginé, lames et chapeau bleutés. Aucun cortinaire n'est comestible (livret).",
-      "images": [
-        "p37-3"
-      ],
-      "pages": [
-        37
-      ]
-    },
-    "cortinarius-splendens": {
-      "latin": "Cortinarius splendens",
-      "fr": "",
-      "group": "Cortinaires",
-      "edibility": "inconnu",
-      "note": "Pied bulbeux-marginé, lames, chapeau et chair jaune vif. Aucun cortinaire n'est comestible (livret).",
-      "images": [
-        "p37-3"
-      ],
-      "pages": [
-        37
-      ]
-    },
-    "cortinarius-rufoolivaceus": {
-      "latin": "Cortinarius rufoolivaceus",
-      "fr": "",
-      "group": "Cortinaires",
-      "edibility": "inconnu",
-      "note": "Pied bulbeux-marginé, lames verdâtres, chapeau cuivré. Aucun cortinaire n'est comestible (livret).",
-      "images": [
-        "p37-3"
-      ],
-      "pages": [
-        37
-      ]
-    },
-    "cortinarius-infractus": {
-      "latin": "Cortinarius infractus",
-      "fr": "",
-      "group": "Cortinaires",
-      "edibility": "inconnu",
-      "note": "Pied cylindrique ou clavé, couleurs ternes uniformes (gris verdâtre), saveur amère. Aucun cortinaire n'est comestible (livret).",
-      "pages": [
-        37
-      ]
-    },
-    "cortinarius-largus": {
-      "latin": "Cortinarius largus",
-      "fr": "",
-      "group": "Cortinaires",
-      "edibility": "inconnu",
-      "note": "Pied cylindrique ou clavé, couleurs lilacines (chapeau et pied). Aucun cortinaire n'est comestible (livret).",
-      "pages": [
-        37
-      ]
-    },
-    "cortinarius-purpurascens": {
-      "latin": "Cortinarius purpurascens",
-      "fr": "",
-      "group": "Cortinaires",
-      "edibility": "inconnu",
-      "note": "Pied cylindrique ou clavé, lames lilacines devenant violettes au froissement, chapeau brun. Aucun cortinaire n'est comestible (livret).",
-      "pages": [
-        37
-      ]
-    },
-    "cortinarius-triumphans": {
-      "latin": "Cortinarius triumphans",
-      "fr": "",
-      "group": "Cortinaires",
-      "edibility": "inconnu",
-      "note": "Pied cylindrique ou clavé, couleurs jaunes, bandes jaunes sur le pied. Aucun cortinaire n'est comestible (livret).",
-      "pages": [
-        37
-      ]
-    },
-    "cortinarius-violaceus": {
-      "latin": "Cortinarius violaceus",
-      "fr": "",
-      "group": "Cortinaires",
-      "edibility": "inconnu",
-      "note": "Chapeau, lames et pied d'un bleu-violet profond, odeur d'encre. Aucun cortinaire n'est comestible (livret).",
-      "pages": [
-        37
-      ]
-    },
-    "cortinarius-venetus": {
-      "latin": "Cortinarius venetus",
-      "fr": "",
-      "group": "Cortinaires",
-      "edibility": "inconnu",
-      "note": "Chapeau jaune-vert (sous-genre Leprocybe). Aucun cortinaire n'est comestible (livret).",
-      "pages": [
-        37
-      ]
-    },
-    "cortinarius-bolaris": {
-      "latin": "Cortinarius bolaris",
-      "fr": "Cortinaire briqueté",
-      "group": "Cortinaires",
-      "edibility": "inconnu",
-      "note": "Chapeau à écailles rouge brique sur fond jaune (sous-genre Leprocybe). Aucun cortinaire n'est comestible (livret).",
-      "pages": [
-        37
-      ]
-    },
-    "cortinarius-orellanus": {
-      "latin": "Cortinarius orellanus",
-      "fr": "Cortinaire couleur de rocou",
-      "group": "Cortinaires",
-      "edibility": "mortel",
-      "note": "Groupe de Cortinarius orellanus : chapeau orangé vif, fauve rougeâtre, lames particulièrement espacées. MORTEL. Aucun cortinaire n'est comestible (livret).",
-      "images": [
-        "p37-4"
-      ],
-      "pages": [
-        37
-      ]
-    },
-    "cortinarius-paleaceus": {
-      "latin": "Cortinarius paleaceus",
-      "fr": "",
-      "group": "Cortinaires",
-      "edibility": "inconnu",
-      "note": "Chapeau pointu, gris, odeur forte de feuilles de Pelargonium (sous-genre Telamonia). Aucun cortinaire n'est comestible (livret).",
-      "pages": [
-        37
-      ]
-    },
-    "cortinarius-pholideus": {
-      "latin": "Cortinarius pholideus",
-      "fr": "",
-      "group": "Cortinaires",
-      "edibility": "inconnu",
-      "note": "Chapeau mamelonné mais non aigu, brun, odeur nulle (sous-genre Telamonia). Aucun cortinaire n'est comestible (livret).",
-      "pages": [
-        37
-      ]
-    },
-    "cortinarius-cinnamomeoluteus": {
-      "latin": "Cortinarius cinnamomeoluteus",
-      "fr": "",
-      "group": "Cortinaires",
-      "edibility": "toxique",
-      "note": "Lames, chapeau et pied jaunes (sous-genre Dermocybe). Toxique. Aucun cortinaire n'est comestible (livret).",
-      "pages": [
-        38
-      ]
-    },
-    "cortinarius-cinnamomeus": {
-      "latin": "Cortinarius cinnamomeus",
-      "fr": "",
-      "group": "Cortinaires",
-      "edibility": "toxique",
-      "note": "Lames orangé-rouillé, pied et chapeau jaunes (sous-genre Dermocybe). Toxique. Aucun cortinaire n'est comestible (livret).",
-      "pages": [
-        38
-      ]
-    },
-    "cortinarius-semisanguineus": {
-      "latin": "Cortinarius semisanguineus",
-      "fr": "",
-      "group": "Cortinaires",
-      "edibility": "toxique",
-      "note": "Lames rouge pourpre, pied et chapeau jaunes (sous-genre Dermocybe). Toxique. Aucun cortinaire n'est comestible (livret).",
-      "pages": [
-        38
-      ]
-    },
-    "cortinarius-uliginosus": {
-      "latin": "Cortinarius uliginosus",
-      "fr": "",
-      "group": "Cortinaires",
-      "edibility": "toxique",
-      "note": "Lames jaunes, chapeau et pied rouge-orangé vif (sous-genre Dermocybe). Toxique. Aucun cortinaire n'est comestible (livret).",
-      "pages": [
-        38
-      ]
-    },
-    "cortinarius-sanguineus": {
-      "latin": "Cortinarius sanguineus",
-      "fr": "",
-      "group": "Cortinaires",
-      "edibility": "toxique",
-      "note": "Lames, pied et chapeau rouges (sous-genre Dermocybe). Toxique. Aucun cortinaire n'est comestible (livret).",
-      "pages": [
-        38
-      ]
-    },
-    "cortinarius-torvus": {
-      "latin": "Cortinarius torvus",
-      "fr": "",
-      "group": "Cortinaires",
-      "edibility": "inconnu",
-      "note": "Pied à chaussette terminée par un anneau, chapeau gris, pied bleuté au sommet. Aucun cortinaire n'est comestible (livret).",
-      "images": [
-        "p38-4"
-      ],
-      "pages": [
-        38
-      ]
-    },
-    "cortinarius-armillatus": {
-      "latin": "Cortinarius armillatus",
-      "fr": "",
-      "group": "Cortinaires",
-      "edibility": "inconnu",
-      "note": "Bracelets rouges étagés à la base du pied, chapeau roux. Le livret cite (2) mais aucun dessin (2) sur la page. Aucun cortinaire n'est comestible (livret).",
-      "pages": [
-        38
-      ]
-    },
-    "cortinarius-hinnuleus": {
-      "latin": "Cortinarius hinnuleus",
-      "fr": "",
-      "group": "Cortinaires",
-      "edibility": "inconnu",
-      "note": "Anneau net sous la cortine, chapeau jaune-fauve, odeur forte de terre moisie. Aucun cortinaire n'est comestible (livret).",
-      "pages": [
-        38
-      ]
-    },
-    "cortinarius-alboviolaceus": {
-      "latin": "Cortinarius alboviolaceus",
-      "fr": "",
-      "group": "Cortinaires",
-      "edibility": "inconnu",
-      "note": "Espèce robuste, chapeau bleuté lilas. Aucun cortinaire n'est comestible (livret).",
-      "images": [
-        "p38-5"
-      ],
-      "pages": [
-        38
-      ]
-    },
-    "cortinarius-anomalus": {
-      "latin": "Cortinarius anomalus",
-      "fr": "",
-      "group": "Cortinaires",
-      "edibility": "inconnu",
-      "note": "Espèce robuste, chapeau brun ou beige sans bleu, pied bleuté au sommet. Aucun cortinaire n'est comestible (livret).",
-      "pages": [
-        38
-      ]
-    },
-    "cortinarius-saturninus": {
-      "latin": "Cortinarius saturninus",
-      "fr": "",
-      "group": "Cortinaires",
-      "edibility": "inconnu",
-      "note": "Espèce robuste, chapeau brun-rouge hygrophane, pied sans bleu. Aucun cortinaire n'est comestible (livret).",
-      "pages": [
-        38
-      ]
-    },
-    "cortinarius-salicis": {
-      "latin": "Cortinarius salicis",
-      "fr": "",
-      "group": "Cortinaires",
-      "edibility": "inconnu",
-      "note": "Espèce robuste, chapeau brun-gris non hygrophane, pied sans bleu. Aucun cortinaire n'est comestible (livret).",
-      "pages": [
-        38
-      ]
-    },
-    "cortinarius-decipiens": {
-      "latin": "Cortinarius decipiens",
-      "fr": "",
-      "group": "Cortinaires",
-      "edibility": "inconnu",
-      "note": "Espèce grêle, chapeau gris bleuté non strié, pied bleuté au sommet. Aucun cortinaire n'est comestible (livret).",
-      "pages": [
-        38
-      ]
-    },
-    "cortinarius-obtusus": {
-      "latin": "Cortinarius obtusus",
-      "fr": "",
-      "group": "Cortinaires",
-      "edibility": "inconnu",
-      "note": "Espèce grêle, chapeau jaune à orangé très strié, odeur d'iode. Aucun cortinaire n'est comestible (livret).",
-      "pages": [
-        38
-      ]
-    },
-    "cortinarius-duracinus": {
-      "latin": "Cortinarius duracinus",
-      "fr": "",
-      "group": "Cortinaires",
-      "edibility": "inconnu",
-      "note": "Espèce grêle, chapeau ocre clair à blanchâtre, pied blanc lisse terminé en pointe, dur. Aucun cortinaire n'est comestible (livret).",
-      "pages": [
-        38
-      ]
-    },
-    "calocybe-gambosa": {
-      "latin": "Calocybe gambosa",
-      "fr": "Tricholome de la Saint-Georges, mousseron vrai",
-      "group": "Tricholomes",
-      "edibility": "comestible",
-      "note": "Au printemps, dans les pelouses ; odeur de concombre, lames très étroites et serrées. Comestible réputé.",
-      "pages": [
-        39
-      ]
-    },
-    "tricholoma-album": {
-      "latin": "Tricholoma album",
-      "fr": "Tricholome blanc",
-      "group": "Tricholomes",
-      "edibility": "inconnu",
-      "note": "Été-automne, en forêt ; odeur forte de moisi ou de betterave ; chapeau convexe ou plat, sans mamelon.",
-      "pages": [
-        39
-      ]
-    },
-    "tricholoma-inocybeoides": {
-      "latin": "Tricholoma inocybeoides",
-      "fr": "Tricholome faux-inocybe",
-      "group": "Tricholomes",
-      "edibility": "comestible",
-      "note": "Dans les parcs près des arbres ; chapeau conique ou à mamelon net, odeur nulle ou très faible.",
-      "pages": [
-        39
-      ]
-    },
-    "collybia-maculata": {
-      "latin": "Collybia maculata",
-      "fr": "Collybie tachetée",
-      "group": "Tricholomes",
-      "edibility": "inconnu",
-      "note": "En forêt ; chapeau convexe charnu, marge enroulée, blanc pur tacheté de brun-rouge avec l'âge.",
-      "pages": [
-        39
-      ]
-    },
-    "tricholoma-acerbum": {
-      "latin": "Tricholoma acerbum",
-      "fr": "Tricholome âpre",
-      "group": "Tricholomes",
-      "edibility": "inconnu",
-      "note": "En forêt ; chapeau convexe charnu, marge enroulée, jaune pâle se salissant de rose.",
-      "pages": [
-        39
-      ]
-    },
-    "tricholoma-terreum": {
-      "latin": "Tricholoma terreum",
-      "fr": "Petit-gris",
-      "group": "Tricholomes",
-      "edibility": "comestible",
-      "note": "Chapeau feutré, pelucheux, squamuleux ; lames grises, pas d'odeur ; sous les pins.",
-      "images": [
-        "p40-1"
-      ],
-      "pages": [
-        39
-      ]
-    },
-    "tricholoma-scalpturatum": {
-      "latin": "Tricholoma scalpturatum",
-      "fr": "Tricholome sculpté",
-      "group": "Tricholomes",
-      "edibility": "comestible",
-      "note": "Chapeau feutré, lames blanches jaunissantes dans les endroits abîmés, odeur farineuse.",
-      "confusions": [
-        "tricholoma-pardinum"
-      ],
-      "pages": [
-        39
-      ]
-    },
-    "tricholoma-pardinum": {
-      "latin": "Tricholoma pardinum",
-      "fr": "Tricholome tigré",
-      "group": "Tricholomes",
-      "edibility": "toxique",
-      "note": "En montagne ; écailles larges, pied robuste. Très toxique (cité entre crochets).",
-      "confusions": [
-        "tricholoma-scalpturatum"
-      ],
-      "pages": [
-        39
-      ]
-    },
-    "tricholoma-virgatum": {
-      "latin": "Tricholoma virgatum",
-      "fr": "Tricholome vergeté",
-      "group": "Tricholomes",
-      "edibility": "inconnu",
-      "note": "Chapeau conique ou à mamelon central net, fibrilleux (rayé), inodore. Non comestible, amer (livret).",
-      "pages": [
-        39
-      ]
-    },
-    "tricholoma-saponaceum": {
-      "latin": "Tricholoma saponaceum",
-      "fr": "Tricholome à odeur de savon",
-      "group": "Tricholomes",
-      "edibility": "inconnu",
-      "note": "En forêt ; odeur de savonnette, lames et pied blancs, pied robuste > 1 cm.",
-      "pages": [
-        39
-      ]
-    },
-    "lepista-panaeola": {
-      "latin": "Lepista panaeola",
-      "fr": "Argouane des prairies",
-      "group": "Tricholomes",
-      "edibility": "comestible",
-      "note": "Dans les prés ; odeur poivrée, lames et pied gris comme le chapeau, pied robuste > 1 cm.",
-      "pages": [
-        39
-      ]
-    },
-    "melanoleuca-melaleuca": {
-      "latin": "Melanoleuca melaleuca",
-      "fr": "Tricholome noir et blanc",
-      "group": "Tricholomes",
-      "edibility": "inconnu",
-      "note": "Odeur absente, pied élancé < 1 cm. Groupe difficile, nombreuses espèces semblables, comestibilité inconnue (livret).",
-      "pages": [
-        39
-      ]
-    },
-    "tricholoma-fulvum": {
-      "latin": "Tricholoma fulvum",
-      "fr": "Tricholome fauve",
-      "group": "Tricholomes",
-      "edibility": "inconnu",
-      "note": "Lames et chair jaunes ; chapeau lisse, luisant, brun-jaune ; odeur farineuse.",
-      "pages": [
-        39
-      ]
-    },
-    "tricholomopsis-rutilans": {
-      "latin": "Tricholomopsis rutilans",
-      "fr": "Tricholome rutilant",
-      "group": "Tricholomes",
-      "edibility": "inconnu",
-      "note": "Lames et chair jaunes ; chapeau à mèches ou écailles rosées ou violacées sur fond jaune ; odeur acide.",
-      "pages": [
-        39
-      ]
-    },
-    "tricholoma-populinum": {
-      "latin": "Tricholoma populinum",
-      "fr": "Tricholome des peupliers",
-      "group": "Tricholomes",
-      "edibility": "inconnu",
-      "note": "Grosse espèce massive, en troupes sous peupliers ; forte odeur de farine, de concombre.",
-      "pages": [
-        39
-      ]
-    },
-    "tricholoma-ustale": {
-      "latin": "Tricholoma ustale",
-      "fr": "Tricholome brûlé",
-      "group": "Tricholomes",
-      "edibility": "inconnu",
-      "note": "Odeur nulle ou très faible ; chapeau lisse, luisant ou visqueux ; forestier.",
-      "pages": [
-        39
-      ]
-    },
-    "tricholoma-vaccinum": {
-      "latin": "Tricholoma vaccinum",
-      "fr": "Tricholome couleur de vache",
-      "group": "Tricholomes",
-      "edibility": "inconnu",
-      "note": "Odeur nulle ou très faible ; chapeau sec, +/- écailleux ou laineux ; forestier.",
-      "pages": [
-        39
-      ]
-    },
-    "tricholoma-sulfureum": {
-      "latin": "Tricholoma sulfureum",
-      "fr": "Tricholome soufré",
-      "group": "Tricholomes",
-      "edibility": "inconnu",
-      "note": "Odeur forte désagréable (gaz, soufre) ; lames jaunes épaisses et espacées.",
-      "images": [
-        "p40-2"
-      ],
-      "pages": [
-        40
-      ]
-    },
-    "tricholoma-auratum": {
-      "latin": "Tricholoma auratum",
-      "fr": "Tricholome équestre",
-      "group": "Tricholomes",
-      "edibility": "mortel",
-      "note": "Chapeau jaune citrin à jaune doré, lames jaunes, chair blanche, sous pins (littoral). MORTEL (livret).",
-      "confusions": [
-        "tricholoma-frondosae",
-        "tricholoma-sulfureum"
-      ],
-      "pages": [
-        40
-      ]
-    },
-    "tricholoma-frondosae": {
-      "latin": "Tricholoma frondosae",
-      "fr": "Tricholome équestre des peupliers",
-      "group": "Tricholomes",
-      "edibility": "inconnu",
-      "note": "Chapeau jaune citrin à jaune doré, lames jaunes, chair jaune, sous peupliers.",
-      "confusions": [
-        "tricholoma-auratum"
-      ],
-      "pages": [
-        40
-      ]
-    },
-    "tricholoma-sejunctum": {
-      "latin": "Tricholoma sejunctum",
-      "fr": "Tricholome jaunet",
-      "group": "Tricholomes",
-      "edibility": "inconnu",
-      "note": "Chapeau fibrilleux verdâtre, lames blanches à reflets jaunes.",
-      "images": [
-        "p40-3"
-      ],
-      "pages": [
-        40
-      ]
+    {
+     "label": "Pied sec",
+     "hint": "sous-genre Phlegmacium",
+     "next": "p37-phlegmacium"
     }
+   ]
   },
-  "figures": [
+  "p37-mixacium": {
+   "page": 37,
+   "title": "Cortinaires : chapeau et pied visqueux (Mixacium)",
+   "question": "Quelles sont les couleurs et l'ornementation du pied ?",
+   "choices": [
     {
-      "name": "p37-1",
-      "page": 37,
-      "box": [
-        0.2,
-        0.24,
-        0.37,
-        0.345
-      ],
-      "species": "cortinarius-elatior",
-      "caption": "Cortinarius elatior"
+     "label": "Pied bleuté, odeur de miel à la base",
+     "hint": "chapeau ridé-cannelé",
+     "species": "cortinarius-elatior",
+     "img": "p37-1"
     },
     {
-      "name": "p37-2",
-      "page": 37,
-      "box": [
-        0.61,
-        0.22,
-        0.77,
-        0.355
-      ],
-      "species": "cortinarius-trivialis",
-      "caption": "Cortinarius trivialis"
+     "label": "Pied à guirlandes visqueuses en relief",
+     "hint": "chapeau brun-rouge",
+     "species": "cortinarius-trivialis",
+     "img": "p37-2"
     },
     {
-      "name": "p37-3",
-      "page": 37,
-      "box": [
-        0.77,
-        0.36,
-        0.94,
-        0.47
-      ],
-      "caption": "Pied bulbeux-marginé à la base (Phlegmacium)"
+     "label": "Pied à guirlandes jaunes sans relief",
+     "hint": "chapeau jaune",
+     "species": "cortinarius-delibutus"
     },
     {
-      "name": "p37-4",
-      "page": 37,
-      "box": [
-        0.71,
-        0.83,
-        0.87,
-        0.96
-      ],
-      "species": "cortinarius-orellanus",
-      "caption": "Groupe de Cortinarius orellanus"
-    },
-    {
-      "name": "p38-4",
-      "page": 38,
-      "box": [
-        0.19,
-        0.6,
-        0.43,
-        0.765
-      ],
-      "species": "cortinarius-torvus",
-      "caption": "Cortinarius torvus"
-    },
-    {
-      "name": "p38-5",
-      "page": 38,
-      "box": [
-        0.66,
-        0.615,
-        0.86,
-        0.765
-      ],
-      "species": "cortinarius-alboviolaceus",
-      "caption": "Cortinarius alboviolaceus"
-    },
-    {
-      "name": "p40-1",
-      "page": 40,
-      "box": [
-        0.07,
-        0.31,
-        0.345,
-        0.455
-      ],
-      "species": "tricholoma-terreum",
-      "caption": "Tricholoma terreum : chapeau gris méchuleux, lamelles grises, pied blanc"
-    },
-    {
-      "name": "p40-2",
-      "page": 40,
-      "box": [
-        0.385,
-        0.305,
-        0.62,
-        0.45
-      ],
-      "species": "tricholoma-sulfureum",
-      "caption": "Dessin (2) : légende décrivant Tricholoma sulfureum (chapeau, lamelles et pied jaune soufre, odeur de gaz)"
-    },
-    {
-      "name": "p40-3",
-      "page": 40,
-      "box": [
-        0.7,
-        0.305,
-        0.94,
-        0.455
-      ],
-      "species": "tricholoma-sejunctum",
-      "caption": "Tricholoma sejunctum"
+     "label": "Pied et chapeau bleus",
+     "species": "cortinarius-salor"
     }
-  ]
+   ]
+  },
+  "p37-phlegmacium": {
+   "page": 37,
+   "title": "Cortinaires : chapeau visqueux, pied sec (Phlegmacium)",
+   "question": "Quelle est la forme de la base du pied ?",
+   "choices": [
+    {
+     "label": "Pied bulbeux-marginé à la base",
+     "next": "p37-bulbeux",
+     "img": "p37-3"
+    },
+    {
+     "label": "Pied cylindrique ou clavé",
+     "next": "p37-cylindrique"
+    }
+   ]
+  },
+  "p37-bulbeux": {
+   "page": 37,
+   "title": "Phlegmacium à pied bulbeux-marginé",
+   "question": "Quelles sont les couleurs des lames et du chapeau ?",
+   "intro": "NB : nombreuses autres espèces à couleurs différentes.",
+   "choices": [
+    {
+     "label": "Lames beige pâle, chapeau jaune à orangé",
+     "species": "cortinarius-multiformis",
+     "img": "p37-3"
+    },
+    {
+     "label": "Lames bleutées, chapeau jaune",
+     "species": "cortinarius-calochrous",
+     "img": "p37-3"
+    },
+    {
+     "label": "Lames et chapeau bleutés",
+     "species": "cortinarius-caerulescens",
+     "img": "p37-3"
+    },
+    {
+     "label": "Lames, chapeau et chair jaune vif",
+     "species": "cortinarius-splendens",
+     "img": "p37-3"
+    },
+    {
+     "label": "Lames verdâtres, chapeau cuivré",
+     "species": "cortinarius-rufoolivaceus",
+     "img": "p37-3"
+    }
+   ]
+  },
+  "p37-cylindrique": {
+   "page": 37,
+   "title": "Phlegmacium à pied cylindrique ou clavé",
+   "question": "Quelles sont les couleurs dominantes ?",
+   "choices": [
+    {
+     "label": "Couleurs ternes uniformes (gris verdâtre +/- sombre), saveur amère",
+     "species": "cortinarius-infractus"
+    },
+    {
+     "label": "Couleurs lilacines (chapeau et pied)",
+     "species": "cortinarius-largus"
+    },
+    {
+     "label": "Lames lilacines devenant violettes au froissement, chapeau brun",
+     "species": "cortinarius-purpurascens"
+    },
+    {
+     "label": "Couleurs jaunes, bandes jaunes sur le pied",
+     "species": "cortinarius-triumphans"
+    }
+   ]
+  },
+  "p37-sec": {
+   "page": 37,
+   "title": "Cortinaires à chapeau sec",
+   "question": "La surface du chapeau est-elle lisse ?",
+   "choices": [
+    {
+     "label": "Chapeau non lisse : velouté, méchuleux, squamuleux",
+     "next": "p37-non-lisse"
+    },
+    {
+     "label": "Chapeau lisse",
+     "next": "p38-lisse"
+    }
+   ]
+  },
+  "p37-non-lisse": {
+   "page": 37,
+   "title": "Cortinaires : chapeau sec non lisse",
+   "question": "Quelles sont les couleurs ?",
+   "choices": [
+    {
+     "label": "Chapeau, lames et pied d'un bleu-violet profond",
+     "hint": "odeur d'encre",
+     "species": "cortinarius-violaceus"
+    },
+    {
+     "label": "Couleurs vives : jaune, fauve, rougeâtres dominantes",
+     "hint": "sous-genre Leprocybe",
+     "next": "p37-leprocybe"
+    },
+    {
+     "label": "Couleurs plus ternes, souvent bleutées au sommet du pied",
+     "hint": "sous-genre Telamonia",
+     "next": "p37-telamonia"
+    }
+   ]
+  },
+  "p37-leprocybe": {
+   "page": 37,
+   "title": "Leprocybe : couleurs vives",
+   "question": "Quelle est la couleur et l'aspect du chapeau ?",
+   "choices": [
+    {
+     "label": "Chapeau jaune-vert",
+     "species": "cortinarius-venetus"
+    },
+    {
+     "label": "Chapeau à écailles rouge brique sur fond jaune",
+     "hint": "cortinaire briqueté",
+     "species": "cortinarius-bolaris"
+    },
+    {
+     "label": "Chapeau orangé vif, fauve rougeâtre ; lames particulièrement espacées",
+     "hint": "groupe de Cortinarius orellanus (cortinaire couleur de rocou) : MORTEL",
+     "species": "cortinarius-orellanus",
+     "img": "p37-4"
+    }
+   ]
+  },
+  "p37-telamonia": {
+   "page": 37,
+   "title": "Telamonia : couleurs plus ternes",
+   "question": "Quelle est la forme du chapeau et l'odeur ?",
+   "choices": [
+    {
+     "label": "Chapeau pointu, gris ; odeur forte de feuilles de Pelargonium",
+     "species": "cortinarius-paleaceus"
+    },
+    {
+     "label": "Chapeau mamelonné mais non aigu, brun ; odeur nulle",
+     "species": "cortinarius-pholideus"
+    },
+    {
+     "label": "Autres caractères (spécimens défraîchis)",
+     "next": "p38-autres",
+     "note": "Le livret dit « voir groupe suivant (spécimens défraîchis) » : renvoi vers les cortinaires à chapeau lisse, autres couleurs (ocre, brun, bleuté), page 38."
+    }
+   ]
+  },
+  "p38-lisse": {
+   "page": 38,
+   "title": "Cortinaires : chapeau lisse",
+   "question": "Les couleurs sont-elles vives ?",
+   "choices": [
+    {
+     "label": "Couleurs vives : jaune, orangé, rouge dominantes ; espèces grêles",
+     "hint": "sous-genre Dermocybe",
+     "next": "p38-dermocybe"
+    },
+    {
+     "label": "Autres couleurs (ocre, brun, bleuté...)",
+     "next": "p38-autres"
+    }
+   ]
+  },
+  "p38-dermocybe": {
+   "page": 38,
+   "title": "Dermocybe : couleurs vives, espèces grêles",
+   "question": "Quelles sont les couleurs des lames, du chapeau et du pied ?",
+   "intro": "Toutes ces espèces portent le marqueur toxique dans le livret.",
+   "choices": [
+    {
+     "label": "Lames, chapeau et pied jaunes",
+     "species": "cortinarius-cinnamomeoluteus"
+    },
+    {
+     "label": "Lames orangé-rouillé, pied et chapeau jaunes",
+     "species": "cortinarius-cinnamomeus"
+    },
+    {
+     "label": "Lames rouge pourpre, pied et chapeau jaunes",
+     "species": "cortinarius-semisanguineus"
+    },
+    {
+     "label": "Lames jaunes, chapeau et pied rouge-orangé vif",
+     "species": "cortinarius-uliginosus"
+    },
+    {
+     "label": "Lames, pied et chapeau rouges",
+     "species": "cortinarius-sanguineus"
+    }
+   ]
+  },
+  "p38-autres": {
+   "page": 38,
+   "title": "Cortinaires lisses : autres couleurs",
+   "question": "Y a-t-il un voile remarquable en plus de la cortine ?",
+   "choices": [
+    {
+     "label": "Cortine doublée d'un autre voile remarquable (armille ou anneau)",
+     "next": "p38-voile"
+    },
+    {
+     "label": "Cortine simple, parfois peu visible ; pied uniforme ou zébré de voile sans relief",
+     "next": "p38-simple"
+    }
+   ]
+  },
+  "p38-voile": {
+   "page": 38,
+   "title": "Cortine doublée d'une armille ou d'un anneau",
+   "question": "Quel est ce voile ?",
+   "choices": [
+    {
+     "label": "Pied à \"chaussette\" terminée par un anneau",
+     "hint": "chapeau gris, pied bleuté au sommet",
+     "species": "cortinarius-torvus",
+     "img": "p38-4"
+    },
+    {
+     "label": "Bracelets rouges étagés à la base du pied",
+     "hint": "chapeau roux",
+     "species": "cortinarius-armillatus",
+     "note": "Le livret renvoie au dessin (2), absent de cette page."
+    },
+    {
+     "label": "Un anneau net sous la cortine",
+     "hint": "chapeau jaune-fauve, odeur forte de terre moisie",
+     "species": "cortinarius-hinnuleus"
+    }
+   ]
+  },
+  "p38-simple": {
+   "page": 38,
+   "title": "Cortine simple",
+   "question": "Quel est le diamètre du pied ?",
+   "choices": [
+    {
+     "label": "Espèces assez robustes, pied > 8 mm de diamètre, avec zones de voile nettes",
+     "next": "p38-robustes"
+    },
+    {
+     "label": "Espèces grêles, élancées, pied < 5 (8) mm de diamètre",
+     "next": "p38-greles"
+    }
+   ]
+  },
+  "p38-robustes": {
+   "page": 38,
+   "title": "Cortinaires robustes à cortine simple",
+   "question": "Quelles sont les couleurs du chapeau et du pied ?",
+   "choices": [
+    {
+     "label": "Chapeau bleuté, lilas",
+     "species": "cortinarius-alboviolaceus",
+     "img": "p38-5"
+    },
+    {
+     "label": "Chapeau brun ou beige sans trace de bleu ; pied bleuté au sommet",
+     "species": "cortinarius-anomalus"
+    },
+    {
+     "label": "Chapeau brun-rouge, hygrophane ; pied sans trace de bleu",
+     "species": "cortinarius-saturninus"
+    },
+    {
+     "label": "Chapeau brun-gris, non hygrophane ; pied sans trace de bleu",
+     "species": "cortinarius-salicis"
+    }
+   ]
+  },
+  "p38-greles": {
+   "page": 38,
+   "title": "Cortinaires grêles à cortine simple",
+   "question": "Quelles sont les couleurs et l'odeur ?",
+   "choices": [
+    {
+     "label": "Chapeau gris bleuté, non strié ; pied bleuté au sommet",
+     "species": "cortinarius-decipiens"
+    },
+    {
+     "label": "Chapeau jaune à orangé, très strié ; odeur d'iode",
+     "species": "cortinarius-obtusus"
+    },
+    {
+     "label": "Chapeau ocre clair à blanchâtre ; pied blanc lisse, terminé en pointe, dur",
+     "species": "cortinarius-duracinus"
+    }
+   ]
+  },
+  "p39": {
+   "page": 39,
+   "title": "Tricholomes",
+   "question": "Quelle est la couleur du chapeau ?",
+   "intro": "Champignons robustes à lames adnées-échancrées et spores blanches. Les lames sont souvent colorées !",
+   "choices": [
+    {
+     "label": "Chapeau lisse et pâle : blanc, crème, gris clair, rose pâle",
+     "next": "p39-pale"
+    },
+    {
+     "label": "Chapeau gris",
+     "next": "p39-gris"
+    },
+    {
+     "label": "Chapeau brun, beige, rose violacé",
+     "next": "p39-brun"
+    },
+    {
+     "label": "Chapeau jaune, vert, gris à nuances verdâtres",
+     "next": "p40-jaune-vert"
+    }
+   ]
+  },
+  "p39-pale": {
+   "page": 39,
+   "title": "Tricholomes : chapeau lisse et pâle",
+   "question": "À quelle saison pousse-t-il ?",
+   "choices": [
+    {
+     "label": "Au printemps, dans les pelouses",
+     "hint": "odeur de concombre, lames très étroites et serrées ; comestible réputé",
+     "species": "calocybe-gambosa"
+    },
+    {
+     "label": "En été-automne : odeurs différentes, lames non particulièrement serrées",
+     "next": "p39-pale-ete"
+    }
+   ]
+  },
+  "p39-pale-ete": {
+   "page": 39,
+   "title": "Tricholomes pâles d'été-automne",
+   "question": "Quelle est l'odeur ?",
+   "choices": [
+    {
+     "label": "Odeur forte, de moisi ou de betterave",
+     "hint": "chapeau convexe ou plat, sans mamelon ; en forêt",
+     "species": "tricholoma-album"
+    },
+    {
+     "label": "Odeur nulle ou très faible",
+     "next": "p39-pale-inodore"
+    }
+   ]
+  },
+  "p39-pale-inodore": {
+   "page": 39,
+   "title": "Tricholomes pâles, odeur nulle ou très faible",
+   "question": "Quelle est la forme du chapeau ?",
+   "choices": [
+    {
+     "label": "Chapeau conique ou à mamelon net au centre ; dans les parcs près des arbres",
+     "hint": "tricholome faux-inocybe",
+     "species": "tricholoma-inocybeoides"
+    },
+    {
+     "label": "Chapeau convexe, charnu, à marge enroulée ; en forêt ; blanc pur tacheté de brun-rouge avec l'âge",
+     "hint": "collybie tachetée",
+     "species": "collybia-maculata"
+    },
+    {
+     "label": "Chapeau convexe, charnu, à marge enroulée ; en forêt ; jaune pâle se salissant de rose",
+     "hint": "tricholome âpre",
+     "species": "tricholoma-acerbum"
+    }
+   ]
+  },
+  "p39-gris": {
+   "page": 39,
+   "title": "Tricholomes : chapeau gris",
+   "question": "Le chapeau est-il feutré ou lisse ?",
+   "choices": [
+    {
+     "label": "Chapeau feutré, pelucheux, squamuleux",
+     "next": "p39-gris-feutre"
+    },
+    {
+     "label": "Chapeau lisse",
+     "next": "p39-gris-lisse"
+    }
+   ]
+  },
+  "p39-gris-feutre": {
+   "page": 39,
+   "title": "Tricholomes gris : chapeau feutré",
+   "question": "Quelle est la couleur des lames ?",
+   "choices": [
+    {
+     "label": "Lames grises ; pas d'odeur ; sous les pins",
+     "hint": "petit-gris",
+     "species": "tricholoma-terreum",
+     "img": "p40-1",
+     "note": "Le livret renvoie à (1) : dessin de la page 40."
+    },
+    {
+     "label": "Lames blanches, jaunissantes dans les endroits abîmés ; odeur farineuse",
+     "hint": "tricholome sculpté",
+     "species": "tricholoma-scalpturatum"
+    },
+    {
+     "label": "[En montagne] écailles larges et pied robuste",
+     "hint": "tricholome tigré : très toxique (cité entre crochets dans le livret)",
+     "species": "tricholoma-pardinum"
+    }
+   ]
+  },
+  "p39-gris-lisse": {
+   "page": 39,
+   "title": "Tricholomes gris : chapeau lisse",
+   "question": "Quelle est la forme du chapeau ?",
+   "choices": [
+    {
+     "label": "Chapeau conique ou à mamelon central net, fibrilleux (rayé) ; inodore",
+     "hint": "tricholome vergeté ; non comestible, amer",
+     "species": "tricholoma-virgatum"
+    },
+    {
+     "label": "Chapeau convexe ou plat, non fibrilleux",
+     "next": "p39-gris-convexe"
+    }
+   ]
+  },
+  "p39-gris-convexe": {
+   "page": 39,
+   "title": "Tricholomes gris : chapeau convexe ou plat",
+   "question": "Y a-t-il une odeur ?",
+   "choices": [
+    {
+     "label": "Odeur présente ; pied robuste, > 1 cm de diamètre",
+     "next": "p39-gris-odeur"
+    },
+    {
+     "label": "Odeur absente ; pied élancé, < 1 cm de diamètre",
+     "hint": "tricholome noir et blanc ; groupe difficile, nombreuses espèces semblables, comestibilité inconnue",
+     "species": "melanoleuca-melaleuca"
+    }
+   ]
+  },
+  "p39-gris-odeur": {
+   "page": 39,
+   "title": "Tricholomes gris à odeur et pied robuste",
+   "question": "Où pousse-t-il et quelle est l'odeur ?",
+   "choices": [
+    {
+     "label": "En forêt ; odeur de savonnette ; lames et pied blancs",
+     "hint": "tricholome à odeur de savon",
+     "species": "tricholoma-saponaceum"
+    },
+    {
+     "label": "Dans les prés ; odeur poivrée ; lames et pied gris comme le chapeau",
+     "hint": "argouane des prairies",
+     "species": "lepista-panaeola"
+    }
+   ]
+  },
+  "p39-brun": {
+   "page": 39,
+   "title": "Tricholomes : chapeau brun, beige, rose violacé",
+   "question": "Quelle est la couleur des lames et de la chair ?",
+   "choices": [
+    {
+     "label": "Lames et chair jaunes",
+     "next": "p39-brun-jaune"
+    },
+    {
+     "label": "Lames et chair blanches ou brun clair",
+     "next": "p39-brun-blanc"
+    }
+   ]
+  },
+  "p39-brun-jaune": {
+   "page": 39,
+   "title": "Tricholomes bruns à lames et chair jaunes",
+   "question": "Quel est l'aspect du chapeau ?",
+   "choices": [
+    {
+     "label": "Chapeau lisse, luisant, brun-jaune ; odeur farineuse",
+     "hint": "tricholome fauve",
+     "species": "tricholoma-fulvum"
+    },
+    {
+     "label": "Chapeau à mèches ou écailles rosées ou violacées sur fond jaune ; odeur acide",
+     "hint": "tricholome rutilant",
+     "species": "tricholomopsis-rutilans"
+    }
+   ]
+  },
+  "p39-brun-blanc": {
+   "page": 39,
+   "title": "Tricholomes bruns à lames et chair blanches ou brun clair",
+   "question": "Quelle est l'odeur ?",
+   "choices": [
+    {
+     "label": "Forte odeur de farine, de concombre ; grosse espèce massive, en troupes sous peupliers",
+     "hint": "tricholome des peupliers",
+     "species": "tricholoma-populinum"
+    },
+    {
+     "label": "Odeur nulle ou très faible ; espèces moins robustes, forestières",
+     "next": "p39-brun-forestier"
+    }
+   ]
+  },
+  "p39-brun-forestier": {
+   "page": 39,
+   "title": "Tricholomes bruns forestiers, odeur nulle ou faible",
+   "question": "Quel est l'aspect du chapeau ?",
+   "choices": [
+    {
+     "label": "Chapeau lisse, luisant ou visqueux",
+     "hint": "tricholome brûlé",
+     "species": "tricholoma-ustale"
+    },
+    {
+     "label": "Chapeau sec, +/- écailleux ou laineux",
+     "hint": "tricholome couleur de vache",
+     "species": "tricholoma-vaccinum"
+    }
+   ]
+  },
+  "p40-jaune-vert": {
+   "page": 40,
+   "title": "Tricholomes : chapeau jaune, vert, gris à nuances verdâtres",
+   "question": "Quelle est l'odeur et l'aspect du chapeau ?",
+   "choices": [
+    {
+     "label": "Odeur forte, désagréable (gaz, soufre) ; lames jaunes épaisses et espacées",
+     "hint": "tricholome soufré",
+     "species": "tricholoma-sulfureum",
+     "img": "p40-2"
+    },
+    {
+     "label": "Odeur de farine ou de concombre, souvent légère",
+     "next": "p40-farine"
+    },
+    {
+     "label": "Chapeau fibrilleux, verdâtre ; lames blanches à reflets jaunes",
+     "hint": "tricholome jaunet",
+     "species": "tricholoma-sejunctum",
+     "img": "p40-3",
+     "note": "Dans le livret, cette ligne est au même niveau que les deux premiers choix, pas sous « odeur de farine »."
+    }
+   ]
+  },
+  "p40-farine": {
+   "page": 40,
+   "title": "Tricholomes jaunes à odeur de farine ou de concombre",
+   "question": "Quelle est la chair et où pousse-t-il ?",
+   "choices": [
+    {
+     "label": "Chapeau non fibrilleux, jaune citrin à jaune doré, lames jaunes ; chair blanche, sous pins (littoral)",
+     "hint": "tricholome équestre : MORTEL",
+     "species": "tricholoma-auratum",
+     "note": "Le livret cite (2) ici, mais le dessin p40-2 représente en réalité T. sulfureum (voir Doutes)."
+    },
+    {
+     "label": "Chapeau non fibrilleux, jaune citrin à jaune doré, lames jaunes ; chair jaune, sous peupliers",
+     "hint": "tricholome équestre des peupliers",
+     "species": "tricholoma-frondosae"
+    }
+   ]
+  }
+ },
+ "species": {
+  "cortinarius-elatior": {
+   "latin": "Cortinarius elatior",
+   "fr": "",
+   "group": "Cortinaires",
+   "edibility": "inconnu",
+   "note": "Pied bleuté, odeur de miel à la base, chapeau ridé-cannelé, pied visqueux. Aucun cortinaire n'est comestible (livret).",
+   "images": [
+    "p37-1"
+   ],
+   "pages": [
+    37
+   ]
+  },
+  "cortinarius-trivialis": {
+   "latin": "Cortinarius trivialis",
+   "fr": "",
+   "group": "Cortinaires",
+   "edibility": "inconnu",
+   "note": "Pied à guirlandes visqueuses en relief, chapeau brun-rouge. Aucun cortinaire n'est comestible (livret).",
+   "images": [
+    "p37-2"
+   ],
+   "pages": [
+    37
+   ]
+  },
+  "cortinarius-delibutus": {
+   "latin": "Cortinarius delibutus",
+   "fr": "",
+   "group": "Cortinaires",
+   "edibility": "inconnu",
+   "note": "Pied à guirlandes jaunes sans relief, chapeau jaune. Aucun cortinaire n'est comestible (livret).",
+   "pages": [
+    37
+   ]
+  },
+  "cortinarius-salor": {
+   "latin": "Cortinarius salor",
+   "fr": "",
+   "group": "Cortinaires",
+   "edibility": "inconnu",
+   "note": "Pied et chapeau bleus. Aucun cortinaire n'est comestible (livret).",
+   "pages": [
+    37
+   ]
+  },
+  "cortinarius-multiformis": {
+   "latin": "Cortinarius multiformis",
+   "fr": "",
+   "group": "Cortinaires",
+   "edibility": "inconnu",
+   "note": "Pied bulbeux-marginé, lames beige pâle, chapeau jaune à orangé. Aucun cortinaire n'est comestible (livret).",
+   "images": [
+    "p37-3"
+   ],
+   "pages": [
+    37
+   ]
+  },
+  "cortinarius-calochrous": {
+   "latin": "Cortinarius calochrous",
+   "fr": "",
+   "group": "Cortinaires",
+   "edibility": "inconnu",
+   "note": "Pied bulbeux-marginé, lames bleutées, chapeau jaune. Aucun cortinaire n'est comestible (livret).",
+   "images": [
+    "p37-3"
+   ],
+   "pages": [
+    37
+   ]
+  },
+  "cortinarius-caerulescens": {
+   "latin": "Cortinarius caerulescens",
+   "fr": "",
+   "group": "Cortinaires",
+   "edibility": "inconnu",
+   "note": "Pied bulbeux-marginé, lames et chapeau bleutés. Aucun cortinaire n'est comestible (livret).",
+   "images": [
+    "p37-3"
+   ],
+   "pages": [
+    37
+   ]
+  },
+  "cortinarius-splendens": {
+   "latin": "Cortinarius splendens",
+   "fr": "",
+   "group": "Cortinaires",
+   "edibility": "inconnu",
+   "note": "Pied bulbeux-marginé, lames, chapeau et chair jaune vif. Aucun cortinaire n'est comestible (livret).",
+   "images": [
+    "p37-3"
+   ],
+   "pages": [
+    37
+   ]
+  },
+  "cortinarius-rufoolivaceus": {
+   "latin": "Cortinarius rufoolivaceus",
+   "fr": "",
+   "group": "Cortinaires",
+   "edibility": "inconnu",
+   "note": "Pied bulbeux-marginé, lames verdâtres, chapeau cuivré. Aucun cortinaire n'est comestible (livret).",
+   "images": [
+    "p37-3"
+   ],
+   "pages": [
+    37
+   ]
+  },
+  "cortinarius-infractus": {
+   "latin": "Cortinarius infractus",
+   "fr": "",
+   "group": "Cortinaires",
+   "edibility": "inconnu",
+   "note": "Pied cylindrique ou clavé, couleurs ternes uniformes (gris verdâtre), saveur amère. Aucun cortinaire n'est comestible (livret).",
+   "pages": [
+    37
+   ]
+  },
+  "cortinarius-largus": {
+   "latin": "Cortinarius largus",
+   "fr": "",
+   "group": "Cortinaires",
+   "edibility": "inconnu",
+   "note": "Pied cylindrique ou clavé, couleurs lilacines (chapeau et pied). Aucun cortinaire n'est comestible (livret).",
+   "pages": [
+    37
+   ]
+  },
+  "cortinarius-purpurascens": {
+   "latin": "Cortinarius purpurascens",
+   "fr": "",
+   "group": "Cortinaires",
+   "edibility": "inconnu",
+   "note": "Pied cylindrique ou clavé, lames lilacines devenant violettes au froissement, chapeau brun. Aucun cortinaire n'est comestible (livret).",
+   "pages": [
+    37
+   ]
+  },
+  "cortinarius-triumphans": {
+   "latin": "Cortinarius triumphans",
+   "fr": "",
+   "group": "Cortinaires",
+   "edibility": "inconnu",
+   "note": "Pied cylindrique ou clavé, couleurs jaunes, bandes jaunes sur le pied. Aucun cortinaire n'est comestible (livret).",
+   "pages": [
+    37
+   ]
+  },
+  "cortinarius-violaceus": {
+   "latin": "Cortinarius violaceus",
+   "fr": "",
+   "group": "Cortinaires",
+   "edibility": "inconnu",
+   "note": "Chapeau, lames et pied d'un bleu-violet profond, odeur d'encre. Aucun cortinaire n'est comestible (livret).",
+   "pages": [
+    37
+   ]
+  },
+  "cortinarius-venetus": {
+   "latin": "Cortinarius venetus",
+   "fr": "",
+   "group": "Cortinaires",
+   "edibility": "inconnu",
+   "note": "Chapeau jaune-vert (sous-genre Leprocybe). Aucun cortinaire n'est comestible (livret).",
+   "pages": [
+    37
+   ]
+  },
+  "cortinarius-bolaris": {
+   "latin": "Cortinarius bolaris",
+   "fr": "Cortinaire briqueté",
+   "group": "Cortinaires",
+   "edibility": "inconnu",
+   "note": "Chapeau à écailles rouge brique sur fond jaune (sous-genre Leprocybe). Aucun cortinaire n'est comestible (livret).",
+   "pages": [
+    37
+   ]
+  },
+  "cortinarius-orellanus": {
+   "latin": "Cortinarius orellanus",
+   "fr": "Cortinaire couleur de rocou",
+   "group": "Cortinaires",
+   "edibility": "mortel",
+   "note": "Groupe de Cortinarius orellanus : chapeau orangé vif, fauve rougeâtre, lames particulièrement espacées. MORTEL. Aucun cortinaire n'est comestible (livret).",
+   "images": [
+    "p37-4"
+   ],
+   "pages": [
+    37
+   ]
+  },
+  "cortinarius-paleaceus": {
+   "latin": "Cortinarius paleaceus",
+   "fr": "",
+   "group": "Cortinaires",
+   "edibility": "inconnu",
+   "note": "Chapeau pointu, gris, odeur forte de feuilles de Pelargonium (sous-genre Telamonia). Aucun cortinaire n'est comestible (livret).",
+   "pages": [
+    37
+   ]
+  },
+  "cortinarius-pholideus": {
+   "latin": "Cortinarius pholideus",
+   "fr": "",
+   "group": "Cortinaires",
+   "edibility": "inconnu",
+   "note": "Chapeau mamelonné mais non aigu, brun, odeur nulle (sous-genre Telamonia). Aucun cortinaire n'est comestible (livret).",
+   "pages": [
+    37
+   ]
+  },
+  "cortinarius-cinnamomeoluteus": {
+   "latin": "Cortinarius cinnamomeoluteus",
+   "fr": "",
+   "group": "Cortinaires",
+   "edibility": "toxique",
+   "note": "Lames, chapeau et pied jaunes (sous-genre Dermocybe). Toxique. Aucun cortinaire n'est comestible (livret).",
+   "pages": [
+    38
+   ]
+  },
+  "cortinarius-cinnamomeus": {
+   "latin": "Cortinarius cinnamomeus",
+   "fr": "",
+   "group": "Cortinaires",
+   "edibility": "toxique",
+   "note": "Lames orangé-rouillé, pied et chapeau jaunes (sous-genre Dermocybe). Toxique. Aucun cortinaire n'est comestible (livret).",
+   "pages": [
+    38
+   ]
+  },
+  "cortinarius-semisanguineus": {
+   "latin": "Cortinarius semisanguineus",
+   "fr": "",
+   "group": "Cortinaires",
+   "edibility": "toxique",
+   "note": "Lames rouge pourpre, pied et chapeau jaunes (sous-genre Dermocybe). Toxique. Aucun cortinaire n'est comestible (livret).",
+   "pages": [
+    38
+   ]
+  },
+  "cortinarius-uliginosus": {
+   "latin": "Cortinarius uliginosus",
+   "fr": "",
+   "group": "Cortinaires",
+   "edibility": "toxique",
+   "note": "Lames jaunes, chapeau et pied rouge-orangé vif (sous-genre Dermocybe). Toxique. Aucun cortinaire n'est comestible (livret).",
+   "pages": [
+    38
+   ]
+  },
+  "cortinarius-sanguineus": {
+   "latin": "Cortinarius sanguineus",
+   "fr": "",
+   "group": "Cortinaires",
+   "edibility": "toxique",
+   "note": "Lames, pied et chapeau rouges (sous-genre Dermocybe). Toxique. Aucun cortinaire n'est comestible (livret).",
+   "pages": [
+    38
+   ]
+  },
+  "cortinarius-torvus": {
+   "latin": "Cortinarius torvus",
+   "fr": "",
+   "group": "Cortinaires",
+   "edibility": "inconnu",
+   "note": "Pied à chaussette terminée par un anneau, chapeau gris, pied bleuté au sommet. Aucun cortinaire n'est comestible (livret).",
+   "images": [
+    "p38-4"
+   ],
+   "pages": [
+    38
+   ]
+  },
+  "cortinarius-armillatus": {
+   "latin": "Cortinarius armillatus",
+   "fr": "",
+   "group": "Cortinaires",
+   "edibility": "inconnu",
+   "note": "Bracelets rouges étagés à la base du pied, chapeau roux. Le livret cite (2) mais aucun dessin (2) sur la page. Aucun cortinaire n'est comestible (livret).",
+   "pages": [
+    38
+   ]
+  },
+  "cortinarius-hinnuleus": {
+   "latin": "Cortinarius hinnuleus",
+   "fr": "",
+   "group": "Cortinaires",
+   "edibility": "inconnu",
+   "note": "Anneau net sous la cortine, chapeau jaune-fauve, odeur forte de terre moisie. Aucun cortinaire n'est comestible (livret).",
+   "pages": [
+    38
+   ]
+  },
+  "cortinarius-alboviolaceus": {
+   "latin": "Cortinarius alboviolaceus",
+   "fr": "",
+   "group": "Cortinaires",
+   "edibility": "inconnu",
+   "note": "Espèce robuste, chapeau bleuté lilas. Aucun cortinaire n'est comestible (livret).",
+   "images": [
+    "p38-5"
+   ],
+   "pages": [
+    38
+   ]
+  },
+  "cortinarius-anomalus": {
+   "latin": "Cortinarius anomalus",
+   "fr": "",
+   "group": "Cortinaires",
+   "edibility": "inconnu",
+   "note": "Espèce robuste, chapeau brun ou beige sans bleu, pied bleuté au sommet. Aucun cortinaire n'est comestible (livret).",
+   "pages": [
+    38
+   ]
+  },
+  "cortinarius-saturninus": {
+   "latin": "Cortinarius saturninus",
+   "fr": "",
+   "group": "Cortinaires",
+   "edibility": "inconnu",
+   "note": "Espèce robuste, chapeau brun-rouge hygrophane, pied sans bleu. Aucun cortinaire n'est comestible (livret).",
+   "pages": [
+    38
+   ]
+  },
+  "cortinarius-salicis": {
+   "latin": "Cortinarius salicis",
+   "fr": "",
+   "group": "Cortinaires",
+   "edibility": "inconnu",
+   "note": "Espèce robuste, chapeau brun-gris non hygrophane, pied sans bleu. Aucun cortinaire n'est comestible (livret).",
+   "pages": [
+    38
+   ]
+  },
+  "cortinarius-decipiens": {
+   "latin": "Cortinarius decipiens",
+   "fr": "",
+   "group": "Cortinaires",
+   "edibility": "inconnu",
+   "note": "Espèce grêle, chapeau gris bleuté non strié, pied bleuté au sommet. Aucun cortinaire n'est comestible (livret).",
+   "pages": [
+    38
+   ]
+  },
+  "cortinarius-obtusus": {
+   "latin": "Cortinarius obtusus",
+   "fr": "",
+   "group": "Cortinaires",
+   "edibility": "inconnu",
+   "note": "Espèce grêle, chapeau jaune à orangé très strié, odeur d'iode. Aucun cortinaire n'est comestible (livret).",
+   "pages": [
+    38
+   ]
+  },
+  "cortinarius-duracinus": {
+   "latin": "Cortinarius duracinus",
+   "fr": "",
+   "group": "Cortinaires",
+   "edibility": "inconnu",
+   "note": "Espèce grêle, chapeau ocre clair à blanchâtre, pied blanc lisse terminé en pointe, dur. Aucun cortinaire n'est comestible (livret).",
+   "pages": [
+    38
+   ]
+  },
+  "calocybe-gambosa": {
+   "latin": "Calocybe gambosa",
+   "fr": "Tricholome de la Saint-Georges, mousseron vrai",
+   "group": "Tricholomes",
+   "edibility": "comestible",
+   "note": "Au printemps, dans les pelouses ; odeur de concombre, lames très étroites et serrées. Comestible réputé.",
+   "pages": [
+    39
+   ]
+  },
+  "tricholoma-album": {
+   "latin": "Tricholoma album",
+   "fr": "Tricholome blanc",
+   "group": "Tricholomes",
+   "edibility": "inconnu",
+   "note": "Été-automne, en forêt ; odeur forte de moisi ou de betterave ; chapeau convexe ou plat, sans mamelon.",
+   "pages": [
+    39
+   ]
+  },
+  "tricholoma-inocybeoides": {
+   "latin": "Tricholoma inocybeoides",
+   "fr": "Tricholome faux-inocybe",
+   "group": "Tricholomes",
+   "edibility": "comestible",
+   "note": "Dans les parcs près des arbres ; chapeau conique ou à mamelon net, odeur nulle ou très faible.",
+   "pages": [
+    39
+   ]
+  },
+  "collybia-maculata": {
+   "latin": "Collybia maculata",
+   "fr": "Collybie tachetée",
+   "group": "Tricholomes",
+   "edibility": "inconnu",
+   "note": "En forêt ; chapeau convexe charnu, marge enroulée, blanc pur tacheté de brun-rouge avec l'âge.",
+   "pages": [
+    39
+   ]
+  },
+  "tricholoma-acerbum": {
+   "latin": "Tricholoma acerbum",
+   "fr": "Tricholome âpre",
+   "group": "Tricholomes",
+   "edibility": "inconnu",
+   "note": "En forêt ; chapeau convexe charnu, marge enroulée, jaune pâle se salissant de rose.",
+   "pages": [
+    39
+   ]
+  },
+  "tricholoma-terreum": {
+   "latin": "Tricholoma terreum",
+   "fr": "Petit-gris",
+   "group": "Tricholomes",
+   "edibility": "comestible",
+   "note": "Chapeau feutré, pelucheux, squamuleux ; lames grises, pas d'odeur ; sous les pins.",
+   "images": [
+    "p40-1"
+   ],
+   "pages": [
+    39
+   ]
+  },
+  "tricholoma-scalpturatum": {
+   "latin": "Tricholoma scalpturatum",
+   "fr": "Tricholome sculpté",
+   "group": "Tricholomes",
+   "edibility": "comestible",
+   "note": "Chapeau feutré, lames blanches jaunissantes dans les endroits abîmés, odeur farineuse.",
+   "confusions": [
+    "tricholoma-pardinum"
+   ],
+   "pages": [
+    39
+   ]
+  },
+  "tricholoma-pardinum": {
+   "latin": "Tricholoma pardinum",
+   "fr": "Tricholome tigré",
+   "group": "Tricholomes",
+   "edibility": "toxique",
+   "note": "En montagne ; écailles larges, pied robuste. Très toxique (cité entre crochets).",
+   "confusions": [
+    "tricholoma-scalpturatum"
+   ],
+   "pages": [
+    39
+   ]
+  },
+  "tricholoma-virgatum": {
+   "latin": "Tricholoma virgatum",
+   "fr": "Tricholome vergeté",
+   "group": "Tricholomes",
+   "edibility": "inconnu",
+   "note": "Chapeau conique ou à mamelon central net, fibrilleux (rayé), inodore. Non comestible, amer (livret).",
+   "pages": [
+    39
+   ]
+  },
+  "tricholoma-saponaceum": {
+   "latin": "Tricholoma saponaceum",
+   "fr": "Tricholome à odeur de savon",
+   "group": "Tricholomes",
+   "edibility": "inconnu",
+   "note": "En forêt ; odeur de savonnette, lames et pied blancs, pied robuste > 1 cm.",
+   "pages": [
+    39
+   ]
+  },
+  "lepista-panaeola": {
+   "latin": "Lepista panaeola",
+   "fr": "Argouane des prairies",
+   "group": "Tricholomes",
+   "edibility": "comestible",
+   "note": "Dans les prés ; odeur poivrée, lames et pied gris comme le chapeau, pied robuste > 1 cm.",
+   "pages": [
+    39
+   ]
+  },
+  "melanoleuca-melaleuca": {
+   "latin": "Melanoleuca melaleuca",
+   "fr": "Tricholome noir et blanc",
+   "group": "Tricholomes",
+   "edibility": "inconnu",
+   "note": "Odeur absente, pied élancé < 1 cm. Groupe difficile, nombreuses espèces semblables, comestibilité inconnue (livret).",
+   "pages": [
+    39
+   ]
+  },
+  "tricholoma-fulvum": {
+   "latin": "Tricholoma fulvum",
+   "fr": "Tricholome fauve",
+   "group": "Tricholomes",
+   "edibility": "inconnu",
+   "note": "Lames et chair jaunes ; chapeau lisse, luisant, brun-jaune ; odeur farineuse.",
+   "pages": [
+    39
+   ]
+  },
+  "tricholomopsis-rutilans": {
+   "latin": "Tricholomopsis rutilans",
+   "fr": "Tricholome rutilant",
+   "group": "Tricholomes",
+   "edibility": "inconnu",
+   "note": "Lames et chair jaunes ; chapeau à mèches ou écailles rosées ou violacées sur fond jaune ; odeur acide.",
+   "pages": [
+    39
+   ]
+  },
+  "tricholoma-populinum": {
+   "latin": "Tricholoma populinum",
+   "fr": "Tricholome des peupliers",
+   "group": "Tricholomes",
+   "edibility": "inconnu",
+   "note": "Grosse espèce massive, en troupes sous peupliers ; forte odeur de farine, de concombre.",
+   "pages": [
+    39
+   ]
+  },
+  "tricholoma-ustale": {
+   "latin": "Tricholoma ustale",
+   "fr": "Tricholome brûlé",
+   "group": "Tricholomes",
+   "edibility": "inconnu",
+   "note": "Odeur nulle ou très faible ; chapeau lisse, luisant ou visqueux ; forestier.",
+   "pages": [
+    39
+   ]
+  },
+  "tricholoma-vaccinum": {
+   "latin": "Tricholoma vaccinum",
+   "fr": "Tricholome couleur de vache",
+   "group": "Tricholomes",
+   "edibility": "inconnu",
+   "note": "Odeur nulle ou très faible ; chapeau sec, +/- écailleux ou laineux ; forestier.",
+   "pages": [
+    39
+   ]
+  },
+  "tricholoma-sulfureum": {
+   "latin": "Tricholoma sulfureum",
+   "fr": "Tricholome soufré",
+   "group": "Tricholomes",
+   "edibility": "inconnu",
+   "note": "Odeur forte désagréable (gaz, soufre) ; lames jaunes épaisses et espacées.",
+   "images": [
+    "p40-2"
+   ],
+   "pages": [
+    40
+   ]
+  },
+  "tricholoma-auratum": {
+   "latin": "Tricholoma auratum",
+   "fr": "Tricholome équestre",
+   "group": "Tricholomes",
+   "edibility": "mortel",
+   "note": "Chapeau jaune citrin à jaune doré, lames jaunes, chair blanche, sous pins (littoral). MORTEL (livret).",
+   "confusions": [
+    "tricholoma-frondosae",
+    "tricholoma-sulfureum"
+   ],
+   "pages": [
+    40
+   ]
+  },
+  "tricholoma-frondosae": {
+   "latin": "Tricholoma frondosae",
+   "fr": "Tricholome équestre des peupliers",
+   "group": "Tricholomes",
+   "edibility": "inconnu",
+   "note": "Chapeau jaune citrin à jaune doré, lames jaunes, chair jaune, sous peupliers.",
+   "confusions": [
+    "tricholoma-auratum"
+   ],
+   "pages": [
+    40
+   ]
+  },
+  "tricholoma-sejunctum": {
+   "latin": "Tricholoma sejunctum",
+   "fr": "Tricholome jaunet",
+   "group": "Tricholomes",
+   "edibility": "inconnu",
+   "note": "Chapeau fibrilleux verdâtre, lames blanches à reflets jaunes.",
+   "images": [
+    "p40-3"
+   ],
+   "pages": [
+    40
+   ]
+  }
+ },
+ "figures": [
+  {
+   "name": "p37-1",
+   "page": 37,
+   "box": [
+    0.2,
+    0.24,
+    0.37,
+    0.345
+   ],
+   "species": "cortinarius-elatior",
+   "caption": "Cortinarius elatior"
+  },
+  {
+   "name": "p37-2",
+   "page": 37,
+   "box": [
+    0.61,
+    0.22,
+    0.77,
+    0.355
+   ],
+   "species": "cortinarius-trivialis",
+   "caption": "Cortinarius trivialis"
+  },
+  {
+   "name": "p37-3",
+   "page": 37,
+   "box": [
+    0.77,
+    0.36,
+    0.94,
+    0.47
+   ],
+   "caption": "Pied bulbeux-marginé à la base (Phlegmacium)"
+  },
+  {
+   "name": "p37-4",
+   "page": 37,
+   "box": [
+    0.71,
+    0.83,
+    0.87,
+    0.96
+   ],
+   "species": "cortinarius-orellanus",
+   "caption": "Groupe de Cortinarius orellanus"
+  },
+  {
+   "name": "p38-4",
+   "page": 38,
+   "box": [
+    0.19,
+    0.6,
+    0.43,
+    0.765
+   ],
+   "species": "cortinarius-torvus",
+   "caption": "Cortinarius torvus"
+  },
+  {
+   "name": "p38-5",
+   "page": 38,
+   "box": [
+    0.66,
+    0.615,
+    0.86,
+    0.765
+   ],
+   "species": "cortinarius-alboviolaceus",
+   "caption": "Cortinarius alboviolaceus"
+  },
+  {
+   "name": "p40-1",
+   "page": 40,
+   "box": [
+    0.07,
+    0.31,
+    0.345,
+    0.455
+   ],
+   "species": "tricholoma-terreum",
+   "caption": "Tricholoma terreum : chapeau gris méchuleux, lamelles grises, pied blanc"
+  },
+  {
+   "name": "p40-2",
+   "page": 40,
+   "box": [
+    0.385,
+    0.305,
+    0.62,
+    0.45
+   ],
+   "species": "tricholoma-sulfureum",
+   "caption": "Dessin (2) : légende décrivant Tricholoma sulfureum (chapeau, lamelles et pied jaune soufre, odeur de gaz)"
+  },
+  {
+   "name": "p40-3",
+   "page": 40,
+   "box": [
+    0.7,
+    0.305,
+    0.94,
+    0.455
+   ],
+   "species": "tricholoma-sejunctum",
+   "caption": "Tricholoma sejunctum"
+  }
+ ]
 }
