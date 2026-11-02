@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Link, useLocation, useNavigate, useParams } from 'react-router-dom'
 import tree from '../data/key.json'
 import species from '../data/species.json'
+import external from '../data/external.json'
 import { reachableSpecies } from '../lib/key'
 import Img from '../components/Img'
 import SpeciesCard from '../components/SpeciesCard'
@@ -23,7 +24,11 @@ function KeyNode({ nodeId }) {
   if (!node) return <NotFound />
 
   const possible = [...reachableSpecies(nodeId)]
-  const deadly = possible.filter((id) => species[id]?.edibility === 'mortel').length
+  const isDeadly = (id) => species[id]?.edibility === 'mortel'
+  const deadly = possible.filter(isDeadly).length
+  // deadly species first so they are never cut off
+  const withPhoto = possible.filter((id) => external[id]?.photos?.length)
+  const examples = [...withPhoto.filter(isDeadly), ...withPhoto.filter((id) => !isDeadly(id))].slice(0, 4)
 
   function go(choice) {
     const state = { trail: [...trail, { node: nodeId, label: choice.label }] }
@@ -81,6 +86,25 @@ function KeyNode({ nodeId }) {
           </button>
         ))}
       </div>
+
+      {examples.length > 0 && (
+        <div className="examples">
+          <p className="eyebrow">Exemples dans cette branche</p>
+          <ul>
+            {examples.map((id) => (
+              <li key={id} className={species[id].edibility === 'mortel' ? 'deadly' : undefined}>
+                <Link to={`/espece/${id}`}>
+                  <img src={external[id].photos[0].thumb} alt="" loading="lazy" />
+                  <span className="latin">
+                    {species[id].edibility === 'mortel' && '☠ '}
+                    {species[id].latin}
+                  </span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
 
       <button
         type="button"

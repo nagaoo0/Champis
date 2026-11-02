@@ -1,10 +1,20 @@
 import { Link, useParams } from 'react-router-dom'
 import species from '../data/species.json'
+import external from '../data/external.json'
 import tree from '../data/key.json'
 import { pathTo } from '../lib/key'
 import EdibilityBadge from '../components/EdibilityBadge'
 import Img from '../components/Img'
 import NotFound from './NotFound'
+
+const LINKS = [
+  ['wikipedia', 'Wikipédia'],
+  ['inpn', 'INPN'],
+  ['mycodb', 'MycoDB'],
+  ['mycobank', 'MycoBank'],
+  ['inaturalist', 'iNaturalist'],
+  ['gbif', 'GBIF'],
+]
 
 export default function Species() {
   const { id } = useParams()
@@ -14,6 +24,8 @@ export default function Species() {
   const confusions = (sp.confusions ?? []).filter((c) => species[c])
   const deadlyConfusions = confusions.filter((c) => species[c].edibility === 'mortel')
   const path = pathTo(id)
+  const photos = external[id]?.photos ?? []
+  const links = LINKS.filter(([key]) => external[id]?.[key])
 
   return (
     <article>
@@ -43,6 +55,36 @@ export default function Species() {
       )}
 
       {sp.note && <p className="species-note">{sp.note}</p>}
+
+      {photos.length > 0 && (
+        <section>
+          <h2>Photos</h2>
+          <p className="hint">
+            Photos indicatives issues de Wikimedia Commons et iNaturalist : une photo ne suffit jamais à identifier un champignon.
+          </p>
+          <div className="photos">
+            {photos.map((p) => (
+              <figure key={p.thumb}>
+                <img src={p.thumb} alt={sp.latin} loading="lazy" />
+                <figcaption>
+                  <a href={p.page} target="_blank" rel="noopener">Photo : {p.author}, {p.license}</a>
+                </figcaption>
+              </figure>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {links.length > 0 && (
+        <section>
+          <h2>En savoir plus</h2>
+          <ul className="external-links">
+            {links.map(([key, label]) => (
+              <li key={key}><a href={external[id][key]} target="_blank" rel="noopener">{label}</a></li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       {confusions.length > 0 && (
         <section>

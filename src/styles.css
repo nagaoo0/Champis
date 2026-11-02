@@ -316,6 +316,50 @@ label select {
   color: var(--ink-soft);
 }
 
+.examples {
+  margin-top: 1.5rem;
+}
+
+.examples ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(80px, 110px));
+  gap: 0.5rem;
+  margin: 0 0 1rem;
+  padding: 0;
+  list-style: none;
+}
+
+.examples a {
+  display: block;
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.examples img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  background: var(--card);
+  border: 1px solid var(--rule-soft);
+  border-radius: 6px;
+}
+
+.examples .deadly img {
+  border: 2px solid var(--danger);
+}
+
+.examples .deadly .latin {
+  color: var(--danger);
+}
+
+.examples .latin {
+  display: block;
+  margin-top: 0.2rem;
+  font-size: 0.85rem;
+  line-height: 1.2;
+}
+
 .choices {
   display: grid;
   gap: 0.75rem;
@@ -465,6 +509,16 @@ label select {
   font-size: 1.05rem;
 }
 
+.species-card .card-photo {
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.species-card.compact .card-photo {
+  aspect-ratio: 1;
+}
+
 /* badges */
 
 .badge {
@@ -559,6 +613,42 @@ label select {
   padding: 0.5rem;
   background: var(--card);
   border: 1px solid var(--rule-soft);
+}
+
+.photos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin: 0.75rem 0 1.5rem;
+}
+
+.photos figure {
+  margin: 0;
+}
+
+.photos img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  background: var(--card);
+  border: 1px solid var(--rule-soft);
+  border-radius: 6px;
+}
+
+.photos figcaption {
+  margin-top: 0.25rem;
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+}
+
+.external-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.25rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .species-note {
