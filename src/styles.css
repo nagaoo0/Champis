@@ -840,3 +840,58 @@ label select {
   background: var(--amber-bg);
   outline: 6px solid var(--amber-bg);
 }
+
+/* booklet page: transcription and scan side by side */
+.booklet-nav {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.booklet-nav select {
+  flex: 1;
+  min-width: 0;
+  padding: 0.5rem;
+  font: inherit;
+  background: var(--card);
+  border: 1px solid var(--rule);
+}
+
+.booklet {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.booklet-text ul {
+  padding-left: 1.25rem;
+}
+
+.booklet-scan img {
+  display: block;
+  width: 100%;
+  border: 1px solid var(--rule-soft);
+}
+
+.booklet-links ul {
+  padding-left: 1.25rem;
+}
+
+@media (min-width: 900px) {
+  .booklet {
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+  }
+
+  .booklet-scan {
+    position: sticky;
+    top: 1rem;
+  }
+
+  .booklet-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+  }
+}

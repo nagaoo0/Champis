@@ -1,11 +1,12 @@
 import { useEffect } from 'react'
-import { Link, Route, Routes, useLocation } from 'react-router-dom'
+import { Link, Navigate, Route, Routes, useLocation } from 'react-router-dom'
 import tree from './data/key.json'
 import Home from './pages/Home'
 import Key from './pages/Key'
 import Species from './pages/Species'
 import Catalog from './pages/Catalog'
 import Glossary from './pages/Glossary'
+import Booklet from './pages/Booklet'
 import Guide from './pages/Guide'
 import NotFound from './pages/NotFound'
 
@@ -14,6 +15,7 @@ const NAV = [
   { label: 'Catalogue', to: '/catalogue', prefix: '/catalogue' },
   { label: 'Guide', to: '/guide', prefix: '/guide' },
   { label: 'Glossaire', to: '/glossaire', prefix: '/glossaire' },
+  { label: 'Livret', to: '/livret/1', prefix: '/livret' },
 ]
 
 export default function App() {
@@ -48,6 +50,8 @@ export default function App() {
           <Route path="/espece/:id" element={<Species />} />
           <Route path="/catalogue" element={<Catalog />} />
           <Route path="/glossaire" element={<Glossary />} />
+          <Route path="/livret" element={<Navigate to="/livret/1" replace />} />
+          <Route path="/livret/:n" element={<Booklet />} />
           <Route path="/guide" element={<Guide />} />
           <Route path="*" element={<NotFound />} />
         </Routes>

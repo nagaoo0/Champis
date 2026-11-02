@@ -68,7 +68,7 @@ function KeyNode({ nodeId }) {
         </nav>
       )}
 
-      <p className="eyebrow">{node.title} · Livret p. {node.page}</p>
+      <p className="eyebrow">{node.title} · <Link to={`/livret/${node.page}`}>Livret p. {node.page}</Link></p>
       <h1 className="question"><Marked text={node.question} /></h1>
       {node.intro && <p className="intro"><Marked text={node.intro} /></p>}
 

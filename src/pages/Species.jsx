@@ -118,7 +118,14 @@ export default function Species() {
         )}
       </section>
 
-      {sp.pages?.length > 0 && <p className="eyebrow">Livret p. {sp.pages.join(', ')}</p>}
+      {sp.pages?.length > 0 && (
+        <p className="eyebrow">
+          Livret{' '}
+          {sp.pages.map((p, i) => (
+            <span key={p}>{i > 0 && ', '}<Link to={`/livret/${p}`}>p. {p}</Link></span>
+          ))}
+        </p>
+      )}
     </article>
   )
 }

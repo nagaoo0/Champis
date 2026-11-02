@@ -22,7 +22,7 @@ There is no test suite and no linter. `npm run data` is the integrity check: it 
 Image pipeline (Python venv in `tools/.venv`, PyMuPDF + Pillow; the PDF is not versioned, it lives in `tools/in/livret.pdf`):
 
 ```bash
-tools/.venv/Scripts/python -I tools/render_pages.py tools/in/livret.pdf   # pages -> tools/out/pages/pNN.png (p31 rotated)
+tools/.venv/Scripts/python -I tools/render_pages.py tools/in/livret.pdf   # pages -> tools/out/pages/pNN.png (p31 rotated) + public/livret/pNN.webp
 tools/.venv/Scripts/python -I tools/crop.py                               # source/figures.json -> public/img/*.webp
 ```
 
@@ -45,7 +45,7 @@ Key conventions:
 
 ## App structure
 
-`src/App.jsx` holds the routes and layout (the footer carries the safety disclaimer). The pages are `/cle/:nodeId` (guided key), `/espece/:id`, `/catalogue`, `/glossaire` and `/guide`.
+`src/App.jsx` holds the routes and layout (the footer carries the safety disclaimer). The pages are `/cle/:nodeId` (guided key), `/espece/:id`, `/catalogue`, `/glossaire`, `/guide` and `/livret/:n`. The last one shows the scan next to `source/pages/pNN.md`, rendered with `marked` and lazy loaded through `import.meta.glob`.
 
 `src/lib/key.js` provides:
 - `reachableSpecies(nodeId)`, used for the "N espèces possibles" counter and the "Je ne sais pas" panel.

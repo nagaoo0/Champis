@@ -19,6 +19,7 @@ npm run dev
 - `source/fragments/*.json` : la clé structurée par lot de pages (questions, espèces, cadrage des dessins). Format décrit dans `source/SCHEMA.md`. C'est la source de vérité des données.
 - `src/data/` : généré, ne pas éditer à la main.
 - `public/img/` : dessins découpés, générés.
+- `public/livret/` : scans des pages en version web, générés par `render_pages.py` et affichés sur la page « Livret » à côté de leur transcription.
 - `tools/` : scripts d'extraction et de fusion.
 
 ## Corriger la clé
