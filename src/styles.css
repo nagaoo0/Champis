@@ -657,6 +657,15 @@ label select {
   white-space: pre-line;
 }
 
+/* pictos are small drawings, keep them close to their real size */
+.guide-section .figures {
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+}
+
+.guide-section .figures img {
+  max-height: 200px;
+}
+
 /* not found */
 
 .not-found {

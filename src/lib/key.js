@@ -3,14 +3,22 @@ import tree from '../data/key.json'
 const cache = new Map()
 
 // species ids reachable from a node. the returned set is shared, do not modify it
+// plain walk with a seen set: the key has loops (p28 sends back to p27)
 export function reachableSpecies(nodeId) {
   if (cache.has(nodeId)) return cache.get(nodeId)
   const found = new Set()
-  cache.set(nodeId, found) // set before recursing so a loop in the data cannot hang
-  for (const choice of tree.nodes[nodeId]?.choices ?? []) {
-    if (choice.species) found.add(choice.species)
-    if (choice.next) for (const id of reachableSpecies(choice.next)) found.add(id)
+  const seen = new Set()
+  const stack = [nodeId]
+  while (stack.length) {
+    const id = stack.pop()
+    if (seen.has(id)) continue
+    seen.add(id)
+    for (const choice of tree.nodes[id]?.choices ?? []) {
+      if (choice.species) found.add(choice.species)
+      if (choice.next) stack.push(choice.next)
+    }
   }
+  cache.set(nodeId, found)
   return found
 }
 
