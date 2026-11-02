@@ -1,0 +1,82 @@
+{
+  "amanita-phalloides": {
+    "latin": "Amanita phalloides",
+    "fr": "Amanite phalloïde",
+    "group": "Amanites",
+    "edibility": "mortel",
+    "note": "Chapeau vert olive, lames blanches, anneau, volve en sac. Responsable de la majorité des intoxications mortelles.",
+    "confusions": ["amanita-citrina", "amanita-vaginata"],
+    "images": ["p33-1", "p33-2"],
+    "pages": [33]
+  },
+  "amanita-citrina": {
+    "latin": "Amanita citrina",
+    "fr": "Amanite citrine",
+    "group": "Amanites",
+    "edibility": "toxique",
+    "note": "Odeur de pomme de terre crue. Peut être confondue avec la phalloïde pâle.",
+    "confusions": ["amanita-phalloides"],
+    "images": ["p33-3"],
+    "pages": [33]
+  },
+  "amanita-muscaria": {
+    "latin": "Amanita muscaria",
+    "fr": "Amanite tue-mouches",
+    "group": "Amanites",
+    "edibility": "toxique",
+    "note": "Chapeau rouge à verrues blanches.",
+    "confusions": [],
+    "images": ["p34-1"],
+    "pages": [34]
+  },
+  "amanita-vaginata": {
+    "latin": "Amanita vaginata",
+    "fr": "Amanite vaginée",
+    "group": "Amanites",
+    "edibility": "inconnu",
+    "note": "Sans anneau, volve en sac. Ne pas consommer sans contrôle.",
+    "confusions": ["amanita-phalloides"],
+    "images": ["p34-2"],
+    "pages": [34]
+  },
+  "boletus-edulis": {
+    "latin": "Boletus edulis",
+    "fr": "Cèpe de Bordeaux",
+    "group": "Bolets",
+    "edibility": "comestible",
+    "note": "Pores blancs puis jaune verdâtre, réseau blanc sur le pied.",
+    "confusions": ["tylopilus-felleus"],
+    "images": ["p11-4"],
+    "pages": [11]
+  },
+  "tylopilus-felleus": {
+    "latin": "Tylopilus felleus",
+    "fr": "Bolet amer",
+    "group": "Bolets",
+    "edibility": "inconnu",
+    "note": "Goût très amer, inconsommable.",
+    "confusions": ["boletus-edulis"],
+    "images": ["p11-5"],
+    "pages": [11]
+  },
+  "cantharellus-cibarius": {
+    "latin": "Cantharellus cibarius",
+    "fr": "Girolle",
+    "group": "Chanterelles",
+    "edibility": "comestible",
+    "note": "Jaune d'oeuf, plis épais et ramifiés, odeur d'abricot.",
+    "confusions": ["omphalotus-olearius"],
+    "images": ["p12-1"],
+    "pages": [12]
+  },
+  "omphalotus-olearius": {
+    "latin": "Omphalotus olearius",
+    "fr": "Clitocybe de l'olivier",
+    "group": "Clitocybes",
+    "edibility": "toxique",
+    "note": "Orangé vif, lames fines, pousse en touffes sur le bois.",
+    "confusions": ["cantharellus-cibarius"],
+    "images": ["p13-2"],
+    "pages": [13]
+  }
+}

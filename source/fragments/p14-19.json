@@ -1,0 +1,1530 @@
+{
+ "nodes": {
+  "p14": {
+   "page": 14,
+   "title": "Voile général présent, pas de voile partiel",
+   "question": "Quelle est la couleur de la sporée ?",
+   "intro": "Voile général présent, pas de voile partiel.",
+   "choices": [
+    {
+     "label": "Spores blanches : espèces sans anneau du genre Amanita (Amanites vaginées)",
+     "hint": "lames libres, chapeau strié, volve en sac ; comestibles cuits, toxiques crus",
+     "next": "p14-amanites",
+     "img": "p14-1"
+    },
+    {
+     "label": "Spores roses : genre Volvariella (volvaires)",
+     "hint": "lames libres, volve en sac ; chapeau visqueux, blanc, beige pâle ou gris",
+     "species": "volvopluteus-gloiocephalus",
+     "img": "p14-a"
+    },
+    {
+     "label": "Spores brunes ou noires",
+     "hint": "aucune espèce à volve ! Certains Agaricus (sporée noire) ont un anneau assez bas pour être pris pour une volve",
+     "next": "p36",
+     "note": "voir p. 36"
+    }
+   ]
+  },
+  "p14-amanites": {
+   "page": 14,
+   "title": "Amanites vaginées : chapeau strié ou non",
+   "question": "Le chapeau est-il strié ?",
+   "intro": "Espèces sans anneau, lames libres, volve en sac.",
+   "choices": [
+    {
+     "label": "Chapeau strié",
+     "next": "p14-amanites-striees"
+    },
+    {
+     "label": "Chapeau non strié",
+     "hint": "attention aux autres amanites ayant pu perdre leur anneau !",
+     "next": "p32"
+    }
+   ]
+  },
+  "p14-amanites-striees": {
+   "page": 14,
+   "title": "Amanites vaginées : couleur du chapeau",
+   "question": "Quelle est la couleur du chapeau ?",
+   "choices": [
+    {
+     "label": "Chapeau jaune, roux, orangé, fauve",
+     "next": "p14-amanites-jaunes"
+    },
+    {
+     "label": "Chapeau gris de plomb",
+     "species": "amanita-vaginata",
+     "img": "p14-1"
+    },
+    {
+     "label": "Chapeau beige clair",
+     "species": "amanita-lividopallescens"
+    }
+   ]
+  },
+  "p14-amanites-jaunes": {
+   "page": 14,
+   "title": "Amanites vaginées jaunes ou fauves : volve",
+   "question": "Comment est la volve et l'espèce ?",
+   "choices": [
+    {
+     "label": "Espèce grêle, volve blanche tachée de roux",
+     "species": "amanita-fulva"
+    },
+    {
+     "label": "Espèce plus charnue, volve blanche unie",
+     "species": "amanita-crocea"
+    }
+   ]
+  },
+  "p15": {
+   "page": 15,
+   "title": "Pied muni d'un anneau ou d'une armille, sans voile général",
+   "question": "Le champignon pousse-t-il en touffes ou isolé ?",
+   "intro": "Pas de voile général. Pied muni d'un anneau ou d'une armille.",
+   "choices": [
+    {
+     "label": "En touffes",
+     "hint": "3 spécimens ou plus issus d'une même base",
+     "next": "p15-touffes"
+    },
+    {
+     "label": "Espèces isolées",
+     "next": "p16-isoles"
+    }
+   ]
+  },
+  "p15-touffes": {
+   "page": 15,
+   "title": "En touffes : sporée",
+   "question": "Quelle est la couleur de la sporée ?",
+   "choices": [
+    {
+     "label": "Spores blanches",
+     "next": "p15-t-blanches"
+    },
+    {
+     "label": "Spores brunes (lames jaunes à brun-rouille) : pholiotes",
+     "next": "p15-t-brunes"
+    },
+    {
+     "label": "Spores violacées à noires (lames vertes, grises à noires)",
+     "next": "p15-t-noires"
+    }
+   ]
+  },
+  "p15-t-blanches": {
+   "page": 15,
+   "title": "En touffes, spores blanches",
+   "question": "Comment est le chapeau ?",
+   "choices": [
+    {
+     "label": "Chapeau jaune brunâtre à rougeâtre, centre parsemé de petites mèches grises",
+     "species": "armillaria-mellea",
+     "img": "p15-1"
+    },
+    {
+     "label": "Chapeau blanc, lisse, visqueux (sur hêtre)",
+     "species": "oudemansiella-mucida",
+     "img": "p15-2"
+    }
+   ]
+  },
+  "p15-t-brunes": {
+   "page": 15,
+   "title": "En touffes, spores brunes : pholiotes",
+   "question": "Le chapeau est-il écailleux ou lisse ?",
+   "choices": [
+    {
+     "label": "Chapeau écailleux",
+     "hint": "espèces moyennes ± jaune-fauve",
+     "next": "p15-t-ecailleux"
+    },
+    {
+     "label": "Chapeau lisse ou fibrilleux",
+     "next": "p15-t-lisse"
+    }
+   ]
+  },
+  "p15-t-ecailleux": {
+   "page": 15,
+   "title": "En touffes, pholiotes à chapeau écailleux",
+   "question": "Le chapeau est-il sec ou visqueux ?",
+   "choices": [
+    {
+     "label": "Chapeau sec",
+     "species": "pholiota-squarrosa",
+     "img": "p15-3"
+    },
+    {
+     "label": "Chapeau visqueux ou lubrifié",
+     "species": "pholiota-aurivella",
+     "img": "p15-4"
+    }
+   ]
+  },
+  "p15-t-lisse": {
+   "page": 15,
+   "title": "En touffes, pholiotes à chapeau lisse ou fibrilleux",
+   "question": "Quelle est la taille et l'aspect de l'espèce ?",
+   "choices": [
+    {
+     "label": "Grosse espèce (8 - 25 cm) entièrement jaune-fauve",
+     "species": "gymnopilus-spectabilis",
+     "img": "p15-5"
+    },
+    {
+     "label": "Petite espèce (2-5 cm)",
+     "hint": "chapeau lisse, hygrophane, brun fauve humide, jaunâtre sec ; pied pelucheux sous l'anneau (armille)",
+     "species": "kuehneromyces-mutabilis",
+     "img": "p15-6",
+     "note": "Attention : ne pas confondre avec Galerina marginata (rarement en touffe), espèce mortelle."
+    },
+    {
+     "label": "Espèce moyenne (4-10 cm), sans jaune",
+     "hint": "chapeau lisse, ridé ou craquelé ; pied lisse sous l'anneau ; couleurs ternes ou pâles ; odeur de vieux tonneau",
+     "species": "cyclocybe-cylindracea"
+    }
+   ]
+  },
+  "p15-t-noires": {
+   "page": 15,
+   "title": "En touffes, spores violacées à noires",
+   "question": "Comment est le chapeau ?",
+   "choices": [
+    {
+     "label": "Chapeau sec, jaunâtre, à écailles ou fibrilles",
+     "species": "lacrymaria-lacrymabunda"
+    },
+    {
+     "label": "Chapeau lisse, jaune ou orangé",
+     "species": "hypholoma-fasciculare"
+    }
+   ]
+  },
+  "p16-isoles": {
+   "page": 16,
+   "title": "Espèces isolées : sporée",
+   "question": "Quelle est la couleur de la sporée ?",
+   "choices": [
+    {
+     "label": "Spores blanches",
+     "next": "p16-blanches"
+    },
+    {
+     "label": "Spores roses",
+     "hint": "aucune espèce annelée ou armillée",
+     "next": "p16-roses"
+    },
+    {
+     "label": "Spores ocres à brunes",
+     "next": "p16-ocres"
+    },
+    {
+     "label": "Spores noires ou violacées",
+     "next": "p16-noires"
+    }
+   ]
+  },
+  "p16-blanches": {
+   "page": 16,
+   "title": "Isolées, spores blanches",
+   "question": "Quelles sont les lames et le chapeau ?",
+   "choices": [
+    {
+     "label": "Lames libres, chapeau écailleux : lépiotes",
+     "hint": "à chapeau cylindrique, penser à Coprinus comatus à l'état jeune (dessin 2)",
+     "next": "p35",
+     "img": "p16-2"
+    },
+    {
+     "label": "Lames adnées-échancrées, chapeau granuleux jaune ou orangé, voile en armille (flocons sur le pied)",
+     "species": "cystoderma-amianthinum"
+    },
+    {
+     "label": "Lames adnées-échancrées, chapeau écailleux blanc ou gris",
+     "species": "tricholoma-cingulatum"
+    },
+    {
+     "label": "Lames subdécurrentes, chapeau brun jaunâtre à petites mèches jaunes ou grises",
+     "hint": "isolés ou en petites touffes",
+     "species": "armillaria-gallica"
+    }
+   ]
+  },
+  "p16-roses": {
+   "page": 16,
+   "title": "Isolées, spores roses",
+   "question": "Les lames sont-elles roses et libres ?",
+   "intro": "Aucune espèce annelée ou armillée à spores roses.",
+   "choices": [
+    {
+     "label": "Lames roses libres : jeunes Agarics n'ayant pas encore sporulé",
+     "next": "p36",
+     "note": "voir p. 36"
+    },
+    {
+     "label": "Lépiotes du groupe Leucoagaricus leucothites",
+     "hint": "sporée blanche mais lames roses",
+     "next": "p35",
+     "note": "voir p. 35"
+    }
+   ]
+  },
+  "p16-ocres": {
+   "page": 16,
+   "title": "Isolées, spores ocres à brunes",
+   "question": "De quel type d'espèce s'agit-il ?",
+   "choices": [
+    {
+     "label": "Espèces charnues, à chapeau non strié",
+     "next": "p16-ocres-charnues"
+    },
+    {
+     "label": "Petites espèces à chapeau strié hygrophane, lignicoles",
+     "hint": "voir p. 15 fig. 6 et 7",
+     "next": "p16-ocres-petites"
+    },
+    {
+     "label": "Cortinaires dont le pied est muni d'un anneau sous la cortine",
+     "hint": "Cortinarius hinnuleus par exemple",
+     "next": "p37",
+     "note": "voir Cortinaires, p. 37"
+    }
+   ]
+  },
+  "p16-ocres-charnues": {
+   "page": 16,
+   "title": "Isolées, spores ocres à brunes : espèces charnues",
+   "question": "Où pousse-t-il et quels sont ses caractères ?",
+   "choices": [
+    {
+     "label": "Sur bois, entièrement jaune doré",
+     "species": "gymnopilus-spectabilis"
+    },
+    {
+     "label": "À terre, lames beige clair d'aspect fripé",
+     "species": "rozites-caperatus"
+    },
+    {
+     "label": "Sur composts, chapeau ridé, pied à rhizomorphes blancs",
+     "species": "agrocybe-rivulosa"
+    },
+    {
+     "label": "À long pied radicant, forte odeur d'amandes amères",
+     "species": "hebeloma-radicosum"
+    }
+   ]
+  },
+  "p16-ocres-petites": {
+   "page": 16,
+   "title": "Isolées, petites espèces à chapeau strié hygrophane",
+   "question": "Quelle espèce ?",
+   "intro": "Le livret cite les deux espèces sans critère distinctif ; voir les figures 6 et 7 de la p. 15.",
+   "choices": [
+    {
+     "label": "Galerina marginata (mortel)",
+     "hint": "voir p. 15 fig. 7",
+     "species": "galerina-marginata",
+     "img": "p15-7",
+     "note": "Ne pas confondre avec Kuehneromyces mutabilis."
+    },
+    {
+     "label": "Kuehneromyces mutabilis (pholiote changeante)",
+     "hint": "voir p. 15 fig. 6",
+     "species": "kuehneromyces-mutabilis",
+     "img": "p15-6",
+     "note": "Ne pas confondre avec Galerina marginata, mortelle."
+    }
+   ]
+  },
+  "p16-noires": {
+   "page": 16,
+   "title": "Isolées, spores noires ou violacées",
+   "question": "Les lames sont-elles libres et le pied séparable du chapeau ?",
+   "choices": [
+    {
+     "label": "Lames libres, pied facilement déboîtable du chapeau",
+     "next": "p16-noires-libres"
+    },
+    {
+     "label": "Lames non libres, pied non séparable",
+     "next": "p16-stropharia"
+    }
+   ]
+  },
+  "p16-noires-libres": {
+   "page": 16,
+   "title": "Lames libres, pied déboîtable",
+   "question": "Quel est le chapeau ?",
+   "choices": [
+    {
+     "label": "Chapeau blanc ou gris, chair du pied jaunissant ou rougissant, lames roses au début : Agarics",
+     "next": "p36",
+     "note": "genre Agaricus, page 36"
+    },
+    {
+     "label": "Chapeau parabolique ou cylindrique, déliquescent à maturité : coprins",
+     "next": "p16-coprins"
+    }
+   ]
+  },
+  "p16-coprins": {
+   "page": 16,
+   "title": "Coprins",
+   "question": "Comment est le chapeau ?",
+   "choices": [
+    {
+     "label": "Chapeau blanc méchuleux",
+     "species": "coprinus-comatus",
+     "img": "p16-2"
+    },
+    {
+     "label": "Chapeau gris ridé-strié",
+     "species": "coprinus-atramentarius"
+    }
+   ]
+  },
+  "p16-stropharia": {
+   "page": 16,
+   "title": "Lames non libres : genre Stropharia",
+   "question": "Quelle est la couleur du chapeau ?",
+   "intro": "Chapeau ± coloré, convexe, souvent visqueux, lames à reflets pourpres ou violacés : genre Stropharia.",
+   "choices": [
+    {
+     "label": "Couleur vert de gris",
+     "next": "p16-stropharia-vert"
+    },
+    {
+     "label": "Chapeau jaune ocracé, hémisphérique, espèce venant dans l'herbe",
+     "species": "stropharia-coronilla"
+    }
+   ]
+  },
+  "p16-stropharia-vert": {
+   "page": 16,
+   "title": "Strophaires vert de gris",
+   "question": "Comment sont l'arête des lames et l'anneau ?",
+   "choices": [
+    {
+     "label": "Arête des lames blanche, anneau bien développé",
+     "species": "stropharia-aeruginosa",
+     "img": "p16-1"
+    },
+    {
+     "label": "Arête des lames non blanche, anneau peu viable",
+     "species": "stropharia-caerulea"
+    }
+   ]
+  },
+  "p17": {
+   "page": 17,
+   "title": "Pied muni d'une cortine",
+   "question": "Le champignon est-il en touffes (port cespiteux) ?",
+   "intro": "La cortine est surtout visible chez les jeunes exemplaires, elle est toujours colorée par les spores à maturité. Pour éviter toute confusion, les espèces à cortine fugace sont traitées dans cette rubrique et dans la rubrique « pied nu ».",
+   "choices": [
+    {
+     "label": "Port cespiteux (espèces en touffes)",
+     "next": "p17-cespiteux"
+    },
+    {
+     "label": "Espèces non en touffes",
+     "next": "p18-non-cespiteux",
+     "note": "voir page suivante"
+    }
+   ]
+  },
+  "p17-cespiteux": {
+   "page": 17,
+   "title": "Cortine, port cespiteux : habitat",
+   "question": "Quel est l'habitat ?",
+   "choices": [
+    {
+     "label": "Habitat lignicole",
+     "next": "p17-lignicole"
+    },
+    {
+     "label": "Habitat terricole",
+     "next": "p17-terricole"
+    }
+   ]
+  },
+  "p17-lignicole": {
+   "page": 17,
+   "title": "Cortine, en touffes, lignicole : sporée",
+   "question": "Quelle est la couleur de la sporée ?",
+   "choices": [
+    {
+     "label": "Spores blanches",
+     "hint": "armillaires, dont l'anneau cotonneux peut évoquer une cortine",
+     "species": "armillaria-gallica",
+     "note": "Voir les armillaires (Armillaria gallica, p. 16, et espèces voisines)."
+    },
+    {
+     "label": "Spores brunes",
+     "hint": "chapeau jaune verdâtre, à petites écailles vers le bord ; lames jaunâtres puis rouillées, jamais vertes",
+     "species": "pholiota-gummosa"
+    },
+    {
+     "label": "Spores noires ou violacées",
+     "hint": "lames grises, noires ou verdâtres",
+     "next": "p17-lig-noires"
+    }
+   ]
+  },
+  "p17-lig-noires": {
+   "page": 17,
+   "title": "Cortine, en touffes, lignicole, spores noires ou violacées",
+   "question": "Quelles sont les couleurs du sporophore ?",
+   "choices": [
+    {
+     "label": "Couleurs jaunes, orangées du sporophore : hypholomes (Hypholoma)",
+     "next": "p17-hypholomes"
+    },
+    {
+     "label": "Couleurs brunes ou fauves, sans jaune-vert",
+     "next": "p17-lig-brunes"
+    }
+   ]
+  },
+  "p17-hypholomes": {
+   "page": 17,
+   "title": "Hypholomes",
+   "question": "Quelle est la couleur du sporophore et des lames ?",
+   "choices": [
+    {
+     "label": "Sporophores jaunes à lames verdâtres",
+     "species": "hypholoma-fasciculare",
+     "img": "p17-a"
+    },
+    {
+     "label": "Sporophores rouge-orangé à lames grisâtres",
+     "species": "hypholoma-lateritium"
+    }
+   ]
+  },
+  "p17-lig-brunes": {
+   "page": 17,
+   "title": "Cortine, en touffes, lignicole, couleurs brunes ou fauves",
+   "question": "Le chapeau est-il hygrophane ?",
+   "choices": [
+    {
+     "label": "Hygrophanes, blanchissant en séchant, traces de voile partiel sur la marge du chapeau",
+     "hint": "rares débris d'anneau",
+     "species": "psathyrella-piluliformis"
+    },
+    {
+     "label": "Non hygrophanes, sommet du chapeau micacé (comme saupoudré de sucre)",
+     "hint": "groupe de Coprinus micaceus",
+     "species": "coprinus-micaceus",
+     "img": "p17-2"
+    }
+   ]
+  },
+  "p17-terricole": {
+   "page": 17,
+   "title": "Cortine, en touffes, terricole : sporée",
+   "question": "Quelle est la couleur de la sporée ?",
+   "choices": [
+    {
+     "label": "Spores brunes (pholiotes)",
+     "next": "p17-ter-brunes"
+    },
+    {
+     "label": "Spores noires ou violacées",
+     "next": "p17-ter-noires"
+    }
+   ]
+  },
+  "p17-ter-brunes": {
+   "page": 17,
+   "title": "Cortine, en touffes, terricole, pholiotes",
+   "question": "Comment est le chapeau ?",
+   "choices": [
+    {
+     "label": "Chapeau visqueux à flocons blancs, beige ocracé, cortine abondante",
+     "species": "pholiota-lenta"
+    },
+    {
+     "label": "Chapeau ± lubrifié, faiblement écailleux, couleurs verdâtres",
+     "species": "pholiota-gummosa",
+     "img": "p17-3"
+    },
+    {
+     "label": "Autres caractères : certains cortinaires, occasionnellement cespiteux",
+     "next": "p37",
+     "note": "voir Cortinaires, p. 37"
+    }
+   ]
+  },
+  "p17-ter-noires": {
+   "page": 17,
+   "title": "Cortine, en touffes, terricole, psathyrelles",
+   "question": "Quelle est la robustesse de l'espèce ?",
+   "intro": "Lames libres ou un peu adnées, serrées (psathyrelles).",
+   "choices": [
+    {
+     "label": "Espèce fragile, à cortine seulement visible chez les jeunes",
+     "hint": "lames très serrées, pied blanc lisse, lames gris pâle puis gris cendré avec l'âge",
+     "species": "psathyrella-candolleana"
+    },
+    {
+     "label": "Espèce +/- robuste, à cortine persistante",
+     "hint": "chapeau jaune sale à roux orangé, feutré ; lames noirâtres",
+     "species": "lacrymaria-lacrymabunda"
+    }
+   ]
+  },
+  "p18-non-cespiteux": {
+   "page": 18,
+   "title": "Cortine, port non cespiteux",
+   "question": "Quelle est la couleur de la sporée ?",
+   "intro": "Port non cespiteux (espèces isolées).",
+   "choices": [
+    {
+     "label": "Spores blanches",
+     "hint": "chapeau squameux ou feutré ± bistré, lames jaunissantes (parfois tardivement), odeur et saveur farineuse",
+     "species": "tricholoma-scalpturatum"
+    },
+    {
+     "label": "Spores ocre à brun rouillé, brun-gris",
+     "next": "p18-b"
+    },
+    {
+     "label": "Spores noires ou brun foncé (chocolat)",
+     "next": "p18-c"
+    }
+   ]
+  },
+  "p18-b": {
+   "page": 18,
+   "title": "Isolées, spores ocre à brun rouillé",
+   "question": "L'espèce est-elle lignicole ou terricole ?",
+   "choices": [
+    {
+     "label": "Lignicole",
+     "next": "p18-b-lignicole"
+    },
+    {
+     "label": "Terricole",
+     "next": "p18-b-terricole"
+    }
+   ]
+  },
+  "p18-b-lignicole": {
+   "page": 18,
+   "title": "Lignicole, spores ocre à brun rouillé",
+   "question": "Comment est le chapeau ?",
+   "choices": [
+    {
+     "label": "Chapeau sec ± fibrilleux, roux, sur conifères",
+     "species": "gymnopilus-penetrans"
+    },
+    {
+     "label": "Chapeau ± lubrifié, finement écailleux, couleurs verdâtres",
+     "hint": "sur débris ligneux souvent enterrés",
+     "species": "pholiota-gummosa"
+    }
+   ]
+  },
+  "p18-b-terricole": {
+   "page": 18,
+   "title": "Terricole, spores ocre à brun rouillé",
+   "question": "Le chapeau est-il pointu avec des lames de couleur terne ?",
+   "choices": [
+    {
+     "label": "Chapeau pointu (au moins une bosse ou un mamelon net), fibrilleux ou écailleux ; lames de couleur terne (olivâtre grisâtre) ; odeurs particulières (spermatique ou fruitée) : Inocybe (toxiques)",
+     "next": "p18-inocybe",
+     "img": "p18-a"
+    },
+    {
+     "label": "Caractères différents : chapeau non conique ou lames non grises",
+     "next": "p18-b-autres"
+    }
+   ]
+  },
+  "p18-inocybe": {
+   "page": 18,
+   "title": "Inocybes (toxiques)",
+   "question": "Quelle est l'odeur ?",
+   "choices": [
+    {
+     "label": "Forte odeur aromatique rappelant l'alcool de poire",
+     "species": "inocybe-bongardii"
+    },
+    {
+     "label": "Odeur spermatique +/- forte",
+     "next": "p18-inocybe-sperm"
+    }
+   ]
+  },
+  "p18-inocybe-sperm": {
+   "page": 18,
+   "title": "Inocybes à odeur spermatique",
+   "question": "Quelle est la couleur de l'espèce ?",
+   "choices": [
+    {
+     "label": "Espèce blanche immuable",
+     "species": "inocybe-geophylla",
+     "img": "p18-1"
+    },
+    {
+     "label": "Espèce entièrement violacée",
+     "species": "inocybe-geophylla-lilacina"
+    },
+    {
+     "label": "Espèce à chapeau gris-brun, très fibrilleux",
+     "species": "inocybe-flocculosa"
+    }
+   ]
+  },
+  "p18-b-autres": {
+   "page": 18,
+   "title": "Terricole, chapeau non conique ou lames non grises",
+   "question": "Quelle est l'odeur et la couleur des lames ?",
+   "choices": [
+    {
+     "label": "Odeur raphanoïde ; lames de couleur beige pâle, chapeau lisse brillant, bicolore",
+     "species": "hebeloma-mesophaeum"
+    },
+    {
+     "label": "Odeur nulle ou faible ; chapeau convexe pelucheux, brun-jaune ; lames gris sale",
+     "species": "inocybe-dulcamara"
+    },
+    {
+     "label": "Pas cette combinaison de caractères ; lames de couleur rouille à maturité : cortinaires (toxiques)",
+     "next": "p37",
+     "note": "genre Cortinarius, p. 37"
+    }
+   ]
+  },
+  "p18-c": {
+   "page": 18,
+   "title": "Isolées, spores noires ou brun foncé",
+   "question": "Les lames sont-elles décurrentes ?",
+   "choices": [
+    {
+     "label": "Lames non décurrentes, minces et serrées",
+     "next": "p18-c-non-decurrentes"
+    },
+    {
+     "label": "Lames décurrentes, épaisses et espacées (gomphides)",
+     "next": "p19-gomphides",
+     "note": "suite page 19"
+    }
+   ]
+  },
+  "p18-c-non-decurrentes": {
+   "page": 18,
+   "title": "Lames non décurrentes, minces et serrées",
+   "question": "Quelles sont les couleurs du chapeau ?",
+   "choices": [
+    {
+     "label": "Couleurs jaunes, orangées ou rougeâtres : hypholomes",
+     "hint": "espèces normalement en touffes",
+     "next": "p17-hypholomes",
+     "note": "voir Hypholomes, p. 17"
+    },
+    {
+     "label": "Chapeau bleu-vert décolorant, visqueux",
+     "species": "stropharia-pseudocyanea"
+    },
+    {
+     "label": "Couleurs ternes (blanches, grises, brunes) : psathyrelles",
+     "next": "p18-psathyrelles"
+    }
+   ]
+  },
+  "p18-psathyrelles": {
+   "page": 18,
+   "title": "Psathyrelles (couleurs ternes)",
+   "question": "Comment est le chapeau ?",
+   "choices": [
+    {
+     "label": "Chapeau brun-jaune à fauve, feutré",
+     "species": "lacrymaria-lacrymabunda"
+    },
+    {
+     "label": "Chapeau jaune pâle puis blanc comme le pied, très fragile, lisse",
+     "species": "psathyrella-candolleana"
+    }
+   ]
+  },
+  "p19-gomphides": {
+   "page": 19,
+   "title": "Gomphides : lames décurrentes, épaisses et espacées",
+   "question": "Quelle est la couleur de la chair ?",
+   "choices": [
+    {
+     "label": "Chair brun-jaune",
+     "species": "chroogomphus-rutilus",
+     "img": "p19-3"
+    },
+    {
+     "label": "Chair blanche, ou jaune citrin à la base du pied",
+     "next": "p19-gomphidius"
+    }
+   ]
+  },
+  "p19-gomphidius": {
+   "page": 19,
+   "title": "Gomphidius : chair blanche",
+   "question": "Quelle est la couleur du chapeau et l'aspect du pied ?",
+   "choices": [
+    {
+     "label": "Chapeau gris ; pied visqueux",
+     "species": "gomphidius-glutinosus"
+    },
+    {
+     "label": "Chapeau rose bonbon ; pied sec",
+     "species": "gomphidius-roseus"
+    }
+   ]
+  }
+ },
+ "species": {
+  "amanita-fulva": {
+   "latin": "Amanita fulva",
+   "fr": "Amanite fauve",
+   "group": "Amanites",
+   "edibility": "comestible",
+   "note": "Comestible cuit, toxique cru (Amanites vaginées). Espèce grêle, volve blanche tachée de roux ; chapeau strié.",
+   "images": [],
+   "pages": [
+    14
+   ]
+  },
+  "amanita-crocea": {
+   "latin": "Amanita crocea",
+   "fr": "Amanite safran",
+   "group": "Amanites",
+   "edibility": "comestible",
+   "note": "Comestible cuit, toxique cru (Amanites vaginées). Espèce plus charnue, volve blanche unie ; chapeau strié.",
+   "images": [],
+   "pages": [
+    14
+   ]
+  },
+  "amanita-vaginata": {
+   "latin": "Amanita vaginata",
+   "fr": "Amanite vaginée",
+   "group": "Amanites",
+   "edibility": "comestible",
+   "note": "Comestible cuit, toxique cru (Amanites vaginées). Chapeau gris de plomb, strié.",
+   "images": [
+    "p14-1"
+   ],
+   "pages": [
+    14
+   ]
+  },
+  "amanita-lividopallescens": {
+   "latin": "Amanita lividopallescens",
+   "fr": "Amanite livide",
+   "group": "Amanites",
+   "edibility": "comestible",
+   "note": "Comestible cuit, toxique cru (Amanites vaginées). Chapeau beige clair, strié.",
+   "images": [],
+   "pages": [
+    14
+   ]
+  },
+  "volvopluteus-gloiocephalus": {
+   "latin": "Volvopluteus gloiocephalus",
+   "fr": "Volvaire gluante",
+   "group": "Volvaires",
+   "edibility": "comestible",
+   "note": "Spores roses, lames libres, volve en sac ; chapeau visqueux, blanc, beige pâle ou gris.",
+   "images": [
+    "p14-a"
+   ],
+   "pages": [
+    14
+   ]
+  },
+  "armillaria-mellea": {
+   "latin": "Armillaria mellea",
+   "fr": "Armillaire à couleur de miel",
+   "group": "Pied annelé ou armillé, en touffes",
+   "edibility": "toxique",
+   "note": "En touffes ; chapeau jaune brunâtre à rougeâtre, centre parsemé de petites mèches grises ; spores blanches.",
+   "images": [
+    "p15-1"
+   ],
+   "pages": [
+    15
+   ]
+  },
+  "oudemansiella-mucida": {
+   "latin": "Oudemansiella mucida",
+   "fr": "Collybie muqueuse",
+   "group": "Pied annelé ou armillé, en touffes",
+   "edibility": "inconnu",
+   "note": "En touffes sur hêtre ; chapeau blanc, lisse, visqueux ; spores blanches.",
+   "images": [
+    "p15-2"
+   ],
+   "pages": [
+    15
+   ]
+  },
+  "pholiota-squarrosa": {
+   "latin": "Pholiota squarrosa",
+   "fr": "Pholiote écailleuse",
+   "group": "Pied annelé ou armillé, en touffes",
+   "edibility": "inconnu",
+   "note": "Chapeau écailleux sec, espèce moyenne ± jaune-fauve ; spores brunes.",
+   "images": [
+    "p15-3"
+   ],
+   "pages": [
+    15
+   ]
+  },
+  "pholiota-aurivella": {
+   "latin": "Pholiota aurivella",
+   "fr": "Pholiote dorée",
+   "group": "Pied annelé ou armillé, en touffes",
+   "edibility": "inconnu",
+   "note": "Chapeau écailleux, visqueux ou lubrifié ; spores brunes.",
+   "images": [
+    "p15-4"
+   ],
+   "pages": [
+    15
+   ]
+  },
+  "gymnopilus-spectabilis": {
+   "latin": "Gymnopilus spectabilis",
+   "fr": "Pholiote remarquable",
+   "group": "Pied annelé ou armillé",
+   "edibility": "inconnu",
+   "note": "Grosse espèce (8 - 25 cm) entièrement jaune-fauve, en touffes ; isolé : sur bois, entièrement jaune doré, chair charnue.",
+   "images": [
+    "p15-5"
+   ],
+   "pages": [
+    15,
+    16
+   ]
+  },
+  "kuehneromyces-mutabilis": {
+   "latin": "Kuehneromyces mutabilis",
+   "fr": "Pholiote changeante, agaric à soupe",
+   "group": "Pied annelé ou armillé",
+   "edibility": "comestible",
+   "note": "Petite espèce (2-5 cm), chapeau lisse hygrophane, brun fauve humide, jaunâtre sec ; pied pelucheux sous l'anneau. À ne pas confondre avec Galerina marginata, mortelle.",
+   "confusions": [
+    "galerina-marginata"
+   ],
+   "images": [
+    "p15-6"
+   ],
+   "pages": [
+    15,
+    16
+   ]
+  },
+  "galerina-marginata": {
+   "latin": "Galerina marginata",
+   "fr": "Galérine marginée",
+   "group": "Pied annelé ou armillé",
+   "edibility": "mortel",
+   "note": "Espèce mortelle ; petite espèce lignicole à chapeau strié hygrophane, rarement en touffe. À ne pas confondre avec Kuehneromyces mutabilis.",
+   "confusions": [
+    "kuehneromyces-mutabilis"
+   ],
+   "images": [
+    "p15-7"
+   ],
+   "pages": [
+    15,
+    16
+   ]
+  },
+  "cyclocybe-cylindracea": {
+   "latin": "Cyclocybe cylindracea",
+   "fr": "Pholiote du peuplier",
+   "group": "Pied annelé ou armillé, en touffes",
+   "edibility": "comestible",
+   "note": "Espèce moyenne (4-10 cm), sans jaune ; chapeau lisse, ridé ou craquelé ; pied lisse sous l'anneau ; odeur de vieux tonneau.",
+   "images": [],
+   "pages": [
+    15
+   ]
+  },
+  "lacrymaria-lacrymabunda": {
+   "latin": "Lacrymaria lacrymabunda",
+   "fr": "Psathyrelle veloutée",
+   "group": "Pied annelé ou armillé, cortine",
+   "edibility": "inconnu",
+   "note": "Chapeau jaune sale à roux orangé, feutré ; lames noirâtres ; cortine persistante. Appelé Psathyrella lacrymabunda p. 15.",
+   "images": [],
+   "pages": [
+    15,
+    17,
+    18
+   ]
+  },
+  "hypholoma-fasciculare": {
+   "latin": "Hypholoma fasciculare",
+   "fr": "Hypholome en touffes",
+   "group": "Pied annelé ou armillé, cortine",
+   "edibility": "toxique",
+   "note": "Sporophores jaunes à lames verdâtres, en touffes, lignicole ; spores violacées à noires.",
+   "images": [
+    "p17-a"
+   ],
+   "pages": [
+    15,
+    17
+   ]
+  },
+  "cystoderma-amianthinum": {
+   "latin": "Cystoderma amianthinum",
+   "fr": "Cystoderme couleur d'amiante",
+   "group": "Pied annelé ou armillé, isolés",
+   "edibility": "inconnu",
+   "note": "Lames adnées-échancrées, chapeau granuleux jaune ou orangé, voile en armille (flocons sur le pied).",
+   "images": [],
+   "pages": [
+    16
+   ]
+  },
+  "tricholoma-cingulatum": {
+   "latin": "Tricholoma cingulatum",
+   "fr": "Tricholome ceinturé",
+   "group": "Pied annelé ou armillé, isolés",
+   "edibility": "inconnu",
+   "note": "Lames adnées-échancrées, chapeau écailleux blanc ou gris.",
+   "images": [],
+   "pages": [
+    16
+   ]
+  },
+  "armillaria-gallica": {
+   "latin": "Armillaria gallica",
+   "fr": "Armillaire bulbeuse",
+   "group": "Pied annelé ou armillé, isolés",
+   "edibility": "inconnu",
+   "note": "Lames subdécurrentes, chapeau brun jaunâtre à petites mèches jaunes ou grises ; isolés ou en petites touffes ; anneau cotonneux pouvant évoquer une cortine.",
+   "images": [],
+   "pages": [
+    16,
+    17
+   ]
+  },
+  "rozites-caperatus": {
+   "latin": "Rozites caperatus",
+   "fr": "Pholiote ridée",
+   "group": "Pied annelé ou armillé, isolés",
+   "edibility": "comestible",
+   "note": "À terre, lames beige clair d'aspect fripé.",
+   "images": [],
+   "pages": [
+    16
+   ]
+  },
+  "agrocybe-rivulosa": {
+   "latin": "Agrocybe rivulosa",
+   "fr": "",
+   "group": "Pied annelé ou armillé, isolés",
+   "edibility": "inconnu",
+   "note": "Sur composts, chapeau ridé, pied à rhizomorphes blancs.",
+   "images": [],
+   "pages": [
+    16
+   ]
+  },
+  "hebeloma-radicosum": {
+   "latin": "Hebeloma radicosum",
+   "fr": "",
+   "group": "Pied annelé ou armillé, isolés",
+   "edibility": "inconnu",
+   "note": "Long pied radicant, forte odeur d'amandes amères.",
+   "images": [],
+   "pages": [
+    16
+   ]
+  },
+  "coprinus-comatus": {
+   "latin": "Coprinus comatus",
+   "fr": "Coprin chevelu",
+   "group": "Pied annelé ou armillé, isolés",
+   "edibility": "comestible",
+   "note": "Chapeau blanc méchuleux, parabolique ou cylindrique, déliquescent à maturité ; jeune, peut évoquer une lépiote à chapeau cylindrique.",
+   "images": [
+    "p16-2"
+   ],
+   "pages": [
+    16
+   ]
+  },
+  "coprinus-atramentarius": {
+   "latin": "Coprinus atramentarius",
+   "fr": "Coprin noir d'encre",
+   "group": "Pied annelé ou armillé, isolés",
+   "edibility": "toxique",
+   "note": "Chapeau gris ridé-strié, déliquescent à maturité.",
+   "images": [],
+   "pages": [
+    16
+   ]
+  },
+  "stropharia-aeruginosa": {
+   "latin": "Stropharia aeruginosa",
+   "fr": "Strophaire vert-de-gris",
+   "group": "Pied annelé ou armillé, isolés",
+   "edibility": "inconnu",
+   "note": "Couleur vert de gris ; arête des lames blanche, anneau bien développé.",
+   "confusions": [
+    "stropharia-caerulea"
+   ],
+   "images": [
+    "p16-1"
+   ],
+   "pages": [
+    16
+   ]
+  },
+  "stropharia-caerulea": {
+   "latin": "Stropharia caerulea",
+   "fr": "Strophaire bleue",
+   "group": "Pied annelé ou armillé, isolés",
+   "edibility": "inconnu",
+   "note": "Couleur vert de gris ; arête des lames non blanche, anneau peu viable.",
+   "confusions": [
+    "stropharia-aeruginosa"
+   ],
+   "images": [],
+   "pages": [
+    16
+   ]
+  },
+  "stropharia-coronilla": {
+   "latin": "Stropharia coronilla",
+   "fr": "Strophaire coronille",
+   "group": "Pied annelé ou armillé, isolés",
+   "edibility": "inconnu",
+   "note": "Chapeau jaune ocracé, hémisphérique, espèce venant dans l'herbe.",
+   "images": [],
+   "pages": [
+    16
+   ]
+  },
+  "pholiota-gummosa": {
+   "latin": "Pholiota gummosa",
+   "fr": "Pholiote gommeuse",
+   "group": "Pied muni d'une cortine",
+   "edibility": "inconnu",
+   "note": "Chapeau jaune verdâtre, à petites écailles vers le bord, ± lubrifié ; lames jaunâtres puis rouillées, jamais vertes ; sur bois ou débris ligneux.",
+   "images": [
+    "p17-3"
+   ],
+   "pages": [
+    17,
+    18
+   ]
+  },
+  "hypholoma-lateritium": {
+   "latin": "Hypholoma lateritium",
+   "fr": "Hypholome briqueté",
+   "group": "Pied muni d'une cortine",
+   "edibility": "inconnu",
+   "note": "Sporophores rouge-orangé à lames grisâtres, en touffes.",
+   "images": [],
+   "pages": [
+    17
+   ]
+  },
+  "psathyrella-piluliformis": {
+   "latin": "Psathyrella piluliformis",
+   "fr": "Psathyrelle hydrophile",
+   "group": "Pied muni d'une cortine",
+   "edibility": "inconnu",
+   "note": "Hygrophane, blanchissant en séchant ; traces de voile partiel sur la marge du chapeau.",
+   "images": [],
+   "pages": [
+    17
+   ]
+  },
+  "coprinus-micaceus": {
+   "latin": "Coprinus micaceus",
+   "fr": "Coprin micacé (groupe)",
+   "group": "Pied muni d'une cortine",
+   "edibility": "inconnu",
+   "note": "Non hygrophane, sommet du chapeau micacé (comme saupoudré de sucre), en touffes.",
+   "images": [
+    "p17-2"
+   ],
+   "pages": [
+    17
+   ]
+  },
+  "pholiota-lenta": {
+   "latin": "Pholiota lenta",
+   "fr": "",
+   "group": "Pied muni d'une cortine",
+   "edibility": "inconnu",
+   "note": "Chapeau visqueux à flocons blancs, beige ocracé, cortine abondante ; terricole.",
+   "images": [],
+   "pages": [
+    17
+   ]
+  },
+  "psathyrella-candolleana": {
+   "latin": "Psathyrella candolleana",
+   "fr": "Psathyrelle de Candolle",
+   "group": "Pied muni d'une cortine",
+   "edibility": "inconnu",
+   "note": "Espèce fragile, cortine visible seulement chez les jeunes ; lames très serrées, pied blanc lisse, lames gris pâle puis gris cendré ; chapeau jaune pâle puis blanc.",
+   "images": [],
+   "pages": [
+    17,
+    18
+   ]
+  },
+  "tricholoma-scalpturatum": {
+   "latin": "Tricholoma scalpturatum",
+   "fr": "Tricholome sculpté",
+   "group": "Pied muni d'une cortine",
+   "edibility": "comestible",
+   "note": "Chapeau squameux ou feutré ± bistré, lames jaunissantes, odeur et saveur farineuse.",
+   "images": [],
+   "pages": [
+    18
+   ]
+  },
+  "gymnopilus-penetrans": {
+   "latin": "Gymnopilus penetrans",
+   "fr": "Pholiote remarquable",
+   "group": "Pied muni d'une cortine",
+   "edibility": "inconnu",
+   "note": "Chapeau sec ± fibrilleux, roux, sur conifères.",
+   "images": [],
+   "pages": [
+    18
+   ]
+  },
+  "inocybe-bongardii": {
+   "latin": "Inocybe bongardii",
+   "fr": "",
+   "group": "Pied muni d'une cortine",
+   "edibility": "toxique",
+   "note": "Forte odeur aromatique rappelant l'alcool de poire ; chapeau pointu.",
+   "images": [],
+   "pages": [
+    18
+   ]
+  },
+  "inocybe-geophylla": {
+   "latin": "Inocybe geophylla",
+   "fr": "Inocybe à lames terreuses",
+   "group": "Pied muni d'une cortine",
+   "edibility": "toxique",
+   "note": "Espèce blanche immuable, odeur spermatique.",
+   "images": [
+    "p18-1"
+   ],
+   "pages": [
+    18
+   ]
+  },
+  "inocybe-geophylla-lilacina": {
+   "latin": "Inocybe geophylla var. lilacina",
+   "fr": "Inocybe lilas",
+   "group": "Pied muni d'une cortine",
+   "edibility": "toxique",
+   "note": "Espèce entièrement violacée, odeur spermatique.",
+   "images": [],
+   "pages": [
+    18
+   ]
+  },
+  "inocybe-flocculosa": {
+   "latin": "Inocybe flocculosa",
+   "fr": "Inocybe floconneux",
+   "group": "Pied muni d'une cortine",
+   "edibility": "toxique",
+   "note": "Chapeau gris-brun, très fibrilleux, odeur spermatique.",
+   "images": [],
+   "pages": [
+    18
+   ]
+  },
+  "hebeloma-mesophaeum": {
+   "latin": "Hebeloma mesophaeum",
+   "fr": "Hébélome à centre brun",
+   "group": "Pied muni d'une cortine",
+   "edibility": "toxique",
+   "note": "Odeur raphanoïde ; lames beige pâle, chapeau lisse brillant, bicolore.",
+   "images": [],
+   "pages": [
+    18
+   ]
+  },
+  "inocybe-dulcamara": {
+   "latin": "Inocybe dulcamara",
+   "fr": "Inocybe doux-amer",
+   "group": "Pied muni d'une cortine",
+   "edibility": "toxique",
+   "note": "Odeur nulle ou faible ; chapeau convexe pelucheux, brun-jaune ; lames gris sale.",
+   "images": [],
+   "pages": [
+    18
+   ]
+  },
+  "stropharia-pseudocyanea": {
+   "latin": "Stropharia pseudocyanea",
+   "fr": "Strophaire bleue et blanche",
+   "group": "Pied muni d'une cortine",
+   "edibility": "inconnu",
+   "note": "Chapeau bleu-vert décolorant, visqueux ; lames non décurrentes, minces et serrées.",
+   "images": [],
+   "pages": [
+    18
+   ]
+  },
+  "chroogomphus-rutilus": {
+   "latin": "Chroogomphus rutilus",
+   "fr": "Gomphide visqueux",
+   "group": "Gomphides",
+   "edibility": "inconnu",
+   "note": "Lames décurrentes, épaisses et espacées ; chair brun-jaune.",
+   "images": [
+    "p19-3"
+   ],
+   "pages": [
+    19
+   ]
+  },
+  "gomphidius-glutinosus": {
+   "latin": "Gomphidius glutinosus",
+   "fr": "Gomphide glutineux",
+   "group": "Gomphides",
+   "edibility": "comestible",
+   "note": "Chair blanche, ou jaune citrin à la base du pied ; chapeau gris ; pied visqueux.",
+   "images": [],
+   "pages": [
+    19
+   ]
+  },
+  "gomphidius-roseus": {
+   "latin": "Gomphidius roseus",
+   "fr": "Gomphide rose",
+   "group": "Gomphides",
+   "edibility": "inconnu",
+   "note": "Chair blanche, ou jaune citrin à la base du pied ; chapeau rose bonbon ; pied sec.",
+   "images": [],
+   "pages": [
+    19
+   ]
+  }
+ },
+ "figures": [
+  {
+   "name": "p14-1",
+   "page": 14,
+   "box": [
+    0.34,
+    0.34,
+    0.5,
+    0.57
+   ],
+   "species": "amanita-vaginata",
+   "caption": "Amanite vaginée"
+  },
+  {
+   "name": "p14-a",
+   "page": 14,
+   "box": [
+    0.4,
+    0.69,
+    0.54,
+    0.84
+   ],
+   "species": "volvopluteus-gloiocephalus",
+   "caption": "Volvaire (spores roses)"
+  },
+  {
+   "name": "p15-1",
+   "page": 15,
+   "box": [
+    0.7,
+    0.225,
+    0.87,
+    0.355
+   ],
+   "species": "armillaria-mellea",
+   "caption": "Armillaire à couleur de miel"
+  },
+  {
+   "name": "p15-2",
+   "page": 15,
+   "box": [
+    0.22,
+    0.225,
+    0.36,
+    0.335
+   ],
+   "species": "oudemansiella-mucida",
+   "caption": "Collybie muqueuse"
+  },
+  {
+   "name": "p15-3",
+   "page": 15,
+   "box": [
+    0.15,
+    0.615,
+    0.3,
+    0.74
+   ],
+   "species": "pholiota-squarrosa",
+   "caption": "Pholiote écailleuse"
+  },
+  {
+   "name": "p15-4",
+   "page": 15,
+   "box": [
+    0.39,
+    0.615,
+    0.56,
+    0.74
+   ],
+   "species": "pholiota-aurivella",
+   "caption": "Pholiote dorée"
+  },
+  {
+   "name": "p15-5",
+   "page": 15,
+   "box": [
+    0.69,
+    0.625,
+    0.88,
+    0.75
+   ],
+   "species": "gymnopilus-spectabilis",
+   "caption": "Pholiote remarquable"
+  },
+  {
+   "name": "p15-6",
+   "page": 15,
+   "box": [
+    0.27,
+    0.815,
+    0.5,
+    0.94
+   ],
+   "species": "kuehneromyces-mutabilis",
+   "caption": "Pholiote changeante"
+  },
+  {
+   "name": "p15-7",
+   "page": 15,
+   "box": [
+    0.76,
+    0.77,
+    0.92,
+    0.92
+   ],
+   "species": "galerina-marginata",
+   "caption": "Galérine marginée"
+  },
+  {
+   "name": "p16-1",
+   "page": 16,
+   "box": [
+    0.62,
+    0.775,
+    0.85,
+    0.955
+   ],
+   "species": "stropharia-aeruginosa",
+   "caption": "Strophaire vert-de-gris"
+  },
+  {
+   "name": "p16-2",
+   "page": 16,
+   "box": [
+    0.06,
+    0.78,
+    0.39,
+    0.955
+   ],
+   "species": "coprinus-comatus",
+   "caption": "Coprin chevelu"
+  },
+  {
+   "name": "p17-a",
+   "page": 17,
+   "box": [
+    0.78,
+    0.35,
+    0.95,
+    0.475
+   ],
+   "species": "hypholoma-fasciculare",
+   "caption": "Hypholome en touffes"
+  },
+  {
+   "name": "p17-2",
+   "page": 17,
+   "box": [
+    0.33,
+    0.525,
+    0.57,
+    0.665
+   ],
+   "species": "coprinus-micaceus",
+   "caption": "Coprin micacé"
+  },
+  {
+   "name": "p17-3",
+   "page": 17,
+   "box": [
+    0.68,
+    0.545,
+    0.91,
+    0.675
+   ],
+   "species": "pholiota-gummosa",
+   "caption": "Pholiote gommeuse"
+  },
+  {
+   "name": "p18-a",
+   "page": 18,
+   "box": [
+    0.79,
+    0.25,
+    0.96,
+    0.395
+   ],
+   "caption": "Dessin d'un sujet à chapeau pointu (rubrique Inocybe), non légendé"
+  },
+  {
+   "name": "p18-1",
+   "page": 18,
+   "box": [
+    0.37,
+    0.47,
+    0.58,
+    0.58
+   ],
+   "species": "inocybe-geophylla",
+   "caption": "Inocybe à lames terreuses"
+  },
+  {
+   "name": "p19-3",
+   "page": 19,
+   "box": [
+    0.44,
+    0.23,
+    0.61,
+    0.38
+   ],
+   "species": "chroogomphus-rutilus",
+   "caption": "Gomphide visqueux"
+  }
+ ]
+}

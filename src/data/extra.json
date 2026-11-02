@@ -1,0 +1,22 @@
+{
+  "glossary": [
+    { "term": "Anneau", "def": "Reste du voile partiel, resté autour du pied après l'ouverture du chapeau.", "img": "picto-anneau-descendant" },
+    { "term": "Lames", "def": "Feuillets disposés sous le chapeau, qui portent les spores.", "img": "picto-lames-libres" },
+    { "term": "Volve", "def": "Reste du voile général, en forme de sac ou de bourrelet à la base du pied.", "img": "picto-volve-sac" }
+  ],
+  "guide": [
+    {
+      "title": "Bien observer le chapeau",
+      "text": "Notez la forme, la couleur, la surface (lisse, visqueuse, écailleuse) et le bord du chapeau.\n\nObservez aussi des exemplaires jeunes et âgés.",
+      "images": ["picto-chapeau-convexe", "picto-chapeau-plat"]
+    },
+    {
+      "title": "Le pied et sa base",
+      "text": "Déterrez le champignon entier pour voir la base du pied : une volve peut y être cachée.",
+      "images": ["picto-pied-bulbeux"]
+    }
+  ],
+  "bibliography": [
+    "Livret de détermination de terrain (source des données de cette application)."
+  ]
+}

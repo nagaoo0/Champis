@@ -1,0 +1,1932 @@
+{
+ "nodes": {
+  "p27": {
+   "page": 27,
+   "title": "Lactaires",
+   "question": "Quelle est la couleur du chapeau ?",
+   "choices": [
+    {
+     "label": "Chapeau et pied blancs, éventuellement tachés de jaune ou de rose",
+     "next": "p27-blancs"
+    },
+    {
+     "label": "Chapeau coloré, à zones concentriques",
+     "next": "p27-zones",
+     "img": "p27-3"
+    },
+    {
+     "label": "Chapeau coloré, de couleur uniforme (ou pâlissant vers la marge)",
+     "next": "p27-uniforme"
+    }
+   ]
+  },
+  "p27-blancs": {
+   "page": 27,
+   "title": "Lactaires : chapeau et pied blancs",
+   "question": "Comment sont les lames ?",
+   "choices": [
+    {
+     "label": "Lames blanches extrêmement serrées, chapeau non velouté",
+     "species": "lactarius-piperatus",
+     "img": "p27-a"
+    },
+    {
+     "label": "Lames blanches peu serrées, chapeau velouté",
+     "species": "lactarius-vellereus"
+    },
+    {
+     "label": "Lames crème rosé ou franchement roses",
+     "species": "lactarius-controversus"
+    }
+   ]
+  },
+  "p27-zones": {
+   "page": 27,
+   "title": "Lactaires : chapeau coloré à zones concentriques",
+   "question": "La marge du chapeau est-elle poilue ?",
+   "choices": [
+    {
+     "label": "Marge poilue",
+     "next": "p27-zones-poilue"
+    },
+    {
+     "label": "Marge lisse",
+     "next": "p27-zones-lisse"
+    }
+   ]
+  },
+  "p27-zones-poilue": {
+   "page": 27,
+   "title": "Lactaires zonés : marge poilue",
+   "question": "Quelle est la couleur du chapeau ?",
+   "choices": [
+    {
+     "label": "Rose jambon, rougeâtre ou fauve",
+     "species": "lactarius-torminosus"
+    },
+    {
+     "label": "Rose très pâle",
+     "hint": "sous bouleaux, souvent dans les pelouses",
+     "species": "lactarius-pubescens",
+     "img": "p27-2"
+    }
+   ]
+  },
+  "p27-zones-lisse": {
+   "page": 27,
+   "title": "Lactaires zonés : marge lisse",
+   "question": "Comment est le lait ?",
+   "choices": [
+    {
+     "label": "Lait orangé à vineux",
+     "species": "lactarius-deliciosus"
+    },
+    {
+     "label": "Lait blanc, immuable",
+     "next": "p27-zones-lait-blanc"
+    },
+    {
+     "label": "Lait blanc, jaunissant en 10 secondes",
+     "hint": "chapeau rosâtre",
+     "species": "lactarius-chrysorrheus"
+    },
+    {
+     "label": "Lait blanc, devenant violet en 1-2 minutes",
+     "species": "lactarius-uvidus"
+    }
+   ]
+  },
+  "p27-zones-lait-blanc": {
+   "page": 27,
+   "title": "Lactaires zonés à lait blanc immuable",
+   "question": "Quelle est la couleur du chapeau ?",
+   "choices": [
+    {
+     "label": "Chapeau gris cendré, visqueux sur le frais",
+     "species": "lactarius-blennius"
+    },
+    {
+     "label": "Chapeau bronze (gris-verdâtre sombre)",
+     "species": "lactarius-necator"
+    },
+    {
+     "label": "Chapeau jaune à orangé",
+     "species": "lactarius-zonarius"
+    },
+    {
+     "label": "Chapeau rougeâtre, odeur de punaise (ou de wassingue)",
+     "species": "lactarius-quietus",
+     "img": "p27-3"
+    }
+   ]
+  },
+  "p27-uniforme": {
+   "page": 27,
+   "title": "Lactaires : chapeau de couleur uniforme",
+   "question": "La marge du chapeau est-elle poilue ?",
+   "choices": [
+    {
+     "label": "Marge poilue",
+     "hint": "chapeau rose très pâle, lait rare ; sous bouleaux, souvent dans les pelouses",
+     "species": "lactarius-pubescens",
+     "img": "p27-2"
+    },
+    {
+     "label": "Marge lisse",
+     "next": "p27-lisse"
+    }
+   ]
+  },
+  "p27-lisse": {
+   "page": 27,
+   "title": "Lactaires uniformes : marge lisse",
+   "question": "Le chapeau est-il sec ou lisse au toucher ?",
+   "choices": [
+    {
+     "label": "Chapeau sec au toucher",
+     "hint": "feutré, rugueux, squamuleux ou mamelonné",
+     "next": "p27-sec"
+    },
+    {
+     "label": "Chapeau lisse au toucher, gras ou visqueux",
+     "hint": "plat ou déprimé (page 28)",
+     "next": "p28-lisse"
+    }
+   ]
+  },
+  "p27-sec": {
+   "page": 27,
+   "title": "Lactaires à chapeau sec au toucher",
+   "question": "Le chapeau est-il gris ou jaune à brun-rouge ?",
+   "choices": [
+    {
+     "label": "Chapeau gris",
+     "next": "p27-gris"
+    },
+    {
+     "label": "Chapeau jaune pâle, ocre clair à brun-rouge, sans gris",
+     "next": "p27-jaune"
+    }
+   ]
+  },
+  "p27-gris": {
+   "page": 27,
+   "title": "Lactaires secs à chapeau gris",
+   "question": "Quelle est l'odeur et le lait ?",
+   "choices": [
+    {
+     "label": "Odeur de noix de coco",
+     "hint": "lait peu abondant, ne laissant pas de trace en séchant",
+     "species": "lactarius-glyciosmus"
+    },
+    {
+     "label": "Odeur de bois de crayon",
+     "hint": "lait abondant, séchant en traces roses en 2-3 min (la chair rosit aussi)",
+     "species": "lactarius-azonites"
+    },
+    {
+     "label": "Sans odeur notable",
+     "hint": "lait séchant en dépôts gris sur les lames",
+     "species": "lactarius-vietus"
+    }
+   ]
+  },
+  "p27-jaune": {
+   "page": 27,
+   "title": "Lactaires secs jaune pâle à brun-rouge",
+   "question": "Comment est la base du pied ?",
+   "choices": [
+    {
+     "label": "Base du pied rouge vineux",
+     "next": "p27-pied-vineux"
+    },
+    {
+     "label": "Base du pied non spécialement colorée ou sans tons vineux",
+     "next": "p27-pied-non-vineux"
+    }
+   ]
+  },
+  "p27-pied-vineux": {
+   "page": 27,
+   "title": "Lactaires secs : base du pied rouge vineux",
+   "question": "Quelle est l'odeur ?",
+   "choices": [
+    {
+     "label": "Odeur de « viandox » (ou céleri)",
+     "hint": "chapeau rougeâtre",
+     "species": "lactarius-camphoratus"
+    },
+    {
+     "label": "Odeur de punaise (ou wassingue)",
+     "hint": "chapeau gris-ocre terne",
+     "species": "lactarius-quietus",
+     "img": "p27-3"
+    }
+   ]
+  },
+  "p27-pied-non-vineux": {
+   "page": 27,
+   "title": "Lactaires secs : base du pied non vineuse",
+   "question": "Comment est le mamelon du chapeau ?",
+   "choices": [
+    {
+     "label": "Chapeau à mamelon aigu, brun-rouge, rugueux au toucher",
+     "species": "lactarius-rufus"
+    },
+    {
+     "label": "Chapeau à mamelon bas ou à peine sensible, jaune pâle à orangé",
+     "next": "p27-mamelon-bas"
+    }
+   ]
+  },
+  "p27-mamelon-bas": {
+   "page": 27,
+   "title": "Lactaires secs à mamelon bas, jaune pâle à orangé",
+   "question": "Quelle est la taille de l'espèce ?",
+   "choices": [
+    {
+     "label": "Grosse espèce dépassant 5 cm de diamètre de chapeau",
+     "hint": "odeur forte de céleri ; lait incolore",
+     "species": "lactarius-helvus"
+    },
+    {
+     "label": "Espèce moyenne à chair et lames rosissantes à l'air",
+     "hint": "odeur de bois de crayon",
+     "species": "lactarius-pterosporus"
+    },
+    {
+     "label": "Espèces petites et grêles, à lait blanc non rosissant",
+     "hint": "groupe difficile ! (page suivante)",
+     "next": "p28-petites"
+    }
+   ]
+  },
+  "p28-petites": {
+   "page": 28,
+   "title": "Lactaires petits et grêles à lait blanc non rosissant",
+   "question": "Quelle est la couleur du chapeau ?",
+   "intro": "Groupe difficile !",
+   "choices": [
+    {
+     "label": "Chapeau jaune au bord, orangé à roux au centre",
+     "species": "lactarius-subsericatus"
+    },
+    {
+     "label": "Chapeau de couleur à peu près uniforme",
+     "next": "p28-uniforme"
+    }
+   ]
+  },
+  "p28-uniforme": {
+   "page": 28,
+   "title": "Lactaires petits : chapeau de couleur uniforme",
+   "question": "Quelle est la couleur du chapeau et du pied ?",
+   "choices": [
+    {
+     "label": "Chapeau gris terne à brun sombre",
+     "next": "p28-gris"
+    },
+    {
+     "label": "Chapeau jaune pâle à ocre clair, souvent ridé au centre",
+     "hint": "pied concolore ; petite espèce fragile",
+     "species": "lactarius-tabidus"
+    },
+    {
+     "label": "Chapeau jaune orangé ou brun-orangé terne uniforme",
+     "hint": "pied plus rouge vers la base",
+     "species": "lactarius-lacunarum"
+    },
+    {
+     "label": "Chapeau et pied orangé vif uniforme",
+     "species": "lactarius-aurantiacus"
+    }
+   ]
+  },
+  "p28-gris": {
+   "page": 28,
+   "title": "Lactaires petits à chapeau gris terne à brun sombre",
+   "question": "Comment est le lait ?",
+   "choices": [
+    {
+     "label": "Lait séreux (translucide)",
+     "hint": "odeur de punaise",
+     "species": "lactarius-cimicarius"
+    },
+    {
+     "label": "Lait blanc",
+     "hint": "odeur faible, de caoutchouc",
+     "species": "lactarius-subdulcis"
+    }
+   ]
+  },
+  "p28-lisse": {
+   "page": 28,
+   "title": "Lactaires à chapeau lisse au toucher",
+   "question": "Quelle est la couleur du chapeau ?",
+   "choices": [
+    {
+     "label": "Espèces grises, brunes ou violacées",
+     "next": "p28-gris-brun"
+    },
+    {
+     "label": "Espèces ocre, jaunes, orangées, fauves, brun-rouge",
+     "hint": "reprendre « Chapeau sec au toucher » p. 27",
+     "next": "p27-sec"
+    }
+   ]
+  },
+  "p28-gris-brun": {
+   "page": 28,
+   "title": "Lactaires lisses gris, bruns ou violacés",
+   "question": "Comment sont les lames ?",
+   "choices": [
+    {
+     "label": "Lames ocracées, espacées",
+     "hint": "chapeau gris pâle à verdâtre",
+     "species": "lactarius-pyrogalus"
+    },
+    {
+     "label": "Lames pâles, serrées",
+     "next": "p28-lames-serrees"
+    }
+   ]
+  },
+  "p28-lames-serrees": {
+   "page": 28,
+   "title": "Lactaires lisses à lames pâles serrées",
+   "question": "Comment est le pied ?",
+   "choices": [
+    {
+     "label": "Pied creux, mou",
+     "next": "p28-pied-creux"
+    },
+    {
+     "label": "Pied plein ou très ferme",
+     "hint": "chapeau couleur bronze, pied > 2 cm de diam. ; sous bouleaux",
+     "species": "lactarius-turpis"
+    }
+   ]
+  },
+  "p28-pied-creux": {
+   "page": 28,
+   "title": "Lactaires lisses à pied creux, mou",
+   "question": "Quelle est la couleur du chapeau ?",
+   "choices": [
+    {
+     "label": "Chapeau verdâtre, pied < 2 cm de diam.",
+     "hint": "sous hêtres",
+     "species": "lactarius-blennius",
+     "img": "p28-5"
+    },
+    {
+     "label": "Chapeau violacé au début, devenant gris livide avec l'âge",
+     "hint": "sous bouleaux",
+     "species": "lactarius-trivialis"
+    }
+   ]
+  },
+  "p29": {
+   "page": 29,
+   "title": "Russules",
+   "question": "Y a-t-il régulièrement des lamellules entre les lamelles ?",
+   "choices": [
+    {
+     "label": "Présence régulière de lamellules entre les lamelles",
+     "hint": "au moins 1 lamellule par lame",
+     "next": "p29-a"
+    },
+    {
+     "label": "Lamellules absentes ou rares",
+     "hint": "moins d'une par grande lame",
+     "next": "p29-b"
+    }
+   ]
+  },
+  "p29-a": {
+   "page": 29,
+   "title": "Russules à lamellules régulières",
+   "question": "Quelle est la couleur du chapeau et du pied ?",
+   "intro": "Note : ces espèces à chair dure sont courantes et faciles à reconnaître. Attention aux lactaires taris et aux champignons fibreux qui cassent trop facilement !",
+   "choices": [
+    {
+     "label": "Chapeau et pied blancs, chair blanche immuable",
+     "hint": "chapeau vite en entonnoir (lactarioïde), blanc ou sale",
+     "species": "russula-delica"
+    },
+    {
+     "label": "Chapeau et pied gris, brunâtres, noirâtres ; lames espacées, rougissement vif à la coupe (1-3 min)",
+     "hint": "chair rougissant ou noircissant au grattage",
+     "species": "russula-nigricans"
+    },
+    {
+     "label": "Chapeau et pied gris, brunâtres, noirâtres ; lames serrées, rougissement faible",
+     "hint": "chair rougissant ou noircissant au grattage",
+     "species": "russula-densifolia"
+    },
+    {
+     "label": "Chapeau cuivré, violacé ou verdâtre, pied blanc jaunissant",
+     "hint": "lamellules assez rares",
+     "species": "russula-artesiana"
+    }
+   ]
+  },
+  "p29-b": {
+   "page": 29,
+   "title": "Russules à lamellules absentes ou rares",
+   "question": "Quelle est la couleur de la sporée ?",
+   "choices": [
+    {
+     "label": "Sporée pâle",
+     "hint": "lames blanches ou crème pâle",
+     "next": "p29-sporee-pale"
+    },
+    {
+     "label": "Sporée ocre à jaune",
+     "hint": "contrastant avec la blancheur du pied ou de la chair",
+     "next": "p30-sporee-ocre"
+    }
+   ]
+  },
+  "p29-sporee-pale": {
+   "page": 29,
+   "title": "Russules à sporée pâle",
+   "question": "Comment est le bord du chapeau ?",
+   "choices": [
+    {
+     "label": "Bord du chapeau strié-cannelé sur au moins 5 mm de long ; une odeur nette",
+     "next": "p29-strie"
+    },
+    {
+     "label": "Bord du chapeau lisse, ou autres caractères non compatibles",
+     "next": "p29-lisse"
+    }
+   ]
+  },
+  "p29-strie": {
+   "page": 29,
+   "title": "Russules à sporée pâle : bord strié-cannelé",
+   "question": "Quelle est la couleur du chapeau et l'odeur ?",
+   "choices": [
+    {
+     "label": "Chapeau jaune ou paille, odeur désagréable de caoutchouc brûlé",
+     "species": "russula-foetens"
+    },
+    {
+     "label": "Chapeau jaune ou paille, odeur de laurier-cerise, d'amandes amères",
+     "species": "russula-laurocerasi",
+     "img": "p29-1"
+    },
+    {
+     "label": "Chapeau gris, odeur de plastique",
+     "hint": "base du pied tachée de rouge",
+     "species": "russula-pectinatoides"
+    },
+    {
+     "label": "Chapeau gris, odeur d'artichaut",
+     "hint": "pas de rouge à la base",
+     "species": "russula-amoenolens",
+     "img": "p29-1"
+    }
+   ]
+  },
+  "p29-lisse": {
+   "page": 29,
+   "title": "Russules à sporée pâle : bord lisse",
+   "question": "Le pied est-il ferme et robuste, ou tendre et fragile ?",
+   "choices": [
+    {
+     "label": "Pied ferme, blanc à la base, robuste (> 1,5 cm de diam.)",
+     "next": "p29-pied-ferme",
+     "img": "p29-a"
+    },
+    {
+     "label": "Pied tendre, mou ou fragile, < 1,5 (2) cm de diamètre",
+     "hint": "page 30",
+     "next": "p30-pied-tendre"
+    }
+   ]
+  },
+  "p29-pied-ferme": {
+   "page": 29,
+   "title": "Russules à pied ferme et robuste",
+   "question": "Y a-t-il du rouge ou du rose sur le chapeau ?",
+   "choices": [
+    {
+     "label": "Pas de couleur rouge (tout au plus lilacin)",
+     "hint": "espèces à saveur douce",
+     "next": "p29-pas-rouge"
+    },
+    {
+     "label": "Couleurs rouge ou rose présentes",
+     "next": "p29-rouge"
+    }
+   ]
+  },
+  "p29-pas-rouge": {
+   "page": 29,
+   "title": "Russules robustes sans rouge",
+   "question": "Quelle est la couleur du chapeau ?",
+   "choices": [
+    {
+     "label": "Chapeau jaune à jaune-vert uniforme",
+     "hint": "très commune",
+     "species": "russula-ochroleuca"
+    },
+    {
+     "label": "Chapeau brun-rosé, rose « jambon »",
+     "hint": "revêtement typiquement rétréci au niveau de la marge et laissant dépasser les lames",
+     "species": "russula-vesca"
+    },
+    {
+     "label": "Chapeau entièrement craquelé, verdâtre",
+     "species": "russula-virescens"
+    },
+    {
+     "label": "Chapeau vert, lisse ; pied court à base pointue",
+     "species": "russula-heterophylla"
+    },
+    {
+     "label": "Chapeau vert, lisse ; pied long (> au diamètre du chapeau)",
+     "species": "russula-aeruginea"
+    },
+    {
+     "label": "Chapeau mêlé de vert, violacé, rose etc. ; lames molles, non cassantes, à arête blanche",
+     "species": "russula-cyanoxantha"
+    },
+    {
+     "label": "Chapeau mêlé de vert, violacé, rose etc. ; lames cassantes sous les doigts, à arête rose vers la marge",
+     "species": "russula-grisea"
+    }
+   ]
+  },
+  "p29-rouge": {
+   "page": 29,
+   "title": "Russules robustes avec du rouge ou du rose",
+   "question": "Le revêtement du chapeau se sépare-t-il ?",
+   "choices": [
+    {
+     "label": "Revêtement du chapeau non séparable",
+     "next": "p29-non-separable"
+    },
+    {
+     "label": "Revêtement du chapeau séparable",
+     "next": "p29-separable"
+    }
+   ]
+  },
+  "p29-non-separable": {
+   "page": 29,
+   "title": "Russules robustes : revêtement non séparable",
+   "question": "Comment est la surface du chapeau ?",
+   "choices": [
+    {
+     "label": "Surface veloutée, chair compacte à saveur rappelant le bois de crayon",
+     "hint": "pied dur comme du plâtre",
+     "species": "russula-lepida"
+    },
+    {
+     "label": "Surface luisante, odeur fruitée",
+     "hint": "lames tachées de jaune dans les blessures (lent)",
+     "species": "russula-luteotacta"
+    }
+   ]
+  },
+  "p29-separable": {
+   "page": 29,
+   "title": "Russules robustes : revêtement séparable",
+   "question": "Comment est le pied et la couleur du chapeau ?",
+   "choices": [
+    {
+     "label": "Pied blanc, chapeau rouge sombre à noirâtre",
+     "hint": "parfois brouillé de vert",
+     "species": "russula-atropurpurea"
+    },
+    {
+     "label": "Pied blanc grisonnant, chapeau rose bonbon",
+     "hint": "souvent en partie (voire totalement) décoloré en gris pâle ou crème",
+     "species": "russula-exalbicans"
+    },
+    {
+     "label": "Pied teinté de rose, chapeau rose cuivré décolorant au centre",
+     "hint": "arête des lames rose",
+     "species": "russula-velenovskyi"
+    }
+   ]
+  },
+  "p30-pied-tendre": {
+   "page": 30,
+   "title": "Russules à sporée pâle : pied tendre, mou ou fragile",
+   "question": "Quelle est la couleur du chapeau ?",
+   "choices": [
+    {
+     "label": "Chapeau à jaune dominant ou uniforme",
+     "next": "p30-jaune"
+    },
+    {
+     "label": "Chapeau lilacin, violet, ± bariolé (polychrome)",
+     "next": "p30-polychrome"
+    },
+    {
+     "label": "Chapeau rouge vif à orangé",
+     "hint": "éventuellement décoloré au centre ; pied généralement blanc",
+     "next": "p30-rouge-vif"
+    },
+    {
+     "label": "Chapeau rouge-pourpre (souvent à centre noirâtre)",
+     "next": "p30-rouge-pourpre"
+    }
+   ]
+  },
+  "p30-jaune": {
+   "page": 30,
+   "title": "Russules à pied tendre : chapeau jaune",
+   "question": "Quelle est la taille et l'odeur ?",
+   "choices": [
+    {
+     "label": "Espèce grande ou moyenne (8-12 cm) à cuticule lisse d'un jaune ocracé",
+     "hint": "contrastant avec les lames et le pied blancs ; odeur faible ; très fréquente",
+     "species": "russula-ochroleuca"
+    },
+    {
+     "label": "Espèce petite ou moyenne (5-7 cm) entièrement ocre-fauve",
+     "hint": "odeur forte (compote de pomme)",
+     "species": "russula-fellea"
+    }
+   ]
+  },
+  "p30-polychrome": {
+   "page": 30,
+   "title": "Russules à pied tendre : chapeau lilacin, violet, bariolé",
+   "question": "Le centre du chapeau est-il vert ?",
+   "choices": [
+    {
+     "label": "Fragile, à centre vert, sous feuillus",
+     "species": "russula-fragilis"
+    },
+    {
+     "label": "Plus charnue, chapeau pourpré ou bariolé sans teinte verte",
+     "species": "russula-knauthii"
+    }
+   ]
+  },
+  "p30-rouge-vif": {
+   "page": 30,
+   "title": "Russules à pied tendre : chapeau rouge vif à orangé",
+   "question": "De quelle couleur est la chair sous le revêtement ?",
+   "intro": "Revêtement séparable.",
+   "choices": [
+    {
+     "label": "Chair blanche sous le revêtement",
+     "species": "russula-sylvestris"
+    },
+    {
+     "label": "Chair rose sous le revêtement ; pied lisse, odeur fruitée, saveur âcre",
+     "species": "russula-fageticola"
+    },
+    {
+     "label": "Chair rose sous le revêtement ; pied pruineux au sommet, odeur nulle, saveur douce",
+     "species": "russula-aurora"
+    }
+   ]
+  },
+  "p30-rouge-pourpre": {
+   "page": 30,
+   "title": "Russules à pied tendre : chapeau rouge-pourpre",
+   "question": "Comment se tache le pied ?",
+   "choices": [
+    {
+     "label": "Pied blanc taché de rouille vers la base, grisonnant, saveur peu âcre",
+     "hint": "espèce assez friable",
+     "species": "russula-atropurpurea"
+    },
+    {
+     "label": "Mêmes caractères mais pied se tachant uniformément de jaune",
+     "hint": "espèce très compacte",
+     "species": "russula-artesiana"
+    }
+   ]
+  },
+  "p30-sporee-ocre": {
+   "page": 30,
+   "title": "Russules à sporée ocre à jaune",
+   "question": "Quelle est la couleur du pied ?",
+   "choices": [
+    {
+     "label": "Pied coloré (rose, violacé), au moins à la base ou sous les lames",
+     "next": "p30-pied-colore"
+    },
+    {
+     "label": "Pied jaune vif uniforme, comme l'arête des lames",
+     "species": "russula-aurea"
+    },
+    {
+     "label": "Pied blanc, mais pouvant brunir ou jaunir depuis la base",
+     "next": "p30-pied-blanc"
+    }
+   ]
+  },
+  "p30-pied-colore": {
+   "page": 30,
+   "title": "Russules à sporée ocre : pied coloré",
+   "question": "Quelle est l'odeur ?",
+   "choices": [
+    {
+     "label": "Odeur fruitée, de pomme fraîche",
+     "next": "p30-pomme"
+    },
+    {
+     "label": "Odeur nulle",
+     "next": "p30-odeur-nulle"
+    }
+   ]
+  },
+  "p30-pomme": {
+   "page": 30,
+   "title": "Russules à pied coloré, odeur de pomme fraîche",
+   "question": "Quelle est la couleur du chapeau ?",
+   "choices": [
+    {
+     "label": "Chapeau violacé sombre (± verdâtre ou lilacin) ; pied violacé",
+     "next": "p30-pomme-violace"
+    },
+    {
+     "label": "Chapeau rouge-rose",
+     "hint": "lames ochracées assez pâles ; lames décurrentes, sous pins",
+     "species": "russula-sanguinaria"
+    }
+   ]
+  },
+  "p30-pomme-violace": {
+   "page": 30,
+   "title": "Russules à chapeau violacé sombre, odeur de pomme",
+   "question": "Quelles sont les lames et l'habitat ?",
+   "choices": [
+    {
+     "label": "Lames ocracé terne, sous épicéas",
+     "species": "russula-queletii"
+    },
+    {
+     "label": "Lames à net reflet jaune, sous les pins",
+     "species": "russula-drimeia"
+    }
+   ]
+  },
+  "p30-odeur-nulle": {
+   "page": 30,
+   "title": "Russules à pied coloré, sans odeur",
+   "question": "Le chapeau est-il strié ?",
+   "choices": [
+    {
+     "label": "Chapeau strié-cannelé au bord",
+     "hint": "pied fragile, rosé vers la base",
+     "species": "russula-nitida"
+    },
+    {
+     "label": "Chapeau non strié ; pied robuste, rose jusque sous les lames",
+     "next": "p30-non-strie"
+    }
+   ]
+  },
+  "p30-non-strie": {
+   "page": 30,
+   "title": "Russules à chapeau non strié, pied robuste rose",
+   "question": "Y a-t-il une odeur ou un brunissement ?",
+   "choices": [
+    {
+     "label": "Pas d'odeur, base du pied non brunissante",
+     "species": "russula-olivacea"
+    },
+    {
+     "label": "Odeur de crustacés et brunissement à la base du pied",
+     "species": "russula-xerampelina"
+    }
+   ]
+  },
+  "p30-pied-blanc": {
+   "page": 30,
+   "title": "Russules à sporée ocre : pied blanc",
+   "question": "Le pied est-il taché de jaune ?",
+   "choices": [
+    {
+     "label": "Pied taché ou sali de jaune à la base ou à mi-hauteur",
+     "next": "p30-pied-jaune-tache"
+    },
+    {
+     "label": "Pied blanc immuable",
+     "next": "p30-pied-immuable"
+    }
+   ]
+  },
+  "p30-pied-jaune-tache": {
+   "page": 30,
+   "title": "Russules à pied blanc taché de jaune",
+   "question": "Quelle est l'odeur ?",
+   "choices": [
+    {
+     "label": "Odeur forte de miel à la base",
+     "hint": "espèce assez charnue à pied dur",
+     "species": "russula-melliolens"
+    },
+    {
+     "label": "Odeur à peine fruitée",
+     "hint": "espèce fragile à pied mou",
+     "species": "russula-versicolor"
+    }
+   ]
+  },
+  "p30-pied-immuable": {
+   "page": 30,
+   "title": "Russules à pied blanc immuable",
+   "question": "Quelle est la couleur du chapeau ?",
+   "choices": [
+    {
+     "label": "Chapeau jaune, ou dominé par le jaune",
+     "next": "p30-chapeau-jaune"
+    },
+    {
+     "label": "Chapeau rouge carminé au bord, décoloré au centre",
+     "hint": "arête des lames roses vers la marge, pied ferme",
+     "species": "russula-velenovskyi",
+     "note": "À pied mou fragile, voir Russula risigallina."
+    },
+    {
+     "label": "Chapeau rose, décolorant en gris",
+     "hint": "pied blanc grisonnant avec l'âge ; sous bouleaux",
+     "species": "russula-exalbicans"
+    },
+    {
+     "label": "Chapeau lilas ou violacé",
+     "hint": "toujours sous pins",
+     "next": "p31-lilas"
+    },
+    {
+     "label": "Polychrome (couleurs mêlées ou panachées : violacé, rose, jaune, verdâtre)",
+     "hint": "toujours sous feuillus",
+     "next": "p31-polychrome"
+    }
+   ]
+  },
+  "p30-chapeau-jaune": {
+   "page": 30,
+   "title": "Russules à pied blanc immuable : chapeau jaune",
+   "question": "Le pied est-il ferme ou grêle ?",
+   "choices": [
+    {
+     "label": "Pied ferme, espèce moyenne à grande",
+     "hint": "sporée ocre ; espèce noircissante par altération",
+     "species": "russula-claroflava"
+    },
+    {
+     "label": "Pied grêle, mou, petites espèces à chapeau < 4 cm de diamètre",
+     "hint": "sporée jaune profond",
+     "next": "p30-grele"
+    }
+   ]
+  },
+  "p30-grele": {
+   "page": 30,
+   "title": "Russules jaunes à pied grêle et mou",
+   "question": "Quelle est la couleur du chapeau ?",
+   "choices": [
+    {
+     "label": "Chapeau rose au bord, jaune au centre",
+     "species": "russula-risigallina"
+    },
+    {
+     "label": "Chapeau jaune uni",
+     "species": "russula-acetolens"
+    }
+   ]
+  },
+  "p31-lilas": {
+   "page": 31,
+   "title": "Russules à chapeau lilas ou violacé (sous pins)",
+   "question": "Quelle est la couleur du chapeau ?",
+   "choices": [
+    {
+     "label": "Violet sombre, mamelon toujours présent au centre",
+     "species": "russula-amara"
+    },
+    {
+     "label": "Violet ou rosé, à marge pâle (cocarde)",
+     "hint": "chapeau visqueux au centre, pruineux à la marge, pied à odeur (faible) d'iodoforme à la base",
+     "species": "russula-turci"
+    }
+   ]
+  },
+  "p31-polychrome": {
+   "page": 31,
+   "title": "Russules polychromes (sous feuillus)",
+   "question": "Comment sont les lames ?",
+   "choices": [
+    {
+     "label": "Lames jaune clair très friables, saveur douce",
+     "species": "russula-romelii"
+    },
+    {
+     "label": "Lames jaunes vif peu friables, saveur âcre",
+     "next": "p31-polychrome-acre"
+    }
+   ]
+  },
+  "p31-polychrome-acre": {
+   "page": 31,
+   "title": "Russules polychromes à lames jaune vif, saveur âcre",
+   "question": "La marge du chapeau est-elle striée ?",
+   "choices": [
+    {
+     "label": "Chapeau non strié",
+     "species": "russula-decipiens"
+    },
+    {
+     "label": "Marge nettement striée",
+     "species": "russula-cuprea"
+    }
+   ]
+  }
+ },
+ "species": {
+  "lactarius-piperatus": {
+   "latin": "Lactarius piperatus",
+   "fr": "lactaire poivré",
+   "group": "Lactaires",
+   "edibility": "inconnu",
+   "note": "Chapeau et pied blancs ; lames blanches extrêmement serrées ; chapeau non velouté.",
+   "confusions": [],
+   "images": [
+    "p27-a"
+   ],
+   "pages": [
+    27
+   ]
+  },
+  "lactarius-vellereus": {
+   "latin": "Lactarius vellereus",
+   "fr": "lactaire velouté",
+   "group": "Lactaires",
+   "edibility": "inconnu",
+   "note": "Chapeau et pied blancs ; lames blanches peu serrées ; chapeau velouté.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    27
+   ]
+  },
+  "lactarius-controversus": {
+   "latin": "Lactarius controversus",
+   "fr": "lactaire des peupliers",
+   "group": "Lactaires",
+   "edibility": "inconnu",
+   "note": "Chapeau et pied blancs ; lames crème rosé ou franchement roses.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    27
+   ]
+  },
+  "lactarius-torminosus": {
+   "latin": "Lactarius torminosus",
+   "fr": "lactaire à toison",
+   "group": "Lactaires",
+   "edibility": "inconnu",
+   "note": "Chapeau à zones concentriques, marge poilue ; rose jambon, rougeâtre ou fauve.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    27
+   ]
+  },
+  "lactarius-pubescens": {
+   "latin": "Lactarius pubescens",
+   "fr": "lactaire pubescent",
+   "group": "Lactaires",
+   "edibility": "inconnu",
+   "note": "Chapeau rose très pâle, marge poilue, lait rare ; sous bouleaux, souvent dans les pelouses ; zoné ou non.",
+   "confusions": [],
+   "images": [
+    "p27-2"
+   ],
+   "pages": [
+    27
+   ]
+  },
+  "lactarius-deliciosus": {
+   "latin": "Lactarius deliciosus",
+   "fr": "lactaire délicieux",
+   "group": "Lactaires",
+   "edibility": "comestible",
+   "note": "Chapeau à zones concentriques, marge lisse ; lait orangé à vineux.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    27
+   ]
+  },
+  "lactarius-blennius": {
+   "latin": "Lactarius blennius",
+   "fr": "lactaire muqueux",
+   "group": "Lactaires",
+   "edibility": "inconnu",
+   "note": "Chapeau gris cendré, visqueux sur le frais ; lait blanc immuable ; chapeau verdâtre et pied creux, mou, < 2 cm de diam. sous hêtres.",
+   "confusions": [],
+   "images": [
+    "p28-5"
+   ],
+   "pages": [
+    27,
+    28
+   ]
+  },
+  "lactarius-necator": {
+   "latin": "Lactarius necator",
+   "fr": "lactaire plombé",
+   "group": "Lactaires",
+   "edibility": "inconnu",
+   "note": "Chapeau bronze (gris-verdâtre sombre), zoné ; lait blanc immuable.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    27
+   ]
+  },
+  "lactarius-zonarius": {
+   "latin": "Lactarius zonarius",
+   "fr": "lactaire zoné",
+   "group": "Lactaires",
+   "edibility": "inconnu",
+   "note": "Chapeau jaune à orangé, zoné ; lait blanc immuable.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    27
+   ]
+  },
+  "lactarius-quietus": {
+   "latin": "Lactarius quietus",
+   "fr": "lactaire punaise",
+   "group": "Lactaires",
+   "edibility": "inconnu",
+   "note": "Chapeau rougeâtre ou gris-ocre terne ; odeur de punaise (ou de wassingue) ; base du pied rouge vineux.",
+   "confusions": [],
+   "images": [
+    "p27-3"
+   ],
+   "pages": [
+    27
+   ]
+  },
+  "lactarius-chrysorrheus": {
+   "latin": "Lactarius chrysorrheus",
+   "fr": "lactaire à lait jaune",
+   "group": "Lactaires",
+   "edibility": "inconnu",
+   "note": "Chapeau rosâtre zoné ; lait blanc jaunissant en 10 secondes.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    27
+   ]
+  },
+  "lactarius-uvidus": {
+   "latin": "Lactarius uvidus",
+   "fr": "lactaire humide",
+   "group": "Lactaires",
+   "edibility": "inconnu",
+   "note": "Chapeau zoné ; lait blanc devenant violet en 1-2 minutes.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    27
+   ]
+  },
+  "lactarius-glyciosmus": {
+   "latin": "Lactarius glyciosmus",
+   "fr": "lactaire à bonne odeur",
+   "group": "Lactaires",
+   "edibility": "inconnu",
+   "note": "Chapeau gris, sec ; odeur de noix de coco ; lait peu abondant, sans trace en séchant.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    27
+   ]
+  },
+  "lactarius-azonites": {
+   "latin": "Lactarius azonites",
+   "fr": "lactaire fuligineux",
+   "group": "Lactaires",
+   "edibility": "inconnu",
+   "note": "Chapeau gris, sec ; odeur de bois de crayon ; lait abondant séchant en traces roses en 2-3 min ; la chair rosit.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    27
+   ]
+  },
+  "lactarius-vietus": {
+   "latin": "Lactarius vietus",
+   "fr": "lactaire ridé",
+   "group": "Lactaires",
+   "edibility": "inconnu",
+   "note": "Chapeau gris, sec ; sans odeur notable ; lait séchant en dépôts gris sur les lames.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    27
+   ]
+  },
+  "lactarius-camphoratus": {
+   "latin": "Lactarius camphoratus",
+   "fr": "lactaire camphré",
+   "group": "Lactaires",
+   "edibility": "inconnu",
+   "note": "Chapeau rougeâtre, sec ; base du pied rouge vineux ; odeur de « viandox » (ou céleri).",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    27
+   ]
+  },
+  "lactarius-rufus": {
+   "latin": "Lactarius rufus",
+   "fr": "lactaire roux",
+   "group": "Lactaires",
+   "edibility": "inconnu",
+   "note": "Chapeau à mamelon aigu, brun-rouge, rugueux au toucher.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    27
+   ]
+  },
+  "lactarius-helvus": {
+   "latin": "Lactarius helvus",
+   "fr": "",
+   "group": "Lactaires",
+   "edibility": "toxique",
+   "note": "Grosse espèce (chapeau > 5 cm) à mamelon bas, jaune pâle à orangé ; odeur forte de céleri ; lait incolore.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    27
+   ]
+  },
+  "lactarius-pterosporus": {
+   "latin": "Lactarius pterosporus",
+   "fr": "lactaire à spores ailées",
+   "group": "Lactaires",
+   "edibility": "inconnu",
+   "note": "Espèce moyenne à chair et lames rosissantes à l'air ; odeur de bois de crayon.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    27
+   ]
+  },
+  "lactarius-subsericatus": {
+   "latin": "Lactarius subsericatus",
+   "fr": "",
+   "group": "Lactaires",
+   "edibility": "inconnu",
+   "note": "Petite espèce grêle à lait blanc non rosissant ; chapeau jaune au bord, orangé à roux au centre.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    28
+   ]
+  },
+  "lactarius-cimicarius": {
+   "latin": "Lactarius cimicarius",
+   "fr": "",
+   "group": "Lactaires",
+   "edibility": "inconnu",
+   "note": "Petite espèce ; chapeau gris terne à brun sombre ; lait séreux (translucide) ; odeur de punaise.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    28
+   ]
+  },
+  "lactarius-subdulcis": {
+   "latin": "Lactarius subdulcis",
+   "fr": "",
+   "group": "Lactaires",
+   "edibility": "inconnu",
+   "note": "Petite espèce ; chapeau gris terne à brun sombre ; lait blanc ; odeur faible, de caoutchouc.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    28
+   ]
+  },
+  "lactarius-tabidus": {
+   "latin": "Lactarius tabidus",
+   "fr": "lactaire fané",
+   "group": "Lactaires",
+   "edibility": "inconnu",
+   "note": "Petite espèce fragile ; chapeau jaune pâle à ocre clair, souvent ridé au centre ; pied concolore.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    28
+   ]
+  },
+  "lactarius-lacunarum": {
+   "latin": "Lactarius lacunarum",
+   "fr": "lactaire des mares",
+   "group": "Lactaires",
+   "edibility": "inconnu",
+   "note": "Chapeau jaune orangé ou brun-orangé terne uniforme ; pied plus rouge vers la base.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    28
+   ]
+  },
+  "lactarius-aurantiacus": {
+   "latin": "Lactarius aurantiacus",
+   "fr": "lactaire orangé",
+   "group": "Lactaires",
+   "edibility": "inconnu",
+   "note": "Chapeau et pied orangé vif uniforme.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    28
+   ]
+  },
+  "lactarius-pyrogalus": {
+   "latin": "Lactarius pyrogalus",
+   "fr": "lactaire brûlant",
+   "group": "Lactaires",
+   "edibility": "inconnu",
+   "note": "Chapeau lisse gris pâle à verdâtre ; lames ocracées, espacées.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    28
+   ]
+  },
+  "lactarius-trivialis": {
+   "latin": "Lactarius trivialis",
+   "fr": "lactaire commun",
+   "group": "Lactaires",
+   "edibility": "inconnu",
+   "note": "Chapeau lisse violacé au début, devenant gris livide avec l'âge ; pied creux, mou ; sous bouleaux.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    28
+   ]
+  },
+  "lactarius-turpis": {
+   "latin": "Lactarius turpis",
+   "fr": "lactaire plombé",
+   "group": "Lactaires",
+   "edibility": "inconnu",
+   "note": "Chapeau lisse couleur bronze ; pied plein ou très ferme, > 2 cm de diam. ; sous bouleaux.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    28
+   ]
+  },
+  "russula-delica": {
+   "latin": "Russula delica",
+   "fr": "russule sans lait",
+   "group": "Russules",
+   "edibility": "inconnu",
+   "note": "Chapeau et pied blancs, chair blanche immuable ; chapeau vite en entonnoir (lactarioïde), blanc ou sale ; lamellules régulières.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    29
+   ]
+  },
+  "russula-nigricans": {
+   "latin": "Russula nigricans",
+   "fr": "russule noircissante",
+   "group": "Russules",
+   "edibility": "inconnu",
+   "note": "Chapeau et pied gris, brunâtres, noirâtres ; lames espacées ; chair rougissant vivement à la coupe (1-3 min).",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    29
+   ]
+  },
+  "russula-densifolia": {
+   "latin": "Russula densifolia",
+   "fr": "russule à lames serrées",
+   "group": "Russules",
+   "edibility": "inconnu",
+   "note": "Chapeau et pied gris, brunâtres, noirâtres ; lames serrées ; rougissement faible.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    29
+   ]
+  },
+  "russula-artesiana": {
+   "latin": "Russula artesiana",
+   "fr": "russule de l'Artois",
+   "group": "Russules",
+   "edibility": "inconnu",
+   "note": "Chapeau cuivré, violacé ou verdâtre ; pied blanc jaunissant (se tachant uniformément de jaune) ; lamellules assez rares ; espèce très compacte.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    29,
+    30
+   ]
+  },
+  "russula-foetens": {
+   "latin": "Russula foetens",
+   "fr": "Russule fétide",
+   "group": "Russules",
+   "edibility": "inconnu",
+   "note": "Chapeau jaune ou paille, bord strié-cannelé ; odeur désagréable de caoutchouc brûlé.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    29
+   ]
+  },
+  "russula-laurocerasi": {
+   "latin": "Russula laurocerasi",
+   "fr": "",
+   "group": "Russules",
+   "edibility": "inconnu",
+   "note": "Chapeau jaune ou paille, bord strié-cannelé ; odeur de laurier-cerise, d'amandes amères.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    29
+   ]
+  },
+  "russula-pectinatoides": {
+   "latin": "Russula pectinatoides",
+   "fr": "",
+   "group": "Russules",
+   "edibility": "inconnu",
+   "note": "Chapeau gris, bord strié-cannelé ; odeur de plastique ; base du pied tachée de rouge.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    29
+   ]
+  },
+  "russula-amoenolens": {
+   "latin": "Russula amoenolens",
+   "fr": "",
+   "group": "Russules",
+   "edibility": "inconnu",
+   "note": "Chapeau gris, bord strié-cannelé ; odeur d'artichaut ; pas de rouge à la base.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    29
+   ]
+  },
+  "russula-ochroleuca": {
+   "latin": "Russula ochroleuca",
+   "fr": "russule blanc et ocre",
+   "group": "Russules",
+   "edibility": "inconnu",
+   "note": "Chapeau jaune à jaune-vert uniforme, lames et pied blancs ; très commune ; saveur douce.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    29,
+    30
+   ]
+  },
+  "russula-vesca": {
+   "latin": "Russula vesca",
+   "fr": "russule jambon",
+   "group": "Russules",
+   "edibility": "comestible",
+   "note": "Chapeau brun-rosé, rose « jambon », revêtement rétréci à la marge et laissant dépasser les lames.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    29
+   ]
+  },
+  "russula-virescens": {
+   "latin": "Russula virescens",
+   "fr": "Palomet",
+   "group": "Russules",
+   "edibility": "comestible",
+   "note": "Chapeau entièrement craquelé, verdâtre.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    29
+   ]
+  },
+  "russula-heterophylla": {
+   "latin": "Russula heterophylla",
+   "fr": "russule à lames fourchues",
+   "group": "Russules",
+   "edibility": "comestible",
+   "note": "Chapeau vert, lisse ; pied court à base pointue.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    29
+   ]
+  },
+  "russula-aeruginea": {
+   "latin": "Russula aeruginea",
+   "fr": "russule vert-de-gris",
+   "group": "Russules",
+   "edibility": "inconnu",
+   "note": "Chapeau vert, lisse ; pied long (> au diamètre du chapeau).",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    29
+   ]
+  },
+  "russula-cyanoxantha": {
+   "latin": "Russula cyanoxantha",
+   "fr": "russule charbonnière",
+   "group": "Russules",
+   "edibility": "comestible",
+   "note": "Chapeau mêlé de vert, violacé, rose ; lames molles, non cassantes, à arête blanche.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    29
+   ]
+  },
+  "russula-grisea": {
+   "latin": "Russula grisea",
+   "fr": "russule grise",
+   "group": "Russules",
+   "edibility": "comestible",
+   "note": "Chapeau mêlé de vert, violacé, rose ; lames cassantes sous les doigts, à arête rose vers la marge.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    29
+   ]
+  },
+  "russula-lepida": {
+   "latin": "Russula lepida",
+   "fr": "russule jolie",
+   "group": "Russules",
+   "edibility": "inconnu",
+   "note": "Revêtement non séparable, surface veloutée ; chair compacte à saveur de bois de crayon ; pied dur comme du plâtre.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    29
+   ]
+  },
+  "russula-luteotacta": {
+   "latin": "Russula luteotacta",
+   "fr": "russule jaune au toucher",
+   "group": "Russules",
+   "edibility": "toxique",
+   "note": "Surface luisante, odeur fruitée ; lames tachées de jaune dans les blessures (lent).",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    29
+   ]
+  },
+  "russula-atropurpurea": {
+   "latin": "Russula atropurpurea",
+   "fr": "russule noire et pourpre",
+   "group": "Russules",
+   "edibility": "inconnu",
+   "note": "Chapeau rouge sombre à noirâtre (parfois brouillé de vert) ; pied blanc, grisonnant, taché de rouille vers la base ; saveur peu âcre ; espèce assez friable.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    29,
+    30
+   ]
+  },
+  "russula-exalbicans": {
+   "latin": "Russula exalbicans",
+   "fr": "russule blanchissante",
+   "group": "Russules",
+   "edibility": "inconnu",
+   "note": "Chapeau rose bonbon, souvent en partie décoloré en gris pâle ou crème ; pied blanc grisonnant avec l'âge ; sous bouleaux.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    29,
+    30
+   ]
+  },
+  "russula-velenovskyi": {
+   "latin": "Russula velenovskyi",
+   "fr": "russule de Velenovsky",
+   "group": "Russules",
+   "edibility": "inconnu",
+   "note": "Chapeau rose cuivré ou rouge carminé au bord, décoloré au centre ; arête des lames rose vers la marge ; pied teinté de rose, ferme.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    29,
+    30
+   ]
+  },
+  "russula-fellea": {
+   "latin": "Russula fellea",
+   "fr": "russule de fiel",
+   "group": "Russules",
+   "edibility": "inconnu",
+   "note": "Espèce petite ou moyenne (5-7 cm), entièrement ocre-fauve ; odeur forte de compote de pomme ; pied tendre.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    30
+   ]
+  },
+  "russula-fragilis": {
+   "latin": "Russula fragilis",
+   "fr": "russule fragile",
+   "group": "Russules",
+   "edibility": "inconnu",
+   "note": "Chapeau lilacin, violet, bariolé ; fragile, à centre vert ; sous feuillus.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    30
+   ]
+  },
+  "russula-knauthii": {
+   "latin": "Russula knauthii",
+   "fr": "",
+   "group": "Russules",
+   "edibility": "inconnu",
+   "note": "Chapeau pourpré ou bariolé sans teinte verte ; plus charnue que R. fragilis.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    30
+   ]
+  },
+  "russula-sylvestris": {
+   "latin": "Russula sylvestris",
+   "fr": "russule émétique des chênes",
+   "group": "Russules",
+   "edibility": "toxique",
+   "note": "Chapeau rouge vif à orangé, revêtement séparable ; chair blanche sous le revêtement.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    30
+   ]
+  },
+  "russula-fageticola": {
+   "latin": "Russula fageticola",
+   "fr": "russule émétique des hêtres",
+   "group": "Russules",
+   "edibility": "toxique",
+   "note": "Chapeau rouge vif à orangé, chair rose sous le revêtement ; pied lisse, odeur fruitée, saveur âcre.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    30
+   ]
+  },
+  "russula-aurora": {
+   "latin": "Russula aurora",
+   "fr": "russule aurore",
+   "group": "Russules",
+   "edibility": "inconnu",
+   "note": "Chapeau rouge vif à orangé, chair rose sous le revêtement ; pied pruineux au sommet, odeur nulle, saveur douce.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    30
+   ]
+  },
+  "russula-queletii": {
+   "latin": "Russula queletii",
+   "fr": "russule de Quélet",
+   "group": "Russules",
+   "edibility": "inconnu",
+   "note": "Sporée ocre à jaune ; chapeau violacé sombre, pied violacé, odeur de pomme fraîche ; lames ocracé terne ; sous épicéas.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    30
+   ]
+  },
+  "russula-drimeia": {
+   "latin": "Russula drimeia",
+   "fr": "russule sardoine",
+   "group": "Russules",
+   "edibility": "inconnu",
+   "note": "Sporée ocre à jaune ; chapeau violacé sombre, pied violacé, odeur de pomme fraîche ; lames à net reflet jaune ; sous les pins.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    30
+   ]
+  },
+  "russula-sanguinaria": {
+   "latin": "Russula sanguinaria",
+   "fr": "russule sanguine",
+   "group": "Russules",
+   "edibility": "inconnu",
+   "note": "Sporée ocre à jaune ; chapeau rouge-rose, pied coloré, odeur fruitée ; lames ochracées assez pâles, décurrentes ; sous pins.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    30
+   ]
+  },
+  "russula-nitida": {
+   "latin": "Russula nitida",
+   "fr": "russule brillante",
+   "group": "Russules",
+   "edibility": "inconnu",
+   "note": "Sporée ocre à jaune ; chapeau strié-cannelé au bord ; pied fragile, rosé vers la base ; odeur nulle.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    30
+   ]
+  },
+  "russula-olivacea": {
+   "latin": "Russula olivacea",
+   "fr": "russule olivacée",
+   "group": "Russules",
+   "edibility": "toxique",
+   "note": "Sporée ocre à jaune ; chapeau non strié ; pied robuste, rose jusque sous les lames ; pas d'odeur, base du pied non brunissante.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    30
+   ]
+  },
+  "russula-xerampelina": {
+   "latin": "Russula xerampelina",
+   "fr": "russule feuille-morte",
+   "group": "Russules",
+   "edibility": "inconnu",
+   "note": "Sporée ocre à jaune ; pied robuste rose ; odeur de crustacés et brunissement à la base du pied.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    30
+   ]
+  },
+  "russula-aurea": {
+   "latin": "Russula aurea",
+   "fr": "russule dorée",
+   "group": "Russules",
+   "edibility": "comestible",
+   "note": "Sporée ocre à jaune ; pied jaune vif uniforme, comme l'arête des lames.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    30
+   ]
+  },
+  "russula-melliolens": {
+   "latin": "Russula melliolens",
+   "fr": "russule à odeur de miel",
+   "group": "Russules",
+   "edibility": "inconnu",
+   "note": "Sporée ocre à jaune ; pied blanc taché de jaune ; odeur forte de miel à la base ; espèce assez charnue à pied dur.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    30
+   ]
+  },
+  "russula-versicolor": {
+   "latin": "Russula versicolor",
+   "fr": "russule versicolore",
+   "group": "Russules",
+   "edibility": "inconnu",
+   "note": "Sporée ocre à jaune ; pied blanc taché de jaune ; odeur à peine fruitée ; espèce fragile à pied mou.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    30
+   ]
+  },
+  "russula-claroflava": {
+   "latin": "Russula claroflava",
+   "fr": "russule jaune clair",
+   "group": "Russules",
+   "edibility": "inconnu",
+   "note": "Chapeau jaune ; pied blanc immuable, ferme ; espèce moyenne à grande ; sporée ocre ; noircissante par altération.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    30
+   ]
+  },
+  "russula-risigallina": {
+   "latin": "Russula risigallina",
+   "fr": "russule caméléon",
+   "group": "Russules",
+   "edibility": "inconnu",
+   "note": "Petite espèce (chapeau < 4 cm), pied grêle et mou ; chapeau rose au bord, jaune au centre ; sporée jaune profond.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    30
+   ]
+  },
+  "russula-acetolens": {
+   "latin": "Russula acetolens",
+   "fr": "russule à odeur de vinaigre",
+   "group": "Russules",
+   "edibility": "inconnu",
+   "note": "Petite espèce (chapeau < 4 cm), pied grêle et mou ; chapeau jaune uni ; sporée jaune profond.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    30
+   ]
+  },
+  "russula-amara": {
+   "latin": "Russula amara",
+   "fr": "russule amère",
+   "group": "Russules",
+   "edibility": "inconnu",
+   "note": "Chapeau violet sombre, mamelon toujours présent au centre ; toujours sous pins.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    31
+   ]
+  },
+  "russula-turci": {
+   "latin": "Russula turci",
+   "fr": "russule à cocarde",
+   "group": "Russules",
+   "edibility": "inconnu",
+   "note": "Chapeau violet ou rosé à marge pâle (cocarde), visqueux au centre, pruineux à la marge ; odeur faible d'iodoforme à la base du pied ; sous pins.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    31
+   ]
+  },
+  "russula-romelii": {
+   "latin": "Russula romelii",
+   "fr": "",
+   "group": "Russules",
+   "edibility": "inconnu",
+   "note": "Polychrome, sous feuillus ; lames jaune clair très friables ; saveur douce.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    31
+   ]
+  },
+  "russula-decipiens": {
+   "latin": "Russula decipiens",
+   "fr": "russule trompeuse",
+   "group": "Russules",
+   "edibility": "inconnu",
+   "note": "Polychrome, sous feuillus ; lames jaunes vif peu friables, saveur âcre ; chapeau non strié.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    31
+   ]
+  },
+  "russula-cuprea": {
+   "latin": "Russula cuprea",
+   "fr": "russule cuivrée",
+   "group": "Russules",
+   "edibility": "inconnu",
+   "note": "Polychrome, sous feuillus ; lames jaunes vif peu friables, saveur âcre ; marge nettement striée.",
+   "confusions": [],
+   "images": [],
+   "pages": [
+    31
+   ]
+  }
+ },
+ "figures": [
+  {
+   "name": "p27-a",
+   "page": 27,
+   "box": [
+    0.77,
+    0.04,
+    0.99,
+    0.18
+   ],
+   "species": "lactarius-piperatus",
+   "caption": "Lactaire en entonnoir à lames serrées (flèche vers L. piperatus)"
+  },
+  {
+   "name": "p27-2",
+   "page": 27,
+   "box": [
+    0.765,
+    0.22,
+    0.97,
+    0.35
+   ],
+   "species": "lactarius-pubescens",
+   "caption": "Lactaire à marge poilue (2)"
+  },
+  {
+   "name": "p27-3",
+   "page": 27,
+   "box": [
+    0.81,
+    0.43,
+    0.97,
+    0.535
+   ],
+   "species": "lactarius-quietus",
+   "caption": "Chapeau à zones concentriques, pied à base sombre (3)"
+  },
+  {
+   "name": "p27-b",
+   "page": 27,
+   "box": [
+    0.715,
+    0.495,
+    0.88,
+    0.6
+   ],
+   "caption": "Lactaire en entonnoir avec gouttes de lait, sans numéro"
+  },
+  {
+   "name": "p28-5",
+   "page": 28,
+   "box": [
+    0.08,
+    0.31,
+    0.27,
+    0.44
+   ],
+   "species": "lactarius-blennius",
+   "caption": "Lactaire muqueux, pied creux en coupe (5)"
+  },
+  {
+   "name": "p29-1",
+   "page": 29,
+   "box": [
+    0.77,
+    0.34,
+    0.99,
+    0.46
+   ],
+   "caption": "Russule à bord strié-cannelé (1)"
+  },
+  {
+   "name": "p29-a",
+   "page": 29,
+   "box": [
+    0.04,
+    0.51,
+    0.19,
+    0.65
+   ],
+   "caption": "Russule à pied robuste, court et blanc"
+  },
+  {
+   "name": "p31-a",
+   "page": 31,
+   "box": [
+    0.18,
+    0.39,
+    0.37,
+    0.52
+   ],
+   "caption": "Russule à chapeau squamuleux foncé, pied blanc"
+  },
+  {
+   "name": "p31-b",
+   "page": 31,
+   "box": [
+    0.47,
+    0.41,
+    0.66,
+    0.53
+   ],
+   "caption": "Russule à chapeau sombre, détail de la base du pied"
+  },
+  {
+   "name": "p31-c",
+   "page": 31,
+   "box": [
+    0.69,
+    0.41,
+    0.91,
+    0.54
+   ],
+   "caption": "Russule à chapeau sombre brillant, lames et coupe du pied"
+  }
+ ]
+}

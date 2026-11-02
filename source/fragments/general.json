@@ -1,0 +1,751 @@
+{
+  "nodes": {
+    "p03": {
+      "page": 3,
+      "title": "Clé générale",
+      "question": "Quel est le type d'hyménophore (la partie fertile sous le chapeau) ?",
+      "choices": [
+        {
+          "label": "Hyménophore interne",
+          "hint": "Gasteromycetidae (vesses-de-loup et apparentés)",
+          "next": "p08"
+        },
+        {
+          "label": "Hyménophore lisse (ou mal individualisé)",
+          "hint": "croûtes, arbuscules, trompettes, éponges, coupes, sphères",
+          "next": "p03-lisse"
+        },
+        {
+          "label": "Hyménophore à aiguillons (acuéolé)",
+          "next": "p03-aiguillons"
+        },
+        {
+          "label": "Hyménophore à tubes (tubulé ou poré)",
+          "next": "p03-tubes"
+        },
+        {
+          "label": "Hyménophore à plis",
+          "hint": "Chanterelles",
+          "next": "p03-plis"
+        },
+        {
+          "label": "Hyménophore à lames",
+          "next": "p03-lames"
+        }
+      ]
+    },
+    "p03-lisse": {
+      "page": 3,
+      "title": "Hyménophore lisse",
+      "question": "Dans quelle direction est orientée la partie fertile ?",
+      "choices": [
+        {
+          "label": "Orienté vers le bas (infère) ou amphigène",
+          "hint": "croûtes, arbuscules, trompettes...",
+          "next": "p05"
+        },
+        {
+          "label": "Orienté vers le haut (supère)",
+          "hint": "éponges, coupes, sphères, etc.",
+          "next": "p07"
+        }
+      ]
+    },
+    "p03-aiguillons": {
+      "page": 3,
+      "title": "Hyménophore à aiguillons",
+      "question": "Les aiguillons tombent-ils facilement et la chair est-elle charnue ?",
+      "choices": [
+        {
+          "label": "Espèce charnue, blanche à orangée, chair blanche, aiguillons caducs",
+          "species": "hydnum-repandum"
+        },
+        {
+          "label": "Espèces coriaces, aiguillons non caducs",
+          "next": "p03-coriaces"
+        }
+      ]
+    },
+    "p03-coriaces": {
+      "page": 3,
+      "title": "Aiguillons : espèces coriaces",
+      "question": "Quels sont la chair, l'odeur et le chapeau ?",
+      "choices": [
+        {
+          "label": "Petite espèce sur cônes de pin",
+          "hint": "pied et chapeau poilus",
+          "species": "auriscalpium-vulgare"
+        },
+        {
+          "label": "Chair zonée à la coupe, noire",
+          "hint": "odeur de céleri",
+          "species": "phellodon-niger"
+        },
+        {
+          "label": "Chair zonée, brune",
+          "hint": "odeur de concombre",
+          "species": "hydnellum-ferrugineum"
+        },
+        {
+          "label": "Chair non zonée",
+          "hint": "chapeau écailleux",
+          "species": "sarcodon-imbricatus"
+        }
+      ]
+    },
+    "p03-tubes": {
+      "page": 3,
+      "title": "Hyménophore à tubes",
+      "question": "Les tubes se détachent-ils de la chair du chapeau ?",
+      "choices": [
+        {
+          "label": "Tubes non détachables de la chair du chapeau",
+          "hint": "espèces coriaces, généralement sans pied ou à pied peu distinct ; sur bois : polypores",
+          "next": "p09"
+        },
+        {
+          "label": "Tubes séparables de la chair (sur adultes)",
+          "hint": "pied et chapeau bien différenciés, chair tendre ou cassante ; à terre : bolets",
+          "next": "p10"
+        }
+      ]
+    },
+    "p03-plis": {
+      "page": 3,
+      "title": "Hyménophore à plis : Chanterelles",
+      "question": "Le pied est-il plein ou creux ?",
+      "intro": "NB : les plis sont toujours fourchus, lamellules toujours absentes.",
+      "choices": [
+        {
+          "label": "Pied plein",
+          "hint": "plis fins rappelant les lames, jaune orangé",
+          "species": "cantharellus-cibarius",
+          "img": "p41-a"
+        },
+        {
+          "label": "Pied creux",
+          "hint": "plis anastomosés, grisâtres à jaune sale",
+          "species": "craterellus-tubaeformis"
+        }
+      ]
+    },
+    "p03-lames": {
+      "page": 3,
+      "title": "Hyménophore à lames",
+      "question": "Y a-t-il des traces de voile (général ou partiel) ?",
+      "choices": [
+        {
+          "label": "Présence de traces de voile (général ou partiel)",
+          "next": "p03-voile"
+        },
+        {
+          "label": "Ni voile général ni voile partiel",
+          "hint": "attention, la cortine est souvent fugace et l'anneau peut être labile",
+          "next": "p04"
+        }
+      ]
+    },
+    "p03-voile": {
+      "page": 3,
+      "title": "Lames : traces de voile",
+      "question": "Quel type de voile observe-t-on ?",
+      "choices": [
+        {
+          "label": "Voile général + anneau",
+          "hint": "spores blanches, lames libres : amanites",
+          "next": "p32",
+          "img": "picto-lames-libres"
+        },
+        {
+          "label": "Voile général seul, sans anneau",
+          "next": "p14",
+          "img": "picto-volve-sac"
+        },
+        {
+          "label": "Présence d'une cortine, pas de voile général",
+          "next": "p17",
+          "img": "picto-cortine"
+        },
+        {
+          "label": "Présence d'un anneau ou d'une armille (sans trace de cortine), pas de voile général",
+          "next": "p15",
+          "img": "picto-anneau-descendant"
+        }
+      ]
+    },
+    "p04": {
+      "page": 4,
+      "title": "Lames sans voile général ni partiel",
+      "question": "La chair est-elle cassante et grenue, ou fibreuse ?",
+      "intro": "NB : attention aux espèces fibreuses à chair compacte, pouvant casser facilement à l'état jeune (toujours avec lamellules) : en cas de doute, suivre aussi l'option fibreuse.",
+      "choices": [
+        {
+          "label": "Chair cassante, texture granuleuse ou grenue",
+          "hint": "le pied se brise facilement comme un bâton de craie, la chair s'émiette facilement : russules et lactaires",
+          "next": "p04-grenue",
+          "img": "picto-chair-grenue"
+        },
+        {
+          "label": "Chair fibreuse, texture filamenteuse",
+          "next": "p04-fibreuse",
+          "img": "picto-chair-fibreuse"
+        }
+      ]
+    },
+    "p04-grenue": {
+      "page": 4,
+      "title": "Russules et lactaires",
+      "question": "Y a-t-il du lait à la cassure ?",
+      "intro": "En règle générale. Lactaires : pas de couleurs vives, souvent chapeau, lames et pieds de même teinte, chapeau vite déprimé en entonnoir. Russules : couleurs vives du chapeau, contraste entre la couleur du chapeau et celles des lames et du pied (souvent blanc), chapeau convexe à plat puis déprimé. Rappel : la plupart des russules n'ont pas de lamellules !",
+      "choices": [
+        {
+          "label": "Présence de lait (incolore, blanc ou coloré) à la cassure",
+          "hint": "surtout visible en brisant les lames : lactaires",
+          "next": "p27"
+        },
+        {
+          "label": "Absence de lait à la cassure",
+          "next": "p04-sans-lait"
+        }
+      ]
+    },
+    "p04-sans-lait": {
+      "page": 4,
+      "title": "Sans lait à la cassure",
+      "question": "Comment sont les lames ?",
+      "choices": [
+        {
+          "label": "Lames non ou peu décurrentes, blanches à jaunes",
+          "hint": "russules",
+          "next": "p29"
+        },
+        {
+          "label": "Lames très décurrentes, déliquescentes et brunissant au toucher",
+          "species": "paxillus-involutus",
+          "note": "voir Paxillus, p. 13",
+          "img": "picto-lames-decurrentes"
+        }
+      ]
+    },
+    "p04-fibreuse": {
+      "page": 4,
+      "title": "Chair fibreuse",
+      "question": "Où est inséré le pied ?",
+      "choices": [
+        {
+          "label": "Pied absent, très peu développé, ou nettement latéral",
+          "hint": "espèces pleurotoïdes",
+          "next": "p20"
+        },
+        {
+          "label": "Pied normalement central, ou éventuellement excentré",
+          "next": "p04-central"
+        }
+      ]
+    },
+    "p04-central": {
+      "page": 4,
+      "title": "Pied central ou excentré",
+      "question": "Les lames sont-elles décurrentes ?",
+      "choices": [
+        {
+          "label": "Lames décurrentes",
+          "next": "p12",
+          "img": "picto-lames-decurrentes"
+        },
+        {
+          "label": "Lames non décurrentes",
+          "next": "p21"
+        }
+      ]
+    }
+  },
+  "species": {
+    "hydnum-repandum": {
+      "latin": "Hydnum repandum",
+      "fr": "Pied-de-mouton",
+      "group": "Hyménophore à aiguillons",
+      "edibility": "comestible",
+      "note": "Espèce charnue, blanche à orangée, chair blanche, aiguillons caducs.",
+      "confusions": [],
+      "images": [],
+      "pages": [
+        3
+      ]
+    },
+    "auriscalpium-vulgare": {
+      "latin": "Auriscalpium vulgare",
+      "fr": "Hydne cure-oreilles",
+      "group": "Hyménophore à aiguillons",
+      "edibility": "inconnu",
+      "note": "Espèce coriace, petite, sur cônes de pin, pied et chapeau poilus, aiguillons non caducs.",
+      "confusions": [],
+      "images": [],
+      "pages": [
+        3
+      ]
+    },
+    "phellodon-niger": {
+      "latin": "Phellodon niger",
+      "fr": "Hydne noir",
+      "group": "Hyménophore à aiguillons",
+      "edibility": "inconnu",
+      "note": "Espèce coriace, chair zonée à la coupe, noire, odeur de céleri, aiguillons non caducs.",
+      "confusions": [],
+      "images": [],
+      "pages": [
+        3
+      ]
+    },
+    "hydnellum-ferrugineum": {
+      "latin": "Hydnellum ferrugineum",
+      "fr": "Hydne ferrugineux",
+      "group": "Hyménophore à aiguillons",
+      "edibility": "inconnu",
+      "note": "Espèce coriace, chair zonée, brune, odeur de concombre, aiguillons non caducs.",
+      "confusions": [],
+      "images": [],
+      "pages": [
+        3
+      ]
+    },
+    "sarcodon-imbricatus": {
+      "latin": "Sarcodon imbricatus",
+      "fr": "Hydne imbriqué",
+      "group": "Hyménophore à aiguillons",
+      "edibility": "inconnu",
+      "note": "Espèce coriace, chair non zonée, chapeau écailleux, aiguillons non caducs.",
+      "confusions": [],
+      "images": [],
+      "pages": [
+        3
+      ]
+    },
+    "cantharellus-cibarius": {
+      "latin": "Cantharellus cibarius",
+      "fr": "Girolle",
+      "group": "Chanterelles",
+      "edibility": "comestible",
+      "note": "Pied plein ; plis fins rappelant les lames, jaune orangé. Plis fourchus, lamellules absentes.",
+      "confusions": [],
+      "images": [
+        "p41-a"
+      ],
+      "pages": [
+        3,
+        41
+      ]
+    },
+    "craterellus-tubaeformis": {
+      "latin": "Craterellus tubaeformis",
+      "fr": "Chanterelle en tube",
+      "group": "Chanterelles",
+      "edibility": "comestible",
+      "note": "Pied creux ; plis anastomosés, grisâtres à jaune sale. Plis fourchus, lamellules absentes.",
+      "confusions": [],
+      "images": [],
+      "pages": [
+        3
+      ]
+    }
+  },
+  "figures": [
+    {
+      "name": "picto-lames-libres",
+      "page": 1,
+      "box": [
+        0.144,
+        0.148,
+        0.21,
+        0.214
+      ],
+      "caption": "Lames libres"
+    },
+    {
+      "name": "picto-lames-adnees",
+      "page": 1,
+      "box": [
+        0.354,
+        0.141,
+        0.417,
+        0.208
+      ],
+      "caption": "Lames adnées"
+    },
+    {
+      "name": "picto-lames-echancrees",
+      "page": 1,
+      "box": [
+        0.154,
+        0.22,
+        0.217,
+        0.279
+      ],
+      "caption": "Lames échancrées"
+    },
+    {
+      "name": "picto-lames-decurrentes",
+      "page": 1,
+      "box": [
+        0.375,
+        0.209,
+        0.438,
+        0.27
+      ],
+      "caption": "Lames décurrentes"
+    },
+    {
+      "name": "picto-chapeau-plat",
+      "page": 1,
+      "box": [
+        0.624,
+        0.175,
+        0.698,
+        0.206
+      ],
+      "caption": "Chapeau plat"
+    },
+    {
+      "name": "picto-chapeau-campanule",
+      "page": 1,
+      "box": [
+        0.701,
+        0.172,
+        0.759,
+        0.206
+      ],
+      "caption": "Chapeau campanulé"
+    },
+    {
+      "name": "picto-chapeau-conique",
+      "page": 1,
+      "box": [
+        0.805,
+        0.172,
+        0.856,
+        0.206
+      ],
+      "caption": "Chapeau conique"
+    },
+    {
+      "name": "picto-chapeau-convexe",
+      "page": 1,
+      "box": [
+        0.64,
+        0.246,
+        0.722,
+        0.279
+      ],
+      "caption": "Chapeau convexe"
+    },
+    {
+      "name": "picto-chapeau-infundibuliforme",
+      "page": 1,
+      "box": [
+        0.756,
+        0.245,
+        0.819,
+        0.278
+      ],
+      "caption": "Chapeau infundibuliforme"
+    },
+    {
+      "name": "picto-anneau-descendant",
+      "page": 1,
+      "box": [
+        0.112,
+        0.416,
+        0.154,
+        0.463
+      ],
+      "caption": "Anneau descendant"
+    },
+    {
+      "name": "picto-anneau-ascendant",
+      "page": 1,
+      "box": [
+        0.188,
+        0.415,
+        0.228,
+        0.463
+      ],
+      "caption": "Anneau ascendant"
+    },
+    {
+      "name": "picto-cortine",
+      "page": 1,
+      "box": [
+        0.084,
+        0.496,
+        0.119,
+        0.539
+      ],
+      "caption": "Cortine"
+    },
+    {
+      "name": "picto-anneau-double",
+      "page": 1,
+      "box": [
+        0.161,
+        0.493,
+        0.2,
+        0.541
+      ],
+      "caption": "Anneau double"
+    },
+    {
+      "name": "picto-anneau-coulissant",
+      "page": 1,
+      "box": [
+        0.23,
+        0.496,
+        0.289,
+        0.541
+      ],
+      "caption": "Anneau coulissant"
+    },
+    {
+      "name": "picto-chair-fibreuse",
+      "page": 1,
+      "box": [
+        0.754,
+        0.419,
+        0.794,
+        0.474
+      ],
+      "caption": "Chair fibreuse"
+    },
+    {
+      "name": "picto-chair-grenue",
+      "page": 1,
+      "box": [
+        0.813,
+        0.419,
+        0.85,
+        0.473
+      ],
+      "caption": "Chair grenue"
+    },
+    {
+      "name": "picto-pied-fusiforme",
+      "page": 1,
+      "box": [
+        0.088,
+        0.666,
+        0.118,
+        0.706
+      ],
+      "caption": "Pied fusiforme"
+    },
+    {
+      "name": "picto-pied-ventru",
+      "page": 1,
+      "box": [
+        0.132,
+        0.665,
+        0.179,
+        0.705
+      ],
+      "caption": "Pied ventru"
+    },
+    {
+      "name": "picto-pied-obese",
+      "page": 1,
+      "box": [
+        0.191,
+        0.663,
+        0.256,
+        0.708
+      ],
+      "caption": "Pied obèse"
+    },
+    {
+      "name": "picto-pied-radicant",
+      "page": 1,
+      "box": [
+        0.726,
+        0.639,
+        0.756,
+        0.691
+      ],
+      "caption": "Pied radicant"
+    },
+    {
+      "name": "picto-pied-bulbeux",
+      "page": 1,
+      "box": [
+        0.75,
+        0.638,
+        0.784,
+        0.684
+      ],
+      "caption": "Pied bulbeux"
+    },
+    {
+      "name": "picto-pied-clave",
+      "page": 1,
+      "box": [
+        0.794,
+        0.639,
+        0.826,
+        0.688
+      ],
+      "caption": "Pied clavé"
+    },
+    {
+      "name": "picto-volve-sac",
+      "page": 1,
+      "box": [
+        0.275,
+        0.773,
+        0.349,
+        0.848
+      ],
+      "caption": "Volve en sac"
+    },
+    {
+      "name": "picto-volve-circoncise",
+      "page": 1,
+      "box": [
+        0.398,
+        0.787,
+        0.452,
+        0.836
+      ],
+      "caption": "Volve circoncise (+ plaques sur chapeau)"
+    },
+    {
+      "name": "picto-voile-friable",
+      "page": 1,
+      "box": [
+        0.515,
+        0.77,
+        0.712,
+        0.853
+      ],
+      "caption": "Voile général friable (+ flocons sur chapeau)"
+    },
+    {
+      "name": "picto-anatomie",
+      "page": 1,
+      "box": [
+        0.231,
+        0.278,
+        0.673,
+        0.588
+      ],
+      "caption": "Anatomie d'un champignon : trois groupes d'hyménophore, chapeau, pied"
+    },
+    {
+      "name": "picto-sporee",
+      "page": 2,
+      "box": [
+        0.07,
+        0.518,
+        0.281,
+        0.64
+      ],
+      "caption": "Sporée : champignon dont le chapeau repose sur un papier (méthode de laboratoire)"
+    },
+    {
+      "name": "p02-a",
+      "page": 2,
+      "box": [
+        0.07,
+        0.665,
+        0.263,
+        0.78
+      ],
+      "caption": "Observation approximative de la sporée sur le terrain"
+    },
+    {
+      "name": "p02-b",
+      "page": 2,
+      "box": [
+        0.07,
+        0.795,
+        0.245,
+        0.905
+      ],
+      "caption": "Pied courbé (A) et pied à anneau (B) : dépôt de spores sur le pied"
+    },
+    {
+      "name": "p02-c",
+      "page": 2,
+      "box": [
+        0.091,
+        0.145,
+        0.273,
+        0.3
+      ],
+      "caption": "Forme générale : pied et chapeau, en coupe"
+    },
+    {
+      "name": "silhouette-clitocyboide",
+      "page": 2,
+      "box": [
+        0.4,
+        0.82,
+        0.491,
+        0.898
+      ],
+      "caption": "Silhouette clitocyboïde"
+    },
+    {
+      "name": "silhouette-collybioide",
+      "page": 2,
+      "box": [
+        0.501,
+        0.82,
+        0.582,
+        0.898
+      ],
+      "caption": "Silhouette collybioïde"
+    },
+    {
+      "name": "silhouette-mycenoide",
+      "page": 2,
+      "box": [
+        0.589,
+        0.82,
+        0.645,
+        0.895
+      ],
+      "caption": "Silhouette mycénoïde"
+    },
+    {
+      "name": "silhouette-marasmioide",
+      "page": 2,
+      "box": [
+        0.68,
+        0.818,
+        0.747,
+        0.893
+      ],
+      "caption": "Silhouette marasmioïde"
+    },
+    {
+      "name": "silhouette-tricholomoide",
+      "page": 2,
+      "box": [
+        0.761,
+        0.818,
+        0.866,
+        0.888
+      ],
+      "caption": "Silhouette tricholomoïde"
+    },
+    {
+      "name": "p41-a",
+      "page": 41,
+      "box": [
+        0.488,
+        0.45,
+        0.913,
+        0.793
+      ],
+      "caption": "Girolle : marge festonnée, chapeau jaune-orangé creusé en entonnoir, pied court atténué à la base, plis décurrents ramifiés",
+      "species": "cantharellus-cibarius"
+    }
+  ]
+}

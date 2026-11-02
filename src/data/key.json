@@ -1,0 +1,37 @@
+{
+  "start": "p03",
+  "nodes": {
+    "p03": {
+      "page": 3,
+      "title": "Clé générale",
+      "question": "Que voyez-vous sous le chapeau ?",
+      "intro": "Observez le champignon entier, de préférence plusieurs exemplaires à différents âges.",
+      "choices": [
+        { "label": "Des pores (petits trous) et un pied épais", "hint": "chair spongieuse sous le chapeau", "next": "p10", "img": "picto-pied-ventru" },
+        { "label": "Des lames, avec un anneau et une volve ou des verrues", "hint": "voile général présent", "next": "p32", "img": "picto-anneau-descendant" },
+        { "label": "Des plis épais, ramifiés, qui descendent sur le pied", "hint": "tout le champignon est jaune d'oeuf", "note": "voir aussi la fausse girolle, p. 12", "species": "cantharellus-cibarius", "img": "picto-lames-decurrentes" }
+      ]
+    },
+    "p10": {
+      "page": 10,
+      "title": "Bolets",
+      "question": "Le pied porte-t-il un réseau en relief ?",
+      "choices": [
+        { "label": "Réseau blanc, pores blancs puis jaune verdâtre", "hint": "chair ferme, odeur agréable", "species": "boletus-edulis" },
+        { "label": "Réseau brun, pores rosés à maturité", "hint": "goût très amer", "species": "tylopilus-felleus" }
+      ]
+    },
+    "p32": {
+      "page": 32,
+      "title": "Amanites",
+      "question": "Quelle est la couleur du chapeau ?",
+      "intro": "Toutes les amanites à lames blanches et anneau sont à traiter avec une extrême prudence.",
+      "choices": [
+        { "label": "Vert olive ou jaunâtre, volve en sac", "hint": "anneau blanc, lames blanches", "species": "amanita-phalloides" },
+        { "label": "Jaune citron pâle, bulbe arrondi sans volve en sac", "hint": "odeur de pomme de terre crue", "species": "amanita-citrina" },
+        { "label": "Rouge avec des verrues blanches", "species": "amanita-muscaria" },
+        { "label": "Gris brun, bord strié, pas d'anneau", "species": "amanita-vaginata" }
+      ]
+    }
+  }
+}

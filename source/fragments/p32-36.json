@@ -1,0 +1,846 @@
+{
+  "nodes": {
+    "p32": {
+      "page": 32,
+      "title": "Amanites",
+      "question": "Quelle est la nature du voile général à la base du pied ?",
+      "intro": "Les espèces sans anneau sont traitées séparément p. 14.",
+      "choices": [
+        { "label": "Sans anneau", "hint": "espèces traitées séparément", "next": "p14", "note": "Voir p. 14 (voile général sans anneau)." },
+        { "label": "Volve en sac", "hint": "chapeau nu ou avec de larges lambeaux ; jamais d'odeur de radis", "next": "p32-volve", "img": "picto-volve-sac" },
+        { "label": "Voile général différent, bulbe circoncis", "hint": "bulbe tronqué + restes de voile sur le chapeau, marge non striée ; odeur constante de radis", "next": "p32-circoncis", "img": "picto-volve-circoncise" },
+        { "label": "Voile général différent, bulbe différent (nu ou garni de flocons) ou absent", "hint": "en général des débris sur le chapeau ; voir page suivante", "next": "p33-bulbe", "img": "p32-c" }
+      ]
+    },
+    "p32-volve": {
+      "page": 32,
+      "title": "Amanites : volve en sac",
+      "question": "Quelle est la couleur du chapeau ?",
+      "intro": "Chapeau nu ou avec de larges lambeaux. Jamais d'odeur de radis.",
+      "choices": [
+        { "label": "Chapeau vert", "hint": "avec vergetures radiales", "species": "amanita-phalloides", "img": "p32-1" },
+        { "label": "Chapeau blanc", "next": "p32-blanc" },
+        { "label": "Chapeau orangé", "hint": "lames et chair jaunes ; espèce méridionale", "species": "amanita-caesarea", "img": "p32-3" }
+      ]
+    },
+    "p32-blanc": {
+      "page": 32,
+      "title": "Amanites à volve en sac : chapeau blanc",
+      "question": "Quelle forme de chapeau et de pied ?",
+      "intro": "Attention : les amanites blanches à volve comptent des espèces mortelles.",
+      "choices": [
+        { "label": "Chapeau conique ou flexueux", "hint": "pied pelucheux", "species": "amanita-virosa", "img": "p32-2" },
+        { "label": "Chapeau plat", "hint": "pied lisse vaguement chiné", "species": "amanita-phalloides-alba" },
+        { "label": "Anneau crémeux", "hint": "très grosse espèce charnue", "species": "amanita-ovoidea" }
+      ]
+    },
+    "p32-circoncis": {
+      "page": 32,
+      "title": "Amanites : bulbe circoncis",
+      "question": "Quelle est la couleur du chapeau ?",
+      "intro": "Bulbe tronqué + restes de voile sur le chapeau, marge non striée. Odeur constante de radis.",
+      "choices": [
+        { "label": "Chapeau jaune", "species": "amanita-citrina", "img": "p32-6" },
+        { "label": "Chapeau blanc", "species": "amanita-citrina-alba" },
+        { "label": "Chapeau brun-gris", "species": "amanita-porphyria" }
+      ]
+    },
+    "p33-bulbe": {
+      "page": 33,
+      "title": "Amanites : bulbe différent ou absent",
+      "question": "L'anneau est-il strié sur sa face supérieure ?",
+      "intro": "Suite de la page 32 (B2) : bulbe nu ou garni de flocons, ou absent ; en général des débris de voile sur le chapeau.",
+      "choices": [
+        { "label": "Anneau non strié sur la face supérieure", "hint": "restes de voile général sous forme de bourrelets à la base du pied et de verrues piléiques", "next": "p33-non-strie" },
+        { "label": "Anneau strié sur la face supérieure", "hint": "restes de voile piléique importants, souvent en larges plaques ; marge du chapeau non striée", "next": "p33-strie" }
+      ]
+    },
+    "p33-non-strie": {
+      "page": 33,
+      "title": "Amanites : anneau non strié",
+      "question": "Quelle est la couleur du chapeau ?",
+      "intro": "Restes de voile général sous forme de bourrelets à la base du pied et de verrues piléiques.",
+      "choices": [
+        { "label": "Chapeau rouge, strié", "hint": "flocons blancs ou jaunes ; lames blanches", "species": "amanita-muscaria", "img": "p33-1" },
+        { "label": "Chapeau brun ou ocre, strié", "hint": "flocons blancs", "species": "amanita-pantherina", "img": "p33-a" },
+        { "label": "Chapeau jaune, strié", "hint": "anneau fugace et odeur nulle", "species": "amanita-gemmata" },
+        { "label": "Chapeau blanc, non strié", "hint": "flocons plats, anneau crémeux", "species": "amanita-strobiliformis", "note": "Attention aux grandes lépiotes (p. 35), à chapeau écailleux. Les écailles sont des excoriations de la surface ; les flocons de voile sont posés sur une surface lisse et peuvent se détacher sans cicatrice." }
+      ]
+    },
+    "p33-strie": {
+      "page": 33,
+      "title": "Amanites : anneau strié",
+      "question": "Comment est la chair ?",
+      "intro": "Restes de voile piléique importants, souvent en larges plaques ; marge du chapeau non striée.",
+      "choices": [
+        { "label": "Chair rosissante", "hint": "aux blessures et à la base du pied ; pas d'odeur", "species": "amanita-rubescens", "img": "p33-3" },
+        { "label": "Chair immuable ou un peu brunissante", "hint": "odeur de radis", "species": "amanita-spissa", "img": "p33-4", "note": "Comestible cuite, mais attention aux confusions possibles avec l'amanite panthère !" }
+      ]
+    },
+    "p34": {
+      "page": 34,
+      "title": "Hygrophores",
+      "question": "Où pousse le champignon ?",
+      "choices": [
+        { "label": "Espèces des pelouses", "next": "p34-pelouses" },
+        { "label": "Espèces forestières", "hint": "genre Hygrophorus", "next": "p34-foret" }
+      ]
+    },
+    "p34-pelouses": {
+      "page": 34,
+      "title": "Hygrophores des pelouses",
+      "question": "Quelles sont les couleurs et la forme des lames ?",
+      "choices": [
+        { "label": "Couleurs vives (jaune, orange, rouge)", "hint": "lames adnées à presque libres ; genre Hygrocybe", "next": "p34-hygrocybe" },
+        { "label": "Couleurs blanches ou ocres", "hint": "lames décurrentes ; genre Cuphophyllus", "next": "p34-cuphophyllus" }
+      ]
+    },
+    "p34-hygrocybe": {
+      "page": 34,
+      "title": "Hygrocybe (couleurs vives)",
+      "question": "Quelle est la couleur et la forme du chapeau ?",
+      "choices": [
+        { "label": "Espèce jaune", "hint": "chapeau et pied visqueux", "species": "hygrocybe-chlorophana" },
+        { "label": "Espèce rouge ou orangée, chair noircissante", "hint": "chapeau conique, pointu", "species": "hygrocybe-conica", "img": "p34-2" },
+        { "label": "Espèce rouge ou orangée, chair non noircissante : grande espèce", "hint": "chapeau conique", "species": "hygrocybe-punicea", "img": "p34-1" },
+        { "label": "Espèce rouge ou orangée, chair non noircissante : petite espèce", "hint": "chapeau plat", "species": "hygrocybe-coccinea" },
+        { "label": "Espèce très visqueuse", "hint": "entièrement verte ou décolorant par endroits en jaune ou en rose", "species": "hygrocybe-psittacina" }
+      ]
+    },
+    "p34-cuphophyllus": {
+      "page": 34,
+      "title": "Cuphophyllus (blanc ou ocre, lames décurrentes)",
+      "question": "Quelle est la couleur du chapeau ?",
+      "choices": [
+        { "label": "Entièrement blanc", "species": "cuphophyllus-niveus" },
+        { "label": "Chapeau orangé", "species": "cuphophyllus-pratensis", "img": "p34-3" }
+      ]
+    },
+    "p34-foret": {
+      "page": 34,
+      "title": "Hygrophores forestiers (Hygrophorus)",
+      "question": "Quelle est la couleur du chapeau ?",
+      "choices": [
+        { "label": "Entièrement blanc", "hint": "ou à peine rosé au centre", "next": "p34-foret-blanc" },
+        { "label": "Chapeau rose à orangé, sec", "next": "p34-foret-rose" },
+        { "label": "Chapeau brun, visqueux", "next": "p34-foret-brun" },
+        { "label": "Chapeau gris", "hint": "odeur d'amandes amères", "species": "hygrophorus-agathosmus" }
+      ]
+    },
+    "p34-foret-blanc": {
+      "page": 34,
+      "title": "Hygrophorus entièrement blancs",
+      "question": "Le chapeau est-il visqueux ou sec ?",
+      "choices": [
+        { "label": "Espèce visqueuse", "hint": "odeur fruitée ou écoeurante", "species": "hygrophorus-eburneus" },
+        { "label": "Espèce sèche, charnue", "species": "hygrophorus-penarius" }
+      ]
+    },
+    "p34-foret-rose": {
+      "page": 34,
+      "title": "Hygrophorus à chapeau rose à orangé, sec",
+      "question": "Comment est le chapeau ?",
+      "choices": [
+        { "label": "Chapeau lisse, orangé", "species": "hygrophorus-nemoreus" },
+        { "label": "Chapeau moucheté de pourpre sur fond blanc", "species": "hygrophorus-russula", "img": "p34-4" }
+      ]
+    },
+    "p34-foret-brun": {
+      "page": 34,
+      "title": "Hygrophorus à chapeau brun, visqueux",
+      "question": "Quelle est la couleur des lames ?",
+      "choices": [
+        { "label": "Lames jaunes", "hint": "sous les pins, en fin de saison", "species": "hygrophorus-hypothejus" },
+        { "label": "Lames blanches", "next": "p34-foret-brun-blanc" }
+      ]
+    },
+    "p34-foret-brun-blanc": {
+      "page": 34,
+      "title": "Hygrophorus à chapeau brun et lames blanches",
+      "question": "Quelle est la taille de l'espèce et sous quel arbre pousse-t-elle ?",
+      "choices": [
+        { "label": "Espèce charnue à pied chiné de brun", "hint": "sous chênes", "species": "hygrophorus-glutinifer", "img": "p34-5" },
+        { "label": "Petite espèce à pied blanchâtre", "hint": "sous noisetiers", "species": "hygrophorus-lindtneri" }
+      ]
+    },
+    "p35": {
+      "page": 35,
+      "title": "Lépiotes",
+      "question": "Quelle est la taille de la lépiote ?",
+      "choices": [
+        { "label": "Grandes espèces", "hint": "plus de 10 cm de hauteur et de diamètre ; genres Macrolepiota et Chlorophyllum", "next": "p35-grandes" },
+        { "label": "Espèces petites, grêles ou fragiles", "hint": "genre Lepiota au sens strict", "next": "p35-petites" }
+      ]
+    },
+    "p35-grandes": {
+      "page": 35,
+      "title": "Lépiotes : grandes espèces",
+      "question": "Comment est l'anneau ?",
+      "choices": [
+        { "label": "Anneau charnu coulissant", "hint": "chapeau à larges squames ; pied bulbeux", "next": "p35-coulissant", "img": "picto-anneau-coulissant" },
+        { "label": "Anneau plus fragile", "next": "p35-fragile" }
+      ]
+    },
+    "p35-coulissant": {
+      "page": 35,
+      "title": "Grandes lépiotes : anneau charnu coulissant",
+      "question": "Le pied est-il chiné ou lisse ?",
+      "choices": [
+        { "label": "Pied chiné", "hint": "chair blanche non ou peu brunissante au grattage", "species": "macrolepiota-procera", "img": "p35-1" },
+        { "label": "Pied lisse, chair rougissante : en forêt", "hint": "squames concentriques sur le chapeau", "species": "chlorophyllum-rhacodes", "img": "p35-2" },
+        { "label": "Pied lisse, chair rougissante : dans les jardins, tas de compost, etc.", "hint": "squames dilacérées radialement", "species": "chlorophyllum-brunneum" }
+      ]
+    },
+    "p35-fragile": {
+      "page": 35,
+      "title": "Grandes lépiotes : anneau plus fragile",
+      "question": "Quelle est la couleur du chapeau ?",
+      "choices": [
+        { "label": "Chapeau blanc, excorié vers la marge", "species": "macrolepiota-excoriata" },
+        { "label": "Chapeau blanc, entièrement lisse", "hint": "lames parfois rosées", "species": "leucoagaricus-leucothites", "img": "p35-3" },
+        { "label": "Chapeau brun fauve, à écailles pyramidales assez aiguës, faciles à détacher", "hint": "lames blanches très serrées ; odeur de caoutchouc", "species": "echinoderma-asperum" }
+      ]
+    },
+    "p35-petites": {
+      "page": 35,
+      "title": "Lépiotes : espèces petites, grêles ou fragiles",
+      "question": "Comment est l'anneau ?",
+      "choices": [
+        { "label": "Anneau membraneux, formant une collerette nette ascendante", "hint": "pied lisse en dessous ; chapeau à calotte centrale jaunâtre ; odeur forte de terre moisie", "species": "lepiota-cristata", "img": "p35-4" },
+        { "label": "Anneau non membraneux, parfois invisible", "hint": "pied floconneux au moins sur la moitié inférieure", "next": "p35-petites-b" }
+      ]
+    },
+    "p35-petites-b": {
+      "page": 35,
+      "title": "Petites lépiotes : anneau non membraneux",
+      "question": "Comment est le chapeau ?",
+      "intro": "Attention : deux espèces de ce groupe sont mortelles.",
+      "choices": [
+        { "label": "Chapeau pelucheux, blanc jaunâtre, à calotte centrale lisse", "hint": "pied pelucheux blanc", "species": "lepiota-clypeolaria" },
+        { "label": "Chapeau à squames brun purpurin", "hint": "pied rosâtre avec des flocons pourpre-noir vers la base", "species": "lepiota-brunneoincarnata", "img": "p35-5" },
+        { "label": "Chapeau à squames peu marquées, rose clair sur fond blanc", "hint": "pied rose pâle à flocons blancs", "species": "lepiota-josserandii" },
+        { "label": "Chapeau brun-fauve, à écailles pyramidales aiguës, faciles à détacher", "hint": "lames blanches très serrées ; odeur de caoutchouc", "species": "echinoderma-asperum" }
+      ]
+    },
+    "p36": {
+      "page": 36,
+      "title": "Agarics",
+      "question": "La chair jaunit-elle nettement à la base du pied, au grattage ?",
+      "choices": [
+        { "label": "Chair nettement jaunissante à la base du pied (au grattage)", "next": "p36-jaunissant" },
+        { "label": "Chair rougissante, brunissante ou immuable", "next": "p36-autres" }
+      ]
+    },
+    "p36-jaunissant": {
+      "page": 36,
+      "title": "Agarics à chair jaunissante",
+      "question": "Quelle est l'odeur à la base du pied ?",
+      "choices": [
+        { "label": "Odeur d'amande amère ou d'anis", "next": "p36-anis" },
+        { "label": "Odeur de phénol", "hint": "jaunissement rapide (rayure de l'ongle, coupe à la base du pied) ; silhouette trapézoïdale, pied nettement bulbeux ; pelouses, pâtures", "species": "agaricus-xanthodermus", "img": "p36-1" }
+      ]
+    },
+    "p36-anis": {
+      "page": 36,
+      "title": "Agarics jaunissants à odeur d'amande ou d'anis",
+      "question": "Comment est l'anneau ?",
+      "choices": [
+        { "label": "Anneau ample, persistant", "next": "p36-anis-ample" },
+        { "label": "Anneau simple, ténu", "hint": "vite disparu chez les adultes ; petite espèce grêle à forte odeur d'amandes amères, dans les pelouses", "species": "agaricus-comtulus" }
+      ]
+    },
+    "p36-anis-ample": {
+      "page": 36,
+      "title": "Agarics à anneau ample et odeur d'amande ou d'anis",
+      "question": "Quel est le jaunissement et la forme du pied ?",
+      "choices": [
+        { "label": "Jaunissement moyen", "hint": "pied élancé bulbeux à la base ; odeur anisée (d'amandes amères en vieillissant) ; dans les bois", "species": "agaricus-silvicola", "img": "p36-2" },
+        { "label": "Jaunissement faible", "hint": "pied robuste, non bulbeux à la base ; odeur anisée ; prairies et pâtures", "species": "agaricus-arvensis" }
+      ]
+    },
+    "p36-autres": {
+      "page": 36,
+      "title": "Agarics à chair rougissante, brunissante ou immuable",
+      "question": "Le rougissement est-il vif et rapide ?",
+      "choices": [
+        { "label": "Chair à rougissement vif, rapide", "species": "agaricus-sylvaticus", "img": "p36-4" },
+        { "label": "Rougissement lent ou nul", "next": "p36-lent" }
+      ]
+    },
+    "p36-lent": {
+      "page": 36,
+      "title": "Agarics à rougissement lent ou nul",
+      "question": "Comment est l'anneau ?",
+      "choices": [
+        { "label": "Anneau simple, ténu", "hint": "vite disparu chez l'adulte", "next": "p36-anneau-simple" },
+        { "label": "Anneau épais ou double, persistant chez les adultes", "next": "p36-anneau-epais" }
+      ]
+    },
+    "p36-anneau-simple": {
+      "page": 36,
+      "title": "Agarics à anneau simple, ténu",
+      "question": "Comment est la base du pied ?",
+      "choices": [
+        { "label": "Base du pied arrondie ou atténuée, sans racine", "hint": "dans les prés", "species": "agaricus-campestris", "img": "p36-3" },
+        { "label": "Base du pied légèrement renflée, prolongée par une racine blanche", "hint": "parcs urbains, terre retournée", "species": "agaricus-bresadolanus", "img": "p36-5" }
+      ]
+    },
+    "p36-anneau-epais": {
+      "page": 36,
+      "title": "Agarics à anneau épais ou double",
+      "question": "L'anneau est-il simple ou dissocié en deux étages ?",
+      "choices": [
+        { "label": "Anneau simple", "next": "p36-epais-simple" },
+        { "label": "Anneau nettement dissocié en deux étages", "hint": "la partie inférieure peut évoquer une volve", "next": "p36-epais-double", "img": "picto-anneau-double" }
+      ]
+    },
+    "p36-epais-simple": {
+      "page": 36,
+      "title": "Agarics à anneau épais simple",
+      "question": "Quelle est l'odeur et le comportement de la chair ?",
+      "choices": [
+        { "label": "Odeur fongique, chair lentement rougissante", "hint": "pelouses, prairies", "species": "agaricus-bisporus" },
+        { "label": "Odeur terreuse désagréable, chair immuable", "hint": "forêts, bords de sentiers, dunes", "species": "agaricus-variegans" }
+      ]
+    },
+    "p36-epais-double": {
+      "page": 36,
+      "title": "Agarics à anneau dissocié en deux étages",
+      "question": "Quelle est la couleur du chapeau ?",
+      "choices": [
+        { "label": "Chapeau blanc", "species": "agaricus-bitorquis" },
+        { "label": "Chapeau brun", "species": "agaricus-subperonatus" }
+      ]
+    }
+  },
+  "species": {
+    "amanita-phalloides": {
+      "latin": "Amanita phalloides",
+      "fr": "Amanite phalloïde",
+      "group": "Amanites",
+      "edibility": "mortel",
+      "note": "Volve en sac ; chapeau vert avec vergetures radiales. Mortelle.",
+      "confusions": [],
+      "images": ["p32-1"],
+      "pages": [32]
+    },
+    "amanita-virosa": {
+      "latin": "Amanita virosa",
+      "fr": "Amanite vireuse",
+      "group": "Amanites",
+      "edibility": "mortel",
+      "note": "Volve en sac ; chapeau blanc conique ou flexueux, pied pelucheux. Mortelle.",
+      "confusions": [],
+      "images": ["p32-2"],
+      "pages": [32]
+    },
+    "amanita-phalloides-alba": {
+      "latin": "Amanita phalloides var. alba",
+      "fr": "Amanite phalloïde blanche",
+      "group": "Amanites",
+      "edibility": "mortel",
+      "note": "Volve en sac ; chapeau blanc plat, pied lisse vaguement chiné. Mortelle.",
+      "confusions": [],
+      "images": [],
+      "pages": [32]
+    },
+    "amanita-ovoidea": {
+      "latin": "Amanita ovoidea",
+      "fr": "Amanite ovoïde",
+      "group": "Amanites",
+      "edibility": "comestible",
+      "note": "Volve en sac ; chapeau blanc, anneau crémeux ; très grosse espèce charnue.",
+      "confusions": [],
+      "images": [],
+      "pages": [32]
+    },
+    "amanita-caesarea": {
+      "latin": "Amanita caesarea",
+      "fr": "Amanite des Césars, oronge",
+      "group": "Amanites",
+      "edibility": "comestible",
+      "note": "Volve en sac ; chapeau orangé, lames et chair jaunes ; espèce méridionale.",
+      "confusions": [],
+      "images": ["p32-3"],
+      "pages": [32]
+    },
+    "amanita-citrina": {
+      "latin": "Amanita citrina",
+      "fr": "Amanite citrine",
+      "group": "Amanites",
+      "edibility": "inconnu",
+      "note": "Bulbe circoncis, chapeau jaune, odeur constante de radis. Aucun marqueur dans le livret.",
+      "confusions": [],
+      "images": ["p32-6"],
+      "pages": [32]
+    },
+    "amanita-citrina-alba": {
+      "latin": "Amanita citrina var. alba",
+      "fr": "Amanite citrine blanche",
+      "group": "Amanites",
+      "edibility": "inconnu",
+      "note": "Bulbe circoncis, chapeau blanc, odeur constante de radis. Aucun marqueur dans le livret.",
+      "confusions": [],
+      "images": [],
+      "pages": [32]
+    },
+    "amanita-porphyria": {
+      "latin": "Amanita porphyria",
+      "fr": "Amanite porphyre",
+      "group": "Amanites",
+      "edibility": "inconnu",
+      "note": "Bulbe circoncis, chapeau brun-gris, odeur constante de radis. Aucun marqueur dans le livret.",
+      "confusions": [],
+      "images": [],
+      "pages": [32]
+    },
+    "amanita-muscaria": {
+      "latin": "Amanita muscaria",
+      "fr": "Amanite tue-mouches",
+      "group": "Amanites",
+      "edibility": "toxique",
+      "note": "Chapeau rouge, strié ; flocons blancs ou jaunes ; lames blanches ; anneau non strié.",
+      "confusions": [],
+      "images": ["p33-1"],
+      "pages": [33]
+    },
+    "amanita-pantherina": {
+      "latin": "Amanita pantherina",
+      "fr": "Amanite panthère",
+      "group": "Amanites",
+      "edibility": "toxique",
+      "note": "Chapeau brun ou ocre, strié ; flocons blancs ; anneau non strié.",
+      "confusions": ["amanita-spissa"],
+      "images": ["p33-a"],
+      "pages": [33]
+    },
+    "amanita-gemmata": {
+      "latin": "Amanita gemmata",
+      "fr": "Amanite jonquille",
+      "group": "Amanites",
+      "edibility": "toxique",
+      "note": "Chapeau jaune, strié ; anneau fugace et odeur nulle.",
+      "confusions": [],
+      "images": [],
+      "pages": [33]
+    },
+    "amanita-strobiliformis": {
+      "latin": "Amanita strobiliformis",
+      "fr": "Amanite pomme-de-pin",
+      "group": "Amanites",
+      "edibility": "comestible",
+      "note": "Chapeau blanc non strié ; flocons plats, anneau crémeux. Attention aux grandes lépiotes (p. 35) à chapeau écailleux : les écailles sont des excoriations de la surface, alors que les flocons de voile sont posés sur une surface lisse et se détachent sans cicatrice.",
+      "confusions": ["macrolepiota-procera", "chlorophyllum-rhacodes", "chlorophyllum-brunneum"],
+      "images": [],
+      "pages": [33]
+    },
+    "amanita-rubescens": {
+      "latin": "Amanita rubescens",
+      "fr": "Amanite rougissante, golmotte",
+      "group": "Amanites",
+      "edibility": "comestible",
+      "note": "Comestible cuite. Chair rosissante (blessures et base du pied), pas d'odeur ; anneau strié.",
+      "confusions": [],
+      "images": ["p33-3"],
+      "pages": [33]
+    },
+    "amanita-spissa": {
+      "latin": "Amanita spissa",
+      "fr": "Amanite épaisse",
+      "group": "Amanites",
+      "edibility": "comestible",
+      "note": "Comestible cuite, mais attention aux confusions possibles avec l'amanite panthère ! Chair immuable ou un peu brunissante, odeur de radis ; anneau strié.",
+      "confusions": ["amanita-pantherina"],
+      "images": ["p33-4"],
+      "pages": [33]
+    },
+    "hygrocybe-chlorophana": {
+      "latin": "Hygrocybe chlorophana",
+      "fr": "",
+      "group": "Hygrophores",
+      "edibility": "inconnu",
+      "note": "Espèce jaune, chapeau et pied visqueux ; pelouses.",
+      "confusions": [],
+      "images": [],
+      "pages": [34]
+    },
+    "hygrocybe-conica": {
+      "latin": "Hygrocybe conica",
+      "fr": "Hygrophore conique",
+      "group": "Hygrophores",
+      "edibility": "toxique",
+      "note": "Rouge ou orangé ; chair noircissante ; chapeau conique, pointu ; pelouses.",
+      "confusions": [],
+      "images": ["p34-2"],
+      "pages": [34]
+    },
+    "hygrocybe-punicea": {
+      "latin": "Hygrocybe punicea",
+      "fr": "Hygrophore rouge ponceau",
+      "group": "Hygrophores",
+      "edibility": "comestible",
+      "note": "Grande espèce à chapeau conique, rouge ou orangée, chair non noircissante ; pelouses.",
+      "confusions": [],
+      "images": ["p34-1"],
+      "pages": [34]
+    },
+    "hygrocybe-coccinea": {
+      "latin": "Hygrocybe coccinea",
+      "fr": "Hygrophore écarlate",
+      "group": "Hygrophores",
+      "edibility": "inconnu",
+      "note": "Petite espèce à chapeau plat, rouge ou orangée, chair non noircissante ; pelouses.",
+      "confusions": [],
+      "images": [],
+      "pages": [34]
+    },
+    "hygrocybe-psittacina": {
+      "latin": "Hygrocybe psittacina",
+      "fr": "Hygrophore perroquet",
+      "group": "Hygrophores",
+      "edibility": "inconnu",
+      "note": "Très visqueuse, entièrement verte ou décolorant par endroits en jaune ou en rose ; pelouses.",
+      "confusions": [],
+      "images": [],
+      "pages": [34]
+    },
+    "cuphophyllus-niveus": {
+      "latin": "Cuphophyllus niveus",
+      "fr": "Hygrophore blanc de neige",
+      "group": "Hygrophores",
+      "edibility": "comestible",
+      "note": "Entièrement blanc ; lames décurrentes ; pelouses.",
+      "confusions": [],
+      "images": [],
+      "pages": [34]
+    },
+    "cuphophyllus-pratensis": {
+      "latin": "Cuphophyllus pratensis",
+      "fr": "Hygrophore des prés",
+      "group": "Hygrophores",
+      "edibility": "comestible",
+      "note": "Chapeau orangé ; lames décurrentes ; pelouses.",
+      "confusions": [],
+      "images": ["p34-3"],
+      "pages": [34]
+    },
+    "hygrophorus-eburneus": {
+      "latin": "Hygrophorus eburneus",
+      "fr": "Hygrophore blanc d'ivoire",
+      "group": "Hygrophores",
+      "edibility": "inconnu",
+      "note": "Entièrement blanc, visqueux, odeur fruitée ou écoeurante ; forêt.",
+      "confusions": [],
+      "images": [],
+      "pages": [34]
+    },
+    "hygrophorus-penarius": {
+      "latin": "Hygrophorus penarius",
+      "fr": "Hygrophore de l'office",
+      "group": "Hygrophores",
+      "edibility": "comestible",
+      "note": "Entièrement blanc, sec, charnu ; forêt.",
+      "confusions": [],
+      "images": [],
+      "pages": [34]
+    },
+    "hygrophorus-nemoreus": {
+      "latin": "Hygrophorus nemoreus",
+      "fr": "",
+      "group": "Hygrophores",
+      "edibility": "comestible",
+      "note": "Chapeau lisse, orangé, sec ; forêt.",
+      "confusions": [],
+      "images": [],
+      "pages": [34]
+    },
+    "hygrophorus-russula": {
+      "latin": "Hygrophorus russula",
+      "fr": "",
+      "group": "Hygrophores",
+      "edibility": "comestible",
+      "note": "Chapeau moucheté de pourpre sur fond blanc, sec ; forêt.",
+      "confusions": [],
+      "images": ["p34-4"],
+      "pages": [34]
+    },
+    "hygrophorus-hypothejus": {
+      "latin": "Hygrophorus hypothejus",
+      "fr": "",
+      "group": "Hygrophores",
+      "edibility": "inconnu",
+      "note": "Chapeau brun, visqueux ; lames jaunes ; sous les pins, en fin de saison.",
+      "confusions": [],
+      "images": [],
+      "pages": [34]
+    },
+    "hygrophorus-glutinifer": {
+      "latin": "Hygrophorus glutinifer",
+      "fr": "",
+      "group": "Hygrophores",
+      "edibility": "comestible",
+      "note": "Chapeau brun, visqueux ; lames blanches ; espèce charnue à pied chiné de brun ; sous chênes.",
+      "confusions": [],
+      "images": ["p34-5"],
+      "pages": [34]
+    },
+    "hygrophorus-lindtneri": {
+      "latin": "Hygrophorus lindtneri",
+      "fr": "",
+      "group": "Hygrophores",
+      "edibility": "inconnu",
+      "note": "Chapeau brun, visqueux ; lames blanches ; petite espèce à pied blanchâtre ; sous noisetiers.",
+      "confusions": [],
+      "images": [],
+      "pages": [34]
+    },
+    "hygrophorus-agathosmus": {
+      "latin": "Hygrophorus agathosmus",
+      "fr": "",
+      "group": "Hygrophores",
+      "edibility": "inconnu",
+      "note": "Chapeau gris ; odeur d'amandes amères.",
+      "confusions": [],
+      "images": [],
+      "pages": [34]
+    },
+    "macrolepiota-procera": {
+      "latin": "Macrolepiota procera",
+      "fr": "Lépiote élevée, coulemelle",
+      "group": "Lépiotes",
+      "edibility": "comestible",
+      "note": "Pied chiné, chair blanche non ou peu brunissante au grattage ; anneau charnu coulissant.",
+      "confusions": [],
+      "images": ["p35-1"],
+      "pages": [35]
+    },
+    "chlorophyllum-rhacodes": {
+      "latin": "Chlorophyllum rhacodes",
+      "fr": "Lépiote déguenillée",
+      "group": "Lépiotes",
+      "edibility": "comestible",
+      "note": "Pied lisse, chair rougissante ; en forêt ; squames concentriques sur le chapeau.",
+      "confusions": ["chlorophyllum-brunneum"],
+      "images": ["p35-2"],
+      "pages": [35]
+    },
+    "chlorophyllum-brunneum": {
+      "latin": "Chlorophyllum brunneum",
+      "fr": "Lépiote vénéneuse",
+      "group": "Lépiotes",
+      "edibility": "toxique",
+      "note": "Indigeste. Pied lisse, chair rougissante ; jardins, tas de compost ; squames dilacérées radialement.",
+      "confusions": ["chlorophyllum-rhacodes"],
+      "images": [],
+      "pages": [35]
+    },
+    "macrolepiota-excoriata": {
+      "latin": "Macrolepiota excoriata",
+      "fr": "Lépiote excoriée",
+      "group": "Lépiotes",
+      "edibility": "comestible",
+      "note": "Chapeau blanc excorié vers la marge ; anneau plus fragile.",
+      "confusions": [],
+      "images": [],
+      "pages": [35]
+    },
+    "leucoagaricus-leucothites": {
+      "latin": "Leucoagaricus leucothites",
+      "fr": "Lépiote pudique",
+      "group": "Lépiotes",
+      "edibility": "comestible",
+      "note": "Chapeau blanc entièrement lisse ; lames parfois rosées ; anneau plus fragile.",
+      "confusions": [],
+      "images": ["p35-3"],
+      "pages": [35]
+    },
+    "echinoderma-asperum": {
+      "latin": "Echinoderma asperum",
+      "fr": "Lépiote épineuse",
+      "group": "Lépiotes",
+      "edibility": "inconnu",
+      "note": "Chapeau brun fauve à écailles pyramidales aiguës, faciles à détacher ; lames blanches très serrées ; odeur de caoutchouc. Citée deux fois (grandes espèces B et petites espèces B4). Aucun marqueur dans le livret.",
+      "confusions": [],
+      "images": [],
+      "pages": [35]
+    },
+    "lepiota-cristata": {
+      "latin": "Lepiota cristata",
+      "fr": "Lépiote crêtée",
+      "group": "Lépiotes",
+      "edibility": "inconnu",
+      "note": "Anneau membraneux, collerette ascendante ; pied lisse en dessous ; calotte centrale jaunâtre ; odeur forte de terre moisie. Aucun marqueur dans le livret.",
+      "confusions": [],
+      "images": ["p35-4"],
+      "pages": [35]
+    },
+    "lepiota-clypeolaria": {
+      "latin": "Lepiota clypeolaria",
+      "fr": "Lépiote en bouclier",
+      "group": "Lépiotes",
+      "edibility": "inconnu",
+      "note": "Chapeau pelucheux, blanc jaunâtre, calotte centrale lisse ; pied pelucheux blanc. Aucun marqueur dans le livret.",
+      "confusions": [],
+      "images": [],
+      "pages": [35]
+    },
+    "lepiota-brunneoincarnata": {
+      "latin": "Lepiota brunneoincarnata",
+      "fr": "Lépiote brun incarnat",
+      "group": "Lépiotes",
+      "edibility": "mortel",
+      "note": "Mortel. Squames brun purpurin ; pied rosâtre avec flocons pourpre-noir vers la base.",
+      "confusions": [],
+      "images": ["p35-5"],
+      "pages": [35]
+    },
+    "lepiota-josserandii": {
+      "latin": "Lepiota josserandii",
+      "fr": "Lépiote de Josserand",
+      "group": "Lépiotes",
+      "edibility": "mortel",
+      "note": "Mortel. Squames peu marquées, rose clair sur fond blanc ; pied rose pâle à flocons blancs.",
+      "confusions": [],
+      "images": [],
+      "pages": [35]
+    },
+    "agaricus-silvicola": {
+      "latin": "Agaricus silvicola",
+      "fr": "Agaric des bois",
+      "group": "Agarics",
+      "edibility": "comestible",
+      "note": "Jaunissement moyen ; pied élancé bulbeux ; odeur anisée (amandes amères en vieillissant) ; anneau ample ; dans les bois.",
+      "confusions": [],
+      "images": ["p36-2"],
+      "pages": [36]
+    },
+    "agaricus-arvensis": {
+      "latin": "Agaricus arvensis",
+      "fr": "Boule-de-neige",
+      "group": "Agarics",
+      "edibility": "comestible",
+      "note": "Jaunissement faible ; pied robuste, non bulbeux ; odeur anisée ; prairies et pâtures.",
+      "confusions": [],
+      "images": [],
+      "pages": [36]
+    },
+    "agaricus-comtulus": {
+      "latin": "Agaricus comtulus",
+      "fr": "",
+      "group": "Agarics",
+      "edibility": "inconnu",
+      "note": "Petite espèce grêle, anneau simple ténu, forte odeur d'amandes amères ; pelouses.",
+      "confusions": [],
+      "images": [],
+      "pages": [36]
+    },
+    "agaricus-xanthodermus": {
+      "latin": "Agaricus xanthodermus",
+      "fr": "Agaric jaunissant",
+      "group": "Agarics",
+      "edibility": "toxique",
+      "note": "Indigeste. Odeur de phénol, jaunissement rapide, silhouette trapézoïdale, pied nettement bulbeux ; pelouses, pâtures.",
+      "confusions": [],
+      "images": ["p36-1"],
+      "pages": [36]
+    },
+    "agaricus-sylvaticus": {
+      "latin": "Agaricus sylvaticus",
+      "fr": "Agaric des forêts",
+      "group": "Agarics",
+      "edibility": "comestible",
+      "note": "Chair à rougissement vif et rapide.",
+      "confusions": [],
+      "images": ["p36-4"],
+      "pages": [36]
+    },
+    "agaricus-campestris": {
+      "latin": "Agaricus campestris",
+      "fr": "Rosé-des-prés",
+      "group": "Agarics",
+      "edibility": "comestible",
+      "note": "Anneau simple ténu ; base du pied arrondie ou atténuée, sans racine ; dans les prés.",
+      "confusions": [],
+      "images": ["p36-3"],
+      "pages": [36]
+    },
+    "agaricus-bresadolanus": {
+      "latin": "Agaricus bresadolanus",
+      "fr": "Agaric radicant",
+      "group": "Agarics",
+      "edibility": "toxique",
+      "note": "Indigeste. Base du pied légèrement renflée, prolongée par une racine blanche ; parcs urbains, terre retournée.",
+      "confusions": [],
+      "images": ["p36-5"],
+      "pages": [36]
+    },
+    "agaricus-bisporus": {
+      "latin": "Agaricus bisporus",
+      "fr": "Champignon de Paris",
+      "group": "Agarics",
+      "edibility": "comestible",
+      "note": "Anneau épais simple ; odeur fongique, chair lentement rougissante ; pelouses, prairies.",
+      "confusions": [],
+      "images": [],
+      "pages": [36]
+    },
+    "agaricus-variegans": {
+      "latin": "Agaricus variegans",
+      "fr": "Agaric vergeté",
+      "group": "Agarics",
+      "edibility": "inconnu",
+      "note": "Anneau épais simple ; odeur terreuse désagréable, chair immuable ; forêts, bords de sentiers, dunes.",
+      "confusions": [],
+      "images": [],
+      "pages": [36]
+    },
+    "agaricus-bitorquis": {
+      "latin": "Agaricus bitorquis",
+      "fr": "Agaric des trottoirs",
+      "group": "Agarics",
+      "edibility": "comestible",
+      "note": "Anneau dissocié en deux étages ; chapeau blanc.",
+      "confusions": [],
+      "images": [],
+      "pages": [36]
+    },
+    "agaricus-subperonatus": {
+      "latin": "Agaricus subperonatus",
+      "fr": "Agaric des serres",
+      "group": "Agarics",
+      "edibility": "inconnu",
+      "note": "Anneau dissocié en deux étages ; chapeau brun.",
+      "confusions": [],
+      "images": [],
+      "pages": [36]
+    }
+  },
+  "figures": [
+    { "name": "p32-a", "page": 32, "box": [0.81, 0.08, 0.90, 0.16], "caption": "Volve en sac (pictogramme)" },
+    { "name": "p32-1", "page": 32, "box": [0.30, 0.18, 0.58, 0.31], "species": "amanita-phalloides", "caption": "Amanite phalloïde" },
+    { "name": "p32-2", "page": 32, "box": [0.25, 0.465, 0.42, 0.62], "species": "amanita-virosa", "caption": "Amanite vireuse" },
+    { "name": "p32-3", "page": 32, "box": [0.55, 0.485, 0.78, 0.605], "species": "amanita-caesarea", "caption": "Amanite des Césars" },
+    { "name": "p32-b", "page": 32, "box": [0.65, 0.66, 0.72, 0.725], "caption": "Bulbe circoncis" },
+    { "name": "p32-6", "page": 32, "box": [0.75, 0.66, 0.88, 0.79], "species": "amanita-citrina", "caption": "Amanite citrine" },
+    { "name": "p32-c", "page": 32, "box": [0.57, 0.795, 0.66, 0.865], "caption": "Bulbe garni de flocons" },
+    { "name": "p33-1", "page": 33, "box": [0.27, 0.27, 0.49, 0.43], "species": "amanita-muscaria", "caption": "Amanite tue-mouches" },
+    { "name": "p33-a", "page": 33, "box": [0.70, 0.27, 0.92, 0.43], "species": "amanita-pantherina", "caption": "Amanite panthère (dessin sans numéro, attribution probable)" },
+    { "name": "p33-3", "page": 33, "box": [0.22, 0.665, 0.47, 0.885], "species": "amanita-rubescens", "caption": "Amanite rougissante" },
+    { "name": "p33-4", "page": 33, "box": [0.63, 0.67, 0.87, 0.87], "species": "amanita-spissa", "caption": "Amanite épaisse" },
+    { "name": "p34-1", "page": 34, "box": [0.19, 0.31, 0.32, 0.46], "species": "hygrocybe-punicea", "caption": "Hygrophore rouge ponceau" },
+    { "name": "p34-2", "page": 34, "box": [0.58, 0.32, 0.73, 0.47], "species": "hygrocybe-conica", "caption": "Hygrophore conique" },
+    { "name": "p34-3", "page": 34, "box": [0.78, 0.395, 0.92, 0.51], "species": "cuphophyllus-pratensis", "caption": "Hygrophore des prés" },
+    { "name": "p34-4", "page": 34, "box": [0.79, 0.69, 0.93, 0.795], "species": "hygrophorus-russula", "caption": "Hygrophorus russula" },
+    { "name": "p34-5", "page": 34, "box": [0.76, 0.845, 0.93, 0.97], "species": "hygrophorus-glutinifer", "caption": "Hygrophorus glutinifer" },
+    { "name": "p35-1", "page": 35, "box": [0.16, 0.295, 0.43, 0.45], "species": "macrolepiota-procera", "caption": "Lépiote élevée, coulemelle" },
+    { "name": "p35-2", "page": 35, "box": [0.54, 0.315, 0.67, 0.44], "species": "chlorophyllum-rhacodes", "caption": "Lépiote déguenillée" },
+    { "name": "p35-3", "page": 35, "box": [0.72, 0.33, 0.87, 0.44], "species": "leucoagaricus-leucothites", "caption": "Lépiote pudique" },
+    { "name": "p35-4", "page": 35, "box": [0.16, 0.885, 0.30, 0.98], "species": "lepiota-cristata", "caption": "Lépiote crêtée" },
+    { "name": "p35-5", "page": 35, "box": [0.67, 0.88, 0.82, 0.975], "species": "lepiota-brunneoincarnata", "caption": "Lépiote brun incarnat" },
+    { "name": "p36-1", "page": 36, "box": [0.25, 0.25, 0.50, 0.38], "species": "agaricus-xanthodermus", "caption": "Agaric jaunissant" },
+    { "name": "p36-2", "page": 36, "box": [0.66, 0.255, 0.81, 0.36], "species": "agaricus-silvicola", "caption": "Agaric des bois" },
+    { "name": "p36-3", "page": 36, "box": [0.09, 0.815, 0.30, 0.945], "species": "agaricus-campestris", "caption": "Rosé-des-prés" },
+    { "name": "p36-4", "page": 36, "box": [0.41, 0.815, 0.55, 0.94], "species": "agaricus-sylvaticus", "caption": "Agaric des forêts" },
+    { "name": "p36-5", "page": 36, "box": [0.70, 0.82, 0.84, 0.95], "species": "agaricus-bresadolanus", "caption": "Agaric radicant" }
+  ]
+}
