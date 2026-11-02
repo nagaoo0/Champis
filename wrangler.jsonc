@@ -1,0 +1,9 @@
+// cloudflare worker serving the built site, unknown paths fall back to index.html for the router
+{
+  "name": "champis",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "single-page-application"
+  }
+}

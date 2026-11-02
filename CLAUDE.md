@@ -4,13 +4,13 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this is
 
-Champi is a French mushroom identification web app built from a scanned field-guide booklet (43 pages, a dichotomous key inspired by Courtecuisse). Vite + React 19 + react-router 7, static, deployed on Cloudflare Pages from the GitHub remote. All UI text is French.
+Champi is a French mushroom identification web app built from a scanned field-guide booklet (43 pages, a dichotomous key inspired by Courtecuisse). Vite + React 19 + react-router 7, static, deployed as a Cloudflare Worker with static assets (Workers Builds on the GitHub remote, config in wrangler.jsonc; do not add a _redirects SPA rule, it loops on Workers). All UI text is French.
 
 ## Commands
 
 ```bash
 npm run dev      # dev server on :5173
-npm run build    # outputs dist/ (Cloudflare Pages: build "npm run build", output "dist")
+npm run build    # outputs dist/, deployed by "npx wrangler deploy"
 npm run data     # merge source/fragments into src/data and check the key (exit 1 on problems)
 ```
 

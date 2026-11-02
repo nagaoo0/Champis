@@ -1,6 +1,6 @@
 # Champi
 
-Clé d'identification des champignons sur le terrain, tirée d'un livret scanné (43 pages). Vite + React, site statique déployé sur Cloudflare Pages.
+Clé d'identification des champignons sur le terrain, tirée d'un livret scanné (43 pages). Vite + React, site statique déployé comme Worker Cloudflare (fichiers statiques).
 
 Aide pédagogique uniquement : ne consommez jamais un champignon sur la seule foi de cette application.
 
@@ -11,7 +11,7 @@ npm install
 npm run dev
 ```
 
-`npm run build` produit `dist/`. Sur Cloudflare Pages : commande `npm run build`, dossier de sortie `dist`. `public/_redirects` gère les routes de l'app.
+`npm run build` produit `dist/`. Cloudflare (Workers Builds, branché sur GitHub) : commande de build `npm run build`, commande de déploiement `npx wrangler deploy`. `wrangler.jsonc` sert `dist/` et renvoie les routes inconnues vers `index.html` (pas de `_redirects`, il boucle sur un Worker).
 
 ## Organisation
 
