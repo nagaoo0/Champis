@@ -12,7 +12,10 @@ Champi is a French mushroom identification web app built from a scanned field-gu
 npm run dev      # dev server on :5173
 npm run build    # outputs dist/, deployed by "npx wrangler deploy"
 npm run data     # merge source/fragments into src/data and check the key (exit 1 on problems)
+npm run external # ~10 min: wikidata links + commons/inaturalist photos into src/data/external.json
 ```
+
+`tools/fetch_external.js` matches species on the Wikidata taxon name (P225). Booklet spellings that do not match go in its `NAME_FIX` map. Photos are hotlinked, never downloaded. Licenses are limited to CC BY, CC BY-SA, CC BY-NC, CC0 and public domain, and the author is always shown.
 
 There is no test suite and no linter. `npm run data` is the integrity check: it reports broken `next` links, missing species or images, unreachable nodes and species, duplicate node or figure ids, and edibility conflicts between pages.
 
