@@ -6,6 +6,8 @@ import external from '../data/external.json'
 import { reachableSpecies } from '../lib/key'
 import Img from '../components/Img'
 import SpeciesCard from '../components/SpeciesCard'
+import { Marked, TermsPanel } from '../components/Terms'
+import { termsIn } from '../lib/glossary'
 import NotFound from './NotFound'
 
 // key forces a fresh state (panel closed) on each node
@@ -29,6 +31,7 @@ function KeyNode({ nodeId }) {
   // deadly species first so they are never cut off
   const withPhoto = possible.filter((id) => external[id]?.photos?.length)
   const examples = [...withPhoto.filter(isDeadly), ...withPhoto.filter((id) => !isDeadly(id))].slice(0, 4)
+  const terms = termsIn([node.question, node.intro, ...node.choices.flatMap((c) => [c.label, c.hint])])
 
   function go(choice) {
     const state = { trail: [...trail, { node: nodeId, label: choice.label }] }
@@ -66,8 +69,8 @@ function KeyNode({ nodeId }) {
       )}
 
       <p className="eyebrow">{node.title} · Livret p. {node.page}</p>
-      <h1 className="question">{node.question}</h1>
-      {node.intro && <p className="intro">{node.intro}</p>}
+      <h1 className="question"><Marked text={node.question} /></h1>
+      {node.intro && <p className="intro"><Marked text={node.intro} /></p>}
 
       <p className="counter">
         {possible.length} espèce{possible.length > 1 ? 's' : ''} possible{possible.length > 1 ? 's' : ''}
@@ -79,13 +82,15 @@ function KeyNode({ nodeId }) {
           <button key={i} type="button" className="choice" onClick={() => go(choice)}>
             {choice.img && <Img name={choice.img} />}
             <span className="choice-text">
-              <strong>{choice.label}</strong>
-              {choice.hint && <span className="hint">{choice.hint}</span>}
+              <strong><Marked text={choice.label} /></strong>
+              {choice.hint && <span className="hint"><Marked text={choice.hint} /></span>}
               {choice.note && <em className="note">{choice.note}</em>}
             </span>
           </button>
         ))}
       </div>
+
+      <TermsPanel entries={terms} />
 
       {examples.length > 0 && (
         <div className="examples">
