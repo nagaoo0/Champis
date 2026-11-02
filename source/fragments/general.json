@@ -8,29 +8,35 @@
     {
      "label": "Hyménophore interne",
      "hint": "Gasteromycetidae (vesses-de-loup et apparentés)",
-     "next": "p08"
+     "next": "p08",
+     "img": "p03-interne"
     },
     {
      "label": "Hyménophore lisse (ou mal individualisé)",
      "hint": "croûtes, arbuscules, trompettes, éponges, coupes, sphères",
-     "next": "p03-lisse"
+     "next": "p03-lisse",
+     "img": "p03-lisse"
     },
     {
      "label": "Hyménophore à aiguillons (acuéolé)",
-     "next": "p03-aiguillons"
+     "next": "p03-aiguillons",
+     "img": "picto-aiguillons"
     },
     {
      "label": "Hyménophore à tubes (tubulé ou poré)",
-     "next": "p03-tubes"
+     "next": "p03-tubes",
+     "img": "p03-tubes"
     },
     {
      "label": "Hyménophore à plis",
      "hint": "Chanterelles",
-     "next": "p03-plis"
+     "next": "p03-plis",
+     "img": "p03-plis"
     },
     {
      "label": "Hyménophore à lames",
-     "next": "p03-lames"
+     "next": "p03-lames",
+     "img": "p03-lames"
     }
    ]
   },
@@ -746,6 +752,65 @@
    ],
    "caption": "Girolle : marge festonnée, chapeau jaune-orangé creusé en entonnoir, pied court atténué à la base, plis décurrents ramifiés",
    "species": "cantharellus-cibarius"
+  },
+  {
+   "name": "p03-interne",
+   "page": 8,
+   "box": [
+    0.367,
+    0.195,
+    0.56,
+    0.32
+   ],
+   "caption": "Hyménophore interne (scléroderme coupé)"
+  },
+  {
+   "name": "p03-lisse",
+   "page": 7,
+   "box": [
+    0.76,
+    0.245,
+    0.91,
+    0.331
+   ],
+   "caption": "Hyménophore lisse (pézize)"
+  },
+  {
+   "name": "p03-tubes",
+   "page": 11,
+   "box": [
+    0.3,
+    0.72,
+    0.434,
+    0.86
+   ],
+   "caption": "Hyménophore à tubes (bolet)"
+  },
+  {
+   "name": "p03-plis",
+   "page": 41,
+   "box": [
+    0.488,
+    0.45,
+    0.913,
+    0.793
+   ],
+   "caption": "Hyménophore à plis (girolle)"
+  },
+  {
+   "name": "p03-lames",
+   "page": 40,
+   "box": [
+    0.385,
+    0.325,
+    0.62,
+    0.45
+   ],
+   "caption": "Hyménophore à lames"
+  },
+  {
+   "name": "picto-aiguillons",
+   "caption": "Hyménophore à aiguillons (picto dessiné, pas dans le livret)"
   }
  ]
 }

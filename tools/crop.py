@@ -18,6 +18,8 @@ figures = json.loads((ROOT / "source" / "figures.json").read_text(encoding="utf8
 cache = {}
 
 for fig in figures:
+    if "box" not in fig:
+        continue  # hand drawn picto, see draw_aiguillons.py
     page = cache.get(fig["page"]) or Image.open(PAGES / f"p{fig['page']:02d}.png")
     cache[fig["page"]] = page
     w, h = page.size

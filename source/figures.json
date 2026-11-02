@@ -397,6 +397,65 @@
   "species": "cantharellus-cibarius"
  },
  {
+  "name": "p03-interne",
+  "page": 8,
+  "box": [
+   0.367,
+   0.195,
+   0.56,
+   0.32
+  ],
+  "caption": "Hyménophore interne (scléroderme coupé)"
+ },
+ {
+  "name": "p03-lisse",
+  "page": 7,
+  "box": [
+   0.76,
+   0.245,
+   0.91,
+   0.331
+  ],
+  "caption": "Hyménophore lisse (pézize)"
+ },
+ {
+  "name": "p03-tubes",
+  "page": 11,
+  "box": [
+   0.3,
+   0.72,
+   0.434,
+   0.86
+  ],
+  "caption": "Hyménophore à tubes (bolet)"
+ },
+ {
+  "name": "p03-plis",
+  "page": 41,
+  "box": [
+   0.488,
+   0.45,
+   0.913,
+   0.793
+  ],
+  "caption": "Hyménophore à plis (girolle)"
+ },
+ {
+  "name": "p03-lames",
+  "page": 40,
+  "box": [
+   0.385,
+   0.325,
+   0.62,
+   0.45
+  ],
+  "caption": "Hyménophore à lames"
+ },
+ {
+  "name": "picto-aiguillons",
+  "caption": "Hyménophore à aiguillons (picto dessiné, pas dans le livret)"
+ },
+ {
   "name": "p05-a",
   "page": 5,
   "box": [

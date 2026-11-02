@@ -9,29 +9,35 @@
     {
      "label": "Hyménophore interne",
      "hint": "Gasteromycetidae (vesses-de-loup et apparentés)",
-     "next": "p08"
+     "next": "p08",
+     "img": "p03-interne"
     },
     {
      "label": "Hyménophore lisse (ou mal individualisé)",
      "hint": "croûtes, arbuscules, trompettes, éponges, coupes, sphères",
-     "next": "p03-lisse"
+     "next": "p03-lisse",
+     "img": "p03-lisse"
     },
     {
      "label": "Hyménophore à aiguillons (acuéolé)",
-     "next": "p03-aiguillons"
+     "next": "p03-aiguillons",
+     "img": "picto-aiguillons"
     },
     {
      "label": "Hyménophore à tubes (tubulé ou poré)",
-     "next": "p03-tubes"
+     "next": "p03-tubes",
+     "img": "p03-tubes"
     },
     {
      "label": "Hyménophore à plis",
      "hint": "Chanterelles",
-     "next": "p03-plis"
+     "next": "p03-plis",
+     "img": "p03-plis"
     },
     {
      "label": "Hyménophore à lames",
-     "next": "p03-lames"
+     "next": "p03-lames",
+     "img": "p03-lames"
     }
    ]
   },

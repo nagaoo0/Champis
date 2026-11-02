@@ -15,3 +15,7 @@ Choix faits là où le livret est ambigu. Chaque page a aussi sa section « Dout
 - **p.11, dessin (7)** : il est attribué à *Tylopilus felleus*, mais sa légende indique « pores jaunes, bleuissant au toucher, pied ventru radicant ». Cela ne correspond pas au texte (« pores blancs ou roses »). Le rattachement du livret est conservé. Il est à revoir par un mycologue.
 - **p.6, rangée centrale** : les clavaires n'ont pas de numéro imprimé. Elles sont attribuées dans l'ordre du texte.
 - **p.33, dessin sans numéro** : il est attribué à *Amanita pantherina* d'après sa position et son aspect.
+
+## Pictos de la clé générale (p.3)
+
+Les dessins des six types d'hyménophore sont des recadrages de dessins du livret, sans leur numéro imprimé : `p03-interne` (scléroderme, p.8), `p03-lisse` (pézize, p.7), `p03-tubes` (bolet, p.11), `p03-plis` (girolle, p.41) et `p03-lames` (p.40). Le livret n'a aucun dessin d'hydne : `picto-aiguillons` est dessiné par `tools/draw_aiguillons.py`. Il n'a pas de cadre dans les fragments, et `crop.py` l'ignore.
