@@ -7,6 +7,7 @@ import Species from './pages/Species'
 import Catalog from './pages/Catalog'
 import Glossary from './pages/Glossary'
 import Booklet from './pages/Booklet'
+import About from './pages/About'
 import Guide from './pages/Guide'
 import NotFound from './pages/NotFound'
 
@@ -16,6 +17,7 @@ const NAV = [
   { label: 'Guide', to: '/guide', prefix: '/guide' },
   { label: 'Glossaire', to: '/glossaire', prefix: '/glossaire' },
   { label: 'Livret', to: '/livret/1', prefix: '/livret' },
+  { label: 'À propos', to: '/a-propos', prefix: '/a-propos' },
 ]
 
 export default function App() {
@@ -53,6 +55,7 @@ export default function App() {
           <Route path="/livret" element={<Navigate to="/livret/1" replace />} />
           <Route path="/livret/:n" element={<Booklet />} />
           <Route path="/guide" element={<Guide />} />
+          <Route path="/a-propos" element={<About />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>

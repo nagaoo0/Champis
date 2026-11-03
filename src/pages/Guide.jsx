@@ -1,7 +1,9 @@
 import extra from '../data/extra.json'
 import Img from '../components/Img'
+import { useTitle } from '../lib/title'
 
 export default function Guide() {
+  useTitle("Guide d'observation")
   return (
     <section>
       <h1>Guide d'observation</h1>

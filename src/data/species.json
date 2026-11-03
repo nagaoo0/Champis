@@ -128,7 +128,8 @@
   "latin": "Stereum hirsutum",
   "group": "Croûtes et clavaires",
   "edibility": "inconnu",
-  "note": "Coriace, mince ; hyménophore jaune, surface supérieure hirsute."
+  "note": "Coriace, mince ; hyménophore jaune, surface supérieure hirsute.",
+  "fr": "Stérée hirsute"
  },
  "chondrostereum-purpureum": {
   "confusions": [],
@@ -152,7 +153,8 @@
   "latin": "Thelephora terrestris",
   "group": "Croûtes et clavaires",
   "edibility": "inconnu",
-  "note": "En pétales bruns à extrémités blanchâtres, à terre, marges frangées."
+  "note": "En pétales bruns à extrémités blanchâtres, à terre, marges frangées.",
+  "fr": "Théléphore terrestre"
  },
  "auricularia-auricula-judae": {
   "confusions": [],
@@ -512,7 +514,8 @@
   "latin": "Bulgaria inquinans",
   "group": "Pézizes, morilles, helvelles",
   "edibility": "inconnu",
-  "note": "Gélatineuse, en boutons ou toupies, noirâtre, salissante."
+  "note": "Gélatineuse, en boutons ou toupies, noirâtre, salissante.",
+  "fr": "Bulgarie salissante"
  },
  "tremella-mesenterica": {
   "confusions": [],
@@ -699,7 +702,8 @@
   "latin": "Cyathus striatus",
   "group": "Vesses-de-loup et apparentés",
   "edibility": "inconnu",
-  "note": "En nid ; extérieur hirsute, brun."
+  "note": "En nid ; extérieur hirsute, brun.",
+  "fr": "Cyathe strié"
  },
  "crucibulum-laeve": {
   "confusions": [
@@ -812,7 +816,8 @@
   "latin": "Ganoderma lucidum",
   "group": "Polypores",
   "edibility": "inconnu",
-  "note": "Pied excentrique, coriace, vernissé, rouge purpurin."
+  "note": "Pied excentrique, coriace, vernissé, rouge purpurin.",
+  "fr": "Ganoderme luisant"
  },
  "postia-stiptica": {
   "confusions": [],
@@ -1828,7 +1833,7 @@
    16
   ],
   "latin": "Hebeloma radicosum",
-  "fr": "",
+  "fr": "Hébélome radicant",
   "group": "Espèces annelées",
   "edibility": "inconnu",
   "note": "Long pied radicant, forte odeur d'amandes amères."
@@ -2639,7 +2644,8 @@
   "latin": "Marasmius rotula",
   "group": "Marasmes",
   "edibility": "inconnu",
-  "note": "Petit, sur débris, pied noir. Lames insérées sur un collarium, pas de lamellules."
+  "note": "Petit, sur débris, pied noir. Lames insérées sur un collarium, pas de lamellules.",
+  "fr": "Marasme petite roue"
  },
  "marasmiellus-androsaceus": {
   "confusions": [],
@@ -4761,7 +4767,7 @@
    37
   ],
   "latin": "Cortinarius purpurascens",
-  "fr": "",
+  "fr": "Cortinaire purpurescent",
   "group": "Cortinaires",
   "edibility": "inconnu",
   "note": "Pied cylindrique ou clavé, lames lilacines devenant violettes au froissement, chapeau brun. Aucun cortinaire n'est comestible (livret)."
@@ -4785,7 +4791,7 @@
    37
   ],
   "latin": "Cortinarius violaceus",
-  "fr": "",
+  "fr": "Cortinaire violet",
   "group": "Cortinaires",
   "edibility": "inconnu",
   "note": "Chapeau, lames et pied d'un bleu-violet profond, odeur d'encre. Aucun cortinaire n'est comestible (livret)."

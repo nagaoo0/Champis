@@ -3,10 +3,24 @@ import { splitTerms } from '../lib/glossary'
 import { slug } from '../lib/text'
 import Img from './Img'
 
-// text with glossary words underlined (not links: they often sit inside a choice button)
-export function Marked({ text }) {
+// a tap shows the definition (onTerm), the click is not passed on to the choice button
+export function Marked({ text, onTerm }) {
   return splitTerms(text).map((p, i) =>
-    p.entry ? <span key={i} className="term-mark" title={p.entry.def}>{p.text}</span> : p.text,
+    p.entry ? (
+      <span
+        key={i}
+        className="term-mark"
+        title={p.entry.def}
+        onClick={(e) => {
+          e.stopPropagation()
+          onTerm?.(p.entry)
+        }}
+      >
+        {p.text}
+      </span>
+    ) : (
+      p.text
+    ),
   )
 }
 

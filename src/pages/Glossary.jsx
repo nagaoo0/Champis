@@ -1,10 +1,12 @@
 import extra from '../data/extra.json'
 import { slug } from '../lib/text'
+import { useTitle } from '../lib/title'
 import Img from '../components/Img'
 
 const terms = [...extra.glossary].sort((a, b) => a.term.localeCompare(b.term, 'fr'))
 
 export default function Glossary() {
+  useTitle('Glossaire')
   return (
     <section>
       <h1>Glossaire</h1>

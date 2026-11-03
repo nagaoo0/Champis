@@ -1,10 +1,12 @@
 import { Link } from 'react-router-dom'
 import species from '../data/species.json'
-import external from '../data/external.json'
+import { useExternal } from '../lib/external'
 import EdibilityBadge from './EdibilityBadge'
 import Img from './Img'
+import Photo from './Photo'
 
 export default function SpeciesCard({ id, compact = false }) {
+  const external = useExternal()
   const sp = species[id]
   if (!sp) return null
   const photo = external[id]?.photos?.[0]
@@ -13,7 +15,7 @@ export default function SpeciesCard({ id, compact = false }) {
       {sp.images?.[0] ? (
         <Img name={sp.images[0]} />
       ) : (
-        photo && <img src={photo.thumb} alt="" className="card-photo" loading="lazy" />
+        photo && <Photo src={photo.thumb} className="card-photo" />
       )}
       <span className="species-card-text">
         <span className="latin">{sp.latin}</span>

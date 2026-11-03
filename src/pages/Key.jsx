@@ -2,12 +2,14 @@ import { useState } from 'react'
 import { Link, useLocation, useNavigate, useParams } from 'react-router-dom'
 import tree from '../data/key.json'
 import species from '../data/species.json'
-import external from '../data/external.json'
-import { reachableSpecies } from '../lib/key'
+import { useExternal } from '../lib/external'
+import Photo from '../components/Photo'
+import { reachableSpecies, stepsLeft } from '../lib/key'
 import Img from '../components/Img'
 import SpeciesCard from '../components/SpeciesCard'
 import { Marked, TermsPanel } from '../components/Terms'
 import { termsIn } from '../lib/glossary'
+import { useTitle } from '../lib/title'
 import NotFound from './NotFound'
 
 // key forces a fresh state (panel closed) on each node
@@ -16,11 +18,18 @@ export default function Key() {
   return <KeyNode key={nodeId} nodeId={nodeId} />
 }
 
+// long branches show a few species, deadly ones first so they are never hidden
+const SAMPLE = 6
+const sample = (ids) => [...ids.filter((id) => species[id]?.edibility === 'mortel'), ...ids.filter((id) => species[id]?.edibility !== 'mortel')].slice(0, SAMPLE)
+
 function KeyNode({ nodeId }) {
   const [showAll, setShowAll] = useState(false)
+  const [openTerm, setOpenTerm] = useState(null)
+  const external = useExternal()
   const navigate = useNavigate()
   const location = useLocation()
   const node = tree.nodes[nodeId]
+  useTitle(node?.title)
   const trail = location.state?.trail ?? []
 
   if (!node) return <NotFound />
@@ -31,6 +40,7 @@ function KeyNode({ nodeId }) {
   // deadly species first so they are never cut off
   const withPhoto = possible.filter((id) => external[id]?.photos?.length)
   const examples = [...withPhoto.filter(isDeadly), ...withPhoto.filter((id) => !isDeadly(id))].slice(0, 4)
+  const steps = stepsLeft(nodeId)
   const terms = termsIn([node.question, node.intro, ...node.choices.flatMap((c) => [c.label, c.hint])])
 
   function go(choice) {
@@ -69,21 +79,29 @@ function KeyNode({ nodeId }) {
       )}
 
       <p className="eyebrow">{node.title} · <Link to={`/livret/${node.page}`}>Livret p. {node.page}</Link></p>
-      <h1 className="question"><Marked text={node.question} /></h1>
-      {node.intro && <p className="intro"><Marked text={node.intro} /></p>}
+      <h1 className="question"><Marked text={node.question} onTerm={setOpenTerm} /></h1>
+      {node.intro && <p className="intro"><Marked text={node.intro} onTerm={setOpenTerm} /></p>}
 
       <p className="counter">
         {possible.length} espèce{possible.length > 1 ? 's' : ''} possible{possible.length > 1 ? 's' : ''}
         {deadly > 0 && <strong className="danger"> dont {deadly} mortelle{deadly > 1 ? 's' : ''}</strong>}
+        {steps > 1 && <span className="steps-left"> · environ {steps} questions pour arriver à une espèce</span>}
       </p>
+
+      {openTerm && (
+        <div className="term-popup" role="note">
+          <strong>{openTerm.term}</strong> : {openTerm.def}
+          <button type="button" className="link-button" onClick={() => setOpenTerm(null)}>Fermer</button>
+        </div>
+      )}
 
       <div className="choices">
         {node.choices.map((choice, i) => (
           <button key={i} type="button" className="choice" onClick={() => go(choice)}>
             {choice.img && <Img name={choice.img} />}
             <span className="choice-text">
-              <strong><Marked text={choice.label} /></strong>
-              {choice.hint && <span className="hint"><Marked text={choice.hint} /></span>}
+              <strong><Marked text={choice.label} onTerm={setOpenTerm} /></strong>
+              {choice.hint && <span className="hint"><Marked text={choice.hint} onTerm={setOpenTerm} /></span>}
               {choice.note && <em className="note">{choice.note}</em>}
             </span>
           </button>
@@ -99,7 +117,7 @@ function KeyNode({ nodeId }) {
             {examples.map((id) => (
               <li key={id} className={species[id].edibility === 'mortel' ? 'deadly' : undefined}>
                 <Link to={`/espece/${id}`}>
-                  <img src={external[id].photos[0].thumb} alt="" loading="lazy" />
+                  <Photo src={external[id].photos[0].thumb} />
                   <span className="latin">
                     {species[id].edibility === 'mortel' && '☠ '}
                     {species[id].latin}
@@ -130,9 +148,11 @@ function KeyNode({ nodeId }) {
                 <button type="button" className="branch-title" onClick={() => go(choice)}>
                   {choice.label}
                 </button>
+                <p className="hint">{ids.length} espèce{ids.length > 1 ? 's' : ''}</p>
                 <div className="species-grid">
-                  {ids.map((id) => <SpeciesCard key={id} id={id} compact />)}
+                  {sample(ids).map((id) => <SpeciesCard key={id} id={id} compact />)}
                 </div>
+                {ids.length > SAMPLE && <p className="hint">et {ids.length - SAMPLE} autres : touchez le titre pour suivre cette branche.</p>}
               </div>
             )
           })}

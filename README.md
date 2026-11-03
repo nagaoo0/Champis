@@ -25,7 +25,7 @@ npm run dev
 ## Corriger la clé
 
 1. Modifier le fragment concerné dans `source/fragments/` (et le `.md` de la page pour garder le texte à jour).
-2. `npm run data` : fusionne les fragments dans `src/data/` et liste les problèmes (lien cassé, espèce inaccessible, image manquante).
+2. `npm run data` (lancé aussi par `npm run build`) : fusionne les fragments dans `src/data/` et liste les problèmes (lien cassé, espèce inaccessible, image manquante).
 
 ## Régénérer les images
 

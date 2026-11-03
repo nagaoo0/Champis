@@ -895,3 +895,64 @@ label select {
     gap: 1.5rem;
   }
 }
+
+/* home */
+.home-hero {
+  display: grid;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.home-drawing {
+  max-height: 220px;
+  justify-self: center;
+}
+
+.steps {
+  display: grid;
+  gap: 0.75rem;
+  margin: 0 0 1.5rem;
+  padding: 0;
+  list-style: none;
+}
+
+.steps li {
+  padding: 0.75rem 1rem;
+  background: var(--card);
+  border: 1px solid var(--rule-soft);
+  border-left: 4px solid var(--moss);
+}
+
+@media (min-width: 720px) {
+  .home-hero {
+    grid-template-columns: 1fr 260px;
+  }
+
+  .steps {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* definition shown when a glossary word is tapped */
+.term-popup {
+  margin: 0 0 1rem;
+  padding: 0.75rem 1rem;
+  background: var(--amber-bg);
+  border-left: 4px solid var(--amber);
+}
+
+.link-button {
+  margin-left: 0.75rem;
+  padding: 0;
+  font: inherit;
+  color: var(--moss-dark);
+  text-decoration: underline;
+  background: none;
+  border: 0;
+  cursor: pointer;
+}
+
+.steps-left {
+  color: var(--ink-soft);
+}

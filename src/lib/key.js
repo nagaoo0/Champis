@@ -59,3 +59,23 @@ export function pathTo(speciesId) {
   }
   return path.length ? path : null
 }
+
+// questions left before a species: the typical (median) number from this node, counting the
+// answer that opens the species page. shortest routes, loops cannot inflate it
+export function stepsLeft(nodeId) {
+  const dist = new Map([[nodeId, 1]])
+  const queue = [nodeId]
+  const species = new Map()
+  for (let i = 0; i < queue.length; i++) {
+    const d = dist.get(queue[i])
+    for (const choice of tree.nodes[queue[i]]?.choices ?? []) {
+      if (choice.species && !species.has(choice.species)) species.set(choice.species, d)
+      if (choice.next && !dist.has(choice.next)) {
+        dist.set(choice.next, d + 1)
+        queue.push(choice.next)
+      }
+    }
+  }
+  const sorted = [...species.values()].sort((a, b) => a - b)
+  return sorted.length ? sorted[Math.floor(sorted.length / 2)] : 0
+}

@@ -5,10 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "node tools/build_data.js && vite build",
     "preview": "vite preview",
     "data": "node tools/build_data.js",
-    "external": "node tools/fetch_external.js"
+    "external": "node tools/fetch_external.js",
+    "frnames": "node tools/fetch_fr_names.js"
   },
   "dependencies": {
     "marked": "^18.1.3",

@@ -48,6 +48,14 @@ for (const fig of Object.values(figures)) {
   if (fig.species && species[fig.species]) species[fig.species].images = union(species[fig.species].images, [fig.name])
 }
 
+// french names the booklet lacks, fetched by tools/fetch_fr_names.js (the booklet always wins)
+try {
+  const fr = JSON.parse(readFileSync('src/data/frnames.json', 'utf8'))
+  for (const [id, name] of Object.entries(fr)) if (species[id] && !species[id].fr) species[id].fr = name
+} catch {
+  // file is optional
+}
+
 // checks
 const START = 'p03'
 const seenNodes = new Set()

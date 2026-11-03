@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import species from '../data/species.json'
 import { normalize } from '../lib/text'
+import { useTitle } from '../lib/title'
 import EdibilityBadge from '../components/EdibilityBadge'
 import SpeciesCard from '../components/SpeciesCard'
 
@@ -10,6 +11,7 @@ const entries = Object.entries(species).sort((a, b) => a[1].latin.localeCompare(
 const groups = [...new Set(entries.map(([, sp]) => sp.group))].sort((a, b) => a.localeCompare(b, 'fr'))
 
 export default function Catalog() {
+  useTitle('Catalogue')
   const [params, setParams] = useSearchParams()
   const [group, setGroup] = useState('')
   const [selected, setSelected] = useState([]) // empty means all
@@ -21,7 +23,7 @@ export default function Catalog() {
 
   const needle = normalize(q.trim())
   const results = entries.filter(([, sp]) => {
-    const text = normalize(`${sp.latin} ${sp.fr} ${sp.group}`)
+    const text = normalize(`${sp.latin} ${sp.fr} ${sp.group} ${sp.note ?? ''}`)
     return (
       text.includes(needle) &&
       (!group || sp.group === group) &&
@@ -40,7 +42,7 @@ export default function Catalog() {
             type="search"
             value={q}
             onChange={(e) => setParams(e.target.value ? { q: e.target.value } : {}, { replace: true })}
-            placeholder="Nom latin, nom français ou groupe"
+            placeholder="Nom, groupe ou caractère (odeur, habitat...)"
           />
         </label>
         <label>

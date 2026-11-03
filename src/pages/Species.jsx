@@ -1,8 +1,10 @@
 import { Link, useParams } from 'react-router-dom'
 import species from '../data/species.json'
-import external from '../data/external.json'
+import { useExternal } from '../lib/external'
+import Photo from '../components/Photo'
 import tree from '../data/key.json'
 import { pathTo } from '../lib/key'
+import { useTitle } from '../lib/title'
 import EdibilityBadge from '../components/EdibilityBadge'
 import Img from '../components/Img'
 import NotFound from './NotFound'
@@ -18,7 +20,9 @@ const LINKS = [
 
 export default function Species() {
   const { id } = useParams()
+  const external = useExternal()
   const sp = species[id]
+  useTitle(sp?.latin)
   if (!sp) return <NotFound />
 
   const confusions = (sp.confusions ?? []).filter((c) => species[c])
@@ -65,7 +69,7 @@ export default function Species() {
           <div className="photos">
             {photos.map((p) => (
               <figure key={p.thumb}>
-                <img src={p.thumb} alt={sp.latin} loading="lazy" />
+                <Photo src={p.thumb} alt={sp.latin} />
                 <figcaption>
                   <a href={p.page} target="_blank" rel="noopener">Photo : {p.author}, {p.license}</a>
                 </figcaption>

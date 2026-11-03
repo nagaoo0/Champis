@@ -10,12 +10,13 @@ Champi is a French mushroom identification web app built from a scanned field-gu
 
 ```bash
 npm run dev      # dev server on :5173
-npm run build    # outputs dist/, deployed by "npx wrangler deploy"
+npm run build    # runs the data check first (a broken key fails the build), then outputs dist/, deployed by "npx wrangler deploy"
 npm run data     # merge source/fragments into src/data and check the key (exit 1 on problems)
 npm run external # ~10 min: wikidata links + commons/inaturalist photos into src/data/external.json
+npm run frnames  # french names the booklet lacks, from french wikipedia titles, into src/data/frnames.json (merged by npm run data, the booklet name always wins)
 ```
 
-`tools/fetch_external.js` matches species on the Wikidata taxon name (P225). Booklet spellings that do not match go in its `NAME_FIX` map. Photos are hotlinked, never downloaded. Licenses are limited to CC BY, CC BY-SA, CC BY-NC, CC0 and public domain, and the author is always shown.
+`tools/fetch_external.js` matches species on the Wikidata taxon name (P225). Booklet spellings that do not match go in its `NAME_FIX` map. Photos are hotlinked, never downloaded, and hidden if the host stops serving them (`components/Photo.jsx`). `external.json` is big, so `lib/external.js` loads it lazily with `useExternal()`: never import it directly. Licenses are limited to CC BY, CC BY-SA, CC BY-NC, CC0 and public domain, and the author is always shown.
 
 There is no test suite and no linter. `npm run data` is the integrity check: it reports broken `next` links, missing species or images, unreachable nodes and species, duplicate node or figure ids, and edibility conflicts between pages.
 
@@ -45,7 +46,7 @@ Key conventions:
 
 ## App structure
 
-`src/App.jsx` holds the routes and layout (the footer carries the safety disclaimer). The pages are `/cle/:nodeId` (guided key), `/espece/:id`, `/catalogue`, `/glossaire`, `/guide` and `/livret/:n`. The last one shows the scan next to `source/pages/pNN.md`, rendered with `marked` and lazy loaded through `import.meta.glob`.
+`src/App.jsx` holds the routes and layout (the footer carries the safety disclaimer). The pages are `/cle/:nodeId` (guided key), `/espece/:id`, `/catalogue`, `/glossaire`, `/guide`, `/a-propos` (credits, disclaimer, link to report errors) and `/livret/:n`. The last one shows the scan next to `source/pages/pNN.md`, rendered with `marked` and lazy loaded through `import.meta.glob`.
 
 `src/lib/key.js` provides:
 - `reachableSpecies(nodeId)`, used for the "N espèces possibles" counter and the "Je ne sais pas" panel.

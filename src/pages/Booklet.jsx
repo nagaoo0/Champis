@@ -5,6 +5,7 @@ import tree from '../data/key.json'
 import species from '../data/species.json'
 import EdibilityBadge from '../components/EdibilityBadge'
 import NotFound from './NotFound'
+import { useTitle } from '../lib/title'
 
 // page transcriptions, loaded one at a time
 const texts = import.meta.glob('../../source/pages/*.md', { query: '?raw', import: 'default' })
@@ -22,6 +23,7 @@ export default function Booklet() {
 }
 
 function BookletPage({ n }) {
+  useTitle(`Livret p. ${n}`)
   const [html, setHtml] = useState('')
   const navigate = useNavigate()
   const i = PAGES.indexOf(n)
