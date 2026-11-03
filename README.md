@@ -1,6 +1,6 @@
 # Champi
 
-Clé d'identification des champignons sur le terrain, tirée d'un livret scanné (43 pages). Vite + React, site statique déployé comme Worker Cloudflare (fichiers statiques).
+Clé d'identification des champignons sur le terrain, tirée du livret de détermination d'Aurélie Sanchez, professeure (scanné, 43 pages). Vite + React, site statique déployé comme Worker Cloudflare (fichiers statiques).
 
 Aide pédagogique uniquement : ne consommez jamais un champignon sur la seule foi de cette application.
 

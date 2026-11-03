@@ -62,7 +62,7 @@ export default function App() {
 
       <footer className="site-footer">
         <p className="page">
-          Aide pédagogique tirée d'un livret de détermination de terrain. Ne consommez jamais un
+          Aide pédagogique tirée du livret de détermination d'Aurélie Sanchez. Ne consommez jamais un
           champignon sur la seule foi de cette application : faites contrôler chaque récolte par un
           pharmacien ou une association mycologique. Photos : Wikimedia Commons et
           iNaturalist, licences Creative Commons (auteur et licence indiqués sur chaque photo).

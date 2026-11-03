@@ -956,3 +956,11 @@ label select {
 .steps-left {
   color: var(--ink-soft);
 }
+
+/* author credit on the about page */
+.credit {
+  padding: 0.75rem 1rem;
+  font-size: 1.15rem;
+  background: var(--card);
+  border-left: 4px solid var(--moss);
+}

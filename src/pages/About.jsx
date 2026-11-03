@@ -16,6 +16,11 @@ export default function About() {
         application, et faites contrôler chaque récolte.
       </div>
 
+      <p className="credit">
+        La clé d'identification a été conçue par <strong>Aurélie Sanchez</strong>, professeure, dont le
+        livret de détermination est à l'origine de ce site. Merci à elle.
+      </p>
+
       <h2>D'où viennent les données</h2>
       <p>
         La clé de détermination, les espèces, les remarques de comestibilité et les dessins viennent
