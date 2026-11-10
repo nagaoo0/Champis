@@ -8,7 +8,7 @@ import { reachableSpecies, stepsLeft } from '../lib/key'
 import Img from '../components/Img'
 import SpeciesCard from '../components/SpeciesCard'
 import { Marked, TermsPanel } from '../components/Terms'
-import { termsIn } from '../lib/glossary'
+import { termsOfNode } from '../lib/glossary'
 import { useTitle } from '../lib/title'
 import NotFound from './NotFound'
 
@@ -41,7 +41,7 @@ function KeyNode({ nodeId }) {
   const withPhoto = possible.filter((id) => external[id]?.photos?.length)
   const examples = [...withPhoto.filter(isDeadly), ...withPhoto.filter((id) => !isDeadly(id))].slice(0, 4)
   const steps = stepsLeft(nodeId)
-  const terms = termsIn([node.question, node.intro, ...node.choices.flatMap((c) => [c.label, c.hint])])
+  const terms = termsOfNode(node)
 
   function go(choice) {
     const state = { trail: [...trail, { node: nodeId, label: choice.label }] }
@@ -98,7 +98,7 @@ function KeyNode({ nodeId }) {
       <div className="choices">
         {node.choices.map((choice, i) => (
           <button key={i} type="button" className="choice" onClick={() => go(choice)}>
-            {choice.img && <Img name={choice.img} />}
+            {choice.img && nodeId === tree.start && <Img name={choice.img} />}
             <span className="choice-text">
               <strong><Marked text={choice.label} onTerm={setOpenTerm} /></strong>
               {choice.hint && <span className="hint"><Marked text={choice.hint} onTerm={setOpenTerm} /></span>}

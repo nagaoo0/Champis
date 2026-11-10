@@ -6,7 +6,6 @@ import tree from '../data/key.json'
 import { pathTo } from '../lib/key'
 import { useTitle } from '../lib/title'
 import EdibilityBadge from '../components/EdibilityBadge'
-import Img from '../components/Img'
 import NotFound from './NotFound'
 
 const LINKS = [
@@ -49,12 +48,6 @@ export default function Species() {
               <Link to={`/espece/${c}`} className="latin">{species[c].latin}</Link>
             </span>
           ))}
-        </div>
-      )}
-
-      {sp.images?.length > 0 && (
-        <div className="figures">
-          {sp.images.map((name) => <Img key={name} name={name} alt={sp.latin} />)}
         </div>
       )}
 

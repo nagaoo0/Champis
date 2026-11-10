@@ -47,3 +47,7 @@ export function termsIn(texts) {
   for (const text of texts) for (const p of splitTerms(text)) if (p.entry) found.add(p.entry)
   return [...found]
 }
+
+// glossary entries used by the question, the intro and the choices of a key node
+export const termsOfNode = (node) =>
+  termsIn([node.question, node.intro, ...node.choices.flatMap((c) => [c.label, c.hint])])

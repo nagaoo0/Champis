@@ -46,7 +46,9 @@ Key conventions:
 
 ## App structure
 
-`src/App.jsx` holds the routes and layout (the footer carries the safety disclaimer). The pages are `/cle/:nodeId` (guided key), `/espece/:id`, `/catalogue`, `/glossaire`, `/guide`, `/a-propos` (credits, disclaimer, link to report errors) and `/livret/:n`. The last one shows the scan next to `source/pages/pNN.md`, rendered with `marked` and lazy loaded through `import.meta.glob`.
+`src/App.jsx` holds the routes and layout (the footer carries the safety disclaimer). The pages are `/cle/:nodeId` (guided key), `/espece/:id`, `/catalogue`, `/glossaire`, `/vocabulaire` (every question with its glossary terms, for review), `/guide`, `/a-propos` (credits, disclaimer, link to report errors) and `/livret/:n`. The last one shows the scan next to `source/pages/pNN.md`, rendered with `marked` and lazy loaded through `import.meta.glob`.
+
+Booklet drawings are kept in the data but only displayed on the first key question and in the glossary/guide; species show photos only.
 
 `src/lib/key.js` provides:
 - `reachableSpecies(nodeId)`, used for the "N espèces possibles" counter and the "Je ne sais pas" panel.

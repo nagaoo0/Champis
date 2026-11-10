@@ -9,6 +9,7 @@ import Glossary from './pages/Glossary'
 import Booklet from './pages/Booklet'
 import About from './pages/About'
 import Guide from './pages/Guide'
+import Vocabulary from './pages/Vocabulary'
 import NotFound from './pages/NotFound'
 
 const NAV = [
@@ -54,6 +55,7 @@ export default function App() {
           <Route path="/glossaire" element={<Glossary />} />
           <Route path="/livret" element={<Navigate to="/livret/1" replace />} />
           <Route path="/livret/:n" element={<Booklet />} />
+          <Route path="/vocabulaire" element={<Vocabulary />} />
           <Route path="/guide" element={<Guide />} />
           <Route path="/a-propos" element={<About />} />
           <Route path="*" element={<NotFound />} />

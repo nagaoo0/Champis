@@ -835,6 +835,11 @@ label select {
   margin: 0.15rem 0 0;
 }
 
+/* vocabulary review page */
+.vocab-node {
+  margin-top: 2rem;
+}
+
 /* term reached from a key question */
 .term:target {
   background: var(--amber-bg);
