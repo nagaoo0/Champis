@@ -4,9 +4,13 @@ import { slug } from '../lib/text'
 import Img from './Img'
 
 // a tap shows the definition (onTerm), the click is not passed on to the choice button
-export function Marked({ text, onTerm }) {
-  return splitTerms(text).map((p, i) =>
-    p.entry ? (
+// terms in seen (shown earlier on the page) and repeats in this text stay plain
+export function Marked({ text, onTerm, seen }) {
+  const shown = new Set(seen)
+  return splitTerms(text).map((p, i) => {
+    const first = p.entry && !shown.has(p.entry)
+    if (first) shown.add(p.entry)
+    return first ? (
       <span
         key={i}
         className="term-mark"
@@ -20,8 +24,8 @@ export function Marked({ text, onTerm }) {
       </span>
     ) : (
       p.text
-    ),
-  )
+    )
+  })
 }
 
 export function TermsPanel({ entries }) {

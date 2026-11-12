@@ -20,7 +20,7 @@ async function getJson(url, options) {
   throw new Error('request failed: ' + url.slice(0, 120))
 }
 
-// booklet spelling -> name used on wikidata (checked by hand, 2026-11)
+// booklet name -> name used on wikidata, a spelling or the current name (checked by hand, 2026-11)
 const NAME_FIX = {
   'Laetiporus sulfureus': 'Laetiporus sulphureus',
   'Leccinum crocopodium': 'Leccinum crocipodium',
@@ -35,6 +35,19 @@ const NAME_FIX = {
   'Tricholoma sulfureum': 'Tricholoma sulphureum',
   'Tricholoma terreum': 'Tricholoma terraria', // wikidata item Q27266 carries this taxon name
   'Polyporus durus': 'Picipes badius', // the synonym search lands on a tropical Nigroporus
+  'Rozites caperatus': 'Cortinarius caperatus',
+  'Coprinus micaceus': 'Coprinellus micaceus',
+  'Coprinus plicatilis': 'Parasola plicatilis',
+  'Collybia peronata': 'Gymnopus peronatus',
+  'Lactarius necator': 'Lactarius turpis',
+  'Gymnopilus spectabilis': 'Gymnopilus junonius',
+  'Geastrum sessile': 'Geastrum fimbriatum',
+  'Inocybe patouillardii': 'Inocybe erubescens',
+  'Inocybe jurana': 'Inocybe adaequata',
+  'Cuphophyllus niveus': 'Cuphophyllus virgineus',
+  'Clavulina cristata': 'Clavulina coralloides',
+  'Russula fageticola': 'Russula nobilis',
+  'Lepiota josserandii': 'Lepiota subincarnata',
 }
 
 // ids ending in -spp look up the genus

@@ -550,11 +550,36 @@
   ]
  },
  "clavulina-cristata": {
-  "wikidata": "http://www.wikidata.org/entity/Q84826407",
-  "mycobank": "https://www.mycobank.org/page/Name%20details%20page/114572",
-  "gbif": "https://www.gbif.org/species/5249893",
+  "wikidata": "http://www.wikidata.org/entity/Q138027",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Clavaire_%C3%A0_cr%C3%AAtes",
+  "inpn": "https://inpn.mnhn.fr/espece/cd_nom/40905",
+  "mycobank": "https://www.mycobank.org/page/Name%20details%20page/114573",
+  "inaturalist": "https://www.inaturalist.org/taxa/63260",
+  "gbif": "https://www.gbif.org/species/5249883",
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Clavulina&espece=cristata",
-  "photos": []
+  "photos": [
+   {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Clavulina_cristata_sasata.JPG/960px-Clavulina_cristata_sasata.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Clavulina_cristata_sasata.JPG",
+    "author": "Sasata",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+   },
+   {
+    "thumb": "https://inaturalist-open-data.s3.amazonaws.com/photos/109776289/medium.jpg",
+    "page": "https://www.inaturalist.org/photos/109776289",
+    "author": "Drew T Henderson",
+    "license": "CC BY-NC",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/"
+   },
+   {
+    "thumb": "https://inaturalist-open-data.s3.amazonaws.com/photos/451569539/medium.jpg",
+    "page": "https://www.inaturalist.org/photos/451569539",
+    "author": "gailhampshire",
+    "license": "CC BY",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+   }
+  ]
  },
  "clavulina-cinerea": {
   "wikidata": "http://www.wikidata.org/entity/Q2566629",
@@ -1456,12 +1481,34 @@
   ]
  },
  "geastrum-sessile": {
-  "wikidata": "http://www.wikidata.org/entity/Q81181100",
-  "inpn": "https://inpn.mnhn.fr/espece/cd_nom/40377",
-  "mycobank": "https://www.mycobank.org/page/Name%20details%20page/314343",
-  "gbif": "https://www.gbif.org/species/2554357",
+  "wikidata": "http://www.wikidata.org/entity/Q2484512",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Geastrum_fimbriatum",
+  "mycobank": "https://www.mycobank.org/page/Name%20details%20page/120463",
+  "inaturalist": "https://www.inaturalist.org/taxa/332487",
+  "gbif": "https://www.gbif.org/species/2554355",
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Geastrum&espece=sessile",
-  "photos": []
+  "photos": [
+   {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Geastrum_fimbriatum_566.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Geastrum_fimbriatum_566.jpg",
+    "author": "User:Georg_Slickers",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+   },
+   {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Coloured_Figures_of_English_Fungi_or_Mushrooms_-_t._80.png/960px-Coloured_Figures_of_English_Fungi_or_Mushrooms_-_t._80.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Coloured_Figures_of_English_Fungi_or_Mushrooms_-_t._80.png",
+    "author": "James Sowerby",
+    "license": "Public domain"
+   },
+   {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Erdstern_%28Gaestrum%29_-_Unterseite.jpg/960px-Erdstern_%28Gaestrum%29_-_Unterseite.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Erdstern_(Gaestrum)_-_Unterseite.jpg",
+    "author": "Ra'ike (see also: de:Benutzer:Ra'ike)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+   }
+  ]
  },
  "geastrum-triplex": {
   "wikidata": "http://www.wikidata.org/entity/Q1572277",
@@ -3767,11 +3814,36 @@
   ]
  },
  "gymnopilus-spectabilis": {
-  "wikidata": "http://www.wikidata.org/entity/Q103817247",
-  "mycobank": "https://www.mycobank.org/page/Name%20details%20page/298052",
-  "gbif": "https://www.gbif.org/species/7417309",
+  "wikidata": "http://www.wikidata.org/entity/Q1830008",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Gymnopile_remarquable",
+  "inpn": "https://inpn.mnhn.fr/espece/cd_nom/36923",
+  "mycobank": "https://www.mycobank.org/page/Name%20details%20page/331593",
+  "inaturalist": "https://www.inaturalist.org/taxa/83196",
+  "gbif": "https://www.gbif.org/species/2533674",
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Gymnopilus&espece=spectabilis",
-  "photos": []
+  "photos": [
+   {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Gymnopilus_junonius-02.jpg/960px-Gymnopilus_junonius-02.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Gymnopilus_junonius-02.jpg",
+    "author": "Tony Wills",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
+   },
+   {
+    "thumb": "https://inaturalist-open-data.s3.amazonaws.com/photos/29239766/medium.jpeg",
+    "page": "https://www.inaturalist.org/photos/29239766",
+    "author": "Davide Puddu",
+    "license": "CC BY",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+   },
+   {
+    "thumb": "https://inaturalist-open-data.s3.amazonaws.com/photos/128374421/medium.jpeg",
+    "page": "https://www.inaturalist.org/photos/128374421",
+    "author": "Reiner Richter",
+    "license": "CC BY-NC-SA",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+   }
+  ]
  },
  "kuehneromyces-mutabilis": {
   "wikidata": "http://www.wikidata.org/entity/Q732640",
@@ -4028,12 +4100,35 @@
   ]
  },
  "rozites-caperatus": {
-  "wikidata": "http://www.wikidata.org/entity/Q54365564",
-  "inpn": "https://inpn.mnhn.fr/espece/cd_nom/36627",
-  "mycobank": "https://www.mycobank.org/page/Name%20details%20page/414788",
-  "gbif": "https://www.gbif.org/species/2529420",
+  "wikidata": "http://www.wikidata.org/entity/Q669036",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Pholiote_rid%C3%A9e",
+  "mycobank": "https://www.mycobank.org/page/Name%20details%20page/201073",
+  "inaturalist": "https://www.inaturalist.org/taxa/125364",
+  "gbif": "https://www.gbif.org/species/2529415",
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Rozites&espece=caperatus",
-  "photos": []
+  "photos": [
+   {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Rozites_caperata_20100919w.JPG/960px-Rozites_caperata_20100919w.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Rozites_caperata_20100919w.JPG",
+    "author": "Strobilomyces",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+   },
+   {
+    "thumb": "https://inaturalist-open-data.s3.amazonaws.com/photos/419846412/medium.jpg",
+    "page": "https://www.inaturalist.org/photos/419846412",
+    "author": "Dean Lyons",
+    "license": "CC BY-NC",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/"
+   },
+   {
+    "thumb": "https://inaturalist-open-data.s3.amazonaws.com/photos/160358073/medium.jpg",
+    "page": "https://www.inaturalist.org/photos/160358073",
+    "author": "Annie Weissman",
+    "license": "CC BY",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+   }
+  ]
  },
  "agrocybe-rivulosa": {
   "wikidata": "http://www.wikidata.org/entity/Q10403510",
@@ -4344,12 +4439,36 @@
   ]
  },
  "coprinus-micaceus": {
-  "wikidata": "http://www.wikidata.org/entity/Q81027415",
-  "inpn": "https://inpn.mnhn.fr/espece/cd_nom/37327",
-  "mycobank": "https://www.mycobank.org/page/Name%20details%20page/196470",
-  "gbif": "https://www.gbif.org/species/9174116",
+  "wikidata": "http://www.wikidata.org/entity/Q933206",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Coprinellus_micaceus",
+  "inpn": "https://inpn.mnhn.fr/espece/cd_nom/510311",
+  "mycobank": "https://www.mycobank.org/page/Name%20details%20page/474361",
+  "inaturalist": "https://www.inaturalist.org/taxa/56318",
+  "gbif": "https://www.gbif.org/species/2534578",
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Coprinus&espece=micaceus",
-  "photos": []
+  "photos": [
+   {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/2026-03-04_Z5-1520_Achim-Lammerts_Coprinellus-micaceus.jpg/960px-2026-03-04_Z5-1520_Achim-Lammerts_Coprinellus-micaceus.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:2026-03-04_Z5-1520_Achim-Lammerts_Coprinellus-micaceus.jpg",
+    "author": "Achim Lammerts (Syntaxys)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   },
+   {
+    "thumb": "https://inaturalist-open-data.s3.amazonaws.com/photos/106456524/medium.jpeg",
+    "page": "https://www.inaturalist.org/photos/106456524",
+    "author": "Warren Cardimona",
+    "license": "CC BY-NC",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/"
+   },
+   {
+    "thumb": "https://inaturalist-open-data.s3.amazonaws.com/photos/233189130/medium.jpg",
+    "page": "https://www.inaturalist.org/photos/233189130",
+    "author": "Stevan Baluban",
+    "license": "CC BY-NC",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/"
+   }
+  ]
  },
  "pholiota-lenta": {
   "wikidata": "http://www.wikidata.org/entity/Q2442393",
@@ -5171,13 +5290,27 @@
   ]
  },
  "collybia-peronata": {
-  "wikidata": "http://www.wikidata.org/entity/Q49601242",
-  "inpn": "https://inpn.mnhn.fr/espece/cd_nom/30666",
-  "mycobank": "https://www.mycobank.org/page/Name%20details%20page/295414",
-  "inaturalist": "https://www.inaturalist.org/taxa/350414",
-  "gbif": "https://www.gbif.org/species/2537650",
+  "wikidata": "http://www.wikidata.org/entity/Q909217",
+  "mycobank": "https://www.mycobank.org/page/Name%20details%20page/493829",
+  "inaturalist": "https://www.inaturalist.org/taxa/350937",
+  "gbif": "https://www.gbif.org/species/5243776",
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Collybia&espece=peronata",
-  "photos": []
+  "photos": [
+   {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Collybia_peronata_20070812wb.JPG/960px-Collybia_peronata_20070812wb.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Collybia_peronata_20070812wb.JPG",
+    "author": "Strobilomyces",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+   },
+   {
+    "thumb": "https://inaturalist-open-data.s3.amazonaws.com/photos/5069489/medium.jpeg",
+    "page": "https://www.inaturalist.org/photos/5069489",
+    "author": "Kate Turner",
+    "license": "CC BY-NC",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/"
+   }
+  ]
  },
  "laccaria-amethystina": {
   "wikidata": "http://www.wikidata.org/entity/Q28492278",
@@ -6396,12 +6529,27 @@
   ]
  },
  "inocybe-jurana": {
-  "wikidata": "http://www.wikidata.org/entity/Q81022790",
-  "inpn": "https://inpn.mnhn.fr/espece/cd_nom/36398",
-  "mycobank": "https://www.mycobank.org/page/Name%20details%20page/244017",
-  "gbif": "https://www.gbif.org/species/2528166",
+  "wikidata": "http://www.wikidata.org/entity/Q10715872",
+  "mycobank": "https://www.mycobank.org/page/Name%20details%20page/232015",
+  "inaturalist": "https://www.inaturalist.org/taxa/118328",
+  "gbif": "https://www.gbif.org/species/2528165",
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Inocybe&espece=jurana",
-  "photos": []
+  "photos": [
+   {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Inocybe_adaequata_Sensu_392508.jpg/960px-Inocybe_adaequata_Sensu_392508.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Inocybe_adaequata_Sensu_392508.jpg",
+    "author": "This image was created by user Randy Longnecker (Randy L.) at Mushroom Observer, a source for mycological images.You can contact this user here.",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+   },
+   {
+    "thumb": "https://inaturalist-open-data.s3.amazonaws.com/photos/4132181/medium.",
+    "page": "https://www.inaturalist.org/photos/4132181",
+    "author": "Christian Schwarz",
+    "license": "CC BY-NC",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/"
+   }
+  ]
  },
  "inocybe-maculata": {
   "wikidata": "http://www.wikidata.org/entity/Q2277571",
@@ -6498,12 +6646,27 @@
   ]
  },
  "inocybe-patouillardii": {
-  "wikidata": "http://www.wikidata.org/entity/Q81023879",
-  "inpn": "https://inpn.mnhn.fr/espece/cd_nom/36472",
-  "mycobank": "https://www.mycobank.org/page/Name%20details%20page/121079",
-  "gbif": "https://www.gbif.org/species/2527941",
+  "wikidata": "http://www.wikidata.org/entity/Q198722",
+  "mycobank": "https://www.mycobank.org/page/Name%20details%20page/247363",
+  "inaturalist": "https://www.inaturalist.org/taxa/351217",
+  "gbif": "https://www.gbif.org/species/2527939",
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Inocybe&espece=patouillardii",
-  "photos": []
+  "photos": [
+   {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/2010-04-27_Inocybe_erubescens.jpg/960px-2010-04-27_Inocybe_erubescens.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:2010-04-27_Inocybe_erubescens.jpg",
+    "author": "Andreas Kunze",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+   },
+   {
+    "thumb": "https://inaturalist-open-data.s3.amazonaws.com/photos/44009550/medium.jpeg",
+    "page": "https://www.inaturalist.org/photos/44009550",
+    "author": "Elena A. Kizilova (Елена А. Кизилова)",
+    "license": "CC BY",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+   }
+  ]
  },
  "tubaria-furfuracea": {
   "wikidata": "http://www.wikidata.org/entity/Q1495949",
@@ -6683,12 +6846,35 @@
   ]
  },
  "coprinus-plicatilis": {
-  "wikidata": "http://www.wikidata.org/entity/Q84827074",
-  "inpn": "https://inpn.mnhn.fr/espece/cd_nom/37343",
-  "mycobank": "https://www.mycobank.org/page/Name%20details%20page/178877",
-  "gbif": "https://www.gbif.org/species/2534524",
+  "wikidata": "http://www.wikidata.org/entity/Q2519015",
+  "inpn": "https://inpn.mnhn.fr/espece/cd_nom/510329",
+  "mycobank": "https://www.mycobank.org/page/Name%20details%20page/474758",
+  "inaturalist": "https://www.inaturalist.org/taxa/63583",
+  "gbif": "https://www.gbif.org/species/2534522",
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Coprinus&espece=plicatilis",
-  "photos": []
+  "photos": [
+   {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/66/Parasola_spec._-_Lindsey_2a.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Parasola_spec._-_Lindsey_2a.jpg",
+    "author": "James Lindsey",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+   },
+   {
+    "thumb": "https://inaturalist-open-data.s3.amazonaws.com/photos/210873339/medium.jpeg",
+    "page": "https://www.inaturalist.org/photos/210873339",
+    "author": "Wes Gill",
+    "license": "CC BY-NC",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/"
+   },
+   {
+    "thumb": "https://inaturalist-open-data.s3.amazonaws.com/photos/311828825/medium.jpeg",
+    "page": "https://www.inaturalist.org/photos/311828825",
+    "author": "Stephen Russell",
+    "license": "CC BY-NC",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/"
+   }
+  ]
  },
  "panaeolus-spp": {
   "wikidata": "http://www.wikidata.org/entity/Q2120832",
@@ -7021,11 +7207,34 @@
   ]
  },
  "lactarius-necator": {
-  "wikidata": "http://www.wikidata.org/entity/Q103810863",
-  "mycobank": "https://www.mycobank.org/page/Name%20details%20page/355713",
-  "gbif": "https://www.gbif.org/species/5248670",
+  "wikidata": "http://www.wikidata.org/entity/Q23637",
+  "inpn": "https://inpn.mnhn.fr/espece/cd_nom/39396",
+  "mycobank": "https://www.mycobank.org/page/Name%20details%20page/201186",
+  "inaturalist": "https://www.inaturalist.org/taxa/382886",
+  "gbif": "https://www.gbif.org/species/5248667",
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Lactarius&espece=necator",
-  "photos": []
+  "photos": [
+   {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Lactarius_turpis_2010_G1.jpg/960px-Lactarius_turpis_2010_G1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Lactarius_turpis_2010_G1.jpg",
+    "author": "George Chernilevsky",
+    "license": "Public domain"
+   },
+   {
+    "thumb": "https://inaturalist-open-data.s3.amazonaws.com/photos/39927832/medium.jpg",
+    "page": "https://www.inaturalist.org/photos/39927832",
+    "author": "Christian Schwarz",
+    "license": "CC BY-NC",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/"
+   },
+   {
+    "thumb": "https://inaturalist-open-data.s3.amazonaws.com/photos/4161195/medium.",
+    "page": "https://www.inaturalist.org/photos/4161195",
+    "author": "noah_siegel",
+    "license": "CC BY-NC-SA",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+   }
+  ]
  },
  "lactarius-zonarius": {
   "wikidata": "http://www.wikidata.org/entity/Q1897180",
@@ -8314,12 +8523,35 @@
   ]
  },
  "russula-fageticola": {
-  "wikidata": "http://www.wikidata.org/entity/Q81196647",
-  "inpn": "https://inpn.mnhn.fr/espece/cd_nom/39729",
-  "mycobank": "https://www.mycobank.org/page/Name%20details%20page/305369",
-  "gbif": "https://www.gbif.org/species/2551212",
+  "wikidata": "http://www.wikidata.org/entity/Q978751",
+  "inpn": "https://inpn.mnhn.fr/espece/cd_nom/39932",
+  "mycobank": "https://www.mycobank.org/page/Name%20details%20page/272416",
+  "inaturalist": "https://www.inaturalist.org/taxa/49446",
+  "gbif": "https://www.gbif.org/species/2551208",
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Russula&espece=fageticola",
-  "photos": []
+  "photos": [
+   {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Russ_nobilis.jpg/960px-Russ_nobilis.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Russ_nobilis.jpg",
+    "author": "Luridiformis at English Wikipedia",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+   },
+   {
+    "thumb": "https://inaturalist-open-data.s3.amazonaws.com/photos/175614220/medium.jpeg",
+    "page": "https://www.inaturalist.org/photos/175614220",
+    "author": "jsfoto",
+    "license": "CC BY-NC",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/"
+   },
+   {
+    "thumb": "https://inaturalist-open-data.s3.amazonaws.com/photos/13279068/medium.jpg",
+    "page": "https://www.inaturalist.org/photos/13279068",
+    "author": "David Hawgood",
+    "license": "CC BY-SA",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+   }
+  ]
  },
  "russula-aurora": {
   "wikidata": "http://www.wikidata.org/entity/Q1978889",
@@ -9392,12 +9624,35 @@
   ]
  },
  "cuphophyllus-niveus": {
-  "wikidata": "http://www.wikidata.org/entity/Q84335041",
-  "inpn": "https://inpn.mnhn.fr/espece/cd_nom/30025",
-  "mycobank": "https://www.mycobank.org/page/Name%20details%20page/105221",
-  "gbif": "https://www.gbif.org/species/8691094",
+  "wikidata": "http://www.wikidata.org/entity/Q84335147",
+  "inpn": "https://inpn.mnhn.fr/espece/cd_nom/30058",
+  "mycobank": "https://www.mycobank.org/page/Name%20details%20page/127382",
+  "inaturalist": "https://www.inaturalist.org/taxa/486380",
+  "gbif": "https://www.gbif.org/species/3345381",
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Cuphophyllus&espece=niveus",
-  "photos": []
+  "photos": [
+   {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/2007-10-20_Cuphophyllus_virgineus.jpg/960px-2007-10-20_Cuphophyllus_virgineus.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:2007-10-20_Cuphophyllus_virgineus.jpg",
+    "author": "Andreas Kunze",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+   },
+   {
+    "thumb": "https://inaturalist-open-data.s3.amazonaws.com/photos/1031994/medium.jpg",
+    "page": "https://www.inaturalist.org/photos/1031994",
+    "author": "Amadej Trnkoczy",
+    "license": "CC BY-NC-SA",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+   },
+   {
+    "thumb": "https://inaturalist-open-data.s3.amazonaws.com/photos/176354139/medium.jpeg",
+    "page": "https://www.inaturalist.org/photos/176354139",
+    "author": "Alex",
+    "license": "CC BY",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+   }
+  ]
  },
  "cuphophyllus-pratensis": {
   "wikidata": "http://www.wikidata.org/entity/Q934772",
@@ -9934,12 +10189,36 @@
   ]
  },
  "lepiota-josserandii": {
-  "wikidata": "http://www.wikidata.org/entity/Q16654710",
-  "inpn": "https://inpn.mnhn.fr/espece/cd_nom/38374",
-  "mycobank": "https://www.mycobank.org/page/Name%20details%20page/316507",
-  "gbif": "https://www.gbif.org/species/2535447",
+  "wikidata": "http://www.wikidata.org/entity/Q4259141",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Lepiota_subincarnata",
+  "inpn": "https://inpn.mnhn.fr/espece/cd_nom/38448",
+  "mycobank": "https://www.mycobank.org/page/Name%20details%20page/299506",
+  "inaturalist": "https://www.inaturalist.org/taxa/382931",
+  "gbif": "https://www.gbif.org/species/2535445",
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Lepiota&espece=josserandii",
-  "photos": []
+  "photos": [
+   {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Lepiota_subincarnata_117620.jpg/960px-Lepiota_subincarnata_117620.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Lepiota_subincarnata_117620.jpg",
+    "author": "Britney (Riverdweller)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+   },
+   {
+    "thumb": "https://inaturalist-open-data.s3.amazonaws.com/photos/29816474/medium.jpg",
+    "page": "https://www.inaturalist.org/photos/29816474",
+    "author": "Christian Schwarz",
+    "license": "CC BY-NC",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/"
+   },
+   {
+    "thumb": "https://inaturalist-open-data.s3.amazonaws.com/photos/184292310/medium.jpg",
+    "page": "https://www.inaturalist.org/photos/184292310",
+    "author": "jorgemartin71",
+    "license": "CC BY-NC",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/"
+   }
+  ]
  },
  "agaricus-silvicola": {
   "wikidata": "http://www.wikidata.org/entity/Q384480",

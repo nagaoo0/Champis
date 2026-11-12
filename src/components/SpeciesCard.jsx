@@ -11,7 +11,9 @@ export default function SpeciesCard({ id, compact = false }) {
   const photo = external[id]?.photos?.[0]
   return (
     <Link to={`/espece/${id}`} className={compact ? 'species-card compact' : 'species-card'}>
-      {photo && <Photo src={photo.thumb} className="card-photo" />}
+      <span className="card-photo" aria-hidden="true">
+        {photo && <Photo src={photo.thumb} />}
+      </span>
       <span className="species-card-text">
         <span className="latin">{sp.latin}</span>
         <span className="fr">{sp.fr}</span>

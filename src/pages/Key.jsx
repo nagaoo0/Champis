@@ -8,7 +8,7 @@ import { reachableSpecies, stepsLeft } from '../lib/key'
 import Img from '../components/Img'
 import SpeciesCard from '../components/SpeciesCard'
 import { Marked, TermsPanel } from '../components/Terms'
-import { termsOfNode } from '../lib/glossary'
+import { termsIn, termsOfNode } from '../lib/glossary'
 import { useTitle } from '../lib/title'
 import NotFound from './NotFound'
 
@@ -42,6 +42,9 @@ function KeyNode({ nodeId }) {
   const examples = [...withPhoto.filter(isDeadly), ...withPhoto.filter((id) => !isDeadly(id))].slice(0, 4)
   const steps = stepsLeft(nodeId)
   const terms = termsOfNode(node)
+  // a term is underlined only where it first appears: question, intro, then each label and hint
+  const texts = [node.question, node.intro, ...node.choices.flatMap((c) => [c.label, c.hint])]
+  const seenBefore = (i) => new Set(termsIn(texts.slice(0, i)))
 
   function go(choice) {
     const state = { trail: [...trail, { node: nodeId, label: choice.label }] }
@@ -79,8 +82,8 @@ function KeyNode({ nodeId }) {
       )}
 
       <p className="eyebrow">{node.title} · <Link to={`/livret/${node.page}`}>Livret p. {node.page}</Link></p>
-      <h1 className="question"><Marked text={node.question} onTerm={setOpenTerm} /></h1>
-      {node.intro && <p className="intro"><Marked text={node.intro} onTerm={setOpenTerm} /></p>}
+      <h1 className="question"><Marked text={node.question} seen={seenBefore(0)} onTerm={setOpenTerm} /></h1>
+      {node.intro && <p className="intro"><Marked text={node.intro} seen={seenBefore(1)} onTerm={setOpenTerm} /></p>}
 
       <p className="counter">
         {possible.length} espèce{possible.length > 1 ? 's' : ''} possible{possible.length > 1 ? 's' : ''}
@@ -96,16 +99,20 @@ function KeyNode({ nodeId }) {
       )}
 
       <div className="choices">
-        {node.choices.map((choice, i) => (
-          <button key={i} type="button" className="choice" onClick={() => go(choice)}>
-            {choice.img && nodeId === tree.start && <Img name={choice.img} />}
-            <span className="choice-text">
-              <strong><Marked text={choice.label} onTerm={setOpenTerm} /></strong>
-              {choice.hint && <span className="hint"><Marked text={choice.hint} onTerm={setOpenTerm} /></span>}
-              {choice.note && <em className="note">{choice.note}</em>}
-            </span>
-          </button>
-        ))}
+        {node.choices.map((choice, i) => {
+          const photo = nodeId !== tree.start && choice.species && external[choice.species]?.photos?.[0]
+          return (
+            <button key={i} type="button" className="choice" onClick={() => go(choice)}>
+              {choice.img && nodeId === tree.start && <Img name={choice.img} />}
+              {photo && <Photo src={photo.thumb} className="choice-photo" />}
+              <span className="choice-text">
+                <strong><Marked text={choice.label} seen={seenBefore(2 + 2 * i)} onTerm={setOpenTerm} /></strong>
+                {choice.hint && <span className="hint"><Marked text={choice.hint} seen={seenBefore(3 + 2 * i)} onTerm={setOpenTerm} /></span>}
+                {choice.note && <em className="note">{choice.note}</em>}
+              </span>
+            </button>
+          )
+        })}
       </div>
 
       <TermsPanel entries={terms} />

@@ -3,7 +3,6 @@ import { Link, useNavigate } from 'react-router-dom'
 import tree from '../data/key.json'
 import species from '../data/species.json'
 import SpeciesCard from '../components/SpeciesCard'
-import Img from '../components/Img'
 import { useTitle } from '../lib/title'
 
 const deadly = Object.keys(species)
@@ -29,15 +28,12 @@ export default function Home() {
   return (
     <section className="home">
       <div className="home-hero">
-        <div>
-          <h1>Identifier un champignon</h1>
-          <p className="lead">
-            Répondez à quelques questions simples sur ce que vous observez : la clé vous
-            guide pas à pas vers l'espèce, avec ses risques de confusion.
-          </p>
-          <Link to={`/cle/${tree.start}`} className="btn btn-big">Commencer l'identification</Link>
-        </div>
-        <Img name="p41-a" className="home-drawing" alt="Dessin d'une girolle, tiré du livret" />
+        <h1>Identifier un champignon</h1>
+        <p className="lead">
+          Répondez à quelques questions simples sur ce que vous observez : la clé vous
+          guide pas à pas vers l'espèce, avec ses risques de confusion.
+        </p>
+        <Link to={`/cle/${tree.start}`} className="btn btn-big">Commencer l'identification</Link>
       </div>
 
       <ol className="steps">
