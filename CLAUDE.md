@@ -54,7 +54,7 @@ Booklet drawings are kept in the data but only displayed on the first key questi
 - `reachableSpecies(nodeId)`, used for the "N espèces possibles" counter and the "Je ne sais pas" panel.
 - `pathTo(speciesId)`, the shortest path from p03, shown on species pages.
 
-The breadcrumb lives in react-router `location.state.trail`. Images are `/img/<name>.webp`, rendered through `components/Img.jsx`, which hides itself on error. Styling is a single `src/styles.css` with color tokens on `:root` ("carnet naturaliste" look: cream paper, brown ink, moss green, danger red).
+The breadcrumb lives in react-router `location.state.trail`. Images are `/img/<name>.webp`, rendered through `components/Img.jsx`, which hides itself on error. Styling is a single `src/styles.css` with color tokens on `:root` ("cahier d'école" look: dotted cream paper, brown ink, green header, chanterelle orange, chunky rounded buttons and cards, danger red).
 
 ## Conventions from the owner
 

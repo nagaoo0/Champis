@@ -39,7 +39,10 @@ export default function Home() {
       <ol className="steps">
         {STEPS.map(([n, title, text]) => (
           <li key={n}>
-            <strong>{n}. {title}</strong> {text}
+            <span className="step-num">{n}</span>
+            <div>
+              <strong>{title}</strong> {text}
+            </div>
           </li>
         ))}
       </ol>

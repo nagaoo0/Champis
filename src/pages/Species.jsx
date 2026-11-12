@@ -34,10 +34,10 @@ export default function Species() {
     <article>
       <h1 className="latin-title">{sp.latin}</h1>
       <p className="fr-title">{sp.fr}</p>
-      <p><EdibilityBadge edibility={sp.edibility} /></p>
-
-      {sp.edibility === 'mortel' && (
-        <div className="alert alert-solid" role="alert">Espèce mortelle</div>
+      {sp.edibility === 'mortel' ? (
+        <div className="alert alert-solid" role="alert"><span aria-hidden="true">☠</span> Espèce mortelle</div>
+      ) : (
+        <p><EdibilityBadge edibility={sp.edibility} /></p>
       )}
       {deadlyConfusions.length > 0 && (
         <div className="alert alert-soft" role="alert">
