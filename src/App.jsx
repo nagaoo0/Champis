@@ -46,7 +46,8 @@ export default function App() {
         </div>
       </header>
 
-      <main className="page">
+      {/* key restarts the page entrance animation on each route */}
+      <main className="page" key={pathname}>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/cle/:nodeId" element={<Key />} />

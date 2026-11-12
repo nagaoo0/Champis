@@ -21,6 +21,22 @@
   --rule-soft: rgba(42, 29, 18, 0.15);
   --display: 'Nunito', 'Atkinson Hyperlegible', system-ui, sans-serif;
   --sans: 'Chiffres', 'Atkinson Hyperlegible', system-ui, sans-serif;
+  /* motion: durations and easings are defined once, here */
+  --t-press: 80ms;
+  --t-fast: 140ms;
+  --t-spring: 220ms;
+  --t-enter: 260ms;
+  --ease-out: cubic-bezier(0.2, 0.7, 0.2, 1);
+  --spring: cubic-bezier(0.34, 1.45, 0.64, 1);
+  color-scheme: light;
+  accent-color: var(--moss);
+}
+
+/* real spring (a little overshoot), the cubic-bezier above is the fallback */
+@supports (transition-timing-function: linear(0, 1)) {
+  :root {
+    --spring: linear(0, 0.32, 0.78, 1.025, 1.084, 1.056, 1.018, 0.998, 0.993, 1);
+  }
 }
 
 /* Atkinson Hyperlegible draws a slashed zero with no way to turn it off: digits come from a system sans */
@@ -67,6 +83,17 @@ h1,
 h2 {
   font-family: var(--display);
   line-height: 1.15;
+  text-wrap: balance;
+}
+
+p,
+li,
+dd {
+  text-wrap: pretty;
+}
+
+[id] {
+  scroll-margin-top: 1rem;
 }
 
 h1 {
@@ -108,6 +135,7 @@ a:hover {
 
 img {
   max-width: 100%;
+  image-rendering: auto;
 }
 
 .latin {
@@ -182,6 +210,11 @@ img {
   color: #fff;
 }
 
+/* the green header hides the green ring */
+.site-header :focus-visible {
+  outline-color: #fff;
+}
+
 .site-header nav a[aria-current='page'] {
   color: var(--moss-dark);
   background: #fff;
@@ -240,13 +273,6 @@ img {
 
 .btn:hover {
   color: #fff;
-  transform: translateY(1px);
-  box-shadow: 0 3px 0 var(--moss-dark);
-}
-
-.btn:active {
-  transform: translateY(4px);
-  box-shadow: none;
 }
 
 .btn:disabled {
@@ -263,7 +289,6 @@ img {
 
 .btn-ghost:hover:not(:disabled) {
   color: var(--ink);
-  box-shadow: 0 3px 0 var(--edge-dark);
 }
 
 .btn-big {
@@ -275,10 +300,6 @@ img {
   background: var(--orange);
   border-radius: 20px;
   box-shadow: 0 6px 0 var(--orange-dark);
-}
-
-.btn-big:hover {
-  box-shadow: 0 5px 0 var(--orange-dark);
 }
 
 /* inputs */
@@ -469,11 +490,6 @@ label select {
 .choice:hover {
   border-color: var(--orange);
   box-shadow: 0 5px 0 var(--orange);
-}
-
-.choice:active {
-  transform: translateY(4px);
-  box-shadow: 0 1px 0 var(--orange);
 }
 
 .choice img {
@@ -841,7 +857,7 @@ label select {
 
 .chip[aria-pressed='true'] .badge {
   box-shadow: 0 0 0 3px var(--ink), 0 3px 0 3px var(--ink);
-  transform: translateY(1px);
+  translate: 0 1px;
 }
 
 .chip[aria-pressed='true'] .badge::before {
@@ -1125,4 +1141,241 @@ label select {
 /* author credit on the about page */
 .credit {
   font-size: 1.15rem;
+}
+
+/* press and hover feedback: instant, so it also works with reduced motion */
+
+.btn:active:not(:disabled) {
+  translate: 0 4px;
+  box-shadow: none;
+}
+
+.btn-big:active:not(:disabled) {
+  translate: 0 6px;
+}
+
+.choice:active,
+.species-card:active {
+  translate: 0 4px;
+  box-shadow: 0 1px 0 var(--orange);
+}
+
+.chip:active .badge {
+  translate: 0 3px;
+}
+
+.chip[aria-pressed='false']:active .badge {
+  box-shadow: none;
+}
+
+/* lift, only where there is a real pointer (no sticky hover on phones) */
+@media (hover: hover) {
+  .btn:hover:not(:active, :disabled) {
+    translate: 0 -1px;
+    box-shadow: 0 5px 0 var(--moss-dark);
+  }
+
+  .btn-ghost:hover:not(:active, :disabled) {
+    box-shadow: 0 5px 0 var(--edge-dark);
+  }
+
+  .btn-big:hover:not(:active) {
+    translate: 0 -2px;
+    box-shadow: 0 8px 0 var(--orange-dark);
+  }
+
+  .choice:hover:not(:active),
+  .species-card:hover:not(:active) {
+    translate: 0 -2px;
+    box-shadow: 0 7px 0 var(--orange);
+  }
+}
+
+.btn,
+.choice,
+.species-card,
+.chip,
+.site-header nav a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* catalogue: cards far from the screen are not rendered. the clip margin keeps the bottom edge of the card visible */
+.species-card:not(.compact) {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 300px;
+  overflow-clip-margin: 12px;
+}
+
+/* the details marker is a chevron so that it can turn */
+.terms-panel summary {
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+  list-style: none;
+}
+
+.terms-panel summary::-webkit-details-marker {
+  display: none;
+}
+
+.terms-panel summary::before {
+  content: '';
+  flex: none;
+  width: 0.5rem;
+  height: 0.5rem;
+  border: solid var(--bark);
+  border-width: 0 3px 3px 0;
+  rotate: -45deg;
+}
+
+.terms-panel[open] summary::before {
+  rotate: 45deg;
+}
+
+/* motion: everything decorative lives below, nothing here when the person asks for less motion */
+
+@media (prefers-reduced-motion: no-preference) {
+  @keyframes rise {
+    from {
+      opacity: 0;
+      transform: translateY(8px);
+    }
+  }
+
+  @keyframes fade {
+    from {
+      opacity: 0;
+    }
+  }
+
+  @keyframes pop {
+    from {
+      opacity: 0;
+      transform: scale(var(--pop, 0.95));
+    }
+  }
+
+  @keyframes pulse {
+    40% {
+      transform: scale(1.025);
+    }
+  }
+
+  /* new page */
+  main {
+    animation: rise var(--t-enter) var(--ease-out);
+  }
+
+  /* stagger: --d is the position, capped at 5 so the last item starts by 200ms */
+  .choices > *,
+  .steps > *,
+  .home .species-grid > * {
+    animation: rise var(--t-enter) var(--ease-out) backwards;
+    animation-delay: calc(var(--d, 0) * 40ms);
+  }
+
+  :is(.choices, .steps, .home .species-grid) > :nth-child(2) { --d: 1; }
+  :is(.choices, .steps, .home .species-grid) > :nth-child(3) { --d: 2; }
+  :is(.choices, .steps, .home .species-grid) > :nth-child(4) { --d: 3; }
+  :is(.choices, .steps, .home .species-grid) > :nth-child(5) { --d: 4; }
+  :is(.choices, .steps, .home .species-grid) > :nth-child(n + 6) { --d: 5; }
+
+  .question,
+  .intro {
+    animation: fade var(--t-enter) var(--ease-out) backwards;
+  }
+
+  .counter {
+    animation: fade var(--t-enter) var(--ease-out) 60ms backwards;
+  }
+
+  .step-num {
+    --pop: 0.5;
+    animation: pop var(--t-spring) var(--spring) backwards;
+    animation-delay: calc(var(--d, 0) * 40ms + 120ms);
+  }
+
+  /* one calm pulse of the deadly banner, once the page has settled */
+  .alert-solid {
+    animation: pulse 400ms var(--ease-out) 250ms;
+  }
+
+  /* panels that open on demand */
+  .unsure,
+  .term-popup {
+    --pop: 0.97;
+    transform-origin: top left;
+    animation: pop var(--t-enter) var(--spring);
+  }
+
+  /* press: quick down, spring back */
+  .btn,
+  .choice,
+  .species-card,
+  .chip .badge {
+    transition: translate var(--t-spring) var(--spring), box-shadow var(--t-spring) var(--spring);
+  }
+
+  .btn:active,
+  .choice:active,
+  .species-card:active,
+  .chip:active .badge {
+    transition-duration: var(--t-press);
+    transition-timing-function: ease-out;
+  }
+
+  .site-header nav a {
+    transition: background-color var(--t-fast), color var(--t-fast), scale var(--t-spring) var(--spring);
+  }
+
+  .site-header nav a:active {
+    scale: 0.95;
+  }
+
+  .terms-panel summary::before {
+    transition: rotate var(--t-fast) var(--ease-out);
+  }
+
+  /* photos fade in once loaded (Photo.jsx sets data-loaded), the box underneath stays */
+  [data-photo] {
+    transition: opacity var(--t-enter) ease-out;
+  }
+
+  [data-photo]:not([data-loaded]) {
+    opacity: 0;
+  }
+
+  /* details opens and closes smoothly where the browser can animate to auto */
+  @supports (interpolate-size: allow-keywords) and selector(::details-content) {
+    :root {
+      interpolate-size: allow-keywords;
+    }
+
+    .terms-panel::details-content {
+      block-size: 0;
+      overflow: clip;
+      transition: block-size var(--t-enter) var(--ease-out), content-visibility var(--t-enter) allow-discrete;
+    }
+
+    .terms-panel[open]::details-content {
+      block-size: auto;
+    }
+  }
+
+  /* photos on the species page rise in as they scroll into view. not used on the 405 catalogue cards:
+     one view timeline per card cost about 100ms of style work at load */
+  @supports (animation-timeline: view()) {
+    @keyframes reveal {
+      from {
+        opacity: 0;
+        transform: translateY(16px);
+      }
+    }
+
+    .photos figure {
+      animation: reveal linear both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 35%;
+    }
+  }
 }
