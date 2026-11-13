@@ -46,15 +46,15 @@ Key conventions:
 
 ## App structure
 
-`src/App.jsx` holds the routes and layout (the footer carries the safety disclaimer). The pages are `/cle/:nodeId` (guided key), `/espece/:id`, `/catalogue`, `/glossaire`, `/vocabulaire` (every question with its glossary terms, for review), `/guide`, `/a-propos` (credits, disclaimer, link to report errors) and `/livret/:n`. The last one shows the scan next to `source/pages/pNN.md`, rendered with `marked` and lazy loaded through `import.meta.glob`.
+`src/App.jsx` holds the routes and layout (the footer carries the safety disclaimer). The pages are `/cle/:nodeId` (guided key), `/espece/:id`, `/catalogue`, `/glossaire`, `/vocabulaire` (every question with its glossary terms, for review), `/comestibilite` (every species grouped by edibility with its booklet pages, for review), `/doutes` (the "## Doutes" sections of all transcriptions, for review), `/guide`, `/a-propos` (credits, disclaimer, link to report errors) and `/livret/:n`. The last one shows the scan next to `source/pages/pNN.md`, rendered with `marked` and lazy loaded through `import.meta.glob`.
 
-Booklet drawings are kept in the data but only displayed on the first key question and in the glossary/guide; species show photos only.
+Booklet drawings are kept in the data but only displayed on the first key question and in the glossary/guide; species show photos only. A species may carry `current`, its accepted name today when the booklet uses a synonym: photos and links are fetched under it and the species page shows it.
 
 `src/lib/key.js` provides:
 - `reachableSpecies(nodeId)`, used for the "N espèces possibles" counter and the "Je ne sais pas" panel.
 - `pathTo(speciesId)`, the shortest path from p03, shown on species pages.
 
-The breadcrumb lives in react-router `location.state.trail`. Images are `/img/<name>.webp`, rendered through `components/Img.jsx`, which hides itself on error. Styling is a single `src/styles.css` with color tokens on `:root` ("cahier d'école" look: dotted cream paper, brown ink, green header, chanterelle orange, chunky rounded buttons and cards, danger red).
+The breadcrumb lives in the url as `?chemin=p03.2,p03-voile.0` (node id and chosen answer index), written by `trailQuery` and read back by `parseTrail` in `src/lib/key.js`, so it survives a reload or a shared link. Images are `/img/<name>.webp`, rendered through `components/Img.jsx`, which hides itself on error. Styling is a single `src/styles.css` with color tokens on `:root` ("cahier d'école" look: dotted cream paper, brown ink, green header, chanterelle orange, chunky rounded buttons and cards, danger red).
 
 Offline: `public/sw.js` is a hand-written service worker, registered in `src/main.jsx` in production only. It precaches `/index.html` and the `/assets/*` files that page names, caches `/assets/*` cache first, `/img/*`, `/livret/*` and Google fonts stale-while-revalidate, and serves navigations network first with the cached `index.html` as fallback. Photos (cross-origin) and non-GET requests are never cached. Bump `CACHE` in `sw.js` only if these rules change: hashed assets take care of themselves.
 
