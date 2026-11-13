@@ -3,7 +3,7 @@ import species from '../data/species.json'
 import { useExternal } from '../lib/external'
 import Photo from '../components/Photo'
 import tree from '../data/key.json'
-import { pathTo } from '../lib/key'
+import { pathTo, trailQuery } from '../lib/key'
 import { useTitle } from '../lib/title'
 import EdibilityBadge from '../components/EdibilityBadge'
 import NotFound from './NotFound'
@@ -27,40 +27,54 @@ export default function Species() {
   const confusions = (sp.confusions ?? []).filter((c) => species[c])
   const deadlyConfusions = confusions.filter((c) => species[c].edibility === 'mortel')
   const path = pathTo(id)
-  const photos = external[id]?.photos ?? []
+  const [hero, ...more] = external[id]?.photos ?? []
   const links = LINKS.filter(([key]) => external[id]?.[key])
 
   return (
     <article>
-      <h1 className="latin-title">{sp.latin}</h1>
-      <p className="fr-title">{sp.fr}</p>
-      {sp.edibility === 'mortel' ? (
-        <div className="alert alert-solid" role="alert"><span aria-hidden="true">☠</span> Espèce mortelle</div>
-      ) : (
-        <p><EdibilityBadge edibility={sp.edibility} /></p>
-      )}
-      {deadlyConfusions.length > 0 && (
-        <div className="alert alert-soft" role="alert">
-          Risque de confusion avec une espèce mortelle :{' '}
-          {deadlyConfusions.map((c, i) => (
-            <span key={c}>
-              {i > 0 && ', '}
-              <Link to={`/espece/${c}`} className="latin">{species[c].latin}</Link>
-            </span>
-          ))}
+      <div className={hero ? 'species-top has-photo' : 'species-top'}>
+        <div className="species-head">
+          <h1 className="latin-title">{sp.latin}</h1>
+          <p className="fr-title">{sp.fr}</p>
+          {sp.current && (
+            <p>Nom actuel : <i className="latin">{sp.current}</i> <small>(photos et liens sous ce nom)</small></p>
+          )}
+          {sp.edibility === 'mortel' ? (
+            <div className="alert alert-solid" role="alert"><span aria-hidden="true">☠</span> Espèce mortelle</div>
+          ) : (
+            <p><EdibilityBadge edibility={sp.edibility} /></p>
+          )}
+          {deadlyConfusions.length > 0 && (
+            <div className="alert alert-soft" role="alert">
+              Risque de confusion avec une espèce mortelle :{' '}
+              {deadlyConfusions.map((c, i) => (
+                <span key={c}>
+                  {i > 0 && ', '}
+                  <Link to={`/espece/${c}`} className="latin">{species[c].latin}</Link>
+                </span>
+              ))}
+            </div>
+          )}
         </div>
-      )}
 
-      {sp.note && <p className="species-note">{sp.note}</p>}
+        {hero && (
+          <figure className="species-hero">
+            <Photo src={hero.thumb} alt={sp.latin} />
+            <figcaption>
+              <a href={hero.page} target="_blank" rel="noopener">Photo : {hero.author}, {hero.license}</a>
+              <span className="hint">Photo indicative : une photo ne suffit jamais à identifier un champignon.</span>
+            </figcaption>
+          </figure>
+        )}
 
-      {photos.length > 0 && (
+        {sp.note && <p className="species-note">{sp.note}</p>}
+      </div>
+
+      {more.length > 0 && (
         <section>
-          <h2>Photos</h2>
-          <p className="hint">
-            Photos indicatives issues de Wikimedia Commons et iNaturalist : une photo ne suffit jamais à identifier un champignon.
-          </p>
+          <h2>Autres photos</h2>
           <div className="photos">
-            {photos.map((p) => (
+            {more.map((p) => (
               <figure key={p.thumb}>
                 <Photo src={p.thumb} alt={sp.latin} />
                 <figcaption>
@@ -105,7 +119,7 @@ export default function Species() {
           <ol className="path">
             {path.map((step, i) => (
               <li key={step.node}>
-                <Link to={`/cle/${step.node}`} state={{ trail: path.slice(0, i) }}>{step.label}</Link>
+                <Link to={`/cle/${step.node}${trailQuery(path.slice(0, i))}`}>{step.label}</Link>
                 <span className="hint"> ({tree.nodes[step.node].title}, p. {tree.nodes[step.node].page})</span>
               </li>
             ))}

@@ -245,6 +245,7 @@
    6
   ],
   "latin": "Clavulina cristata",
+  "current": "Clavulina coralloides",
   "group": "Croûtes et clavaires",
   "edibility": "inconnu",
   "fr": "Clavaire crêtée",
@@ -669,6 +670,7 @@
    8
   ],
   "latin": "Geastrum sessile",
+  "current": "Geastrum fimbriatum",
   "group": "Vesses-de-loup et apparentés",
   "edibility": "inconnu",
   "note": "Sans collerette sous la gléba, orifice non délimité."
@@ -784,6 +786,7 @@
    9
   ],
   "latin": "Polyporus durus",
+  "current": "Picipes badius",
   "group": "Polypores",
   "edibility": "inconnu",
   "fr": "Polypore à pied noir",
@@ -1684,6 +1687,7 @@
    16
   ],
   "latin": "Gymnopilus spectabilis",
+  "current": "Gymnopilus junonius",
   "fr": "Pholiote remarquable",
   "group": "Espèces annelées",
   "edibility": "inconnu",
@@ -1809,6 +1813,7 @@
    16
   ],
   "latin": "Rozites caperatus",
+  "current": "Cortinarius caperatus",
   "fr": "Pholiote ridée",
   "group": "Espèces annelées",
   "edibility": "comestible",
@@ -1964,7 +1969,8 @@
   "fr": "Coprin micacé (groupe)",
   "group": "Espèces à cortine",
   "edibility": "inconnu",
-  "note": "Non hygrophane, sommet du chapeau micacé (comme saupoudré de sucre), en touffes. Chapeau ocre orangé, strié-cannelé, généralement couvert de petits flocons blancs labiles. Lames déliquescentes."
+  "note": "Non hygrophane, sommet du chapeau micacé (comme saupoudré de sucre), en touffes. Chapeau ocre orangé, strié-cannelé, généralement couvert de petits flocons blancs labiles. Lames déliquescentes.",
+  "current": "Coprinellus micaceus"
  },
  "pholiota-lenta": {
   "confusions": [],
@@ -2342,6 +2348,7 @@
    21
   ],
   "latin": "Collybia peronata",
+  "current": "Gymnopus peronatus",
   "fr": "collybie guêtrée",
   "group": "Collybies et apparentés",
   "edibility": "inconnu",
@@ -2882,6 +2889,7 @@
    25
   ],
   "latin": "Inocybe jurana",
+  "current": "Inocybe adaequata",
   "fr": "inocybe du Jura",
   "group": "Inocybes",
   "edibility": "toxique",
@@ -2953,6 +2961,7 @@
    25
   ],
   "latin": "Inocybe patouillardii",
+  "current": "Inocybe erubescens",
   "group": "Inocybes",
   "edibility": "toxique",
   "note": "Espèce printanière, robuste, blanche puis rougissante."
@@ -3038,6 +3047,7 @@
    26
   ],
   "latin": "Coprinus plicatilis",
+  "current": "Parasola plicatilis",
   "fr": "coprin parasol",
   "group": "Coprins",
   "edibility": "inconnu",
@@ -3188,6 +3198,7 @@
    27
   ],
   "latin": "Lactarius necator",
+  "current": "Lactarius turpis",
   "fr": "lactaire plombé",
   "group": "Lactaires",
   "edibility": "inconnu",
@@ -3735,6 +3746,7 @@
    30
   ],
   "latin": "Russula fageticola",
+  "current": "Russula nobilis",
   "fr": "russule émétique des hêtres",
   "group": "Russules",
   "edibility": "toxique",
@@ -3903,6 +3915,7 @@
    31
   ],
   "latin": "Russula amara",
+  "current": "Russula caerulea",
   "fr": "russule amère",
   "group": "Russules",
   "edibility": "inconnu",
@@ -4219,6 +4232,7 @@
    34
   ],
   "latin": "Cuphophyllus niveus",
+  "current": "Cuphophyllus virgineus",
   "fr": "Hygrophore blanc de neige",
   "group": "Hygrophores",
   "edibility": "comestible",
@@ -4467,6 +4481,7 @@
    35
   ],
   "latin": "Lepiota josserandii",
+  "current": "Lepiota subincarnata",
   "fr": "Lépiote de Josserand",
   "group": "Lépiotes",
   "edibility": "mortel",

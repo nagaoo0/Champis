@@ -9,7 +9,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Hydnum&espece=repandum",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Hedgehog_fungi2.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Hedgehog_fungi2.jpg/500px-Hedgehog_fungi2.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Hedgehog_fungi2.jpg",
     "author": "D J Kelly",
     "license": "Public domain"
@@ -96,7 +96,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Hydnellum&espece=ferrugineum",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Hydnellum_ferrugineum_59267.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Hydnellum_ferrugineum_59267.jpg/500px-Hydnellum_ferrugineum_59267.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Hydnellum_ferrugineum_59267.jpg",
     "author": "amadej trnkoczy (amadej)",
     "license": "CC BY-SA 3.0",
@@ -463,7 +463,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Phlebia&espece=tremellosa",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Merulius_tremellosus_-_Lindsey.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Merulius_tremellosus_-_Lindsey.jpg/500px-Merulius_tremellosus_-_Lindsey.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Merulius_tremellosus_-_Lindsey.jpg",
     "author": "James Lindsey",
     "license": "CC BY-SA 3.0",
@@ -591,7 +591,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Clavulina&espece=cinerea",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Clavulina_rugosa_Lindsey.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Clavulina_rugosa_Lindsey.jpg/500px-Clavulina_rugosa_Lindsey.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Clavulina_rugosa_Lindsey.jpg",
     "author": "James Lindsey",
     "license": "CC BY-SA 3.0",
@@ -655,7 +655,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Calocera&espece=viscosa",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Kleverig_koraalzwammetje.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Kleverig_koraalzwammetje.jpg/500px-Kleverig_koraalzwammetje.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Kleverig_koraalzwammetje.jpg",
     "author": "Rasbak",
     "license": "CC BY-SA 3.0",
@@ -719,7 +719,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Ramaria&espece=botrytis",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/ef/2010-09-17_Ramaria_botrytis_crop.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/2010-09-17_Ramaria_botrytis_crop.jpg/500px-2010-09-17_Ramaria_botrytis_crop.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:2010-09-17_Ramaria_botrytis_crop.jpg",
     "author": "2010-09-17_Ramaria_botrytis.jpg: Jason Hollinger derivative work: Ak ccm",
     "license": "CC BY 2.0",
@@ -900,7 +900,7 @@
   "gbif": "https://www.gbif.org/species/2560905",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/82/Peziza_spec._-_Lindsey_1.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Peziza_spec._-_Lindsey_1.jpg/500px-Peziza_spec._-_Lindsey_1.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Peziza_spec._-_Lindsey_1.jpg",
     "author": "James Lindsey",
     "license": "CC BY-SA 3.0",
@@ -994,7 +994,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Otidea&espece=alutacea",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Brown_Clustered_Ear_Cup.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Brown_Clustered_Ear_Cup.jpg/500px-Brown_Clustered_Ear_Cup.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Brown_Clustered_Ear_Cup.jpg",
     "author": "Jason Hollinger",
     "license": "CC BY 2.0",
@@ -1246,7 +1246,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Phallus&espece=impudicus",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/11/2010-09-26_Phallus_impudicus_crop.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/2010-09-26_Phallus_impudicus_crop.jpg/500px-2010-09-26_Phallus_impudicus_crop.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:2010-09-26_Phallus_impudicus_crop.jpg",
     "author": "Гриб_Phallus_Impudicus.jpg: Max31051980 derivative work: Ak ccm",
     "license": "CC BY-SA 3.0",
@@ -1278,7 +1278,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Scleroderma&espece=citrinum",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/73/Scleroderma_citrinum.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Scleroderma_citrinum.jpg/500px-Scleroderma_citrinum.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Scleroderma_citrinum.jpg",
     "author": "Eric Steinert",
     "license": "CC BY-SA 3.0",
@@ -1395,7 +1395,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Lycoperdon&espece=nigrescens",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Lycoperdon_nigrescens_-_Lindsey.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Lycoperdon_nigrescens_-_Lindsey.jpg/500px-Lycoperdon_nigrescens_-_Lindsey.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Lycoperdon_nigrescens_-_Lindsey.jpg",
     "author": "James Lindsey",
     "license": "CC BY-SA 3.0",
@@ -1489,17 +1489,11 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Geastrum&espece=sessile",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Geastrum_fimbriatum_566.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Geastrum_fimbriatum_566.jpg/330px-Geastrum_fimbriatum_566.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Geastrum_fimbriatum_566.jpg",
     "author": "User:Georg_Slickers",
     "license": "CC BY-SA 3.0",
     "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
-   },
-   {
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Coloured_Figures_of_English_Fungi_or_Mushrooms_-_t._80.png/960px-Coloured_Figures_of_English_Fungi_or_Mushrooms_-_t._80.png",
-    "page": "https://commons.wikimedia.org/wiki/File:Coloured_Figures_of_English_Fungi_or_Mushrooms_-_t._80.png",
-    "author": "James Sowerby",
-    "license": "Public domain"
    },
    {
     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Erdstern_%28Gaestrum%29_-_Unterseite.jpg/960px-Erdstern_%28Gaestrum%29_-_Unterseite.jpg",
@@ -1788,7 +1782,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Ganoderma&espece=lucidum",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/81/Ganoderma_lucidum_01.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Ganoderma_lucidum_01.jpg/500px-Ganoderma_lucidum_01.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Ganoderma_lucidum_01.jpg",
     "author": "Eric Steinert",
     "license": "CC BY-SA 3.0",
@@ -1820,23 +1814,11 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Postia&espece=stiptica",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/19/Postia.stiptica.-.lindsey.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Postia.stiptica.-.lindsey.jpg/500px-Postia.stiptica.-.lindsey.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Postia.stiptica.-.lindsey.jpg",
     "author": "James Lindsey",
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
-   },
-   {
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Coloured_Figures_of_English_Fungi_or_Mushrooms_-_t._226.png/960px-Coloured_Figures_of_English_Fungi_or_Mushrooms_-_t._226.png",
-    "page": "https://commons.wikimedia.org/wiki/File:Coloured_Figures_of_English_Fungi_or_Mushrooms_-_t._226.png",
-    "author": "James Sowerby",
-    "license": "Public domain"
-   },
-   {
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Coloured_Figures_of_English_Fungi_or_Mushrooms_-_t._226.jpg/960px-Coloured_Figures_of_English_Fungi_or_Mushrooms_-_t._226.jpg",
-    "page": "https://commons.wikimedia.org/wiki/File:Coloured_Figures_of_English_Fungi_or_Mushrooms_-_t._226.jpg",
-    "author": "James Sowerby",
-    "license": "Public domain"
    }
   ]
  },
@@ -1938,7 +1920,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Trametes&espece=hirsuta",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Trametes.hirsuta.-.lindsey.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Trametes.hirsuta.-.lindsey.jpg/500px-Trametes.hirsuta.-.lindsey.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Trametes.hirsuta.-.lindsey.jpg",
     "author": "James Lindsey",
     "license": "CC BY-SA 3.0",
@@ -1970,7 +1952,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Heterobasidion&espece=annosum",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/02/Heterobasidion_annosum_-_Lindsey.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Heterobasidion_annosum_-_Lindsey.jpg/500px-Heterobasidion_annosum_-_Lindsey.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Heterobasidion_annosum_-_Lindsey.jpg",
     "author": "James Lindsey",
     "license": "CC BY-SA 3.0",
@@ -2026,7 +2008,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Daedaleopsis&espece=confragosa",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Daedaleopsis_confragosa_-_Lindsey.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Daedaleopsis_confragosa_-_Lindsey.jpg/500px-Daedaleopsis_confragosa_-_Lindsey.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Daedaleopsis_confragosa_-_Lindsey.jpg",
     "author": "James Lindsey",
     "license": "CC BY-SA 3.0",
@@ -2406,7 +2388,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Gyrodon&espece=lividus",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/32/Gyrodon_lividus...jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Gyrodon_lividus...jpg/330px-Gyrodon_lividus...jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Gyrodon_lividus...jpg",
     "author": "Mariuszjbie",
     "license": "CC BY-SA 2.5",
@@ -2470,7 +2452,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Suillus&espece=bovinus",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/be/Suillus_bovinus_Alberto_V%C3%A1zquez.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Suillus_bovinus_Alberto_V%C3%A1zquez.jpg/500px-Suillus_bovinus_Alberto_V%C3%A1zquez.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Suillus_bovinus_Alberto_V%C3%A1zquez.jpg",
     "author": "Alberto Vázquez",
     "license": "CC BY-SA 2.5",
@@ -2725,7 +2707,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Boletus&espece=calopus",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/66/Schoenfussroehrling.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Schoenfussroehrling.jpg/500px-Schoenfussroehrling.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Schoenfussroehrling.jpg",
     "author": "Walter J. Pilsak, Waldsassen",
     "license": "CC BY-SA 3.0",
@@ -2821,7 +2803,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Hortiboletus&espece=rubellus",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Bol.rub.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Bol.rub.jpg/500px-Bol.rub.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Bol.rub.jpg",
     "author": "Luridiformis at English Wikipedia",
     "license": "CC BY 3.0",
@@ -2980,7 +2962,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Suillus&espece=variegatus",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Suillus_variegatus.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Suillus_variegatus.jpg/330px-Suillus_variegatus.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Suillus_variegatus.jpg",
     "author": "W.J.Pilsak (Fotograf: Walter J. Pilsak, Waldsassen) at de.wikipedia.",
     "license": "CC BY-SA 3.0",
@@ -3012,7 +2994,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Hygrophoropsis&espece=aurantiaca",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/90/Hygrophoropsis_aurantiaca.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Hygrophoropsis_aurantiaca.jpg/500px-Hygrophoropsis_aurantiaca.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Hygrophoropsis_aurantiaca.jpg",
     "author": "The original uploader was W.J.Pilsak at German Wikipedia.. Uploaded to Commons by Körnerbrötchen.",
     "license": "CC BY-SA 3.0",
@@ -3079,18 +3061,6 @@
     "author": "User:Strobilomyces",
     "license": "CC BY-SA 3.0",
     "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
-   },
-   {
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Agaricus_flaccidus_%E2%80%94_Flora_Batava_%E2%80%94_Volume_v14.jpg/960px-Agaricus_flaccidus_%E2%80%94_Flora_Batava_%E2%80%94_Volume_v14.jpg",
-    "page": "https://commons.wikimedia.org/wiki/File:Agaricus_flaccidus_%E2%80%94_Flora_Batava_%E2%80%94_Volume_v14.jpg",
-    "author": "Jan Kops",
-    "license": "Public domain"
-   },
-   {
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Agaricus_splendens_%E2%80%94_Flora_Batava_%E2%80%94_Volume_v19.jpg/960px-Agaricus_splendens_%E2%80%94_Flora_Batava_%E2%80%94_Volume_v19.jpg",
-    "page": "https://commons.wikimedia.org/wiki/File:Agaricus_splendens_%E2%80%94_Flora_Batava_%E2%80%94_Volume_v19.jpg",
-    "author": "Jan Kops",
-    "license": "Public domain"
    }
   ]
  },
@@ -3229,14 +3199,14 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Clitocybe&espece=clavipes",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/86/Clitocybe.clavipes2.-.lindsey.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Clitocybe.clavipes2.-.lindsey.jpg/500px-Clitocybe.clavipes2.-.lindsey.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Clitocybe.clavipes2.-.lindsey.jpg",
     "author": "James Lindsey",
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
    },
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/61/Ampulloclitocybe_clavipes_2004.2.-.lindsey.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Ampulloclitocybe_clavipes_2004.2.-.lindsey.jpg/500px-Ampulloclitocybe_clavipes_2004.2.-.lindsey.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Ampulloclitocybe_clavipes_2004.2.-.lindsey.jpg",
     "author": "James K. Lindsey",
     "license": "CC BY-SA 3.0",
@@ -3261,7 +3231,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Clitocybe&espece=odora",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Clitocybe_odora_02.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Clitocybe_odora_02.jpg/330px-Clitocybe_odora_02.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Clitocybe_odora_02.jpg",
     "author": "J.Marqua",
     "license": "CC BY-SA 3.0",
@@ -3324,7 +3294,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Clitopilus&espece=prunulus",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Clitopilus_prunulus_-_Lindsey.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Clitopilus_prunulus_-_Lindsey.jpg/500px-Clitopilus_prunulus_-_Lindsey.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Clitopilus_prunulus_-_Lindsey.jpg",
     "author": "James Lindsey",
     "license": "CC BY-SA 3.0",
@@ -3354,7 +3324,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Entoloma&espece=undatum",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Entoloma.undatum2.-.lindsey.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Entoloma.undatum2.-.lindsey.jpg/500px-Entoloma.undatum2.-.lindsey.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Entoloma.undatum2.-.lindsey.jpg",
     "author": "James Lindsey",
     "license": "CC BY-SA 3.0",
@@ -3386,7 +3356,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Entoloma&espece=rhodopolium",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Entoloma_rhodopolium_-_Lindsey.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Entoloma_rhodopolium_-_Lindsey.jpg/500px-Entoloma_rhodopolium_-_Lindsey.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Entoloma_rhodopolium_-_Lindsey.jpg",
     "author": "James Lindsey",
     "license": "CC BY-SA 3.0",
@@ -3449,7 +3419,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Chroogomphus&espece=rutilus",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Chroogomphus_rutilus_Bryonia_orig.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Chroogomphus_rutilus_Bryonia_orig.jpg/500px-Chroogomphus_rutilus_Bryonia_orig.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Chroogomphus_rutilus_Bryonia_orig.jpg",
     "author": "Alberto Vasquez",
     "license": "CC BY-SA 2.5",
@@ -3513,7 +3483,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Gomphidius&espece=roseus",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Gomphidius_roseus.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Gomphidius_roseus.jpg/500px-Gomphidius_roseus.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Gomphidius_roseus.jpg",
     "author": "auteur inconnu",
     "license": "CC BY-SA 3.0",
@@ -3545,7 +3515,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Amanita&espece=fulva",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/83/Amanita_fulva_lowpx.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Amanita_fulva_lowpx.jpg/500px-Amanita_fulva_lowpx.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Amanita_fulva_lowpx.jpg",
     "author": "Hankwang",
     "license": "CC BY 1.0",
@@ -3577,7 +3547,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Amanita&espece=crocea",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Amanita_crocea_-_Lindsey.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Amanita_crocea_-_Lindsey.jpg/330px-Amanita_crocea_-_Lindsey.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Amanita_crocea_-_Lindsey.jpg",
     "author": "James Lindsey",
     "license": "CC BY-SA 3.0",
@@ -3640,7 +3610,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Amanita&espece=lividopallescens",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c7/2008-11-05_Amanita_lividopallescens_%28Secr._ex_Gillet%29_Boud_27978_crop.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/2008-11-05_Amanita_lividopallescens_%28Secr._ex_Gillet%29_Boud_27978_crop.jpg/500px-2008-11-05_Amanita_lividopallescens_%28Secr._ex_Gillet%29_Boud_27978_crop.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:2008-11-05_Amanita_lividopallescens_(Secr._ex_Gillet)_Boud_27978_crop.jpg",
     "author": "This image was created by user Irene Andersson (irenea) at Mushroom Observer, a source for mycological images.You can contact this user here.",
     "license": "CC BY-SA 3.0",
@@ -3761,7 +3731,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Pholiota&espece=squarrosa",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Pholiota_squarrosa2.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Pholiota_squarrosa2.jpg/500px-Pholiota_squarrosa2.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Pholiota_squarrosa2.jpg",
     "author": "Игорь Лебединский",
     "license": "CC BY 3.0",
@@ -3855,7 +3825,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Kuehneromyces&espece=mutabilis",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Stockschwaemmchen.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Stockschwaemmchen.jpg/250px-Stockschwaemmchen.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Stockschwaemmchen.jpg",
     "author": "auteur inconnu",
     "license": "CC BY-SA 3.0",
@@ -4045,7 +4015,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Tricholoma&espece=cingulatum",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Tricholoma_cingulatum_292459.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Tricholoma_cingulatum_292459.jpg/500px-Tricholoma_cingulatum_292459.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Tricholoma_cingulatum_292459.jpg",
     "author": "This image was created by user Inocybenfan at Mushroom Observer, a source for mycological images.You can contact this user here.",
     "license": "CC BY-SA 3.0",
@@ -4171,7 +4141,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Hebeloma&espece=radicosum",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Hebeloma_radicosum_2.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Hebeloma_radicosum_2.jpg/500px-Hebeloma_radicosum_2.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Hebeloma_radicosum_2.jpg",
     "author": "Dragonòt",
     "license": "CC BY-SA 3.0",
@@ -4196,7 +4166,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Coprinus&espece=comatus",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/98/Coprinus_comatus.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Coprinus_comatus.jpg/500px-Coprinus_comatus.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Coprinus_comatus.jpg",
     "author": "A. Uciechowska",
     "license": "CC BY-SA 3.0",
@@ -4227,7 +4197,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Coprinus&espece=atramentarius",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/30/Coprinopsis_atramentaria_3_-_Lindsey.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Coprinopsis_atramentaria_3_-_Lindsey.jpg/500px-Coprinopsis_atramentaria_3_-_Lindsey.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Coprinopsis_atramentaria_3_-_Lindsey.jpg",
     "author": "James Lindsey",
     "license": "CC BY-SA 3.0",
@@ -4259,7 +4229,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Stropharia&espece=aeruginosa",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Stropharia.aeruginosa.-.lindsey.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Stropharia.aeruginosa.-.lindsey.jpg/250px-Stropharia.aeruginosa.-.lindsey.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Stropharia.aeruginosa.-.lindsey.jpg",
     "author": "James Lindsey",
     "license": "CC BY-SA 3.0",
@@ -4604,7 +4574,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Inocybe&espece=bongardii",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/14/Inocybe.bongardii.-.lindsey.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Inocybe.bongardii.-.lindsey.jpg/500px-Inocybe.bongardii.-.lindsey.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Inocybe.bongardii.-.lindsey.jpg",
     "author": "James K. Lindsey",
     "license": "CC BY-SA 3.0",
@@ -4622,7 +4592,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Inocybe&espece=geophylla",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/54/Ino.geo.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Ino.geo.jpg/500px-Ino.geo.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Ino.geo.jpg",
     "author": "Luridiformis at en.wikipedia",
     "license": "CC BY 3.0",
@@ -4677,7 +4647,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Inocybe&espece=flocculosa",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Inocybe.flocculosa.-.lindsey.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Inocybe.flocculosa.-.lindsey.jpg/500px-Inocybe.flocculosa.-.lindsey.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Inocybe.flocculosa.-.lindsey.jpg",
     "author": "James Lindsey",
     "license": "CC BY-SA 3.0",
@@ -4708,7 +4678,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Hebeloma&espece=mesophaeum",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/96/Hebeloma_mesophaeum_-_Lindsey.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Hebeloma_mesophaeum_-_Lindsey.jpg/500px-Hebeloma_mesophaeum_-_Lindsey.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Hebeloma_mesophaeum_-_Lindsey.jpg",
     "author": "James Lindsey",
     "license": "CC BY-SA 3.0",
@@ -4860,7 +4830,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Lentinellus&espece=cochleatus",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Post-1-1127312702.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Post-1-1127312702.jpg/500px-Post-1-1127312702.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Post-1-1127312702.jpg",
     "author": "A.baglivo 05:33, 2 August 2006 (UTC) - Arturo Baglivo ......",
     "license": "CC BY-SA 3.0",
@@ -4883,7 +4853,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Lenzites&espece=betulinus",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/49/Lenzites_betulina.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Lenzites_betulina.jpg/500px-Lenzites_betulina.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Lenzites_betulina.jpg",
     "author": "auteur inconnu",
     "license": "Public domain"
@@ -5033,7 +5003,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Tapinella&espece=atrotomentosa",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Samtfusskrempling.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Samtfusskrempling.jpg/500px-Samtfusskrempling.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Samtfusskrempling.jpg",
     "author": "Walter J. Pilsak, Waldsassen at de.wikipedia. Uploaded to Commons by Körnerbrötchen.",
     "license": "CC BY-SA 3.0",
@@ -5095,7 +5065,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Crepidotus&espece=mollis",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Crepidotus_spec._-_Lindsey_3a.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Crepidotus_spec._-_Lindsey_3a.jpg/500px-Crepidotus_spec._-_Lindsey_3a.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Crepidotus_spec._-_Lindsey_3a.jpg",
     "author": "James Lindsey",
     "license": "CC BY-SA 3.0",
@@ -5158,7 +5128,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Flammulina&espece=velutipes",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Flammulina_velutipes_04.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Flammulina_velutipes_04.jpg/500px-Flammulina_velutipes_04.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Flammulina_velutipes_04.jpg",
     "author": "Eric Steinert",
     "license": "CC BY-SA 3.0",
@@ -5237,7 +5207,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Tricholomopsis&espece=rutilans",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Trichol_rutilans02_Alberto_V%C3%A1zquez.JPG",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Trichol_rutilans02_Alberto_V%C3%A1zquez.JPG/500px-Trichol_rutilans02_Alberto_V%C3%A1zquez.JPG",
     "page": "https://commons.wikimedia.org/wiki/File:Trichol_rutilans02_Alberto_V%C3%A1zquez.JPG",
     "author": "Alberto Vázquez",
     "license": "CC BY-SA 2.5",
@@ -5512,7 +5482,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Lepista&espece=nuda",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Lepista_nuda.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Lepista_nuda.jpg/500px-Lepista_nuda.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Lepista_nuda.jpg",
     "author": "Archenzo, Italy",
     "license": "CC BY-SA 3.0",
@@ -5612,18 +5582,6 @@
     "author": "This image was created by user Anna Baykalova (anna_ru) at Mushroom Observer, a source for mycological images.You can contact this user here.",
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
-   },
-   {
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Jakob_E._Lange-_Flora_agaricina_Danica._Vol._1-_TAB._17.jpg/960px-Jakob_E._Lange-_Flora_agaricina_Danica._Vol._1-_TAB._17.jpg",
-    "page": "https://commons.wikimedia.org/wiki/File:Jakob_E._Lange-_Flora_agaricina_Danica._Vol._1-_TAB._17.jpg",
-    "author": "J.E.Lange",
-    "license": "Public domain"
-   },
-   {
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Nouvel_atlas_de_poche_des_champignons_comestibles_et_v%C3%A9n%C3%A9neux_%28Pl._14%29_%286459627879%29.jpg/960px-Nouvel_atlas_de_poche_des_champignons_comestibles_et_v%C3%A9n%C3%A9neux_%28Pl._14%29_%286459627879%29.jpg",
-    "page": "https://commons.wikimedia.org/wiki/File:Nouvel_atlas_de_poche_des_champignons_comestibles_et_v%C3%A9n%C3%A9neux_(Pl._14)_(6459627879).jpg",
-    "author": "Dumée, Paul.",
-    "license": "Public domain"
    }
   ]
  },
@@ -5700,7 +5658,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Mycena&espece=sanguinolenta",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Mycena_sanguinolenta_-_Lindsey.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Mycena_sanguinolenta_-_Lindsey.jpg/330px-Mycena_sanguinolenta_-_Lindsey.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Mycena_sanguinolenta_-_Lindsey.jpg",
     "author": "James Lindsey",
     "license": "CC BY-SA 3.0",
@@ -5763,18 +5721,11 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Oudemansiella&espece=radicata",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Xerula.radicata3.-.lindsey.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Xerula.radicata3.-.lindsey.jpg/500px-Xerula.radicata3.-.lindsey.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Xerula.radicata3.-.lindsey.jpg",
     "author": "James Lindsey",
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
-   },
-   {
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/A_fungus_%28Agaricus_radicatus%3F%29%3B_two_fruiting_bodies._Waterco_Wellcome_V0043357.jpg/960px-A_fungus_%28Agaricus_radicatus%3F%29%3B_two_fruiting_bodies._Waterco_Wellcome_V0043357.jpg",
-    "page": "https://commons.wikimedia.org/wiki/File:A_fungus_(Agaricus_radicatus%3F);_two_fruiting_bodies._Waterco_Wellcome_V0043357.jpg",
-    "author": "auteur inconnu",
-    "license": "CC BY 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
    },
    {
     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/20150929_014_Heythuysen_Wandeling_Leudal_%2821642129358%29.jpg/960px-20150929_014_Heythuysen_Wandeling_Leudal_%2821642129358%29.jpg",
@@ -5881,7 +5832,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Clitocybe&espece=dealbata",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Clitocybe_dealbata_1.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Clitocybe_dealbata_1.jpg/500px-Clitocybe_dealbata_1.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Clitocybe_dealbata_1.jpg",
     "author": "Archenzo",
     "license": "CC BY 3.0",
@@ -5906,7 +5857,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Marasmius&espece=alliaceus",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Marasmius_alliaceus_20070928wb.JPG",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Marasmius_alliaceus_20070928wb.JPG/500px-Marasmius_alliaceus_20070928wb.JPG",
     "page": "https://commons.wikimedia.org/wiki/File:Marasmius_alliaceus_20070928wb.JPG",
     "author": "Strobilomyces",
     "license": "CC BY-SA 3.0",
@@ -5931,7 +5882,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Marasmiellus&espece=ramealis",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/91/Marasmiellus_ramealis_2_-_Lindsey.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Marasmiellus_ramealis_2_-_Lindsey.jpg/500px-Marasmiellus_ramealis_2_-_Lindsey.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Marasmiellus_ramealis_2_-_Lindsey.jpg",
     "author": "James Lindsey",
     "license": "CC BY-SA 3.0",
@@ -5963,7 +5914,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Marasmius&espece=rotula",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Marasmius_rotula_148433.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Marasmius_rotula_148433.jpg/500px-Marasmius_rotula_148433.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Marasmius_rotula_148433.jpg",
     "author": "Eric Smith (Bobzimmer)",
     "license": "CC BY-SA 3.0",
@@ -6089,7 +6040,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Mycena&espece=polygramma",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Mycena_cf_amicta_-_Lindsey_1.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Mycena_cf_amicta_-_Lindsey_1.jpg/330px-Mycena_cf_amicta_-_Lindsey_1.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Mycena_cf_amicta_-_Lindsey_1.jpg",
     "author": "James Lindsey",
     "license": "CC BY-SA 3.0",
@@ -6184,7 +6135,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Pluteus&espece=salicinus",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Pluteus_salcinus.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Pluteus_salcinus.jpg/500px-Pluteus_salcinus.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Pluteus_salcinus.jpg",
     "author": "Dan Molter",
     "license": "CC BY-SA 3.0",
@@ -6428,7 +6379,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Entoloma&espece=rhodopollum",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Entoloma_rhodopolium_-_Lindsey.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Entoloma_rhodopolium_-_Lindsey.jpg/500px-Entoloma_rhodopolium_-_Lindsey.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Entoloma_rhodopolium_-_Lindsey.jpg",
     "author": "James Lindsey",
     "license": "CC BY-SA 3.0",
@@ -6583,12 +6534,6 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
    },
    {
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Bresadola_-_Inocybe_hirtella.png/960px-Bresadola_-_Inocybe_hirtella.png",
-    "page": "https://commons.wikimedia.org/wiki/File:Bresadola_-_Inocybe_hirtella.png",
-    "author": "Giacomo Bresadola",
-    "license": "Public domain"
-   },
-   {
     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Inocybe_hirtella_441015919.jpg/960px-Inocybe_hirtella_441015919.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Inocybe_hirtella_441015919.jpg",
     "author": "Matej Frančeškin",
@@ -6630,7 +6575,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Inocybe&espece=rimosa",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Inocybe_rimosa.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Inocybe_rimosa.jpg/500px-Inocybe_rimosa.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Inocybe_rimosa.jpg",
     "author": "Eric Steinert",
     "license": "CC BY-SA 3.0",
@@ -6707,7 +6652,7 @@
   "gbif": "https://www.gbif.org/species/2524117",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Galerina_marginata.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Galerina_marginata.jpg/500px-Galerina_marginata.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Galerina_marginata.jpg",
     "author": "auteur inconnu",
     "license": "CC BY-SA 3.0",
@@ -6854,7 +6799,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Coprinus&espece=plicatilis",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/66/Parasola_spec._-_Lindsey_2a.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Parasola_spec._-_Lindsey_2a.jpg/500px-Parasola_spec._-_Lindsey_2a.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Parasola_spec._-_Lindsey_2a.jpg",
     "author": "James Lindsey",
     "license": "CC BY-SA 3.0",
@@ -6884,7 +6829,7 @@
   "gbif": "https://www.gbif.org/species/2524401",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/57/Panaeolus.subbalteatus.3.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Panaeolus.subbalteatus.3.jpg/500px-Panaeolus.subbalteatus.3.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Panaeolus.subbalteatus.3.jpg",
     "author": "Ian Williams",
     "license": "CC BY-SA 3.0",
@@ -6946,17 +6891,11 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Psathyrella&espece=conopilus",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Psathyrella.conopilus.-.lindsey.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Psathyrella.conopilus.-.lindsey.jpg/500px-Psathyrella.conopilus.-.lindsey.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Psathyrella.conopilus.-.lindsey.jpg",
     "author": "James Lindsey",
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
-   },
-   {
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Agaricus_conopileus_%E2%80%94_Flora_Batava_%E2%80%94_Volume_v19.jpg/960px-Agaricus_conopileus_%E2%80%94_Flora_Batava_%E2%80%94_Volume_v19.jpg",
-    "page": "https://commons.wikimedia.org/wiki/File:Agaricus_conopileus_%E2%80%94_Flora_Batava_%E2%80%94_Volume_v19.jpg",
-    "author": "Jan Kops",
-    "license": "Public domain"
    },
    {
     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/L%C3%BCgde_-_2014-09-08_-_Pilze_im_Schwalenberger_Wald_%2852%29.JPG/960px-L%C3%BCgde_-_2014-09-08_-_Pilze_im_Schwalenberger_Wald_%2852%29.JPG",
@@ -7097,7 +7036,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Lactarius&espece=torminosus",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/01/Lactarius_torminosus_%28cropped%29.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Lactarius_torminosus_%28cropped%29.jpg/330px-Lactarius_torminosus_%28cropped%29.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Lactarius_torminosus_(cropped).jpg",
     "author": "Tocekas",
     "license": "CC BY-SA 3.0",
@@ -7121,7 +7060,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Lactarius&espece=pubescens",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/97/Lacpub2big.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Lacpub2big.jpg/500px-Lacpub2big.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Lacpub2big.jpg",
     "author": "Игорь Лебединский",
     "license": "CC BY 3.0",
@@ -7152,13 +7091,6 @@
   "gbif": "https://www.gbif.org/species/5248629",
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Lactarius&espece=deliciosus",
   "photos": [
-   {
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Lactarius_deliciosus_%28il%C2%B7lustraci%C3%B3_cient%C3%ADfica%29.png/960px-Lactarius_deliciosus_%28il%C2%B7lustraci%C3%B3_cient%C3%ADfica%29.png",
-    "page": "https://commons.wikimedia.org/wiki/File:Lactarius_deliciosus_(il%C2%B7lustraci%C3%B3_cient%C3%ADfica).png",
-    "author": "Marc Serra",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
-   },
    {
     "thumb": "https://inaturalist-open-data.s3.amazonaws.com/photos/235753421/medium.jpeg",
     "page": "https://www.inaturalist.org/photos/235753421",
@@ -7306,7 +7238,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Lactarius&espece=chrysorrheus",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Lactarius_chrysorreus_041113w.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Lactarius_chrysorreus_041113w.jpg/500px-Lactarius_chrysorreus_041113w.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Lactarius_chrysorreus_041113w.jpg",
     "author": "auteur inconnu",
     "license": "CC BY-SA 3.0",
@@ -7344,17 +7276,11 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
    },
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/8b/2007-08-06_Lactarius_uvidus_%28Fr.%29_Fr_71973.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/2007-08-06_Lactarius_uvidus_%28Fr.%29_Fr_71973.jpg/500px-2007-08-06_Lactarius_uvidus_%28Fr.%29_Fr_71973.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:2007-08-06_Lactarius_uvidus_(Fr.)_Fr_71973.jpg",
     "author": "This image was created by user Irene Andersson (irenea) at Mushroom Observer, a source for mycological images.You can contact this user here.",
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
-   },
-   {
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Adalbert_Ricken_Tab-XI.jpg/960px-Adalbert_Ricken_Tab-XI.jpg",
-    "page": "https://commons.wikimedia.org/wiki/File:Adalbert_Ricken_Tab-XI.jpg",
-    "author": "Adalbert Ricken",
-    "license": "Public domain"
    }
   ]
  },
@@ -7461,7 +7387,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Lactarius&espece=camphoratus",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Lactarius_camphoratus_-_Lindsey.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Lactarius_camphoratus_-_Lindsey.jpg/500px-Lactarius_camphoratus_-_Lindsey.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Lactarius_camphoratus_-_Lindsey.jpg",
     "author": "James Lindsey",
     "license": "CC BY-SA 3.0",
@@ -7525,7 +7451,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Lactarius&espece=helvus",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Lactarius_helvus_-_Lindsey.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Lactarius_helvus_-_Lindsey.jpg/500px-Lactarius_helvus_-_Lindsey.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Lactarius_helvus_-_Lindsey.jpg",
     "author": "James Lindsey",
     "license": "CC BY-SA 3.0",
@@ -7556,7 +7482,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Lactarius&espece=pterosporus",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Lactarius_spec._-_Lindsey_13a.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Lactarius_spec._-_Lindsey_13a.jpg/500px-Lactarius_spec._-_Lindsey_13a.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Lactarius_spec._-_Lindsey_13a.jpg",
     "author": "James K. Lindsey",
     "license": "CC BY-SA 3.0",
@@ -7587,21 +7513,21 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Lactarius&espece=subsericatus",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/29/2010-09-19_Lactarius_fulvissimus_Romagn_107090.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/2010-09-19_Lactarius_fulvissimus_Romagn_107090.jpg/500px-2010-09-19_Lactarius_fulvissimus_Romagn_107090.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:2010-09-19_Lactarius_fulvissimus_Romagn_107090.jpg",
     "author": "This image was created by user amadej trnkoczy (amadej) at Mushroom Observer, a source for mycological images.You can contact this user here.",
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
    },
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/b5/2010-09-19_Lactarius_fulvissimus_Romagn_107086.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/2010-09-19_Lactarius_fulvissimus_Romagn_107086.jpg/500px-2010-09-19_Lactarius_fulvissimus_Romagn_107086.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:2010-09-19_Lactarius_fulvissimus_Romagn_107086.jpg",
     "author": "This image was created by user amadej trnkoczy (amadej) at Mushroom Observer, a source for mycological images.You can contact this user here.",
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
    },
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/78/2010-09-19_Lactarius_fulvissimus_Romagn_107095.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/2010-09-19_Lactarius_fulvissimus_Romagn_107095.jpg/500px-2010-09-19_Lactarius_fulvissimus_Romagn_107095.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:2010-09-19_Lactarius_fulvissimus_Romagn_107095.jpg",
     "author": "This image was created by user amadej trnkoczy (amadej) at Mushroom Observer, a source for mycological images.You can contact this user here.",
     "license": "CC BY-SA 3.0",
@@ -7626,7 +7552,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Lactarius&espece=subdulcis",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Lact.sub.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Lact.sub.jpg/500px-Lact.sub.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Lact.sub.jpg",
     "author": "Zonda Grattus, aka Luridiformis at en.wikipedia (the sole owner and copyright holder of this image)",
     "license": "CC BY 3.0",
@@ -7658,7 +7584,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Lactarius&espece=tabidus",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/76/Lactarius_hepaticus_031123w.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Lactarius_hepaticus_031123w.jpg/500px-Lactarius_hepaticus_031123w.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Lactarius_hepaticus_031123w.jpg",
     "author": "auteur inconnu",
     "license": "CC BY-SA 3.0",
@@ -7689,7 +7615,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Lactarius&espece=lacunarum",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Lactarius_spec._-_Lindsey_9a.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Lactarius_spec._-_Lindsey_9a.jpg/500px-Lactarius_spec._-_Lindsey_9a.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Lactarius_spec._-_Lindsey_9a.jpg",
     "author": "James Lindsey",
     "license": "CC BY-SA 3.0",
@@ -7782,7 +7708,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Lactarius&espece=trivialis",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/80/Lactarius_trivialis_02.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Lactarius_trivialis_02.jpg/500px-Lactarius_trivialis_02.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Lactarius_trivialis_02.jpg",
     "author": "Игорь Лебединский",
     "license": "CC BY 3.0",
@@ -8153,7 +8079,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Russula&espece=heterophylla",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/89/Russula.heterophylla.-.lindsey.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Russula.heterophylla.-.lindsey.jpg/500px-Russula.heterophylla.-.lindsey.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Russula.heterophylla.-.lindsey.jpg",
     "author": "James K. Lindsey",
     "license": "CC BY-SA 3.0",
@@ -8177,7 +8103,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Russula&espece=aeruginea",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/75/Russula.aeruginea.-.lindsey.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Russula.aeruginea.-.lindsey.jpg/500px-Russula.aeruginea.-.lindsey.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Russula.aeruginea.-.lindsey.jpg",
     "author": "James Lindsey",
     "license": "CC BY-SA 3.0",
@@ -8467,14 +8393,14 @@
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
    },
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/8f/2010-08-21_Russula_fragilis_1.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/2010-08-21_Russula_fragilis_1.jpg/500px-2010-08-21_Russula_fragilis_1.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:2010-08-21_Russula_fragilis_1.jpg",
     "author": "This image was created by user {{{2}}} at Mushroom Observer, a source for mycological images.You can contact this user here.",
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
    },
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/32/2010-08-21_Russula_fragilis_2.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/2010-08-21_Russula_fragilis_2.jpg/500px-2010-08-21_Russula_fragilis_2.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:2010-08-21_Russula_fragilis_2.jpg",
     "author": "This image was created by user {{{2}}} at Mushroom Observer, a source for mycological images.You can contact this user here.",
     "license": "CC BY-SA 3.0",
@@ -8678,7 +8604,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Russula&espece=nitida",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Russula_spec._-_Lindsey_10a.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Russula_spec._-_Lindsey_10a.jpg/500px-Russula_spec._-_Lindsey_10a.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Russula_spec._-_Lindsey_10a.jpg",
     "author": "James Lindsey",
     "license": "CC BY-SA 3.0",
@@ -8710,7 +8636,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Russula&espece=olivacea",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/53/Russula.olivacea.-.lindsey.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Russula.olivacea.-.lindsey.jpg/500px-Russula.olivacea.-.lindsey.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Russula.olivacea.-.lindsey.jpg",
     "author": "James Lindsey",
     "license": "CC BY-SA 3.0",
@@ -8735,7 +8661,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Russula&espece=xerampelina",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Russ.xeram.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Russ.xeram.jpg/500px-Russ.xeram.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Russ.xeram.jpg",
     "author": "Luridiformis at English Wikipedia",
     "license": "CC BY 3.0",
@@ -8829,7 +8755,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Russula&espece=versicolor",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Russula.versicolor2.-.lindsey.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Russula.versicolor2.-.lindsey.jpg/500px-Russula.versicolor2.-.lindsey.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Russula.versicolor2.-.lindsey.jpg",
     "author": "James K. Lindsey",
     "license": "CC BY-SA 3.0",
@@ -8891,7 +8817,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Russula&espece=risigallina",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/38/2012-06-15_Russula_risigallina_%28Batsch%29_Saccardo_228083.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/2012-06-15_Russula_risigallina_%28Batsch%29_Saccardo_228083.jpg/500px-2012-06-15_Russula_risigallina_%28Batsch%29_Saccardo_228083.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:2012-06-15_Russula_risigallina_(Batsch)_Saccardo_228083.jpg",
     "author": "This image was created by user Gerhard Koller (Gerhard) at Mushroom Observer, a source for mycological images.You can contact this user here.",
     "license": "CC BY-SA 3.0",
@@ -8945,12 +8871,34 @@
   ]
  },
  "russula-amara": {
-  "wikidata": "http://www.wikidata.org/entity/Q81195327",
-  "inpn": "https://inpn.mnhn.fr/espece/cd_nom/39560",
-  "mycobank": "https://www.mycobank.org/page/Name%20details%20page/256588",
-  "gbif": "https://www.gbif.org/species/2551350",
+  "wikidata": "http://www.wikidata.org/entity/Q999441",
+  "mycobank": "https://www.mycobank.org/page/Name%20details%20page/193054",
+  "inaturalist": "https://www.inaturalist.org/taxa/451030",
+  "gbif": "https://www.gbif.org/species/2551349",
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Russula&espece=amara",
-  "photos": []
+  "photos": [
+   {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Russ.caer.jpg/960px-Russ.caer.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Russ.caer.jpg",
+    "author": "User:Luridiformis",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+   },
+   {
+    "thumb": "https://inaturalist-open-data.s3.amazonaws.com/photos/159040169/medium.jpg",
+    "page": "https://www.inaturalist.org/photos/159040169",
+    "author": "Federico Calledda",
+    "license": "CC BY-NC",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/"
+   },
+   {
+    "thumb": "https://inaturalist-open-data.s3.amazonaws.com/photos/5515985/medium.jpg",
+    "page": "https://www.inaturalist.org/photos/5515985",
+    "author": "Antoon De Vylder",
+    "license": "CC BY-NC",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/"
+   }
+  ]
  },
  "russula-turci": {
   "wikidata": "http://www.wikidata.org/entity/Q1691292",
@@ -9252,7 +9200,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Amanita&espece=citrina",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Amanita_citrina._Var._alba_-_Flickr_-_gailhampshire.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Amanita_citrina._Var._alba_-_Flickr_-_gailhampshire.jpg/500px-Amanita_citrina._Var._alba_-_Flickr_-_gailhampshire.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Amanita_citrina._Var._alba_-_Flickr_-_gailhampshire.jpg",
     "author": "gailhampshire from Cradley, Malvern, U.K",
     "license": "CC BY 2.0",
@@ -9389,7 +9337,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Amanita&espece=strobiliformis",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Amanita_solitaria1.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Amanita_solitaria1.jpg/500px-Amanita_solitaria1.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Amanita_solitaria1.jpg",
     "author": "J.F. Gaffard,",
     "license": "CC BY-SA 3.0",
@@ -9476,7 +9424,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Hygrocybe&espece=chlorophana",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/20/Hygrocybe_chlorophana.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Hygrocybe_chlorophana.jpg/500px-Hygrocybe_chlorophana.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Hygrocybe_chlorophana.jpg",
     "author": "Jymm",
     "license": "Public domain"
@@ -10008,7 +9956,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Macrolepiota&espece=excoriata",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Ackerschirmpilz-1.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Ackerschirmpilz-1.jpg/500px-Ackerschirmpilz-1.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Ackerschirmpilz-1.jpg",
     "author": "Albin Schmalfuß",
     "license": "Public domain"
@@ -10102,7 +10050,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Lepiota&espece=cristata",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/fe/2011-12-01_Lepiota_cristata_%28Bolton%29_P._Kumm_186612.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/2011-12-01_Lepiota_cristata_%28Bolton%29_P._Kumm_186612.jpg/500px-2011-12-01_Lepiota_cristata_%28Bolton%29_P._Kumm_186612.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:2011-12-01_Lepiota_cristata_(Bolton)_P._Kumm_186612.jpg",
     "author": "This image was created by user Copyright ©2011 the tnihekr at Mushroom Observer, a source for mycological images.You can contact this user here.",
     "license": "CC BY-SA 3.0",
@@ -10230,7 +10178,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Agaricus&espece=silvicola",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Agaricus_silvicola_father_and_son.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Agaricus_silvicola_father_and_son.jpg/500px-Agaricus_silvicola_father_and_son.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Agaricus_silvicola_father_and_son.jpg",
     "author": "Luridiformis at English Wikipedia",
     "license": "CC BY 3.0",
@@ -10262,7 +10210,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Agaricus&espece=arvensis",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/0a/A._arvensis_showing_cogwheel.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/A._arvensis_showing_cogwheel.jpg/500px-A._arvensis_showing_cogwheel.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:A._arvensis_showing_cogwheel.jpg",
     "author": "Luridiformis at English Wikipedia",
     "license": "CC BY 3.0",
@@ -10453,7 +10401,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Agaricus&espece=bisporus",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/01/ChampignonMushroom.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/ChampignonMushroom.jpg/500px-ChampignonMushroom.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:ChampignonMushroom.jpg",
     "author": "chris_73",
     "license": "CC BY-SA 3.0",
@@ -10570,7 +10518,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Cortinarius&espece=elatior",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a4/2009-09-15_Cortinarius_elatior_Fr_57078_crop.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/2009-09-15_Cortinarius_elatior_Fr_57078_crop.jpg/500px-2009-09-15_Cortinarius_elatior_Fr_57078_crop.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:2009-09-15_Cortinarius_elatior_Fr_57078_crop.jpg",
     "author": "This image was created by user clancy at Mushroom Observer, a source for mycological images.You can contact this user here.",
     "license": "CC BY-SA 3.0",
@@ -10582,12 +10530,6 @@
     "author": "This image was created by user clancy at Mushroom Observer, a source for mycological images.You can contact this user here.",
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
-   },
-   {
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Atlas_des_champignons_comestibles_et_v%C3%A9n%C3%A9neux_%28Planche_37%29_%286358021729%29.jpg/960px-Atlas_des_champignons_comestibles_et_v%C3%A9n%C3%A9neux_%28Planche_37%29_%286358021729%29.jpg",
-    "page": "https://commons.wikimedia.org/wiki/File:Atlas_des_champignons_comestibles_et_v%C3%A9n%C3%A9neux_(Planche_37)_(6358021729).jpg",
-    "author": "Dufour, L.",
-    "license": "Public domain"
    }
   ]
  },
@@ -10631,7 +10573,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Cortinarius&espece=delibutus",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/db/Cortinarius_delibutus_-_Lindsey.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Cortinarius_delibutus_-_Lindsey.jpg/500px-Cortinarius_delibutus_-_Lindsey.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Cortinarius_delibutus_-_Lindsey.jpg",
     "author": "James Lindsey",
     "license": "CC BY-SA 3.0",
@@ -10725,7 +10667,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Cortinarius&espece=caerulescens",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/92/Cortinarius.caerulescens.-.lindsey.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Cortinarius.caerulescens.-.lindsey.jpg/500px-Cortinarius.caerulescens.-.lindsey.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Cortinarius.caerulescens.-.lindsey.jpg",
     "author": "James Lindsey",
     "license": "CC BY-SA 3.0",
@@ -10973,7 +10915,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Cortinarius&espece=venetus",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/ee/2011-02-10_Cortinarius_venetus_var._montanus_M.M._Moser_1970_134345.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/2011-02-10_Cortinarius_venetus_var._montanus_M.M._Moser_1970_134345.jpg/500px-2011-02-10_Cortinarius_venetus_var._montanus_M.M._Moser_1970_134345.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:2011-02-10_Cortinarius_venetus_var._montanus_M.M._Moser_1970_134345.jpg",
     "author": "This image was created by user amadej trnkoczy (amadej) at Mushroom Observer, a source for mycological images.You can contact this user here.",
     "license": "CC BY-SA 3.0",
@@ -10997,7 +10939,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Cortinarius&espece=bolaris",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/49/Cortinarius_bolaris_crop.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Cortinarius_bolaris_crop.jpg/500px-Cortinarius_bolaris_crop.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Cortinarius_bolaris_crop.jpg",
     "author": "Dragonòt *derivative work: Andreas Kunze",
     "license": "CC BY 3.0",
@@ -11060,7 +11002,7 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
    },
    {
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Cortinarius_palaceus.jpg/960px-Cortinarius_palaceus.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Cortinarius_paleaceus_%282%29.jpg/960px-Cortinarius_paleaceus_%282%29.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Cortinarius_palaceus.jpg",
     "author": "Claude PAGE",
     "license": "CC BY-SA 4.0",
@@ -11138,7 +11080,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Cortinarius&espece=cinnamomeus",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/35/Cortinarius_cinnamomeus_-_Lindsey.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Cortinarius_cinnamomeus_-_Lindsey.jpg/500px-Cortinarius_cinnamomeus_-_Lindsey.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Cortinarius_cinnamomeus_-_Lindsey.jpg",
     "author": "James K. Lindsey",
     "license": "CC BY-SA 3.0",
@@ -11262,7 +11204,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Cortinarius&espece=torvus",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/49/Cortinarius.torvus2.-.lindsey.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Cortinarius.torvus2.-.lindsey.jpg/500px-Cortinarius.torvus2.-.lindsey.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Cortinarius.torvus2.-.lindsey.jpg",
     "author": "James Lindsey",
     "license": "CC BY-SA 3.0",
@@ -11293,7 +11235,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Cortinarius&espece=armillatus",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/00/Cortinarius.armillatus2.-.lindsey.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Cortinarius.armillatus2.-.lindsey.jpg/500px-Cortinarius.armillatus2.-.lindsey.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Cortinarius.armillatus2.-.lindsey.jpg",
     "author": "James Lindsey",
     "license": "CC BY-SA 3.0",
@@ -11324,7 +11266,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Cortinarius&espece=hinnuleus",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Cortinarius.hinnuleus3.-.lindsey.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Cortinarius.hinnuleus3.-.lindsey.jpg/500px-Cortinarius.hinnuleus3.-.lindsey.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Cortinarius.hinnuleus3.-.lindsey.jpg",
     "author": "James Lindsey",
     "license": "CC BY-SA 3.0",
@@ -11379,7 +11321,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Cortinarius&espece=anomalus",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/47/Cortinarius_anomalus_-_Lindsey.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Cortinarius_anomalus_-_Lindsey.jpg/500px-Cortinarius_anomalus_-_Lindsey.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Cortinarius_anomalus_-_Lindsey.jpg",
     "author": "James Lindsey",
     "license": "CC BY-SA 3.0",
@@ -11449,7 +11391,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Cortinarius&espece=decipiens",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Cortinarius.decipiens.-.lindsey.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Cortinarius.decipiens.-.lindsey.jpg/250px-Cortinarius.decipiens.-.lindsey.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Cortinarius.decipiens.-.lindsey.jpg",
     "author": "James Lindsey",
     "license": "CC BY-SA 3.0",
@@ -11801,14 +11743,14 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
    },
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Lepista.panaeolus3.-.lindsey.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Lepista.panaeolus3.-.lindsey.jpg/500px-Lepista.panaeolus3.-.lindsey.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Lepista.panaeolus3.-.lindsey.jpg",
     "author": "James K. Lindsey",
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
    },
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Lepista.panaeolus4.-.lindsey.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Lepista.panaeolus4.-.lindsey.jpg/500px-Lepista.panaeolus4.-.lindsey.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Lepista.panaeolus4.-.lindsey.jpg",
     "author": "James K. Lindsey",
     "license": "CC BY-SA 3.0",
@@ -11825,7 +11767,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Melanoleuca&espece=melaleuca",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Melanoleuca_spec._-_Lindsey_1a.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Melanoleuca_spec._-_Lindsey_1a.jpg/500px-Melanoleuca_spec._-_Lindsey_1a.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Melanoleuca_spec._-_Lindsey_1a.jpg",
     "author": "James Lindsey",
     "license": "CC BY-SA 3.0",
@@ -11888,7 +11830,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Tricholoma&espece=ustale",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Tricholoma.ustale.-.lindsey.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Tricholoma.ustale.-.lindsey.jpg/500px-Tricholoma.ustale.-.lindsey.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Tricholoma.ustale.-.lindsey.jpg",
     "author": "James Lindsey",
     "license": "CC BY-SA 3.0",
@@ -11951,7 +11893,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Tricholoma&espece=sulfureum",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/15/Tricholoma_sulphureum_031123w.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Tricholoma_sulphureum_031123w.jpg/500px-Tricholoma_sulphureum_031123w.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Tricholoma_sulphureum_031123w.jpg",
     "author": "Strobilomyces",
     "license": "CC BY-SA 3.0",
@@ -11982,7 +11924,7 @@
   "mycodb": "https://www.mycodb.fr/fiche.php?genre=Tricholoma&espece=auratum",
   "photos": [
    {
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Tricholoma_auratum.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Tricholoma_auratum.jpg/500px-Tricholoma_auratum.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Tricholoma_auratum.jpg",
     "author": "Jymm",
     "license": "Public domain"

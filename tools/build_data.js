@@ -30,6 +30,7 @@ for (const file of readdirSync(FRAG).filter(f => f.endsWith('.json') && f !== 'g
     }
     if (sp.note && !old.note?.includes(sp.note)) old.note = old.note ? `${old.note} ${sp.note}` : sp.note
     old.fr ||= sp.fr
+    old.current ||= sp.current
     old.confusions = union(old.confusions, sp.confusions)
     old.images = union(old.images, sp.images)
     old.pages = union(old.pages, sp.pages).sort((a, b) => a - b)

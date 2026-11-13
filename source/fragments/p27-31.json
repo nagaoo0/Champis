@@ -1039,6 +1039,7 @@
   },
   "lactarius-necator": {
    "latin": "Lactarius necator",
+   "current": "Lactarius turpis",
    "fr": "lactaire plombé",
    "group": "Lactaires",
    "edibility": "inconnu",
@@ -1586,6 +1587,7 @@
   },
   "russula-fageticola": {
    "latin": "Russula fageticola",
+   "current": "Russula nobilis",
    "fr": "russule émétique des hêtres",
    "group": "Russules",
    "edibility": "toxique",
@@ -1754,6 +1756,7 @@
   },
   "russula-amara": {
    "latin": "Russula amara",
+   "current": "Russula caerulea",
    "fr": "russule amère",
    "group": "Russules",
    "edibility": "inconnu",

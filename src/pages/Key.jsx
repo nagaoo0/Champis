@@ -1,10 +1,10 @@
 import { useState } from 'react'
-import { Link, useLocation, useNavigate, useParams } from 'react-router-dom'
+import { Link, useLocation, useNavigate, useParams, useSearchParams } from 'react-router-dom'
 import tree from '../data/key.json'
 import species from '../data/species.json'
 import { useExternal } from '../lib/external'
 import Photo from '../components/Photo'
-import { reachableSpecies, stepsLeft } from '../lib/key'
+import { parseTrail, reachableSpecies, stepsLeft, trailQuery } from '../lib/key'
 import Img from '../components/Img'
 import SpeciesCard from '../components/SpeciesCard'
 import { Marked, TermsPanel } from '../components/Terms'
@@ -20,7 +20,9 @@ export default function Key() {
 
 // long branches show a few species, deadly ones first so they are never hidden
 const SAMPLE = 6
-const sample = (ids) => [...ids.filter((id) => species[id]?.edibility === 'mortel'), ...ids.filter((id) => species[id]?.edibility !== 'mortel')].slice(0, SAMPLE)
+const isDeadly = (id) => species[id]?.edibility === 'mortel'
+const deadlyFirst = (ids) => [...ids.filter(isDeadly), ...ids.filter((id) => !isDeadly(id))]
+const sample = (ids) => deadlyFirst(ids).slice(0, SAMPLE)
 
 function KeyNode({ nodeId }) {
   const [showAll, setShowAll] = useState(false)
@@ -30,26 +32,33 @@ function KeyNode({ nodeId }) {
   const location = useLocation()
   const node = tree.nodes[nodeId]
   useTitle(node?.title)
-  const trail = location.state?.trail ?? []
+  const [params] = useSearchParams()
+  const trail = parseTrail(params.get('chemin'), nodeId)
 
   if (!node) return <NotFound />
 
   const possible = [...reachableSpecies(nodeId)]
-  const isDeadly = (id) => species[id]?.edibility === 'mortel'
   const deadly = possible.filter(isDeadly).length
-  // deadly species first so they are never cut off
-  const withPhoto = possible.filter((id) => external[id]?.photos?.length)
-  const examples = [...withPhoto.filter(isDeadly), ...withPhoto.filter((id) => !isDeadly(id))].slice(0, 4)
+  const withPhoto = (ids) => ids.filter((id) => external[id]?.photos?.length)
+  const examples = deadlyFirst(withPhoto(possible)).slice(0, 4)
   const steps = stepsLeft(nodeId)
   const terms = termsOfNode(node)
   // a term is underlined only where it first appears: question, intro, then each label and hint
   const texts = [node.question, node.intro, ...node.choices.flatMap((c) => [c.label, c.hint])]
   const seenBefore = (i) => new Set(termsIn(texts.slice(0, i)))
 
-  function go(choice) {
-    const state = { trail: [...trail, { node: nodeId, label: choice.label }] }
-    navigate(choice.next ? `/cle/${choice.next}` : `/espece/${choice.species}`, { state })
+  function go(choice, i) {
+    navigate(choice.next ? `/cle/${choice.next}${trailQuery([...trail, { node: nodeId, index: i }])}` : `/espece/${choice.species}`)
   }
+
+  // photos shown on a choice: its species, or a few examples behind it
+  const isStart = nodeId === tree.start
+  const pics = node.choices.map((c) => {
+    if (isStart) return { ids: [] }
+    const ids = withPhoto(c.species ? [c.species] : [...reachableSpecies(c.next)])
+    return c.species ? { ids } : { ids: deadlyFirst(ids).slice(0, 3), more: ids.length - 3 }
+  })
+  const anyPics = pics.some((p) => p.ids.length)
 
   return (
     <section>
@@ -66,13 +75,13 @@ function KeyNode({ nodeId }) {
             <li><Link to={`/cle/${tree.start}`}>Départ</Link></li>
             {trail.map((step, i) => {
               const last = i === trail.length - 1
-              const target = last ? nodeId : trail[i + 1].node
+              const label = tree.nodes[step.node].choices[step.index].label
               return (
                 <li key={i}>
                   {last ? (
-                    <span aria-current="step">{step.label}</span>
+                    <span aria-current="step">{label}</span>
                   ) : (
-                    <Link to={`/cle/${target}`} state={{ trail: trail.slice(0, i + 1) }}>{step.label}</Link>
+                    <Link to={`/cle/${trail[i + 1].node}${trailQuery(trail.slice(0, i + 1))}`}>{label}</Link>
                   )}
                 </li>
               )
@@ -100,11 +109,16 @@ function KeyNode({ nodeId }) {
 
       <div className="choices">
         {node.choices.map((choice, i) => {
-          const photo = nodeId !== tree.start && choice.species && external[choice.species]?.photos?.[0]
+          const { ids, more } = pics[i]
           return (
-            <button key={i} type="button" className="choice" onClick={() => go(choice)}>
-              {choice.img && nodeId === tree.start && <Img name={choice.img} />}
-              {photo && <Photo src={photo.thumb} className="choice-photo" />}
+            <button key={i} type="button" className="choice" onClick={() => go(choice, i)}>
+              {choice.img && isStart && <Img name={choice.img} />}
+              {anyPics && (
+                <span className={choice.next && ids.length ? 'choice-pic strip' : 'choice-pic'} aria-hidden="true">
+                  {ids.map((id) => <Photo key={id} src={external[id].photos[0].thumb} className={choice.species ? 'choice-photo' : isDeadly(id) ? 'deadly' : undefined} />)}
+                  {more > 0 && <small>+{more}</small>}
+                </span>
+              )}
               <span className="choice-text">
                 <strong><Marked text={choice.label} seen={seenBefore(2 + 2 * i)} onTerm={setOpenTerm} /></strong>
                 {choice.hint && <span className="hint"><Marked text={choice.hint} seen={seenBefore(3 + 2 * i)} onTerm={setOpenTerm} /></span>}
@@ -152,7 +166,7 @@ function KeyNode({ nodeId }) {
             const ids = choice.species ? [choice.species] : [...reachableSpecies(choice.next)]
             return (
               <div key={i} className="unsure-branch">
-                <button type="button" className="branch-title" onClick={() => go(choice)}>
+                <button type="button" className="branch-title" onClick={() => go(choice, i)}>
                   {choice.label}
                 </button>
                 <p className="hint">{ids.length} espèce{ids.length > 1 ? 's' : ''}</p>

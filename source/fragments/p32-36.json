@@ -898,6 +898,7 @@
   },
   "cuphophyllus-niveus": {
    "latin": "Cuphophyllus niveus",
+   "current": "Cuphophyllus virgineus",
    "fr": "Hygrophore blanc de neige",
    "group": "Hygrophores",
    "edibility": "comestible",
@@ -1146,6 +1147,7 @@
   },
   "lepiota-josserandii": {
    "latin": "Lepiota josserandii",
+   "current": "Lepiota subincarnata",
    "fr": "Lépiote de Josserand",
    "group": "Lépiotes",
    "edibility": "mortel",

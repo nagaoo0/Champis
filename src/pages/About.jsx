@@ -51,11 +51,25 @@ export default function About() {
         l'espèce ou la page du livret concernée. Les corrections de mycologues sont les bienvenues.
       </p>
 
+      <h2>Vérifier les données</h2>
+      <p>
+        Deux pages servent à relire le travail : <Link to="/comestibilite">la liste des comestibilités</Link>,
+        espèce par espèce avec ses pages du livret, et <Link to="/doutes">les doutes de transcription</Link>,
+        page par page.
+      </p>
+
       {extra.bibliography?.length > 0 && (
         <>
           <h2>Bibliographie du livret</h2>
           <ul>
-            {extra.bibliography.map((ref) => <li key={ref}>{ref}</li>)}
+            <h2>Vérifier les données</h2>
+      <p>
+        Deux pages servent à relire le travail : <Link to="/comestibilite">la liste des comestibilités</Link>,
+        espèce par espèce avec ses pages du livret, et <Link to="/doutes">les doutes de transcription</Link>,
+        page par page.
+      </p>
+
+      {extra.bibliography.map((ref) => <li key={ref}>{ref}</li>)}
           </ul>
         </>
       )}

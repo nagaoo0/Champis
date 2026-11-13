@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { useSearchParams } from 'react-router-dom'
+import { Link, useSearchParams } from 'react-router-dom'
 import species from '../data/species.json'
 import { normalize } from '../lib/text'
 import { useTitle } from '../lib/title'
@@ -60,9 +60,14 @@ export default function Catalog() {
             <EdibilityBadge edibility={e} />
           </button>
         ))}
+        {selected.length > 0 && (
+          <button type="button" className="link-button" onClick={() => setSelected([])}>Tout afficher</button>
+        )}
       </div>
 
       <p className="counter" aria-live="polite">{results.length} espèce{results.length > 1 ? 's' : ''}</p>
+
+      <p className="hint"><Link to="/comestibilite">Vérifier les comestibilités du catalogue</Link></p>
 
       {results.length === 0 ? (
         <p>Aucune espèce ne correspond à cette recherche.</p>

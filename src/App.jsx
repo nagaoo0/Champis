@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { Link, Navigate, Route, Routes, useLocation } from 'react-router-dom'
 import tree from './data/key.json'
 import Home from './pages/Home'
@@ -10,6 +10,8 @@ import Booklet from './pages/Booklet'
 import About from './pages/About'
 import Guide from './pages/Guide'
 import Vocabulary from './pages/Vocabulary'
+import Edibility from './pages/Edibility'
+import Doubts from './pages/Doubts'
 import NotFound from './pages/NotFound'
 
 const NAV = [
@@ -23,6 +25,21 @@ const NAV = [
 
 export default function App() {
   const { pathname, hash } = useLocation()
+  const [menuOpen, setMenuOpen] = useState(false)
+  const menuButton = useRef(null)
+
+  // phone menu closes on navigation and on Escape (focus goes back to the button)
+  useEffect(() => setMenuOpen(false), [pathname])
+  useEffect(() => {
+    if (!menuOpen) return
+    const onKey = (e) => {
+      if (e.key !== 'Escape') return
+      setMenuOpen(false)
+      menuButton.current.focus()
+    }
+    document.addEventListener('keydown', onKey)
+    return () => document.removeEventListener('keydown', onKey)
+  }, [menuOpen])
 
   // new page: go to the top, or to the #anchor if there is one
   useEffect(() => {
@@ -36,9 +53,24 @@ export default function App() {
       <header className="site-header">
         <div className="page header-row">
           <Link to="/" className="brand">Champi</Link>
-          <nav aria-label="Navigation principale">
+          <button
+            ref={menuButton}
+            type="button"
+            className="menu-button"
+            aria-expanded={menuOpen}
+            aria-controls="main-nav"
+            onClick={() => setMenuOpen(!menuOpen)}
+          >
+            Menu
+          </button>
+          <nav id="main-nav" className={menuOpen ? 'open' : undefined} aria-label="Navigation principale">
             {NAV.map((item) => (
-              <Link key={item.to} to={item.to} aria-current={pathname.startsWith(item.prefix) ? 'page' : undefined}>
+              <Link
+                key={item.to}
+                to={item.to}
+                aria-current={pathname.startsWith(item.prefix) ? 'page' : undefined}
+                onClick={() => setMenuOpen(false)}
+              >
                 {item.label}
               </Link>
             ))}
@@ -59,6 +91,8 @@ export default function App() {
           <Route path="/vocabulaire" element={<Vocabulary />} />
           <Route path="/guide" element={<Guide />} />
           <Route path="/a-propos" element={<About />} />
+          <Route path="/comestibilite" element={<Edibility />} />
+          <Route path="/doutes" element={<Doubts />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>

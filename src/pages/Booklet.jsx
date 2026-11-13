@@ -33,7 +33,9 @@ function BookletPage({ n }) {
   const onPage = Object.entries(species).filter(([, sp]) => sp.pages?.includes(n))
 
   useEffect(() => {
-    textOf[n]().then((md) => setHtml(marked.parse(md)))
+    textOf[n]()
+      .then((md) => setHtml(marked.parse(md)))
+      .catch(() => setHtml('<p>Texte indisponible hors connexion.</p>'))
   }, [n])
 
   return (

@@ -1,0 +1,10 @@
+{
+  "name": "Champi",
+  "short_name": "Champi",
+  "description": "Aide à l'identification des champignons, pas à pas.",
+  "lang": "fr",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#3f7d2c",
+  "background_color": "#fff6e3"
+}

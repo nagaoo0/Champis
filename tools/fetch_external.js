@@ -4,7 +4,7 @@ import { readFileSync, writeFileSync } from 'node:fs'
 
 const HEADERS = { 'User-Agent': 'champi-build/0.1 (https://github.com/nagaoo0/Champis)' }
 const LICENSE_OK = /^(CC BY( |$)|CC BY-SA|CC0|Public domain|PD)/i
-const FILE_SKIP = /map|range|distribution|drawing|illustration|diagram|spore|plate|tafel/i
+const FILE_SKIP = /map|range|distribution|drawing|illustration|diagram|spore|plate|tafel|figures|coloured|herbarium/i
 const FIELDS = ['item', 'img', 'cat', 'taxref', 'mycobank', 'inat', 'gbif', 'fr']
 const MAX_PHOTOS = 3
 
@@ -20,7 +20,7 @@ async function getJson(url, options) {
   throw new Error('request failed: ' + url.slice(0, 120))
 }
 
-// booklet name -> name used on wikidata, a spelling or the current name (checked by hand, 2026-11)
+// booklet name -> name used on wikidata, spelling or wikidata quirks only (current names are `current` in the fragments)
 const NAME_FIX = {
   'Laetiporus sulfureus': 'Laetiporus sulphureus',
   'Leccinum crocopodium': 'Leccinum crocipodium',
@@ -34,24 +34,10 @@ const NAME_FIX = {
   'Lepista panaeola': 'Lepista panaeolus',
   'Tricholoma sulfureum': 'Tricholoma sulphureum',
   'Tricholoma terreum': 'Tricholoma terraria', // wikidata item Q27266 carries this taxon name
-  'Polyporus durus': 'Picipes badius', // the synonym search lands on a tropical Nigroporus
-  'Rozites caperatus': 'Cortinarius caperatus',
-  'Coprinus micaceus': 'Coprinellus micaceus',
-  'Coprinus plicatilis': 'Parasola plicatilis',
-  'Collybia peronata': 'Gymnopus peronatus',
-  'Lactarius necator': 'Lactarius turpis',
-  'Gymnopilus spectabilis': 'Gymnopilus junonius',
-  'Geastrum sessile': 'Geastrum fimbriatum',
-  'Inocybe patouillardii': 'Inocybe erubescens',
-  'Inocybe jurana': 'Inocybe adaequata',
-  'Cuphophyllus niveus': 'Cuphophyllus virgineus',
-  'Clavulina cristata': 'Clavulina coralloides',
-  'Russula fageticola': 'Russula nobilis',
-  'Lepiota josserandii': 'Lepiota subincarnata',
 }
 
 // ids ending in -spp look up the genus
-const lookupName = (sp) => NAME_FIX[sp.latin] ?? sp.latin.replace(/ spp\.$/, '')
+const lookupName = (sp) => sp.current ?? NAME_FIX[sp.latin] ?? sp.latin.replace(/ spp\.$/, '')
 
 // name -> candidate items (one merged object per wikidata item)
 // viaSynonym: the booklet name may be an outdated synonym, so look for items that list it with
@@ -98,6 +84,17 @@ async function sparqlAll(names, viaSynonym) {
 
 const stripTags = (html) => html?.replace(/<[^>]*>/g, '').replace(/&amp;/g, '&').replace(/\s+/g, ' ').trim()
 
+// the api returns the original, not a thumbnail, when the file is narrower than the requested width,
+// and wikimedia often answers 429 for originals. so use the biggest standard step below the original width
+const THUMB_STEPS = [960, 500, 330, 250]
+function thumbUrl(info) {
+  if (info.width > THUMB_STEPS[0]) return info.thumburl.split('?')[0]
+  const step = THUMB_STEPS.find((s) => s < info.width)
+  if (!step) return info.url.split('?')[0] // too small for any step
+  const [path, name] = info.url.split('?')[0].split('/commons/')[1].split(/\/(?=[^/]+$)/)
+  return `https://thumb.wikimedia.org/wikipedia/commons/thumb/${path}/${name}/${step}px-${name}`
+}
+
 // commons file pages (with imageinfo) -> photos, license and format filtered
 function toPhotos(pages) {
   return Object.values(pages ?? {})
@@ -108,7 +105,7 @@ function toPhotos(pages) {
       const meta = info.extmetadata ?? {}
       return {
         title: p.title.replace(/_/g, ' ').toLowerCase(),
-        thumb: info.thumburl?.split('?')[0],
+        thumb: thumbUrl(info),
         page: info.descriptionurl,
         author: stripTags(meta.Artist?.value) || 'auteur inconnu',
         license: meta.LicenseShortName?.value,
@@ -118,7 +115,7 @@ function toPhotos(pages) {
     .filter((p) => p.thumb && LICENSE_OK.test(p.license ?? ''))
 }
 
-const COMMONS = 'https://commons.wikimedia.org/w/api.php?action=query&format=json&origin=*&prop=imageinfo&iiprop=url|extmetadata&iiurlwidth=640'
+const COMMONS = 'https://commons.wikimedia.org/w/api.php?action=query&format=json&origin=*&prop=imageinfo&iiprop=url|size|extmetadata&iiurlwidth=960'
 
 async function commonsFiles(params) {
   const data = await getJson(`${COMMONS}&${params}`)

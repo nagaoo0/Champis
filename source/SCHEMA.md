@@ -82,6 +82,7 @@ Un renvoi vers une espèce d'une autre page se fait par son id d'espèce (`"spec
 
 - Id : nom latin en minuscules, espaces en tirets, sans « var. » (`amanita-phalloides-alba`). Groupes : `peziza-spp`.
 - `edibility` : `comestible` (☺), `toxique` (☠), `mortel` (☠ + « mortel »), `inconnu` (aucun marqueur). Ne jamais déduire « comestible » sans ☺.
+- `current` optionnel : nom accepté aujourd'hui quand le livret utilise un synonyme (`Rozites caperatus` : `Cortinarius caperatus`). Sert à chercher les photos et les liens, et s'affiche sur la fiche. Le nom du livret reste le nom principal. À poser sur une seule des entrées de l'espèce.
 - `note` : caractères clés et remarques du livret (« comestible cuit, toxique cru », « indigeste », « inconsommable ! »). Court.
 - `confusions` : ids des espèces citées dans « ne pas confondre avec », « attention à ».
 - `group` : nom français du groupe tel que le titre de page (Bolets, Amanites, Russules…).

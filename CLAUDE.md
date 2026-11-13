@@ -56,6 +56,8 @@ Booklet drawings are kept in the data but only displayed on the first key questi
 
 The breadcrumb lives in react-router `location.state.trail`. Images are `/img/<name>.webp`, rendered through `components/Img.jsx`, which hides itself on error. Styling is a single `src/styles.css` with color tokens on `:root` ("cahier d'école" look: dotted cream paper, brown ink, green header, chanterelle orange, chunky rounded buttons and cards, danger red).
 
+Offline: `public/sw.js` is a hand-written service worker, registered in `src/main.jsx` in production only. It precaches `/index.html` and the `/assets/*` files that page names, caches `/assets/*` cache first, `/img/*`, `/livret/*` and Google fonts stale-while-revalidate, and serves navigations network first with the cached `index.html` as fallback. Photos (cross-origin) and non-GET requests are never cached. Bump `CACHE` in `sw.js` only if these rules change: hashed assets take care of themselves.
+
 ## Conventions from the owner
 
 - Write code for humans: easy to read, modify and fix. Do not over-engineer, and add no dependencies, TypeScript or CSS framework without a reason.

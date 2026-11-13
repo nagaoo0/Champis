@@ -1503,6 +1503,7 @@
   },
   "collybia-peronata": {
    "latin": "Collybia peronata",
+   "current": "Gymnopus peronatus",
    "fr": "collybie guêtrée",
    "group": "Collybies et apparentés",
    "edibility": "inconnu",
@@ -2030,6 +2031,7 @@
   },
   "inocybe-jurana": {
    "latin": "Inocybe jurana",
+   "current": "Inocybe adaequata",
    "fr": "inocybe du Jura",
    "group": "Inocybes",
    "edibility": "toxique",
@@ -2099,6 +2101,7 @@
   },
   "inocybe-patouillardii": {
    "latin": "Inocybe patouillardii",
+   "current": "Inocybe erubescens",
    "group": "Inocybes",
    "edibility": "toxique",
    "note": "Espèce printanière, robuste, blanche puis rougissante.",
@@ -2198,6 +2201,7 @@
   },
   "coprinus-micaceus": {
    "latin": "Coprinus micaceus",
+   "current": "Coprinellus micaceus",
    "fr": "coprin micacé",
    "group": "Coprins",
    "edibility": "inconnu",
@@ -2208,6 +2212,7 @@
   },
   "coprinus-plicatilis": {
    "latin": "Coprinus plicatilis",
+   "current": "Parasola plicatilis",
    "fr": "coprin parasol",
    "group": "Coprins",
    "edibility": "inconnu",

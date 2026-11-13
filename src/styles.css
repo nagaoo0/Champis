@@ -140,6 +140,7 @@ img {
 
 .latin {
   font-family: var(--display);
+  font-style: italic;
   font-weight: 800;
 }
 
@@ -161,6 +162,7 @@ img {
 /* header and footer */
 
 .site-header {
+  position: relative;
   background: var(--moss);
   border-bottom: 5px solid var(--moss-dark);
   border-radius: 0 0 22px 22px;
@@ -220,26 +222,55 @@ img {
   background: #fff;
 }
 
-/* phone: brand and nav on one line, nav scrolls sideways */
+/* phone: the nav is a panel under the header, opened by the menu button */
+.menu-button {
+  display: none;
+  padding: 0.4rem 0.9rem;
+  font-family: var(--display);
+  font-size: 0.95rem;
+  font-weight: 800;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.18);
+  border: 0;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.menu-button[aria-expanded='true'] {
+  color: var(--moss-dark);
+  background: #fff;
+}
+
 @media (max-width: 600px) {
   .header-row {
     flex-wrap: nowrap;
-    gap: 1rem;
+  }
+
+  .menu-button {
+    display: block;
   }
 
   .site-header nav {
-    flex-wrap: nowrap;
-    min-width: 0;
-    overflow-x: auto;
-    white-space: nowrap;
-    scrollbar-width: none;
-    /* fade on the right hints that the menu scrolls */
-    mask-image: linear-gradient(to right, #000 80%, transparent);
-    padding-right: 2rem;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    flex-direction: column;
+    padding: 0.75rem 16px 1rem;
+    background: var(--moss);
+    border-bottom: 5px solid var(--moss-dark);
+    border-radius: 0 0 22px 22px;
   }
 
-  .site-header nav::-webkit-scrollbar {
-    display: none;
+  .site-header nav.open {
+    display: flex;
+  }
+
+  .site-header nav a {
+    padding: 0.7rem 1rem;
+    font-size: 1.05rem;
   }
 }
 
@@ -502,7 +533,19 @@ label select {
   border-radius: 14px;
 }
 
-.choice img.choice-photo {
+/* same image column on every choice of a question: empty box when there is no photo */
+.choice-pic {
+  flex: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 84px;
+  height: 84px;
+  background: var(--paper);
+  border-radius: 16px;
+}
+
+.choice .choice-pic img {
   width: 84px;
   height: 84px;
   object-fit: cover;
@@ -510,6 +553,39 @@ label select {
   border: 3px solid #fff;
   border-radius: 16px;
   box-shadow: 0 0 0 2px var(--edge-dark);
+}
+
+/* examples behind an answer: small overlapping thumbs, not the answer itself */
+.choice-pic.strip {
+  flex-wrap: wrap;
+  align-content: center;
+  background: var(--paper);
+  border: 2px dashed var(--edge-dark);
+}
+
+.choice .choice-pic.strip img {
+  width: 34px;
+  height: 34px;
+  max-height: none;
+  border-width: 2px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1.5px var(--edge-dark);
+}
+
+.choice .choice-pic.strip img + img {
+  margin-left: -12px;
+}
+
+.choice .choice-pic.strip img.deadly {
+  box-shadow: 0 0 0 2px var(--danger);
+}
+
+.choice-pic small {
+  flex-basis: 100%;
+  text-align: center;
+  font-size: 0.75rem;
+  font-weight: 800;
+  color: var(--bark);
 }
 
 .choice-text {
@@ -753,7 +829,8 @@ label select {
   margin: 0.75rem 0 1.5rem;
 }
 
-.photos figure {
+.photos figure,
+.species-hero {
   margin: 0;
   overflow: hidden;
   background: var(--card);
@@ -761,7 +838,8 @@ label select {
   border-radius: 22px;
 }
 
-.photos img {
+.photos img,
+.species-hero img {
   display: block;
   width: 100%;
   aspect-ratio: 4 / 3;
@@ -769,16 +847,23 @@ label select {
   background: var(--card);
 }
 
-.photos figcaption a {
+.photos figcaption a,
+.species-hero figcaption a {
   display: inline-block;
   padding: 0.5rem 0;
 }
 
-.photos figcaption {
+.photos figcaption,
+.species-hero figcaption {
   margin-top: 0;
   padding: 0 0.9rem;
   font-size: 0.85rem;
   color: var(--ink-soft);
+}
+
+.species-hero figcaption .hint {
+  display: block;
+  padding-bottom: 0.6rem;
 }
 
 .external-links a {
@@ -796,7 +881,36 @@ label select {
 }
 
 .species-note {
+  margin-top: 0;
   font-size: 1.15rem;
+}
+
+.species-hero {
+  margin-bottom: 1rem;
+}
+
+/* wide screens: photo on the right, names and note on the left */
+@media (min-width: 720px) {
+  .species-top.has-photo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'head photo' 'note photo';
+    grid-template-rows: auto 1fr;
+    gap: 0 2rem;
+  }
+
+  .species-top.has-photo .species-head {
+    grid-area: head;
+  }
+
+  .species-top.has-photo .species-hero {
+    grid-area: photo;
+    align-self: start;
+  }
+
+  .species-top.has-photo .species-note {
+    grid-area: note;
+  }
 }
 
 .confusions {
@@ -840,7 +954,7 @@ label select {
   margin-top: 1rem;
 }
 
-/* the badge inside is the visible chip */
+/* the badge inside is the visible chip: outlined when off, filled with a check when on */
 .chip {
   margin-bottom: 3px;
   padding: 0;
@@ -852,16 +966,33 @@ label select {
 .chip .badge {
   padding: 0.4rem 0.9rem;
   font-size: 0.9rem;
+  background: var(--card);
+  border-color: currentColor;
   box-shadow: 0 3px 0 var(--rule-soft);
 }
 
+.chip .badge-comestible { color: var(--moss-dark); }
+.chip .badge-toxique { color: #8a5200; }
+.chip .badge-mortel { color: var(--danger); }
+.chip .badge-inconnu { color: var(--grey); }
+
 .chip[aria-pressed='true'] .badge {
-  box-shadow: 0 0 0 3px var(--ink), 0 3px 0 3px var(--ink);
-  translate: 0 1px;
+  color: #fff;
+  box-shadow: 0 3px 0 var(--rule);
 }
+
+.chip[aria-pressed='true'] .badge-comestible { background: var(--moss-dark); border-color: var(--moss-dark); }
+.chip[aria-pressed='true'] .badge-toxique { background: #a86400; border-color: #a86400; }
+.chip[aria-pressed='true'] .badge-mortel { background: var(--danger); border-color: var(--danger); }
+.chip[aria-pressed='true'] .badge-inconnu { background: var(--grey); border-color: var(--grey); }
 
 .chip[aria-pressed='true'] .badge::before {
   content: '✓ ';
+}
+
+.chips .link-button {
+  margin-left: 0.5rem;
+  align-self: center;
 }
 
 /* glossary and guide */
@@ -1077,10 +1208,6 @@ label select {
   display: flex;
   gap: 0.8rem;
   align-items: flex-start;
-  padding: 0.8rem;
-  background: var(--card);
-  border: 3px solid var(--edge);
-  border-radius: 22px;
 }
 
 .step-num {
@@ -1195,6 +1322,7 @@ label select {
 .choice,
 .species-card,
 .chip,
+.menu-button,
 .site-header nav a {
   -webkit-tap-highlight-color: transparent;
 }
@@ -1332,6 +1460,14 @@ label select {
     scale: 0.95;
   }
 
+  @media (max-width: 600px) {
+    .site-header nav.open {
+      animation: pop var(--t-enter) var(--spring);
+      --pop: 0.97;
+      transform-origin: top right;
+    }
+  }
+
   .terms-panel summary::before {
     transition: rotate var(--t-fast) var(--ease-out);
   }
@@ -1377,5 +1513,57 @@ label select {
       animation-timeline: view();
       animation-range: entry 0% entry 35%;
     }
+  }
+}
+
+/* edibility review: dense list, prints as is */
+.edibility-review table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.edibility-review th,
+.edibility-review td {
+  padding: 0.3rem 0.5rem;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid var(--rule-soft);
+}
+
+.edibility-review tr {
+  break-inside: avoid;
+}
+
+.doubts-page h3 {
+  margin-bottom: 0.25rem;
+}
+
+/* phone: one block per species instead of four columns */
+@media (max-width: 600px) {
+  .edibility-review :is(table, tbody) {
+    display: block;
+  }
+
+  .edibility-review thead {
+    display: none;
+  }
+
+  .edibility-review tr {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0 0.75rem;
+    padding: 0.4rem 0;
+    border-bottom: 1px solid var(--rule-soft);
+  }
+
+  .edibility-review td {
+    padding: 0.1rem 0;
+    border: 0;
+  }
+
+  .edibility-review td:first-child {
+    width: 100%;
   }
 }

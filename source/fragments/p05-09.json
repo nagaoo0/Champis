@@ -881,6 +881,7 @@
   },
   "clavulina-cristata": {
    "latin": "Clavulina cristata",
+   "current": "Clavulina coralloides",
    "group": "Croûtes et clavaires",
    "edibility": "inconnu",
    "fr": "Clavaire crêtée",
@@ -1334,6 +1335,7 @@
   },
   "geastrum-sessile": {
    "latin": "Geastrum sessile",
+   "current": "Geastrum fimbriatum",
    "group": "Vesses-de-loup et apparentés",
    "edibility": "inconnu",
    "note": "Sans collerette sous la gléba, orifice non délimité.",
@@ -1450,6 +1452,7 @@
   },
   "polyporus-durus": {
    "latin": "Polyporus durus",
+   "current": "Picipes badius",
    "group": "Polypores",
    "edibility": "inconnu",
    "fr": "Polypore à pied noir",

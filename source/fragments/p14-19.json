@@ -897,6 +897,7 @@
   },
   "gymnopilus-spectabilis": {
    "latin": "Gymnopilus spectabilis",
+   "current": "Gymnopilus junonius",
    "fr": "Pholiote remarquable",
    "group": "Espèces annelées",
    "edibility": "inconnu",
@@ -1017,6 +1018,7 @@
   },
   "rozites-caperatus": {
    "latin": "Rozites caperatus",
+   "current": "Cortinarius caperatus",
    "fr": "Pholiote ridée",
    "group": "Espèces annelées",
    "edibility": "comestible",
